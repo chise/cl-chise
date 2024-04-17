@@ -1,3 +1,20 @@
+2024-04-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* cl-chise.lisp: New implementation; use cl-concord.
+	(sequence-list-p): Moved to cl-concord.
+	(open-ds): Abolished.
+	(metadata-feature-name-p): Moved to cl-concord.
+	(ccs-feature-name-p): Abolished [Moved to cl-concord and renamed
+	to `id-feature-name-p'].
+	(generate-object-id): Moved to cl-concord.
+	(char-spec): New function.
+	(define-char): New implementation [use `concord:define-object'].
+	(put-char-attribute): New implementation [use
+	`concord:object-put'].
+	(get-char-attribute): New implementation [use
+	`concord:object-get'].
+	(decode-char): New implementation [use `concord:decode-object'].
+
 2024-04-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* cl-chise.lisp: New file.
