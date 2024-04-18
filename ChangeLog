@@ -1,3 +1,7 @@
+2024-04-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* cl-chise.lisp (normalize-as-char): New function.
+
 2024-04-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* cl-chise.lisp: New implementation; use cl-concord.
