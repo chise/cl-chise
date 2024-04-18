@@ -45,3 +45,11 @@
 	       (code-char (concord:object-id ret))
 	       ret)
 	   ))))
+
+(defun normalize-as-char (object)
+  (let (id)
+    (if (and (concord:object-p object)
+	     (eq (concord:genre-name (concord:object-genre object)) 'character)
+	     (< (setq id (concord:object-id object)) #xF0000))
+	(code-char id)
+	object)))
