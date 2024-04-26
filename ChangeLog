@@ -1,5 +1,9 @@
 2024-04-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* cl-chise.asd (version): Update to "0.2".
+
+2024-04-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* loadup-char-defs.lisp (*system-char-db-source-file-list*): Add
 	the rest files.
 
