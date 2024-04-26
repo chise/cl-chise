@@ -1,5 +1,12 @@
 2024-04-26  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* loadup-char-defs.lisp (*system-char-db-source-file-list*): Add
+	the rest files.
+
+	* char-defs/*.el: New files.
+
+2024-04-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* cl-chise.lisp: Export `normalize-as-char'.
 
 	* loadup-char-defs.lisp: New file.
