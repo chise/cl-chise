@@ -10,7 +10,8 @@
    :define-char
    :metadata-feature-name-p
    :ccs-feature-name-p
-   :sequence-list-p))
+   :sequence-list-p
+   :normalize-as-char))
 
 (in-package :chise)
 
