@@ -1,8 +1,9 @@
 (defsystem :cl-chise
   :description "CHISE implementation based on Common Lisp"
-  :version "0.0"
+  :version "0.1"
   :author "Tomohiko Morioka"
   :licence "LGPL"
-  :depends-on (:cl-redis)
+  :depends-on (:cl-concord)
   :serial t
-  :components ((:file "cl-chise")))
+  :components ((:file "cl-chise")
+	       (:file "loadup-char-defs" :depends-on ("cl-chise"))))
