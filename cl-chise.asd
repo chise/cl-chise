@@ -6,4 +6,5 @@
   :depends-on (:cl-concord)
   :serial t
   :components ((:file "cl-chise")
-	       (:file "loadup-char-defs" :depends-on ("cl-chise"))))
+	       (:file "entity-ref")
+	       (:file "loadup-char-defs" :depends-on ("cl-chise" "entity-ref"))))
