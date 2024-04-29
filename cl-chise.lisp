@@ -7,7 +7,7 @@
   (:export
    :decode-char
    :get-char-attribute :put-char-attribute
-   :define-char
+   :define-char :char-spec
    :metadata-feature-name-p
    :ccs-feature-name-p
    :sequence-list-p
