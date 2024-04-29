@@ -4,6 +4,12 @@
 ;;(setf (readtable-case *readtable*) :preserve)
 (setf (readtable-case *readtable*) :invert)
 
+(set-macro-character
+ #\?
+ #'(lambda (stream char)
+     (or (read-entity-reference stream)
+	 (read-char stream nil))))
+
 (defvar *system-char-db-source-file-list*)
 (setq *system-char-db-source-file-list*
       '(
