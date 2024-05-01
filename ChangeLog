@@ -1,5 +1,7 @@
 2024-05-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* cl-chise.asd (version): Update to "0.3".
+
 	* README.md: Add `Installation' and `Usage'.
 
 2024-05-01  MORIOKA Tomohiko  <tomo.git@chise.org>
