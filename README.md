@@ -18,6 +18,7 @@
 % cd ~/quicklisp/local-projects/
 
 % git clone https://gitlab.chise.org/CHISE/cl-chise.git
+```
 
 2. Register it
 
