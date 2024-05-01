@@ -6167,13 +6167,17 @@
     (ideographic-strokes . 8)
     (total-strokes	 . 14)
     (ideographic-structure
-     ?⿱
-     ((=ucs@unicode	. #x5E9A)	; &AJ1-01984;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
       )
-     ?米)
+     ((=ucs@unicode	  . #x5E9A)	; &AJ1-01984;
+      (=adobe-japan1-0	  . 01984)	; &AJ1-01984;
+      )
+     ((=ucs		  . #x7C73)	; 米
+      ))
     (=ucs@iso		. #x222AA)	; &C6-6031;
     (=cns11643-6	. #x6031)	; &C6-6031; [64-17]
-    (=daikanwa		. 27012)	; &I-M-27012;
+    (=daikanwa 		. 27012)	; &I-M-27012;
     (=cbeta		. 12509)	; &I-CB12509;
     (->subsumptive
      ((==daikanwa	  . 27012)	; &g2-M-27012;

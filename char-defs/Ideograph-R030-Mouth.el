@@ -41459,7 +41459,7 @@
       (=ucs		  . #x2FF1)	; ⿱
       )
      ((=ucs@unicode	  . #x5E9A)	; &AJ1-01984;
-      (=adobe-japan1-0	  . 01984)	; &I-AJ1-01984;
+      (=adobe-japan1-0	  . 01984)	; &AJ1-01984;
       )
      ((=ucs		  . #x53E3)	; 口
       ))
@@ -56438,10 +56438,12 @@
      ((=ucs@unicode	  . #x5404)	; &AJ1-01444;
       (=adobe-japan1-0	  . 01444)	; &AJ1-01444;
       ))
-    (=daikanwa 		. 04104)	; &M-04104;
+    (=mj		. 008543)	; &MJ008543;
+    (=koseki		. 047090)	; &MJ008543;
+    (=daikanwa		. 04104)	; &I-M-04104;
     (<-formed
      ((=ucs@unicode	  . #x916A)	; &AJ1-03929;
-      (=adobe-japan1-0	  . 03929)	; &I-AJ1-03929;
+      (=adobe-japan1-0	  . 03929)	; &AJ1-03929;
       ))
     (<-formed$_1*sources
      jiyun)
@@ -56449,15 +56451,19 @@
      jiyun)
     (<-same
      ((=ucs@unicode	  . #x916A)	; &AJ1-03929;
-      (=adobe-japan1-0	  . 03929)	; &I-AJ1-03929;
+      (=adobe-japan1-0	  . 03929)	; &AJ1-03929;
       (=daikanwa	  . 39847)	; &I-M-39847;
       ))
     (<-same*sources
      jiyun daikanwa)
     (->subsumptive
-     ((==daikanwa	  . 04104)	; &g2-M-04104;
+     ((==mj		  . 008543)	; &g2-MJ008543;
+      (==koseki		  . 047090)	; &g2-MJ008543;
+      (==daikanwa	  . 04104)	; &g2-MJ008543;
       (->subsumptive
        ((===daikanwa	    . 04104)	; &R-M-04104;
+	)
+       ((===mj		    . 008543)	; &R-MJ008543;
 	)
        ((=hanziku-2	    . #xDBE4)	; &HZK02-DBE4;
 	))
@@ -67165,9 +67171,8 @@
       )
      ((=ucs		  . #x53E3)	; 口
       )
-     ((=ucs@cns		  . #x379A)	; &C4-372B;
-      (=cns11643-4	  . #x372B)	; &C4-372B; [23-11]
-      (=daikanwa	  . 07749)	; &I-M-07749;
+     ((=ucs@cns		  . #x379A)	; &MJ000809;
+      (=mj		  . 000809)	; &I-MJ000809;
       ))
     (=ucs@iso		. #x20F63)	; &C5-4C3B;
     (=cns11643-5	. #x4C3B)	; &C5-4C3B; [44-27]
@@ -96540,6 +96545,8 @@
      ((=ucs		  . #x53E3)	; 口
       )
      ((=ucs@iso		  . #x29EAF)	; &C5-7532;
+      (=cns11643-5	  . #x7532)	; &C5-7532; [85-18]
+      (=daikanwa	  . 46421)	; &I-M-46421;
       ))
     (=ucs@iso		. #x2118D)	; &U-0002118D;
     ))

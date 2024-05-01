@@ -1573,9 +1573,13 @@
     (ideographic-strokes . 5)
     (total-strokes	 . 8)
     (ideographic-structure
-     ?⿱
-     ?禾
-     ?子)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x79BE)	; 禾
+      )
+     ((=ucs		  . #x5B50)	; 子
+      ))
     (=ucs		. #x5B63)	; 季
     ))
 (define-char

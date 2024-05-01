@@ -829,6 +829,39 @@
     ))
 (define-char
   '((ideographic-radical . 146)	; ⾑
+    (ideographic-strokes . 4)
+    (total-strokes	 . 10)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=>ucs@iwds-1	  . #x897E)	; &A-IWDSU+897E;
+      (=>iwds-1		  .  0159)	; &A-IWDSU+897E;
+      )
+     ((=ucs		  . #x5206)	; 分
+      ))
+    (=>ucs-itaiji-001	. #x2E5BF)	; &A-U-i001+2E5BF;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-001	  . #x2E5BF)	; &A-U-i001+2E5BF;
+      ))
+    (ideographic-radical . 146)	; ⾑
+    (ideographic-strokes . 4)
+    (total-strokes	 . 10)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x8980)	; 覀
+      )
+     ((=ucs@unicode	  . #x5206)	; &MJ007455;
+      (=mj		  . 007455)	; &MJ007455;
+      ))
+    (=ucs-itaiji-001	. #x2E5BF)	; &U-i001+2E5BF;
+    ))
+(define-char
+  '((ideographic-radical . 146)	; ⾑
     (ideographic-strokes . 5)
     (total-strokes	 . 11)
     (=ucs		. #x277EA)	; 𧟪
@@ -1127,32 +1160,6 @@
     (=ucs		. #x277EC)	; 𧟬
     (=daikanwa		. 34776)	; &I-M-34776;
     (=hanziku-7		. #xEFF4)	; &I-HZK07-EFF4;
-    ))
-(define-char
-  '((ideographic-radical . 146)	; ⾑
-    (ideographic-strokes . 4)
-    (total-strokes	 . 10)
-    (ideographic-structure
-     ?⿱
-     ((=>ucs@iwds-1	. #x897E)	; &A-IWDSU+897E;
-      )
-     ((=ucs		. #x5206)	; 分
-      ))
-    (=>ucs-itaiji-001	. #x2E5BF)	; &U-i001+2E5BF;
-    ))
-(define-char
-  '((<-denotational
-     ((=>ucs-itaiji-001	. #x2E5BF)	; &U-i001+2E5BF;
-      ))
-    (ideographic-radical . 146)	; ⾑
-    (ideographic-strokes . 4)
-    (total-strokes	 . 10)
-    (ideographic-structure
-     ?⿱
-     ?覀
-     ((=ucs@unicode	. #x5206)	; &MJ007455;
-      ))
-    (=ucs-itaiji-001	. #x2E5BF)	; &U-i001+2E5BF;
     ))
 (define-char
   '((ideographic-radical . 146)	; ⾑
@@ -1833,7 +1840,15 @@
     (ideographic-radical . 146)	; ⾑
     (ideographic-strokes . 8)
     (total-strokes	 . 14)
-    (=ucs@cns 		. #x277F3)	; &C6-6237;
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x897E)	; 襾
+      )
+     ((=ucs-itaiji-002	. #x2665A)	; &U-i002+2665A;
+      ))
+    (=ucs@cns  		. #x277F3)	; &C6-6237;
     (=cns11643-6	. #x6237)	; &C6-6237; [66-23]
     (->subsumptive
      ((==ucs@cns	  . #x277F3)	; &g2-CU+277F3;

@@ -865,9 +865,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((ideographic-radical . 96)	; ⽟
-      (==>ucs@bucs	. #x7396)	; &BUCS+7396;
-      (==>daijiten	. 07266)	; &A2-DJT-07266;
+     ((==>ucs@bucs	  . #x7396)	; &BUCS+7396;
       ))
     (ideographic-radical . 96)	; ⽟
     (ideographic-strokes . 3)
@@ -878,17 +876,17 @@
       )
      ((=ucs		  . #x248E9)	; 𤣩
       )
-     ((=>ucs@iwds-1	. #x4E45)	; &A-IWDSU+4E45;
+     ((=>ucs@iwds-1	  . #x4E45)	; &A-IWDSU+4E45;
       ))
     (=ucs		. #x7396)	; 玖
     ))
 (define-char
-  '((ideographic-radical . 96)	; ⽟
+  '((<-denotational
+     ((=ucs		  . #x7396)	; 玖
+      ))
+    (ideographic-radical . 96)	; ⽟
     (ideographic-strokes . 3)
     (total-strokes	 . 7)
-    (<-denotational
-     ((=ucs		. #x7396)	; 玖
-      ))
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
@@ -897,8 +895,8 @@
       )
      ((=ucs		  . #x4E45)	; 久
       ))
-    (=ucs@unicode	. #x7396)	; 玖
-    (=adobe-japan1-0	. 01762)	; &I-AJ1-01762;
+    (=ucs@unicode	. #x7396)	; &AJ1-01762;
+    (=adobe-japan1-0	. 01762)	; &AJ1-01762;
     (=jis-x0208		. #x366A)	; &I-J90-366A; [22-74]
     (=gb2312		. #x3E41)	; &I-G0-3E41; [30-33]
     (=ks-x1001		. #x4F38)	; &I-K0-4F38; [47-24]
@@ -909,7 +907,7 @@
     (=gt-pj-1		. #x366A)	; &I-GT-26679; [22-74]
     (=daikanwa		. 20846)	; &I-M-20846;
     (=daijiten		. 07266)	; &I-DJT-07266;
-    (=shinjigen		.  4878)	; 玖
+    (=shinjigen		.  4878)	; &AJ1-01762;
     (->subsumptive
      ((=decomposition@cid
        ((=ucs		    . #x7396)	; 玖
@@ -944,7 +942,7 @@
        ((===ucs@unicode	    . #x7396)	; &R-UU+7396;
 	))
       )
-     ((==daijiten	. 07266)	; &I-DJT-07266;
+     ((==daijiten	  . 07266)	; &g2-DJT-07266;
       ))
     ))
 (define-char
@@ -4605,7 +4603,8 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((ideographic-radical . 96)	; ⽟
+     ((==>ucs@bucs	. #x7434)	; &BUCS+7434;
+      (==>daijiten	  . 07327)	; &BUCS+7434;
       (==>daijiten	. 07327)	; &BUCS+7434;
       ))
     (ideographic-radical . 96)	; ⽟
@@ -4648,7 +4647,7 @@
     (<-original
      ((=ucs@unicode	  . #x7434)	; &AJ1-01743;
       (=adobe-japan1-0	  . 01743)	; &AJ1-01743;
-      (=daikanwa	  . 21079)	; &AJ1-01743;
+      (=daikanwa	  . 21079)	; &I-M-21079;
       ))
     (<-original*sources
      zihui daikanwa)
@@ -4678,9 +4677,11 @@
       )
      ((==ucs@unicode	  . #x73E1)	; &g2-DJT-07292;
       (==ucs@JP/hanazono  . nil)
+      (==daijiten	  . 07292)	; &g2-DJT-07292;
       (==jef-china3	  . #x84A2)	; &g2-DJT-07292;
-      (==daijiten	. 07292)	; &I-DJT-07292;
       (->subsumptive
+       ((===daijiten	    . 07292)	; &R-DJT-07292;
+	)
        ((===ucs@unicode	    . #x73E1)	; &R-UU+73E1;
 	)
        ((===jef-china3	    . #x84A2)	; &R-JC3-84A2;
@@ -9206,8 +9207,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((ideographic-radical . 96)	; ⽟
-      (==>ucs@bucs	. #x7434)	; &BUCS+7434;
+     ((==>ucs@bucs	  . #x7434)	; &BUCS+7434;
       ))
     (ideographic-radical . 96)	; ⽟
     (ideographic-structure
@@ -9249,7 +9249,7 @@
      ((=ucs@unicode	  . #x7434)	; &AJ1-01743;
       (=adobe-japan1-0	  . 01743)	; &AJ1-01743;
       (=jis-x0208	  . #x3657)	; &I-J90-3657; [22-55]
-      (=daikanwa	  . 21079)	; &AJ1-01743;
+      (=daikanwa	  . 21079)	; &I-M-21079;
       (=shinjigen@1ed	  .  4919)	; &AJ1-01743;
       (=shinjigen@rev	  .  4918)	; &AJ1-01743;
       ))
@@ -9287,9 +9287,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((ideographic-radical . 96)	; ⽟
-      (==>ucs@bucs	. #x7434)	; &BUCS+7434;
-      (==>daijiten	. 07327)	; &BUCS+7434;
+     ((==>ucs@bucs	  . #x7434)	; &BUCS+7434;
       ))
     (ideographic-radical . 96)	; ⽟
     (ideographic-strokes . 8)
@@ -9331,7 +9329,7 @@
     (=gt		. 26940)	; &I-GT-26940;
     (=gt-k		. 09038)	; &I-GT-K09038;
     (=gt-pj-1		. #x3657)	; &I-GT-26940; [22-55]
-    (=daikanwa		. 21079)	; &AJ1-01743;
+    (=daikanwa 		. 21079)	; &I-M-21079;
     (=daijiten		. 07327)	; &I-DJT-07327;
     (=shinjigen@1ed	.  4919)	; &AJ1-01743;
     (=shinjigen@rev	.  4918)	; &AJ1-01743;
@@ -9352,11 +9350,13 @@
       (==gt		  . 26940)	; &g2-AJ1-01743;
       (==gt-k		  . 09038)	; &g2-AJ1-01743;
       (==daikanwa	  . 21079)	; &g2-AJ1-01743;
-      (==daijiten	. 07327)	; &I-DJT-07327;
+      (==daijiten	  . 07327)	; &g2-AJ1-01743;
       (==shinjigen@1ed	  .  4919)	; &g2-AJ1-01743;
       (==shinjigen@rev	  .  4918)	; &g2-AJ1-01743;
       (->subsumptive
        ((===daikanwa	    . 21079)	; &R-M-21079;
+	)
+       ((===daijiten	    . 07327)	; &R-DJT-07327;
 	)
        ((===jis-x0208	    . #x3657)	; &R-J0-3657; [22-55]
 	(===jis-x0213-1	    . #x3657)	; &R-J0-3657; [22-55]
@@ -17876,7 +17876,7 @@
     (<-same
      ((=ucs@unicode	  . #x7434)	; &AJ1-01743;
       (=adobe-japan1-0	  . 01743)	; &AJ1-01743;
-      (=daikanwa 	  . 21079)	; &AJ1-01743;
+      (=daikanwa	  . 21079)	; &I-M-21079;
       ))
     (<-same*sources
      sauzhenyujing daikanwa)
@@ -22635,7 +22635,7 @@
     (<-ancient
      ((=ucs@unicode	  . #x7434)	; &AJ1-01743;
       (=adobe-japan1-0	  . 01743)	; &AJ1-01743;
-      (=daikanwa 	  . 21079)	; &AJ1-01743;
+      (=daikanwa	  . 21079)	; &I-M-21079;
       ))
     (<-ancient*sources
      jiyun daikanwa)
@@ -23430,6 +23430,11 @@
     ))
 (define-char
   '((ideographic-radical . 96)	; ⽟
+    (==>ucs@bucs	. #x7396)	; &BUCS+7396;
+    (==>daijiten	. 07266)	; &BUCS+7396;
+    ))
+(define-char
+  '((ideographic-radical . 96)	; ⽟
     (==>ucs@bucs	. #x74B5)	; &BUCS+74B5;
     ))
 (define-char
@@ -23459,6 +23464,10 @@
     ))
 (define-char
   '((ideographic-radical . 96)	; ⽟
+    (==>daijiten	. 07327)	; &BUCS+7434;
+    ))
+(define-char
+  '((ideographic-radical . 96)	; ⽟
     (==>ucs@bucs	. #x7401)	; &BUCS+7401;
     ))
 (define-char
@@ -23469,6 +23478,11 @@
   '((ideographic-radical . 96)	; ⽟
     (==>ucs@bucs	. #x7426)	; &BUCS+7426;
     (==>daijiten	. 07315)	; &BUCS+7426;
+    ))
+(define-char
+  '((ideographic-radical . 96)	; ⽟
+    (==>ucs@bucs	. #x7434)	; &BUCS+7434;
+    (==>daijiten	. 07327)	; &BUCS+7434;
     ))
 (define-char
   '((ideographic-radical . 96)	; ⽟

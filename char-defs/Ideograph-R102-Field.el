@@ -1116,21 +1116,8 @@
     (=ucs@iso		. #x24C16)	; &U-00024C16;
     ))
 (define-char
-  '((ideographic-radical . 102)	; ⽥
-    (ideographic-structure
-     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
-      (=ucs		  . #x2FF1)	; ⿱
-      )
-     ((name*		  . "ideographic component person for top")
-      (=ucs		  . #x20089)	; 𠂉
-      )
-     ((=>ucs@iwds-1	. #x6BCC)	; &A-IWDSU+6BCC;
-      ))
-    (=>ucs@iwds-1		. #x24C17)	; 𤰗
-    ))
-(define-char
   '((<-denotational@component
-     ((=>ucs@iwds-1		. #x24C17)	; 𤰗
+     ((=>ucs@iwds-1	  . #x24C17)	; &A-IWDSU+24C17;
       ))
     (ideographic-radical . 102)	; ⽥
     (ideographic-strokes . 2)
@@ -1141,13 +1128,14 @@
      ((name*		  . "ideographic component person for top")
       (=ucs		  . #x20089)	; 𠂉
       )
-     ((=>ucs@component	. #x7530)	; &A-compU+7530;
+     ((=>ucs@component	  . #x7530)	; &A-compU+7530;
+      (=>iwds-1		  .  0083)	; &A-compU+7530;
       ))
     (=ucs		. #x24C17)	; 𤰗
     ))
 (define-char
   '((<-denotational
-     ((=ucs		. #x24C17)	; 𤰗
+     ((=ucs		  . #x24C17)	; 𤰗
       ))
     (ideographic-radical . 102)	; ⽥
     (ideographic-strokes . 2)
@@ -1160,7 +1148,12 @@
       )
      ((=ucs		  . #x7530)	; 田
       ))
-    (=ucs@JP/hanazono	. #x24C17)	; 𤰗
+    (=ucs@JP/hanazono	. #x24C17)	; &hanaJU+24C17;
+    (=ucs@iso		. #x24C17)	; &hanaJU+24C17;
+    (->subsumptive
+     ((==ucs@JP/hanazono	. #x24C17)	; &hanaJU+24C17;
+      (==ucs@iso		. #x24C17)	; &hanaJU+24C17;
+      ))
     ))
 (define-char
   '((<-denotational@component
@@ -14264,6 +14257,20 @@
 (define-char
   '((ideographic-radical . 102)	; ⽥
     (=>ucs@component	. #x24C14)	; &A-compU+24C14;
+    ))
+(define-char
+  '((ideographic-radical . 102)	; ⽥
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((name*		  . "ideographic component person for top")
+      (=ucs		  . #x20089)	; 𠂉
+      )
+     ((=>ucs@iwds-1	  . #x6BCC)	; &A-IWDSU+6BCC;
+      (=>iwds-1		  .  18283)	; &A-IWDSU+6BCC;
+      ))
+    (=>ucs@iwds-1	. #x24C17)	; &A-IWDSU+24C17;
     ))
 (define-char
   '((ideographic-radical . 102)	; ⽥

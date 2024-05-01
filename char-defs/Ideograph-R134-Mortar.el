@@ -6323,7 +6323,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((==>daijiten	  . 12362)	; &A2-DJT-12362;
+     ((==>ucs@bucs	  . #x91C1)	; &BUCS+91C1;
       ))
     (ideographic-radical . 134)	; ⾅
     (ideographic-structure

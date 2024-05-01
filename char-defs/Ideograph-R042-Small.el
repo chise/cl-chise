@@ -3220,6 +3220,7 @@
       )
      ((=ucs		  . #x67D0)	; 某
       ))
+    (sound@ja/on	"bai")
     (=ucs		. #x24BCF)	; 𤯏
     ))
 (define-char
@@ -3237,10 +3238,19 @@
       )
      ((=ucs		  . #x67D0)	; 某
       ))
-    (=ucs@iso		. #x24BCF)	; &M-07535;
-    (=daikanwa 		. 07535)	; &M-07535;
+    (=ucs@iso		. #x24BCF)	; &MJ041300;
+    (=mj		. 041300)	; &MJ041300;
+    (=koseki		. 085640)	; &MJ041300;
+    (=daikanwa		. 07535)	; &I-M-07535;
     (->subsumptive
-     ((==daikanwa	  . 07535)	; &g2-M-07535;
+     ((==mj		  . 041300)	; &g2-MJ041300;
+      (==koseki		  . 085640)	; &g2-MJ041300;
+      (==daikanwa	  . 07535)	; &g2-MJ041300;
+      (->subsumptive
+       ((===daikanwa	    . 07535)	; &R-M-07535;
+	)
+       ((===mj		    . 041300)	; &R-MJ041300;
+	))
       )
      ((==ucs@iso	  . #x24BCF)	; &g2-IU-00024BCF;
       ))

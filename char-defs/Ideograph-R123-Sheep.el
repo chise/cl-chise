@@ -7802,6 +7802,7 @@
     (=gt		. 48343)	; &I-GT-48343;
     (=gt-pj-1		. #x6641)	; &I-GT-48343; [70-33]
     (=daikanwa		. 36028)	; &I-M-36028;
+    (=daijiten		. 11194)	; &I-DJT-11194;
     (->subsumptive
      ((ideographic-radical . 149)	; ⾔
       (ideographic-strokes . 13)
@@ -7811,21 +7812,13 @@
 	)
        ((=ucs		    . #xE0100)	; 󠄀
 	))
-      (ideographic-structure
-       ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER OVERLAID")
-	(=ucs		    . #x2FFB)	; ⿻
-	)
-       ((=ucs		    . #x7F8A)	; 羊
-	)
-       ((==ucs@jis	    . #x8AA9)	; &g2-AJ1-22541;
-	(==adobe-japan1-6   . 22541)	; &g2-AJ1-22541;
-	))
       (==ucs@jis	  . #x8B71)	; &g2-AJ1-06190;
       (==adobe-japan1-0	  . 06190)	; &g2-AJ1-06190;
       (==jis-x0208	  . #x6641)	; &g2-AJ1-06190; [70-33]
       (==jis-x0213-1	  . #x6641)	; &g2-AJ1-06190; [70-33]
       (==gt		  . 48343)	; &g2-AJ1-06190;
       (==daikanwa	  . 36028)	; &g2-AJ1-06190;
+      (==daijiten		. 11194)	; &I-DJT-11194;
       (->subsumptive
        ((===daikanwa	    . 36028)	; &R-M-36028;
 	)
@@ -7837,15 +7830,7 @@
        ((===gt		    . 48343)	; &R-GT-48343;
 	))
       )
-     ((ideographic-structure
-       ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER OVERLAID")
-	(=ucs		    . #x2FFB)	; ⿻
-	)
-       ((=ucs		    . #x7F8A)	; 羊
-	)
-       ((==ucs@unicode	    . #x8AA9)	; &g2-UU+8AA9;
-	))
-      (==ucs@unicode	  . #x8B71)	; &g2-UU+8B71;
+     ((==ucs@unicode	  . #x8B71)	; &g2-UU+8B71;
       (==ucs@JP/hanazono  . nil)
       (==cns11643-3	  . #x5C6D)	; &g2-UU+8B71; [60-77]
       (->subsumptive

@@ -13977,15 +13977,22 @@
     (ideographic-strokes . 9)
     (total-strokes	 . 14)
     (ideographic-structure
-     ?⿱
-     ((=>ucs-itaiji-002	. #x8840)	; &A-U-i002+8840;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
       )
-     ?幸)
+     ((=>ucs-itaiji-002	  . #x8840)	; &A-U-i002+8840;
+      )
+     ((=ucs		  . #x5E78)	; 幸
+      ))
     (ideographic-structure@apparent/rightmost
-     ?⿱
-     ?丿
-     ?睪)
-    (=ucs  		. #x777E)	; 睾
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x4E3F)	; 丿
+      )
+     ((=ucs		  . #x776A)	; 睪
+      ))
+    (=ucs		. #x777E)	; 睾
     ))
 (define-char
   '((<-denotational
@@ -13995,17 +14002,23 @@
     (ideographic-strokes . 9)
     (total-strokes	 . 14)
     (ideographic-structure
-     ?⿱
-     ((=ucs-itaiji-002	. #x8840)	; &U-i002+8840;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=ucs@unicode	. #x5E78)	; &MJ010951;
+     ((=ucs-itaiji-002	  . #x8840)	; &U-i002+8840;
+      )
+     ((=ucs@unicode	  . #x5E78)	; &MJ010951;
+      (=mj		  . 010951)	; &MJ010951;
       ))
     (ideographic-structure@apparent/rightmost
-     ?⿱
-     ?丿
-     ((=ucs@unicode	. #x776A)	; &JX2-7227;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x4E3F)	; 丿
+      )
+     ((=ucs@unicode	  . #x776A)	; &JX2-7227;
       ))
-    (=ucs@unicode  	. #x777E)	; &AJ1-05829;
+    (=ucs@unicode	. #x777E)	; &AJ1-05829;
     (=adobe-japan1-0	. 05829)	; &AJ1-05829;
     (=jis-x0208		. #x6250)	; &I-J90-6250; [66-48]
     (=gb2312		. #x583A)	; &I-G0-583A; [56-26]
@@ -14016,7 +14029,7 @@
     (=gt		. 30087)	; &I-GT-30087;
     (=gt-k		. 11225)	; &I-GT-K11225;
     (=gt-pj-1		. #x6250)	; &I-GT-30087; [66-48]
-    (=daikanwa		. 23535)	; &I-M-23535;
+    (=daikanwa 		. 23535)	; &I-M-23535;
     (=daijiten		. 07872)	; &I-DJT-07872;
     (=shinjigen		.  5336)	; &AJ1-05829;
     (->subsumptive

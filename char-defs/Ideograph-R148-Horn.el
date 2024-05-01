@@ -1979,7 +1979,6 @@
       ))
     (<-denotational@usage
      ((==>ucs@bucs	  . #x89E3)	; &BUCS+89E3;
-      (==>daijiten	. 10875)	; &BUCS+89E3;
       ))
     (ideographic-radical . 148)	; ⾓
     (ideographic-strokes . 6)
@@ -2083,38 +2082,6 @@
     (ideographic-radical . 148)	; ⾓
     (ideographic-strokes . 5)
     (total-strokes	 . 12)
-    (ideographic-structure@apparent
-     ?⿰
-     ?角
-     ((=>ucs-itaiji-001	. #x2DDD4)	; &U-i001+2DDD4;
-      ))
-    (=>ucs-itaiji-001	. #x89E3)	; &U-i001+89E3;
-    ))
-(define-char
-  '((<-denotational
-     ((=>ucs-itaiji-001	. #x89E3)	; &U-i001+89E3;
-      ))
-    (ideographic-radical . 148)	; ⾓
-    (ideographic-strokes . 5)
-    (total-strokes	 . 12)
-    (ideographic-structure@apparent
-     ?⿰
-     ((=ucs@jis		. #x89D2)	; &AJ1-01455;
-      )
-     ((=>ucs-itaiji-001	. #x2DDD4)	; &U-i001+2DDD4;
-      ))
-    (=ucs-itaiji-001	. #x89E3)	; &U-i001+89E3;
-    ))
-(define-char
-  '((<-denotational
-     ((=>ucs@cognate	  . #x89E3)	; &A-cgnU+89E3;
-      ))
-    (<-denotational@usage
-     ((==>ucs@bucs	  . #x89E3)	; &BUCS+89E3;
-      ))
-    (ideographic-radical . 148)	; ⾓
-    (ideographic-strokes . 5)
-    (total-strokes	 . 12)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
@@ -2172,6 +2139,43 @@
     (->subsumptive
      ((===hng-khi	  . 05610)	; &HNG010-05610;
       ))
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@cognate	  . #x89E3)	; &A-cgnU+89E3;
+      ))
+    (<-denotational@usage
+     ((==>ucs@bucs	  . #x89E3)	; &BUCS+89E3;
+      ))
+    (ideographic-radical . 148)	; ⾓
+    (ideographic-strokes . 5)
+    (total-strokes	 . 12)
+    (ideographic-structure@apparent
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x89D2)	; 角
+      )
+     ((=>ucs-itaiji-001	  . #x2DDD4)	; &A-U-i001+2DDD4;
+      ))
+    (=>ucs-itaiji-001	. #x89E3)	; &A-U-i001+89E3;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-001	  . #x89E3)	; &A-U-i001+89E3;
+      ))
+    (ideographic-radical . 148)	; ⾓
+    (ideographic-strokes . 5)
+    (total-strokes	 . 12)
+    (ideographic-structure@apparent
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@jis		  . #x89D2)	; &AJ1-01455;
+      )
+     ((=ucs-itaiji-001	  . #x2DDD4)	; &U-i001+2DDD4;
+      ))
+    (=ucs-itaiji-001	. #x89E3)	; &U-i001+89E3;
     ))
 (define-char
   '((ideographic-radical . 148)	; ⾓
@@ -4524,24 +4528,34 @@
     (ideographic-strokes . 11)
     (total-strokes	 . 18)
     (ideographic-structure
-     ?⿰
-     ?角
-     ?㪷)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x89D2)	; 角
+      )
+     ((=ucs		  . #x3AB7)	; 㪷
+      ))
     (=ucs		. #x27930)	; 𧤰
     ))
 (define-char
-  '((ideographic-radical . 148)	; ⾓
+  '((<-denotational
+     ((=ucs		  . #x27930)	; 𧤰
+      ))
+    (ideographic-radical . 148)	; ⾓
     (ideographic-strokes . 11)
     (total-strokes	 . 18)
     (ideographic-structure
-     ?⿰
-     ((=ucs@unicode	. #x89D2)	; &MJ024282;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
       )
-     ?㪷)
-    (<-denotational
-     ((=ucs		. #x27930)	; 𧤰
+     ((=ucs@unicode	  . #x89D2)	; &MJ024282;
+      (=mj		  . 024282)	; &MJ024282;
+      )
+     ((=ucs@unicode	  . #x3AB7)	; &C3-392B;
+      (=cns11643-3	  . #x392B)	; &C3-392B; [25-11]
+      (=daikanwa	  . 13507)	; &I-M-13507;
       ))
-    (=ucs@iso		. #x27930)	; 𧤰
+    (=ucs@iso		. #x27930)	; &U-00027930;
     ))
 (define-char
   '((ideographic-radical . 148)	; ⾓
@@ -4710,7 +4724,7 @@
     (ideographic-radical . 148)	; ⾓
     (ideographic-strokes . 12)
     (total-strokes	 . 19)
-    (=ucs@iso 		. #x2793F)	; &C7-4A22;
+    (=ucs@iso		. #x2793F)	; &C7-4A22;
     (=cns11643-7	. #x4A22)	; &C7-4A22; [42-02]
     (=daikanwa 		. 35174)	; &I-M-35174;
     (<-ancient
@@ -4874,7 +4888,10 @@
     (=ucs@unicode	. #x46AA)	; &UU+46AA;
     ))
 (define-char
-  '((ideographic-radical . 148)	; ⾓
+  '((<-denotational@usage
+     ((==>ucs@bucs	  . #x89F8)	; &BUCS+89F8;
+      ))
+    (ideographic-radical . 148)	; ⾓
     (ideographic-strokes . 13)
     (total-strokes	 . 20)
     (ideographic-structure
@@ -4902,7 +4919,8 @@
      ((=ucs@jis		  . #x89D2)	; &AJ1-01455;
       (=adobe-japan1-0	  . 01455)	; &AJ1-01455;
       )
-     ((=ucs@unicode	  . #x8700)	; 蜀
+     ((=ucs@unicode	  . #x8700)	; &AJ1-06509;
+      (=adobe-japan1-0	  . 06509)	; &AJ1-06509;
       ))
     (=ucs@cns		. #x89F8)	; &AJ1-06656;
     (=ucs@jis		. #x89F8)	; &AJ1-06656;
@@ -4915,6 +4933,7 @@
     (=gt		. 47320)	; &I-GT-47320;
     (=gt-pj-1		. #x6B3D)	; &I-GT-47320; [75-29]
     (=daikanwa		. 35181)	; &I-M-35181;
+    (=daijiten		. 10887)	; &I-DJT-10887;
     (=shinjigen		.  7520)	; &AJ1-06656;
     (->subsumptive
      ((==ucs@cns	  . #x89F8)	; &g2-AJ1-06656;
@@ -4927,9 +4946,12 @@
       (==jis-x0213-1	  . #x6B3D)	; &g2-AJ1-06656; [75-29]
       (==gt		  . 47320)	; &g2-AJ1-06656;
       (==daikanwa	  . 35181)	; &g2-AJ1-06656;
+      (==daijiten	  . 10887)	; &g2-AJ1-06656;
       (==shinjigen	  .  7520)	; &g2-AJ1-06656;
       (->subsumptive
        ((===daikanwa	    . 35181)	; &R-M-35181;
+	)
+       ((===daijiten	    . 10887)	; &R-DJT-10887;
 	)
        ((===jis-x0208	    . #x6B3D)	; &R-J0-6B3D; [75-29]
 	(===jis-x0213-1	    . #x6B3D)	; &R-J0-6B3D; [75-29]
@@ -4959,7 +4981,8 @@
      ((=ucs@unicode	  . #x89D2)	; &MJ024282;
       (=mj		  . 024282)	; &MJ024282;
       )
-     ((=ucs@unicode	  . #x8700)	; 蜀
+     ((=ucs@unicode	  . #x8700)	; &AJ1-06509;
+      (=adobe-japan1-0	  . 06509)	; &AJ1-06509;
       ))
     (=ucs@unicode	. #x89F8)	; &UU+89F8;
     (=ucs@JP/hanazono	. nil)
@@ -5814,8 +5837,14 @@
 (define-char
   '((ideographic-radical . 148)	; ⾓
     (==>ucs@bucs	. #x89E3)	; &BUCS+89E3;
+    (==>daijiten	. 10875)	; &BUCS+89E3;
     ))
 (define-char
   '((ideographic-radical . 148)	; ⾓
     (==>daijiten	. 10879)	; &A2-DJT-10879;
+    ))
+(define-char
+  '((ideographic-radical . 148)	; ⾓
+    (==>ucs@bucs	. #x89F8)	; &BUCS+89F8;
+    (==>daijiten	. 10887)	; &BUCS+89F8;
     ))

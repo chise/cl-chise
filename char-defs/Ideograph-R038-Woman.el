@@ -7588,7 +7588,7 @@
     (=koseki		. 070510)	; &MJ009629;
     (=gt		. 07790)	; &I-GT-07790;
     (=gt-pj-1		. #x5528)	; &I-GT-07790; [53-08]
-    (=daikanwa 		. 06159)	; &I-M-06159;
+    (=daikanwa		. 06159)	; &I-M-06159;
     (=daijiten		. 02065)	; &I-DJT-02065;
     (=shinjigen		.  1638)	; &MJ009629;
     (<-formed
@@ -15421,7 +15421,7 @@
     (=iso-ir165		. #x2E3E)	; &I-EGB-2E3E; [14-30]
     (=cns11643-3	. #x304F)	; &I-C3-304F; [16-47]
     (=koseki		. 071950)	; &MJ009707;
-    (=daikanwa 		. 06296)	; &I-M-06296;
+    (=daikanwa		. 06296)	; &I-M-06296;
     (=jef-china3	. #x49B8)	; &I-JC3-49B8;
     (<-formed
      ((=ucs@unicode	  . #x59C6)	; &MJ009629;
@@ -15494,14 +15494,14 @@
       )
      ((=ucs-itaiji-001	  . #x6BCF)	; &U-i001+6BCF;
       ))
-    (=daijiten 		. 02111)	; &DJT-02111;
+    (=daijiten		. 02111)	; &DJT-02111;
     (<-same
      ((=ucs@unicode	  . #x59C6)	; &MJ009629;
       (=mj		  . 009629)	; &MJ009629;
       (=daijiten	  . 02065)	; &I-DJT-02065;
       )
-     ((=ucs		. #xFA30)	; 侮
-      (=daijiten	  . 00312)	; 侮
+     ((=ucs		  . #xFA30)	; 侮
+      (=daijiten	  . 00312)	; &I-DJT-00312;
       ))
     (<-same$_1*sources
      daijiten)

@@ -10577,11 +10577,11 @@
     ))
 (define-char
   '((ideographic-radical . 75)	; ⽊
-    (=>ucs@cognate	. #x67D4)	; 柔
+    (=>ucs@cognate	. #x67D4)	; &A-cgnU+67D4;
     ))
 (define-char
   '((<-denotational
-     ((=>ucs@cognate	  . #x67D4)	; 柔
+     ((=>ucs@cognate	  . #x67D4)	; &A-cgnU+67D4;
       ))
     (ideographic-radical . 75)	; ⽊
     (ideographic-strokes . 5)
@@ -10594,11 +10594,10 @@
       )
      ((=ucs		  . #x6728)	; 木
       ))
-    (=ucs	 	. #x67D4)	; &AJ1-02378;
-    (=ucs		  . #x67D4)	; 柔
-    (=>ucs@iwds-1 	. #x67D4)	; &AJ1-02378;
-    (=ucs@unicode	. #x67D4)	; &AJ1-02378;
-    (=adobe-japan1-0	. 02378)	; &AJ1-02378;
+    (=ucs		. #x67D4)	; 柔
+    (=ucs		. #x67D4)	; 柔
+    (=ucs@unicode 	. #x67D4)	; 柔
+    (=adobe-japan1-0	. 02378)	; &I-AJ1-02378;
     (=jis-x0208		. #x3D40)	; &I-J90-3D40; [29-32]
     (=gb2312		. #x4861)	; &I-G0-4861; [40-65]
     (=ks-x1001		. #x6A75)	; &I-K0-6A75; [74-85]
@@ -10610,15 +10609,17 @@
     (=gt-pj-1		. #x3D40)	; &I-GT-18606; [29-32]
     (=daikanwa		. 14622)	; &I-M-14622;
     (=daijiten		. 04849)	; &I-DJT-04849;
-    (=shinjigen		.  3569)	; &AJ1-02378;
+    (=shinjigen		.  3569)	; 柔
     (->subsumptive
      ((==jis-x0208@1978	  . #x3D40)	; &g2-M-14622; [29-32]
       (==jis-x0208@1983	  . #x3D40)	; &g2-M-14622; [29-32]
       (==daikanwa	  . 14622)	; &g2-M-14622;
-      (==daijiten		. 04849)	; &I-DJT-04849;
+      (==daijiten	  . 04849)	; &g2-M-14622;
       (==shinjigen	  .  3569)	; &g2-M-14622;
       (->subsumptive
        ((===daikanwa	    . 14622)	; &R-M-14622;
+	)
+       ((===daijiten	    . 04849)	; &R-DJT-04849;
 	)
        ((===jis-x0208@1978  . #x3D40)	; &R-J78-3D40; [29-32]
 	)
@@ -10657,7 +10658,7 @@
     ))
 (define-char
   '((<-denotational
-     ((=>ucs@cognate		  . #x67D4)	; 柔
+     ((=>ucs@cognate	  . #x67D4)	; &A-cgnU+67D4;
       ))
     (ideographic-radical . 75)	; ⽊
     (ideographic-strokes . 5)
@@ -10674,7 +10675,7 @@
     ))
 (define-char
   '((<-denotational
-     ((=>ucs@cognate		  . #x67D4)	; 柔
+     ((=>ucs@cognate	  . #x67D4)	; &A-cgnU+67D4;
       ))
     (ideographic-radical . 75)	; ⽊
     (ideographic-strokes . 5)
@@ -22015,7 +22016,7 @@
       (=cns11643-3	  . #x4C63)	; &C3-4C63; [44-67]
       (=daikanwa	  . 15456)	; &I-M-15456;
       )
-     ((=ucs		  . #x9D1E)	; 鴞
+     ((=ucs@unicode	  . #x9D1E)	; 鴞
       (=daikanwa	  . 46803)	; &I-M-46803;
       ))
     (<-same$_1*sources
@@ -22025,7 +22026,12 @@
     (<-same*sources
      shuowen-zhu zhengzitong daikanwa)
     (->formed
-     ((=ucs		  . #x9D1E)	; 鴞
+     ((=ucs@unicode	  . #x9D1E)	; 鴞
+      (=ucs@unicode	  . #x9D1E)	; &JX1-7E59;
+      (=jis-x0212	  . #x6B64)	; &JX1-7E59; [75-68]
+      (=cns11643-2	  . #x5C32)	; &I-C2-5C32; [60-18]
+      (=jis-x0213-1	  . #x7E59)	; &I-JX1-7E59; [94-57]
+      (=daikanwa	  . 46803)	; &I-M-46803;
       ))
     (->formed$_1*sources
      shuowen-zhu)
@@ -35799,7 +35805,8 @@
       (=cns11643-7	  . #x4661)	; &C7-4661; [38-65]
       (=daikanwa	  . 08612)	; &I-M-08612;
       )
-     ((=ucs@jis		  . #x9689)	; &AJ1-19962;
+     ((=ucs@cns		  . #x9689)	; &AJ1-19962;
+      (=ucs@jis		  . #x9689)	; &AJ1-19962;
       (=adobe-japan1-5	  . 19962)	; &AJ1-19962;
       (=daikanwa	  . 41749)	; &I-M-41749;
       ))
@@ -46888,7 +46895,8 @@
     (=koseki		. 174080)	; &MJ014391;
     (=daikanwa		. 15383)	; &I-M-15383;
     (<-formed
-     ((=ucs@jis		  . #x9689)	; &AJ1-19962;
+     ((=ucs@cns		  . #x9689)	; &AJ1-19962;
+      (=ucs@jis		  . #x9689)	; &AJ1-19962;
       (=adobe-japan1-5	  . 19962)	; &AJ1-19962;
       )
      ((=ucs		  . #x95D1)	; 闑
@@ -46907,7 +46915,8 @@
     (<-formed$_4*sources
      jiyun)
     (<-interchangeable
-     ((=ucs@jis		  . #x9689)	; &AJ1-19962;
+     ((=ucs@cns		  . #x9689)	; &AJ1-19962;
+      (=ucs@jis		  . #x9689)	; &AJ1-19962;
       (=adobe-japan1-5	  . 19962)	; &AJ1-19962;
       (=daikanwa	  . 41749)	; &I-M-41749;
       )
@@ -70005,8 +70014,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs@unicode	  . #x67D4)	; &AJ1-02378;
-      (=adobe-japan1-0	  . 02378)	; &AJ1-02378;
+     ((=ucs		  . #x67D4)	; 柔
       )
      ((=ucs@JP/hanazono	  . #x21569)	; &hanaJU+21569;
       ))

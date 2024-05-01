@@ -13466,6 +13466,7 @@
   '((ideographic-radical . 46)	; ⼭
     (ideographic-strokes . 8)
     (total-strokes	 . 11)
+    (sound@ja/on	"to")
     (=ucs 		. #x21E7B)	; 𡹻
     ))
 (define-char
@@ -13475,15 +13476,32 @@
     (ideographic-radical . 46)	; ⼭
     (ideographic-strokes . 8)
     (total-strokes	 . 11)
-    (=ucs@iso		. #x21E7B)	; &C6-3E7A;
-    (=cns11643-6	. #x3E7A)	; &C6-3E7A; [30-90]
-    (=daikanwa 		. 08223)	; &I-M-08223;
+    (=ucs@iso 		. #x21E7B)	; &MJ034676;
+    (=mj		. 034676)	; &MJ034676;
+    (=cns11643-6	. #x3E7A)	; &I-C6-3E7A; [30-90]
+    (=koseki		. 093100)	; &MJ034676;
+    (=daikanwa		. 08223)	; &I-M-08223;
+    (<-formed
+     ((=ucs@unicode	. #x5D80)	; &M-08403;
+      (=daikanwa	  . 08403)	; &M-08403;
+      ))
+    (<-formed$_1*sources
+     jiyun)
+    (<-same
+     ((=daikanwa 	  . 08403)	; &M-08403;
+      ))
+    (<-same*sources
+     jiyun daikanwa)
     (->subsumptive
-     ((==ucs@iso	  . #x21E7B)	; &g2-M-08223;
-      (==cns11643-6	  . #x3E7A)	; &g2-M-08223; [30-90]
-      (==daikanwa	  . 08223)	; &g2-M-08223;
+     ((==ucs@iso	  . #x21E7B)	; &g2-MJ034676;
+      (==mj		  . 034676)	; &g2-MJ034676;
+      (==cns11643-6	  . #x3E7A)	; &g2-MJ034676; [30-90]
+      (==koseki		  . 093100)	; &g2-MJ034676;
+      (==daikanwa	  . 08223)	; &g2-MJ034676;
       (->subsumptive
        ((===daikanwa	    . 08223)	; &R-M-08223;
+	)
+       ((===mj		    . 034676)	; &R-MJ034676;
 	)
        ((===cns11643-6	    . #x3E7A)	; &R-C6-3E7A; [30-90]
 	)
@@ -13656,6 +13674,7 @@
       )
      ((=ucs		  . #x708F)	; 炏
       ))
+    (sound@ja/on	"sei")
     (=ucs		. #x21E56)	; 𡹖
     ))
 (define-char
@@ -13673,13 +13692,19 @@
       )
      ((=ucs		  . #x708F)	; 炏
       ))
-    (=ucs@iso		. #x21E56)	; &M-08237;
-    (=daikanwa 		. 08237)	; &M-08237;
+    (=ucs@iso		. #x21E56)	; &MJ034651;
+    (=mj		. 034651)	; &MJ034651;
+    (=koseki		. 093230)	; &MJ034651;
+    (=daikanwa		. 08237)	; &I-M-08237;
     (->subsumptive
-     ((==ucs@iso	  . #x21E56)	; &g2-M-08237;
-      (==daikanwa	  . 08237)	; &g2-M-08237;
+     ((==ucs@iso	  . #x21E56)	; &g2-MJ034651;
+      (==mj		  . 034651)	; &g2-MJ034651;
+      (==koseki		  . 093230)	; &g2-MJ034651;
+      (==daikanwa	  . 08237)	; &g2-MJ034651;
       (->subsumptive
        ((===daikanwa	    . 08237)	; &R-M-08237;
+	)
+       ((===mj		    . 034651)	; &R-MJ034651;
 	)
        ((===ucs@iso	    . #x21E56)	; &R-U-00021E56;
 	))
@@ -15845,6 +15870,8 @@
       )
      ((=ucs		  . #x6031)	; 怱
       ))
+    (sound@ja/on/go	"su")
+    (sound@ja/on/kan	"sou")
     (=ucs		. #x21E78)	; 𡹸
     ))
 (define-char
@@ -15863,15 +15890,21 @@
      ((=ucs@unicode	  . #x6031)	; &AJ1-04815;
       (=adobe-japan1-0	  . 04815)	; &AJ1-04815;
       ))
-    (=ucs@iso		. #x21E78)	; &C5-3772;
-    (=cns11643-5	. #x3772)	; &C5-3772; [23-82]
-    (=daikanwa 		. 08288)	; &I-M-08288;
+    (=ucs@iso		. #x21E78)	; &MJ034673;
+    (=mj		. 034673)	; &MJ034673;
+    (=cns11643-5	. #x3772)	; &I-C5-3772; [23-82]
+    (=koseki		. 093820)	; &MJ034673;
+    (=daikanwa		. 08288)	; &I-M-08288;
     (->subsumptive
-     ((==ucs@iso	  . #x21E78)	; &g2-M-08288;
-      (==cns11643-5	  . #x3772)	; &g2-M-08288; [23-82]
-      (==daikanwa	  . 08288)	; &g2-M-08288;
+     ((==ucs@iso	  . #x21E78)	; &g2-MJ034673;
+      (==mj		  . 034673)	; &g2-MJ034673;
+      (==cns11643-5	  . #x3772)	; &g2-MJ034673; [23-82]
+      (==koseki		  . 093820)	; &g2-MJ034673;
+      (==daikanwa	  . 08288)	; &g2-MJ034673;
       (->subsumptive
        ((===daikanwa	    . 08288)	; &R-M-08288;
+	)
+       ((===mj		    . 034673)	; &R-MJ034673;
 	)
        ((===cns11643-5	    . #x3772)	; &R-C5-3772; [23-82]
 	)
@@ -19901,7 +19934,7 @@
     (->subsumptive
      ((=ucs@unicode	  . #x5D80)	; &M-08403;
       (=big5		  . #xE1A4)	; &M-08403;
-      (=daikanwa	  . 08403)	; &I-M-08403;
+      (=daikanwa	  . 08403)	; &M-08403;
       (=jef-china3	  . #x8CD2)	; &I-JC3-8CD2;
       )
      ((=ucs@cns		  . #x5D80)	; &C2-4969;
@@ -24786,7 +24819,8 @@
 	)
        ((=ucs		    . #x5C71)	; 山
 	)
-       ((=ucs@jis	    . #x9697)	; &AJ1-07106;
+       ((=ucs@cns	    . #x9697)	; &AJ1-07106;
+	(=ucs@jis	    . #x9697)	; &AJ1-07106;
 	(=adobe-japan1-0    . 07106)	; &AJ1-07106;
 	))
       (=ucs@cns		  . #x3815)	; &C5-5436;

@@ -11,6 +11,7 @@
       )
      ((=>ucs@component	  . #x4E3F)	; &A-compU+4E3F;
       ))
+    (sound@ja/on	"si")
     (=ucs		. #x21C23)	; 𡰣
     ))
 (define-char
@@ -31,7 +32,25 @@
     (=ucs@iso		. #x21C23)	; &C6-213E;
     (=cns11643-6	. #x213E)	; &C6-213E; [01-30]
     (=big5-cdp		. #x86BA)	; &I-CDP-86BA;
-    (=daikanwa 		. 07629)	; &I-M-07629;
+    (=daikanwa		. 07629)	; &I-M-07629;
+    (<-interchangeable
+     ((=ucs@unicode	. #x9CF2)	; &JX2-7E22;
+      (=daikanwa	  . 46667)	; &JX2-7E22;
+      ))
+    (<-interchangeable$_1*sources
+     shiwen daikanwa)
+    (<-interchangeable*sources
+     shiwen daikanwa)
+    (<-original
+     ((=ucs		. #x5C38)	; 尸
+      (=daikanwa	  . 07630)	; 尸
+      ))
+    (<-original*sources
+     daikanwa)
+    (->Bopomofo
+     ((name		  . "BOPOMOFO LETTER SH")
+      (=ucs		  . #x3115)	; ㄕ
+      ))
     (->subsumptive
      ((==ucs@iso	  . #x21C23)	; &g2-CDP-86BA;
       (==cns11643-6	  . #x213E)	; &g2-CDP-86BA; [01-30]
@@ -67,7 +86,12 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((==>daijiten	  . 02469)	; &A2-DJT-02469;
+     ((ideographic-radical . 44)	; ⼫
+      (==>daijiten	  . 02469)	; &A2-DJT-02469;
+      (==>ucs@bucs	. #x5C38)	; &BUCS+5C38;
+      )
+     ((ideographic-radical . 44)	; ⼫
+      (==>ucs@bucs	. #x5C4D)	; &BUCS+5C4D;
       ))
     (ideographic-radical . 44)	; ⼫
     (ideographic-strokes . 0)
@@ -83,7 +107,7 @@
     (=gt		. 09615)	; &I-GT-09615;
     (=gt-k		. 00223)	; &I-GT-K00223;
     (=gt-pj-1		. #x5579)	; &I-GT-09615; [53-89]
-    (=daikanwa		. 07630)	; &I-M-07630;
+    (=daikanwa 		. 07630)	; 尸
     (=daijiten		. 02469)	; &I-DJT-02469;
     (=shinjigen		.  1918)	; 尸
     (->subsumptive
@@ -5584,6 +5608,8 @@
      ((=>ucs@component	  . #x81FF)	; &A-compU+81FF;
       (=>iwds-1		  .  0098)	; &A-compU+81FF;
       ))
+    (sound@ja/on/go	"sIHu" "sEHu" "sEHu")
+    (sound@ja/on/kan	"sIHu" "sEHu" "sAHu")
     (=ucs		. #x379A)	; 㞚
     ))
 (define-char
@@ -5606,15 +5632,21 @@
       (=jis-x0213-2	  . #x755C)	; &I-JX2-755C; [85-60]
       (=daikanwa	  . 30180)	; &I-M-30180;
       ))
-    (=ucs@cns		. #x379A)	; &C4-372B;
-    (=cns11643-4	. #x372B)	; &C4-372B; [23-11]
-    (=daikanwa 		. 07749)	; &I-M-07749;
+    (=ucs@cns		. #x379A)	; &MJ000809;
+    (=mj		. 000809)	; &I-MJ000809;
+    (=cns11643-4	. #x372B)	; &MJ000809; [23-11]
+    (=koseki		. 088020)	; &MJ000809;
+    (=daikanwa		. 07749)	; &I-M-07749;
     (->subsumptive
-     ((==ucs@cns	  . #x379A)	; &g2-M-07749;
-      (==cns11643-4	  . #x372B)	; &g2-M-07749; [23-11]
-      (==daikanwa	  . 07749)	; &g2-M-07749;
+     ((==ucs@cns	  . #x379A)	; &g2-MJ000809;
+      (==mj		  . 000809)	; &g2-MJ000809;
+      (==cns11643-4	  . #x372B)	; &g2-MJ000809; [23-11]
+      (==koseki		  . 088020)	; &g2-MJ000809;
+      (==daikanwa	  . 07749)	; &g2-MJ000809;
       (->subsumptive
        ((===daikanwa	    . 07749)	; &R-M-07749;
+	)
+       ((===mj		    . 000809)	; &R-MJ000809;
 	)
        ((===cns11643-4	    . #x372B)	; &R-C4-372B; [23-11]
 	))

@@ -9267,7 +9267,7 @@
   '((<-denotational@usage
      ((==>ucs@bucs	  . #x6641)	; &BUCS+6641;
       )
-     ((==>daijiten	  . 04696)	; &A2-DJT-04696;
+     ((==>ucs@bucs	  . #x671D)	; &BUCS+671D;
       ))
     (ideographic-radical . 72)	; ⽇
     (ideographic-strokes . 6)
@@ -9291,9 +9291,13 @@
     (ideographic-strokes . 6)
     (total-strokes	 . 10)
     (ideographic-structure
-     ?⿱
-     ?日
-     ?兆)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x65E5)	; 日
+      )
+     ((=ucs		  . #x5146)	; 兆
+      ))
     (=ucs@unicode	. #x6641)	; &AJ1-05103;
     (=adobe-japan1-0	. 05103)	; &AJ1-05103;
     (=jis-x0208		. #x5A6A)	; &I-J90-5A6A; [58-74]
@@ -9305,12 +9309,13 @@
     (=gt		. 17591)	; &I-GT-17591;
     (=gt-k		. 06600)	; &I-GT-K06600;
     (=gt-pj-1		. #x5A6A)	; &I-GT-17591; [58-74]
-    (=daikanwa 		. 13889)	; &I-M-13889;
+    (=daikanwa		. 13889)	; &I-M-13889;
     (=daijiten		. 04522)	; &I-DJT-04522;
     (=shinjigen@1ed	.  3326)	; &AJ1-05103;
     (=shinjigen@rev	.  3328)	; &AJ1-05103;
     (<-ancient
-     ((=daijiten		. 04696)	; &I-DJT-04696;
+     ((=mj		  . 013557)	; &MJ013557;
+      (=daijiten	  . 04696)	; &MJ013557;
       ))
     (<-ancient*sources
      daijiten)

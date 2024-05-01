@@ -3402,39 +3402,64 @@
 (define-char
   '((ideographic-radical . 64)	; ⼿
     (ideographic-structure
-     ?⿰
-     ?扌
-     ((=>ucs@iwds-1	. #x6534)	; &A-IWDSU+6534;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x624C)	; 扌
+      )
+     ((=>ucs@iwds-1	  . #x6534)	; &A-IWDSU+6534;
+      (=>iwds-1		  .  45924)	; &A-IWDSU+6534;
       ))
-    (=>ucs@iwds-1		. #x22A8A)	; 𢪊
+    (=>ucs@iwds-1	. #x22A8A)	; &A-IWDSU+22A8A;
     ))
 (define-char
   '((<-denotational
-     ((=>ucs@iwds-1		. #x22A8A)	; 𢪊
+     ((=>ucs@iwds-1	  . #x22A8A)	; &A-IWDSU+22A8A;
       ))
     (ideographic-radical . 64)	; ⼿
     (ideographic-structure
-     ?⿰
-     ?扌
-     ?攴)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x624C)	; 扌
+      )
+     ((=ucs		  . #x6534)	; 攴
+      ))
     (=ucs		. #x22A8A)	; 𢪊
     ))
 (define-char
-  '((ideographic-radical . 64)	; ⼿
-    (<-denotational
-     ((=ucs		. #x22A8A)	; 𢪊
+  '((<-denotational
+     ((=ucs		  . #x22A8A)	; 𢪊
       ))
+    (ideographic-radical . 64)	; ⼿
     (ideographic-strokes . 4)
     (total-strokes	 . 7)
     (hanyu-dazidian	3 1836 5)
-    (=ucs@iso		. #x22A8A)	; 𢪊
-    (=cns11643-4	. #x2438)	; &I-C4-2438; [04-24]
-    (=daikanwa		. 11856)	; &I-M-11856;
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x624C)	; 扌
+      )
+     ((=ucs@unicode	  . #x6534)	; &AJ1-05058;
+      (=adobe-japan1-0	  . 05058)	; &AJ1-05058;
+      ))
+    (=ucs@iso		. #x22A8A)	; &C4-2438;
+    (=cns11643-4	. #x2438)	; &C4-2438; [04-24]
+    (=daikanwa 		. 11856)	; &I-M-11856;
     (->subsumptive
-     ((==ucs@iso		. #x22A8A)	; 𢪊
-      (==cns11643-4	. #x2438)	; &I-C4-2438; [04-24]
-      (==daikanwa		. 11856)	; &I-M-11856;
-      (=hanziku-5		. #xD06C)	; &I-HZK05-D06C;
+     ((==ucs@iso	  . #x22A8A)	; &g2-M-11856;
+      (==cns11643-4	  . #x2438)	; &g2-M-11856; [04-24]
+      (==daikanwa	  . 11856)	; &g2-M-11856;
+      (->subsumptive
+       ((===daikanwa	    . 11856)	; &R-M-11856;
+	)
+       ((===cns11643-4	    . #x2438)	; &R-C4-2438; [04-24]
+	)
+       ((===ucs@iso	    . #x22A8A)	; &R-U-00022A8A;
+	)
+       ((=hanziku-5	    . #xD06C)	; &HZK05-D06C;
+	))
       ))
     ))
 (define-char
@@ -35843,7 +35868,8 @@
     (=koseki		. 142280)	; &MJ012717;
     (=daikanwa		. 12633)	; &I-M-12633;
     (<-formed
-     ((=ucs@jis		  . #x9689)	; &AJ1-19962;
+     ((=ucs@cns		  . #x9689)	; &AJ1-19962;
+      (=ucs@jis		  . #x9689)	; &AJ1-19962;
       (=adobe-japan1-5	  . 19962)	; &AJ1-19962;
       ))
     (<-formed*sources
@@ -35856,7 +35882,8 @@
     (<-interchangeable*sources
      zhouli-zhu daikanwa)
     (<-same
-     ((=ucs@jis		  . #x9689)	; &AJ1-19962;
+     ((=ucs@cns		  . #x9689)	; &AJ1-19962;
+      (=ucs@jis		  . #x9689)	; &AJ1-19962;
       (=adobe-japan1-5	  . 19962)	; &AJ1-19962;
       (=daikanwa	  . 41749)	; &I-M-41749;
       )
@@ -42060,7 +42087,15 @@
      ((=>ucs@iwds-1	  . #x22D4E)	; &A-IWDSU+22D4E;
       ))
     (ideographic-radical . 64)	; ⼿
-    (=ucs  		. #x22D47)	; 𢵇
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x624C)	; 扌
+      )
+     ((=>ucs-itaiji-005	  . #x7F95)	; &A-U-i005+7F95;
+      ))
+    (=ucs		. #x22D47)	; 𢵇
     ))
 (define-char
   '((<-denotational
@@ -42070,7 +42105,15 @@
     (ideographic-strokes . 12)
     (total-strokes	 . 15)
     (hanyu-dazidian	3 1953 7)
-    (=ucs@iso 		. #x22D47)	; &U-00022D47;
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x624C)	; 扌
+      )
+     ((=ucs-itaiji-005	  . #x7F95)	; &U-i005+7F95;
+      ))
+    (=ucs@iso		. #x22D47)	; &U-00022D47;
     (->subsumptive
      ((==ucs@iso	  . #x22D47)	; &g2-IU-00022D47;
       (->subsumptive
@@ -50279,7 +50322,8 @@
       )
      ((=ucs		  . #x624C)	; 扌
       )
-     ((=cns11643-3	  . #x5027)	; &C3-5027; [48-07]
+     ((=ucs@cns		  . #x9CF8)	; &C3-5027;
+      (=cns11643-3	  . #x5027)	; &C3-5027; [48-07]
       (=daikanwa	  . 46687)	; &I-M-46687;
       ))
     (=ucs@iso		. #x22E10)	; &U-00022E10;
