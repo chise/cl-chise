@@ -1,3 +1,51 @@
+2024-05-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* Sync up with the current snapshot [2024-05-01 12:00 JST].
+
+	M	char-defs/Ideograph-R005-Second.el
+	M	char-defs/Ideograph-R010-Legs.el
+	M	char-defs/Ideograph-R027-Cliff.el
+	M	char-defs/Ideograph-R028-Private.el
+	M	char-defs/Ideograph-R030-Mouth.el
+	M	char-defs/Ideograph-R038-Woman.el
+	M	char-defs/Ideograph-R039-Child.el
+	M	char-defs/Ideograph-R041-Inch.el
+	M	char-defs/Ideograph-R042-Small.el
+	M	char-defs/Ideograph-R044-Corpse.el
+	M	char-defs/Ideograph-R046-Mountain.el
+	M	char-defs/Ideograph-R064-Hand.el
+	M	char-defs/Ideograph-R066-Rap.el
+	M	char-defs/Ideograph-R072-Sun.el
+	M	char-defs/Ideograph-R074-Moon.el
+	M	char-defs/Ideograph-R075-Tree.el
+	M	char-defs/Ideograph-R096-Jade.el
+	M	char-defs/Ideograph-R102-Field.el
+	M	char-defs/Ideograph-R109-Eye.el
+	M	char-defs/Ideograph-R119-Rice.el
+	M	char-defs/Ideograph-R123-Sheep.el
+	M	char-defs/Ideograph-R130-Meat.el
+	M	char-defs/Ideograph-R134-Mortar.el
+	M	char-defs/Ideograph-R137-Boat.el
+	M	char-defs/Ideograph-R142-Insect.el
+	M	char-defs/Ideograph-R145-Clothes.el
+	M	char-defs/Ideograph-R146-West.el
+	M	char-defs/Ideograph-R148-Horn.el
+	M	char-defs/Ideograph-R149-Speech.el
+	M	char-defs/Ideograph-R162-Walk.el
+	M	char-defs/Ideograph-R195-Fish.el
+	M	char-defs/Ideograph-R196-Bird.el
+	M	char-defs/ruimoku6.el
+	M	char-defs/u02E00-CJK-Radical-Supplement.el
+
+2024-04-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* entity-ref.lisp: New file.
+
+	* cl-chise.asd: Add setting for entity-ref.lisp.
+
+	* loadup-char-defs.lisp: Add setting of a read-macro to support
+	Emacs Lisp style characters and entity references of XEmacs CHISE.
+
 2024-04-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* cl-chise.lisp: Export `char-spec'.
