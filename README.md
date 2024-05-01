@@ -43,6 +43,7 @@ onwards, it will start immediately to use the character ontology
 installed in Redis or Valkey database number 3.
 
 If you want to clear the installed character ontology:
+
 ```
 % redis-cli
 
