@@ -1,5 +1,9 @@
 2024-05-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* README.md: Add `Installation' and `Usage'.
+
+2024-05-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* Sync up with the current snapshot [2024-05-01 12:00 JST].
 
 	M	char-defs/Ideograph-R005-Second.el
