@@ -765,6 +765,12 @@
 	    (setq ccs-base "ucs@jis/1990")
 	    (setq plane nil)
 	    )
+	   ((and (setq pos (search "U-" str))
+		 (setq code (parse-integer str :start (+ pos 2) :radix 16
+					       :junk-allowed t)))
+	    (setq ccs-base "ucs@iso")
+	    (setq plane nil)
+	    )
 	   ((and (setq pos (search "IU+" str))
 		 (setq code (parse-integer str :start (+ pos 3) :radix 16
 					       :junk-allowed t)))
