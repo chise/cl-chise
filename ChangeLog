@@ -1,3 +1,65 @@
+2024-05-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* Sync up with the current snapshot [2024-05-15 17:30 JST].
+
+	M	char-defs/Ideograph-R002-Line.el
+	M	char-defs/Ideograph-R008-Lid.el
+	M	char-defs/Ideograph-R009-Man.el
+	M	char-defs/Ideograph-R012-Eight.el
+	M	char-defs/Ideograph-R027-Cliff.el
+	M	char-defs/Ideograph-R030-Mouth.el
+	M	char-defs/Ideograph-R032-Earth.el
+	M	char-defs/Ideograph-R033-Scholar.el
+	M	char-defs/Ideograph-R044-Corpse.el
+	M	char-defs/Ideograph-R046-Mountain.el
+	M	char-defs/Ideograph-R050-Turban.el
+	M	char-defs/Ideograph-R052-Short-Thread.el
+	M	char-defs/Ideograph-R061-Heart.el
+	M	char-defs/Ideograph-R064-Hand.el
+	M	char-defs/Ideograph-R074-Moon.el
+	M	char-defs/Ideograph-R075-Tree.el
+	M	char-defs/Ideograph-R080-Do-Not.el
+	M	char-defs/Ideograph-R096-Jade.el
+	M	char-defs/Ideograph-R102-Field.el
+	M	char-defs/Ideograph-R108-Dish.el
+	M	char-defs/Ideograph-R114-Track.el
+	M	char-defs/Ideograph-R117-Stand.el
+	M	char-defs/Ideograph-R123-Sheep.el
+	M	char-defs/Ideograph-R140-Grass.el
+	M	char-defs/Ideograph-R145-Clothes.el
+	M	char-defs/Ideograph-R147-See.el
+	M	char-defs/Ideograph-R148-Horn.el
+	M	char-defs/Ideograph-R149-Speech.el
+	M	char-defs/Ideograph-R150-Valley.el
+	M	char-defs/Ideograph-R151-Bean.el
+	M	char-defs/Ideograph-R152-Pig.el
+	M	char-defs/Ideograph-R154-Shell.el
+	M	char-defs/Ideograph-R155-Red.el
+	M	char-defs/Ideograph-R158-Body.el
+	M	char-defs/Ideograph-R162-Walk.el
+	M	char-defs/Ideograph-R164-Wine.el
+	M	char-defs/Ideograph-R170-Mound.el
+	M	char-defs/Ideograph-R195-Fish.el
+	M	char-defs/Ideograph-R196-Bird.el
+	M	char-defs/ruimoku6.el
+	M	char-defs/u02E00-CJK-Radical-Supplement.el
+	M	char-defs/u03100-Bopomofo.el
+
+2024-05-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* loadup-char-defs.lisp (*system-char-db-source-file-list*): Add
+	"u0FE00-Variation-Selectors" and
+	"uE0100-Variation-Selectors-Supplement"; load non-Ideographs
+	before Ideographs will be defined.
+
+	* char-defs/u0FE00-Variation-Selectors.el: New file.
+
+	* char-defs/uE0100-Variation-Selectors-Supplement.el: New file.
+
+2024-05-14  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* entity-ref.lisp (read-entity-reference): Support "&U-hhhhhhhh;".
+
 2024-05-01  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* cl-chise.asd (version): Update to "0.3".
