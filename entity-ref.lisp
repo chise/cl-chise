@@ -1,7 +1,7 @@
 (in-package :chise)
 
 (defun read-entity-reference (in)
-  (when (eql (peek-char nil in) #\&)
+  (when (eql (peek-char nil in nil) #\&)
     (let ((str "")
 	  char flag pos code
 	  ccs-base prefix plane)
@@ -874,7 +874,13 @@
 			 (chise:decode-char (format nil "~ashinjigen" prefix)
 					    code)
 			 )
-			)))
+			(t
+			 (chise:define-char
+			     (list (cons (format nil "~a~a~a"
+						 prefix ccs-base
+						 (or plane ""))
+					 code)))
+			 ))))
 	     (concatenate 'string str ";"))
 	 )
 	(t
