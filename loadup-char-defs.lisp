@@ -862,8 +862,44 @@
 	"ruimoku6"
 	"additional-precomposed"))
 
+(defvar *ids-source-file-list*)
+(setq *ids-source-file-list*
+      '("IDS-UCS-Basic.txt"
+	"IDS-UCS-Ext-A.txt"
+	"IDS-UCS-Ext-B-1.txt"
+	"IDS-UCS-Ext-B-2.txt"
+	"IDS-UCS-Ext-B-3.txt"
+	"IDS-UCS-Ext-B-4.txt"
+	"IDS-UCS-Ext-B-5.txt"
+	"IDS-UCS-Ext-B-6.txt"
+	"IDS-UCS-Ext-C.txt"
+	"IDS-UCS-Ext-D.txt"
+	"IDS-UCS-Ext-E.txt"
+	"IDS-UCS-Ext-F.txt"
+	"IDS-UCS-Ext-G.txt"
+	"IDS-UCS-Ext-H.txt"
+	"IDS-UCS-Ext-I.txt"
+	"IDS-UCS-Compat.txt"
+	"IDS-UCS-Compat-Supplement.txt"))
+
 (unless (eq (get-char-attribute #\U2A6D6 '=ucs) #x2A6D6)
   (dolist (file *system-char-db-source-file-list*)
     (format t "Loading ~a...~%" file)
     (load (merge-pathnames (concatenate 'string "char-defs/" file ".el")
-			   (asdf:system-source-directory :cl-chise)))))
+			   (asdf:system-source-directory :cl-chise))))
+
+  (let ((ids-dir (merge-pathnames
+		  "ids/"
+		  (asdf:system-source-directory :cl-chise))))
+    (when (fboundp 'sb-ext:run-program)
+      (sb-ext:run-program
+       "/usr/bin/git"
+       (list "clone"
+	     "https://gitlab.chise.org/CHISE/ids.git"
+	     (format nil "~a" ids-dir))
+       :output *standard-output*))
+
+    (when (directory ids-dir)
+      (dolist (file *ids-source-file-list*)
+	(ids-read-file (merge-pathnames file ids-dir) :prompt t)))
+    ))
