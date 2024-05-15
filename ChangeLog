@@ -1,5 +1,9 @@
 2024-05-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* cl-chise.lisp: Import `=ucs' from package `concord'; export
+	`encode-char'.
+	(encode-char): New function.
+
 	* Sync up with the current snapshot [2024-05-15 17:30 JST].
 
 	M	char-defs/Ideograph-R002-Line.el
