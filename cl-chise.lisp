@@ -4,8 +4,9 @@
 
 (defpackage :chise
   (:use :cl)
+  (:import-from :concord :=ucs)
   (:export
-   :decode-char
+   :decode-char :encode-char
    :get-char-attribute :put-char-attribute
    :define-char :char-spec
    :metadata-feature-name-p
@@ -33,6 +34,9 @@
   (if (characterp character)
       (setq character (concord:object :character (char-code character))))
   (concord:object-get character attribute))
+
+(defun encode-char (character ccs)
+  (get-char-attribute character ccs))
 
 (defun decode-char (ccs code-point)
   (let (ret)
