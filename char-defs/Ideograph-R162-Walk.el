@@ -14248,7 +14248,7 @@
   '((<-denotational@usage
      ((ideographic-radical . 162)	; ⾡
       (==>ucs@bucs	. #x9010)	; &BUCS+9010;
-      (==>daijiten	. 11993)	; &A2-DJT-11993;
+      (==>daijiten	. 11993)	; &BUCS+9010;
       ))
     (ideographic-radical . 162)	; ⾡
     (ideographic-strokes . 7)
@@ -14274,7 +14274,7 @@
     (=ks-x1001		. #x756F)	; &M-38877; [85-79]
     (=daikanwa		. 38877)	; &I-M-38877;
     (=daijiten		. 11993)	; &I-DJT-11993;
-    (=jef-china3	. #x67C3)	; &JC3-67C3;
+    (=jef-china3	. #x67C3)	; &M-38877;
     (<-same
      ((=ucs@jis		  . #x9C41)	; &JX1-7E51;
       (=jis-x0212	  . #x6B3C)	; &JX1-7E51; [75-28]
@@ -14295,7 +14295,7 @@
       (==ks-x1001	  . #x756F)	; &g2-M-38877; [85-79]
       (==daikanwa	  . 38877)	; &g2-M-38877;
       (==daijiten		. 11993)	; &I-DJT-11993;
-      (==jef-china3	. #x67C3)	; &JC3-67C3;
+      (==jef-china3	. #x67C3)	; &M-38877;
       (->subsumptive
        ((===daikanwa	    . 38877)	; &R-M-38877;
 	)
@@ -18588,7 +18588,7 @@
       )
      ((=ucs		. #x6765)	; 来
       ))
-    (=>ucs-itaiji-001	. #x9028)	; &BUCS+4E01;
+    (=>ucs-itaiji-001	. #x9028)	; 雦
     ))
 (define-char
   '((ideographic-radical . 162)	; ⾡
@@ -31381,6 +31381,52 @@
     (<-formed
      ((=ucs		  . #x906D)	; 遭
       ))
+    ))
+(define-char
+  '((ideographic-radical . 162)	; ⾡
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER LEFT")
+      (=ucs		  . #x2FFA)	; ⿺
+      )
+     ((=ucs		  . #x8FB6)	; 辶
+      )
+     ((=>ucs-itaiji-003	. #x7280)	; 犀
+      ))
+    (=>ucs-itaiji-002	. #x9072)	; 雦
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-002 . #x9072)
+      ))
+    (ideographic-radical . 162)	; ⾡
+    (ideographic-strokes . 10)
+    (total-strokes	 . 14)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER LEFT")
+      (=ucs		  . #x2FFA)	; ⿺
+      )
+     ((=ucs		. #x2ECD)	; ⻍
+      )
+     ((=ucs-itaiji-003	. #x7280)	; 犀
+      ))
+    (=ucs-itaiji-002	. #x9072)	; 遲
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-002 . #x9072)
+      ))
+    (ideographic-radical . 162)	; ⾡
+    (ideographic-strokes . 10)
+    (total-strokes	 . 13)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER LEFT")
+      (=ucs		  . #x2FFA)	; ⿺
+      )
+     ((=ucs		. #x2ECC)	; ⻌
+      )
+     ((=ucs-itaiji-003	. #x7280)	; 犀
+      ))
+    (=ucs-itaiji-003	. #x9072)	; &U-i003+9072;
     ))
 (define-char
   '((ideographic-radical . 162)	; ⾡

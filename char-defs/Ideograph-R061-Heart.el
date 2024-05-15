@@ -906,7 +906,8 @@
     (=daijiten		. 03183)	; &I-DJT-03183;
     (=shinjigen		.  2394)	; &AJ1-01587;
     (<-formed
-     ((=ucs@unicode	  . #x5176)	; 其
+     ((=ucs@unicode	  . #x5176)	; &AJ1-02838;
+      (=adobe-japan1-0	  . 02838)	; &AJ1-02838;
       ))
     (<-formed$_1*sources
      jingzhuanshici)
@@ -6103,11 +6104,50 @@
     ))
 (define-char
   '((ideographic-radical . 61)	; ⼼
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5FC4)	; 忄
+      )
+     ((=>ucs@component	  . #x6BCB)	; &A-compU+6BCB;
+      (=>iwds-1		  .  0182)	; &A-compU+6BCB;
+      ))
+    (=ucs		. #x22603)	; 𢘃
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x22603)	; 𢘃
+      ))
+    (ideographic-radical . 61)	; ⼼
     (ideographic-strokes . 5)
     (total-strokes	 . 8)
-    (=ucs		. #x22603)	; 𢘃
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5FC4)	; 忄
+      )
+     ((=ucs		  . #x6BCD)	; 母
+      ))
+    (=ucs@iso		. #x22603)	; &C4-264B;
     (=cns11643-4	. #x264B)	; &I-C4-264B; [06-43]
-    (=daikanwa		. 10442)	; &I-M-10442;
+    (=daikanwa 		. 10442)	; &C4-264B;
+    (<-ancient
+     ((=ucs		  . #xFA30)	; 侮
+      ))
+    (->subsumptive
+     ((==ucs@iso	  . #x22603)	; &g2-M-10442;
+      (==cns11643-4	  . #x264B)	; &g2-M-10442; [06-43]
+      (==daikanwa	  . 10442)	; &g2-M-10442;
+      (->subsumptive
+       ((===daikanwa	    . 10442)	; &R-M-10442;
+	)
+       ((===cns11643-4	    . #x264B)	; &R-C4-264B; [06-43]
+	)
+       ((===ucs@iso	    . #x22603)	; &R-U-00022603;
+	))
+      ))
     ))
 (define-char
   '((<-denotational@component

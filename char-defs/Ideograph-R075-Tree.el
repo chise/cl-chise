@@ -10595,7 +10595,6 @@
      ((=ucs		  . #x6728)	; 木
       ))
     (=ucs		. #x67D4)	; 柔
-    (=ucs		. #x67D4)	; 柔
     (=ucs@unicode 	. #x67D4)	; 柔
     (=adobe-japan1-0	. 02378)	; &I-AJ1-02378;
     (=jis-x0208		. #x3D40)	; &I-J90-3D40; [29-32]
@@ -22016,8 +22015,11 @@
       (=cns11643-3	  . #x4C63)	; &C3-4C63; [44-67]
       (=daikanwa	  . 15456)	; &I-M-15456;
       )
-     ((=ucs@unicode	  . #x9D1E)	; 鴞
-      (=daikanwa	  . 46803)	; &I-M-46803;
+     ((=ucs@unicode	  . #x9D1E)	; &JX1-7E59;
+      (=jis-x0212	  . #x6B64)	; &I-JSP-6B64; [75-68]
+      (=cns11643-2	  . #x5C32)	; &I-C2-5C32; [60-18]
+      (=jis-x0213-1	  . #x7E59)	; &I-JX1-7E59; [94-57]
+      (=daikanwa 	  . 46803)	; &JX1-7E59;
       ))
     (<-same$_1*sources
      shuowen-zhu zhengzitong daikanwa)
@@ -22026,12 +22028,11 @@
     (<-same*sources
      shuowen-zhu zhengzitong daikanwa)
     (->formed
-     ((=ucs@unicode	  . #x9D1E)	; 鴞
-      (=ucs@unicode	  . #x9D1E)	; &JX1-7E59;
-      (=jis-x0212	  . #x6B64)	; &JX1-7E59; [75-68]
+     ((=ucs@unicode	  . #x9D1E)	; &JX1-7E59;
+      (=jis-x0212	  . #x6B64)	; &I-JSP-6B64; [75-68]
       (=cns11643-2	  . #x5C32)	; &I-C2-5C32; [60-18]
       (=jis-x0213-1	  . #x7E59)	; &I-JX1-7E59; [94-57]
-      (=daikanwa	  . 46803)	; &I-M-46803;
+      (=daikanwa 	  . 46803)	; &JX1-7E59;
       ))
     (->formed$_1*sources
      shuowen-zhu)

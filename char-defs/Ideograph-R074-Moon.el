@@ -3946,8 +3946,8 @@
     (=mj		. 013557)	; &MJ013557;
     (=adobe-japan1-4	. 13931)	; &I-AJ1-13931;
     (=hanyo-denshi/jt	. #xB2EC)	; &I-HD-JT-B2EC;
-    (=daikanwa 		. 14374)	; &I-M-14374;
-    (=daijiten		. 04696)	; &MJ013557;
+    (=daikanwa		. 14374)	; &I-M-14374;
+    (=daijiten		. 04696)	; &I-DJT-04696;
     (=shinjigen@1ed	.  3449)	; &MJ013557;
     (=shinjigen@rev	.  3450)	; &MJ013557;
     (=jef-china3	. #x52AF)	; &I-JC3-52AF;
@@ -5452,7 +5452,7 @@
     (=daijiten		. 04700)	; &I-DJT-04700;
     (<-same
      ((=mj		  . 013557)	; &MJ013557;
-      (=daijiten	  . 04696)	; &MJ013557;
+      (=daijiten	  . 04696)	; &I-DJT-04696;
       ))
     (<-same*sources
      daijiten)

@@ -4603,9 +4603,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((==>ucs@bucs	. #x7434)	; &BUCS+7434;
-      (==>daijiten	  . 07327)	; &BUCS+7434;
-      (==>daijiten	. 07327)	; &BUCS+7434;
+     ((==>ucs@bucs	  . #x7434)	; &BUCS+7434;
       ))
     (ideographic-radical . 96)	; ⽟
     (ideographic-strokes . 6)
@@ -23464,6 +23462,7 @@
     ))
 (define-char
   '((ideographic-radical . 96)	; ⽟
+    (==>ucs@bucs	. #x7434)	; &BUCS+7434;
     (==>daijiten	. 07327)	; &BUCS+7434;
     ))
 (define-char
@@ -23478,11 +23477,6 @@
   '((ideographic-radical . 96)	; ⽟
     (==>ucs@bucs	. #x7426)	; &BUCS+7426;
     (==>daijiten	. 07315)	; &BUCS+7426;
-    ))
-(define-char
-  '((ideographic-radical . 96)	; ⽟
-    (==>ucs@bucs	. #x7434)	; &BUCS+7434;
-    (==>daijiten	. 07327)	; &BUCS+7434;
     ))
 (define-char
   '((ideographic-radical . 96)	; ⽟

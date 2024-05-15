@@ -1080,7 +1080,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=ucs		  . #x6BCC)	; 毌
+     ((=ucs@unicode	  . #x6BCC)	; 毌
       )
      ((=ucs		  . #x76BF)	; 皿
       ))

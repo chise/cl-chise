@@ -200,6 +200,11 @@
     (=gb2312		. #x2855)	; &I-G0-2855; [08-53]
     (=cns11643-1	. #x2557)	; &I-C1-2557; [05-55]
     (=big5		. #xA3A6)	; &I-B-A3A6;
+    (<-Bopomofo
+     ((=ucs@iso		  . #x21C23)	; &C6-213E;
+      (=cns11643-6	  . #x213E)	; &C6-213E; [01-30]
+      (=daikanwa	  . 07629)	; &I-M-07629;
+      ))
     ))
 (define-char
   '((name		. "BOPOMOFO LETTER R")

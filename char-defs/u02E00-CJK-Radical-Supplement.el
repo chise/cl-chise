@@ -2791,7 +2791,7 @@
       ))
     (=ucs		. #x2EE5)	; ⻥
     (=ucs@unicode	. #x9C7C)	; ⻥
-    (=gb2312		. #x5363)	; ⻥ [51-67]
+    (=gb2312		. #x5363)	; &I-G0-5363; [51-67]
     (=big5-cdp		. #x8A5B)	; &I-CDP-8A5B;
     (<-simplified@CN
      ((=ucs@unicode	  . #x9B5A)	; &AJ1-01685;
@@ -2820,13 +2820,21 @@
     (ideographic-radical . 196)	; ⿃
     (ideographic-strokes . 0)
     (total-strokes	 . 5)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT")
+      (=ucs		  . #x2FF9)	; ⿹
+      )
+     ((=big5-cdp	  . #x8964)	; &CDP-8964;
+      )
+     ((=ucs		  . #x4E00)	; 一
+      ))
     (=ucs		. #x2EE6)	; ⻦
     (=ucs@unicode	. #x9E1F)	; ⻦
     (=gb2312		. #x4471)	; &I-G0-4471; [36-81]
     (=big5-cdp		. #x8A52)	; &I-CDP-8A52;
     (<-simplified@CN
      ((=ucs@unicode	  . #x9CE5)	; &AJ1-03031;
-      (=adobe-japan1-0	  . 03031)	; &I-AJ1-03031;
+      (=adobe-japan1-0	  . 03031)	; &AJ1-03031;
       (=gb12345		  . #x4471)	; &AJ1-03031; [36-81]
       ))
     (->subsumptive

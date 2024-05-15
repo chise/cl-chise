@@ -1782,7 +1782,7 @@
       (=adobe-japan1-0	  . 01305)	; &AJ1-01305;
       )
      ((=ucs@unicode	  . #x9CE5)	; &AJ1-03031;
-      (=adobe-japan1-0	  . 03031)	; &I-AJ1-03031;
+      (=adobe-japan1-0	  . 03031)	; &AJ1-03031;
       ))
     (=ruimoku-v6	. #xE06E)	; &RUI6-E06E;
     (->subsumptive
@@ -4257,7 +4257,7 @@
       (=ucs		  . #x2FF0)	; ⿰
       )
      ((=ucs@unicode	  . #x9CE5)	; &AJ1-03031;
-      (=adobe-japan1-0	  . 03031)	; &I-AJ1-03031;
+      (=adobe-japan1-0	  . 03031)	; &AJ1-03031;
       )
      ((=ucs@jis		  . #x548E)	; &AJ1-04352;
       (=adobe-japan1-0	  . 04352)	; &AJ1-04352;

@@ -686,7 +686,8 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=ucs		  . #x6BCC)	; 毌
+     ((=ucs@unicode	  . #x6BCC)	; &AJ1-14148;
+      (=adobe-japan1-4	  . 14148)	; &AJ1-14148;
       )
      ((=ucs		  . #x529B)	; 力
       ))
@@ -1148,11 +1149,9 @@
       )
      ((=ucs		  . #x7530)	; 田
       ))
-    (=ucs@JP/hanazono	. #x24C17)	; &hanaJU+24C17;
-    (=ucs@iso		. #x24C17)	; &hanaJU+24C17;
+    (=ucs@iso		. #x24C17)	; &U-00024C17;
     (->subsumptive
-     ((==ucs@JP/hanazono	. #x24C17)	; &hanaJU+24C17;
-      (==ucs@iso		. #x24C17)	; &hanaJU+24C17;
+     ((==ucs@iso	  . #x24C17)	; &g2-IU-00024C17;
       ))
     ))
 (define-char
@@ -1719,8 +1718,8 @@
     (->ancient*sources
      jiyun daikanwa)
     (->mistakable
-     ((=ucs@cns		  . #x2F936)	; 甾
-      (=cns11643-4	  . #x2A44)	; 甾 [10-36]
+     ((=ucs@cns		  . #x2F936)	; &C4-2A44;
+      (=cns11643-4	  . #x2A44)	; &C4-2A44; [10-36]
       (=daikanwa	  . 21761)	; &I-M-21761;
       ))
     (->mistakable*sources
@@ -2590,7 +2589,7 @@
     (sound@ja/on/s=misfortune "sai")
     (=ucs		. #x2F936)	; 甾
     (=ucs@JP/hanazono	. #x31C2D)	; 甾
-    (=cns11643-4	. #x2A44)	; 甾 [10-36]
+    (=cns11643-4	. #x2A44)	; &C4-2A44; [10-36]
     (=daikanwa		. 21761)	; &I-M-21761;
     (<-same@ucs
      ((=ucs@unicode	  . #x753E)	; &AJ1-18126;

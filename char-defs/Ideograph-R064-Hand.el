@@ -42329,6 +42329,37 @@
     (ideographic-strokes . 12)
     (total-strokes	 . 15)
     (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x624C)	; 扌
+      )
+     ((=>ucs@iwds-1	  . #x30D0E)	; &A-IWDSU+30D0E;
+      ))
+    (=ucs		. #x22D5F)	; 𢵟
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x22D5F)	; 𢵟
+      ))
+    (ideographic-radical . 64)	; ⼿
+    (ideographic-strokes . 12)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x624C)	; 扌
+      )
+     ((=cbeta		  . 11889)	; &CB11889;
+      ))
+    (=ucs@iso		. #x22D5F)	; &U-00022D5F;
+    ))
+(define-char
+  '((ideographic-radical . 64)	; ⼿
+    (ideographic-strokes . 12)
+    (total-strokes	 . 15)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
