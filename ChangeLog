@@ -1,5 +1,23 @@
 2024-05-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* loadup-char-defs.lisp: Load IDS-UCS-*.txt files.
+	(*ids-source-file-list*): New variable.
+	- When building the CHISE ontology, the CHISE IDS database is
+	  cloned and IDS-UCS-*.txt are loaded.
+
+	* cl-chise.asd: Add ids.lisp.
+	(depends-on): Use `split-sequence'.
+	(components): Add "ids".
+
+	* ids.lisp: New file.
+
+2024-05-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* entity-ref.lisp (read-entity-reference): Fix problem when `in'
+	is at eof.
+
+2024-05-15  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* cl-chise.lisp: Import `=ucs' from package `concord'; export
 	`encode-char'.
 	(encode-char): New function.
