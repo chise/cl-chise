@@ -12,7 +12,12 @@
    :metadata-feature-name-p
    :ccs-feature-name-p
    :sequence-list-p
-   :normalize-as-char))
+   :normalize-as-char
+   :ids-parse-element
+   :ids-parse-string
+   :ids-read-file
+   :ids-update-index
+   :ideograph-find-products))
 
 (in-package :chise)
 
@@ -34,6 +39,11 @@
   (if (characterp character)
       (setq character (concord:object :character (char-code character))))
   (concord:object-get character attribute))
+
+(defun adjoin-char-attribute (character attribute item)
+  (if (characterp character)
+      (setq character (concord:object :character (char-code character))))
+  (concord:object-adjoin character attribute item))
 
 (defun encode-char (character ccs)
   (get-char-attribute character ccs))
@@ -58,3 +68,7 @@
 	     (< (setq id (concord:object-id object)) #xF0000))
 	(code-char id)
 	object)))
+
+(defun char-ref-p (object)
+  (and (consp object)
+       (keywordp (car object))))
