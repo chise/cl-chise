@@ -1,3 +1,32 @@
+2024-05-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* cl-chise.asd (version): Update to "0.4".
+	(depends-on): Use `cl-json'.
+	(components): Add "chise-json".
+
+	* Sync up with the current snapshot [2024-05-18 00:00 JST].
+
+	M	char-defs/Ideograph-R030-Mouth.el
+	M	char-defs/Ideograph-R044-Corpse.el
+
+	* chise-json.lisp: New file.
+
+	* entity-ref.lisp (read-entity-reference): Fixed.
+
+2024-05-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* cl-chise.lisp: Export `ids-parse-element', `ids-parse-string',
+	`ids-read-file', `ids-update-index' and `ideograph-find-products'.
+	(adjoin-char-attribute): New function.
+	(char-ref-p): New function.
+
+	* loadup-char-defs.lisp: Run `ids-update-index'.
+
+	* ids.lisp (ids-index-store-char): New function.
+	(ids-index-store-structure): New function.
+	(ids-update-index): New function.
+	(ideograph-find-products): New function.
+
 2024-05-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* loadup-char-defs.lisp: Load IDS-UCS-*.txt files.
