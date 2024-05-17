@@ -902,4 +902,6 @@
     (when (directory ids-dir)
       (dolist (file *ids-source-file-list*)
 	(ids-read-file (merge-pathnames file ids-dir) :prompt t)))
+
+    (ids-update-index)
     ))
