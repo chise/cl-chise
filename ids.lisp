@@ -204,27 +204,35 @@
 	     (ids-index-store-char product ret))
 	    ))))
 
-(defun ids-update-index ()
+(defun ids-update-index (&optional (s t))
+  (format s "Updating index for `ideographic-structure'...")
   (concord:some-in-feature
    (lambda (c v)
      (ids-index-store-structure c v)
      nil)
    "ideographic-structure" :genre 'character)
+  (format s "done.~%")
+  (format s "Updating index for `ideographic-structure@apparent'...")
   (concord:some-in-feature
    (lambda (c v)
      (ids-index-store-structure c v)
      nil)
    "ideographic-structure@apparent" :genre 'character)
+  (format s "done.~%")
+  (format s "Updating index for `ideographic-structure@apparent/leftmost'...")
   (concord:some-in-feature
    (lambda (c v)
      (ids-index-store-structure c v)
      nil)
    "ideographic-structure@apparent/leftmost" :genre 'character)
+  (format s "done.~%")
+  (format s "Updating index for `ideographic-structure@apparent/rightmost'...")
   (concord:some-in-feature
    (lambda (c v)
      (ids-index-store-structure c v)
      nil)
    "ideographic-structure@apparent/rightmost" :genre 'character)
+  (format s "done.~%")
   )
 
 (defun ideograph-find-products (components &optional ignored-chars)
