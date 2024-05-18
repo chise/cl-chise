@@ -1,3 +1,7 @@
+2024-05-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids.lisp (ids-update-index): Display "Updating index for ...".
+
 2024-05-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* cl-chise.asd (version): Update to "0.4".
