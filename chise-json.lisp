@@ -6,8 +6,14 @@
   (let ((genre (concord:genre-name (concord:object-genre obj))))
     (json:encode-json
      (if (eq genre 'character)
-	 (remove-if (lambda (cell) (eq (car cell) 'ideographic-products)) (chise:char-spec obj))
-	 (cons (cons :genre genre) (concord:object-spec obj))) stream)))
+	 (or (char-ccs-spec obj)
+	     (remove-if (lambda (cell)
+			  (or (eq (car cell) 'ideographic-products)
+			      (eql (search "<-" (symbol-name (car cell))) 0)
+			      (eql (search "->" (symbol-name (car cell))) 0)))
+			(chise:char-spec obj)))
+	 (cons (cons :genre genre) (concord:object-spec obj)))
+     stream)))
 
 (defmethod json:encode-json ((s symbol) &optional (stream json:*json-output*))
   "Write the JSON representation of the symbol S to STREAM (or to
@@ -23,7 +29,9 @@ and the result is written as String."
 (defun encode-json (obj &optional (stream json:*json-output*))
   (let ((json:*lisp-identifier-name-to-json*
 	  (lambda (str)
-	    (if (eql (aref str 0) #\=)
+	    (if (or (eql (aref str 0) #\=)
+		    (eql (search "<-" str) 0)
+		    (eql (search "->" str) 0))
 		(identity str)
 		(json:lisp-to-camel-case str)))))
     (json:encode-json obj stream)))
