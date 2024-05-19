@@ -4,14 +4,20 @@
 
 (defpackage :chise
   (:use :cl)
-  (:import-from :concord :=ucs)
+  (:import-from
+   :concord
+   :some-in-feature
+   :metadata-feature-name-p
+   :decomposition-feature-name-p
+   :structure-feature-name-p
+   :relation-feature-name-p
+   :make-reversed-relation-feature-name
+   :sequence-list-p :association-list-p
+   :=ucs)
   (:export
    :decode-char :encode-char
    :get-char-attribute :put-char-attribute
-   :define-char :char-spec
-   :metadata-feature-name-p
-   :ccs-feature-name-p
-   :sequence-list-p
+   :define-char :char-spec :char-ccs-spec
    :normalize-as-char
    :ids-parse-element
    :ids-parse-string
@@ -26,6 +32,52 @@
       (setq character (concord:object :character (char-code character))))
   (concord:object-spec character))
 
+(defun char-ccs-spec (character)
+  (let ((spec (char-spec character))
+	dest ret)
+    (cond
+      ((setq ret (assoc '=ucs spec))
+       (setq dest (list ret))
+       (cond ((setq ret (assoc 'name spec))
+	      (setq dest (cons ret dest))
+	      )
+	     ((setq ret (assoc 'name* spec))
+	      (setq dest (cons ret dest))
+	      ))
+       )
+      ((setq ret (or (assoc '=mj spec)
+		     (assoc '=adobe-japan1-0 spec)
+		     (assoc '=adobe-japan1-1 spec)
+		     (assoc '=adobe-japan1-2 spec)
+		     (assoc '=adobe-japan1-3 spec)
+		     (assoc '=adobe-japan1-4 spec)
+		     (assoc '=adobe-japan1-5 spec)
+		     (assoc '=adobe-japan1-6 spec)
+		     (assoc '==mj spec)
+		     (assoc '==adobe-japan1-0 spec)
+		     (assoc '==adobe-japan1-1 spec)
+		     (assoc '==adobe-japan1-2 spec)
+		     (assoc '==adobe-japan1-3 spec)
+		     (assoc '==adobe-japan1-4 spec)
+		     (assoc '==adobe-japan1-5 spec)
+		     (assoc '==adobe-japan1-6 spec)))
+       (setq dest (list ret))
+       (dolist (cell spec)
+	 (when (and (not (metadata-feature-name-p (car cell)))
+		    (search "=ucs@" (format nil "~a" (car cell))))
+	   (setq dest (cons cell dest))))
+       )
+      (t
+       (dolist (cell spec)
+	 (cond ((concord:id-feature-name-p (car cell))
+		(setq dest (cons cell dest))
+		)
+	       ((member (car cell) '(name name*))
+		(setq dest (cons cell dest))
+		)))
+       ))
+    dest))
+    
 (defun define-char (char-spec)
   (let ((id (cdr (assoc '=ucs char-spec))))
     (concord:define-object :character char-spec :id id)))
