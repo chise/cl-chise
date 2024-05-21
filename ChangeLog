@@ -1,3 +1,58 @@
+2024-05-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* cl-chise.asd (version): Update to "0.5".
+
+	* Sync up with the current snapshot [2024-05-21 12:30].
+
+	M	char-defs/Ideograph-R004-Slash.el
+	M	char-defs/Ideograph-R009-Man.el
+	M	char-defs/Ideograph-R024-Ten.el
+	M	char-defs/Ideograph-R030-Mouth.el
+	M	char-defs/Ideograph-R038-Woman.el
+	M	char-defs/Ideograph-R044-Corpse.el
+	M	char-defs/Ideograph-R046-Mountain.el
+	M	char-defs/Ideograph-R049-Oneself.el
+	M	char-defs/Ideograph-R059-Bristle.el
+	M	char-defs/Ideograph-R061-Heart.el
+	M	char-defs/Ideograph-R075-Tree.el
+	M	char-defs/Ideograph-R078-Death.el
+	M	char-defs/Ideograph-R098-Tile.el
+	M	char-defs/Ideograph-R102-Field.el
+	M	char-defs/Ideograph-R113-Spirit.el
+	M	char-defs/Ideograph-R127-Plow.el
+	M	char-defs/Ideograph-R139-Color.el
+	M	char-defs/Ideograph-R140-Grass.el
+	M	char-defs/Ideograph-R141-Tiger.el
+	M	char-defs/Ideograph-R142-Insect.el
+	M	char-defs/Ideograph-R167-Gold.el
+	M	char-defs/Ideograph-R170-Mound.el
+	M	char-defs/Ideograph-R172-Short-Tailed-Bird.el
+	M	char-defs/Ideograph-R187-Horse.el
+	M	char-defs/Ideograph-R188-Bone.el
+	M	char-defs/Ideograph-R193-Cauldron.el
+	M	char-defs/Ideograph-R195-Fish.el
+	M	char-defs/Ideograph-R196-Bird.el
+	M	char-defs/ShuoWen-SR071.el
+
+	* loadup-char-defs.lisp: If "ids/" is found, run "git pull" in
+	"ids/".
+
+2024-05-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* cl-chise.lisp (char-ccs-spec): New function.
+	(import-from): Import `some-in-feature',
+	`metadata-feature-name-p', `decomposition-feature-name-p',
+	`structure-feature-name-p', `relation-feature-name-p',
+	`make-reversed-relation-feature-name' and `sequence-list-p
+	:association-list-p' form `concord'.
+	(export): Export `char-ccs-spec'; delete
+	`metadata-feature-name-p', `ccs-feature-name-p' and
+	`sequence-list-p'.
+
+	* chise-json.lisp (json:encode-json): Use `char-ccs-spec' for
+	character object.
+	(encode-json): Don't use camel-case for relation feature names.
+
 2024-05-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* ids.lisp (ids-update-index): Display "Updating index for ...".
