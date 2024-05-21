@@ -892,12 +892,17 @@
 		  "ids/"
 		  (asdf:system-source-directory :cl-chise))))
     (when (fboundp 'sb-ext:run-program)
-      (sb-ext:run-program
-       "/usr/bin/git"
-       (list "clone"
-	     "https://gitlab.chise.org/CHISE/ids.git"
-	     (format nil "~a" ids-dir))
-       :output *standard-output*))
+      (if (directory ids-dir)
+	  (sb-ext:run-program
+	   "/usr/bin/git" '("pull")
+	   :directory ids-dir
+	   :output *standard-output*)
+	  (sb-ext:run-program
+	   "/usr/bin/git"
+	   (list "clone"
+		 "https://gitlab.chise.org/CHISE/ids.git"
+		 (format nil "~a" ids-dir))
+	   :output *standard-output*)))
 
     (when (directory ids-dir)
       (dolist (file *ids-source-file-list*)
