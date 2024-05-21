@@ -39,7 +39,7 @@
      ((name		  . "CJK RADICAL KNIFE ONE")
       (=ucs		  . #x2E88)	; ⺈
       )
-     ((=ucs		  . #x5DF4)	; 巴
+     ((=ucs@unicode	  . #x5DF4)	; 巴
       ))
     (=ucs@unicode	. #x8272)	; &AJ1-02541;
     (=adobe-japan1-0	. 02541)	; &AJ1-02541;
@@ -60,7 +60,7 @@
       (=adobe-japan1-0	  . 02105)	; &AJ1-02105;
       ))
     (->ancient
-     ((=ucs		  . #x224B8)	; 𢒸
+     ((=ucs@iso		  . #x224B8)	; 𢒸
       (=daikanwa	  . 10034)	; &I-M-10034;
       ))
     (->ancient*sources
@@ -617,7 +617,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs		  . #x8C4A)	; 豊
+     ((=ucs@unicode	  . #x8C4A)	; 豊
       )
      ((=ucs@unicode	  . #x8272)	; &AJ1-02541;
       (=adobe-japan1-0	  . 02541)	; &AJ1-02541;

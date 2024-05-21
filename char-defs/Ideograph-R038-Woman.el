@@ -15384,7 +15384,7 @@
   '((<-denotational@usage
      ((==>ucs@bucs	  . #x59C6)	; &BUCS+59C6;
       )
-     ((==>daijiten	  . 00312)	; &A2-DJT-00312;
+     ((==>ucs@bucs	  . #x4FAE)	; &BUCS+4FAE;
       ))
     (ideographic-radical . 38)	; ⼥
     (ideographic-structure
@@ -56044,6 +56044,24 @@
      ((=ucs		  . #x9DAF)	; 鶯
       ))
     (=ucs		. #x21930)	; 𡤰
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x21930)	; 𡤰
+      ))
+    (ideographic-radical . 38)	; ⼥
+    (ideographic-strokes . 21)
+    (total-strokes	 . 24)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5973)	; 女
+      )
+     ((=ucs@unicode	  . #x9DAF)	; &AJ1-07369;
+      (=adobe-japan1-0	  . 07369)	; &I-AJ1-07369;
+      ))
+    (=ucs@iso		. #x21930)	; &U-00021930;
     ))
 (define-char
   '((ideographic-radical . 38)	; ⼥

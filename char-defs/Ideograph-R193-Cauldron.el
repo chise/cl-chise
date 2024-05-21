@@ -823,11 +823,24 @@
     (=cns11643-6	. #x6463)	; &C6-6463; [68-67]
     ))
 (define-char
-  '((ideographic-radical@ucs . 193)	; ⿀
+  '((<-denotational@usage
+     ((ideographic-radical . 193)	; ⿀
+      (==>daijiten	. 14043)	; &A2-DJT-14043;
+      ))
+    (ideographic-radical@ucs . 193)	; ⿀
     (ideographic-radical@ucs*sources
      daikanwa)
     (ideographic-radical@cns . 98)	; ⽡
+    (ideographic-structure
+     ?⿰
+     ?鬲
+     ?瓦)
     (=ucs		. #x4C1B)	; 䰛
+    (<-formed
+     ((=ucs		  . #x9B32)	; 鬲
+      ))
+    (<-formed$_1*sources
+     shuowen)
     ))
 (define-char
   '((<-denotational
@@ -837,6 +850,7 @@
     (ideographic-strokes . 5)
     (total-strokes	 . 15)
     (=daikanwa		. 45679)	; &M-45679;
+    (=daijiten		. 14043)	; &I-DJT-14043;
     (=shinjigen		.  9504)	; &M-45679;
     (<-formed
      ((=ucs@jis		  . #x9B32)	; &AJ1-07300;
@@ -844,8 +858,15 @@
       (=jis-x0208	  . #x722F)	; &I-J90-722F; [82-15]
       (=shinjigen	  .  9503)	; &AJ1-07300;
       ))
+    (<-formed$_1*sources
+     shinjigen)
     (<-formed*sources
      shinjigen)
+    (->subsumptive
+     ((==daikanwa		. 45679)	; &M-45679;
+      (==daijiten		. 14043)	; &I-DJT-14043;
+      (==shinjigen		.  9504)	; &M-45679;
+      ))
     ))
 (define-char
   '((<-denotational
@@ -859,6 +880,10 @@
     (total-strokes@cns	     . 15)
     (=ucs@unicode	. #x4C1B)	; &C3-4D3E;
     (=cns11643-3	. #x4D3E)	; &C3-4D3E; [45-30]
+    (->subsumptive
+     ((==ucs@unicode	. #x4C1B)	; &C3-4D3E;
+      (==cns11643-3	. #x4D3E)	; &C3-4D3E; [45-30]
+      ))
     ))
 (define-char
   '((ideographic-radical . 193)	; ⿀

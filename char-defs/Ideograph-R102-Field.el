@@ -1718,8 +1718,8 @@
     (->ancient*sources
      jiyun daikanwa)
     (->mistakable
-     ((=ucs@cns		  . #x2F936)	; &C4-2A44;
-      (=cns11643-4	  . #x2A44)	; &C4-2A44; [10-36]
+     ((=ucs@cns		  . #x2F936)	; 甾
+      (=cns11643-4	  . #x2A44)	; 甾 [10-36]
       (=daikanwa	  . 21761)	; &I-M-21761;
       ))
     (->mistakable*sources
@@ -2589,7 +2589,7 @@
     (sound@ja/on/s=misfortune "sai")
     (=ucs		. #x2F936)	; 甾
     (=ucs@JP/hanazono	. #x31C2D)	; 甾
-    (=cns11643-4	. #x2A44)	; &C4-2A44; [10-36]
+    (=cns11643-4	. #x2A44)	; 甾 [10-36]
     (=daikanwa		. 21761)	; &I-M-21761;
     (<-same@ucs
      ((=ucs@unicode	  . #x753E)	; &AJ1-18126;
@@ -7572,7 +7572,9 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((==>daijiten	  . 07524)	; &A2-DJT-07524;
+     ((ideographic-radical . 102)	; ⽥
+      (==>ucs@bucs	. #x756A)	; &BUCS+756A;
+      (==>daijiten	  . 07524)	; &A2-DJT-07524;
       ))
     (ideographic-radical . 102)	; ⽥
     (ideographic-strokes . 7)
@@ -7600,7 +7602,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=ucs		  . #x91C6)	; 釆
+     ((=ucs@unicode	  . #x91C6)	; 釆
       )
      ((=ucs		  . #x7530)	; 田
       ))

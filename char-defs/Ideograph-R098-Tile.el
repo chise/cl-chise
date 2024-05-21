@@ -3396,7 +3396,26 @@
   '((ideographic-radical . 98)	; ⽡
     (ideographic-strokes . 12)
     (total-strokes	 . 17)
+    (ideographic-structure
+     ((=>iwds-1		.  0305)	; &U-v002+2FF1;
+      )
+     ?厤
+     ?瓦)
     (=ucs		. #x3F41)	; 㽁
+    (<-formed
+     ((=ucs		  . #x9B32)	; 鬲
+      ))
+    (<-formed$_1*sources
+     shuowen)
+    ))
+(define-char
+  '((ideographic-radical . 98)	; ⽡
+    (ideographic-strokes . 12)
+    (total-strokes	 . 17)
+    (<-denotational
+     ((=ucs		. #x3F41)	; 㽁
+      ))
+    (=ucs@unicode	. #x3F41)	; 㽁
     (=cns11643-3	. #x5551)	; &I-C3-5551; [53-49]
     (=daikanwa		. 21599)	; &I-M-21599;
     (=shinjigen		.  9505)	; 㽁
@@ -3406,6 +3425,8 @@
       (=jis-x0208	  . #x722F)	; &I-J90-722F; [82-15]
       (=shinjigen	  .  9503)	; &AJ1-07300;
       ))
+    (<-formed$_1*sources
+     shinjigen)
     (<-formed*sources
      shinjigen)
     (->subsumptive

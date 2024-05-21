@@ -2583,14 +2583,19 @@
     (=hanziku-4		. #xC4BC)	; &I-HZK04-C4BC;
     ))
 (define-char
-  '((ideographic-radical . 78)	; ⽍
+  '((<-denotational@usage
+     ((ideographic-radical . 78)	; ⽍
+      (==>ucs@bucs	. #x6B83)	; &BUCS+6B83;
+      (==>daijiten	. 05699)	; &A2-DJT-05699;
+      ))
+    (ideographic-radical . 78)	; ⽍
     (ideographic-strokes . 5)
     (total-strokes	 . 9)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs		  . #x6B79)	; 歹
+     ((=>ucs@component	. #x6B79)	; &A-compU+6B79;
       )
      ((=ucs		  . #x592E)	; 央
       ))
@@ -2610,7 +2615,7 @@
      ((=ucs@unicode	  . #x6B79)	; &AJ1-05349;
       (=adobe-japan1-0	  . 05349)	; &AJ1-05349;
       )
-     ((=ucs		  . #x592E)	; 央
+     ((=ucs@unicode	  . #x592E)	; 央
       ))
     (=ucs@unicode	. #x6B83)	; &AJ1-05353;
     (=adobe-japan1-0	. 05353)	; &AJ1-05353;
@@ -2624,6 +2629,7 @@
     (=gt-k		. 05261)	; &I-GT-K05261;
     (=gt-pj-1		. #x5D4A)	; &I-GT-21056; [61-42]
     (=daikanwa		. 16410)	; &I-M-16410;
+    (=daijiten		. 05699)	; &I-DJT-05699;
     (=shinjigen		.  3971)	; &AJ1-05353;
     (->subsumptive
      ((==ucs@unicode	  . #x6B83)	; &g2-AJ1-05353;
@@ -2635,6 +2641,7 @@
       (==gt		  . 21056)	; &g2-AJ1-05353;
       (==gt-k		  . 05261)	; &g2-AJ1-05353;
       (==daikanwa	  . 16410)	; &g2-AJ1-05353;
+      (==daijiten		. 05699)	; &I-DJT-05699;
       (==shinjigen	  .  3971)	; &g2-AJ1-05353;
       (->subsumptive
        ((===daikanwa	    . 16410)	; &R-M-16410;

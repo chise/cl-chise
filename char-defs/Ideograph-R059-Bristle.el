@@ -3107,9 +3107,18 @@
   '((ideographic-radical . 59)	; ⼺
     (ideographic-strokes . 18)
     (total-strokes	 . 21)
-    (hanyu-dazidian	2 858 6)
     (sound@ja/on	"syoku")
     (=ucs		. #x224B8)	; 𢒸
+    ))
+(define-char
+  '((ideographic-radical . 59)	; ⼺
+    (ideographic-strokes . 18)
+    (total-strokes	 . 21)
+    (<-denotational
+     ((=ucs		. #x224B8)	; 𢒸
+      ))
+    (hanyu-dazidian	2 858 6)
+    (=ucs@iso		. #x224B8)	; 𢒸
     (=mj		. 035793)	; &I-MJ035793;
     (=cns11643-7	. #x5336)	; &I-C7-5336; [51-22]
     (=koseki		. 113480)	; 𢒸

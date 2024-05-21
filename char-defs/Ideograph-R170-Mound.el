@@ -1463,6 +1463,24 @@
     (=ucs@iso		. #x28E29)	; &U-00028E29;
     ))
 (define-char
+  '((<-denotational
+     ((=ucs		  . #x28E29)	; 𨸩
+      ))
+    (ideographic-radical . 170)	; ⾩
+    (ideographic-strokes . 3)
+    (total-strokes	 . 6)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((name		  . "CJK RADICAL MOUND TWO")
+      (=ucs		  . #x2ED6)	; ⻖
+      )
+     ((=ucs		. #x5902)	; 夂
+      ))
+    (=ucs-itaiji-001	. #x28E29)	; &U-i001+28E29;
+    ))
+(define-char
   '((ideographic-radical . 170)	; ⾩
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
@@ -6622,7 +6640,7 @@
     (ideographic-radical . 170)	; ⾩
     (ideographic-strokes . 8)
     (total-strokes	 . 11)
-    (ideographic-structure
+    (ideographic-structure@apparent
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
@@ -7028,7 +7046,11 @@
     (=daijiten		. 12874)	; &DJT-12874;
     ))
 (define-char
-  '((ideographic-radical . 170)	; ⾩
+  '((<-denotational@usage
+     ((ideographic-radical . 170)	; ⾩
+      (==>daijiten	. 12875)	; &A2-DJT-12875;
+      ))
+    (ideographic-radical . 170)	; ⾩
     (ideographic-structure
      ?⿰
      ?⻖
@@ -7083,9 +7105,10 @@
      ?⻖
      ((=ucs@unicode	. #x8005)	; &AJ1-02304;
       ))
-    (=ucs@unicode	. #x967C)	; &C2-3A2B;
+    (=ucs		. #xFAC6)	; 陼
+    (=ucs@unicode	. #x967C)	; 陼
     (=ucs@JP/hanazono	. nil)
-    (=cns11643-2	. #x3A2B)	; &C2-3A2B; [26-11]
+    (=cns11643-2	. #x3A2B)	; 陼 [26-11]
     (->subsumptive
      ((==ucs@unicode	  . #x967C)	; &g2-UU+967C;
       (==ucs@JP/hanazono  . nil)
@@ -10146,10 +10169,19 @@
      ((=ucs		  . #x5CF6)	; 島
       ))
     (=ucs 		. #xFA29)	; 﨩
-    (=adobe-japan1-2	. 08687)	; &I-AJ1-08687;
+    ))
+(define-char
+  '((ideographic-radical . 170)	; ⾩
+    (ideographic-strokes . 10)
+    (total-strokes	 . 13)
+    (<-denotational
+     ((=ucs 		. #xFA29)	; 﨩
+      ))
+    (=ucs@unicode		. #xFA29)	; 﨩
+    (=adobe-japan1-2	. 08687)	; &AJ1-08687;
     (->subsumptive
      ((==ucs@unicode 		. #xFA29)	; 﨩
-      (==adobe-japan1-2	. 08687)	; &I-AJ1-08687;
+      (==adobe-japan1-2	. 08687)	; &AJ1-08687;
       ))
     ))
 (define-char
