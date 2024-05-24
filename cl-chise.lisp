@@ -124,3 +124,20 @@
 (defun char-ref-p (object)
   (and (consp object)
        (keywordp (car object))))
+
+(defun char-ucs-chars (character)
+  (let (ucs dest)
+    (if (and (setq ucs (encode-char character '=ucs))
+	     (not (and (<= #x2E80 ucs)(<= ucs #x2EF3)))
+	     (null (get-char-attribute character '=>ucs*)))
+	(setq dest (list (normalize-as-char character))))
+    (dolist (c (mapcan #'char-ucs-chars
+		       (get-char-attribute character '->subsumptive)))
+      (setq dest (adjoin (normalize-as-char c) dest)))
+    (dolist (c (mapcan #'char-ucs-chars
+		       (get-char-attribute character '->denotational)))
+      (setq dest (adjoin (normalize-as-char c) dest)))
+    (dolist (c (mapcan #'char-ucs-chars
+		       (get-char-attribute character '->denotational@component)))
+      (setq dest (adjoin (normalize-as-char c) dest)))
+    dest))
