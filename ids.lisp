@@ -233,6 +233,52 @@
      nil)
    "ideographic-structure@apparent/rightmost" :genre 'character)
   (format s "done.~%")
+  (let (products ucs)
+    (concord:some-in-feature
+     (lambda (c v)
+       (setq products (get-char-attribute c 'ideographic-products))
+       (dolist (comp (remove c (char-ucs-chars c)))
+	 (dolist (p_c (get-char-attribute comp 'ideographic-products))
+	   (unless (encode-char p_c '=ucs)
+	     (if (setq ucs (char-ucs p_c))
+		 (setq p_c (decode-char '=ucs ucs))))
+	   (setq products (adjoin p_c products))))
+       (put-char-attribute c 'ideographic-products products)
+       nil)
+     '=>iwds-1)
+    (concord:some-in-feature
+     (lambda (c v)
+       (setq products (get-char-attribute c 'ideographic-products))
+       (dolist (comp (remove c (char-ucs-chars c)))
+	 (dolist (p_c (get-char-attribute comp 'ideographic-products))
+	   (unless (encode-char p_c '=ucs)
+	     (if (setq ucs (char-ucs p_c))
+		 (setq p_c (decode-char '=ucs ucs))))
+	   (setq products (adjoin p_c products))))
+       (put-char-attribute c 'ideographic-products products)
+       nil)
+     '=>ucs@iwds-1)
+    (concord:some-in-feature
+     (lambda (c v)
+       (setq products (get-char-attribute c 'ideographic-products))
+       (dolist (comp (delq c (char-ucs-chars c)))
+	 (put-char-attribute
+	  comp 'ideographic-products
+	  (union products
+		 (get-char-attribute comp 'ideographic-products))))
+       )
+     '=>iwds-1)
+    (concord:some-in-feature
+     (lambda (c v)
+       (setq products (get-char-attribute c 'ideographic-products))
+       (dolist (comp (delq c (char-ucs-chars c)))
+	 (put-char-attribute
+	  comp 'ideographic-products
+	  (union products
+		 (get-char-attribute comp 'ideographic-products))))
+       )
+     '=>ucs@iwds-1)
+    )
   )
 
 (defun ideograph-find-products (components &optional ignored-chars)
