@@ -1,3 +1,48 @@
+2024-06-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* Sync up with the current snapshot [2024-06-03 13:00].
+
+	M	char-defs/Ideograph-R009-Man.el
+	M	char-defs/Ideograph-R019-Power.el
+	M	char-defs/Ideograph-R038-Woman.el
+	M	char-defs/Ideograph-R046-Mountain.el
+	M	char-defs/Ideograph-R049-Oneself.el
+	M	char-defs/Ideograph-R059-Bristle.el
+	M	char-defs/Ideograph-R061-Heart.el
+	M	char-defs/Ideograph-R072-Sun.el
+	M	char-defs/Ideograph-R073-Say.el
+	M	char-defs/Ideograph-R075-Tree.el
+	M	char-defs/Ideograph-R076-Lack.el
+	M	char-defs/Ideograph-R077-Stop.el
+	M	char-defs/Ideograph-R078-Death.el
+	M	char-defs/Ideograph-R098-Tile.el
+	M	char-defs/Ideograph-R113-Spirit.el
+	M	char-defs/Ideograph-R117-Stand.el
+	M	char-defs/Ideograph-R127-Plow.el
+	M	char-defs/Ideograph-R139-Color.el
+	M	char-defs/Ideograph-R140-Grass.el
+	M	char-defs/Ideograph-R141-Tiger.el
+	M	char-defs/Ideograph-R142-Insect.el
+	M	char-defs/Ideograph-R147-See.el
+	M	char-defs/Ideograph-R150-Valley.el
+	M	char-defs/Ideograph-R151-Bean.el
+	M	char-defs/Ideograph-R187-Horse.el
+	M	char-defs/Ideograph-R195-Fish.el
+	M	char-defs/Ideograph-R196-Bird.el
+	M	char-defs/Ideograph-R199-Wheat.el
+	M	char-defs/ShuoWen-SR071.el
+	M	char-defs/additional-idc.el
+	M	char-defs/u02FF0-Ideographic-Description-Characters.el
+
+2024-05-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids.lisp: Treat unifiable abstract-components in `=>iwds-1' and
+	`=>ucs@iwds-1'.
+
+2024-05-24  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* cl-chise.lisp (char-ucs-chars): New function.
+
 2024-05-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* cl-chise.asd (version): Update to "0.5".
