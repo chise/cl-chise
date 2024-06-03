@@ -825,9 +825,13 @@
     (total-strokes	 . 7)
     (hanyu-dazidian	1 69 27)
     (ideographic-structure
-     ?⿸
-     ?𠂋
-     ((=ucs@unicode	. #x5DF4)	; &AJ1-03321;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
+      (=ucs		  . #x2FF8)	; ⿸
+      )
+     ((=ucs		  . #x2008B)	; 𠂋
+      )
+     ((=ucs@unicode	  . #x5DF4)	; &AJ1-03321;
+      (=adobe-japan1-0	  . 03321)	; &AJ1-03321;
       ))
     (=ucs@unicode	. #x5DF5)	; &AJ1-04719;
     (=adobe-japan1-0	. 04719)	; &AJ1-04719;

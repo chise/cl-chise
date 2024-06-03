@@ -608,7 +608,7 @@
       (=adobe-japan1-0	  . 03198)	; &AJ1-03198;
       ))
     (=ucs@unicode	. #x8C4A)	; &AJ1-03675;
-    (=adobe-japan1-0	. 03675)	; &AJ1-03675;
+    (=adobe-japan1-0	. 03675)	; &I-AJ1-03675;
     (=jis-x0208		. #x4B2D)	; &I-J90-4B2D; [43-13]
     (=ks-x1001		. #x7925)	; &I-K0-7925; [89-05]
     (=cns11643-2	. #x475A)	; &I-C2-475A; [39-58]
@@ -1003,8 +1003,8 @@
     (=big5		. #xBDDD)	; &I-B-BDDD;
     (=gt		. 48672)	; &I-GT-48672;
     (=gt-pj-1		. #x6C33)	; &I-GT-48672; [76-19]
-    (=daikanwa		. 36280)	; &I-M-36280;
-    (=daijiten		. 11258)	; &I-DJT-11258;
+    (=daikanwa 		. 36280)	; &I-M-36280;
+    (=daijiten		. 11258)	; &AJ1-06740;
     (=shinjigen		.  7811)	; &AJ1-06740;
     (->subsumptive
      ((==ucs@unicode	  . #x8C4E)	; &g2-AJ1-06740;
@@ -1076,7 +1076,7 @@
     ))
 (define-char
   '((ideographic-radical . 151)	; ⾖
-    (=ucs  		. #x27BF7)	; 𧯷
+    (=ucs 		. #x27BF7)	; 𧯷
     ))
 (define-char
   '((<-denotational
@@ -1771,8 +1771,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((ideographic-radical . 151)	; ⾖
-      (==>daijiten	. 11262)	; &A2-DJT-11262;
+     ((==>daijiten	  . 11262)	; &A2-DJT-11262;
       ))
     (ideographic-radical . 151)	; ⾖
     (ideographic-strokes . 15)
@@ -1809,7 +1808,7 @@
       (=cns11643-5	  . #x7441)	; &GT-48729; [84-33]
       (=gt		  . 48729)	; &I-GT-48729;
       (=gt-pj-7		  . #x3D3E)	; &I-GT-48729; [29-30]
-      (=daikanwa 	  . 36324)	; &I-M-36324;
+      (=daikanwa  	  . 36324)	; &I-M-36324;
       (->subsumptive
        ((==daikanwa	    . 36324)	; &g2-M-36324;
 	)
@@ -1833,10 +1832,10 @@
        ((=ucs@unicode	    . #x5E7E)	; &AJ1-13700;
 	(=adobe-japan1-4    . 13700)	; &AJ1-13700;
 	))
-      (=ucs@iso		  . #x27C19)	; &U-00027C19;
-      (=daijiten	  . 11262)	; &I-DJT-11262;
+      (=ucs@iso		  . #x27C19)	; &DJT-11262;
+      (=daijiten	  . 11262)	; &DJT-11262;
       (->subsumptive
-       ((==daijiten	  . 11262)	; &I-DJT-11262;
+       ((==daijiten	    . 11262)	; &g2-DJT-11262;
 	)
        ((==ucs@iso	    . #x27C19)	; &g2-IU-00027C19;
 	(->subsumptive
@@ -1904,7 +1903,7 @@
       (=ucs		  . #x2FF0)	; ⿰
       )
      ((=ucs@unicode	  . #x8C4A)	; &AJ1-03675;
-      (=adobe-japan1-0	  . 03675)	; &AJ1-03675;
+      (=adobe-japan1-0	  . 03675)	; &I-AJ1-03675;
       )
      ((=ucs@unicode	  . #x76CD)	; &AJ1-05801;
       (=adobe-japan1-0	  . 05801)	; &AJ1-05801;
@@ -2222,6 +2221,10 @@
 (define-char
   '((ideographic-radical . 151)	; ⾖
     (==>daijiten	. 11261)	; &A2-DJT-11261;
+    ))
+(define-char
+  '((ideographic-radical . 151)	; ⾖
+    (==>daijiten	. 11262)	; &A2-DJT-11262;
     ))
 (define-char
   '((<-denotational

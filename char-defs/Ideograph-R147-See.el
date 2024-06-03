@@ -862,9 +862,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((ideographic-radical . 147)	; ⾒
-      (==>ucs@bucs	. #x8996)	; &BUCS+8996;
-      (==>daijiten	. 10837)	; &A2-DJT-10837;
+     ((==>ucs@bucs	  . #x8996)	; &BUCS+8996;
       ))
     (ideographic-radical . 147)	; ⾒
     (ideographic-strokes . 4)
@@ -1277,10 +1275,12 @@
       (==gt		  . 46889)	; &g2-GT-46889;
       (==gt-k		  . 10141)	; &g2-GT-46889;
       (==daikanwa	  . 34836)	; &g2-GT-46889;
-      (==daijiten		. 10837)	; &I-DJT-10837;
+      (==daijiten	  . 10837)	; &g2-GT-46889;
       (==jef-china3	  . #x64C4)	; &g2-GT-46889;
       (->subsumptive
        ((===daikanwa	    . 34836)	; &R-M-34836;
+	)
+       ((===daijiten	    . 10837)	; &R-DJT-10837;
 	)
        ((===jis-x0213-1	    . #x7B79)	; &R-JX1-7B79; [91-89]
 	)
@@ -4431,11 +4431,14 @@
     (ideographic-strokes . 10)
     (total-strokes	 . 14)
     (ideographic-structure
-     ?⿺
-     ?見
-     ((=>ucs-itaiji-002	. #x22F3D)	; &A-U-i002+22F3D;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER LEFT")
+      (=ucs		  . #x2FFA)	; ⿺
+      )
+     ((=ucs		  . #x898B)	; 見
+      )
+     ((=>ucs-itaiji-002	  . #x22F3D)	; &A-U-i002+22F3D;
       ))
-    (=ucs 		. #x2C881)	; 𬢁
+    (=ucs		. #x2C881)	; 𬢁
     ))
 (define-char
   '((<-denotational
@@ -4445,9 +4448,12 @@
     (ideographic-strokes . 10)
     (total-strokes	 . 14)
     (ideographic-structure
-     ?⿺
-     ?見
-     ((=ucs-itaiji-002	. #x22F3D)	; &U-i002+22F3D;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER LEFT")
+      (=ucs		  . #x2FFA)	; ⿺
+      )
+     ((=ucs		  . #x898B)	; 見
+      )
+     ((=ucs-itaiji-002	  . #x22F3D)	; &U-i002+22F3D;
       ))
     (=ucs@JP/hanazono	. #x2C881)	; &hanaJU+2C881;
     ))
@@ -6071,12 +6077,14 @@
     (=mj		. 048648)	; &MJ048648;
     (=cns11643-4	. #x6942)	; &I-C4-6942; [73-34]
     (=koseki		. 397530)	; &MJ048648;
-    (=daikanwa 		. 34985)	; &I-M-34985;
+    (=daikanwa		. 34985)	; &I-M-34985;
     (->formed
      ((=ucs@cns		  . #x2784C)	; &MJ048588;
       (=mj		  . 048588)	; &MJ048588;
       (=daikanwa	  . 34883)	; &I-M-34883;
       ))
+    (->formed$_1*sources
+     jiyun daikanwa)
     (->formed*sources
      jiyun daikanwa)
     (->subsumptive
@@ -6696,7 +6704,8 @@
     ))
 (define-char
   '((ideographic-radical . 147)	; ⾒
-    (==>daijiten	. 10837)	; &A2-DJT-10837;
+    (==>ucs@bucs	. #x8996)	; &BUCS+8996;
+    (==>daijiten	. 10837)	; &BUCS+8996;
     ))
 (define-char
   '((ideographic-radical . 147)	; ⾒

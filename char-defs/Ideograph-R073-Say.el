@@ -2738,7 +2738,7 @@
       (=mj		  . 008648)	; &MJ008648;
       (=daikanwa	  . 04296)	; &I-M-04296;
       )
-     ((=ucs		  . #x6158)	; 慘
+     ((=ucs@unicode	  . #x6158)	; 慘
       (=daikanwa	  . 11094)	; &I-M-11094;
       ))
     (<-interchangeable$_1*sources

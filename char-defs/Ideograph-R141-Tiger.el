@@ -255,25 +255,31 @@
     (ideographic-strokes . 0)
     (total-strokes	 . 4)
     (ideographic-structure
-     ?⿱
-     ((=>ucs@component	. #x4E0A)	; &A-compU+4E0A;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=>ucs@component	. #x4E00)	; &A-compU+4E00;
+     ((=>ucs@component	  . #x4E0A)	; &A-compU+4E0A;
+      )
+     ((=>ucs@component	  . #x4E00)	; &A-compU+4E00;
       ))
-    (=>ucs-itaiji-007	. #x864D)	; &BUCS+4E03;
+    (=>ucs-itaiji-007	. #x864D)	; &A-U-i007+864D;
     ))
 (define-char
-  '((ideographic-radical . 141)	; ⾌
+  '((<-denotational
+     ((=>ucs-itaiji-007	  . #x864D)	; &A-U-i007+864D;
+      ))
+    (ideographic-radical . 141)	; ⾌
     (ideographic-strokes . 0)
     (total-strokes	 . 4)
-    (<-denotational
-     ((=>ucs-itaiji-007	. #x864D)	; &BUCS+4E03;
-      ))
     (ideographic-structure
-     ?⿱
-     ?&GT-K00389;
-     ?一)
-    (=ucs-itaiji-007	. #x864D)	; &BUCS+4E03;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=gt-k		  . 00389)	; &GT-K00389;
+      )
+     ((=ucs		  . #x4E00)	; 一
+      ))
+    (=ucs-itaiji-007	. #x864D)	; &U-i007+864D;
     ))
 (define-char
   '((ideographic-radical . 141)	; ⾌
@@ -3270,44 +3276,6 @@
       ))
     ))
 (define-char
-  '((<-denotational@usage
-     ((==>daijiten	  . 10271)	; &A2-DJT-10271;
-      ))
-    (ideographic-radical . 141)	; ⾌
-    (ideographic-strokes . 5)
-    (total-strokes	 . 9)
-    (ideographic-structure
-     ?⿱
-     ((=>ucs-itaiji-007	. #x864D)	; &BUCS+4E03;
-      )
-     ((ideographic-structure
-       ?⿱
-       ((=>ucs@component	. #x5EFF)	; &A-compU+5EFF;
-	)
-       ((=>ucs@iwds-1	. #x5341)	; &A-IWDSU+5341;
-	))
-      ))
-    (=>ucs-itaiji-005	. #x8656)	; &U-i005+8656;
-    ))
-(define-char
-  '((<-denotational
-     ((=>ucs-itaiji-005	. #x8656)	; &U-i005+8656;
-      ))
-    (ideographic-radical . 141)	; ⾌
-    (ideographic-strokes . 5)
-    (total-strokes	 . 9)
-    (ideographic-structure
-     ?⿱
-     ((=ucs-itaiji-007	. #x864D)	; &BUCS+4E03;
-      )
-     ((ideographic-structure
-       ?⿱
-       ?廿
-       ?十)
-      ))
-    (=ucs-itaiji-005	. #x8656)	; &U-i005+8656;
-    ))
-(define-char
   '((ideographic-radical . 141)	; ⾌
     (ideographic-strokes . 5)
     (total-strokes	 . 11)
@@ -4202,6 +4170,56 @@
       (=daikanwa	  . 21995)	; &I-M-21995;
       ))
     (=ucs-itaiji-004	. #x8655)	; &U-i004+8655;
+    ))
+(define-char
+  '((<-denotational@usage
+     ((==>daijiten	  . 10271)	; &A2-DJT-10271;
+      ))
+    (ideographic-radical . 141)	; ⾌
+    (ideographic-strokes . 5)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=>ucs-itaiji-007	  . #x864D)	; &A-U-i007+864D;
+      )
+     ((ideographic-structure
+       ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+	(=ucs		    . #x2FF1)	; ⿱
+	)
+       ((=>ucs@component    . #x5EFF)	; &A-compU+5EFF;
+	(=>iwds-1	    .  0303)	; &A-compU+5EFF;
+	)
+       ((=>ucs@iwds-1	    . #x5341)	; &A-IWDSU+5341;
+	(=>iwds-1	    .  0037)	; &A-IWDSU+5341;
+	))
+      ))
+    (=>ucs-itaiji-005	. #x8656)	; &A-U-i005+8656;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-005	  . #x8656)	; &A-U-i005+8656;
+      ))
+    (ideographic-radical . 141)	; ⾌
+    (ideographic-strokes . 5)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs-itaiji-007	  . #x864D)	; &U-i007+864D;
+      )
+     ((ideographic-structure
+       ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+	(=ucs		    . #x2FF1)	; ⿱
+	)
+       ((=ucs		    . #x5EFF)	; 廿
+	)
+       ((=ucs		    . #x5341)	; 十
+	))
+      ))
+    (=ucs-itaiji-005	. #x8656)	; &U-i005+8656;
     ))
 (define-char
   '((<-denotational@usage
@@ -9082,7 +9100,7 @@
     (=ucs		. #x2F9B6)	; 虩
     (=ucs@JP/hanazono	. #x27205)	; 虩
     (=cns11643-3	. #x5B26)	; &I-C3-5B26; [59-06]
-    (=daikanwa 		. 32785)	; &I-M-32785;
+    (=daikanwa		. 32785)	; &I-M-32785;
     (<-formed
      ((=ucs@unicode	  . #x612C)	; &AJ1-04880;
       (=adobe-japan1-0	  . 04880)	; &AJ1-04880;

@@ -32001,7 +32001,8 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=ucs@jis		  . #x52D9)	; &AJ1-03775;
+     ((=ucs@cns		  . #x52D9)	; &AJ1-03775;
+      (=ucs@jis		  . #x52D9)	; &AJ1-03775;
       (=ucs@ks		  . #x52D9)	; &AJ1-03775;
       (=adobe-japan1-0	  . 03775)	; &AJ1-03775;
       )
@@ -52224,8 +52225,15 @@
   '((ideographic-radical . 38)	; ⼥
     (ideographic-strokes . 15)
     (total-strokes	 . 18)
+    (ideographic-structure
+     ((=>ucs@component	  . #x2FF6)	; &A-compU+2FF6;
+      )
+     ((=ucs		  . #x2EC4C)	; 𮱌
+      )
+     ((=ucs		  . #x8A00)	; 言
+      ))
     (sound@ja/on	"setu")
-    (=ucs 		. #x218F9)	; 𡣹
+    (=ucs		. #x218F9)	; 𡣹
     ))
 (define-char
   '((<-denotational
@@ -52234,9 +52242,17 @@
     (ideographic-radical . 38)	; ⼥
     (ideographic-strokes . 15)
     (total-strokes	 . 18)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM BELOW")
+      (=ucs		  . #x2FF6)	; ⿶
+      )
+     ((=ucs		  . #x2EC4C)	; 𮱌
+      )
+     ((=ucs		  . #x8A00)	; 言
+      ))
     (=mj		. 033829)	; &MJ033829;
     (=koseki		. 078140)	; &MJ033829;
-    (=daikanwa 		. 06868)	; &I-M-06868;
+    (=daikanwa		. 06868)	; &I-M-06868;
     (->subsumptive
      ((==mj		  . 033829)	; &g2-MJ033829;
       (==koseki		  . 078140)	; &g2-MJ033829;
@@ -52255,7 +52271,14 @@
     (ideographic-radical . 38)	; ⼥
     (ideographic-strokes . 15)
     (total-strokes	 . 18)
-    (=ucs@iso 		. #x218F9)	; &U-000218F9;
+    (ideographic-structure
+     ((=ucs-itaiji-001	  . #x2FF1)	; &U-i001+2FF1;
+      )
+     ((=ucs		  . #x8A00)	; 言
+      )
+     ((=ucs		  . #x2EC4C)	; 𮱌
+      ))
+    (=ucs@iso		. #x218F9)	; &U-000218F9;
     (->subsumptive
      ((==ucs@iso	  . #x218F9)	; &g2-IU-000218F9;
       ))
@@ -56059,7 +56082,7 @@
      ((=ucs		  . #x5973)	; 女
       )
      ((=ucs@unicode	  . #x9DAF)	; &AJ1-07369;
-      (=adobe-japan1-0	  . 07369)	; &I-AJ1-07369;
+      (=adobe-japan1-0	  . 07369)	; &AJ1-07369;
       ))
     (=ucs@iso		. #x21930)	; &U-00021930;
     ))

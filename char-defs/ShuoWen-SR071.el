@@ -20,7 +20,7 @@
      ((=ucs		  . #x4C1B)	; 䰛
       ))
     (<-formed@shuowen
-     ((=shuowen-jiguge	. 08704)	; &SW-JIGUGE-08704;
+     ((=shuowen-jiguge	  . 08704)	; &SW-JIGUGE-08704;
       )
      ((=ucs		  . #x9B32)	; 鬲
       ))
@@ -39,7 +39,7 @@
      ((=ucs		  . #x3F41)	; 㽁
       ))
     (<-formed@shuowen
-     ((=shuowen-jiguge	. 08704)	; &SW-JIGUGE-08704;
+     ((=shuowen-jiguge	  . 08704)	; &SW-JIGUGE-08704;
       )
      ((=ucs		  . #x9B32)	; 鬲
       ))

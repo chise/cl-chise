@@ -772,6 +772,10 @@
     (ideographic-radical . 150)	; ⾕
     (ideographic-strokes . 5)
     (total-strokes	 . 12)
+    (ideographic-structure
+     ?⿸
+     ?&U-i002+239B5;
+     ?谷)
     (=gt-k 		. 10155)	; &GT-K10155;
     (=gt-pj-k1		. #x685D)	; &GT-K10155; [72-61]
     (->subsumptive
@@ -1906,24 +1910,58 @@
   '((ideographic-radical . 150)	; ⾕
     (ideographic-strokes . 13)
     (total-strokes	 . 20)
-    (=ucs		. #x3209C)	; 𲂜
-    ))
-(define-char
-  '((ideographic-radical . 150)	; ⾕
-    (ideographic-strokes . 13)
-    (total-strokes	 . 20)
-    (<-denotational
-     ((=ucs		. #x3209C)	; 𲂜
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=>ucs@iwds-1	  . #x8C37)	; &A-IWDSU+8C37;
+      (=>iwds-1		  .  0132)	; &A-IWDSU+8C37;
+      )
+     ((=ucs		  . #x959C)	; 閜
       ))
-    (=ucs@JP/hanazono	. #x3209C)	; 𲂜
+    (=ucs		. #x27BD3)	; 𧯓
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x27BD3)	; 𧯓
+      ))
+    (ideographic-radical . 150)	; ⾕
+    (ideographic-strokes . 13)
+    (total-strokes	 . 20)
+    (ideographic-structure
+     ?⿰
+     ?谷
+     ((=ucs		. #x959C)	; 閜
+      ))
+    (=ucs@iso		. #x27BD3)	; &C7-503A;
+    (=cns11643-7	. #x503A)	; &C7-503A; [48-26]
+    (=daikanwa		. 36237)	; &I-M-36237;
+    (->subsumptive
+     ((==daikanwa	  . 36237)	; &g2-M-36237;
+      )
+     ((==ucs@iso	  . #x27BD3)	; &g2-IU-00027BD3;
+      (==cns11643-7	  . #x503A)	; &g2-IU-00027BD3; [48-26]
+      (->subsumptive
+       ((===cns11643-7	    . #x503A)	; &R-C7-503A; [48-26]
+	)
+       ((===ucs@iso	    . #x27BD3)	; &R-U-00027BD3;
+	))
+      ))
     ))
 (define-char
   '((ideographic-radical . 150)	; ⾕
     (ideographic-strokes . 13)
     (total-strokes	 . 20)
-    (=ucs		. #x27BD3)	; 𧯓
-    (=cns11643-7	. #x503A)	; &I-C7-503A; [48-26]
-    (=daikanwa		. 36237)	; &I-M-36237;
+    (=ucs 		. #x3209C)	; 𲂜
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x3209C)	; 𲂜
+      ))
+    (ideographic-radical . 150)	; ⾕
+    (ideographic-strokes . 13)
+    (total-strokes	 . 20)
+    (=ucs@JP/hanazono 	. #x3209C)	; &hanaJU+3209C;
     ))
 (define-char
   '((ideographic-radical . 150)	; ⾕

@@ -9315,7 +9315,7 @@
     (=shinjigen@rev	.  3328)	; &AJ1-05103;
     (<-ancient
      ((=mj		  . 013557)	; &MJ013557;
-      (=daijiten	  . 04696)	; &MJ013557;
+      (=daijiten	  . 04696)	; &I-DJT-04696;
       ))
     (<-ancient*sources
      daijiten)
@@ -22639,11 +22639,56 @@
     ))
 (define-char
   '((ideographic-radical . 72)	; ⽇
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x52D9)	; 務
+      )
+     ((=>ucs@component	  . #x65E5)	; &A-compU+65E5;
+      (=>iwds-1		  .  0118)	; &A-compU+65E5;
+      ))
+    (=ucs		. #x23283)	; 𣊃
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x23283)	; 𣊃
+      ))
+    (ideographic-radical . 72)	; ⽇
     (ideographic-strokes . 11)
     (total-strokes	 . 15)
-    (=ucs		. #x23283)	; 𣊃
-    (=cns11643-7	. #x2357)	; &I-C7-2357; [03-55]
-    (=daikanwa		. 14141)	; &I-M-14141;
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs@cns		  . #x52D9)	; &AJ1-03775;
+      (=ucs@jis		  . #x52D9)	; &AJ1-03775;
+      (=ucs@ks		  . #x52D9)	; &AJ1-03775;
+      (=adobe-japan1-0	  . 03775)	; &AJ1-03775;
+      )
+     ((=ucs		  . #x65E5)	; 日
+      ))
+    (=ucs@iso		. #x23283)	; &C7-2357;
+    (=cns11643-7	. #x2357)	; &C7-2357; [03-55]
+    (=daikanwa 		. 14141)	; &I-M-14141;
+    (<-ancient
+     ((=ucs@cns		  . #x52D9)	; &AJ1-03775;
+      (=ucs@jis		  . #x52D9)	; &AJ1-03775;
+      (=ucs@ks		  . #x52D9)	; &AJ1-03775;
+      (=adobe-japan1-0	  . 03775)	; &AJ1-03775;
+      ))
+    (->subsumptive
+     ((==ucs@iso	  . #x23283)	; &g2-M-14141;
+      (==cns11643-7	  . #x2357)	; &g2-M-14141; [03-55]
+      (==daikanwa	  . 14141)	; &g2-M-14141;
+      (->subsumptive
+       ((===daikanwa	    . 14141)	; &R-M-14141;
+	)
+       ((===cns11643-7	    . #x2357)	; &R-C7-2357; [03-55]
+	)
+       ((===ucs@iso	    . #x23283)	; &R-U-00023283;
+	))
+      ))
     ))
 (define-char
   '((ideographic-radical . 72)	; ⽇

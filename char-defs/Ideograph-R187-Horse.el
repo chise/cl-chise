@@ -9253,16 +9253,43 @@
   '((ideographic-radical . 187)	; ⾺
     (ideographic-strokes . 10)
     (total-strokes	 . 20)
-    (=daikanwa		. 44943)	; &M-44943;
+    (=daikanwa		. 44943)	; 𩥥
     (ideographic-structure
      ?⿰
      ?馬
      ?𪧐)
     (=ucs		. #x29965)	; 𩥥
     (->subsumptive
-     ((==daikanwa		. 44943)	; &M-44943;
+     ((==daikanwa		. 44943)	; 𩥥
       )
      ((==ucs@iso		. #x29965)	; 𩥥
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 187)	; ⾺
+    (ideographic-structure
+     ?⿰
+     ?馬
+     ?𦤃)
+    (=ucs		. #x29967)	; 𩥧
+    ))
+(define-char
+  '((ideographic-radical . 187)	; ⾺
+    (ideographic-strokes . 10)
+    (total-strokes	 . 20)
+    (ideographic-structure
+     ?⿰
+     ?馬
+     ((=ucs@iso		. #x26903)	; &MJ045913;
+      ))
+    (<-denotational
+     ((=ucs		. #x29967)	; 𩥧
+      ))
+    (=ucs@iso		. #x29967)	; 𩥧
+    (=daikanwa/ho . 0730)
+    (->subsumptive
+     ((==ucs@iso		. #x29967)	; 𩥧
+      (==daikanwa/ho . 0730)
       ))
     ))
 (define-char

@@ -22019,7 +22019,7 @@
       (=jis-x0212	  . #x6B64)	; &JX1-7E59; [75-68]
       (=cns11643-2	  . #x5C32)	; &I-C2-5C32; [60-18]
       (=jis-x0213-1	  . #x7E59)	; &I-JX1-7E59; [94-57]
-      (=daikanwa 	  . 46803)	; &JX1-7E59;
+      (=daikanwa	  . 46803)	; &I-M-46803;
       ))
     (<-same$_1*sources
      shuowen-zhu zhengzitong daikanwa)
@@ -22032,7 +22032,7 @@
       (=jis-x0212	  . #x6B64)	; &JX1-7E59; [75-68]
       (=cns11643-2	  . #x5C32)	; &I-C2-5C32; [60-18]
       (=jis-x0213-1	  . #x7E59)	; &I-JX1-7E59; [94-57]
-      (=daikanwa 	  . 46803)	; &JX1-7E59;
+      (=daikanwa	  . 46803)	; &I-M-46803;
       ))
     (->formed$_1*sources
      shuowen-zhu)
@@ -49908,8 +49908,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((ideographic-radical . 140)	; ⾋
-      (==>daijiten	. 10084)	; &BUCS+8526;
+     ((==>ucs@bucs	  . #x8526)	; &BUCS+8526;
       ))
     (ideographic-radical . 75)	; ⽊
     (ideographic-strokes . 11)
@@ -49925,14 +49924,19 @@
     (=ucs		. #x6A22)	; 樢
     ))
 (define-char
-  '((ideographic-radical . 75)	; ⽊
+  '((<-denotational
+     ((=ucs		  . #x6A22)	; 樢
+      ))
+    (ideographic-radical . 75)	; ⽊
     (ideographic-strokes . 11)
     (total-strokes	 . 15)
-    (<-denotational
-     ((=ucs		. #x6A22)	; 樢
-      ))
     (hanyu-dazidian	2 1282 6)
-    (=ucs@unicode	. #x6A22)	; 樢
+    (ideographic-structure
+     ?⿰
+     ?木
+     ((=ucs@unicode	. #x9CE5)	; &AJ1-03031;
+      ))
+    (=ucs@unicode	. #x6A22)	; &AJ1-05305;
     (=adobe-japan1-0	. 05305)	; &AJ1-05305;
     (=jis-x0208		. #x5C78)	; &I-J90-5C78; [60-88]
     (=cns11643-3	. #x4C52)	; &I-C3-4C52; [44-50]
@@ -49950,10 +49954,12 @@
       (==jis-x0213-1	  . #x5C78)	; &g2-AJ1-05305; [60-88]
       (==gt		  . 19778)	; &g2-AJ1-05305;
       (==daikanwa	  . 15455)	; &g2-AJ1-05305;
-      (==daijiten		. 05311)	; &I-DJT-05311;
+      (==daijiten	  . 05311)	; &g2-AJ1-05305;
       (==cbeta		  . 03557)	; &g2-AJ1-05305;
       (->subsumptive
        ((===daikanwa	    . 15455)	; &R-M-15455;
+	)
+       ((===daijiten	    . 05311)	; &R-DJT-05311;
 	)
        ((===jis-x0208	    . #x5C78)	; &R-J0-5C78; [60-88]
 	(===jis-x0213-1	    . #x5C78)	; &R-J0-5C78; [60-88]

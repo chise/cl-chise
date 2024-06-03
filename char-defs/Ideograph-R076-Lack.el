@@ -1868,10 +1868,8 @@
 	))
       )
      ((==daijiten	  . 05571)	; &g2-DJT-05571;
-      (==daijiten	    . 05571)	; &R-DJT-05571;
       )
-     ((==cbeta		  . 08246)	; &g2-DJT-05571;
-      (==cbeta	    . 08246)	; &R-CB08246;
+     ((==cbeta		  . 08246)	; &g2-CB08246;
       )
      ((==ucs@unicode	  . #x6B2A)	; &g2-UU+6B2A;
       (==ucs@JP/hanazono  . nil)
@@ -11119,7 +11117,8 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=cns11643-1	  . #x7B4C)	; &C1-7B4C; [91-44]
+     ((=ucs@cns		  . #x9C25)	; &C1-7B4C;
+      (=cns11643-1	  . #x7B4C)	; &C1-7B4C; [91-44]
       )
      ((=ucs@unicode	  . #x6B20)	; &AJ1-01853;
       (=adobe-japan1-0	  . 01853)	; &AJ1-01853;
