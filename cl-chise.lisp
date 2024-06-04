@@ -17,8 +17,10 @@
   (:export
    :decode-char :encode-char
    :get-char-attribute :put-char-attribute
+   :char-feature
    :define-char :char-spec :char-ccs-spec
    :normalize-as-char
+   :char-ucs :char-ucs-chars
    :ids-parse-element
    :ids-parse-string
    :ids-read-file
@@ -87,10 +89,15 @@
       (setq character (concord:object :character (char-code character))))
   (concord:object-put character attribute value))
 
-(defun get-char-attribute (character attribute)
+(defun get-char-attribute (character attribute &optional default-value)
   (if (characterp character)
       (setq character (concord:object :character (char-code character))))
-  (concord:object-get character attribute))
+  (concord:object-get character attribute default-value))
+
+(defun char-feature (character feature &optional default-value)
+  (if (characterp character)
+      (setq character (concord:object :character (char-code character))))
+  (concord:object-get character feature default-value :recursive t))
 
 (defun adjoin-char-attribute (character attribute item)
   (if (characterp character)
@@ -124,6 +131,11 @@
 (defun char-ref-p (object)
   (and (consp object)
        (keywordp (car object))))
+
+(defun char-ucs (char)
+  (or (encode-char char "=ucs")
+      (char-feature char "=ucs")
+      (char-feature char "=>ucs")))
 
 (defun char-ucs-chars (character)
   (let (ucs dest)
