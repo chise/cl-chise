@@ -13,12 +13,13 @@
    :relation-feature-name-p
    :make-reversed-relation-feature-name
    :sequence-list-p :association-list-p
+   :while
    :=ucs)
   (:export
    :decode-char :encode-char
    :get-char-attribute :put-char-attribute
    :char-feature
-   :define-char :char-spec :char-ccs-spec
+   :define-char :find-char :char-spec :char-ccs-spec
    :normalize-as-char
    :char-ucs :char-ucs-chars
    :ids-parse-element
@@ -79,7 +80,10 @@
 		)))
        ))
     dest))
-    
+
+(defun find-char (char-spec)
+  (normalize-as-char (concord:find-object :character char-spec)))
+
 (defun define-char (char-spec)
   (let ((id (cdr (assoc '=ucs char-spec))))
     (concord:define-object :character char-spec :id id)))
