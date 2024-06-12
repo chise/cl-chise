@@ -439,7 +439,6 @@
 		       (ideographic-structure-equal ret (cdr ret2))
 		       )))))))
 
-;;;###autoload
 (defun ideographic-structure-find-chars (structure)
   (let ((comp-alist (ideographic-structure-to-components-alist structure))
 	ret pl str)
