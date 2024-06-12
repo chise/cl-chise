@@ -26,7 +26,7 @@
    :ids-parse-string
    :ids-read-file
    :ids-update-index
-   :ideograph-find-products))
+   :ideograph-find-products :ideographic-structure-find-chars))
 
 (in-package :chise)
 
