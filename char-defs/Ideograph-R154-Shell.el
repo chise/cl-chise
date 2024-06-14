@@ -7897,16 +7897,37 @@
       ))
     ))
 (define-char
+  '((<-denotational@usage
+     ((ideographic-radical . 154)	; ⾙
+      (==>ucs@bucs	. #x8CE1)	; &BUCS+8CE1;
+      (==>daijiten	. 11396)	; &A2-DJT-11396;
+      ))
+    (ideographic-radical . 154)	; ⾙
+    (ideographic-strokes . 8)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ((=>iwds-1		.  0305)	; &U-v002+2FF1;
+      )
+     ?庚
+     ((=>ucs@iwds-1	. #x898B)	; &A-IWDSU+898B;
+      ))
+    (=ucs		. #x8CE1)	; 賡
+    ))
+(define-char
   '((ideographic-radical . 154)	; ⾙
     (ideographic-strokes . 8)
     (total-strokes	 . 15)
-    (=ucs		. #x8CE1)	; 賡
+    (<-denotational
+     ((=ucs		. #x8CE1)	; 賡
+      ))
+    (=ucs@unicode	. #x8CE1)	; 賡
     (=jis-x0212		. #x5F35)	; &I-JSP-5F35; [63-21]
     (=cns11643-1	. #x6F34)	; &I-C1-6F34; [79-20]
     (=jis-x0213-1	. #x7C39)	; &I-JX1-7C39; [92-25]
     (=gb12345		. #x6259)	; 賡 [66-57]
     (=big5		. #xBDE9)	; &I-B-BDE9;
-    (=daikanwa		. 36819)	; &I-M-36819;
+    (=daikanwa		. 36819)	; &M-36819;
+    (=daijiten		. 11396)	; &I-DJT-11396;
     (=jef-china3	. #x65F6)	; &I-JC3-65F6;
     (->subsumptive
      ((==ucs@unicode	  . #x8CE1)	; &g2-JSP-5F35;
@@ -7914,6 +7935,7 @@
       (==jis-x0213-1	  . #x7C39)	; &g2-JSP-5F35; [92-25]
       (==gb12345	  . #x6259)	; &g2-JSP-5F35; [66-57]
       (==daikanwa	  . 36819)	; &g2-JSP-5F35;
+      (==daijiten		. 11396)	; &I-DJT-11396;
       (==jef-china3	  . #x65F6)	; &g2-JSP-5F35;
       (->subsumptive
        ((===daikanwa	    . 36819)	; &R-M-36819;

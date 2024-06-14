@@ -2710,6 +2710,8 @@
       )
      ((=big5-cdp	  . #x8DE2)	; &CDP-8DE2;
       ))
+    (sound@ja/on/go	"kIyAu")
+    (sound@ja/on/kan	"kAu")
     (=ucs		. #x5E9A)	; 庚
     ))
 (define-char
@@ -2738,9 +2740,55 @@
     (=gt		. 11674)	; &I-GT-11674;
     (=gt-k		. 03702)	; &I-GT-K03702;
     (=gt-pj-1		. #x392E)	; &I-GT-11674; [25-14]
-    (=daikanwa 		. 09278)	; &I-M-09278;
+    (=daikanwa		. 09278)	; &I-M-09278;
     (=daijiten		. 02936)	; &I-DJT-02936;
     (=shinjigen		.  2177)	; &AJ1-01984;
+    (<-interchangeable
+     ((=ucs@unicode	  . #x7D93)	; &AJ1-06083;
+      (=adobe-japan1-0	  . 06083)	; &AJ1-06083;
+      (=daikanwa	  . 27508)	; &I-M-27508;
+      )
+     ((=ucs@unicode	  . #x5F91)	; &MJ011309;
+      (=mj		  . 011309)	; &MJ011309;
+      (=daikanwa	  . 10118)	; &I-M-10118;
+      )
+     ((=ucs@unicode	  . #x8CE1)	; &JX1-7C39;
+      (=jis-x0212	  . #x5F35)	; &JX1-7C39; [63-21]
+      (=cns11643-1	  . #x6F34)	; &I-C1-6F34; [79-20]
+      (=jis-x0213-1	  . #x7C39)	; &I-JX1-7C39; [92-25]
+      (=daikanwa	  . 36819)	; &I-M-36819;
+      )
+     ((=ucs		  . #x66F4)	; 更
+      (=daikanwa	  . 14283)	; &I-M-14283;
+      ))
+    (<-interchangeable$_1*sources
+     shuowen-tongxun-dingsheng daikanwa)
+    (<-interchangeable$_2*sources
+     shuowen-tongxun-dingsheng daikanwa)
+    (<-interchangeable$_3*sources
+     zhengzitong daikanwa)
+    (<-interchangeable$_4*sources
+     liezi-zhu daikanwa)
+    (<-interchangeable*sources
+     daikanwa)
+    (<-same
+     ((=ucs@cns		  . #x20B3B)	; &C6-2A32;
+      (=cns11643-6	  . #x2A32)	; &C6-2A32; [10-18]
+      (=daikanwa	  . 03155)	; &I-M-03155;
+      ))
+    (<-same$_1*sources
+     zhengzitong daikanwa)
+    (<-same*sources
+     zhengzitong daikanwa)
+    (->Small-Seal
+     ((=ucs@cns		  . #x20B3B)	; &C6-2A32;
+      (=cns11643-6	  . #x2A32)	; &C6-2A32; [10-18]
+      (=daikanwa	  . 03155)	; &I-M-03155;
+      ))
+    (->Small-Seal$_1*sources
+     zhengzitong)
+    (->Small-Seal*sources
+     zhengzitong)
     (->subsumptive
      ((=decomposition@cid
        ((=ucs		    . #x5E9A)	; 庚

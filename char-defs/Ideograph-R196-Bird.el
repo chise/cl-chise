@@ -416,6 +416,10 @@
     (ideographic-radical . 196)	; ⿃
     (ideographic-strokes . 2)
     (total-strokes	 . 13)
+    (ideographic-structure
+     ?⿱
+     ?鳥
+     ?几)
     (=ucs		. #x9CE7)	; 鳧
     ))
 (define-char
@@ -425,6 +429,10 @@
     (<-denotational
      ((=ucs		. #x9CE7)	; 鳧
       ))
+    (ideographic-structure
+     ?⿱
+     ?&AJ1-03031;
+     ?几)
     (=ucs@unicode	. #x9CE7)	; 鳧
     (=adobe-japan1-0	. 07359)	; &AJ1-07359;
     (=jis-x0208		. #x726A)	; &I-J90-726A; [82-74]

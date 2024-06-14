@@ -4272,7 +4272,7 @@
       (=adobe-japan1-0	  . 02676)	; &AJ1-02676;
       ))
     (=ucs@iso		. #x2545F)	; &M-24134;
-    (=daikanwa 		. 24134)	; &I-M-24134;
+    (=daikanwa 		. 24134)	; &M-24134;
     (->subsumptive
      ((==ucs@iso	  . #x2545F)	; &g2-M-24134;
       (==daikanwa	  . 24134)	; &g2-M-24134;
@@ -9924,11 +9924,27 @@
     ))
 (define-char
   '((ideographic-radical . 112)	; ⽯
+    (ideographic-structure
+     ?⿱
+     ?敄
+     ?石)
+    (=ucs		. #x254FA)	; 𥓺
+    ))
+(define-char
+  '((ideographic-radical . 112)	; ⽯
+    (<-denotational
+     ((=ucs		. #x254FA)	; 𥓺
+      ))
     (ideographic-strokes . 9)
     (total-strokes	 . 14)
-    (=ucs		. #x254FA)	; 𥓺
+    (=ucs@iso		. #x254FA)	; 𥓺
     (=cns11643-6	. #x5F5B)	; &I-C6-5F5B; [63-59]
-    (=daikanwa		. 24312)	; &I-M-24312;
+    (=daikanwa		. 24312)	; &M-24312;
+    (->subsumptive
+     ((==ucs@iso		. #x254FA)	; 𥓺
+      (==cns11643-6	. #x5F5B)	; &I-C6-5F5B; [63-59]
+      (==daikanwa		. 24312)	; &M-24312;
+      ))
     ))
 (define-char
   '((ideographic-radical . 112)	; ⽯

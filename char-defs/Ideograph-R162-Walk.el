@@ -14405,7 +14405,7 @@
     (<-interchangeable*sources
      shuowen shuowen-zhu shuowen-tongxundingsheng maoshi maoshi-zhuan daikanwa)
     (->formed
-     ((=ucs		  . #x9CE9)	; 鳩
+     ((=ucs@unicode	  . #x9CE9)	; 鳩
       (=daikanwa	  . 46648)	; &I-M-46648;
       )
      ((=ucs@iso		  . #x21A03)	; &MJ033982;
