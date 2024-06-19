@@ -909,4 +909,72 @@
 	(ids-read-file (merge-pathnames file ids-dir) :prompt t)))
 
     (ids-update-index)
+
+    (some-in-character-feature
+     (lambda (c v)
+       (unless (equal (setq ret (ideographic-structure-compact v)) v)
+	 (format t "Compact ~X (~a) : ~a -> ~a~%"
+		 (char-id c) c
+		 v ret)
+	 (put-char-attribute c 'ideographic-structure ret)
+	 (setq v ret))
+       (unless (setq a-str
+		     (get-char-attribute c 'ideographic-structure@apparent))
+	 (when (setq a-str
+		     (functional-ideographic-structure-to-apparent-structure v))
+	   (format t "~X (~a) : ~a~%~T-> ~a~%"
+		   (char-id c) c
+		   v a-str)
+	   (put-char-attribute c 'ideographic-structure@apparent
+			       (ideographic-structure-compact a-str))))
+       nil)
+     'ideographic-structure)
+
+    (ids-update-index)
+
+    (some-in-character-feature
+     (lambda (c v)
+       (unless (equal (setq ret (ideographic-structure-compact v)) v)
+	 (format t "Compact ~X (~a) : [apparent] ~a -> ~a~%"
+		 (char-id c) c
+		 v ret)
+	 (put-char-attribute c 'ideographic-structure@apparent ret)
+	 (setq v ret))
+       nil)
+     'ideographic-structure@apparent)
+
+    (some-in-character-feature
+     (lambda (c v)
+       (unless (equal (setq ret (ideographic-structure-compact v)) v)
+	 (format t "Compact ~X (~a) : [apparent/leftmost] ~a -> ~a~%"
+		 (char-id c) c
+		 v ret)
+	 (put-char-attribute c 'ideographic-structure@apparent/leftmost ret)
+	 (setq v ret))
+       nil)
+     'ideographic-structure@apparent/leftmost)
+
+    (some-in-character-feature
+     (lambda (c v)
+       (unless (equal (setq ret (ideographic-structure-compact v)) v)
+	 (format t "Compact ~X (~a) : [apparent/rightmost] ~a -> ~a~%"
+		 (char-id c) c
+		 v ret)
+	 (put-char-attribute c 'ideographic-structure@apparent/rightmost ret)
+	 (setq v ret))
+       nil)
+     'ideographic-structure@apparent/rightmost)
+
+    (some-in-character-feature
+     (lambda (c v)
+       (unless (equal (setq ret (ideographic-structure-compact v)) v)
+	 (format t "Compact ~X (~a) : ~a -> ~a\n"
+		 (char-id c) c
+		 v ret)
+	 (put-char-attribute c 'ideographic-structure ret)
+	 (setq v ret))
+       nil)
+     'ideographic-structure)
+
+    (ids-update-index)
     ))
