@@ -1,3 +1,51 @@
+2024-06-18  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids.lisp (ids-read-file): Support U-hhhhhhhh as the same as
+	U+hhhh.
+	(ids-index-store-structure): Use `character-object-p'.
+	(ids-update-index): Use `some-in-character-feature' instead of
+	`concord:some-in-feature'; fixed.
+	(ideographic-structure-to-components-alist*): Use
+	`character-object-p'.
+	(ideographic-structure-character=): Likewise.
+	(ideographic-char-count-components): New function.
+	(ideographic-character-get-structure): New function.
+	(ideographic-char-match-component): New function.
+	(ideographic-structure-char<): New function.
+	(ideo-comp-tree-adjoin): New function.
+	(ideographic-chars-to-is-a-tree): New function.
+	(ids-find-chars-including-ids): New function.
+	(ideographic-structure-compact): New function.
+	(functional-ideographic-structure-to-apparent-structure): New
+	function.
+	(ideographic-structure-compare-functional-and-apparent): New
+	function.
+
+	* cl-chise.lisp (char-db-feature-domains): New variable.
+	(character-object-p): New function.
+	(expand-char-feature-name): New function.
+	(char-id): New function.
+	(some-in-character-feature): New function.
+	(some-char-in-family): New function.
+	(get-char-feature-from-domains): New function.
+	(car-safe): New function.
+	(cdr-safe): New function.
+	(int-list<): New function.
+	(morohashi-daikanwa<): New function.
+	(char-ideographic-radical): New function.
+	(ideographic-radical): New variable.
+	(char-representative-of-daikanwa): New function.
+	(char-attributes-poly<): New function.
+	(char-daikanwa-radical): New function.
+	(char-daikanwa-strokes): New function.
+	(char-daikanwa): New function.
+	(char-ideographic-strokes-diff): New function.
+	(ideograph-char<): New function.
+	(char-ideographic-strokes-from-domains): New function.
+	(char-ideographic-strokes): New function.
+	(char-total-strokes-from-domains): New function.
+	(char-total-strokes): New function.
+
 2024-06-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* cl-chise.asd (version): Update to "0.7".
