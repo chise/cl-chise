@@ -12,6 +12,7 @@
    :structure-feature-name-p
    :relation-feature-name-p
    :make-reversed-relation-feature-name
+   :expand-feature-name
    :sequence-list-p :association-list-p
    :while
    :=ucs)
@@ -31,18 +32,6 @@
 (in-package :chise)
 
 (defvar char-db-feature-domains
-  ;; (let (dest str len ret domain)
-  ;;   (dolist (fn (char-attribute-list))
-  ;;     (setq str (symbol-name fn))
-  ;;     (when (string-match "^ideographic-radical@\\([^*]+\\)$" str)
-  ;;       (setq domain (substring str (match-beginning 1)))
-  ;;       (when (> (setq len (length domain)) 0)
-  ;;         (setq ret (read-from-string domain))
-  ;;         (when (= (cdr ret) len)
-  ;;           (setq domain (car ret))
-  ;;           (unless (memq domain dest)
-  ;;             (push domain dest))))))
-  ;;   (sort dest #'string<))
   '(ucs ucs/compat daikanwa cns gt jis jis/a jis/b
 	jis-x0212 jis-x0213 cdp shinjigen mj
 	r001 r007 r030 r053 r055 r074 r130 r140 r159 misc unknown))
@@ -159,11 +148,6 @@
   (and (consp object)
        (keywordp (car object))))
 
-(defun expand-char-feature-name (feature domain)
-  (if domain
-      (format nil "~a@~a" feature domain)
-    feature))
-
 (defun char-ucs (char)
   (or (encode-char char "=ucs")
       (char-feature char "=ucs")
@@ -221,13 +205,11 @@
        (dolist (domain domains)
 	 (if (and (or (null tester)
 		      (equal (or (char-feature
-				  ch (expand-char-feature-name
-				      tester domain))
+				  ch (expand-feature-name tester domain))
 				 (char-feature ch tester))
 			     arg))
 		  (setq ret (or (char-feature
-				 ch (expand-char-feature-name
-				     feature domain))
+				 ch (expand-feature-name feature domain))
 				(char-feature ch feature))))
 	     (return ret)))))
    char ignore-sisters))
