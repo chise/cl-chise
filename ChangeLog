@@ -1,3 +1,20 @@
+2024-06-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* loadup-char-defs.lisp:
+	- Use `functional-ideographic-structure-to-apparent-structure' to
+	  generate `ideographic-structure@apparent' from
+	  `ideographic-structure'.
+	- Add code to compact ideographic-structures.
+
+2024-06-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* cl-chise.lisp (import-from): Import `expand-feature-name' from
+	`concord'.
+	(expand-char-feature-name): Abolished [moved to cl-concord.lisp and
+	renamed to `expand-feature-name'].
+	(get-char-feature-from-domains): Use `expand-feature-name' instead
+	of `expand-char-feature-name'.
+
 2024-06-18  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* ids.lisp (ids-read-file): Support U-hhhhhhhh as the same as
