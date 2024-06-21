@@ -448,24 +448,54 @@
 		       (ideographic-structure-equal ret (cdr ret2))
 		       )))))))
 
-(defun ideographic-structure-find-chars (structure)
+(defun ideographic-structure-some-chars (func structure &key require-component)
   (let ((comp-alist (ideographic-structure-to-components-alist structure))
-	pl str)
-    (dolist (pc (ideograph-find-products (mapcar #'car comp-alist)))
-      (when (or (and (setq str
-			   (get-char-attribute pc 'ideographic-structure))
-		     (ideographic-structure-equal str structure))
-		(and (setq str
-			   (get-char-attribute pc 'ideographic-structure@apparent))
-		     (ideographic-structure-equal str structure))
-		(and (setq str
-			   (get-char-attribute pc 'ideographic-structure@apparent/leftmost))
-		     (ideographic-structure-equal str structure))
-		(and (setq str
-			   (get-char-attribute pc 'ideographic-structure@apparent/rightmost))
-		     (ideographic-structure-equal str structure)))
-	(setq pl (cons pc pl))
-	))
+	str)
+    (cond
+      (comp-alist
+       (dolist (pc (ideograph-find-products (mapcar #'car comp-alist)))
+	 (when (or (and
+		    (setq str
+			  (get-char-attribute
+			   pc 'ideographic-structure))
+		    (ideographic-structure-equal str structure))
+		   (and
+		    (setq str
+			  (get-char-attribute
+			   pc 'ideographic-structure@apparent))
+		    (ideographic-structure-equal str structure))
+		   (and
+		    (setq str
+			  (get-char-attribute
+			   pc 'ideographic-structure@apparent/leftmost))
+		    (ideographic-structure-equal str structure))
+		   (and
+		    (setq str
+			  (get-char-attribute
+			   pc 'ideographic-structure@apparent/rightmost))
+		    (ideographic-structure-equal str structure)))
+	   (funcall func (normalize-as-char pc))
+	   ))
+       )
+      ((not require-component)
+       (dolist (feat '("ideographic-structure"
+		       "ideographic-structure@apparent"
+		       "ideographic-structure@apparent/leftmost"
+		       "ideographic-structure@apparent/rightmost"))
+	 (some-in-character-feature
+	  (lambda (pc str)
+	    (when (ideographic-structure-equal str structure)
+	      (funcall func (normalize-as-char pc))))
+	  feat))
+       ))))
+
+(defun ideographic-structure-find-chars (structure)
+  (let (pl)
+    (ideographic-structure-some-chars
+     (lambda (pc)
+       (setq pl (cons pc pl))
+       nil)
+     structure :require-component t)
     pl))
 
 (defun ideographic-char-count-components (char component)
