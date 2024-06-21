@@ -301,7 +301,7 @@
     )
   )
 
-(defun ideograph-find-products (components &optional ignored-chars)
+(defun ideograph-find-products (components)
   (if (stringp components)
       (setq components (concatenate 'list components)))
   (apply #'concord:intersection-in-feature
@@ -324,8 +324,7 @@
   (apply #'ideographic-structure-to-components-alist* structure))
 
 (defun ideographic-structure-to-components-alist* (operator component1 component2
-							    &optional component3
-							    &rest opts)
+						   &optional component3)
   (let (dest-alist ret)
     (setq dest-alist
 	  (cond ((character-object-p component1)
@@ -451,16 +450,8 @@
 
 (defun ideographic-structure-find-chars (structure)
   (let ((comp-alist (ideographic-structure-to-components-alist structure))
-	ret pl str)
-    (dolist (pc (caar
-		 (sort (mapcar (lambda (cell)
-				 (if (setq ret (get-char-attribute
-						(car cell) 'ideographic-products))
-				     (cons ret (length ret))
-				   (cons nil 0)))
-			       comp-alist)
-		       (lambda (a b)
-			 (< (cdr a)(cdr b))))))
+	pl str)
+    (dolist (pc (ideograph-find-products (mapcar #'car comp-alist)))
       (when (or (and (setq str
 			   (get-char-attribute pc 'ideographic-structure))
 		     (ideographic-structure-equal str structure))
@@ -682,11 +673,10 @@ COMPONENT can be a character or char-spec."
 
 (defun functional-ideographic-structure-to-apparent-structure (structure)
   (ideographic-structure-compare-functional-and-apparent
-   structure nil 'conversion-only))
+   structure :conversion-only t))
 
 (defun ideographic-structure-compare-functional-and-apparent (structure
-							      &optional char
-							      conversion-only)
+							      &key conversion-only)
   (let (enc enc-str enc2-str enc3-str new-str new-str-c
 	    f-res a-res ret code)
     (cond
