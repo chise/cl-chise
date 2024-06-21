@@ -1,3 +1,10 @@
+2024-06-20  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids.lisp (ids-update-index): Use `adjoin-char-attribute' instead
+	of `get-char-attribute' + `adjoin' + `put-char-attribute'.
+	(ideograph-find-products): Use `concord:intersection-in-feature'
+	instead of `get-char-attribute' + `intersection'.
+
 2024-06-19  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* loadup-char-defs.lisp:
