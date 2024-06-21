@@ -1,3 +1,14 @@
+2024-06-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids.lisp (ideograph-find-products): Abolish optional argument
+	`ignored-chars' that are no longer used.
+	(ideographic-structure-to-components-alist*): Abolish rest argument
+	`opts' that are no longer used.
+	(ideographic-structure-find-chars): New implementation.
+	(ideographic-structure-compare-functional-and-apparent): Abolish
+	optional argument `char' that are no longer used; change optional
+	argument `conversion-only' to a keyword argument.
+
 2024-06-20  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* ids.lisp (ids-update-index): Use `adjoin-char-attribute' instead
