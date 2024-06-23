@@ -1,5 +1,11 @@
 2024-06-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* ids.lisp (ideographic-structure-some-chars): New function.
+	(ideographic-structure-find-chars): Use
+	`ideographic-structure-some-chars'.
+
+2024-06-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* ids.lisp (ideograph-find-products): Abolish optional argument
 	`ignored-chars' that are no longer used.
 	(ideographic-structure-to-components-alist*): Abolish rest argument
