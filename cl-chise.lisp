@@ -176,7 +176,11 @@
     dest))
 
 (defun some-in-character-feature (func feature-name)
-  (some-in-feature func feature-name :genre 'character))
+  (some-in-feature (lambda (c v)
+		     (funcall func
+			      (normalize-as-char c)
+			      v))
+		   feature-name :genre 'character))
 
 (defun some-char-in-family (function char &optional ignore-sisters)
   (let ((rest (list char))
