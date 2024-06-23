@@ -199,8 +199,7 @@
 	     (ids-index-store-structure product (cdr ret)))
 	    ((setq ret (assoc 'ideographic-structure@apparent/rightmost cell))
 	     (ids-index-store-structure product (cdr ret)))
-	    ((and (association-list-p cell)
-		  (setq ret (define-char cell)))
+	    ((setq ret (find-char cell))
 	     (ids-index-store-char product ret))
 	    ))))
 
