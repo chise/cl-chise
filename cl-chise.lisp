@@ -7,6 +7,7 @@
   (:import-from
    :concord
    :some-in-feature
+   :store-union-in-feature
    :metadata-feature-name-p
    :decomposition-feature-name-p
    :structure-feature-name-p
@@ -199,6 +200,19 @@
 			     (get-char-attribute (car rest) '<-subsumptive)
 			     (get-char-attribute (car rest) '<-denotational)))))
       (setq rest (cdr rest)))))
+
+(defmethod store-union-in-feature (feature-name (dest-obj character) &rest objects)
+  (let ((ds (concord:genre-ds (concord:genre 'character))))
+    (apply #'concord::ds-store-union
+	   ds
+ 	   (format nil "character:obj:~a;~a"
+		   (char-id dest-obj)
+		   feature-name)
+	   (mapcar (lambda (obj)
+		     (format nil "character:obj:~a;~a"
+			     (char-id obj)
+			     feature-name))
+		   objects))))
 
 (defun get-char-feature-from-domains (char feature domains
 					   &optional tester arg
