@@ -23546,7 +23546,7 @@
      ((=ucs		  . #x6C33)	; 氳
       (=daikanwa	  . 17075)	; &I-M-17075;
       )
-     ((=ucs		  . #x919E)	; 醞
+     ((=ucs@unicode	  . #x919E)	; 醞
       (=daikanwa	  . 39974)	; &I-M-39974;
       )
      ((=ucs@unicode	  . #x7E81)	; &AJ1-19679;
@@ -31649,7 +31649,7 @@
      ((=big5-cdp	  . #x8DDC)	; &CDP-8DDC;
       ))
     (=shinjigen@1ed	.  6183)	; &U-v005+7E6D;
-    (=jef-china3	. #x63A1)	; &I-JC3-63A1;
+    (=jef-china3	. #x63A1)	; &U-v005+7E6D;
     (=ucs-var-005	. #x7E6D)	; &U-v005+7E6D;
     (->subsumptive
      ((==shinjigen@1ed	  .  6183)	; &g2-JC3-63A1;

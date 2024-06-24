@@ -39947,9 +39947,22 @@
     ))
 (define-char
   '((ideographic-radical . 86)	; ⽕
+    (ideographic-strokes . 2)
+    (total-strokes	 . 6)
     (hanyu-dazidian	8 28 13)
+    (ideographic-structure
+     ?⿱
+     ?火
+     ?又)
     (=ucs		. #x2418C)	; 𤆌
-    (=hanziku-12	. #xEEAA)	; &I-HZK12-EEAA;
+    (->subsumptive
+     ((==ucs@iso		. #x2418C)	; 𤆌
+      (->subsumptive
+       ((===ucs@iso		. #x2418C)	; 𤆌
+	)
+       ((=hanziku-12	. #xEEAA)	; &I-HZK12-EEAA;
+	))
+      ))
     ))
 (define-char
   '((ideographic-radical . 86)	; ⽕

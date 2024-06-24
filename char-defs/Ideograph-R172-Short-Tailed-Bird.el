@@ -531,7 +531,7 @@
     (ideographic-radical . 172)	; ⾫
     (ideographic-strokes . 3)
     (total-strokes	 . 11)
-    (=daikanwa		. 41952)	; &M-41952;
+    (=daikanwa		. 41952)	; &C4-3623;
     (ideographic-radical . 172)	; ⾫
     (ideographic-strokes . 3)
     (total-strokes	 . 11)
@@ -546,7 +546,7 @@
     (->subsumptive
      ((==ucs@iso		. #x28F8A)	; 𨾊
       (==cns11643-4	. #x3623)	; &I-C4-3623; [22-03]
-      (==daikanwa		. 41952)	; &M-41952;
+      (==daikanwa		. 41952)	; &C4-3623;
       (==shinjigen		.  9676)	; 鴻
       ))
     ))
@@ -1061,7 +1061,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((==>daijiten	  . 14397)	; &A2-DJT-14397;
+     ((==>daijiten	  . 14397)	; &BUCS+9D07;
       ))
     (ideographic-radical . 172)	; ⾫
     (ideographic-strokes . 4)
@@ -1793,6 +1793,36 @@
     (->subsumptive
      ((==ucs-itaiji-002	  . #x96DA)	; &g2-U-i002+96DA;
       ))
+    ))
+(define-char
+  '((ideographic-radical . 172)	; ⾫
+    (ideographic-strokes . 4)
+    (total-strokes	 . 12)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=>ucs@iwds-1	. #x4ECE)	; &A-IWDSU+4ECE;
+      )
+     ((=ucs		  . #x96B9)	; 隹
+      ))
+    (=>ucs-itaiji-001	. #x96C8)	; &U-i001+96C8;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-001	. #x96C8)	; &U-i001+96C8;
+      ))
+    (ideographic-radical . 172)	; ⾫
+    (ideographic-strokes . 4)
+    (total-strokes	 . 12)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ?从
+     ((=ucs		  . #x96B9)	; 隹
+      ))
+    (=ucs-itaiji-001	. #x96C8)	; &U-i001+96C8;
     ))
 (define-char
   '((ideographic-radical . 172)	; ⾫
@@ -3332,7 +3362,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((==>daijiten	. 14474)	; &A2-DJT-14474;
+     ((==>daijiten	. 14474)	; &BUCS+9D60;
       ))
     (=ucs		. #x49FC)	; 䧼
     (ideographic-radical . 172)	; ⾫
@@ -3361,10 +3391,10 @@
     (ideographic-strokes . 7)
     (total-strokes	 . 15)
     (=ucs@unicode	. #x49FC)	; 䧼
-    (=cns11643-3	. #x4F5D)	; &I-C3-4F5D; [47-61]
+    (=cns11643-3	. #x4F5D)	; &C3-4F5D; [47-61]
     (->subsumptive
      ((==ucs@unicode	. #x49FC)	; 䧼
-      (==cns11643-3	. #x4F5D)	; &I-C3-4F5D; [47-61]
+      (==cns11643-3	. #x4F5D)	; &C3-4F5D; [47-61]
       ))
     ))
 (define-char
@@ -8630,7 +8660,7 @@
     ))
 (define-char
   '((ideographic-radical . 172)	; ⾫
-    (==>daijiten	. 14397)	; &A2-DJT-14397;
+    (==>daijiten	. 14397)	; &BUCS+9D07;
     ))
 (define-char
   '((ideographic-radical . 172)	; ⾫

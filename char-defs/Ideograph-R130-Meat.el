@@ -14337,6 +14337,59 @@
     (ideographic-strokes . 7)
     (total-strokes	 . 11)
     (ideographic-structure
+     ?⿰
+     ?肩
+     ((=>ucs@component	. #x72AC)	; &A-compU+72AC;
+      ))
+    (=ucs		. #x2E319)	; 𮌙
+    ))
+(define-char
+  '((ideographic-radical . 130)	; ⾁
+    (ideographic-strokes . 7)
+    (total-strokes	 . 11)
+    (ideographic-structure
+     ?⿰
+     ((=ucs@cns		. #x80A9)	; &GT-37913;
+      )
+     ?大)
+    (<-denotational
+     ((=ucs		. #x2E319)	; 𮌙
+      ))
+    (=ucs@JP/hanazono	. #x2E319)	; 𮌙
+    ))
+(define-char
+  '((ideographic-radical . 130)	; ⾁
+    (ideographic-strokes . 8)
+    (total-strokes	 . 12)
+    (ideographic-structure
+     ?⿰
+     ((=ucs		. #x80A9)	; 肩
+      )
+     ?犬)
+    (<-denotational
+     ((=ucs		. #x2E319)	; 𮌙
+      ))
+    (=>ucs-itaiji-001	. #x2E319)	; &U-i001+2E319;
+    ))
+(define-char
+  '((ideographic-radical . 130)	; ⾁
+    (ideographic-strokes . 8)
+    (total-strokes	 . 12)
+    (ideographic-structure
+     ?⿰
+     ((=ucs@cns		. #x80A9)	; &GT-37913;
+      )
+     ?犬)
+    (<-denotational
+     ((=>ucs-itaiji-001	. #x2E319)	; &U-i001+2E319;
+      ))
+    (=ucs-itaiji-001	. #x2E319)	; &U-i001+2E319;
+    ))
+(define-char
+  '((ideographic-radical . 130)	; ⾁
+    (ideographic-strokes . 7)
+    (total-strokes	 . 11)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )

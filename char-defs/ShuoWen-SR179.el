@@ -50,6 +50,16 @@
     (=shuowen-jiguge	. 16804)	; &SW-JIGUGE-16804;
     (<-Small-Seal@shuowen
      ((=ucs		  . #x2597C)	; 𥥼
+      )
+     ?𥧀)
+    (<-ancient@shuowen
+     ((=shuowen-jiguge	. 16803)	; &SW-JIGUGE-16803;
+      )
+     ((=ucs		  . #x2EAD7)	; 𮫗
+      )
+     ((=ucs		  . #x29C26)	; 𩰦
+      )
+     ((=ucs		  . #x7235)	; 爵
       ))
     (->subsumptive
      ((===shuowen-jiguge-A30 . 17304)	; &SW-JIGUGE30-17304;

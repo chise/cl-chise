@@ -6085,10 +6085,7 @@
     (==>ucs@bucs	. #x919E)	; &BUCS+919E;
     ))
 (define-char
-  '((<-denotational
-     ((==>ucs@bucs	  . #x919E)	; &BUCS+919E;
-      ))
-    (ideographic-radical . 164)	; ⾣
+  '((ideographic-radical . 164)	; ⾣
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
@@ -6106,6 +6103,11 @@
   '((<-denotational
      ((=>ucs@iwds-1	  . #x919E)	; &A-IWDSU+919E;
       (=big5		  . #xC1DF)	; &A-IWDSU+919E;
+      ))
+    (<-denotational@usage
+     ((ideographic-radical . 164)	; ⾣
+      (==>ucs@bucs	  . #x919E)	; &BUCS+919E;
+      (==>daijiten	. 12329)	; &BUCS+919E;
       ))
     (ideographic-radical . 164)	; ⾣
     (ideographic-strokes . 10)
@@ -6164,6 +6166,9 @@
      ((=>ucs@iwds-1	  . #x919E)	; &A-IWDSU+919E;
       (=big5		  . #xC1DF)	; &A-IWDSU+919E;
       ))
+    (<-denotational@usage
+     ((==>ucs@bucs	  . #x919E)	; &BUCS+919E;
+      ))
     (ideographic-radical . 164)	; ⾣
     (ideographic-strokes . 9)
     (total-strokes	 . 16)
@@ -6188,7 +6193,7 @@
       ))
     ))
 (define-char
-  '((<-denotational
+  '((<-denotational@usage
      ((==>ucs@bucs	  . #x919E)	; &BUCS+919E;
       ))
     (ideographic-radical . 164)	; ⾣

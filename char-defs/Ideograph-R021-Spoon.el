@@ -1915,19 +1915,49 @@
       ))
     ))
 (define-char
-  '((=>ucs		. #x2091B)	; 𠤛
-    (ideographic-radical . 21)	; ⼔
+  '((ideographic-radical . 21)	; ⼔
     (ideographic-strokes . 7)
     (total-strokes	 . 9)
-    (=daikanwa		. 02586)	; &M-02586;
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=>ucs@iwds-1	  . #x5315)	; &J97-5238;
+      (=>jis-x0208	  . #x5238)	; &J97-5238; [50-24]
+      )
+     ((=gt-k		  . 03596)	; &GT-K03596;
+      ))
+    (=ucs		. #x2091B)	; 𠤛
     ))
 (define-char
-  '((morohashi-daikanwa	2586 0 0)
+  '((<-denotational
+     ((=ucs		  . #x2091B)	; 𠤛
+      ))
     (ideographic-radical . 21)	; ⼔
     (ideographic-strokes . 7)
     (total-strokes	 . 9)
-    (=ucs		. #x2091B)	; 𠤛
-    (=cns11643-6	. #x2F2E)	; &I-C6-2F2E; [15-14]
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x5315)	; 匕
+      )
+     ((=gt-k		  . 03596)	; &GT-K03596;
+      ))
+    (=ucs@iso		. #x2091B)	; &C6-2F2E;
+    (=cns11643-6	. #x2F2E)	; &C6-2F2E; [15-14]
+    (=daikanwa 		. 02586)	; &I-M-02586;
+    (->subsumptive
+     ((==daikanwa	  . 02586)	; &g2-M-02586;
+      )
+     ((==ucs@iso	  . #x2091B)	; &g2-IU-0002091B;
+      (==cns11643-6	  . #x2F2E)	; &g2-IU-0002091B; [15-14]
+      (->subsumptive
+       ((===cns11643-6	    . #x2F2E)	; &R-C6-2F2E; [15-14]
+	)
+       ((===ucs@iso	    . #x2091B)	; &R-U-0002091B;
+	))
+      ))
     ))
 (define-char
   '((ideographic-radical . 21)	; ⼔

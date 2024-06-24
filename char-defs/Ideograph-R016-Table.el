@@ -2541,6 +2541,21 @@
   '((ideographic-radical . 16)	; ⼏
     (ideographic-strokes . 5)
     (total-strokes	 . 7)
+    (=ucs 		. #x2063F)	; 𠘿
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x2063F)	; 𠘿
+      ))
+    (ideographic-radical . 16)	; ⼏
+    (ideographic-strokes . 5)
+    (total-strokes	 . 7)
+    (=ucs@iso 		. #x2063F)	; &U-0002063F;
+    ))
+(define-char
+  '((ideographic-radical . 16)	; ⼏
+    (ideographic-strokes . 5)
+    (total-strokes	 . 7)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱

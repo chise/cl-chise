@@ -40657,6 +40657,19 @@
     ))
 (define-char
   '((ideographic-radical . 38)	; ⼥
+    (=ucs		. #x2183B)	; 𡠻
+    ))
+(define-char
+  '((ideographic-radical . 38)	; ⼥
+    (<-denotational
+     ((=ucs		. #x2183B)	; 𡠻
+      ))
+    (ideographic-strokes . 11)
+    (total-strokes	 . 14)
+    (=ucs@iso		. #x2183B)	; 𡠻
+    ))
+(define-char
+  '((ideographic-radical . 38)	; ⼥
     (ideographic-strokes . 11)
     (total-strokes	 . 14)
     (ideographic-structure
@@ -51065,6 +51078,34 @@
     ))
 (define-char
   '((ideographic-radical . 38)	; ⼥
+    (=ucs		. #x218DA)	; 𡣚
+    ))
+(define-char
+  '((ideographic-radical . 38)	; ⼥
+    (<-denotational
+     ((=ucs		. #x218DA)	; 𡣚
+      ))
+    (ideographic-strokes . 14)
+    (total-strokes	 . 17)
+    (=ucs@iso		. #x218DA)	; 𡣚
+    ))
+(define-char
+  '((ideographic-radical . 38)	; ⼥
+    (ideographic-strokes . 14)
+    (total-strokes	 . 17)
+    (=ucs		. #x218DE)	; 𡣞
+    ))
+(define-char
+  '((ideographic-radical . 38)	; ⼥
+    (ideographic-strokes . 14)
+    (total-strokes	 . 17)
+    (<-denotational
+     ((=ucs		. #x218DE)	; 𡣞
+      ))
+    (=ucs@iso		. #x218DE)	; 𡣞
+    ))
+(define-char
+  '((ideographic-radical . 38)	; ⼥
     (ideographic-strokes . 14)
     (total-strokes	 . 17)
     (ideographic-structure
@@ -55429,6 +55470,21 @@
     (->subsumptive
      ((==ucs@iso	  . #x21924)	; &g2-IU-00021924;
       ))
+    ))
+(define-char
+  '((ideographic-radical . 38)	; ⼥
+    (ideographic-strokes . 19)
+    (total-strokes	 . 22)
+    (=ucs		. #x2192A)	; 𡤪
+    ))
+(define-char
+  '((ideographic-radical . 38)	; ⼥
+    (ideographic-strokes . 19)
+    (total-strokes	 . 22)
+    (<-denotational
+     ((=ucs		. #x2192A)	; 𡤪
+      ))
+    (=ucs@iso		. #x2192A)	; 𡤪
     ))
 (define-char
   '((ideographic-radical . 38)	; ⼥

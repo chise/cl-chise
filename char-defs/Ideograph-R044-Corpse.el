@@ -3191,27 +3191,6 @@
     ))
 (define-char
   '((ideographic-radical . 44)	; ⼫
-    (ideographic-strokes . 5)
-    (total-strokes	 . 8)
-    (ideographic-structure
-     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM ABOVE")
-      (=ucs		  . #x2FF5)	; ⿵
-      )
-     ((=ucs-itaiji-002	  . #x5C3A)	; &U-i002+5C3A;
-      )
-     ((=ucs@iso		  . #x20B9B)	; &C4-2147;
-      (=cns11643-4	  . #x2147)	; &C4-2147; [01-39]
-      (=daikanwa	  . 03230)	; &I-M-03230;
-      ))
-    (=gt-k		. 04467)	; &GT-K04467;
-    (=gt-pj-k1		. #x434D)	; &GT-K04467; [35-45]
-    (->subsumptive
-     ((==gt-k		  . 04467)	; &g2-GT-K04467;
-      (==gt-pj-k1	  . #x434D)	; &g2-GT-K04467; [35-45]
-      ))
-    ))
-(define-char
-  '((ideographic-radical . 44)	; ⼫
     (ideographic-strokes . 6)
     (total-strokes	 . 9)
     (=ucs		. #x21C4C)	; 𡱌

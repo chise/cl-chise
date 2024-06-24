@@ -1385,7 +1385,10 @@
     (=gb2312		. #x3A3A)	; &I-G0-3A3A; [26-26]
     ))
 (define-char
-  '((ideographic-radical . 85)	; ⽔
+  '((<-denotational@component
+     ((=>ucs@component	  . #x23C79)	; &A-compU+23C79;
+      ))
+    (ideographic-radical . 85)	; ⽔
     (ideographic-strokes . 2)
     (total-strokes	 . 7)
     (ideographic-structure
@@ -1505,6 +1508,126 @@
       (->subsumptive
        ((===big5-cdp	    . #x8D71)	; &R-CDP-8D71;
 	))
+      ))
+    ))
+(define-char
+  '((<-denotational
+     ((=>big5-cdp@cognate . #x85B5)	; &A-cgnCDP-85B5;
+      ))
+    (ideographic-radical . 85)	; ⽔
+    (=>big5-cdp		. #x85B5)	; &A-CDP-85B5;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-001	  . #x23C79)	; &A-U-i001+23C79;
+      ))
+    (ideographic-radical . 85)	; ⽔
+    (ideographic-strokes . 2)
+    (total-strokes	 . 7)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x3002A)	; 𰀪
+      )
+     ((=>ucs@component	  . #x6C3A)	; &A-compU+6C3A;
+      ))
+    (=>ucs-itaiji-002	. #x8C55)	; &A-U-i002+8C55;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-002	  . #x8C55)	; &A-U-i002+8C55;
+      ))
+    (ideographic-radical . 85)	; ⽔
+    (ideographic-strokes . 2)
+    (total-strokes	 . 7)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=big5-cdp	  . #x89A6)	; &CDP-89A6;
+      )
+     ((=big5-cdp	  . #x8977)	; &CDP-8977;
+      ))
+    (=ucs-itaiji-002	. #x8C55)	; &U-i002+8C55;
+    (<-formed@component
+     ((=ucs@unicode	  . #x8C55)	; &MJ024906;
+      (=mj		  . 024906)	; &MJ024906;
+      ))
+    ))
+(define-char
+  '((<-denotational@component
+     ((=>ucs@component	  . #x23C79)	; &A-compU+23C79;
+      ))
+    (ideographic-radical . 85)	; ⽔
+    (ideographic-strokes . 2)
+    (total-strokes	 . 7)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=>ucs@component	  . #x5200)	; &A-compU+5200;
+      (=>iwds-1		  .  0149)	; &A-compU+5200;
+      )
+     ((=ucs		  . #x6C34)	; 水
+      ))
+    (=>ucs-itaiji-001@iwds-1 . #x23C79)	; &A-IWDSU-i001+23C79;
+    ))
+(define-char
+  '((<-denotational
+     ((=>big5-cdp@cognate . #x85B5)	; &A-cgnCDP-85B5;
+      ))
+    (ideographic-radical . 85)	; ⽔
+    (ideographic-strokes . 2)
+    (total-strokes	 . 7)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=>big5-cdp	  . #x89A6)	; &A-CDP-89A6;
+      )
+     ((=>ucs@component	  . #x6C3A)	; &A-compU+6C3A;
+      ))
+    (=>ucs-itaiji-001	. #x23C79)	; &A-U-i001+23C79;
+    ))
+(define-char
+  '((ideographic-radical . 85)	; ⽔
+    (=>big5-cdp@cognate . #x85B5)	; &A-cgnCDP-85B5;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-001	  . #x23C79)	; &A-U-i001+23C79;
+      ))
+    (<-denotational@component
+     ((=>ucs-itaiji-001@iwds-1 . #x23C79)	; &A-IWDSU-i001+23C79;
+      ))
+    (ideographic-radical . 85)	; ⽔
+    (ideographic-strokes . 2)
+    (total-strokes	 . 7)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x2008A)	; 𠂊
+      )
+     ((=ucs		  . #x6C34)	; 水
+      ))
+    (=ucs-itaiji-001	. #x23C79)	; &U-i001+23C79;
+    (->subsumptive
+     ((==ucs-itaiji-001	  . #x23C79)	; &g2-U-i001+23C79;
+      ))
+    ))
+(define-char
+  '((<-denotational
+     ((=>big5-cdp	  . #x85B5)	; &A-CDP-85B5;
+      ))
+    (ideographic-radical . 85)	; ⽔
+    (ideographic-strokes . 2)
+    (total-strokes	 . 7)
+    (=big5-cdp		. #x85B5)	; &CDP-85B5;
+    (<-formed@component
+     ((=ucs@unicode	  . #x8C55)	; &MJ024906;
+      (=mj		  . 024906)	; &MJ024906;
       ))
     ))
 (define-char
@@ -25135,8 +25258,8 @@
       )
      ((=ucs		  . #x6C35)	; 氵
       )
-     ((=ucs@unicode	  . #x9C7C)	; &G0-5363;
-      (=gb2312		  . #x5363)	; &G0-5363; [51-67]
+     ((name		  . "CJK RADICAL C-SIMPLIFIED FISH")
+      (=ucs		  . #x2EE5)	; ⻥
       ))
     (=ucs@unicode	. #x6E14)	; &G0-5366;
     (=gb2312		. #x5366)	; &G0-5366; [51-70]
@@ -68551,6 +68674,19 @@
 (define-char
   '((ideographic-radical . 85)	; ⽔
     (==>ucs@bucs	. #x6CE5)	; &BUCS+6CE5;
+    ))
+(define-char
+  '((ideographic-radical . 85)	; ⽔
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=>ucs@component	  . #x5200)	; &A-compU+5200;
+      (=>iwds-1		  .  0149)	; &A-compU+5200;
+      )
+     ((=>ucs@component	  . #x6C3A)	; &A-compU+6C3A;
+      ))
+    (=>ucs@component	. #x23C79)	; &A-compU+23C79;
     ))
 (define-char
   '((ideographic-radical . 85)	; ⽔

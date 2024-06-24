@@ -432,7 +432,7 @@
      zihui-bu daikanwa)
     (->mistakable
      ((=ucs@unicode	  . #x8C59)	; &JSP-5E72;
-      (=jis-x0212	  . #x5E72)	; &I-JSP-5E72; [62-82]
+      (=jis-x0212	  . #x5E72)	; &JSP-5E72; [62-82]
       (=cns11643-4	  . #x354D)	; &I-C4-354D; [21-45]
       (=daikanwa 	  . 36361)	; &JSP-5E72;
       ))
@@ -987,7 +987,7 @@
     (ideographic-strokes . 4)
     (total-strokes	 . 11)
     (=ucs@unicode	. #x8C59)	; &JSP-5E72;
-    (=jis-x0212		. #x5E72)	; &I-JSP-5E72; [62-82]
+    (=jis-x0212		. #x5E72)	; &JSP-5E72; [62-82]
     (=cns11643-4	. #x354D)	; &I-C4-354D; [21-45]
     (=big5-cdp		. #x8AD1)	; &I-CDP-8AD1;
     (=daikanwa 		. 36361)	; &JSP-5E72;
