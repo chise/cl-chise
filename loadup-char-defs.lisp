@@ -913,7 +913,7 @@
     (some-in-character-feature
      (lambda (c v)
        (unless (equal (setq ret (ideographic-structure-compact v)) v)
-	 (format t "Compact ~X (~a) : ~a -> ~a~%"
+	 (format t "~X (~a) : Compact~%~T~T   ~a~%~T~T-> ~a~%"
 		 (char-id c) c
 		 v ret)
 	 (put-char-attribute c 'ideographic-structure ret)
@@ -922,7 +922,7 @@
 		     (get-char-attribute c 'ideographic-structure@apparent))
 	 (when (setq a-str
 		     (functional-ideographic-structure-to-apparent-structure v))
-	   (format t "~X (~a) : ~a~%~T-> ~a~%"
+	   (format t "~X (~a) : F2A-Conversion~%~T~T   ~a~%~T~T-> ~a~%"
 		   (char-id c) c
 		   v a-str)
 	   (put-char-attribute c 'ideographic-structure@apparent
@@ -935,7 +935,7 @@
     (some-in-character-feature
      (lambda (c v)
        (unless (equal (setq ret (ideographic-structure-compact v)) v)
-	 (format t "Compact ~X (~a) : [apparent] ~a -> ~a~%"
+	 (format t "~X (~a) : Compact [apparent]~%~T~T   ~a~%~T~T-> ~a~%"
 		 (char-id c) c
 		 v ret)
 	 (put-char-attribute c 'ideographic-structure@apparent ret)
@@ -946,7 +946,7 @@
     (some-in-character-feature
      (lambda (c v)
        (unless (equal (setq ret (ideographic-structure-compact v)) v)
-	 (format t "Compact ~X (~a) : [apparent/leftmost] ~a -> ~a~%"
+	 (format t "~X (~a) : Compact [apparent/leftmost]~%~T~T   ~a~%~T~T-> ~a~%"
 		 (char-id c) c
 		 v ret)
 	 (put-char-attribute c 'ideographic-structure@apparent/leftmost ret)
@@ -957,7 +957,7 @@
     (some-in-character-feature
      (lambda (c v)
        (unless (equal (setq ret (ideographic-structure-compact v)) v)
-	 (format t "Compact ~X (~a) : [apparent/rightmost] ~a -> ~a~%"
+	 (format t "~X (~a) : Compact [apparent/rightmost]~%~T~T   ~a~%~T~T-> ~a~%"
 		 (char-id c) c
 		 v ret)
 	 (put-char-attribute c 'ideographic-structure@apparent/rightmost ret)
@@ -968,7 +968,7 @@
     (some-in-character-feature
      (lambda (c v)
        (unless (equal (setq ret (ideographic-structure-compact v)) v)
-	 (format t "Compact ~X (~a) : ~a -> ~a\n"
+	 (format t "~X (~a) : Compact~%~T~T   ~a~%~T~T-> ~a~%"
 		 (char-id c) c
 		 v ret)
 	 (put-char-attribute c 'ideographic-structure ret)
