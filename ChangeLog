@@ -1,3 +1,16 @@
+2024-06-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids.lisp (ids-update-index): Use `store-union-in-feature' to
+	copy products of `=>iwds-1' and `=>ucs@iwds-1' from/to the each
+	UCS abstract character witch is unified in an abstract character
+	of `=>iwds-1' or `=>ucs@iwds-1'.
+
+2024-06-24  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* cl-chise.lisp (import-from): Import `store-union-in-feature'
+	from `concord'.
+	(store-union-in-feature): New function.
+
 2024-06-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* Sync up with the current snapshot [2024-06-24 20:00].
