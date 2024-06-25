@@ -1,5 +1,10 @@
 2024-06-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* cl-chise.lisp (export): Export `ideographic-structure',
+	`some-in-character-feature', `some-char-in-family' and
+	`store-union-in-feature'.
+	(char-ucs-chars): Allow CJK-Radical-Supplement.
+
 	* ids.lisp (ids-update-index): Use `store-union-in-feature' to
 	copy products of `=>iwds-1' and `=>ucs@iwds-1' from/to the each
 	UCS abstract character witch is unified in an abstract character
