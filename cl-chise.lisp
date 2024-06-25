@@ -28,7 +28,11 @@
    :ids-parse-string
    :ids-read-file
    :ids-update-index
-   :ideograph-find-products :ideographic-structure-find-chars))
+   :ideograph-find-products :ideographic-structure-find-chars
+   :ideographic-structure
+   :some-in-character-feature
+   :some-char-in-family
+   :store-union-in-feature))
 
 (in-package :chise)
 
@@ -162,7 +166,7 @@
 (defun char-ucs-chars (character)
   (let (ucs dest)
     (if (and (setq ucs (encode-char character '=ucs))
-	     (not (and (<= #x2E80 ucs)(<= ucs #x2EF3)))
+	     ;; (not (and (<= #x2E80 ucs)(<= ucs #x2EF3)))
 	     (null (get-char-attribute character '=>ucs*)))
 	(setq dest (list (normalize-as-char character))))
     (dolist (c (mapcan #'char-ucs-chars
