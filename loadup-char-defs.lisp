@@ -930,8 +930,6 @@
        nil)
      'ideographic-structure)
 
-    (ids-update-index)
-
     (some-in-character-feature
      (lambda (c v)
        (unless (equal (setq ret (ideographic-structure-compact v)) v)
@@ -965,16 +963,51 @@
        nil)
      'ideographic-structure@apparent/rightmost)
 
+    (ids-update-index)
+
     (some-in-character-feature
      (lambda (c v)
        (unless (equal (setq ret (ideographic-structure-compact v)) v)
-	 (format t "~X (~a) : Compact~%~T~T   ~a~%~T~T-> ~a~%"
+	 (format t "~X (~a) : Compact [2nd]~%~T~T   ~a~%~T~T-> ~a~%"
 		 (char-id c) c
 		 v ret)
 	 (put-char-attribute c 'ideographic-structure ret)
 	 (setq v ret))
        nil)
      'ideographic-structure)
+
+    (some-in-character-feature
+     (lambda (c v)
+       (unless (equal (setq ret (ideographic-structure-compact v)) v)
+	 (format t "~X (~a) : Compact [apparent,2nd]~%~T~T   ~a~%~T~T-> ~a~%"
+		 (char-id c) c
+		 v ret)
+	 (put-char-attribute c 'ideographic-structure@apparent ret)
+	 (setq v ret))
+       nil)
+     'ideographic-structure@apparent)
+
+    (some-in-character-feature
+     (lambda (c v)
+       (unless (equal (setq ret (ideographic-structure-compact v)) v)
+	 (format t "~X (~a) : Compact [apparent/leftmost,2nd]~%~T~T   ~a~%~T~T-> ~a~%"
+		 (char-id c) c
+		 v ret)
+	 (put-char-attribute c 'ideographic-structure@apparent/leftmost ret)
+	 (setq v ret))
+       nil)
+     'ideographic-structure@apparent/leftmost)
+
+    (some-in-character-feature
+     (lambda (c v)
+       (unless (equal (setq ret (ideographic-structure-compact v)) v)
+	 (format t "~X (~a) : Compact [apparent/rightmost,2nd]~%~T~T   ~a~%~T~T-> ~a~%"
+		 (char-id c) c
+		 v ret)
+	 (put-char-attribute c 'ideographic-structure@apparent/rightmost ret)
+	 (setq v ret))
+       nil)
+     'ideographic-structure@apparent/rightmost)
 
     (ids-update-index)
     ))
