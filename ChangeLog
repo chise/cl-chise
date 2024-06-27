@@ -1,3 +1,18 @@
+2024-06-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* cl-chise.lisp (export): Export `char-id' and
+	`ideographic-structure-some-chars'.
+
+	* README.md (Usage):
+	- Use `chise:some-in-character-feature' and `chise:char-id'
+	  instead of `concord:some-in-feature' and `concord:object-id'.
+	- Add samples of `chise:ideograph-find-products' and
+	  `chise:ideographic-structure-find-chars'.
+
+2024-06-26  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* loadup-char-defs.lisp: Fixed.
+
 2024-06-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* cl-chise.lisp (export): Export `ideographic-structure',
