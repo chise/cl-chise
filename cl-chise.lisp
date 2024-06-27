@@ -24,11 +24,14 @@
    :define-char :find-char :char-spec :char-ccs-spec
    :normalize-as-char
    :char-ucs :char-ucs-chars
+   :char-id
    :ids-parse-element
    :ids-parse-string
    :ids-read-file
    :ids-update-index
-   :ideograph-find-products :ideographic-structure-find-chars
+   :ideograph-find-products
+   :ideographic-structure-find-chars
+   :ideographic-structure-some-chars
    :ideographic-structure
    :some-in-character-feature
    :some-char-in-family
