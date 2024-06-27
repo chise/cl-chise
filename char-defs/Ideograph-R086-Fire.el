@@ -9599,13 +9599,30 @@
   '((ideographic-radical . 86)	; ⽕
     (ideographic-strokes . 7)
     (total-strokes	 . 11)
-    (=ucs		. #x70FE)	; 烾
-    (->subsumptive
-     ((=ucs@unicode	  . #x70FE)	; &M-19061;
-      (=daikanwa	  . 19061)	; &M-19061;
-      )
-     ((=cns11643-3	  . #x3735)	; &C3-3735; [23-21]
+    (ideographic-structure
+     ?⿱
+     ?炎
+     ((=>ucs@iwds-1	. #x571F)	; &A-IWDSU+571F;
       ))
+    (=ucs		. #x70FE)	; 烾
+    ))
+(define-char
+  '((ideographic-radical . 86)	; ⽕
+    (ideographic-strokes . 7)
+    (total-strokes	 . 11)
+    (<-denotational
+     ((=ucs		. #x70FE)	; 烾
+      ))
+    (=ucs@unicode	. #x70FE)	; 烾
+    (=ucs@unicode	  . #x70FE)	; &M-19061;
+    (=daikanwa	  . 19061)	; &M-19061;
+    (->subsumptive
+     ((==ucs@unicode	  . #x70FE)	; &M-19061;
+      (==daikanwa	  . 19061)	; &M-19061;
+      )
+     ((==cns11643-3	  . #x3735)	; &C3-3735; [23-21]
+      ))
+    (=cns11643-3	  . #x3735)	; &C3-3735; [23-21]
     ))
 (define-char
   '((ideographic-radical . 86)	; ⽕
@@ -15131,6 +15148,38 @@
     (=ucs-itaiji-001	. #x242F1)	; &U-i001+242F1;
     (->subsumptive
      ((==ucs-itaiji-001	  . #x242F1)	; &g2-U-i001+242F1;
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 86)	; ⽕
+    (ideographic-strokes . 8)
+    (total-strokes	 . 12)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=>big5-cdp		. #x8A73)	; &IWDS1-20021;
+      )
+     ?炎)
+    (=>ucs-itaiji-001	. #x7099)	; &U-i001+7099;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-001	. #x7099)	; &U-i001+7099;
+      ))
+    (ideographic-radical . 86)	; ⽕
+    (ideographic-strokes . 8)
+    (total-strokes	 . 12)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x31F00)	; 𱼀
+      )
+     ?炎)
+    (=ucs-itaiji-001	. #x7099)	; &U-i001+7099;
+    (->subsumptive
+     ((==ucs-itaiji-001	. #x7099)	; &U-i001+7099;
       ))
     ))
 (define-char
@@ -39960,7 +40009,7 @@
       (->subsumptive
        ((===ucs@iso		. #x2418C)	; 𤆌
 	)
-       ((=hanziku-12	. #xEEAA)	; &I-HZK12-EEAA;
+       ((=hanziku-12	. #xEEAA)	; &HZK12-EEAA;
 	))
       ))
     ))

@@ -14406,7 +14406,7 @@
      shuowen shuowen-zhu shuowen-tongxundingsheng maoshi maoshi-zhuan daikanwa)
     (->formed
      ((=ucs@unicode	  . #x9CE9)	; 鳩
-      (=daikanwa	  . 46648)	; &I-M-46648;
+      (=daikanwa	  . 46648)	; &AJ1-03403;
       )
      ((=ucs@iso		  . #x21A03)	; &MJ033982;
       (=mj		  . 033982)	; &MJ033982;
@@ -16475,7 +16475,12 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 162)	; ⾡
+  '((<-denotational@usage
+     ((ideographic-radical . 162)	; ⾡
+      (==>ucs@bucs	. #x9020)	; &BUCS+9020;
+      (==>daijiten	. 12004)	; &A2-DJT-12004;
+      ))
+    (ideographic-radical . 162)	; ⾡
     (ideographic-strokes . 7)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER LEFT")
@@ -16535,6 +16540,24 @@
 	(===ks-x1001	    . #x7063)	; &R-K0-7063; [80-67]
 	))
       ))
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x9020)	; 造
+      ))
+    (ideographic-radical . 162)	; ⾡
+    (ideographic-strokes . 7)
+    (total-strokes	 . 11)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER LEFT")
+      (=ucs		  . #x2FFA)	; ⿺
+      )
+     ((name		  . "CJK RADICAL WALK TWO")
+      (=ucs		  . #x2ECE)	; ⻎
+      )
+     ((=ucs		  . #x543F)	; 吿
+      ))
+    (=ucs-var-004	. #x9020)	; &U-v004+9020;
     ))
 (define-char
   '((<-denotational

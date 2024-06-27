@@ -3897,6 +3897,21 @@
   '((ideographic-radical . 46)	; ⼭
     (ideographic-strokes . 4)
     (total-strokes	 . 7)
+    (=ucs		. #x21D6B)	; 𡵫
+    ))
+(define-char
+  '((ideographic-radical . 46)	; ⼭
+    (ideographic-strokes . 4)
+    (total-strokes	 . 7)
+    (<-denotational
+     ((=ucs		. #x21D6B)	; 𡵫
+      ))
+    (=ucs@iso		. #x21D6B)	; 𡵫
+    ))
+(define-char
+  '((ideographic-radical . 46)	; ⼭
+    (ideographic-strokes . 4)
+    (total-strokes	 . 7)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
@@ -5687,9 +5702,14 @@
     (ideographic-strokes . 5)
     (total-strokes	 . 8)
     (ideographic-structure
-     ?⿱
-     ?山
-     ?&AJ1-04009;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x5C71)	; 山
+      )
+     ((=ucs@unicode	  . #x4EE4)	; &AJ1-04009;
+      (=adobe-japan1-0	  . 04009)	; &AJ1-04009;
+      ))
     (=ucs@unicode	. #x5CBA)	; &AJ1-08439;
     (=adobe-japan1-2	. 08439)	; &AJ1-08439;
     (=ks-x1001		. #x5639)	; &I-K0-5639; [54-25]
@@ -7956,6 +7976,55 @@
        ((===cbeta	    . 04028)	; &R-CB04028;
 	))
       ))
+    ))
+(define-char
+  '((ideographic-radical . 46)	; ⼭
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (=ucs		. #x21DC1)	; 𡷁
+    ))
+(define-char
+  '((ideographic-radical . 46)	; ⼭
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (<-denotational
+     ((=ucs		. #x21DC1)	; 𡷁
+      ))
+    (=ucs@iso		. #x21DC1)	; 𡷁
+    ))
+(define-char
+  '((ideographic-radical . 46)	; ⼭
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ?⿰
+     ?山
+     ?𠣓)
+    (=ucs		. #x21DC3)	; 𡷃
+    ))
+(define-char
+  '((ideographic-radical . 46)	; ⼭
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (<-denotational
+     ((=ucs		. #x21DC3)	; 𡷃
+      ))
+    (=ucs@iso		. #x21DC3)	; 𡷃
+    ))
+(define-char
+  '((ideographic-radical . 46)	; ⼭
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (=ucs		. #x21DCA)	; 𡷊
+    ))
+(define-char
+  '((ideographic-radical . 46)	; ⼭
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (<-denotational
+     ((=ucs		. #x21DCA)	; 𡷊
+      ))
+    (=ucs@iso		. #x21DCA)	; 𡷊
     ))
 (define-char
   '((ideographic-radical . 46)	; ⼭

@@ -397,6 +397,13 @@
     ))
 (define-char
   '((ideographic-radical . 179)	; ⾲
+    (=>ucs@cognate	. #x97F1)	; 韱
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@cognate	. #x97F1)	; 韱
+      ))
+    (ideographic-radical . 179)	; ⾲
     (ideographic-strokes . 8)
     (total-strokes	 . 17)
     (ideographic-structure
@@ -448,6 +455,40 @@
        ((===ucs@unicode	    . #x97F1)	; &R-UU+97F1;
 	))
       ))
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@cognate	. #x97F1)	; 韱
+      ))
+    (ideographic-radical . 179)	; ⾲
+    (ideographic-strokes . 10)
+    (total-strokes	 . 19)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT")
+      (=ucs		  . #x2FF9)	; ⿹
+      )
+     ((=>ucs-itaiji-001	. #x41DD)	; &U-i001+41DD;
+      )
+     ((=ucs		  . #x97ED)	; 韭
+      ))
+    (=>ucs-itaiji-003	. #x97F1)	; &U-i003+97F1;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-003	. #x97F1)	; &U-i003+97F1;
+      ))
+    (ideographic-radical . 179)	; ⾲
+    (ideographic-strokes . 10)
+    (total-strokes	 . 19)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT")
+      (=ucs		  . #x2FF9)	; ⿹
+      )
+     ((=ucs-itaiji-001	. #x41DD)	; &U-i001+41DD;
+      )
+     ((=ucs		  . #x97ED)	; 韭
+      ))
+    (=ucs-itaiji-003	. #x97F1)	; &U-i003+97F1;
     ))
 (define-char
   '((ideographic-radical . 179)	; ⾲

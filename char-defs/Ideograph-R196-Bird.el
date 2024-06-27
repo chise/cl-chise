@@ -226,6 +226,15 @@
 (define-char
   '((ideographic-radical . 196)	; ⿃
     (ideographic-strokes . 0)
+    (total-strokes	 . 4)
+    (=big5-cdp-itaiji-002 . #x8964)	; &CDP-i002-8964;
+    (<-simplified@component
+     ((=big5-cdp	  . #x8CBB)	; &CDP-8CBB;
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 0)
     (total-strokes	 . 7)
     (=big5-cdp		. #x8CBB)	; &CDP-8CBB;
     (<-simplified@component
@@ -589,7 +598,7 @@
     (=big5		. #xB9A7)	; &I-B-B9A7;
     (=gt		. 63549)	; &I-GT-63549;
     (=gt-pj-1		. #x4837)	; &I-GT-63549; [40-23]
-    (=daikanwa		. 46648)	; &I-M-46648;
+    (=daikanwa		. 46648)	; &AJ1-03403;
     (=daijiten		. 14366)	; &I-DJT-14366;
     (=shinjigen		.  9647)	; 鳩
     (<-formed

@@ -3198,6 +3198,21 @@
   '((ideographic-radical . 42)	; ⼩
     (ideographic-strokes . 14)
     (total-strokes	 . 17)
+    (=ucs		. #x21BB4)	; 𡮴
+    ))
+(define-char
+  '((ideographic-radical . 42)	; ⼩
+    (ideographic-strokes . 14)
+    (total-strokes	 . 17)
+    (<-denotational
+     ((=ucs		. #x21BB4)	; 𡮴
+      ))
+    (=ucs@iso		. #x21BB4)	; 𡮴
+    ))
+(define-char
+  '((ideographic-radical . 42)	; ⼩
+    (ideographic-strokes . 14)
+    (total-strokes	 . 17)
     (=ucs		. #x221D4)	; 𢇔
     (->subsumptive
      ((=daikanwa	  . 07534)	; &M-07534;

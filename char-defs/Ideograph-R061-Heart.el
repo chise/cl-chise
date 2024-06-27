@@ -51331,9 +51331,13 @@
     (ideographic-strokes . 15)
     (total-strokes	 . 19)
     (ideographic-structure
-     ?⿰
-     ?壴
-     ?恣)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x58F4)	; 壴
+      )
+     ((=ucs		  . #x6063)	; 恣
+      ))
     (=ucs		. #x22925)	; 𢤥
     ))
 (define-char
@@ -51344,9 +51348,14 @@
     (ideographic-strokes . 15)
     (total-strokes	 . 19)
     (ideographic-structure
-     ?⿰
-     ?&AJ1-17467;
-     ((=ucs@cns		. #x6063)	; &C1-5543;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@unicode	  . #x58F4)	; &AJ1-17467;
+      (=adobe-japan1-5	  . 17467)	; &AJ1-17467;
+      )
+     ((=ucs@cns		  . #x6063)	; &C1-5543;
+      (=cns11643-1	  . #x5543)	; &C1-5543; [53-35]
       ))
     (=ucs@iso		. #x22925)	; &U-00022925;
     ))
@@ -51552,13 +51561,18 @@
     (ideographic-strokes . 16)
     (total-strokes	 . 19)
     (ideographic-structure
-     ?⿰
-     ?忄
-     ((=ucs@cns		. #x856B)	; &C2-5966;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5FC4)	; 忄
+      )
+     ((=ucs@cns		  . #x856B)	; &C2-5966;
+      (=cns11643-2	  . #x5966)	; &I-C2-5966; [57-70]
+      (=daikanwa	  . 32008)	; &I-M-32008;
       ))
     (=ucs@iso		. #x22926)	; &C7-472A;
-    (=cns11643-7	. #x472A)	; &I-C7-472A; [39-10]
-    (=daikanwa 		. 11442)	; &C7-472A;
+    (=cns11643-7	. #x472A)	; &C7-472A; [39-10]
+    (=daikanwa 		. 11442)	; &I-M-11442;
     (->subsumptive
      ((==ucs@iso	  . #x22926)	; &g2-M-11442;
       (==cns11643-7	  . #x472A)	; &g2-M-11442; [39-10]
@@ -51586,7 +51600,7 @@
      ((=ucs		  . #x5FC4)	; 忄
       )
      ((=ucs@unicode	  . #x856B)	; &AJ1-08609;
-      (=adobe-japan1-2	  . 08609)	; &I-AJ1-08609;
+      (=adobe-japan1-2	  . 08609)	; &AJ1-08609;
       ))
     (=cbeta		. 05544)	; &CB05544;
     ))
@@ -51615,12 +51629,18 @@
     (ideographic-strokes . 16)
     (total-strokes	 . 20)
     (ideographic-structure
-     ?⿱
-     ?&C3-535E;
-     ?心)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs@unicode	  . #x4AC9)	; &C3-535E;
+      (=cns11643-3	  . #x535E)	; &C3-535E; [51-62]
+      (=daikanwa	  . 43516)	; &I-M-43516;
+      )
+     ((=ucs		  . #x5FC3)	; 心
+      ))
     (=ucs@iso		. #x22927)	; &C4-6344;
     (=cns11643-4	. #x6344)	; &C4-6344; [67-36]
-    (=daikanwa		. 11443)	; &I-M-11443;
+    (=daikanwa 		. 11443)	; &I-M-11443;
     (=daijiten		. 03580)	; &I-DJT-03580;
     (->subsumptive
      ((==ucs@iso	  . #x22927)	; &g2-M-11443;
