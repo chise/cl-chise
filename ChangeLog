@@ -1,5 +1,31 @@
 2024-06-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* cl-chise.asd (version): Update to "0.8".
+
+	* Sync up with the current snapshot [2024-06-27 11:15 JST].
+
+	M	char-defs/Ideograph-R001-One.el
+	M	char-defs/Ideograph-R002-Line.el
+	M	char-defs/Ideograph-R030-Mouth.el
+	M	char-defs/Ideograph-R032-Earth.el
+	M	char-defs/Ideograph-R037-Big.el
+	M	char-defs/Ideograph-R038-Woman.el
+	M	char-defs/Ideograph-R040-Roof.el
+	M	char-defs/Ideograph-R042-Small.el
+	M	char-defs/Ideograph-R044-Corpse.el
+	M	char-defs/Ideograph-R046-Mountain.el
+	M	char-defs/Ideograph-R061-Heart.el
+	M	char-defs/Ideograph-R062-Halberd.el
+	M	char-defs/Ideograph-R064-Hand.el
+	M	char-defs/Ideograph-R066-Rap.el
+	M	char-defs/Ideograph-R086-Fire.el
+	M	char-defs/Ideograph-R114-Track.el
+	M	char-defs/Ideograph-R162-Walk.el
+	M	char-defs/Ideograph-R179-Leek.el
+	M	char-defs/Ideograph-R181-Leaf.el
+	M	char-defs/Ideograph-R196-Bird.el
+	M	char-defs/ShuoWen-SR200.el
+
 	* cl-chise.lisp (export): Export `char-id' and
 	`ideographic-structure-some-chars'.
 
