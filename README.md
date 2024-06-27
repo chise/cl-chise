@@ -75,12 +75,13 @@ OK
     (<-Small-Seal@shuowen #\U5B57) (=shuowen-jiguge . 51305)
     (shuowen-radical . 525))
 
-(concord:some-in-feature
+(chise:some-in-character-feature
 	(lambda (obj val)
 	  (when (eql (nth 1 val)(nth 2 val))
 	    (format t "~a (~5,'0X) : ~a~%"
-		    (chise:normalize-as-char obj) (concord:object-id obj) val)))
-	"ideographic-structure" :genre 'character)
+		    obj (chise:char-id obj) val))
+	  nil)
+	"ideographic-structure")
 ->
 #.(concord:object :character 1052973) (10112D) : (⿲ 幺 幺 幺)
 #.(concord:object :character 986659) (F0E23) : (⿰
@@ -95,4 +96,14 @@ OK
 :
 𰆬 (301AC) : (⿰ 原 原)
 nil
+
+(format t "~a" (chise:ideograph-find-products "兟日"))
+->
+(𬖂 𡄋 𰖽 𥌳 𨯩 𣎯 㬱 𧮂 𰼀 㦧 濳)
+
+(format t "~a" (chise:ideographic-structure-find-chars
+	(cdr (assoc 'chise:ideographic-structure
+	     (chise:ids-parse-string "⿰車⿱xx")))))
+->
+(䡔 𬧺 𨎪 輟 𨌹 輚 𨊿)
 ```
