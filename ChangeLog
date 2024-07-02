@@ -1,5 +1,13 @@
 2024-06-27  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* ids.lisp (ideographic-structure-char-equal): New function.
+	(ideographic-structure-character=): Use
+	`ideographic-structure-char-equal' to unify an abstract character
+	of UCS and the abstract component which unifies the abstract
+	character of UCS.
+
+2024-06-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* cl-chise.asd (version): Update to "0.8".
 
 	* Sync up with the current snapshot [2024-06-27 11:15 JST].
