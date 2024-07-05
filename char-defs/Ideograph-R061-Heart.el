@@ -21861,19 +21861,28 @@
       ))
     ))
 (define-char
-  '((=>ucs		. #x226E7)	; 𢛧
-    (ideographic-radical . 61)	; ⼼
+  '((ideographic-radical . 61)	; ⼼
     (ideographic-strokes . 8)
     (total-strokes	 . 12)
-    (=daikanwa		. 10821)	; &M-10821;
-    ))
-(define-char
-  '((morohashi-daikanwa	10821 0 1)
-    (ideographic-radical . 61)	; ⼼
-    (ideographic-strokes . 8)
-    (total-strokes	 . 12)
+    (ideographic-structure
+     ?⿱
+     ?隹
+     ?心)
     (=ucs		. #x226E7)	; 𢛧
     (=cns11643-6	. #x4874)	; &I-C6-4874; [40-84]
+    (=daikanwa		. 10821)	; &I-M-10821;
+    (->subsumptive
+     ((==ucs@iso	  . #x226E7)	; &g2-M-10821;
+      (==cns11643-6	  . #x4874)	; &g2-M-10821; [40-84]
+      (==daikanwa	  . 10821)	; &g2-M-10821;
+      (->subsumptive
+       ((===daikanwa	    . 10821)	; &R-M-10821;
+	)
+       ((===cns11643-6	    . #x4874)	; &R-C6-4874; [40-84]
+	)
+       ((===ucs@iso	    . #x226E7)	; &R-U-000226E7;
+	))
+      ))
     ))
 (define-char
   '((<-denotational
@@ -51567,7 +51576,7 @@
      ((=ucs		  . #x5FC4)	; 忄
       )
      ((=ucs@cns		  . #x856B)	; &C2-5966;
-      (=cns11643-2	  . #x5966)	; &I-C2-5966; [57-70]
+      (=cns11643-2	  . #x5966)	; &C2-5966; [57-70]
       (=daikanwa	  . 32008)	; &I-M-32008;
       ))
     (=ucs@iso		. #x22926)	; &C7-472A;

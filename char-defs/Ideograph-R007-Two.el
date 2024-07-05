@@ -2499,6 +2499,7 @@
     ))
 (define-char
   '((ideographic-radical . 7)	; ⼆
+    (sound@ja/on	"sei")
     (=ucs		. #x20137)	; 𠄷
     ))
 (define-char
@@ -2510,7 +2511,14 @@
     (total-strokes	 . 8)
     (=gt		. 00362)	; &GT-00362;
     (=gt-pj-2		. #x323F)	; &GT-00362; [18-31]
-    (=daikanwa 		. 00277)	; &I-M-00277;
+    (=daikanwa		. 00277)	; &I-M-00277;
+    (<-Small-Seal
+     ((=ucs@unicode	  . #x4E9D)	; &AJ1-17245;
+      (=adobe-japan1-5	  . 17245)	; &AJ1-17245;
+      (=daikanwa	  . 00273)	; &I-M-00273;
+      ))
+    (<-Small-Seal*sources
+     zhengzitong daikanwa)
     (->subsumptive
      ((==gt		  . 00362)	; &g2-GT-00362;
       (==daikanwa	  . 00277)	; &g2-GT-00362;

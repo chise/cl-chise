@@ -16478,7 +16478,7 @@
   '((<-denotational@usage
      ((ideographic-radical . 162)	; ⾡
       (==>ucs@bucs	. #x9020)	; &BUCS+9020;
-      (==>daijiten	. 12004)	; &A2-DJT-12004;
+      (==>daijiten	. 12004)	; &BUCS+9020;
       ))
     (ideographic-radical . 162)	; ⾡
     (ideographic-strokes . 7)
@@ -41766,19 +41766,18 @@
 (define-char
   '((ideographic-radical . 162)	; ⾡
     (ideographic-strokes . 15)
-    (ideographic-structure
-     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER LEFT")
-      (=ucs		  . #x2FFA)	; ⿺
-      )
-     ((=ucs		  . #x8FB6)	; 辶
-      )
-     ((=ucs		  . #x81F1)	; 臱
-      ))
     (=>ucs@cognate	. #x908A)	; &A-cgnU+908A;
     ))
 (define-char
   '((<-denotational
      ((=>ucs@cognate	  . #x908A)	; &A-cgnU+908A;
+      ))
+    (ideographic-radical . 162)	; ⾡
+    (=>ucs@component	  . #x908A)	; &A-cgnU+908A;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@component	  . #x908A)	; &A-cgnU+908A;
       ))
     (ideographic-radical . 162)	; ⾡
     (ideographic-strokes . 15)
@@ -41788,10 +41787,7 @@
       )
      ((=ucs		  . #x8FB6)	; 辶
       )
-     ((=ucs@unicode	  . #x81F1)	; &JSP-5665;
-      (=jis-x0212	  . #x5665)	; &JSP-5665; [54-69]
-      (=cns11643-4	  . #x4C62)	; &I-C4-4C62; [44-66]
-      (=daikanwa	  . 30124)	; &I-M-30124;
+     ((=ucs		  . #x81F1)	; &JSP-5665;
       ))
     (=ucs		. #x908A)	; 邊
     (=>ucs@iwds-1	. #x908A)	; 邊
@@ -41953,7 +41949,7 @@
     ))
 (define-char
   '((<-denotational
-     ((=>ucs@cognate	  . #x908A)	; &A-cgnU+908A;
+     ((=>ucs@component	  . #x908A)	; &A-cgnU+908A;
       ))
     (ideographic-radical . 162)	; ⾡
     (ideographic-strokes . 14)
@@ -42005,7 +42001,7 @@
     ))
 (define-char
   '((<-denotational
-     ((=>ucs@cognate	  . #x908A)	; &A-cgnU+908A;
+     ((=>ucs@component	  . #x908A)	; &A-cgnU+908A;
       ))
     (ideographic-radical . 162)	; ⾡
     (ideographic-strokes . 14)

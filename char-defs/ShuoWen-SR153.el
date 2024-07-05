@@ -48,10 +48,9 @@
      ((=ucs		  . #x20000)	; 𠀀
       ))
     (<-formed@flipped-horizontally
-     ((=shuowen-jiguge	. 15602)	; &SW-JIGUGE-15602;
+     ((=shuowen-jiguge	  . 15602)	; &SW-JIGUGE-15602;
       )
      ((=ucs		  . #x4E02)	; 丂
-      (=ucs		. #x4E02)	; 丂
       ))
     (->subsumptive
      ((===shuowen-jiguge-A30 . 16105)	; &SW-JIGUGE30-16105;

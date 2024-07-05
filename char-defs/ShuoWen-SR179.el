@@ -51,9 +51,10 @@
     (<-Small-Seal@shuowen
      ((=ucs		  . #x2597C)	; 𥥼
       )
-     ?𥧀)
+     ((=ucs		  . #x259C0)	; 𥧀
+      ))
     (<-ancient@shuowen
-     ((=shuowen-jiguge	. 16803)	; &SW-JIGUGE-16803;
+     ((=shuowen-jiguge	  . 16803)	; &SW-JIGUGE-16803;
       )
      ((=ucs		  . #x2EAD7)	; 𮫗
       )

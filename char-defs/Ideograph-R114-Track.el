@@ -186,6 +186,29 @@
     ))
 (define-char
   '((ideographic-radical . 114)	; ⽱
+    (ideographic-strokes . 3)
+    (total-strokes	 . 8)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x4E2D)	; 中
+      )
+     ((=ucs		  . #x79B8)	; 禸
+      ))
+    (=>ucs-itaiji-001	. #x79B9)	; &A-U-i001+79B9;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-001	  . #x79B9)	; &A-U-i001+79B9;
+      ))
+    (ideographic-radical . 114)	; ⽱
+    (ideographic-strokes . 3)
+    (total-strokes	 . 8)
+    (=ucs-itaiji-001	. #x79B9)	; &U-i001+79B9;
+    ))
+(define-char
+  '((ideographic-radical . 114)	; ⽱
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
@@ -223,28 +246,6 @@
      ((=ucs		  . #x53B6)	; 厶
       ))
     (=ucs-itaiji-001	. #x25741)	; &U-i001+25741;
-    ))
-(define-char
-  '((ideographic-radical . 114)	; ⽱
-    (ideographic-strokes . 3)
-    (total-strokes	 . 8)
-    (ideographic-structure
-     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
-      (=ucs		  . #x2FF1)	; ⿱
-      )
-     ?中
-     ((=ucs		  . #x79B8)	; 禸
-      ))
-    (=>ucs-itaiji-001	. #x79B9)	; &BUCS+4E01;
-    ))
-(define-char
-  '((<-denotational
-     ((=>ucs-itaiji-001 . #x79B9)
-      ))
-    (ideographic-radical . 114)	; ⽱
-    (ideographic-strokes . 3)
-    (total-strokes	 . 8)
-    (=ucs-itaiji-001	. #x79B9)	; &U-i001+79B9;
     ))
 (define-char
   '((ideographic-radical . 114)	; ⽱
@@ -1355,7 +1356,7 @@
 	)
        ((===ucs@iso	    . #x25745)	; &R-U-00025745;
 	)
-       ((=hanziku-8	  . #xCCE9)	; &g2-M-24900;
+       ((=hanziku-8	    . #xCCE9)	; &HZK08-CCE9;
 	))
       ))
     ))
@@ -1366,7 +1367,7 @@
     (ideographic-radical . 114)	; ⽱
     (ideographic-strokes . 11)
     (total-strokes	 . 16)
-    (=ucs@cns	  . #x25745)	; &g2-CU+25745;
+    (=ucs@cns 		. #x25745)	; &C7-305F;
     (=cns11643-7	. #x305F)	; &C7-305F; [16-63]
     (->subsumptive
      ((==ucs@cns	  . #x25745)	; &g2-CU+25745;

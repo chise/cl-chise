@@ -37766,7 +37766,17 @@
      ((=>ucs@iwds-1	  . #x571F)	; &A-IWDSU+571F;
       (=>iwds-1		  .  0312)	; &A-IWDSU+571F;
       ))
+    (sound@ja/on	"syuN")
     (=ucs		. #x21429)	; 𡐩
+    (<-ancient
+     ((=ucs		  . #x445E)	; 䑞
+      )
+     ((=ucs		  . #x821C)	; 舜
+      ))
+    (<-ancient$_1*sources
+     shuowen)
+    (<-ancient$_2*sources
+     shuowen)
     ))
 (define-char
   '((<-denotational
@@ -37779,7 +37789,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=ucs-itaiji-001 	  . #x7099)	; &A-U-i001+7099;
+     ((=ucs-itaiji-001	  . #x7099)	; &U-i001+7099;
       )
      ((=ucs		  . #x571F)	; 土
       ))
@@ -37791,11 +37801,35 @@
       )
      ((=ucs@unicode	  . #x70FE)	; &C3-3735;
       ))
-    (=ucs@iso		. #x21429)	; &C4-4937;
-    (=cns11643-4	. #x4937)	; &C4-4937; [41-23]
-    (=daikanwa 		. 48994)	; &I-M-48994;
+    (=ucs@iso		. #x21429)	; &MJ033176;
+    (=mj		. 033176)	; &MJ033176;
+    (=cns11643-4	. #x4937)	; &I-C4-4937; [41-23]
+    (=koseki		. 062860)	; &MJ033176;
+    (=daikanwa		. 48994)	; &I-M-48994;
+    (<-ancient
+     ((=ucs@unicode	  . #x821C)	; &MJ021371;
+      (=mj		  . 021371)	; &MJ021371;
+      (=daikanwa	  . 30339)	; &I-M-30339;
+      ))
+    (<-ancient*sources
+     daikanwa)
+    (<-formed
+     ((=ucs@unicode	  . #x821C)	; &MJ021371;
+      (=mj		  . 021371)	; &MJ021371;
+      ))
+    (<-formed$_1*sources
+     koseki mj)
+    (<-formed*sources
+     koseki mj)
     (->subsumptive
-     ((==daikanwa	  . 48994)	; &g2-M-48994;
+     ((==mj		  . 033176)	; &g2-MJ033176;
+      (==koseki		  . 062860)	; &g2-MJ033176;
+      (==daikanwa	  . 48994)	; &g2-MJ033176;
+      (->subsumptive
+       ((===daikanwa	    . 48994)	; &R-M-48994;
+	)
+       ((===mj		    . 033176)	; &R-MJ033176;
+	))
       )
      ((==ucs@iso	  . #x21429)	; &g2-IU-00021429;
       )

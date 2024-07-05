@@ -2517,6 +2517,11 @@
      ((=ucs		  . #x6C3A)	; 氺
       ))
     (=ucs		. #x22458)	; 𢑘
+    (<-ancient
+     ((=ucs		  . #x9B3D)	; 鬽
+      ))
+    (<-ancient$_1*sources
+     shuowen)
     ))
 (define-char
   '((<-denotational
@@ -2636,6 +2641,11 @@
       ))
     (sound@ja/on	"bi")
     (=ucs		. #x2245B)	; 𢑛
+    (<-Zhouwen
+     ((=ucs		  . #x9B3D)	; 鬽
+      ))
+    (<-Zhouwen$_1*sources
+     shuowen)
     ))
 (define-char
   '((<-denotational

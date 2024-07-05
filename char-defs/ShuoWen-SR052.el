@@ -5,7 +5,7 @@
     (<-Small-Seal@shuowen
      ((=ucs		  . #x4E29)	; 丩
       )
-     ((=>big5-cdp		. #x886B)	; &CDP-886B;
+     ((=>big5-cdp	  . #x886B)	; &A-CDP-886B;
       ))
     (->subsumptive
      ((===shuowen-jiguge-A30 . 07403)	; &SW-JIGUGE30-07403;

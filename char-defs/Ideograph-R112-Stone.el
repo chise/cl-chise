@@ -9753,7 +9753,7 @@
   '((ideographic-radical . 112)	; ⽯
     (ideographic-strokes . 8)
     (total-strokes	 . 13)
-    (=ucs 		. #x254E3)	; 𥓣
+    (=ucs  		. #x254E3)	; 𥓣
     ))
 (define-char
   '((<-denotational
@@ -9925,25 +9925,50 @@
 (define-char
   '((ideographic-radical . 112)	; ⽯
     (ideographic-structure
-     ?⿱
-     ?敄
-     ?石)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x6544)	; 敄
+      )
+     ((=ucs		  . #x77F3)	; 石
+      ))
     (=ucs		. #x254FA)	; 𥓺
     ))
 (define-char
-  '((ideographic-radical . 112)	; ⽯
-    (<-denotational
-     ((=ucs		. #x254FA)	; 𥓺
+  '((<-denotational
+     ((=ucs		  . #x254FA)	; 𥓺
       ))
+    (ideographic-radical . 112)	; ⽯
     (ideographic-strokes . 9)
     (total-strokes	 . 14)
-    (=ucs@iso		. #x254FA)	; 𥓺
-    (=cns11643-6	. #x5F5B)	; &I-C6-5F5B; [63-59]
-    (=daikanwa		. 24312)	; &M-24312;
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs@unicode	  . #x6544)	; &AJ1-17719;
+      (=adobe-japan1-5	  . 17719)	; &AJ1-17719;
+      )
+     ((=ucs@unicode	  . #x77F3)	; &AJ1-02676;
+      (=adobe-japan1-0	  . 02676)	; &AJ1-02676;
+      ))
+    (=ucs@iso		. #x254FA)	; &C6-5F5B;
+    (=cns11643-6	. #x5F5B)	; &C6-5F5B; [63-59]
+    (=daikanwa 		. 24312)	; &I-M-24312;
+    (<-formed
+     ((=ucs@unicode	  . #x5D4D)	; &MJ010609;
+      (=mj		  . 010609)	; &MJ010609;
+      ))
     (->subsumptive
-     ((==ucs@iso		. #x254FA)	; 𥓺
-      (==cns11643-6	. #x5F5B)	; &I-C6-5F5B; [63-59]
-      (==daikanwa		. 24312)	; &M-24312;
+     ((==ucs@iso	  . #x254FA)	; &g2-M-24312;
+      (==cns11643-6	  . #x5F5B)	; &g2-M-24312; [63-59]
+      (==daikanwa	  . 24312)	; &g2-M-24312;
+      (->subsumptive
+       ((===daikanwa	    . 24312)	; &R-M-24312;
+	)
+       ((===cns11643-6	    . #x5F5B)	; &R-C6-5F5B; [63-59]
+	)
+       ((===ucs@iso	    . #x254FA)	; &R-U-000254FA;
+	))
       ))
     ))
 (define-char

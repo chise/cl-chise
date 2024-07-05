@@ -22,7 +22,7 @@
      ((=ucs		  . #x21429)	; 𡐩
       ))
     (<-ancient@shuowen
-     ((=shuowen-jiguge	. 18005)	; &SW-JIGUGE-18005;
+     ((=shuowen-jiguge	  . 18005)	; &SW-JIGUGE-18005;
       )
      ((=ucs		  . #x445E)	; 䑞
       )

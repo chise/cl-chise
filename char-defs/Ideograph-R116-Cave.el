@@ -3908,36 +3908,85 @@
 (define-char
   '((ideographic-radical . 116)	; ⽳
     (ideographic-structure
-     ?⿱
-     ((=>ucs@iwds-1	. #x5B82)	; &A-IWDSU+5B82;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=>big5-cdp		. #x86E4)	; &CDP-86E4;
+     ((=>ucs@iwds-1	  . #x5B82)	; &A-IWDSU+5B82;
+      )
+     ((=>big5-cdp	  . #x86E4)	; &A-CDP-86E4;
       ))
     (=ucs		. #x2597C)	; 𥥼
+    (<-ancient
+     ((=ucs		  . #x2EAD7)	; 𮫗
+      )
+     ((=ucs		  . #x29C26)	; 𩰦
+      )
+     ((=ucs		  . #x7235)	; 爵
+      ))
+    (<-ancient$_1*sources
+     shuowen)
+    (<-ancient$_2*sources
+     shuowen)
+    (<-ancient$_3*sources
+     shuowen)
     ))
 (define-char
-  '((ideographic-radical . 116)	; ⽳
-    (<-denotational
-     ((=ucs		. #x2597C)	; 𥥼
+  '((<-denotational
+     ((=ucs		  . #x2597C)	; 𥥼
       ))
+    (ideographic-radical . 116)	; ⽳
     (ideographic-strokes . 7)
     (total-strokes	 . 12)
     (ideographic-structure
-     ?⿱
-     ((=>ucs@iwds-1	. #x7A74)	; &A-IWDSU+7A74;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=>ucs@iwds-1	  . #x7A74)	; &A-IWDSU+7A74;
+      (=>iwds-1		  .  0223)	; &A-IWDSU+7A74;
       )
      ((=big5-cdp-itaiji-001 . #x86E4)	; &CDP-i001-86E4;
       ))
-    (=ucs@iso		. #x2597C)	; 𥥼
-    (=daikanwa	  . 25521)	; &M-25521;
+    (=ucs@iso		. #x2597C)	; &C6-4C52;
+    (=cns11643-6	. #x4C52)	; &I-C6-4C52; [44-50]
+    (=daikanwa 		. 25521)	; &C6-4C52;
     (->subsumptive
-     ((==daikanwa	  . 25521)	; &M-25521;
+     ((==daikanwa 	  . 25521)	; &g2-M-25521;
       )
-     ((==ucs@iso		  . #x2597C)	; &C6-4C52;
-      (==cns11643-6	  . #x4C52)	; &C6-4C52; [44-50]
+     ((==ucs@iso	  . #x2597C)	; &g2-IU-0002597C;
+      (==cns11643-6	  . #x4C52)	; &g2-IU-0002597C; [44-50]
+      (->subsumptive
+       ((===cns11643-6	    . #x4C52)	; &R-C6-4C52; [44-50]
+	)
+       ((===ucs@iso	    . #x2597C)	; &R-U-0002597C;
+	))
       ))
-    (=ucs@iso		  . #x2597C)	; &C6-4C52;
-    (=cns11643-6	  . #x4C52)	; &C6-4C52; [44-50]
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x2597C)	; 𥥼
+      ))
+    (=>ucs*		. #x2597C)	; 𥥼
+    (ideographic-radical . 116)	; ⽳
+    (ideographic-strokes@cns . 9)
+    (total-strokes@cns	     . 14)
+    (ideographic-strokes . 7)
+    (total-strokes	 . 12)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=>ucs@iwds-1	  . #x7A74)	; &A-IWDSU+7A74;
+      (=>iwds-1		  .  0223)	; &A-IWDSU+7A74;
+      )
+     ((=big5-cdp	  . #x86E4)	; &CDP-86E4;
+      ))
+    (=ucs		. #x2F95C)	; 𥥼
+    (=ucs		. #x2F95C)	; 𥥼
+    (=cns11643-6	. #x5F75)	; &I-C6-5F75; [63-85]
+    (->subsumptive
+     ((==ucs@cns	  . #x2F95C)	; &g2-CU+2F95C;
+      (==cns11643-6	  . #x5F75)	; &g2-CU+2F95C; [63-85]
+      ))
     ))
 (define-char
   '((ideographic-radical . 116)	; ⽳
@@ -6379,28 +6428,63 @@
     ))
 (define-char
   '((<-denotational
-     ((=ucs		. #x2597C)	; 𥥼
+     ((=ucs		  . #x2597C)	; 𥥼
       ))
-    (=>ucs*		. #x2597C)	; 𥥼
     (ideographic-radical . 116)	; ⽳
-    (ideographic-strokes . 7)
-    (total-strokes	 . 12)
+    (ideographic-strokes . 9)
+    (total-strokes	 . 14)
     (ideographic-structure
-     ?⿱
-     ((=>ucs@iwds-1	. #x7A74)	; &A-IWDSU+7A74;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=big5-cdp		. #x86E4)	; &CDP-86E4;
+     ((=>ucs@iwds-1	  . #x5B82)	; &A-IWDSU+5B82;
+      )
+     ((=>big5-cdp	  . #x8650)	; &A-CDP-8650;
       ))
-    (=ucs		. #x2F95C)	; 𥥼
-    (ideographic-strokes@cns . 9)
-    (total-strokes@cns       . 14)
-    (ideographic-strokes . 7)
-    (total-strokes	. 12)
-    (=ucs@cns	  . #x2F95C)	; &C6-5F75;
-    (=cns11643-6	  . #x5F75)	; &C6-5F75; [63-85]
+    (=ucs		. #x259C0)	; 𥧀
+    (<-ancient
+     ((=ucs		  . #x2EAD7)	; 𮫗
+      )
+     ((=ucs		  . #x29C26)	; 𩰦
+      )
+     ((=ucs		  . #x7235)	; 爵
+      ))
+    (<-ancient$_1*shuowen
+     shuowen)
+    (<-ancient$_2*sources
+     shuowen)
+    (<-ancient$_3*sources
+     shuowen)
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x259C0)	; 𥧀
+      ))
+    (ideographic-radical . 116)	; ⽳
+    (ideographic-strokes . 9)
+    (total-strokes	 . 14)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=>ucs@iwds-1	  . #x7A74)	; &A-IWDSU+7A74;
+      (=>iwds-1		  .  0223)	; &A-IWDSU+7A74;
+      )
+     ((=big5-cdp	  . #x8650)	; &CDP-8650;
+      ))
+    (=ucs@iso		. #x259C0)	; &M-25590;
+    (=daikanwa 		. 25590)	; &M-25590;
+    (<-ancient
+     ((=ucs@ks		  . #x7235)	; &MJ016748;
+      (=mj		  . 016748)	; &MJ016748;
+      (=daikanwa	  . 19711)	; &I-M-19711;
+      ))
+    (<-ancient*sources
+     zihui-bu daikanwa)
     (->subsumptive
-     ((==ucs@cns	  . #x2F95C)	; &C6-5F75;
-      (==cns11643-6	  . #x5F75)	; &C6-5F75; [63-85]
+     ((==daikanwa	  . 25590)	; &g2-M-25590;
+      )
+     ((==ucs@iso	  . #x259C0)	; &g2-IU-000259C0;
       ))
     ))
 (define-char
@@ -6573,52 +6657,6 @@
     (total-strokes	 . 14)
     (=ucs		. #x259C5)	; 𥧅
     (=cns11643-6	. #x5F79)	; &I-C6-5F79; [63-89]
-    ))
-(define-char
-  '((<-denotational
-     ((=ucs		. #x2597C)	; 𥥼
-      ))
-    (ideographic-radical . 116)	; ⽳
-    (ideographic-strokes . 9)
-    (total-strokes	 . 14)
-    (ideographic-structure
-     ?⿱
-     ((=>ucs@iwds-1	. #x5B82)	; &A-IWDSU+5B82;
-      )
-     ((=>big5-cdp		. #x8650)	; &CDP-8650;
-      ))
-    (=ucs		. #x259C0)	; 𥧀
-    ))
-(define-char
-  '((ideographic-radical . 116)	; ⽳
-    (ideographic-strokes . 9)
-    (total-strokes	 . 14)
-    (<-denotational
-     ((=ucs		. #x259C0)	; 𥧀
-      ))
-    (ideographic-structure
-     ?⿱
-     ((=>ucs@iwds-1	. #x7A74)	; &A-IWDSU+7A74;
-      )
-     ((=big5-cdp		. #x8650)	; &CDP-8650;
-      ))
-    (=daikanwa		. 25590)	; &M-25590;
-    (ideographic-strokes . 9)
-    (total-strokes	   . 14)
-    (=daikanwa	  . 25590)	; &M-25590;
-    (<-ancient
-     ((=ucs@ks	    . #x7235)	; &MJ016748;
-      (=mj		    . 016748)	; &MJ016748;
-      (=daikanwa	    . 19711)	; &I-M-19711;
-      ))
-    (<-ancient*sources
-     zihui-bu daikanwa)
-    (=ucs@iso		. #x259C0)	; 𥧀
-    (->subsumptive
-     ((==daikanwa	  . 25590)	; &M-25590;
-      )
-     ((==ucs@iso		. #x259C0)	; 𥧀
-      ))
     ))
 (define-char
   '((ideographic-radical . 116)	; ⽳

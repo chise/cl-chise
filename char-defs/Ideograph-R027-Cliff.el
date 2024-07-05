@@ -8154,6 +8154,7 @@
   '((ideographic-radical . 27)	; ⼚
     (ideographic-strokes . 13)
     (total-strokes	 . 15)
+    (sound@ja/on	"ko")
     (=ucs		. #x20AB3)	; 𠪳
     ))
 (define-char
@@ -8163,11 +8164,38 @@
     (ideographic-radical . 27)	; ⼚
     (ideographic-strokes . 13)
     (total-strokes	 . 15)
-    (=ucs@iso		. #x20AB3)	; &C7-2142;
+    (=ucs@iso		. #x20AB3)	; &MJ031944;
+    (=mj		. 031944)	; &MJ031944;
     (=cns11643-7	. #x2142)	; &I-C7-2142; [01-34]
-    (=daikanwa 		. 48955)	; &C7-2142;
+    (=koseki		. 035210)	; &MJ031944;
+    (=daikanwa		. 48955)	; &I-M-48955;
+    (<-ancient
+     ((=ucs@cns		  . #x864E)	; &MJ023272;
+      (=ucs@jis		  . #x864E)	; &MJ023272;
+      (=ucs@ks		  . #x864E)	; &MJ023272;
+      (=mj		  . 023272)	; &MJ023272;
+      (=daikanwa	  . 32675)	; &I-M-32675;
+      ))
+    (<-ancient*sources
+     daikanwa)
+    (<-formed
+     ((=ucs@jis		. #x864E)	; &MJ023272;
+      (=jis-x0208	  . #x3857)	; &MJ023272; [24-55]
+      (=jis-x0213-1	  . #x3857)	; &I-JX1-3857; [24-55]
+      ))
+    (<-formed$_1*sources
+     koseki mj)
+    (<-formed*sources
+     koseki mj)
     (->subsumptive
-     ((==daikanwa	  . 48955)	; &g2-M-48955;
+     ((==mj		  . 031944)	; &g2-MJ031944;
+      (==koseki		  . 035210)	; &g2-MJ031944;
+      (==daikanwa	  . 48955)	; &g2-MJ031944;
+      (->subsumptive
+       ((===daikanwa	    . 48955)	; &R-M-48955;
+	)
+       ((===mj		    . 031944)	; &R-MJ031944;
+	))
       )
      ((==ucs@iso	  . #x20AB3)	; &g2-IU-00020AB3;
       (==cns11643-7	  . #x2142)	; &g2-IU-00020AB3; [01-34]

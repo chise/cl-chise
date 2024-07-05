@@ -408,7 +408,8 @@
     (<-Liwen*sources
      jiyun)
     (<-interchangeable
-     ((=ucs@unicode	  . #x5E9A)	; 庚
+     ((=ucs@unicode	  . #x5E9A)	; &AJ1-01984;
+      (=adobe-japan1-0	  . 01984)	; &AJ1-01984;
       (=daikanwa	  . 09278)	; &I-M-09278;
       )
      ((=ucs@unicode	  . #x7D93)	; &AJ1-06083;
@@ -2738,7 +2739,8 @@
       (=mj		  . 008648)	; &MJ008648;
       (=daikanwa	  . 04296)	; &I-M-04296;
       )
-     ((=ucs@unicode	  . #x6158)	; 慘
+     ((=ucs@unicode	  . #x6158)	; &AJ1-04887;
+      (=adobe-japan1-0	  . 04887)	; &AJ1-04887;
       (=daikanwa	  . 11094)	; &I-M-11094;
       ))
     (<-interchangeable$_1*sources

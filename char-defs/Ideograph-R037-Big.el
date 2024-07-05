@@ -1531,21 +1531,22 @@
     (=ucs		. #x5934)	; 头
     ))
 (define-char
-  '((ideographic-radical . 37)	; ⼤
-    (<-denotational
-     ((=ucs		. #x5934)	; 头
+  '((<-denotational
+     ((=ucs		  . #x5934)	; 头
       ))
+    (ideographic-radical . 37)	; ⼤
     (ideographic-strokes . 2)
     (total-strokes	 . 5)
     (hanyu-dazidian	1 526 2)
-    (=ucs@unicode	. #x5934)	; 头
-    (=gb2312		. #x4D37)	; &I-G0-4D37; [45-23]
+    (=ucs@unicode	. #x5934)	; &C3-2239;
+    (=gb2312		. #x4D37)	; &C3-2239; [45-23]
     (=cns11643-3	. #x2239)	; &I-C3-2239; [02-25]
     (=big5-cdp		. #x8A62)	; &I-CDP-8A62;
     (=jef-china3	. #x81E3)	; &I-JC3-81E3;
     (<-simplified@CN
-     ((=ucs@unicode	. #x982D)	; 頭
-      (=gb12345 	  . #x4D37)	; 頭 [45-23]
+     ((=ucs@unicode	  . #x982D)	; &AJ1-03204;
+      (=adobe-japan1-0	  . 03204)	; &AJ1-03204;
+      (=gb12345		  . #x4D37)	; &AJ1-03204; [45-23]
       ))
     (->subsumptive
      ((==ucs@unicode	  . #x5934)	; &g2-UU+5934;
@@ -13430,7 +13431,7 @@
       )
      ((=ucs		  . #x5927)	; 大
       )
-     ((=mj		  . 057897)	; 歲
+     ((=mj		  . 057897)	; &MJ057897;
       ))
     (=ucs@iso		. #x21693)	; &M-H0115;
     (=daikanwa/ho	.  0115)	; &M-H0115;

@@ -33628,6 +33628,12 @@
     (ideographic-radical . 149)	; ⾔
     (ideographic-strokes . 12)
     (total-strokes	 . 19)
+    (ideographic-structure
+     ?&U-i001+2FF1;
+     ((=ucs		  . #x8A00)	; 言
+      )
+     ((=ucs@unicode	  . #x7D72)	; 絲
+      ))
     (=mj 		. 058764)	; &MJ058764;
     (=koseki		. 408560)	; &MJ058764;
     (->subsumptive

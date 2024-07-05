@@ -620,7 +620,7 @@
       (=ucs		  . #x2FF0)	; ⿰
       )
      ((=ucs@unicode	  . #x8C4A)	; &AJ1-03675;
-      (=adobe-japan1-0	  . 03675)	; &I-AJ1-03675;
+      (=adobe-japan1-0	  . 03675)	; &AJ1-03675;
       )
      ((=ucs@unicode	  . #x8272)	; &AJ1-02541;
       (=adobe-japan1-0	  . 02541)	; &AJ1-02541;
