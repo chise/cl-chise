@@ -597,37 +597,43 @@ COMPONENT can be a character or char-spec."
 	   (cons (list char) tree)
 	   ))))
 
-(defun ideographic-chars-to-is-a-tree (chars)
+(defun ideographic-chars-to-is-a-tree* (chars)
   (let (tree)
-    (dolist (char (sort (copy-list chars) #'ideographic-structure-char<))
+    (dolist (char (sort chars #'ideographic-structure-char<))
       (setq tree (ideo-comp-tree-adjoin tree char)))
     tree))
+
+(defun ideographic-chars-to-is-a-tree (chars)
+  (ideographic-chars-to-is-a-tree* (copy-list chars)))
 
 (defun ids-find-chars-including-ids (structure)
   (let (comp-alist comp-spec ret str rest)
     (cond
      ((character-object-p structure)
-      (setq rest (copy-list (get-char-attribute structure 'ideographic-products)))
+      (setq rest (get-char-attribute structure 'ideographic-products))
       )
      ((setq ret (ideographic-structure-find-chars structure))
-      (dolist (pc ret)
-	(setq rest
-	      (union
-	       rest
-	       (copy-list (get-char-attribute pc 'ideographic-products)))))
+      ;; (dolist (pc ret)
+      ;; 	(setq rest
+      ;; 	      (union
+      ;; 	       rest
+      ;; 	       (copy-list (get-char-attribute pc 'ideographic-products)))))
+      (setq rest (union-in-character-feature "ideographic-products" ret))
       )
      (t
       (setq comp-alist (ideographic-structure-to-components-alist structure)
 	    comp-spec (list (cons 'ideographic-structure structure)))
-      (dolist (pc (caar
-		   (sort (mapcar (lambda (cell)
-				   (if (setq ret (get-char-attribute
-						  (car cell) 'ideographic-products))
-				       (cons ret (length ret))
-				     (cons nil 0)))
-				 comp-alist)
-			 (lambda (a b)
-			   (< (cdr a)(cdr b))))))
+      (dolist (pc (ideograph-find-products (mapcar #'car comp-alist))
+		  ;; (caar
+		  ;;  (sort (mapcar (lambda (cell)
+		  ;; 		   (if (setq ret (get-char-attribute
+		  ;; 				  (car cell) 'ideographic-products))
+		  ;; 		       (cons ret (length ret))
+		  ;; 		     (cons nil 0)))
+		  ;; 		 comp-alist)
+		  ;; 	 (lambda (a b)
+		  ;; 	   (< (cdr a)(cdr b)))))
+		  )
 	(when (and (every (lambda (cell)
 			    (>= (ideographic-char-count-components pc (car cell))
 				(cdr cell)))
@@ -643,7 +649,7 @@ COMPONENT can be a character or char-spec."
 			     comp-spec))))
 	  (push pc rest)))
       ))
-    (ideographic-chars-to-is-a-tree rest)))
+    (ideographic-chars-to-is-a-tree* rest)))
 
 (defun ideographic-structure-compact (structure)
   (let ((rest structure)
