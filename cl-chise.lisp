@@ -35,6 +35,7 @@
    :ideographic-structure
    :some-in-character-feature
    :some-char-in-family
+   :union-in-character-feature
    :store-union-in-feature))
 
 (in-package :chise)
@@ -167,21 +168,27 @@
       (concord:object-id char)))
 
 (defun char-ucs-chars (character)
-  (let (ucs dest)
-    (if (and (setq ucs (encode-char character '=ucs))
-	     ;; (not (and (<= #x2E80 ucs)(<= ucs #x2EF3)))
-	     (null (get-char-attribute character '=>ucs*)))
-	(setq dest (list (normalize-as-char character))))
-    (dolist (c (mapcan #'char-ucs-chars
-		       (get-char-attribute character '->subsumptive)))
-      (setq dest (adjoin (normalize-as-char c) dest)))
-    (dolist (c (mapcan #'char-ucs-chars
-		       (get-char-attribute character '->denotational)))
-      (setq dest (adjoin (normalize-as-char c) dest)))
-    (dolist (c (mapcan #'char-ucs-chars
-		       (get-char-attribute character '->denotational@component)))
-      (setq dest (adjoin (normalize-as-char c) dest)))
-    dest))
+  (let (ret ucs dest)
+    (cond
+      ((setq ret (get-char-attribute character "$_ucs-chars"))
+       ret)
+      (t
+       (if (and (setq ucs (encode-char character '=ucs))
+		;; (not (and (<= #x2E80 ucs)(<= ucs #x2EF3)))
+		(null (get-char-attribute character '=>ucs*)))
+	   (setq dest (list (normalize-as-char character))))
+       (dolist (c (mapcan #'char-ucs-chars
+			  (get-char-attribute character '->subsumptive)))
+	 (setq dest (adjoin (normalize-as-char c) dest)))
+       (dolist (c (mapcan #'char-ucs-chars
+			  (get-char-attribute character '->denotational)))
+	 (setq dest (adjoin (normalize-as-char c) dest)))
+       (dolist (c (mapcan #'char-ucs-chars
+			  (get-char-attribute character
+					      '->denotational@component)))
+	 (setq dest (adjoin (normalize-as-char c) dest)))
+       (put-char-attribute character "$_ucs-chars" dest)
+       dest))))
 
 (defun some-in-character-feature (func feature-name)
   (some-in-feature (lambda (c v)
@@ -189,6 +196,14 @@
 			      (normalize-as-char c)
 			      v))
 		   feature-name :genre 'character))
+
+(defun union-in-character-feature (feature-name &rest characters)
+  (apply #'concord:union-in-feature feature-name
+	 (mapcar (lambda (char)
+		   (if (characterp char)
+		       (concord:object :character (char-id char))
+		       char))
+		 characters)))
 
 (defun some-char-in-family (function char &optional ignore-sisters)
   (let ((rest (list char))
