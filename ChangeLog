@@ -1,3 +1,20 @@
+2024-07-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* cl-chise.lisp (export): Export `union-in-character-feature'.
+	(char-ucs-chars): Cache the result in `$_ucs-chars' feature.
+	(union-in-character-feature): New function.
+
+	* ids.lisp (ideographic-chars-to-is-a-tree*): New function [it is
+	a version of `ideographic-chars-to-is-a-tree' without `copy-list'
+	for the argument `chars'].
+	(ideographic-chars-to-is-a-tree): Use `ideographic-chars-to-is-a-tree*'.
+	(ids-find-chars-including-ids):
+	- If argument `structure' is a character; don't use `copy-list'
+	  for the result.
+	- Use `union-in-character-feature' instead of `union'.
+	- Use `ideographic-chars-to-is-a-tree*' instead of
+	  `ideographic-chars-to-is-a-tree'.
+
 2024-07-06  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* Sync up with the current snapshot [2024-07-05 09:00 JST].
