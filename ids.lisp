@@ -618,7 +618,7 @@ COMPONENT can be a character or char-spec."
       ;; 	      (union
       ;; 	       rest
       ;; 	       (copy-list (get-char-attribute pc 'ideographic-products)))))
-      (setq rest (union-in-character-feature "ideographic-products" ret))
+      (setq rest (apply #'union-in-character-feature "ideographic-products" ret))
       )
      (t
       (setq comp-alist (ideographic-structure-to-components-alist structure)
@@ -639,17 +639,40 @@ COMPONENT can be a character or char-spec."
 				(cdr cell)))
 			  comp-alist)
 		   (or (ideographic-char-match-component pc comp-spec)
-		       (and (setq str (get-char-attribute pc 'ideographic-structure))
+		       ;; (and (setq str (get-char-attribute pc 'ideographic-structure))
+		       ;; 	    (ideographic-char-match-component
+		       ;; 	     (list
+		       ;; 	      (cons
+		       ;; 	       'ideographic-structure
+		       ;; 	       (functional-ideographic-structure-to-apparent-structure
+		       ;; 		str)))
+		       ;; 	     comp-spec))
+		       (and (setq str
+				  (get-char-attribute
+				   pc 'ideographic-structure@apparent))
 			    (ideographic-char-match-component
-			     (list
-			      (cons
-			       'ideographic-structure
-			       (functional-ideographic-structure-to-apparent-structure
-				str)))
-			     comp-spec))))
+		       	     (list (cons 'ideographic-structure str))
+			     comp-spec))
+		       (and (setq str
+				  (get-char-attribute
+				   pc 'ideographic-structure@apparent/leftmost))
+			    (ideographic-char-match-component
+		       	     (list (cons 'ideographic-structure str))
+			     comp-spec))
+		       (and (setq str
+				  (get-char-attribute
+				   pc 'ideographic-structure@apparent/rightmost))
+			    (ideographic-char-match-component
+		       	     (list (cons 'ideographic-structure str))
+			     comp-spec))
+		       ))
 	  (push pc rest)))
       ))
-    (ideographic-chars-to-is-a-tree* rest)))
+    rest))
+
+(defun ids-find-chars-including-ids-as-is-a-tree (structure)
+  (ideographic-chars-to-is-a-tree*
+   (ids-find-chars-including-ids structure)))
 
 (defun ideographic-structure-compact (structure)
   (let ((rest structure)
@@ -703,7 +726,7 @@ COMPONENT can be a character or char-spec."
 	(cond
 	 ((eq (car enc-str) #\⿰)
 	  (unless conversion-only
-	    (setq f-res (ids-find-chars-including-ids enc-str)))
+	    (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	  (setq new-str (list #\⿱
 			      (nth 2 enc-str)
 			      (nth 2 structure)))
@@ -715,7 +738,7 @@ COMPONENT can be a character or char-spec."
 		 (list #\⿰ (nth 1 enc-str) new-str-c)
 		 )
 		(t
-		 (setq a-res (ids-find-chars-including-ids new-str))
+		 (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		 (list enc
 		       f-res
 		       new-str-c
@@ -728,7 +751,7 @@ COMPONENT can be a character or char-spec."
 	       (member (char-ucs (nth 1 enc-str)) '(#x4EBB #x2E85))
 	       (eq (nth 2 enc-str) #\丨))
 	  (unless conversion-only
-	    (setq f-res (ids-find-chars-including-ids enc-str)))
+	    (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	  (setq new-str (list #\⿱
 			      (nth 3 enc-str)
 			      (nth 2 structure)))
@@ -740,7 +763,7 @@ COMPONENT can be a character or char-spec."
 		 (list #\⿰ (decode-char '=big5-cdp #x8B7A) new-str-c)
 		 )
 		(t
-		 (setq a-res (ids-find-chars-including-ids new-str))
+		 (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		 (list enc
 		       f-res
 		       new-str-c
@@ -751,7 +774,7 @@ COMPONENT can be a character or char-spec."
 	  )
 	 ((eq (car enc-str) #\⿱)
 	  (unless conversion-only
-	    (setq f-res (ids-find-chars-including-ids enc-str)))
+	    (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	  (setq new-str
 		(list
 		 (cond
@@ -791,7 +814,7 @@ COMPONENT can be a character or char-spec."
 		 (list #\⿱ (nth 1 enc-str) new-str-c)
 		 )
 		(t
-		 (setq a-res (ids-find-chars-including-ids new-str))
+		 (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		 (list enc
 		       f-res
 		       new-str-c
@@ -804,7 +827,7 @@ COMPONENT can be a character or char-spec."
 	  )
 	 ((eq (car enc-str) #\⿸)
 	  (unless conversion-only
-	    (setq f-res (ids-find-chars-including-ids enc-str)))
+	    (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	  (setq new-str (list (cond
 			       ((character-object-p (nth 2 enc-str))
 				(if (member (char-ucs (nth 2 enc-str))
@@ -824,7 +847,7 @@ COMPONENT can be a character or char-spec."
 		 (list #\⿸ (nth 1 enc-str) new-str-c)
 		 )
 		(t
-		 (setq a-res (ids-find-chars-including-ids new-str))
+		 (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		 (list enc
 		       f-res
 		       new-str-c
@@ -848,7 +871,7 @@ COMPONENT can be a character or char-spec."
 	(cond
 	 ((eq (car enc-str) #\⿰)
 	  (unless conversion-only
-	    (setq f-res (ids-find-chars-including-ids enc-str)))
+	    (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	  (setq new-str (list #\⿱
 			      (nth 1 enc-str)
 			      (nth 2 structure)))
@@ -860,7 +883,7 @@ COMPONENT can be a character or char-spec."
 		 (list #\⿰ new-str-c (nth 2 enc-str))
 		 )
 		(t
-		 (setq a-res (ids-find-chars-including-ids new-str))
+		 (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		 (list enc
 		       f-res
 		       new-str-c
@@ -871,7 +894,7 @@ COMPONENT can be a character or char-spec."
 	  )
 	 ((eq (car enc-str) #\⿱)
 	  (unless conversion-only
-	    (setq f-res (ids-find-chars-including-ids enc-str)))
+	    (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	  (setq new-str (list #\⿰
 			      (nth 2 structure)
 			      (nth 2 enc-str)))
@@ -883,7 +906,7 @@ COMPONENT can be a character or char-spec."
 		 (list #\⿱ (nth 1 enc-str) new-str-c)
 		 )
 		(t
-		 (setq a-res (ids-find-chars-including-ids new-str))
+		 (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		 (list enc
 		       f-res
 		       new-str-c
@@ -906,7 +929,7 @@ COMPONENT can be a character or char-spec."
 	(cond
 	 ((eq (car enc-str) #\⿺)
 	  (unless conversion-only
-	    (setq f-res (ids-find-chars-including-ids enc-str)))
+	    (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	  (setq new-str (list #\⿱
 			      (nth 2 structure)
 			      (nth 1 enc-str)))
@@ -918,7 +941,7 @@ COMPONENT can be a character or char-spec."
 		 (list #\⿺ new-str-c (nth 2 enc-str))
 		 )
 		(t
-		 (setq a-res (ids-find-chars-including-ids new-str))
+		 (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		 (list enc
 		       f-res
 		       new-str-c
@@ -929,7 +952,7 @@ COMPONENT can be a character or char-spec."
 	  )
 	 ((eq (car enc-str) #\⿱)
 	  (unless conversion-only
-	    (setq f-res (ids-find-chars-including-ids enc-str)))
+	    (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	  (setq new-str (list #\⿰
 			      (nth 2 structure)
 			      (nth 1 enc-str)))
@@ -941,7 +964,7 @@ COMPONENT can be a character or char-spec."
 		 (list #\⿱ new-str-c (nth 2 enc-str))
 		 )
 		(t
-		 (setq a-res (ids-find-chars-including-ids new-str))
+		 (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		 (list enc
 		       f-res
 		       new-str-c
@@ -952,7 +975,7 @@ COMPONENT can be a character or char-spec."
 	  )
 	 ((eq (car enc-str) #\⿰)
 	  (unless conversion-only
-	    (setq f-res (ids-find-chars-including-ids enc-str)))
+	    (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	  (setq new-str (list #\⿱
 			      (nth 2 structure)
 			      (nth 1 enc-str)))
@@ -964,7 +987,7 @@ COMPONENT can be a character or char-spec."
 		 (list #\⿰ new-str-c (nth 2 enc-str))
 		 )
 		(t
-		 (setq a-res (ids-find-chars-including-ids new-str))
+		 (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		 (list enc
 		       f-res
 		       new-str-c
@@ -992,7 +1015,7 @@ COMPONENT can be a character or char-spec."
 		     (eq (char-feature (nth 2 enc-str) '=>big5-cdp)
 			 #x87A5)))
 	    (unless conversion-only
-	      (setq f-res (ids-find-chars-including-ids enc-str)))
+	      (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	    (setq new-str (list #\⿴
 				(nth 2 enc-str)
 				(nth 2 structure)))
@@ -1004,7 +1027,7 @@ COMPONENT can be a character or char-spec."
 		   (list #\⿱ (nth 1 enc-str) new-str-c)
 		   )
 		  (t
-		   (setq a-res (ids-find-chars-including-ids new-str))
+		   (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		   (list enc
 			 f-res
 			 new-str-c
@@ -1016,7 +1039,7 @@ COMPONENT can be a character or char-spec."
 	   ((and (character-object-p (nth 2 enc-str))
 		 (eq (char-ucs (nth 2 enc-str)) #x51F5))
 	    (unless conversion-only
-	      (setq f-res (ids-find-chars-including-ids enc-str)))
+	      (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	    (setq new-str (list #\⿶
 				(nth 2 enc-str)
 				(nth 2 structure)))
@@ -1028,7 +1051,7 @@ COMPONENT can be a character or char-spec."
 		   (list #\⿱ (nth 1 enc-str) new-str-c)
 		   )
 		  (t
-		   (setq a-res (ids-find-chars-including-ids new-str))
+		   (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		   (list enc
 			 f-res
 			 new-str-c
@@ -1041,7 +1064,7 @@ COMPONENT can be a character or char-spec."
 		 (eq (char-feature (nth 1 enc-str) '=>ucs@component)
 		     #x300E6))
 	    (unless conversion-only
-	      (setq f-res (ids-find-chars-including-ids enc-str)))
+	      (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	    (setq new-str (list #\⿵
 				(nth 1 enc-str)
 				(nth 2 structure)))
@@ -1053,7 +1076,7 @@ COMPONENT can be a character or char-spec."
 		   (list #\⿱ new-str-c (nth 2 enc-str))
 		   )
 		  (t
-		   (setq a-res (ids-find-chars-including-ids new-str))
+		   (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		   (list enc
 			 f-res
 			 new-str-c
@@ -1064,7 +1087,7 @@ COMPONENT can be a character or char-spec."
 	    )
 	   (t
 	    (unless conversion-only
-	      (setq f-res (ids-find-chars-including-ids enc-str)))
+	      (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	    (setq new-str (list #\⿱ (nth 2 structure) (nth 2 enc-str)))
 	    (setq new-str-c
 		  (if (setq ret (ideographic-structure-find-chars new-str))
@@ -1074,7 +1097,7 @@ COMPONENT can be a character or char-spec."
 		   (list #\⿱ (nth 1 enc-str) new-str-c)
 		   )
 		  (t
-		   (setq a-res (ids-find-chars-including-ids new-str))
+		   (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		   (list enc
 			 f-res
 			 new-str-c
@@ -1089,7 +1112,7 @@ COMPONENT can be a character or char-spec."
 	   ((and (character-object-p (nth 2 enc-str))
 		 (eq (char-ucs (nth 2 enc-str)) #x56D7))
 	    (unless conversion-only
-	      (setq f-res (ids-find-chars-including-ids enc-str)))
+	      (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	    (setq new-str (list #\⿴ (nth 2 enc-str) (nth 2 structure)))
 	    (setq new-str-c
 		  (if (setq ret (ideographic-structure-find-chars new-str))
@@ -1104,7 +1127,7 @@ COMPONENT can be a character or char-spec."
 		   (list #\⿱  new-str-c (nth 3 enc-str))
 		   )
 		  (t
-		   (setq a-res (ids-find-chars-including-ids new-str))
+		   (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		   (list enc
 			 f-res
 			 new-str-c
@@ -1116,7 +1139,7 @@ COMPONENT can be a character or char-spec."
 	   ((and (character-object-p (nth 2 enc-str))
 		 (eq (char-ucs (nth 2 enc-str)) #x5196))
 	    (unless conversion-only
-	      (setq f-res (ids-find-chars-including-ids enc-str)))
+	      (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	    (setq new-str (list #\⿱ (nth 1 enc-str) (nth 2 enc-str)))
 	    (setq new-str-c
 		  (if (setq ret (ideographic-structure-find-chars new-str))
@@ -1131,7 +1154,7 @@ COMPONENT can be a character or char-spec."
 		   (list #\⿱ new-str-c (nth 3 enc-str))
 		   )
 		  (t
-		   (setq a-res (ids-find-chars-including-ids new-str))
+		   (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		   (list enc
 			 f-res
 			 new-str-c
@@ -1147,7 +1170,7 @@ COMPONENT can be a character or char-spec."
 			 146)
 		     (eq (char-ucs (nth 2 enc-str)) #x2008A)))
 	    (unless conversion-only
-	      (setq f-res (ids-find-chars-including-ids enc-str)))
+	      (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	    (setq new-str (list #\⿱ (nth 2 structure) (nth 2 enc-str)))
 	    (setq new-str-c
 		  (if (setq ret (ideographic-structure-find-chars new-str))
@@ -1162,7 +1185,7 @@ COMPONENT can be a character or char-spec."
 		   (list #\⿱ (nth 1 enc-str) new-str-c)
 		   )
 		  (t
-		   (setq a-res (ids-find-chars-including-ids new-str))
+		   (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		   (list enc
 			 f-res
 			 new-str-c
@@ -1173,7 +1196,7 @@ COMPONENT can be a character or char-spec."
 	    )
 	   (t
 	    (unless conversion-only
-	      (setq f-res (ids-find-chars-including-ids enc-str)))
+	      (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	    (setq new-str (list #\⿻ (nth 2 enc-str) (nth 2 structure)))
 	    (setq new-str-c
 		  (if (setq ret (ideographic-structure-find-chars new-str))
@@ -1188,7 +1211,7 @@ COMPONENT can be a character or char-spec."
 		   (list #\⿱  new-str-c (nth 3 enc-str))
 		   )
 		  (t
-		   (setq a-res (ids-find-chars-including-ids new-str))
+		   (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		   (list enc
 			 f-res
 			 new-str-c
@@ -1202,7 +1225,7 @@ COMPONENT can be a character or char-spec."
 	  (cond
 	   ((equal (nth 1 enc-str)(nth 2 enc-str))
 	    (unless conversion-only
-	      (setq f-res (ids-find-chars-including-ids enc-str)))
+	      (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	    (setq new-str (list #\⿲
 				(nth 1 enc-str)
 				(nth 2 structure)
@@ -1212,7 +1235,7 @@ COMPONENT can be a character or char-spec."
 	    (cond (conversion-only
 		   new-str)
 		  (t
-		   (setq a-res (ids-find-chars-including-ids new-str))
+		   (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		   (list enc
 			 f-res
 			 new-str-c
@@ -1223,7 +1246,7 @@ COMPONENT can be a character or char-spec."
 	    )
 	   (t
 	    (unless conversion-only
-	      (setq f-res (ids-find-chars-including-ids enc-str)))
+	      (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	    (setq new-str (list #\⿰
 				(nth 2 structure)
 				(nth 2 enc-str)))
@@ -1235,7 +1258,7 @@ COMPONENT can be a character or char-spec."
 		   (list #\⿰ (nth 1 enc-str) new-str-c)
 		   )
 		  (t
-		   (setq a-res (ids-find-chars-including-ids new-str))
+		   (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		   (list enc
 			 f-res
 			 new-str-c
@@ -1262,7 +1285,7 @@ COMPONENT can be a character or char-spec."
 	  (when (and enc2-str
 		     (eq (car enc2-str) #\⿰))
 	    (unless conversion-only
-	      (setq f-res (ids-find-chars-including-ids enc-str)))
+	      (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	    (setq new-str (list #\⿲
 				(nth 1 enc2-str)
 				(nth 2 structure)
@@ -1275,7 +1298,7 @@ COMPONENT can be a character or char-spec."
 		   (list #\⿱ new-str-c (nth 2 enc-str))
 		   )
 		  (t
-		   (setq a-res (ids-find-chars-including-ids new-str))
+		   (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		   (list enc
 			 f-res
 			 new-str-c
@@ -1290,7 +1313,7 @@ COMPONENT can be a character or char-spec."
 	  (when (and enc2-str
 		     (eq (car enc2-str) #\⿰))
 	    (unless conversion-only
-	      (setq f-res (ids-find-chars-including-ids enc-str)))
+	      (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	    (setq new-str (list #\⿲
 				(nth 1 enc2-str)
 				(nth 2 structure)
@@ -1303,7 +1326,7 @@ COMPONENT can be a character or char-spec."
 		   (list #\⿳ new-str-c (nth 2 enc-str) (nth 3 enc-str))
 		   )
 		  (t
-		   (setq a-res (ids-find-chars-including-ids new-str))
+		   (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		   (list enc
 			 f-res
 			 new-str-c
@@ -1315,7 +1338,7 @@ COMPONENT can be a character or char-spec."
 	  )
 	 ((eq (car enc-str) #\⿲)
 	  (unless conversion-only
-	    (setq f-res (ids-find-chars-including-ids enc-str)))
+	    (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	  (setq new-str (list #\⿱
 			      (nth 2 structure)
 			      (nth 2 enc-str)))
@@ -1327,7 +1350,7 @@ COMPONENT can be a character or char-spec."
 		 (list #\⿲ (nth 1 enc-str) new-str-c (nth 3 enc-str))
 		 )
 		(t
-		 (setq a-res (ids-find-chars-including-ids new-str))
+		 (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		 (list enc
 		       f-res
 		       new-str-c
@@ -1341,7 +1364,7 @@ COMPONENT can be a character or char-spec."
 	  (when (and enc2-str
 		     (eq (car enc2-str) #\⿰))
 	    (unless conversion-only
-	      (setq f-res (ids-find-chars-including-ids enc-str)))
+	      (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	    (setq new-str (list #\⿱
 				(nth 2 structure)
 				(nth 2 enc-str)))
@@ -1353,7 +1376,7 @@ COMPONENT can be a character or char-spec."
 		   (list #\⿲ (nth 1 enc2-str) new-str-c (nth 2 enc2-str))
 		   )
 		  (t
-		   (setq a-res (ids-find-chars-including-ids new-str))
+		   (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		   (list enc
 			 f-res
 			 new-str-c
@@ -1380,7 +1403,7 @@ COMPONENT can be a character or char-spec."
 		 (member (char-ucs (nth 2 enc-str))
 		       '(#x9580 #x9B25)))
 	    (unless conversion-only
-	      (setq f-res (ids-find-chars-including-ids enc-str)))
+	      (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	    (setq new-str (list #\⿵
 				(nth 2 enc-str)
 				(nth 2 structure)))
@@ -1392,7 +1415,7 @@ COMPONENT can be a character or char-spec."
 		   (list #\⿱ (nth 1 enc-str) new-str-c)
 		   )
 		  (t
-		   (setq a-res (ids-find-chars-including-ids new-str))
+		   (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		   (list enc
 			 f-res
 			 new-str-c
@@ -1416,7 +1439,7 @@ COMPONENT can be a character or char-spec."
 		   (setq code 613)
 		   )))
 	    (unless conversion-only
-	      (setq f-res (ids-find-chars-including-ids enc-str)))
+	      (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	    (setq new-str
 		  (cond ((eq code 611)
 			 (list #\⿲
@@ -1454,7 +1477,7 @@ COMPONENT can be a character or char-spec."
 			  ))
 		   )
 		  (t
-		   (setq a-res (ids-find-chars-including-ids new-str))
+		   (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		   (list enc
 			 f-res
 			 new-str-c
@@ -1475,7 +1498,7 @@ COMPONENT can be a character or char-spec."
 	  (when (and enc2-str
 		     (eq (car enc2-str) #\⿰))
 	    (unless conversion-only
-	      (setq f-res (ids-find-chars-including-ids enc-str)))
+	      (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	    (setq new-str (list #\⿲
 				(nth 1 enc2-str)
 				(nth 2 structure)
@@ -1488,7 +1511,7 @@ COMPONENT can be a character or char-spec."
 		   (list #\⿳ (nth 1 enc-str) (nth 2 enc-str) new-str-c)
 		   )
 		  (t
-		   (setq a-res (ids-find-chars-including-ids new-str))
+		   (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		   (list enc
 			 f-res
 			 new-str-c
@@ -1500,7 +1523,7 @@ COMPONENT can be a character or char-spec."
 	  )
 	 ((eq (car enc-str) #\⿲)
 	  (unless conversion-only
-	    (setq f-res (ids-find-chars-including-ids enc-str)))
+	    (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	  (setq new-str (list #\⿱
 			      (nth 2 enc-str)
 			      (nth 2 structure)))
@@ -1512,7 +1535,7 @@ COMPONENT can be a character or char-spec."
 		 (list #\⿲ (nth 1 enc-str) new-str-c (nth 3 enc-str))
 		 )
 		(t
-		 (setq a-res (ids-find-chars-including-ids new-str))
+		 (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		 (list enc
 		       f-res
 		       new-str-c
@@ -1526,7 +1549,7 @@ COMPONENT can be a character or char-spec."
 	  (when (and enc2-str
 		     (eq (car enc2-str) #\⿰))
 	    (unless conversion-only
-	      (setq f-res (ids-find-chars-including-ids enc-str)))
+	      (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	    (setq new-str (list #\⿱
 				(nth 2 enc-str)
 				(nth 2 structure)))
@@ -1538,7 +1561,7 @@ COMPONENT can be a character or char-spec."
 		   (list #\⿲ (nth 1 enc2-str) new-str-c (nth 2 enc2-str))
 		   )
 		  (t
-		   (setq a-res (ids-find-chars-including-ids new-str))
+		   (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		   (list enc
 			 f-res
 			 new-str-c
@@ -1549,7 +1572,7 @@ COMPONENT can be a character or char-spec."
 	  )
 	 ((eq (car enc-str) #\⿵)
 	  (unless conversion-only
-	    (setq f-res (ids-find-chars-including-ids enc-str)))
+	    (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	  (setq new-str (list #\⿱
 			      (nth 2 enc-str)
 			      (nth 2 structure)))
@@ -1561,7 +1584,7 @@ COMPONENT can be a character or char-spec."
 		 (list #\⿵ (nth 1 enc-str) new-str-c)
 		 )
 		(t
-		 (setq a-res (ids-find-chars-including-ids new-str))
+		 (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		 (list enc
 		       f-res
 		       new-str-c
@@ -1584,7 +1607,7 @@ COMPONENT can be a character or char-spec."
 	(cond
 	 ((eq (car enc-str) #\⿺)
 	  (unless conversion-only
-	    (setq f-res (ids-find-chars-including-ids enc-str)))
+	    (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	  (setq new-str (list #\⿱
 			      (nth 2 enc-str)
 			      (nth 2 structure)))
@@ -1596,7 +1619,7 @@ COMPONENT can be a character or char-spec."
 		 (list #\⿺ (nth 1 enc-str) new-str-c)
 		 )
 		(t
-		 (setq a-res (ids-find-chars-including-ids new-str))
+		 (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		 (list enc
 		       f-res
 		       new-str-c
@@ -1607,7 +1630,7 @@ COMPONENT can be a character or char-spec."
 	  )
 	 ((eq (car enc-str) #\⿸)
 	  (unless conversion-only
-	    (setq f-res (ids-find-chars-including-ids enc-str)))
+	    (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	  (cond
 	   ((and (character-object-p (nth 2 enc-str))
 		 (or (member (char-ucs (nth 2 enc-str))
@@ -1626,7 +1649,7 @@ COMPONENT can be a character or char-spec."
 		   (list #\⿸ (nth 1 enc-str) new-str-c)
 		   )
 		  (t
-		   (setq a-res (ids-find-chars-including-ids new-str))
+		   (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		   (list enc
 			 f-res
 			 new-str-c
@@ -1647,7 +1670,7 @@ COMPONENT can be a character or char-spec."
 		   (list #\⿸ (nth 1 enc-str) new-str-c)
 		   )
 		  (t
-		   (setq a-res (ids-find-chars-including-ids new-str))
+		   (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		   (list enc
 			 f-res
 			 new-str-c
@@ -1691,7 +1714,7 @@ COMPONENT can be a character or char-spec."
 			  (eq (char-ucs (nth 2 structure)) #x4E36)
 			  (setq code 812))))
 	    (unless conversion-only
-	      (setq f-res (ids-find-chars-including-ids enc-str)))
+	      (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	    (setq new-str (list #\⿺
 				(nth 1 enc-str)
 				(nth 2 structure)))
@@ -1703,7 +1726,7 @@ COMPONENT can be a character or char-spec."
 		   (list #\⿱ new-str-c (nth 2 enc-str))
 		   )
 		  (t
-		   (setq a-res (ids-find-chars-including-ids new-str))
+		   (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		   (list enc
 			 f-res
 			 new-str-c
@@ -1725,7 +1748,7 @@ COMPONENT can be a character or char-spec."
 		     (eq (encode-char (nth 2 enc-str) '=>big5-cdp)
 			 #x8D71)))
 	    (unless conversion-only
-	      (setq f-res (ids-find-chars-including-ids enc-str)))
+	      (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	    (setq new-str (list #\⿰
 				(nth 1 enc-str)
 				(nth 2 structure)))
@@ -1737,7 +1760,7 @@ COMPONENT can be a character or char-spec."
 		   (list #\⿱ new-str-c (nth 2 enc-str))
 		   )
 		  (t
-		   (setq a-res (ids-find-chars-including-ids new-str))
+		   (setq a-res (ids-find-chars-including-ids-as-is-a-tree new-str))
 		   (list enc
 			 f-res
 			 new-str-c
@@ -1760,7 +1783,7 @@ COMPONENT can be a character or char-spec."
 	(cond
 	 ((eq (car enc-str) #\⿱)
 	  (unless conversion-only
-	    (setq f-res (ids-find-chars-including-ids enc-str)))
+	    (setq f-res (ids-find-chars-including-ids-as-is-a-tree enc-str)))
 	  (if conversion-only
 	      (list #\⿳ (nth 1 enc-str) (nth 2 structure) (nth 2 enc-str))
 	    (list enc
