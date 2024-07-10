@@ -1,3 +1,12 @@
+2024-07-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids.lisp (*ideographic-structure-to-characters-table*): New
+	variable.
+	(ideographic-structure-find-chars): Cache the results.
+
+	* cl-chise.lisp (char-ucs-chars): Eliminate local variable `ret'.
+	(char-representative-of-daikanwa): Fixed.
+
 2024-07-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* ids.lisp (ids-find-chars-including-ids):
