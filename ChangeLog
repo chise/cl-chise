@@ -1,3 +1,21 @@
+2024-07-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* ids.lisp (ids-find-chars-including-ids):
+	- Fixed bugs about the interface of `union-in-character-feature'.
+	- Use `ideographic-structure@apparent',
+	  `ideographic-structure@apparent/leftmost' and
+	  `ideographic-structure@apparent/rightmost' feature-values
+	  instead of
+	  `functional-ideographic-structure-to-apparent-structure'.
+	- Don't use `ideographic-chars-to-is-a-tree*' for the return
+	  value.
+	(ids-find-chars-including-ids-as-is-a-tree): New function [it
+	preserves the semantics of the old version of
+	`ids-find-chars-including-ids'.
+	(ideographic-structure-compare-functional-and-apparent): Use
+	`ids-find-chars-including-ids-as-is-a-tree' instead of
+	`ids-find-chars-including-ids'.
+
 2024-07-07  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* cl-chise.lisp (export): Export `union-in-character-feature'.
