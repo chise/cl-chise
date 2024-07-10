@@ -168,10 +168,10 @@
       (concord:object-id char)))
 
 (defun char-ucs-chars (character)
-  (let (ret ucs dest)
+  (let (ucs dest)
     (cond
-      ((setq ret (get-char-attribute character "$_ucs-chars"))
-       ret)
+      ((get-char-attribute character "$_ucs-chars")
+       )
       (t
        (if (and (setq ucs (encode-char character '=ucs))
 		;; (not (and (<= #x2E80 ucs)(<= ucs #x2EF3)))
@@ -356,18 +356,19 @@
 			  (setq pat (list m-m m-s))
 			  (some-in-feature (lambda (c v)
 					     (if (equal pat v)
-						 c))
+						 (normalize-as-char c)))
 					   'morohashi-daikanwa
 					   :genre 'character))))))
             (and (setq ret (get-char-attribute char '=>daikanwa))
 		 (if (numberp ret)
 		     (or (decode-char '=daikanwa@rev2 ret)
 			 (decode-char '=daikanwa ret))
-		   (some-in-feature (lambda (c v)
-				      (if (equal ret v)
-					  char))
-				    'morohashi-daikanwa
-				    :genre 'character)))
+		     ;; (some-in-feature (lambda (c v)
+		     ;; 		      (if (equal ret v)
+		     ;; 			  (normalize-as-char c)))
+		     ;; 		    'morohashi-daikanwa
+		     ;; 		    :genre 'character)
+		     ))
 	    (unless (member char checked)
 	      (setq checked (cons char checked))
 	      (or (dolist (sc (get-char-attribute char '->subsumptive))
