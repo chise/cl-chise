@@ -2,6 +2,9 @@
 
 (require 'split-sequence)
 
+(defvar *ideographic-structure-to-characters-table*
+  (make-hash-table :test 'equal))
+
 (defun ids-parse-terminal (previous in)
   (let ((chr (or previous
 		 (read-entity-reference in)
@@ -465,13 +468,19 @@
        ))))
 
 (defun ideographic-structure-find-chars (structure)
-  (let (pl)
-    (ideographic-structure-some-chars
-     (lambda (pc)
-       (setq pl (cons pc pl))
-       nil)
-     structure :require-component t)
-    pl))
+  (let ((pl (gethash structure *ideographic-structure-to-characters-table*)))
+    (cond
+      (pl)
+      (t
+       (setq pl nil)
+       (ideographic-structure-some-chars
+	(lambda (pc)
+	  (setq pl (cons pc pl))
+	  nil)
+	structure :require-component t)
+       (setf (gethash structure *ideographic-structure-to-characters-table*)
+	     pl)
+       pl))))
 
 (defun ideographic-char-count-components (char component)
   (let ((dest 0)
