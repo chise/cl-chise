@@ -8575,9 +8575,13 @@
     (ideographic-strokes . 7)
     (total-strokes	 . 12)
     (ideographic-structure
-     ?⿰
-     ?甶
-     ((=>ucs@iwds-1	. #x4E51)	; &A-IWDSU+4E51;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x7536)	; 甶
+      )
+     ((=>ucs@iwds-1	  . #x4E51)	; &A-IWDSU+4E51;
+      (=>iwds-1		  .  0328)	; &A-IWDSU+4E51;
       ))
     (=ucs		. #x24C84)	; 𤲄
     (<-Zhouwen
@@ -8589,41 +8593,66 @@
      shuowen)
     ))
 (define-char
-  '((ideographic-radical . 102)	; ⽥
+  '((<-denotational
+     ((=ucs		  . #x24C84)	; 𤲄
+      ))
+    (ideographic-radical . 102)	; ⽥
     (ideographic-strokes . 7)
     (total-strokes	 . 12)
-    (<-denotational
-     ((=ucs		. #x24C84)	; 𤲄
-      ))
     (ideographic-structure
-     ?⿰
-     ((=ucs@unicode	. #x7536)	; &JSP-4D2B;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs-var-007	. #x4E51)	; &U-v007+4E51;
+     ((=ucs@unicode	  . #x7536)	; &JSP-4D2B;
+      (=jis-x0212	  . #x4D2B)	; &JSP-4D2B; [45-11]
+      (=cns11643-4	  . #x232B)	; &I-C4-232B; [03-11]
+      (=daikanwa	  . 21728)	; &I-M-21728;
+      )
+     ((=ucs-var-007	  . #x4E51)	; &U-v007+4E51;
       ))
-    (=daikanwa	  . 49337)	; &M-49337;
+    (=mj		. 041410)	; &MJ041410;
+    (=koseki . 245340)
+    (=daikanwa 		. 49337)	; &M-49337;
+    (<-formed
+     ((=jis-x0213-2	  . #x7D3E)	; &I-JX2-7D3E; [93-30]
+      ))
+    (<-formed$_1*sources
+     koseki mj)
+    (<-formed*sources
+     koseki mj)
     (->subsumptive
-     ((==daikanwa	  . 49337)	; &M-49337;
+     ((==mj		. 041410)	; &MJ041410;
+      (==koseki . 245340)
+      (==daikanwa	  . 49337)	; &g2-M-49337;
       ))
     ))
 (define-char
-  '((ideographic-radical . 102)	; ⽥
+  '((<-denotational
+     ((=ucs		  . #x24C84)	; 𤲄
+      ))
+    (ideographic-radical . 102)	; ⽥
     (ideographic-strokes . 7)
     (total-strokes	 . 12)
-    (<-denotational
-     ((=ucs		. #x24C84)	; 𤲄
-      ))
     (ideographic-structure
-     ?⿰
-     ?&JSP-4D2B;
-     ?&AJ1-17241;)
-    (=ucs@iso		  . #x24C84)	; &C6-4B59;
-    (->subsumptive
-     ((==ucs@iso		  . #x24C84)	; &C6-4B59;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
       )
-     ((==cns11643-6	  . #x4B59)	; &C6-4B59; [43-57]
+     ((=ucs@unicode	  . #x7536)	; &JSP-4D2B;
+      (=jis-x0212	  . #x4D2B)	; &JSP-4D2B; [45-11]
+      (=cns11643-4	  . #x232B)	; &I-C4-232B; [03-11]
+      (=daikanwa	  . 21728)	; &I-M-21728;
+      )
+     ((=ucs@unicode	  . #x4E51)	; &AJ1-17241;
+      (=adobe-japan1-5	  . 17241)	; &AJ1-17241;
       ))
-    (=cns11643-6	  . #x4B59)	; &C6-4B59; [43-57]
+    (=ucs@iso		. #x24C84)	; &C6-4B59;
+    (=cns11643-6	. #x4B59)	; &C6-4B59; [43-57]
+    (->subsumptive
+     ((==ucs@iso	  . #x24C84)	; &g2-IU-00024C84;
+      )
+     ((==ucs@cns	  . #x24C84)	; &g2-CU+24C84;
+      (==cns11643-6	  . #x4B59)	; &g2-CU+24C84; [43-57]
+      ))
     ))
 (define-char
   '((ideographic-radical . 102)	; ⽥

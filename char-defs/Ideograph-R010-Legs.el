@@ -2958,8 +2958,8 @@
     (==>ucs@bucs	. #x514E)	; &BUCS+514E;
     ))
 (define-char
-  '((<-denotational
-     ((==>ucs@bucs	  . #x514E)	; &BUCS+514E;
+  '((<-denotational@component
+     ((=>ucs@iwds-1	. #x514D)	; &A-compU+514D;
       ))
     (ideographic-radical . 10)	; ⼉
     (=>ucs@component	. #x5154)	; &A-compU+5154;
@@ -2969,6 +2969,9 @@
   '((<-denotational
      ((=>ucs@component	  . #x5154)	; &A-compU+5154;
       (=>iwds-1		  .  0331)	; &A-compU+5154;
+      ))
+    (<-denotational@usage
+     ((==>ucs@bucs	  . #x514E)	; &BUCS+514E;
       ))
     (ideographic-radical . 10)	; ⼉
     (sound@ja/kun	"usagi" "u")
@@ -4419,6 +4422,9 @@
     (<-denotational@component
      ((=>ucs@component	  . #x514D)	; &A-compU+514D;
       (=>iwds-1		  .  10243)	; &A-compU+514D;
+      ))
+    (<-denotational@usage
+     ((==>ucs@bucs	  . #x514E)	; &BUCS+514E;
       ))
     (ideographic-radical . 10)	; ⼉
     (ideographic-strokes . 6)
@@ -9233,6 +9239,15 @@
     ))
 (define-char
   '((ideographic-radical . 10)	; ⼉
+    (=>iwds-1*note	"189+243+331" "+149")
+    (=>ucs@iwds-1	. #x514D)	; &A-compU+514D;
+    (=>iwds-1		.  24331)	; &A-compU+514D;
+    ))
+(define-char
+  '((<-denotational@component
+     ((=>ucs@iwds-1	. #x514D)	; &A-compU+514D;
+      ))
+    (ideographic-radical . 10)	; ⼉
     (=>iwds-1*note	"189+243" "+149")
     (=>ucs@component	. #x514D)	; &A-compU+514D;
     (=>iwds-1		.  10243)	; &A-compU+514D;

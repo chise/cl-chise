@@ -7314,6 +7314,32 @@
       ))
     ))
 (define-char
+  '((<-denotational
+     ((=>ucs@cognate	  . #x595A)	; &A-cgnU+595A;
+      ))
+    (ideographic-radical . 37)	; ⼤
+    (ideographic-strokes . 5)
+    (total-strokes	 . 8)
+    (ideographic-structure
+     ?⿱
+     ?爫
+     ?夫)
+    (=>ucs-itaiji-001	. #x595A)	; 奚
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-001	. #x595A)	; 奚
+      ))
+    (ideographic-radical . 37)	; ⼤
+    (ideographic-strokes . 5)
+    (total-strokes	 . 8)
+    (ideographic-structure
+     ?⿱
+     ?⺤
+     ?夫)
+    (=ucs-itaiji-001	. #x595A)	; 奚
+    ))
+(define-char
   '((ideographic-radical@ucs . 28)	; ⼛
     (ideographic-strokes@ucs . 8)
     (ideographic-radical@cns . 37)	; ⼤
@@ -8075,6 +8101,37 @@
      ((=ucs		  . #x592B)	; 夫
       ))
     (=big5-cdp-itaiji-001 . #x88BA)	; &CDP-i001-88BA;
+    ))
+(define-char
+  '((ideographic-radical . 37)	; ⼤
+    (ideographic-strokes . 7)
+    (total-strokes	 . 10)
+    (ideographic-structure@apparent
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x2BA4F)	; 𫩏
+      )
+     ((=ucs		. #x5725)	; &AJ1-21323;
+      ))
+    (=>big5-cdp-itaiji-003 . #x88BA)	; &CDP-i003-88BA;
+    ))
+(define-char
+  '((<-denotational
+     ((=>big5-cdp-itaiji-003 . #x88BA)	; &CDP-i003-88BA;
+      ))
+    (ideographic-radical . 37)	; ⼤
+    (ideographic-strokes . 5)
+    (total-strokes	 . 8)
+    (ideographic-structure@apparent
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x2BA4F)	; 𫩏
+      )
+     ((=ucs@unicode	. #x5725)	; &AJ1-21323;
+      ))
+    (=big5-cdp-itaiji-003 . #x88BA)	; &CDP-i003-88BA;
     ))
 (define-char
   '((ideographic-radical . 37)	; ⼤
@@ -9529,6 +9586,38 @@
 	(==gt-pj-k1	    . #x314B)	; &g2-GT-K08041; [17-43]
 	))
       ))
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x26C29)	; 𦰩
+      ))
+    (ideographic-radical . 37)	; ⼤
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=>ucs@component	. #x5EFF)	; &A-compU+5EFF;
+      )
+     ((=>big5-cdp-itaiji-003 . #x88BA)	; &CDP-i002-88BA;
+      ))
+    (=>ucs-itaiji-005	. #x5807)	; 堇
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-005	. #x5807)	; 堇
+      ))
+    (ideographic-radical . 37)	; ⼤
+    (ideographic-strokes . 8)
+    (total-strokes	 . 11)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x5EFF)	; 廿
+      )
+     ((=big5-cdp-itaiji-003 . #x88BA)	; &CDP-i002-88BA;
+      ))
+    (=ucs-itaiji-005	. #x5807)	; &U-i005+5807;
     ))
 (define-char
   '((ideographic-radical . 37)	; ⼤
@@ -13431,7 +13520,7 @@
       )
      ((=ucs		  . #x5927)	; 大
       )
-     ((=mj		  . 057897)	; &MJ057897;
+     ((=mj		  . 057897)	; 歲
       ))
     (=ucs@iso		. #x21693)	; &M-H0115;
     (=daikanwa/ho	.  0115)	; &M-H0115;

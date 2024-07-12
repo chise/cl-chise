@@ -6055,6 +6055,30 @@
   '((ideographic-radical . 113)	; ⽰
     (ideographic-strokes . 5)
     (total-strokes	 . 10)
+    (ideographic-structure
+     ?⿰
+     ((=>ucs@iwds-1	. #x793A)	; &A-IWDSU+793A;
+      )
+     ?矢)
+    (=>ucs-itaiji-001	. #x7951)	; &U-i001+7951;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-001	. #x7951)	; &U-i001+7951;
+      ))
+    (ideographic-radical . 113)	; ⽰
+    (ideographic-strokes . 5)
+    (total-strokes	 . 10)
+    (ideographic-structure
+     ?⿰
+     ?礻
+     ?矢)
+    (=ucs-itaiji-001	. #x7951)	; &U-i001+7951;
+    ))
+(define-char
+  '((ideographic-radical . 113)	; ⽰
+    (ideographic-strokes . 5)
+    (total-strokes	 . 10)
     (=>ucs@cognate	. #x2B004)	; &A-cgnU+2B004;
     ))
 (define-char

@@ -9142,7 +9142,11 @@
     (=daikanwa		. 40395)	; &I-M-40395;
     ))
 (define-char
-  '((ideographic-radical . 167)	; ⾦
+  '((<-denotational@usage
+     ((ideographic-radical . 167)	; ⾦
+      (==>daijiten	. 12486)	; &A2-DJT-12486;
+      ))
+    (ideographic-radical . 167)	; ⾦
     (ideographic-strokes . 7)
     (total-strokes	 . 15)
     (ideographic-structure
@@ -9172,7 +9176,7 @@
      ((=ucs@unicode	  . #x91D1)	; &AJ1-01754;
       (=adobe-japan1-0	  . 01754)	; &AJ1-01754;
       )
-     ((=ucs		  . #x43CD)	; 䏍
+     ((=ucs@unicode	  . #x43CD)	; 䏍
       ))
     (=ucs		. #x2F9E8)	; 鋗
     (=cns11643-6	. #x6353)	; &I-C6-6353; [67-51]
@@ -11997,21 +12001,29 @@
     (ideographic-radical . 167)	; ⾦
     (ideographic-strokes . 7)
     (total-strokes	 . 15)
-    (=>>ucs@unicode	. #x92D7)	; &G-AJ1-08661;
-    (=>>adobe-japan1-2	. 08661)	; &G-AJ1-08661;
-    (=>>jis-x0213-2	. #x7A79)	; &G-AJ1-08661; [90-89]
-    (=>>daikanwa	. 40463)	; &G-AJ1-08661;
+    (=ucs@unicode	. #x92D7)	; &G-AJ1-08661;
+    (=adobe-japan1-2	. 08661)	; &G-AJ1-08661;
+    (=jis-x0213-2	. #x7A79)	; &G-AJ1-08661; [90-89]
+    (=daikanwa	. 40463)	; &G-AJ1-08661;
+    (=daijiten	  . 12486)	; &I-DJT-12486;
+    (=ucs@unicode	  . #x92D7)	; &AJ1-08661;
+    (=adobe-japan1-2	  . 08661)	; &AJ1-08661;
+    (=jis-x0212	  . #x6441)	; &I-JSP-6441; [68-33]
+    (=jis-x0213-2	  . #x7A79)	; &I-JX2-7A79; [90-89]
+    (=daikanwa	  . 40463)	; &I-M-40463;
+    (=jef-china3	  . #x6ABC)	; &JC3-6ABC;
     (->subsumptive
-     ((=ucs@unicode	  . #x92D7)	; &AJ1-08661;
-      (=adobe-japan1-2	  . 08661)	; &AJ1-08661;
-      (=jis-x0212	  . #x6441)	; &I-JSP-6441; [68-33]
-      (=jis-x0213-2	  . #x7A79)	; &I-JX2-7A79; [90-89]
-      (=daikanwa	  . 40463)	; &I-M-40463;
+     ((==ucs@unicode	  . #x92D7)	; &AJ1-08661;
+      (==adobe-japan1-2	  . 08661)	; &AJ1-08661;
+      (==jis-x0212	  . #x6441)	; &I-JSP-6441; [68-33]
+      (==jis-x0213-2	  . #x7A79)	; &I-JX2-7A79; [90-89]
+      (==daikanwa	  . 40463)	; &I-M-40463;
       )
-     ((=jef-china3	  . #x6ABC)	; &JC3-6ABC;
+     ((==jef-china3	  . #x6ABC)	; &JC3-6ABC;
       )
-     ((=cns11643-2	  . #x5537)	; &C2-5537; [53-23]
+     ((==cns11643-2	  . #x5537)	; &C2-5537; [53-23]
       ))
+    (=cns11643-2	  . #x5537)	; &C2-5537; [53-23]
     ))
 (define-char
   '((<-denotational

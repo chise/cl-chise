@@ -3110,7 +3110,7 @@
       ))
     (=ucs@iso		. #x24757)	; &C6-2C78;
     (=cns11643-6	. #x2C78)	; &C6-2C78; [12-88]
-    (=daikanwa 		. 20318)	; &I-M-20318;
+    (=daikanwa		. 20318)	; &I-M-20318;
     (=cbeta		. 08787)	; &I-CB08787;
     (->subsumptive
      ((==ucs@iso	  . #x24757)	; &g2-M-20318;
@@ -5975,7 +5975,10 @@
     (=daikanwa		. 20425)	; &I-M-20425;
     ))
 (define-char
-  '((ideographic-radical . 94)	; ⽝
+  '((<-denotational@usage
+     ((==>ucs@bucs	  . #x72F7)	; &BUCS+72F7;
+      ))
+    (ideographic-radical . 94)	; ⽝
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
@@ -6012,28 +6015,22 @@
     (=gt		. 26146)	; &I-GT-26146;
     (=gt-pj-1		. #x6046)	; &I-GT-26146; [64-38]
     (=daikanwa		. 20426)	; &I-M-20426;
+    (=daijiten		. 07160)	; &I-DJT-07160;
     (=shinjigen		.  4785)	; &AJ1-05631;
     (->subsumptive
-     ((ideographic-structure
-       ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
-	(=ucs		    . #x2FF0)	; ⿰
-	)
-       ((name		    . "CJK RADICAL DOG")
-	(=ucs		    . #x2EA8)	; ⺨
-	)
-       ((==ucs@unicode	    . #x8099)	; &g2-MJ020931;
-	(==mj		    . 020931)	; &g2-MJ020931;
-	))
-      (==ucs@unicode	  . #x72F7)	; &g2-AJ1-05631;
+     ((==ucs@unicode	  . #x72F7)	; &g2-AJ1-05631;
       (==adobe-japan1-0	  . 05631)	; &g2-AJ1-05631;
       (==gb2312		  . #x617A)	; &g2-AJ1-05631; [65-90]
       (==jis-x0208	  . #x6046)	; &g2-AJ1-05631; [64-38]
       (==jis-x0213-1	  . #x6046)	; &g2-AJ1-05631; [64-38]
       (==gt		  . 26146)	; &g2-AJ1-05631;
       (==daikanwa	  . 20426)	; &g2-AJ1-05631;
+      (==daijiten	  . 07160)	; &g2-AJ1-05631;
       (==shinjigen	  .  4785)	; &g2-AJ1-05631;
       (->subsumptive
        ((===daikanwa	    . 20426)	; &R-M-20426;
+	)
+       ((===daijiten	    . 07160)	; &R-DJT-07160;
 	)
        ((===jis-x0208	    . #x6046)	; &R-J0-6046; [64-38]
 	(===jis-x0213-1	    . #x6046)	; &R-J0-6046; [64-38]
@@ -6045,17 +6042,7 @@
        ((===ucs@unicode	    . #x72F7)	; &R-UU+72F7;
 	))
       )
-     ((ideographic-structure
-       ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
-	(=ucs		    . #x2FF0)	; ⿰
-	)
-       ((name		    . "CJK RADICAL DOG")
-	(=ucs		    . #x2EA8)	; ⺨
-	)
-       ((==ucs@cns	    . #x8099)	; &g2-CU+8099;
-	(==cns11643-2	    . #x2475)	; &g2-CU+8099; [04-85]
-	))
-      (==ucs@cns	  . #x72F7)	; &g2-CU+72F7;
+     ((==ucs@cns	  . #x72F7)	; &g2-CU+72F7;
       (==cns11643-1	  . #x565B)	; &g2-CU+72F7; [54-59]
       ))
     ))
@@ -6072,7 +6059,9 @@
       )
      ((=ucs		  . #x72AD)	; 犭
       )
-     ((=ucs		  . #x43CD)	; 䏍
+     ((=ucs@unicode	  . #x43CD)	; &GT-37859;
+      (=cns11643-6	  . #x2549)	; &I-C6-2549; [05-41]
+      (=daikanwa	  . 29251)	; &I-M-29251;
       ))
     (=mj		. 058029)	; &MJ058029;
     (=hanyo-denshi/ks	. 229190)	; &MJ058029;
@@ -6087,17 +6076,7 @@
     (<-vulgar*sources
      shinjigen)
     (->subsumptive
-     ((ideographic-structure
-       ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
-	(=ucs		    . #x2FF0)	; ⿰
-	)
-       ((name		    . "CJK RADICAL DOG")
-	(=ucs		    . #x2EA8)	; ⺨
-	)
-       ((==ucs@unicode	    . #x43CD)	; &g2-GT-37859;
-	(==daikanwa	    . 29251)	; &g2-GT-37859;
-	))
-      (==mj		  . 058029)	; &g2-MJ058029;
+     ((==mj		  . 058029)	; &g2-MJ058029;
       (==hanyo-denshi/ks  . 229190)	; &g2-MJ058029;
       (==shinjigen	  .  4786)	; &g2-MJ058029;
       (==cbeta		  . 10147)	; &g2-MJ058029;
@@ -16335,7 +16314,7 @@
     (=big5		. #xBF57)	; &I-B-BF57;
     (=gt		. 26541)	; &I-GT-26541;
     (=gt-pj-1		. #x6057)	; &I-GT-26541; [64-55]
-    (=daikanwa 		. 20725)	; &I-M-20725;
+    (=daikanwa		. 20725)	; &I-M-20725;
     (=daijiten		. 07230)	; &I-DJT-07230;
     (=shinjigen		.  4782)	; &AJ1-05648;
     (->subsumptive
@@ -20222,6 +20201,11 @@
   '((ideographic-radical . 94)	; ⽝
     (==>ucs@bucs	. #x7368)	; &BUCS+7368;
     (==>daijiten	. 07230)	; &BUCS+7368;
+    ))
+(define-char
+  '((ideographic-radical . 94)	; ⽝
+    (==>ucs@bucs	. #x72F7)	; &BUCS+72F7;
+    (==>daijiten	. 07160)	; &BUCS+72F7;
     ))
 (define-char
   '((ideographic-radical . 94)	; ⽝

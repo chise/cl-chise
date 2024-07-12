@@ -10618,11 +10618,24 @@
   '((ideographic-radical . 76)	; ⽋
     (ideographic-strokes . 16)
     (total-strokes	 . 20)
+    (ideographic-structure
+     ?⿰
+     ?噩
+     ?欠)
     (=ucs		. #x23932)	; 𣤲
+    ))
+(define-char
+  '((ideographic-radical . 76)	; ⽋
+    (ideographic-strokes . 16)
+    (total-strokes	 . 20)
+    (<-denotational
+     ((=ucs		. #x23932)	; 𣤲
+      ))
+    (=ucs@iso		. #x23932)	; 𣤲
     (=cns11643-7	. #x4E23)	; &I-C7-4E23; [46-03]
     (=daikanwa		. 16235)	; &I-M-16235;
     (<-same
-     ((=ucs		  . #x8AE4)	; 諤
+     ((=ucs@unicode	  . #x8AE4)	; 諤
       (=daikanwa	  . 35713)	; &I-M-35713;
       ))
     (<-same*sources

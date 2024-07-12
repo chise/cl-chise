@@ -153,6 +153,22 @@
   '((<-denotational
      ((=ucs		  . #x98DF)	; 食
       ))
+    (ideographic-radical . 184)	; ⾷
+    (ideographic-strokes . 0)
+    (total-strokes	 . 9)
+    (ideographic-structure@apparent
+     ?⿱
+     ?八
+     ?良)
+    (=ucs-itaiji-005	. #x98DF)	; &U-i005+98DF;
+    (<-formed@component/connect-above
+     ((=ucs@unicode	. #x98DF)	; &AJ1-02543;
+      ))
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x98DF)	; 食
+      ))
     (name		. "CJK RADICAL EAT ONE")
     (general-category	symbol other) ; Informative Category
     (bidi-category	. "ON")
@@ -6999,7 +7015,12 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 184)	; ⾷
+  '((<-denotational@usage
+     ((ideographic-radical . 184)	; ⾷
+      (==>ucs@bucs	. #x990A)	; &BUCS+990A;
+      (==>daijiten	. 13551)	; &A2-DJT-13551;
+      ))
+    (ideographic-radical . 184)	; ⾷
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
@@ -7031,8 +7052,7 @@
        ((name		    . "CJK RADICAL RAM")
 	(=ucs		    . #x2EB7)	; ⺷
 	)
-       ((=ucs@unicode	    . #x98DF)	; &AJ1-02543;
-	(=adobe-japan1-0    . 02543)	; &AJ1-02543;
+       ((=ucs-itaiji-005	. #x98DF)	; &U-i005+98DF;
 	))
       (=ucs@cns		  . #x990A)	; &AJ1-03910;
       (=ucs@jis		  . #x990A)	; &AJ1-03910;
@@ -7045,6 +7065,7 @@
       (=gt		  . 59327)	; &I-GT-59327;
       (=gt-pj-1		  . #x4D5C)	; &I-GT-59327; [45-60]
       (=daikanwa	  . 44144)	; &I-M-44144;
+      (=daijiten		. 13551)	; &I-DJT-13551;
       (=shinjigen	  .  9264)	; &AJ1-03910;
       (=jef-china3	  . #x6DAC)	; &I-JC3-6DAC;
       (->subsumptive
@@ -7058,6 +7079,7 @@
 	  (==ks-x1001	      . #x6557)	; &g2-M-44144; [69-55]
 	  (==cns11643-1	      . #x6F72)	; &g2-M-44144; [79-82]
 	  (==daikanwa	      . 44144)	; &g2-M-44144;
+	  (==daijiten		. 13551)	; &I-DJT-13551;
 	  (==shinjigen	      .	 9265)	; &g2-M-44144;
 	  (==jef-china3	      . #x6DAC)	; &g2-M-44144;
 	  (->subsumptive
@@ -7094,6 +7116,20 @@
 	    ))
 	  ))
 	))
+      )
+     ((ideographic-strokes . 6)
+      (total-strokes	   . 15)
+      (ideographic-structure
+       ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+	(=ucs		    . #x2FF1)	; ⿱
+	)
+       ((name		    . "CJK RADICAL RAM")
+	(=ucs		    . #x2EB7)	; ⺷
+	)
+       ((=ucs@unicode	    . #x98DF)	; &AJ1-02543;
+	(=adobe-japan1-0    . 02543)	; &AJ1-02543;
+	))
+      (=ucs-var-005	  . #x990A)	; &U-v005+990A;
       )
      ((ideographic-strokes . 5)
       (total-strokes	   . 14)

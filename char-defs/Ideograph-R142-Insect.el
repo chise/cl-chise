@@ -1566,7 +1566,7 @@
 (define-char
   '((<-denotational@usage
      ((==>ucs@bucs	  . #x868D)	; &BUCS+868D;
-      (==>daijiten	. 10307)	; &A2-DJT-10307;
+      (==>daijiten	. 10307)	; &BUCS+868D;
       ))
     (ideographic-radical . 142)	; ⾍
     (ideographic-strokes . 4)
@@ -7985,7 +7985,7 @@
       )
      ((=ucs		  . #x866B)	; 虫
       )
-     ((=ucs		  . #x8099)	; 肙
+     ((=ucs@unicode	  . #x8099)	; 肙
       ))
     (=ucs@unicode	. #x870E)	; &JX2-7752;
     (=jis-x0212		. #x5A75)	; &JX2-7752; [58-85]
@@ -8031,7 +8031,7 @@
       )
      ((=ucs		  . #x866B)	; 虫
       )
-     ((=ucs		  . #x43CD)	; 䏍
+     ((=ucs@unicode	  . #x43CD)	; 䏍
       ))
     (=ucs		. #x2F9B9)	; 蜎
     (=cns11643-6	. #x4E46)	; &I-C6-4E46; [46-38]

@@ -10168,10 +10168,25 @@
       )
      ((=ucs		  . #x706B)	; 火
       )
-     ((=ucs		  . #x8099)	; 肙
+     ((=>ucs@iwds-1	  . #x8099)	; &A-IWDSU+8099;
+      (=>iwds-1		  .  0289)	; &A-IWDSU+8099;
       ))
     (=ucs		. #x7106)	; 焆
-    (=adobe-japan1-5	. 18023)	; &I-AJ1-18023;
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x7106)	; 焆
+      ))
+    (ideographic-radical . 86)	; ⽕
+    (ideographic-strokes . 7)
+    (total-strokes	 . 11)
+    (ideographic-structure
+     ?⿰
+     ?火
+     ((=ucs@unicode	. #x8099)	; &MJ020931;
+      ))
+    (=ucs@unicode	. #x7106)	; &AJ1-18023;
+    (=adobe-japan1-5	. 18023)	; &AJ1-18023;
     (=jis-x0212		. #x4965)	; &I-JSP-4965; [41-69]
     (=cns11643-2	. #x3677)	; &I-C2-3677; [22-87]
     (=jis-x0213-2	. #x6F6C)	; &I-JX2-6F6C; [79-76]
@@ -25337,7 +25352,7 @@
       )
      ((=ucs		  . #x706B)	; 火
       )
-     ((=>ucs-var-001	  . #x97F1)	; &A-U-v001+97F1;
+     ((=>ucs-itaiji-004	  . #x97F1)	; &A-U-v001+97F1;
       ))
     (=ucs		. #x2436C)	; 𤍬
     ))

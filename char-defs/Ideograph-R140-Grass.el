@@ -23955,7 +23955,7 @@
      ((name		  . "CJK RADICAL GRASS TWO")
       (=ucs		  . #x2EBF)	; ⺿
       )
-     ((=ucs		  . #x43CD)	; 䏍
+     ((=ucs@unicode	  . #x43CD)	; 䏍
       ))
     (=ucs@cns		. #x26B8C)	; &MJ046385;
     (=mj		. 046385)	; &MJ046385;
@@ -23999,7 +23999,7 @@
      ((name		  . "CJK RADICAL GRASS ONE")
       (=ucs		  . #x2EBE)	; ⺾
       )
-     ((=ucs		  . #x43CD)	; 䏍
+     ((=ucs@unicode	  . #x43CD)	; 䏍
       ))
     (=ucs@iso		. #x26B8C)	; &U-00026B8C;
     (->subsumptive
@@ -26602,7 +26602,7 @@
      ((name		  . "CJK RADICAL GRASS TWO")
       (=ucs		  . #x2EBF)	; ⺿
       )
-     ((=ucs		  . #x8099)	; 肙
+     ((=ucs@unicode	  . #x8099)	; 肙
       ))
     (=ucs@cns		. #x26BBB)	; &MJ046401;
     (=mj		. 046401)	; &MJ046401;
@@ -26646,7 +26646,7 @@
      ((name		  . "CJK RADICAL GRASS ONE")
       (=ucs		  . #x2EBE)	; ⺾
       )
-     ((=ucs		  . #x8099)	; 肙
+     ((=ucs@unicode	  . #x8099)	; 肙
       ))
     (=ucs@iso		. #x26BBB)	; &U-00026BBB;
     (->subsumptive

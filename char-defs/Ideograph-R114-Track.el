@@ -1180,7 +1180,7 @@
   '((ideographic-radical@ucs . 114)	; ⽱
     (ideographic-strokes@ucs . 10)
     (ideographic-radical@ucs*sources
-     daikanwa cns-11643 koseki mj)
+     daikanwa cns11643 koseki mj)
     (ideographic-radical@ucs/code . 9)	; ⼈
     (ideographic-strokes@ucs/code . 13)
     (total-strokes	 . 15)
