@@ -1,3 +1,36 @@
+2024-07-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* Sync up with the current snapshot [2024-07-16 10:15 JST].
+
+	M	char-defs/Ideograph-R009-Man.el
+	M	char-defs/Ideograph-R010-Legs.el
+	M	char-defs/Ideograph-R015-Ice.el
+	M	char-defs/Ideograph-R018-Knife.el
+	M	char-defs/Ideograph-R024-Ten.el
+	M	char-defs/Ideograph-R030-Mouth.el
+	M	char-defs/Ideograph-R032-Earth.el
+	M	char-defs/Ideograph-R033-Scholar.el
+	M	char-defs/Ideograph-R037-Big.el
+	M	char-defs/Ideograph-R038-Woman.el
+	M	char-defs/Ideograph-R043-Lame.el
+	M	char-defs/Ideograph-R046-Mountain.el
+	M	char-defs/Ideograph-R060-Step.el
+	M	char-defs/Ideograph-R062-Halberd.el
+	M	char-defs/Ideograph-R066-Rap.el
+	M	char-defs/Ideograph-R076-Lack.el
+	M	char-defs/Ideograph-R086-Fire.el
+	M	char-defs/Ideograph-R094-Dog.el
+	M	char-defs/Ideograph-R109-Eye.el
+	M	char-defs/Ideograph-R113-Spirit.el
+	M	char-defs/Ideograph-R120-Silk.el
+	M	char-defs/Ideograph-R124-Feather.el
+	M	char-defs/Ideograph-R130-Meat.el
+	M	char-defs/Ideograph-R149-Speech.el
+	M	char-defs/Ideograph-R184-Eat.el
+	M	char-defs/Ideograph-R195-Fish.el
+	M	char-defs/Ideograph-R196-Bird.el
+	M	char-defs/ShuoWen-SR340.el
+
 2024-07-12  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* Sync up with the current snapshot [2024-07-12 17:30 JST].
