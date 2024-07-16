@@ -1,5 +1,7 @@
 2024-07-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* cl-chise.asd (version): Update to "0.9".
+
 	* Sync up with the current snapshot [2024-07-16 10:15 JST].
 
 	M	char-defs/Ideograph-R009-Man.el
