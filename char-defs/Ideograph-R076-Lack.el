@@ -3299,7 +3299,7 @@
     (=jis-x0212		. #x456E)	; &JSP-456E; [37-78]
     (=cns11643-2	. #x363A)	; &I-C2-363A; [22-26]
     (=big5		. #xD5D6)	; &I-B-D5D6;
-    (=daikanwa 		. 16086)	; &I-M-16086;
+    (=daikanwa		. 16086)	; &I-M-16086;
     (=daijiten		. 05582)	; &I-DJT-05582;
     (<-formed
      ((=ucs@unicode	  . #x55FD)	; &AJ1-04425;
@@ -10619,24 +10619,33 @@
     (ideographic-strokes . 16)
     (total-strokes	 . 20)
     (ideographic-structure
-     ?⿰
-     ?噩
-     ?欠)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5669)	; 噩
+      )
+     ((=ucs		  . #x6B20)	; 欠
+      ))
     (=ucs		. #x23932)	; 𣤲
     ))
 (define-char
-  '((ideographic-radical . 76)	; ⽋
+  '((<-denotational
+     ((=ucs		  . #x23932)	; 𣤲
+      ))
+    (ideographic-radical . 76)	; ⽋
     (ideographic-strokes . 16)
     (total-strokes	 . 20)
-    (<-denotational
-     ((=ucs		. #x23932)	; 𣤲
-      ))
-    (=ucs@iso		. #x23932)	; 𣤲
-    (=cns11643-7	. #x4E23)	; &I-C7-4E23; [46-03]
+    (ideographic-structure
+     ?⿰
+     ?&AJ1-14405;
+     ?&AJ1-01853;)
+    (=ucs@iso		. #x23932)	; &C7-4E23;
+    (=cns11643-7	. #x4E23)	; &C7-4E23; [46-03]
     (=daikanwa		. 16235)	; &I-M-16235;
     (<-same
-     ((=ucs@unicode	  . #x8AE4)	; 諤
-      (=daikanwa	  . 35713)	; &I-M-35713;
+     ((=ucs@unicode	  . #x8AE4)	; &AJ1-06691;
+      (=adobe-japan1-0	  . 06691)	; &I-AJ1-06691;
+      (=daikanwa	  . 35713)	; &AJ1-06691;
       ))
     (<-same*sources
      zhengzitong daikanwa)

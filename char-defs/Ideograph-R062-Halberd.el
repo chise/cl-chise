@@ -3420,8 +3420,8 @@
     (=ucs-var-001	. #x97F1)	; &U-v001+97F1;
     (=ucs-itaiji-004	. #x97F1)	; &U-v001+97F1;
     (->subsumptive
-     ((==ucs-var-001	. #x97F1)	; &U-v001+97F1;
-      (==ucs-itaiji-004	. #x97F1)	; &U-v001+97F1;
+     ((==ucs-var-001	  . #x97F1)	; &g2-U-v001+97F1;
+      (==ucs-itaiji-004	  . #x97F1)	; &g2-U-v001+97F1;
       ))
     ))
 (define-char

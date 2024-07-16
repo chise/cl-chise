@@ -7018,7 +7018,7 @@
   '((<-denotational@usage
      ((ideographic-radical . 184)	; ⾷
       (==>ucs@bucs	. #x990A)	; &BUCS+990A;
-      (==>daijiten	. 13551)	; &A2-DJT-13551;
+      (==>daijiten	. 13551)	; &BUCS+990A;
       ))
     (ideographic-radical . 184)	; ⾷
     (ideographic-structure
@@ -16214,13 +16214,25 @@
     ))
 (define-char
   '((ideographic-radical . 184)	; ⾷
+    (=>ucs@iwds-1	. #x9952)	; &A-IWDSU+9952;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@iwds-1	. #x9952)	; &A-IWDSU+9952;
+      ))
+    (<-denotational@usage
+     ((ideographic-radical . 184)	; ⾷
+      (==>ucs@bucs	. #x9952)	; &BUCS+9952;
+      (==>daijiten	. 13641)	; &A2-DJT-13641;
+      ))
+    (ideographic-radical . 184)	; ⾷
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
      ((=>ucs@iwds-1	  . #x98DF)	; &A-IWDSU+98DF;
       )
-     ((=ucs		  . #x582F)	; 堯
+     ((=>ucs@iwds-1	. #x582F)	; &A-IWDSU+582F;
       ))
     (=ucs		. #x9952)	; 饒
     ))
@@ -16236,16 +16248,13 @@
       )
      ((=>ucs@iwds-1	  . #x98DF)	; &A-IWDSU+98DF;
       )
-     ((=ucs@unicode	  . #x582F)	; &AJ1-07474;
-      (=adobe-japan1-0	  . 07474)	; &AJ1-07474;
+     ((=ucs		. #x582F)	; 堯
       ))
-    (=>ucs@iwds-1	. #x9952)	; &A-IWDSU+9952;
     (=>ucs@unicode	. #x9952)	; &A-IWDSU+9952;
     ))
 (define-char
   '((<-denotational
-     ((=>ucs@iwds-1	  . #x9952)	; &A-IWDSU+9952;
-      (=>ucs@unicode	  . #x9952)	; &A-IWDSU+9952;
+     ((=>ucs@unicode	  . #x9952)	; &A-IWDSU+9952;
       ))
     (ideographic-radical . 184)	; ⾷
     (ideographic-strokes . 12)
@@ -16297,8 +16306,7 @@
     ))
 (define-char
   '((<-denotational
-     ((=>ucs@iwds-1	  . #x9952)	; &A-IWDSU+9952;
-      (=>ucs@unicode	  . #x9952)	; &A-IWDSU+9952;
+     ((=>ucs@unicode	  . #x9952)	; &A-IWDSU+9952;
       ))
     (ideographic-radical . 184)	; ⾷
     (ideographic-strokes . 12)

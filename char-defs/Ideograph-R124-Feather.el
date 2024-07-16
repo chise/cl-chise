@@ -3230,9 +3230,28 @@
     (ideographic-radical . 124)	; ⽻
     (ideographic-strokes . 5)
     (total-strokes	 . 11)
-    (=daikanwa 		. 28670)	; &M-28670;
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x767D)	; 白
+      )
+     ((=ucs		. #xFA1E)	; 羽
+      ))
+    (=mj		. 003693)	; &MJ003693;
+    (=koseki . 320250)
+    (=daikanwa		. 28670)	; &M-28670;
     (<-formed
      ((=mj		  . 045220)	; &MJ045220;
+      ))
+    (<-formed$_1*sources
+     koseki)
+    (<-formed*sources
+     koseki)
+    (->subsumptive
+     ((==mj		. 003693)	; &MJ003693;
+      (==koseki . 320250)
+      (==daikanwa		. 28670)	; &M-28670;
       ))
     ))
 (define-char
@@ -5061,11 +5080,11 @@
      ((=ucs		  . #x593E)	; 夾
       ))
     (=ucs@unicode	. #x7FDC)	; &C2-4637;
-    (=ucs@JP/hanazono 	. nil)
+    (=ucs@JP/hanazono	. nil)
     (=cns11643-2	. #x4637)	; &C2-4637; [38-23]
     (->subsumptive
      ((==ucs@unicode	  . #x7FDC)	; &g2-UU+7FDC;
-      (==ucs@JP/hanazono 	. nil)
+      (==ucs@JP/hanazono  . nil)
       )
      ((==ucs@cns	  . #x7FDC)	; &g2-CU+7FDC;
       (==cns11643-2	  . #x4637)	; &g2-CU+7FDC; [38-23]
@@ -8004,9 +8023,29 @@
     (ideographic-radical . 124)	; ⽻
     (ideographic-strokes . 10)
     (total-strokes	 . 16)
-    (=daikanwa 		. 28781)	; &M-28781;
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@unicode	  . #x5C03)	; &AJ1-17537;
+      (=adobe-japan1-5	  . 17537)	; &AJ1-17537;
+      )
+     ((=ucs		. #xFA1E)	; 羽
+      ))
+    (=mj		. 045191)	; &MJ045191;
+    (=koseki . 321460)
+    (=daikanwa		. 28781)	; &M-28781;
     (<-formed
      ((=mj		  . 045220)	; &MJ045220;
+      ))
+    (<-formed$_1*sources
+     koseki)
+    (<-formed*sources
+     koseki)
+    (->subsumptive
+     ((==mj		. 045191)	; &MJ045191;
+      (==koseki . 321460)
+      (==daikanwa		. 28781)	; &M-28781;
       ))
     ))
 (define-char
@@ -11096,22 +11135,24 @@
     (=koseki		. 322070)	; &MJ045224;
     (=daikanwa		. 28832)	; &I-M-28832;
     (<-formed
-     ((=ucs@iso		  . #x2A1F9)	; &M-47461;
-      (=daikanwa	  . 47461)	; &M-47461;
+     ((=ucs@iso		  . #x2A1F9)	; &MJ055829;
+      (=mj		  . 055829)	; &I-MJ055829;
+      (=koseki		  . 537210)	; &MJ055829;
       ))
     (<-formed$_1*sources
      koseki)
     (<-formed*sources
      koseki)
     (<-same
-     ((=ucs@iso		  . #x2A1F9)	; &M-47461;
-      (=daikanwa	  . 47461)	; &M-47461;
+     ((=ucs@iso		  . #x2A1F9)	; &MJ055829;
+      (=mj		  . 055829)	; &I-MJ055829;
+      (=daikanwa 	  . 47461)	; &MJ055829;
       ))
     (<-same*sources
      jiyun daikanwa)
     (->formed
-     ((=ucs@iso		  . #x2A1F9)	; &M-47461;
-      (=daikanwa	  . 47461)	; &M-47461;
+     ((=ucs@iso		  . #x2A1F9)	; &MJ055829;
+      (=mj		  . 055829)	; &I-MJ055829;
       ))
     (->formed$_1*sources
      jiyun)

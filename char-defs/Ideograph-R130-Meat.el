@@ -1001,7 +1001,7 @@
      ((=ucs		. #x43CD)	; 䏍
       ))
     (=ucs@unicode	. #x43CD)	; 䏍
-    (=cns11643-6	. #x2549)	; &I-C6-2549; [05-41]
+    (=cns11643-6	. #x2549)	; &GT-37859; [05-41]
     (=big5-cdp		. #x8B6A)	; &I-CDP-8B6A;
     (=gt		. 37859)	; &I-GT-37859;
     (=gt-k		. 01763)	; &I-GT-K01763;
@@ -2077,7 +2077,7 @@
      ((=ucs		. #x8099)	; 肙
       ))
     (=ucs@unicode	. #x8099)	; 肙
-    (=mj		. 020931)	; &I-MJ020931;
+    (=mj		. 020931)	; &MJ020931;
     (=cns11643-2	. #x2475)	; &I-C2-2475; [04-85]
     (=jis-x0213-2	. #x7530)	; &I-JX2-7530; [85-16]
     (=big5		. #xCB75)	; &I-B-CB75;
@@ -18338,6 +18338,10 @@
   '((<-denotational
      ((=>ucs@component	  . #x23386)	; &A-compU+23386;
       ))
+    (<-denotational@usage
+     ((ideographic-radical . 130)	; ⾁
+      (==>daijiten	. 09498)	; &A2-DJT-09498;
+      ))
     (ideographic-radical . 130)	; ⾁
     (ideographic-strokes . 9)
     (total-strokes	 . 13)
@@ -18402,7 +18406,10 @@
      ((=ucs-var-002	  . #x43CE)	; &U-v002+43CE;
       ))
     (=ucs@iso		. #x26760)	; &U-00026760;
+    (=daijiten		. 09498)	; &I-DJT-09498;
     (->subsumptive
+     ((==daijiten		. 09498)	; &I-DJT-09498;
+      )
      ((==ucs@iso	  . #x26760)	; &g2-IU-00026760;
       ))
     ))

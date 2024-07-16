@@ -2635,10 +2635,18 @@
 (define-char
   '((ideographic-radical@ucs . 43)	; ⼪
     (ideographic-radical@jis . 32)	; ⼟
+    (=ucs		. #x5C2D)	; 尭
+    ))
+(define-char
+  '((ideographic-radical@ucs . 43)	; ⼪
+    (ideographic-radical@jis . 32)	; ⼟
     (ideographic-strokes . 5)
     (total-strokes	 . 8)
-    (=ucs		. #x5C2D)	; 尭
-    (=adobe-japan1-0	. 01726)	; &I-AJ1-01726;
+    (<-denotational
+     ((=ucs		. #x5C2D)	; 尭
+      ))
+    (=ucs@unicode	. #x5C2D)	; 尭
+    (=adobe-japan1-0	. 01726)	; &AJ1-01726;
     (=jis-x0208@1983	. #x3646)	; &I-J83-3646; [22-38]
     (=jis-x0208@1990	. #x3646)	; &I-J90-3646; [22-38]
     (=jis-x0213-1	. #x3646)	; &I-JX1-3646; [22-38]
