@@ -1010,4 +1010,7 @@
      'ideographic-structure@apparent/rightmost)
 
     (ids-update-index)
+
+    (load (merge-pathnames "chise-bibliography.lisp"
+			   (asdf:system-source-directory :cl-chise)))
     ))
