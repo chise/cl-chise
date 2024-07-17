@@ -1710,9 +1710,9 @@
     (->formed$_1*sources
      guangyun daikanwa)
     (->formed$_2*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (->formed$_3*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (->formed*sources
      daikanwa)
     (->interchangeable

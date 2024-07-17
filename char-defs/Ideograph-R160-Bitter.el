@@ -742,7 +742,7 @@
       (=daikanwa	  . 03452)	; &I-M-03452;
       ))
     (<-interchangeable*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-same
      ((=ucs@unicode	  . #x7F6A)	; &AJ1-02129;
       (=adobe-japan1-0	  . 02129)	; &AJ1-02129;

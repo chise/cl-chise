@@ -693,7 +693,7 @@
       (=daikanwa	  . 39216)	; &I-M-39216;
       ))
     (<-vulgar*sources
-     songyuanyilai-suzipu daikanwa)
+     songyuan-yilai-suzipu daikanwa)
     (->subsumptive
      ((==daikanwa	  . 38709)	; &g2-M-38709;
       ))
@@ -2705,7 +2705,7 @@
       (=daikanwa	  . 39002)	; &I-M-39002;
       ))
     (<-vulgar*sources
-     songyuanyilai-suzipu daikanwa)
+     songyuan-yilai-suzipu daikanwa)
     (->subsumptive
      ((==daikanwa	  . 38733)	; &g2-M-38733;
       ))
@@ -5513,7 +5513,7 @@
       (=daikanwa	  . 38889)	; &I-M-38889;
       ))
     (<-vulgar*sources
-     songyuanyilai-suzipu daikanwa)
+     songyuan-yilai-suzipu daikanwa)
     (->subsumptive
      ((==daikanwa	  . 38772)	; &g2-M-38772;
       ))
@@ -14419,9 +14419,9 @@
     (->formed$_1*sources
      shuowen shuowen-zhu daikanwa)
     (->formed$_2*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (->formed$_3*sources
-     shuowen-tongxun-dingsheng jingdian-shiwen daikanwa)
+     shuowen-tongxundingsheng jingdian-shiwen daikanwa)
     (->formed*sources
      daikanwa)
     (->subsumptive
@@ -32918,12 +32918,12 @@
     (=hanyo-denshi/ft	. #x322F)	; &I-HD-FT-322F; [18-15]
     (=daikanwa		. 39086)	; &I-M-39086;
     (=daijiten		. 12083)	; &I-DJT-12083;
-    (<-synonyms 
+    (<-synonyms  
      ((=ucs		  . #xFA5B)	; 者
       (=daikanwa	  . 28853)	; &I-M-28853;
       ))
     (<-synonyms*sources
-     xin-fangyan daikanwa)
+     xinfangyan  daikanwa)
     (->subsumptive
      ((=decomposition@cid
        ((=ucs		    . #x906E)	; 遮

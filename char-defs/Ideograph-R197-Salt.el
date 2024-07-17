@@ -551,11 +551,11 @@
     (=shinjigen		.  9766)	; &AJ1-07415;
     (<-same
      ((=ucs@unicode	  . #x9E7C)	; &AJ1-07677;
-      (=adobe-japan1-0	  . 07677)	; &I-AJ1-07677;
+      (=adobe-japan1-0	  . 07677)	; &AJ1-07677;
       (=daikanwa 	  . 47576)	; &AJ1-07677;
       )
      ((=ucs@jis		  . #x9E7B)	; &JX2-7E52;
-      (=jis-x0212	  . #x6C5A)	; &I-JSP-6C5A; [76-58]
+      (=jis-x0212	  . #x6C5A)	; &JX2-7E52; [76-58]
       (=jis-x0213-2	  . #x7E52)	; &I-JX2-7E52; [94-50]
       (=daikanwa 	  . 47564)	; &JX2-7E52;
       ))
@@ -858,7 +858,7 @@
     (<-formed$_1*sources
      jiyun)
     (<-formed$_2*sources
-     shuowen-tongxun-dingsheng)
+     shuowen-tongxundingsheng)
     (<-same
      ((=ucs@iso		  . #x2A275)	; &MJ055906;
       (=mj		  . 055906)	; &MJ055906;
@@ -871,7 +871,7 @@
     (<-same$_1*sources
      jiyun daikanwa)
     (<-same$_2*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-same*sources
      daikanwa)
     (->original
@@ -951,13 +951,13 @@
     (ideographic-strokes . 10)
     (total-strokes	 . 21)
     (=ucs@jis		. #x9E7B)	; &JX2-7E52;
-    (=jis-x0212		. #x6C5A)	; &I-JSP-6C5A; [76-58]
+    (=jis-x0212		. #x6C5A)	; &JX2-7E52; [76-58]
     (=jis-x0213-2	. #x7E52)	; &I-JX2-7E52; [94-50]
     (=daikanwa		. 47564)	; &JX2-7E52;
     (=daijiten		. 14617)	; &I-DJT-14617;
     (->subsumptive
      ((==ucs@jis		. #x9E7B)	; &JX2-7E52;
-      (==jis-x0212		. #x6C5A)	; &I-JSP-6C5A; [76-58]
+      (==jis-x0212		. #x6C5A)	; &JX2-7E52; [76-58]
       (==jis-x0213-2	. #x7E52)	; &I-JX2-7E52; [94-50]
       (==daikanwa		. 47564)	; &JX2-7E52;
       (==daijiten		. 14617)	; &I-DJT-14617;
@@ -1366,7 +1366,7 @@
       (=adobe-japan1-0	  . 04184)	; &AJ1-04184;
       ))
     (=ucs@unicode	. #x9E7C)	; &AJ1-07677;
-    (=adobe-japan1-0	. 07677)	; &I-AJ1-07677;
+    (=adobe-japan1-0	. 07677)	; &AJ1-07677;
     (=jis-x0208@1978	. #x3834)	; &I-J78-3834; [24-20]
     (=jis-x0212		. #x6C5B)	; &I-JSP-6C5B; [76-59]
     (=cns11643-1	. #x7C7B)	; &I-C1-7C7B; [92-91]
@@ -1451,7 +1451,7 @@
     (=jef-china3	. #x6FB5)	; &I-JC3-6FB5;
     (<-simplified@JP/extra
      ((=ucs@unicode	  . #x9E7C)	; &AJ1-07677;
-      (=adobe-japan1-0	  . 07677)	; &I-AJ1-07677;
+      (=adobe-japan1-0	  . 07677)	; &AJ1-07677;
       (=jis-x0208@1978	  . #x3834)	; &I-J78-3834; [24-20]
       (=jis-x0212	  . #x6C5B)	; &I-JSP-6C5B; [76-59]
       ))

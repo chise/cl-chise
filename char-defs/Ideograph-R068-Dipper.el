@@ -506,7 +506,7 @@
      ((=ucs		  . #x6597)	; 斗
       ))
     (=ucs@unicode	. #x3AB7)	; &C3-392B;
-    (=cns11643-3	. #x392B)	; &I-C3-392B; [25-11]
+    (=cns11643-3	. #x392B)	; &C3-392B; [25-11]
     (=daikanwa 		. 13507)	; &C3-392B;
     (=daijiten		. 04348)	; &I-DJT-04348;
     (=cbeta		. 00356)	; &I-CB00356;
@@ -1108,11 +1108,11 @@
       (=daikanwa	  . 40387)	; &I-M-40387;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_2*sources
-     shuowen-zhu shuowen-tongxun-dingsheng daikanwa)
+     shuowen-zhu shuowen-tongxundingsheng daikanwa)
     (<-interchangeable*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (->subsumptive
      ((==mj		  . 037477)	; &g2-MJ037477;
       (==koseki		  . 151560)	; &g2-MJ037477;

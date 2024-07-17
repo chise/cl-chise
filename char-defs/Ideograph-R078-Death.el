@@ -4162,7 +4162,7 @@
       (=daikanwa	  . 16506)	; &I-M-16506;
       ))
     (<-vulgar*sources
-     songyuanyilai-suzipu daikanwa)
+     songyuan-yilai-suzipu daikanwa)
     (->subsumptive
      ((==ucs@jis	  . #x6B8B)	; &g2-AJ1-02194;
       (==adobe-japan1-0	  . 02194)	; &g2-AJ1-02194;

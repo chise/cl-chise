@@ -207,9 +207,9 @@
       (=daikanwa	  . 33290)	; &I-M-33290;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (->subsumptive
      ((==ucs@unicode	  . #x800E)	; &g2-JSP-554C;
       (==jis-x0212	  . #x554C)	; &g2-JSP-554C; [53-44]

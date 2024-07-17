@@ -910,9 +910,9 @@
      ((=daikanwa	  . 13062)	; &M-13062;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-same
      ((=ucs@unicode	  . #x3A7B)	; &MJ001498;
       (=mj		  . 001498)	; &MJ001498;

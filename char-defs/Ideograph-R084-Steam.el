@@ -53,7 +53,7 @@
       (=adobe-japan1-5	  . 19201)	; &AJ1-19201;
       ))
     (<-interchangeable*sources
-     shuowen-tongxun-dingsheng)
+     shuowen-tongxundingsheng)
     (<-same
      ((=ucs@unicode	  . #x6C23)	; &AJ1-05381;
       (=adobe-japan1-0	  . 05381)	; &AJ1-05381;
@@ -71,16 +71,16 @@
     (<-same$_2*sources
      guangyun kangxi daikanwa)
     (<-same$_3*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-same*sources
      daikanwa)
     (->formed
      ((=ucs		  . #x7081)	; 炁
       ))
     (->formed$_1*sources
-     shuowen-tongxun-dingsheng)
+     shuowen-tongxundingsheng)
     (->formed*sources
-     shuowen-tongxun-dingsheng)
+     shuowen-tongxundingsheng)
     (->subsumptive
      ((==ucs@unicode	  . #x6C14)	; &g2-MJ015011;
       (==mj		  . 015011)	; &g2-MJ015011;

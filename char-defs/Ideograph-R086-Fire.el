@@ -1249,7 +1249,7 @@
       (=daikanwa	  . 15817)	; &I-M-15817;
       ))
     (<-interchangeable*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-same
      ((=ucs@unicode	  . #x3DB3)	; &C3-322E;
       (=cns11643-3	  . #x322E)	; &C3-322E; [18-14]
@@ -1531,7 +1531,7 @@
       (=daikanwa	  . 18939)	; &I-M-18939;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_2*sources
      jiyun daikanwa)
     (<-interchangeable*sources
@@ -7413,7 +7413,7 @@
       (=daikanwa	  . 19545)	; &I-M-19545;
       ))
     (->formed*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (->subsumptive
      ((==ucs@unicode	  . #x3DB3)	; &g2-M-18997;
       (==daikanwa	  . 18997)	; &g2-M-18997;
@@ -16928,7 +16928,7 @@
     (<-same$_3*sources
      jiyun daikanwa)
     (<-same$_4*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-same$_5*sources
      zhonghua-dazidian daikanwa)
     (<-same*sources
@@ -16953,9 +16953,9 @@
     (->formed$_2*sources
      jiyun)
     (->formed$_3*sources
-     shuowen-tongxun-dingsheng)
+     shuowen-tongxundingsheng)
     (->formed*sources
-     jiyun shuowen-tongxun-dingsheng)
+     jiyun shuowen-tongxundingsheng)
     (->subsumptive
      ((==ucs@jis	  . #x7156)	; &g2-AJ1-05574;
       (==ucs@ks		  . #x7156)	; &g2-AJ1-05574;
@@ -23142,7 +23142,7 @@
     (<-same$_2*sources
      jiyun daikanwa)
     (<-same$_3*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-same*sources
      daikanwa)
     (<-vulgar
@@ -23150,7 +23150,7 @@
       (=adobe-japan1-0	  . 03502)	; &AJ1-03502;
       ))
     (<-vulgar$_1*sources
-     shuowen-tongxun-dingsheng)
+     shuowen-tongxundingsheng)
     (->original
      ((=ucs@iso		  . #x244BE)	; &MJ040180;
       (=mj		  . 040180)	; &MJ040180;
@@ -26719,9 +26719,9 @@
       (=daikanwa	  . 18910)	; &I-M-18910;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-original
      ((=ucs@unicode	  . #x7130)	; &AJ1-07644;
       (=adobe-japan1-0	  . 07644)	; &AJ1-07644;
@@ -28284,7 +28284,7 @@
       (=daikanwa	  . 29882)	; &I-M-29882;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_2*sources
      shiwen daikanwa)
     (<-interchangeable*sources
@@ -37242,7 +37242,7 @@
       (=daikanwa	  . 19520)	; &I-M-19520;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_2*sources
      tangyunzheng daikanwa)
     (<-interchangeable*sources

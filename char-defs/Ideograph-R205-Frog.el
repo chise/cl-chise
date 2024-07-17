@@ -1511,9 +1511,9 @@
       (=daikanwa	  . 34810)	; &I-M-34810;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-same
      ((=ucs@jis		  . #x9F03)	; &HD-JB-6D24;
       (=jis-x0212	  . #x6D24)	; &HD-JB-6D24; [77-04]

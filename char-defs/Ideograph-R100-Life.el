@@ -542,7 +542,7 @@
       (=daikanwa	  . 26435)	; &I-M-26435;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_2*sources
      kangxi daikanwa)
     (<-interchangeable$_3*sources

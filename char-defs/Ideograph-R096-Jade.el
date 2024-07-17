@@ -2001,7 +2001,7 @@
       (=daikanwa	  . 28766)	; &I-M-28766;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_2*sources
      shiwen daikanwa)
     (<-interchangeable*sources
@@ -2232,7 +2232,7 @@
     (->formed$_3*sources
      shuowen dadaili-zhu daikanwa)
     (->formed$_4*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (->formed*sources
      daikanwa)
     (->subsumptive

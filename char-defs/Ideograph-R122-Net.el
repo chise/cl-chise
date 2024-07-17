@@ -5365,11 +5365,11 @@
       (=daikanwa	  . 14598)	; &I-M-14598;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_2*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-same
      ((=ucs@iso		  . #x2040C)	; &MJ030856;
       (=mj		  . 030856)	; &MJ030856;
@@ -8395,7 +8395,7 @@
       (=daikanwa	  . 28412)	; &I-M-28412;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_2*sources
      hanshi-waichuan-zhu daikanwa)
     (<-interchangeable*sources

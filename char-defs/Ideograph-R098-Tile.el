@@ -685,7 +685,7 @@
     (->vulgar$_1*sources
      shuowen-zhu daikanwa)
     (->vulgar$_2*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (->vulgar*sources
      daikanwa)
     (->subsumptive

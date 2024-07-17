@@ -11973,7 +11973,7 @@
       (=daikanwa	  . 13359)	; &I-M-13359;
       ))
     (<-interchangeable*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (->subsumptive
      ((==hanyo-denshi/ks  . 251690)	; &g2-HD-KS-251690;
       (==daikanwa	  . 22469)	; &g2-HD-KS-251690;

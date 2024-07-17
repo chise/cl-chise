@@ -1146,7 +1146,7 @@
       (=daikanwa	  . 30500)	; &I-M-30500;
       ))
     (->formed$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (->formed$_2*sources
      jiyun daikanwa)
     (->formed*sources
@@ -3947,9 +3947,9 @@
       (=daikanwa	  . 05915)	; &I-M-05915;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-same
      ((=ucs		  . #x2F8DA)	; 朡
       (=daikanwa	  . 14387)	; &I-M-14387;

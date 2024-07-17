@@ -2105,9 +2105,9 @@
       (=daikanwa	  . 12313)	; &I-M-12313;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (->subsumptive
      ((=>>ucs@jis	  . #x5F56)	; &G-MJ011233;
       (=>>ucs@ks	  . #x5F56)	; &G-MJ011233;

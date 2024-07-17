@@ -1395,15 +1395,15 @@
     (<-interchangeable$_1*sources
      chunqiu-zuoshi-huijian daikanwa)
     (<-interchangeable$_2*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_3*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_4*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_5*sources
      zhengzitong shiji-jijie daikanwa)
     (<-interchangeable$_6*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_7*sources
      jiyun daikanwa)
     (<-interchangeable$_8*sources
@@ -4419,19 +4419,19 @@
       (=daikanwa	  . 05747)	; &I-M-05747;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng jiyun daikanwa)
+     shuowen-tongxundingsheng jiyun daikanwa)
     (<-interchangeable$_2*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_3*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_4*sources
-     shuowen-tongxun-dingsheng shiwen daikanwa)
+     shuowen-tongxundingsheng shiwen daikanwa)
     (<-interchangeable$_5*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_6*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (->subsumptive
      ((=>>adobe-japan1-4  . 13702)	; &G-AJ1-13702;
       (=>>daikanwa	  . 14378)	; &G-AJ1-13702;
@@ -5604,15 +5604,15 @@
      ((=mj		  . 013549)	; &MJ013549;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-original
      ((=mj		  . 013549)	; &MJ013549;
       (=shinjigen	  .  3444)	; &MJ013549;
       ))
     (<-original$_1*sources
-     shuowen-tongxun-dingsheng shinjigen@rev)
+     shuowen-tongxundingsheng shinjigen@rev)
     (<-original*sources
-     shuowen-tongxun-dingsheng shinjigen@rev)
+     shuowen-tongxundingsheng shinjigen@rev)
     (->ancient$_1*sources
      shuowen daikanwa)
     (->mistakable

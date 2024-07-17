@@ -2286,7 +2286,7 @@
      ((=ucs		  . #x6C34)	; 水
       ))
     (=ucs@iso		. #x25778)	; &M-24973;
-    (=daikanwa 		. 24973)	; &I-M-24973;
+    (=daikanwa 		. 24973)	; &M-24973;
     (=cbeta		. 11304)	; &I-CB11304;
     (->subsumptive
      ((==daikanwa	  . 24973)	; &g2-M-24973;
@@ -6943,7 +6943,7 @@
       (=adobe-japan1-0	  . 04141)	; &AJ1-04141;
       ))
     (<-formed$_1*sources
-     shuowen-tongxun-dingsheng)
+     shuowen-tongxundingsheng)
     (<-same
      ((=ucs@unicode	  . #x4F86)	; &AJ1-04141;
       (=adobe-japan1-0	  . 04141)	; &AJ1-04141;
@@ -6958,7 +6958,7 @@
       (=daikanwa	  . 15612)	; &I-M-15612;
       ))
     (<-same$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-same$_2*sources
      jiyun daikanwa)
     (<-same$_3*sources
@@ -10504,7 +10504,7 @@
      ((=daikanwa	  . 31247)	; &M-31247;
       ))
     (<-same$_1*sources
-     shuowen-zhu shuowen-tongxun-dingsheng daikanwa)
+     shuowen-zhu shuowen-tongxundingsheng daikanwa)
     (<-same$_2*sources
      jiyun daikanwa)
     (<-same$_3*sources
@@ -11186,11 +11186,11 @@
       (=daikanwa	  . 27780)	; &I-M-27780;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_2*sources
-     shuowen-tongxun-dingsheng guangya-shuzheng daikanwa)
+     shuowen-tongxundingsheng guangya-shuzheng daikanwa)
     (<-interchangeable$_3*sources
-     shuowen-tongxun-dingsheng shiwen daikanwa)
+     shuowen-tongxundingsheng shiwen daikanwa)
     (<-interchangeable$_4*sources
      liji-zhu daikanwa)
     (<-interchangeable$_5*sources
@@ -16031,9 +16031,9 @@
       (=daikanwa	  . 27180)	; &I-M-27180;
       ))
     (->formed$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (->formed*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (->vulgar
      ((=mj		  . 003487)	; &MJ003487;
       (=daikanwa	  . 27180)	; &I-M-27180;

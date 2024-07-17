@@ -1767,9 +1767,26 @@
       )
      ((=ucs		  . #x9FB7)	; 龷
       ))
+    (=>ucs-var-001	. #x534B)	; &A-U-v001+534B;
     (=>ucs-itaiji-001	. #x534B)	; &A-U-v001+534B;
-    (=>ucs-itaiji-002	. #x534B)	; &U-i002+534B;
-    (=>ucs-var-001	. #x534B)	; &U-v001+534B;
+    (=>ucs-itaiji-002	. #x534B)	; &A-U-v001+534B;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-001	  . #x534B)	; &A-U-v001+534B;
+      ))
+    (ideographic-radical . 24)	; ⼗
+    (ideographic-strokes . 5)
+    (total-strokes	 . 7)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x5341)	; 十
+      )
+     ((=ucs-var-001	  . #x9FB7)	; &U-v001+9FB7;
+      ))
+    (=ucs-itaiji-002	. #x534B)	; &U-i002+534B;
     ))
 (define-char
   '((<-denotational
@@ -1788,29 +1805,12 @@
       (=big5-cdp	  . #x8B5C)	; &CDP-8B5C;
       ))
     (=ucs-var-001	. #x534B)	; &U-v001+534B;
-    (=ucs-itaiji-001	. #x534B)	; &U-i001+534B;
+    (=ucs-itaiji-001	. #x534B)	; &U-v001+534B;
     (->subsumptive
-     ((==ucs-var-001	. #x534B)	; &U-v001+534B;
+     ((==ucs-var-001	  . #x534B)	; &g2-U-v001+534B;
       )
      ((==ucs-itaiji-001	  . #x534B)	; &g2-U-i001+534B;
       ))
-    ))
-(define-char
-  '((<-denotational
-     ((=>ucs-itaiji-001	  . #x534B)	; &A-U-v001+534B;
-      ))
-    (ideographic-radical . 24)	; ⼗
-    (ideographic-strokes . 5)
-    (total-strokes	 . 7)
-    (ideographic-structure
-     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
-      (=ucs		  . #x2FF1)	; ⿱
-      )
-     ((=ucs		  . #x5341)	; 十
-      )
-     ((=ucs-var-001	. #x9FB7)	; &U-v001+9FB7;
-      ))
-    (=ucs-itaiji-002	. #x534B)	; &U-i002+534B;
     ))
 (define-char
   '((ideographic-radical . 24)	; ⼗
@@ -3889,21 +3889,21 @@
       (=daikanwa	  . 00750)	; &I-M-00750;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_2*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_3*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_4*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_5*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_6*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_7*sources
      shiwen daikanwa)
     (<-interchangeable$_8*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_9*sources
      liji-zhu daikanwa)
     (<-interchangeable*sources
@@ -4027,13 +4027,13 @@
       (=daikanwa	  . 37617)	; &I-M-37617;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_2*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_3*sources
      yili-zhu daikanwa)
     (<-interchangeable$_4*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_5*sources
      shiwen daikanwa)
     (<-interchangeable*sources

@@ -9921,7 +9921,7 @@
       (=daikanwa	  . 28879)	; &I-M-28879;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_2*sources
      liji-zhu daikanwa)
     (<-interchangeable$_3*sources
@@ -16433,7 +16433,7 @@
       (=daikanwa	  . 12364)	; &I-M-12364;
       ))
     (<-formed$_1*sources
-     jiyun shuowen-tongxun-dingsheng)
+     jiyun shuowen-tongxundingsheng)
     (<-same
      ((=ucs@iso		  . #x22BF2)	; &C4-3D51;
       (=cns11643-4	  . #x3D51)	; &C4-3D51; [29-49]
@@ -16443,7 +16443,7 @@
       (=daikanwa	  . 29268)	; &I-M-29268;
       ))
     (<-same$_1*sources
-     jiyun shuowen-tongxun-dingsheng daikanwa)
+     jiyun shuowen-tongxundingsheng daikanwa)
     (<-same$_2*sources
      liji-zhu daikanwa)
     (<-same*sources
@@ -18405,10 +18405,10 @@
       )
      ((=ucs-var-002	  . #x43CE)	; &U-v002+43CE;
       ))
-    (=ucs@iso		. #x26760)	; &U-00026760;
-    (=daijiten		. 09498)	; &I-DJT-09498;
+    (=ucs@iso		. #x26760)	; &DJT-09498;
+    (=daijiten		. 09498)	; &DJT-09498;
     (->subsumptive
-     ((==daijiten		. 09498)	; &I-DJT-09498;
+     ((==daijiten		. 09498)	; &DJT-09498;
       )
      ((==ucs@iso	  . #x26760)	; &g2-IU-00026760;
       ))
@@ -25559,7 +25559,7 @@
       (=daikanwa	  . 03543)	; &I-M-03543;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng fangyan daikanwa)
+     shuowen-tongxundingsheng fangyan daikanwa)
     (<-interchangeable*sources
      daikanwa)
     (->formed
@@ -27606,11 +27606,11 @@
       (=daikanwa	  . 15514)	; &I-M-15514;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_2*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-same
      ((=ucs@unicode	  . #x8122)	; &C2-3855;
       (=cns11643-2	  . #x3855)	; &C2-3855; [24-53]

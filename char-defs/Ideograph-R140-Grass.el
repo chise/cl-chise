@@ -2431,13 +2431,13 @@
       (=daikanwa	  . 35233)	; &I-M-35233;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng maoshi-jian daikanwa)
+     shuowen-tongxundingsheng maoshi-jian daikanwa)
     (<-interchangeable$_2*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_3*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (->original
      ((=ucs@cns		  . #x828C)	; &C3-2729;
       (=cns11643-3	  . #x2729)	; &C3-2729; [07-09]
@@ -13735,7 +13735,7 @@
       (=daikanwa	  . 49596)	; &I-M-49596;
       ))
     (->Zhouwen*sources
-     shuowen-zhu shuowen-tongxun-dingsheng daikanwa)
+     shuowen-zhu shuowen-tongxundingsheng daikanwa)
     (->interchangeable
      ((=ucs		  . #x2F81A)	; 冬
       (=daikanwa	  . 01610)	; &I-M-01610;
@@ -34036,11 +34036,11 @@
       (=daikanwa	  . 09051)	; &I-M-09051;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_2*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (->formed
      ((=ucs		  . #x731B)	; 猛
       (=daikanwa	  . 20498)	; &I-M-20498;
@@ -42350,11 +42350,11 @@
       (=daikanwa	  . 49661)	; &I-M-49661;
       ))
     (->Zhouwen$_1*sources
-     shuowen-zhu shuowen-tongxun-dingsheng daikanwa)
+     shuowen-zhu shuowen-tongxundingsheng daikanwa)
     (->Zhouwen$_2*sources
-     shuowen-zhu shuowen-tongxun-dingsheng daikanwa)
+     shuowen-zhu shuowen-tongxundingsheng daikanwa)
     (->Zhouwen*sources
-     shuowen-zhu shuowen-tongxun-dingsheng daikanwa)
+     shuowen-zhu shuowen-tongxundingsheng daikanwa)
     (->mistakable
      ((=ucs		  . #x96C8)	; 雈
       (=daikanwa	  . 41980)	; &I-M-41980;
@@ -81577,7 +81577,7 @@
       (=daikanwa	  . 15517)	; &I-M-15517;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_2*sources
      jiyun daikanwa)
     (<-interchangeable*sources
@@ -82411,13 +82411,13 @@
       (=daikanwa	  . 31601)	; &HD-KS-356800;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_2*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_3*sources
      liji-zhu daikanwa)
     (<-interchangeable$_4*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable*sources
      daikanwa)
     (<-same
@@ -82465,7 +82465,7 @@
       (=daikanwa	  . 32277)	; &I-M-32277;
       ))
     (->formed$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (->formed$_2*sources
      zhonghua-dazidian daikanwa)
     (->formed$_3*sources
@@ -97319,7 +97319,7 @@
       (=daikanwa	  . 38943)	; &I-M-38943;
       ))
     (<-interchangeable*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-same
      ((=ucs@unicode	  . #x71FC)	; &AJ1-05593;
       (=adobe-japan1-0	  . 05593)	; &AJ1-05593;
@@ -105024,7 +105024,7 @@
       (=adobe-japan1-5	  . 18372)	; &AJ1-18372;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-same
      ((=ucs@cns		  . #x85BB)	; &C3-586E;
       (=cns11643-3	  . #x586E)	; &C3-586E; [56-78]
@@ -115214,9 +115214,9 @@
       (=daikanwa	  . 15795)	; &I-M-15795;
       ))
     (->formed$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (->formed*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (->subsumptive
      ((==hanyo-denshi/jt  . #xBAAB)	; &g2-HD-JT-BAAB;
       (==daikanwa	  . 32584)	; &g2-HD-JT-BAAB;

@@ -2776,7 +2776,11 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 39)	; ⼦
+  '((<-denotational@usage
+     ((ideographic-radical . 39)	; ⼦
+      (==>daijiten	. 02283)	; &A2-DJT-02283;
+      ))
+    (ideographic-radical . 39)	; ⼦
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
@@ -2827,6 +2831,7 @@
     (=cns11643-3	. #x3054)	; &I-C3-3054; [16-52]
     (=koseki		. 079460)	; &MJ000728;
     (=daikanwa		. 06988)	; &I-M-06988;
+    (=daijiten		. 02283)	; &I-DJT-02283;
     (<-formed
      ((=ucs@unicode	  . #x5A29)	; &MJ009734;
       (=mj		  . 009734)	; &MJ009734;
@@ -2842,15 +2847,15 @@
       (=daikanwa	  . 06337)	; &I-M-06337;
       ))
     (<-same*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (->formed
      ((=ucs@unicode	  . #x5A29)	; &MJ009734;
       (=mj		  . 009734)	; &MJ009734;
       ))
     (->formed$_1*sources
-     shuowen-tongxun-dingsheng)
+     shuowen-tongxundingsheng)
     (->formed*sources
-     shuowen-tongxun-dingsheng)
+     shuowen-tongxundingsheng)
     (->subsumptive
      ((==mj		  . 000728)	; &g2-MJ000728;
       (==koseki		  . 079460)	; &g2-MJ000728;
@@ -2860,6 +2865,8 @@
 	)
        ((===mj		    . 000728)	; &R-MJ000728;
 	))
+      )
+     ((==daijiten		. 02283)	; &I-DJT-02283;
       )
      ((==ucs@unicode	  . #x3743)	; &g2-UU+3743;
       (==ucs@JP/hanazono  . nil)
@@ -3658,6 +3665,10 @@
      ((=>ucs@iwds-1	  . #x5B76)	; &J97-555A;
       (=>jis-x0208	  . #x555A)	; &J97-555A; [53-58]
       ))
+    (<-denotational@usage
+     ((ideographic-radical . 39)	; ⼦
+      (==>daijiten	. 02288)	; &A2-DJT-02288;
+      ))
     (ideographic-radical . 39)	; ⼦
     (ideographic-strokes . 10)
     (total-strokes	 . 13)
@@ -3710,9 +3721,9 @@
       (=daikanwa	  . 18021)	; &I-M-18021;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_2*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_3*sources
      hanshu-zhu daikanwa)
     (<-interchangeable*sources
@@ -3825,6 +3836,7 @@
     (=mj		. 010088)	; &MJ010088;
     (=adobe-japan1-5	. 20109)	; &I-AJ1-20109;
     (=hanyo-denshi/jt	. #xB011)	; &I-HD-JT-B011;
+    (=daijiten		. 02288)	; &I-DJT-02288;
     (->subsumptive
      ((=decomposition@cid
        ((=ucs		    . #x5B73)	; 孳
@@ -3839,6 +3851,7 @@
       (==mj		  . 010088)	; &g2-MJ010088;
       (==adobe-japan1-5	  . 20109)	; &g2-MJ010088;
       (==hanyo-denshi/jt  . #xB011)	; &g2-MJ010088;
+      (==daijiten	. 02288)	; &I-DJT-02288;
       (->subsumptive
        ((===adobe-japan1-5  . 20109)	; &R-AJ1-20109;
 	)

@@ -5610,13 +5610,13 @@
       ))
     (->synonyms@daikanwa*sources
      daikanwa)
-    (->synonyms@shuowen-tongxun-dingsheng
+    (->synonyms@shuowen-tongxundingsheng
      ((=ucs@unicode	  . #x9E90)	; &C3-5A24;
       (=cns11643-3	  . #x5A24)	; &C3-5A24; [58-04]
       (=daikanwa	  . 47643)	; &I-M-47643;
       ))
-    (->synonyms@shuowen-tongxun-dingsheng*sources
-     shuowen-tongxun-dingsheng daikanwa)
+    (->synonyms@shuowen-tongxundingsheng*sources
+     shuowen-tongxundingsheng daikanwa)
     (->subsumptive
      ((==daikanwa	  . 47690)	; &g2-M-47690;
       )

@@ -2722,7 +2722,12 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 36)	; ⼣
+  '((<-denotational@usage
+     ((ideographic-radical . 36)	; ⼣
+      (==>ucs@bucs	. #x5924)	; &BUCS+5924;
+      (==>daijiten	. 01944)	; &A2-DJT-01944;
+      ))
+    (ideographic-radical . 36)	; ⼣
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
@@ -2779,6 +2784,7 @@
     (=jis-x0213-2	. #x253D)	; &I-JX2-253D; [05-29]
     (=big5		. #xB9DB)	; &I-B-B9DB;
     (=daikanwa		. 05805)	; &I-M-05805;
+    (=daijiten		. 01944)	; &I-DJT-01944;
     (<-interchangeable
      ((=ucs@cns		  . #x5CFB)	; &MJ010523;
       (=mj		  . 010523)	; &MJ010523;
@@ -2810,17 +2816,17 @@
       (=daikanwa	  . 09936)	; &I-M-09936;
       ))
     (<-interchangeable$_1*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_2*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_3*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_4*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_5*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_6*sources
-     shuowen-tongxun-dingsheng daikanwa)
+     shuowen-tongxundingsheng daikanwa)
     (<-interchangeable$_7*sources
      shiwen daikanwa)
     (<-interchangeable*sources
@@ -2847,6 +2853,7 @@
       (==cns11643-1	  . #x6843)	; &g2-AJ1-14445; [72-35]
       (==jis-x0213-2	  . #x253D)	; &g2-AJ1-14445; [05-29]
       (==daikanwa	  . 05805)	; &g2-AJ1-14445;
+      (==daijiten		. 01944)	; &I-DJT-01944;
       (->subsumptive
        ((===daikanwa	    . 05805)	; &R-M-05805;
 	)
