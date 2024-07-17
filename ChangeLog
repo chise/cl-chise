@@ -1,3 +1,131 @@
+2024-07-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* Sync up with the current snapshot [2024-07-17 17:00 JST].
+
+	M	char-defs/Ideograph-R001-One.el
+	M	char-defs/Ideograph-R003-Dot.el
+	M	char-defs/Ideograph-R004-Slash.el
+	M	char-defs/Ideograph-R007-Two.el
+	M	char-defs/Ideograph-R008-Lid.el
+	M	char-defs/Ideograph-R009-Man.el
+	M	char-defs/Ideograph-R010-Legs.el
+	M	char-defs/Ideograph-R011-Enter.el
+	M	char-defs/Ideograph-R012-Eight.el
+	M	char-defs/Ideograph-R013-Down-Box.el
+	M	char-defs/Ideograph-R014-Cover.el
+	M	char-defs/Ideograph-R015-Ice.el
+	M	char-defs/Ideograph-R017-Open-Box.el
+	M	char-defs/Ideograph-R018-Knife.el
+	M	char-defs/Ideograph-R019-Power.el
+	M	char-defs/Ideograph-R020-Wrap.el
+	M	char-defs/Ideograph-R021-Spoon.el
+	M	char-defs/Ideograph-R022-Right-Open-Box.el
+	M	char-defs/Ideograph-R023-Hiding-Enclosure.el
+	M	char-defs/Ideograph-R024-Ten.el
+	M	char-defs/Ideograph-R025-Divination.el
+	M	char-defs/Ideograph-R026-Seal.el
+	M	char-defs/Ideograph-R027-Cliff.el
+	M	char-defs/Ideograph-R028-Private.el
+	M	char-defs/Ideograph-R029-Again.el
+	M	char-defs/Ideograph-R030-Mouth.el
+	M	char-defs/Ideograph-R031-Enclosure.el
+	M	char-defs/Ideograph-R032-Earth.el
+	M	char-defs/Ideograph-R033-Scholar.el
+	M	char-defs/Ideograph-R035-Go-Slowly.el
+	M	char-defs/Ideograph-R036-Evening.el
+	M	char-defs/Ideograph-R037-Big.el
+	M	char-defs/Ideograph-R038-Woman.el
+	M	char-defs/Ideograph-R039-Child.el
+	M	char-defs/Ideograph-R040-Roof.el
+	M	char-defs/Ideograph-R041-Inch.el
+	M	char-defs/Ideograph-R042-Small.el
+	M	char-defs/Ideograph-R043-Lame.el
+	M	char-defs/Ideograph-R044-Corpse.el
+	M	char-defs/Ideograph-R046-Mountain.el
+	M	char-defs/Ideograph-R048-Work.el
+	M	char-defs/Ideograph-R049-Oneself.el
+	M	char-defs/Ideograph-R050-Turban.el
+	M	char-defs/Ideograph-R051-Dry.el
+	M	char-defs/Ideograph-R052-Short-Thread.el
+	M	char-defs/Ideograph-R053-Dotted-Cliff.el
+	M	char-defs/Ideograph-R054-Long-Stride.el
+	M	char-defs/Ideograph-R055-Two-Hands.el
+	M	char-defs/Ideograph-R057-Bow.el
+	M	char-defs/Ideograph-R058-Snout.el
+	M	char-defs/Ideograph-R060-Step.el
+	M	char-defs/Ideograph-R061-Heart.el
+	M	char-defs/Ideograph-R062-Halberd.el
+	M	char-defs/Ideograph-R064-Hand.el
+	M	char-defs/Ideograph-R065-Branch.el
+	M	char-defs/Ideograph-R066-Rap.el
+	M	char-defs/Ideograph-R067-Script.el
+	M	char-defs/Ideograph-R068-Dipper.el
+	M	char-defs/Ideograph-R069-Axe.el
+	M	char-defs/Ideograph-R070-Square.el
+	M	char-defs/Ideograph-R072-Sun.el
+	M	char-defs/Ideograph-R073-Say.el
+	M	char-defs/Ideograph-R074-Moon.el
+	M	char-defs/Ideograph-R075-Tree.el
+	M	char-defs/Ideograph-R076-Lack.el
+	M	char-defs/Ideograph-R077-Stop.el
+	M	char-defs/Ideograph-R078-Death.el
+	M	char-defs/Ideograph-R079-Weapon.el
+	M	char-defs/Ideograph-R080-Do-Not.el
+	M	char-defs/Ideograph-R081-Compare.el
+	M	char-defs/Ideograph-R082-Fur.el
+	M	char-defs/Ideograph-R084-Steam.el
+	M	char-defs/Ideograph-R085-Water.el
+	M	char-defs/Ideograph-R086-Fire.el
+	M	char-defs/Ideograph-R090-Half-Tree-Trunk.el
+	M	char-defs/Ideograph-R091-Slice.el
+	M	char-defs/Ideograph-R093-Cow.el
+	M	char-defs/Ideograph-R094-Dog.el
+	M	char-defs/Ideograph-R095-Profound.el
+	M	char-defs/Ideograph-R096-Jade.el
+	M	char-defs/Ideograph-R097-Melon.el
+	M	char-defs/Ideograph-R098-Tile.el
+	M	char-defs/Ideograph-R100-Life.el
+	M	char-defs/Ideograph-R104-Sickness.el
+	M	char-defs/Ideograph-R106-White.el
+	M	char-defs/Ideograph-R109-Eye.el
+	M	char-defs/Ideograph-R110-Spear.el
+	M	char-defs/Ideograph-R111-Arrow.el
+	M	char-defs/Ideograph-R113-Spirit.el
+	M	char-defs/Ideograph-R115-Grain.el
+	M	char-defs/Ideograph-R118-Bamboo.el
+	M	char-defs/Ideograph-R120-Silk.el
+	M	char-defs/Ideograph-R122-Net.el
+	M	char-defs/Ideograph-R123-Sheep.el
+	M	char-defs/Ideograph-R126-And.el
+	M	char-defs/Ideograph-R128-Ear.el
+	M	char-defs/Ideograph-R129-Brush.el
+	M	char-defs/Ideograph-R130-Meat.el
+	M	char-defs/Ideograph-R137-Boat.el
+	M	char-defs/Ideograph-R140-Grass.el
+	M	char-defs/Ideograph-R141-Tiger.el
+	M	char-defs/Ideograph-R145-Clothes.el
+	M	char-defs/Ideograph-R149-Speech.el
+	M	char-defs/Ideograph-R153-Badger.el
+	M	char-defs/Ideograph-R160-Bitter.el
+	M	char-defs/Ideograph-R162-Walk.el
+	M	char-defs/Ideograph-R197-Salt.el
+	M	char-defs/Ideograph-R198-Deer.el
+	M	char-defs/Ideograph-R205-Frog.el
+
+2024-07-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* cl-chise.asd: Add chise-metadata.lisp.
+
+	* loadup-char-defs.lisp: Load chise-bibliography.lisp.
+
+	* chise-bibliography.lisp: New file.
+
+2024-07-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* chise-metadata.lisp: New file.
+
+	* cl-chise.lisp (import-from): Import `=id'.
+
 2024-07-16  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* cl-chise.asd (version): Update to "0.9".
