@@ -885,11 +885,11 @@
 (unless (eq (get-char-attribute #\U2A6D6 '=ucs) #x2A6D6)
   (dolist (file *system-char-db-source-file-list*)
     (format t "Loading ~a...~%" file)
-    (load (merge-pathnames (concatenate 'string "char-defs/" file ".el")
+    (load (merge-pathnames (concatenate 'string "data/char-defs/" file ".el")
 			   (asdf:system-source-directory :cl-chise))))
 
   (let ((ids-dir (merge-pathnames
-		  "ids/"
+		  "data/ids/"
 		  (asdf:system-source-directory :cl-chise))))
     (when (fboundp 'sb-ext:run-program)
       (if (directory ids-dir)
@@ -1011,6 +1011,6 @@
 
     (ids-update-index)
 
-    (load (merge-pathnames "chise-bibliography.lisp"
+    (load (merge-pathnames "data/chise-bibliography.lisp"
 			   (asdf:system-source-directory :cl-chise)))
     ))
