@@ -8,7 +8,9 @@
   :components ((:file "cl-chise")
 	       (:file "entity-ref")
 	       (:file "ids" :depends-on ("cl-chise" "entity-ref"))
+	       (:file "chise-metadata")
 	       (:file "loadup-char-defs" :depends-on ("cl-chise"
 						      "entity-ref"
-						      "ids"))
+						      "ids"
+						      "chise-metadata"))
 	       (:file "chise-json")))
