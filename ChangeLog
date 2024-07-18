@@ -1,5 +1,12 @@
 2024-07-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* Move char-defs/ and chise-bibliography.lisp into data/.
+
+	* loadup-char-defs.lisp: Move char-defs/, ids/ and
+	chise-bibliography.lisp into data/.
+
+2024-07-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* Sync up with the current snapshot [2024-07-17 17:00 JST].
 
 	M	char-defs/Ideograph-R001-One.el
