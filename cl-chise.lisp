@@ -16,7 +16,7 @@
    :expand-feature-name
    :sequence-list-p :association-list-p
    :while
-   :=id :=ucs)
+   :=id :=_id :=ucs)
   (:export
    :decode-char :encode-char
    :get-char-attribute :put-char-attribute
@@ -25,6 +25,10 @@
    :normalize-as-char
    :char-ucs :char-ucs-chars
    :char-id
+   :some-in-character-feature
+   :some-char-in-family
+   :union-in-character-feature
+   :store-union-in-feature
    :ids-parse-element
    :ids-parse-string
    :ids-read-file
@@ -33,10 +37,7 @@
    :ideographic-structure-find-chars
    :ideographic-structure-some-chars
    :ideographic-structure
-   :some-in-character-feature
-   :some-char-in-family
-   :union-in-character-feature
-   :store-union-in-feature))
+   :chise-dump-db))
 
 (in-package :chise)
 
@@ -45,10 +46,12 @@
 	jis-x0212 jis-x0213 cdp shinjigen mj
 	r001 r007 r030 r053 r055 r074 r130 r140 r159 misc unknown))
 
-(defun char-spec (character)
+(defun char-spec (character &key require-system-features)
   (if (characterp character)
       (setq character (concord:object :character (char-code character))))
-  (concord:object-spec character))
+  (concord:object-spec
+   character
+   :require-system-features require-system-features))
 
 (defun char-ccs-spec (character)
   (let ((spec (char-spec character))
@@ -87,7 +90,9 @@
        )
       (t
        (dolist (cell spec)
-	 (cond ((concord:id-feature-name-p (car cell))
+	 (cond ((eq (car cell) '=_id)
+		)
+	       ((concord:id-feature-name-p (car cell))
 		(setq dest (cons cell dest))
 		)
 	       ((member (car cell) '(name name*))
