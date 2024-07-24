@@ -1807,3 +1807,37 @@ COMPONENT can be a character or char-spec."
 	  )))
       ))
     ))
+
+(defun chise-dump-db ()
+  (with-open-file (out (merge-pathnames
+			"data/dumped-ids.lisp"
+			(asdf:system-source-directory :cl-chise))
+		       :direction :output)
+    (dolist (feat '(ideographic-structure
+		    ideographic-structure@apparent
+		    ideographic-structure@apparent/leftmost
+		    ideographic-structure@apparent/rightmost))
+      (let (code ret)
+	(some-in-character-feature
+	 (lambda (c v)
+	   ;; (format t "~a ~a ~a~%" c feat v)
+	   (format out "(put-char-attribute
+ ~a
+ '~a
+ '~S)~%"
+		   (cond ((characterp c)
+			  (format nil "~S" c)
+			  )
+			 ((setq code (encode-char c '=mj))
+			  (format nil "(decode-char '=mj ~a)" code)
+			  )
+			 ((setq ret (char-ccs-spec c))
+			  (format nil "(find-char '~S)"
+				  ret)
+			  )
+			 (t
+			  (format nil "~S" c)
+			  ))
+		   feat v)
+	   nil)
+	 feat)))))
