@@ -4042,7 +4042,7 @@
     (=hanyo-denshi/ip	. #x5E23)	; &HD-IP-5E23;
     (=daikanwa		. 08881)	; &I-M-08881;
     (<-interchangeable
-     ((=gt		  . 35296)	; &MJ020102;
+     ((=gt		  . 35296)	; &GT-35296;
       (=daikanwa	  . 27442)	; &I-M-27442;
       ))
     (<-interchangeable$_1*sources

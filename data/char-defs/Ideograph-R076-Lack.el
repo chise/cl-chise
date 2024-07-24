@@ -10636,16 +10636,22 @@
     (ideographic-strokes . 16)
     (total-strokes	 . 20)
     (ideographic-structure
-     ?⿰
-     ?&AJ1-14405;
-     ?&AJ1-01853;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@unicode	  . #x5669)	; &AJ1-14405;
+      (=adobe-japan1-4	  . 14405)	; &AJ1-14405;
+      )
+     ((=ucs@unicode	  . #x6B20)	; &AJ1-01853;
+      (=adobe-japan1-0	  . 01853)	; &AJ1-01853;
+      ))
     (=ucs@iso		. #x23932)	; &C7-4E23;
     (=cns11643-7	. #x4E23)	; &C7-4E23; [46-03]
     (=daikanwa		. 16235)	; &I-M-16235;
     (<-same
      ((=ucs@unicode	  . #x8AE4)	; &AJ1-06691;
       (=adobe-japan1-0	  . 06691)	; &AJ1-06691;
-      (=daikanwa	  . 35713)	; &AJ1-06691;
+      (=daikanwa	  . 35713)	; &I-M-35713;
       ))
     (<-same*sources
      zhengzitong daikanwa)

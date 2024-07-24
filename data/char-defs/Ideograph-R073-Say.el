@@ -1716,7 +1716,9 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((==>daijiten	  . 04660)	; &A2-DJT-04660;
+     ((ideographic-radical . 73)	; ⽈
+      (==>ucs@bucs	. #x66FC)	; &BUCS+66FC;
+      (==>daijiten	  . 04660)	; &A2-DJT-04660;
       ))
     (ideographic-radical@ucs . 73)	; ⽈
     (ideographic-strokes@ucs . 7)
@@ -4469,12 +4471,12 @@
     ))
 (define-char
   '((ideographic-radical . 73)	; ⽈
-    (==>daijiten	. 04660)	; &A2-DJT-04660;
+    (==>ucs@bucs	. #x66F4)	; &BUCS+66F4;
+    (==>daijiten	. 04654)	; &BUCS+66F4;
     ))
 (define-char
   '((ideographic-radical . 73)	; ⽈
-    (==>ucs@bucs	. #x66F4)	; &BUCS+66F4;
-    (==>daijiten	. 04654)	; &BUCS+66F4;
+    (==>daijiten	. 04660)	; &A2-DJT-04660;
     ))
 (define-char
   '((ideographic-radical . 73)	; ⽈

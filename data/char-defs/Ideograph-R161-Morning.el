@@ -19,7 +19,6 @@
       ))
     (<-denotational@usage
      ((==>ucs@bucs	  . #x8FB0)	; &BUCS+8FB0;
-      (==>daijiten	. 11917)	; &BUCS+8FB0;
       ))
     (ideographic-radical . 161)	; ⾠
     (ideographic-strokes . 0)
@@ -58,9 +57,11 @@
       (==cns11643-1	  . #x4B51)	; &g2-AJ1-02914; [43-49]
       (==jis-x0213-1	  . #x4324)	; &g2-AJ1-02914; [35-04]
       (==daikanwa	  . 38682)	; &g2-AJ1-02914;
-      (==daijiten	. 11917)	; &I-DJT-11917;
+      (==daijiten	  . 11917)	; &g2-AJ1-02914;
       (->subsumptive
        ((===daikanwa	    . 38682)	; &R-M-38682;
+	)
+       ((===daijiten	    . 11917)	; &R-DJT-11917;
 	)
        ((===jis-x0208	    . #x4324)	; &R-J0-4324; [35-04]
 	(===jis-x0213-1	    . #x4324)	; &R-J0-4324; [35-04]
@@ -191,7 +192,7 @@
     (=cns11643-6	. #x2556)	; &I-C6-2556; [05-54]
     (=daikanwa 		. 38683)	; &I-M-38683;
     (->subsumptive
-     ((==daikanwa 	  . 38683)	; &g2-M-38683;
+     ((==daikanwa	  . 38683)	; &g2-M-38683;
       )
      ((==ucs@iso	  . #x200AE)	; &g2-IU-000200AE;
       )
@@ -303,35 +304,22 @@
 (define-char
   '((ideographic-radical . 161)	; ⾠
     (ideographic-structure
-     ((=>iwds-1		.  0305)	; &U-v002+2FF1;
+     ((=>ucs@iwds-1	  . #x2FF8)	; &U-v002+2FF1;
+      (=>iwds-1		  .  0305)	; &U-v002+2FF1;
       )
      ((=>ucs@iwds-1	  . #x8FB0)	; &A-IWDSU+8FB0;
       (=>iwds-1		  .  0451)	; &A-IWDSU+8FB0;
       )
      ((=ucs		  . #x5BF8)	; 寸
       ))
-    (=>ucs@iwds-1	. #x8FB1)	; 辱
+    (=>ucs@iwds-1	. #x8FB1)	; &A-IWDSU+8FB1;
     ))
 (define-char
   '((<-denotational
-     ((=>ucs@iwds-1	. #x8FB1)	; 辱
+     ((=>ucs@iwds-1	  . #x8FB1)	; &A-IWDSU+8FB1;
       ))
     (<-denotational@usage
      ((==>ucs@bucs	  . #x8FB1)	; &BUCS+8FB1;
-      ))
-    (ideographic-radical . 161)	; ⾠
-    (ideographic-structure
-     ((=>iwds-1		.  0305)	; &U-v002+2FF1;
-      )
-     ((=ucs		. #x8FB0)	; 辰
-      )
-     ((=ucs		  . #x5BF8)	; 寸
-      ))
-    (=ucs		. #x8FB1)	; 辱
-    (=ucs		. #x8FB1)	; 辱
-    (=>ucs@cognate	. #x8FB1)	; 辱
-    (<-denotational
-     ((=>ucs@iwds-1	  . #x8FB1)	; 辱
       ))
     (ideographic-radical . 161)	; ⾠
     (ideographic-strokes . 3)
@@ -344,12 +332,14 @@
       )
      ((=ucs		  . #x5BF8)	; 寸
       ))
-    (=>ucs@unicode	. #x8FB1)	; &A-UU+8FB1;
-    (=big5		. #xB064)	; &A-UU+8FB1;
+    (=ucs		. #x8FB1)	; 辱
+    (=ucs		. #x8FB1)	; 辱
+    (=>ucs@unicode 	. #x8FB1)	; 辱
+    (=big5		. #xB064)	; &I-B-B064;
     ))
 (define-char
   '((<-denotational
-     ((=>ucs@unicode	  . #x8FB1)	; &A-UU+8FB1;
+     ((=ucs		  . #x8FB1)	; 辱
       ))
     (ideographic-radical . 161)	; ⾠
     (ideographic-strokes . 3)
@@ -411,7 +401,7 @@
     ))
 (define-char
   '((<-denotational
-     ((=>ucs@unicode	  . #x8FB1)	; &A-UU+8FB1;
+     ((=ucs		  . #x8FB1)	; 辱
       ))
     (ideographic-radical . 161)	; ⾠
     (ideographic-strokes . 3)
@@ -459,7 +449,6 @@
       ))
     (=ucs		. #x8FB2)	; 農
     (=ucs		. #x8FB2)	; 農
-    (=>ucs@cognate	. #x8FB2)	; 農
     ))
 (define-char
   '((<-denotational
@@ -577,7 +566,7 @@
       ))
     (=ucs@iso		. #x28446)	; &C6-592C;
     (=cns11643-6	. #x592C)	; &C6-592C; [57-12]
-    (=daikanwa 		. 38689)	; &C6-592C;
+    (=daikanwa 		. 38689)	; &I-M-38689;
     (->subsumptive
      ((==daikanwa	  . 38689)	; &g2-M-38689;
       )
@@ -611,12 +600,16 @@
     (ideographic-strokes . 6)
     (total-strokes	 . 13)
     (ideographic-structure
-     ?⿱
-     ?覀
-     ?辰)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x8980)	; 覀
+      )
+     ((=ucs		  . #x8FB0)	; 辰
+      ))
     (=ucs@iso		. #x28447)	; &C6-592B;
     (=cns11643-6	. #x592B)	; &C6-592B; [57-11]
-    (=daikanwa 		. 38690)	; &C6-592B;
+    (=daikanwa 		. 38690)	; &I-M-38690;
     (->subsumptive
      ((==ucs@iso	  . #x28447)	; &g2-M-38690;
       (==daikanwa	  . 38690)	; &g2-M-38690;
@@ -771,7 +764,13 @@
   '((ideographic-radical . 161)	; ⾠
     (ideographic-strokes . 8)
     (total-strokes	 . 15)
-    (=ucs  		. #x28448)	; 𨑈
+    (ideographic-structure
+     ?⿽
+     ((=>ucs@iwds-1	. #x8FB1)	; &A-IWDSU+8FB1;
+      )
+     ((=>ucs@iwds-1	. #x5B82)	; &A-IWDSU+5B82;
+      ))
+    (=ucs 		. #x28448)	; 𨑈
     ))
 (define-char
   '((<-denotational
@@ -780,7 +779,11 @@
     (ideographic-radical . 161)	; ⾠
     (ideographic-strokes . 8)
     (total-strokes	 . 15)
-    (=ucs@iso 		. #x28448)	; &U-00028448;
+    (ideographic-structure
+     ?⿽
+     ?&MJ025747;
+     ?&AJ1-13840;)
+    (=ucs@iso		. #x28448)	; &U-00028448;
     ))
 (define-char
   '((ideographic-radical . 161)	; ⾠
@@ -954,6 +957,7 @@
 (define-char
   '((ideographic-radical . 161)	; ⾠
     (==>ucs@bucs	. #x8FB0)	; &BUCS+8FB0;
+    (==>daijiten	. 11917)	; &BUCS+8FB0;
     ))
 (define-char
   '((ideographic-radical . 161)	; ⾠

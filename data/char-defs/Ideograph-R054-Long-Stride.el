@@ -420,7 +420,10 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 54)	; ⼵
+  '((<-denotational@usage
+     ((==>ucs@bucs	  . #x5EF7)	; &BUCS+5EF7;
+      ))
+    (ideographic-radical . 54)	; ⼵
     (ideographic-strokes . 4)
     (total-strokes	 . 7)
     (ideographic-structure
@@ -459,6 +462,7 @@
     (=cns11643-1	. #x4A2C)	; &I-C1-4A2C; [42-12]
     (=hanyo-denshi/ks	. 108170)	; &MJ011103;
     (=daikanwa		. 09571)	; &I-M-09571;
+    (=daijiten		. 03004)	; &I-DJT-03004;
     (<-interchangeable
      ((=ucs@unicode	  . #x5EAD)	; &GT-11748;
       (=gb2312		  . #x4D25)	; &GT-11748; [45-05]
@@ -467,8 +471,16 @@
       ))
     (<-interchangeable$_1*sources
      shuowen-tongxundingsheng daikanwa)
+    (<-interchangeable*sources
+     shuowen-tongxundingsheng daikanwa)
     (->subsumptive
      ((==daikanwa	  . 09571)	; &g2-M-09571;
+      (==daijiten	  . 03004)	; &g2-M-09571;
+      (->subsumptive
+       ((===daikanwa	    . 09571)	; &R-M-09571;
+	)
+       ((===daijiten	    . 03004)	; &R-DJT-03004;
+	))
       )
      ((===hng-kar	  . 01130)	; &HNG018-01130;
       )
@@ -976,6 +988,7 @@
      ((=ucs		  . #x5EF4)	; 廴
       )
      ((=>ucs@iwds-1	  . #x56DE)	; &A-IWDSU+56DE;
+      (=>iwds-1		  .  0317)	; &A-IWDSU+56DE;
       ))
     (=>ucs@iwds-1	. #x5EFB)	; &A-IWDSU+5EFB;
     ))
@@ -1338,6 +1351,11 @@
     (->subsumptive
      ((==ucs@JP/hanazono  . #x2BE14)	; &g2-hanaJU+2BE14;
       ))
+    ))
+(define-char
+  '((ideographic-radical . 54)	; ⼵
+    (==>ucs@bucs	. #x5EF7)	; &BUCS+5EF7;
+    (==>daijiten	. 03004)	; &BUCS+5EF7;
     ))
 (define-char
   '((ideographic-radical . 54)	; ⼵

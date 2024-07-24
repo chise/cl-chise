@@ -10083,6 +10083,7 @@
        ((=ucs		    . #x4491)	; 䒑
 	)
        ((=>ucs@iwds-1	    . #x56DE)	; &A-IWDSU+56DE;
+	(=>iwds-1	    .  0317)	; &A-IWDSU+56DE;
 	))
       )
      ((=ucs		  . #x793A)	; 示

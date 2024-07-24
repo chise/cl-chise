@@ -1718,8 +1718,8 @@
     (->ancient*sources
      jiyun daikanwa)
     (->mistakable
-     ((=ucs@cns		  . #x2F936)	; 甾
-      (=cns11643-4	  . #x2A44)	; 甾 [10-36]
+     ((=ucs@cns		  . #x2F936)	; &C4-2A44;
+      (=cns11643-4	  . #x2A44)	; &C4-2A44; [10-36]
       (=daikanwa	  . 21761)	; &I-M-21761;
       ))
     (->mistakable*sources
@@ -2589,7 +2589,7 @@
     (sound@ja/on/s=misfortune "sai")
     (=ucs		. #x2F936)	; 甾
     (=ucs@JP/hanazono	. #x31C2D)	; 甾
-    (=cns11643-4	. #x2A44)	; 甾 [10-36]
+    (=cns11643-4	. #x2A44)	; &C4-2A44; [10-36]
     (=daikanwa		. 21761)	; &I-M-21761;
     (<-same@ucs
      ((=ucs@unicode	  . #x753E)	; &AJ1-18126;
@@ -8611,19 +8611,28 @@
      ((=ucs-var-007	  . #x4E51)	; &U-v007+4E51;
       ))
     (=mj		. 041410)	; &MJ041410;
-    (=koseki . 245340)
-    (=daikanwa 		. 49337)	; &M-49337;
+    (=koseki		. 245340)	; &MJ041410;
+    (=daikanwa		. 49337)	; &I-M-49337;
     (<-formed
-     ((=jis-x0213-2	  . #x7D3E)	; &I-JX2-7D3E; [93-30]
+     ((=ucs@jis		  . #x9B3D)	; &JX2-7D3E;
+      (=jis-x0212	  . #x6A39)	; &JX2-7D3E; [74-25]
+      (=cns11643-3	  . #x4562)	; &I-C3-4562; [37-66]
+      (=jis-x0213-2	  . #x7D3E)	; &I-JX2-7D3E; [93-30]
+      (=daikanwa	  . 45764)	; &I-M-45764;
       ))
     (<-formed$_1*sources
      koseki mj)
     (<-formed*sources
      koseki mj)
     (->subsumptive
-     ((==mj		. 041410)	; &MJ041410;
-      (==koseki . 245340)
-      (==daikanwa	  . 49337)	; &g2-M-49337;
+     ((==mj		  . 041410)	; &g2-MJ041410;
+      (==koseki		  . 245340)	; &g2-MJ041410;
+      (==daikanwa	  . 49337)	; &g2-MJ041410;
+      (->subsumptive
+       ((===daikanwa	    . 49337)	; &R-M-49337;
+	)
+       ((===mj		    . 041410)	; &R-MJ041410;
+	))
       ))
     ))
 (define-char
@@ -14318,12 +14327,12 @@
     ))
 (define-char
   '((ideographic-radical . 102)	; ⽥
-    (==>ucs@bucs	. #x7540)	; &BUCS+7540;
-    (==>daijiten	. 07493)	; &BUCS+7540;
+    (==>ucs@bucs	. #x7570)	; &BUCS+7570;
     ))
 (define-char
   '((ideographic-radical . 102)	; ⽥
-    (==>ucs@bucs	. #x7570)	; &BUCS+7570;
+    (==>ucs@bucs	. #x7540)	; &BUCS+7540;
+    (==>daijiten	. 07493)	; &BUCS+7540;
     ))
 (define-char
   '((ideographic-radical . 102)	; ⽥

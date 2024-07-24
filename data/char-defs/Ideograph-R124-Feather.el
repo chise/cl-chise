@@ -3236,22 +3236,28 @@
       )
      ((=ucs		  . #x767D)	; 白
       )
-     ((=ucs		. #xFA1E)	; 羽
+     ((=ucs		  . #xFA1E)	; 羽
       ))
     (=mj		. 003693)	; &MJ003693;
-    (=koseki . 320250)
-    (=daikanwa		. 28670)	; &M-28670;
+    (=koseki		. 320250)	; &MJ003693;
+    (=daikanwa		. 28670)	; &I-M-28670;
     (<-formed
      ((=mj		  . 045220)	; &MJ045220;
+      (=koseki		  . 321970)	; &MJ045220;
       ))
     (<-formed$_1*sources
      koseki)
     (<-formed*sources
      koseki)
     (->subsumptive
-     ((==mj		. 003693)	; &MJ003693;
-      (==koseki . 320250)
-      (==daikanwa		. 28670)	; &M-28670;
+     ((==mj		  . 003693)	; &g2-MJ003693;
+      (==koseki		  . 320250)	; &g2-MJ003693;
+      (==daikanwa	  . 28670)	; &g2-MJ003693;
+      (->subsumptive
+       ((===daikanwa	    . 28670)	; &R-M-28670;
+	)
+       ((===mj		    . 003693)	; &R-MJ003693;
+	))
       ))
     ))
 (define-char
@@ -8030,22 +8036,28 @@
      ((=ucs@unicode	  . #x5C03)	; &AJ1-17537;
       (=adobe-japan1-5	  . 17537)	; &AJ1-17537;
       )
-     ((=ucs		. #xFA1E)	; 羽
+     ((=ucs		  . #xFA1E)	; 羽
       ))
     (=mj		. 045191)	; &MJ045191;
-    (=koseki . 321460)
-    (=daikanwa		. 28781)	; &M-28781;
+    (=koseki		. 321460)	; &MJ045191;
+    (=daikanwa		. 28781)	; &I-M-28781;
     (<-formed
      ((=mj		  . 045220)	; &MJ045220;
+      (=koseki		  . 321970)	; &MJ045220;
       ))
     (<-formed$_1*sources
      koseki)
     (<-formed*sources
      koseki)
     (->subsumptive
-     ((==mj		. 045191)	; &MJ045191;
-      (==koseki . 321460)
-      (==daikanwa		. 28781)	; &M-28781;
+     ((==mj		  . 045191)	; &g2-MJ045191;
+      (==koseki		  . 321460)	; &g2-MJ045191;
+      (==daikanwa	  . 28781)	; &g2-MJ045191;
+      (->subsumptive
+       ((===daikanwa	    . 28781)	; &R-M-28781;
+	)
+       ((===mj		    . 045191)	; &R-MJ045191;
+	))
       ))
     ))
 (define-char
@@ -10621,9 +10633,11 @@
     (=koseki		. 321970)	; &MJ045220;
     (=daikanwa		. 28825)	; &I-M-28825;
     (->formed
-     ((=daikanwa	  . 28670)	; &M-28670;
+     ((=mj		  . 003693)	; &MJ003693;
+      (=daikanwa	  . 28670)	; &I-M-28670;
       )
-     ((=daikanwa	  . 28781)	; &M-28781;
+     ((=mj		  . 045191)	; &MJ045191;
+      (=daikanwa	  . 28781)	; &I-M-28781;
       ))
     (->formed$_1*sources
      jiyun daikanwa)
@@ -11136,7 +11150,7 @@
     (=daikanwa		. 28832)	; &I-M-28832;
     (<-formed
      ((=ucs@iso		  . #x2A1F9)	; &MJ055829;
-      (=mj		  . 055829)	; &I-MJ055829;
+      (=mj		  . 055829)	; &MJ055829;
       (=koseki		  . 537210)	; &MJ055829;
       ))
     (<-formed$_1*sources
@@ -11145,14 +11159,14 @@
      koseki)
     (<-same
      ((=ucs@iso		  . #x2A1F9)	; &MJ055829;
-      (=mj		  . 055829)	; &I-MJ055829;
-      (=daikanwa 	  . 47461)	; &MJ055829;
+      (=mj		  . 055829)	; &MJ055829;
+      (=daikanwa	  . 47461)	; &I-M-47461;
       ))
     (<-same*sources
      jiyun daikanwa)
     (->formed
      ((=ucs@iso		  . #x2A1F9)	; &MJ055829;
-      (=mj		  . 055829)	; &I-MJ055829;
+      (=mj		  . 055829)	; &MJ055829;
       ))
     (->formed$_1*sources
      jiyun)

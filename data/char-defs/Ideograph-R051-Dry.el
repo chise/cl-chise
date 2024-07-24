@@ -4,7 +4,11 @@
      ((=>ucs@component	  . #x5343)	; &A-compU+5343;
       ))
     (<-denotational@usage
-     ((==>daijiten	  . 02897)	; &A2-DJT-02897;
+     ((==>ucs@bucs	  . #x5E72)	; &BUCS+5E72;
+      )
+     ((==>ucs@bucs	  . #x4E7E)	; &BUCS+4E7E;
+      )
+     ((==>ucs@bucs	  . #x5E79)	; &BUCS+5E79;
       ))
     (ideographic-radical . 51)	; ⼲
     (ideographic-strokes . 0)
@@ -1578,6 +1582,8 @@
 (define-char
   '((<-denotational@usage
      ((==>daijiten	  . 02905)	; &A2-DJT-02905;
+      )
+     ((==>ucs@bucs	  . #x5E79)	; &BUCS+5E79;
       ))
     (ideographic-radical . 51)	; ⼲
     (ideographic-strokes . 10)
@@ -2007,7 +2013,12 @@
     ))
 (define-char
   '((ideographic-radical . 51)	; ⼲
-    (==>daijiten	. 02897)	; &A2-DJT-02897;
+    (==>ucs@bucs	. #x5E72)	; &BUCS+5E72;
+    (==>daijiten	. 02897)	; &BUCS+5E72;
+    ))
+(define-char
+  '((ideographic-radical . 51)	; ⼲
+    (==>ucs@bucs	. #x5E79)	; &BUCS+5E79;
     ))
 (define-char
   '((ideographic-radical . 51)	; ⼲
@@ -2037,9 +2048,12 @@
     ))
 (define-char
   '((ideographic-radical . 51)	; ⼲
-    (==>daijiten	. 02905)	; &A2-DJT-02905;
+    (==>daijiten	. 02904)	; &A2-DJT-02904;
     ))
 (define-char
-  '((ideographic-radical . 51)	; ⼲
-    (==>daijiten	. 02904)	; &A2-DJT-02904;
+  '((<-denotational
+     ((==>ucs@bucs	  . #x5E79)	; &BUCS+5E79;
+      ))
+    (ideographic-radical . 51)	; ⼲
+    (==>daijiten	. 02905)	; &A2-DJT-02905;
     ))

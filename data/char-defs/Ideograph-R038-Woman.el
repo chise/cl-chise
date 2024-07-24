@@ -465,10 +465,20 @@
       )
      ((=ucs		  . #x516B)	; 八
       ))
+    (sound@ja/on	"hatu")
     (=ucs		. #x216AD)	; 𡚭
-    (=daikanwa 		. 06042)	; &I-M-06042;
+    (=mj		. 033534)	; &I-MJ033534;
+    (=koseki		. 069280)	; 𡚭
+    (=daikanwa		. 06042)	; &I-M-06042;
     (->subsumptive
-     ((==daikanwa	  . 06042)	; &g2-M-06042;
+     ((==mj		  . 033534)	; &g2-MJ033534;
+      (==koseki		  . 069280)	; &g2-MJ033534;
+      (==daikanwa	  . 06042)	; &g2-MJ033534;
+      (->subsumptive
+       ((===daikanwa	    . 06042)	; &R-M-06042;
+	)
+       ((===mj		    . 033534)	; &R-MJ033534;
+	))
       )
      ((==ucs@iso	  . #x216AD)	; &g2-IU-000216AD;
       ))
@@ -2223,6 +2233,7 @@
       )
      ((=ucs		  . #x5342)	; 卂
       ))
+    (sound@ja/on	"siN")
     (=ucs		. #x36A8)	; 㚨
     ))
 (define-char
@@ -2244,7 +2255,7 @@
     (=ucs@unicode	. #x36A8)	; &C3-2349;
     (=ucs@JP/hanazono	. nil)
     (=cns11643-3	. #x2349)	; &C3-2349; [03-41]
-    (=daikanwa/ho 	.  0117)	; &C3-2349;
+    (=daikanwa/ho	.  0117)	; &C3-2349;
     (->subsumptive
      ((==ucs@unicode	  . #x36A8)	; &g2-M-H0117;
       (==ucs@JP/hanazono  . nil)
@@ -5146,11 +5157,13 @@
       )
      ((=ucs		  . #x5C24)	; 尤
       ))
+    (sound@ja/on/go	"u")
+    (sound@ja/on/kan	"Iu")
     (=ucs		. #x36AD)	; 㚭
     (=mj		. 000595)	; &I-MJ000595;
     (=cns11643-3	. #x254D)	; &I-C3-254D; [05-45]
     (=koseki		. 070020)	; 㚭
-    (=daikanwa 		. 06112)	; &I-M-06112;
+    (=daikanwa		. 06112)	; &I-M-06112;
     (->subsumptive
      ((==mj		  . 000595)	; &g2-MJ000595;
       (==koseki		  . 070020)	; &g2-MJ000595;
@@ -5165,9 +5178,7 @@
       (==cns11643-3	  . #x254D)	; &g2-CU+36AD; [05-45]
       )
      ((==ucs@unicode	  . #x36AD)	; &g2-UU+36AD;
-      (->subsumptive
-       ((===ucs@unicode	    . #x36AD)	; &R-UU+36AD;
-	))
+      (==ucs@JP/hanazono  . nil)
       ))
     ))
 (define-char

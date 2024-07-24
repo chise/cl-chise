@@ -2031,7 +2031,12 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 58)	; ⼹
+  '((<-denotational@usage
+     ((ideographic-radical . 58)	; ⼹
+      (==>ucs@bucs	. #x5F56)	; &BUCS+5F56;
+      (==>daijiten	. 03093)	; &A2-DJT-03093;
+      ))
+    (ideographic-radical . 58)	; ⼹
     (ideographic-strokes . 6)
     (total-strokes	 . 9)
     (ideographic-structure
@@ -2098,6 +2103,7 @@
     (=gt-k		. 05239)	; &I-GT-K05239;
     (=gt-pj-1		. #x5741)	; &I-GT-12518; [55-33]
     (=daikanwa		. 09920)	; &I-M-09920;
+    (=daijiten		. 03093)	; &I-DJT-03093;
     (=shinjigen		.  2301)	; &MJ011233;
     (<-interchangeable
      ((=ucs@unicode	  . #x63BE)	; &MJ012513;
@@ -2143,6 +2149,7 @@
 	(==gt		    . 12518)	; &g2-MJ011233;
 	(==gt-k		    . 05239)	; &g2-MJ011233;
 	(==shinjigen	    .  2301)	; &g2-MJ011233;
+	(==daijiten		. 03093)	; &I-DJT-03093;
 	(->subsumptive
 	 ((===jis-x0208	      . #x5741)	; &R-J0-5741; [55-33]
 	  (===jis-x0213-1     . #x5741)	; &R-J0-5741; [55-33]
@@ -2516,6 +2523,7 @@
       )
      ((=ucs		  . #x6C3A)	; 氺
       ))
+    (sound@ja/on	"bi")
     (=ucs		. #x22458)	; 𢑘
     (<-ancient
      ((=ucs		  . #x9B3D)	; 鬽
@@ -2541,7 +2549,14 @@
       ))
     (=ucs@iso		. #x22458)	; &C6-3744;
     (=cns11643-6	. #x3744)	; &C6-3744; [23-36]
-    (=daikanwa 		. 09923)	; &I-M-09923;
+    (=daikanwa		. 09923)	; &I-M-09923;
+    (<-ancient
+     ((=ucs@jis		  . #x9B45)	; &AJ1-03761;
+      (=adobe-japan1-0	  . 03761)	; &AJ1-03761;
+      (=daikanwa	  . 45811)	; &I-M-45811;
+      ))
+    (<-ancient*sources
+     yupian daikanwa)
     (->subsumptive
      ((==daikanwa	  . 09923)	; &g2-M-09923;
       )

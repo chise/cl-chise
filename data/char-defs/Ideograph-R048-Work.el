@@ -388,9 +388,7 @@
      ((=>ucs@component	  . #x5DE6)	; &A-compU+5DE6;
       ))
     (<-denotational@usage
-     ((ideographic-radical . 48)	; ⼯
-      (==>ucs@bucs	. #x5DE6)	; &BUCS+5DE6;
-      (==>daijiten	. 02774)	; &A2-DJT-02774;
+     ((==>ucs@bucs	  . #x5DE6)	; &BUCS+5DE6;
       ))
     (ideographic-radical . 48)	; ⼯
     (ideographic-strokes . 2)
@@ -478,10 +476,12 @@
       (==gt		  . 11000)	; &g2-MJ010774;
       (==gt-k		  . 00933)	; &g2-MJ010774;
       (==daikanwa	  . 08720)	; &g2-MJ010774;
-      (==daijiten	. 02774)	; &I-DJT-02774;
+      (==daijiten	  . 02774)	; &g2-MJ010774;
       (==shinjigen	  .  2063)	; &g2-MJ010774;
       (->subsumptive
        ((===daikanwa	    . 08720)	; &R-M-08720;
+	)
+       ((===daijiten	    . 02774)	; &R-DJT-02774;
 	)
        ((===jis-x0208	    . #x3A38)	; &R-J0-3A38; [26-24]
 	(===jis-x0213-1	    . #x3A38)	; &R-J0-3A38; [26-24]
@@ -2887,6 +2887,11 @@
       (=>iwds-1		  .  0221)	; &A-IWDSU+4E0C;
       ))
     (=>ucs@iwds-1	. #x22018)	; &A-IWDSU+22018;
+    ))
+(define-char
+  '((ideographic-radical . 48)	; ⼯
+    (==>ucs@bucs	. #x5DE6)	; &BUCS+5DE6;
+    (==>daijiten	. 02774)	; &BUCS+5DE6;
     ))
 (define-char
   '((ideographic-radical . 48)	; ⼯

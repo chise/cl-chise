@@ -20,7 +20,7 @@
      ((=ucs		  . #x224B8)	; 𢒸
       ))
     (<-ancient@shuowen
-     ((=shuowen-jiguge	. 30711)	; &SW-JIGUGE-30711;
+     ((=shuowen-jiguge	  . 30711)	; &SW-JIGUGE-30711;
       )
      ((=ucs		  . #x8272)	; 色
       ))

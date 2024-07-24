@@ -4526,11 +4526,9 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((ideographic-radical . 44)	; ⼫
-      (==>daijiten	  . 02495)	; &A2-DJT-02495;
+     ((==>daijiten	  . 02495)	; &A2-DJT-02495;
       )
-     ((ideographic-radical . 44)	; ⼫
-      (==>ucs@bucs	. #x5C6D)	; &BUCS+5C6D;
+     ((==>ucs@bucs	  . #x5C6D)	; &BUCS+5C6D;
       ))
     (ideographic-radical . 44)	; ⼫
     (ideographic-strokes . 7)
@@ -7558,9 +7556,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((ideographic-radical . 44)	; ⼫
-      (==>ucs@bucs	. #x5C64)	; &BUCS+5C64;
-      (==>daijiten	  . 02506)	; &A2-DJT-02506;
+     ((==>ucs@bucs	  . #x5C64)	; &BUCS+5C64;
       ))
     (ideographic-radical . 44)	; ⼫
     (ideographic-structure
@@ -8085,7 +8081,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((==>daijiten	  . 02511)	; &A2-DJT-02511;
+     ((==>ucs@bucs	  . #x5C68)	; &BUCS+5C68;
       ))
     (ideographic-radical . 44)	; ⼫
     (ideographic-strokes . 12)
@@ -8174,9 +8170,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((ideographic-radical . 44)	; ⼫
-      (==>ucs@bucs	. #x5C68)	; &BUCS+5C68;
-      (==>daijiten	  . 02511)	; &A2-DJT-02511;
+     ((==>ucs@bucs	  . #x5C68)	; &BUCS+5C68;
       ))
     (ideographic-radical . 44)	; ⼫
     (ideographic-strokes . 14)
@@ -9060,6 +9054,10 @@
     ))
 (define-char
   '((ideographic-radical . 44)	; ⼫
+    (==>ucs@bucs	. #x5C6D)	; &BUCS+5C6D;
+    ))
+(define-char
+  '((ideographic-radical . 44)	; ⼫
     (==>daijiten	. 02496)	; &A2-DJT-02496;
     ))
 (define-char
@@ -9086,11 +9084,17 @@
     ))
 (define-char
   '((ideographic-radical . 44)	; ⼫
-    (==>daijiten	. 02506)	; &A2-DJT-02506;
+    (==>ucs@bucs	. #x5C64)	; &BUCS+5C64;
+    (==>daijiten	. 02506)	; &BUCS+5C64;
     ))
 (define-char
   '((ideographic-radical . 44)	; ⼫
     (==>daijiten	. 02508)	; &A2-DJT-02508;
+    ))
+(define-char
+  '((ideographic-radical . 44)	; ⼫
+    (==>ucs@bucs	. #x5C68)	; &BUCS+5C68;
+    (==>daijiten	. 02511)	; &BUCS+5C68;
     ))
 (define-char
   '((ideographic-radical . 44)	; ⼫

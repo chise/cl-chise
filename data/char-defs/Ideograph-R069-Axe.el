@@ -94,7 +94,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((==>daijiten	  . 04363)	; &A2-DJT-04363;
+     ((==>ucs@bucs	  . #x65A5)	; &BUCS+65A5;
       ))
     (ideographic-radical . 69)	; ⽄
     (ideographic-strokes . 1)
@@ -1499,7 +1499,10 @@
     (=daikanwa		. 13571)	; &I-M-13571;
     ))
 (define-char
-  '((ideographic-radical . 69)	; ⽄
+  '((<-denotational@usage
+     ((==>ucs@bucs	  . #x65B0)	; &BUCS+65B0;
+      ))
+    (ideographic-radical . 69)	; ⽄
     (ideographic-strokes . 9)
     (total-strokes	 . 13)
     (ideographic-structure
@@ -1523,6 +1526,7 @@
     (=gt-k		. 10225)	; &I-GT-K10225;
     (=gt-pj-1		. #x3F37)	; &I-GT-17156; [31-23]
     (=daikanwa		. 13572)	; &I-M-13572;
+    (=daijiten		. 04376)	; &I-DJT-04376;
     (=shinjigen		.  3233)	; 新
     (<-interchangeable
      ((=ucs@unicode	  . #x9C7B)	; &JSP-6B58;
@@ -1578,9 +1582,12 @@
 	(==gt		    . 17156)	; &g2-AJ1-02557;
 	(==gt-k		    . 10225)	; &g2-AJ1-02557;
 	(==daikanwa	    . 13572)	; &g2-AJ1-02557;
+	(==daijiten	    . 04376)	; &g2-AJ1-02557;
 	(==shinjigen	    .  3233)	; &g2-AJ1-02557;
 	(->subsumptive
 	 ((===daikanwa	      . 13572)	; &R-M-13572;
+	  )
+	 ((===daijiten	      . 04376)	; &R-DJT-04376;
 	  )
 	 ((===jis-x0208	      . #x3F37)	; &R-J0-3F37; [31-23]
 	  (===jis-x0213-1     . #x3F37)	; &R-J0-3F37; [31-23]
@@ -3268,7 +3275,8 @@
     ))
 (define-char
   '((ideographic-radical . 69)	; ⽄
-    (==>daijiten	. 04363)	; &A2-DJT-04363;
+    (==>ucs@bucs	. #x65A5)	; &BUCS+65A5;
+    (==>daijiten	. 04363)	; &BUCS+65A5;
     ))
 (define-char
   '((ideographic-radical . 69)	; ⽄
@@ -3278,4 +3286,9 @@
 (define-char
   '((ideographic-radical . 69)	; ⽄
     (==>daijiten	. 04372)	; &A2-DJT-04372;
+    ))
+(define-char
+  '((ideographic-radical . 69)	; ⽄
+    (==>ucs@bucs	. #x65B0)	; &BUCS+65B0;
+    (==>daijiten	. 04376)	; &BUCS+65B0;
     ))

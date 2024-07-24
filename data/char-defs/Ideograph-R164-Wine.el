@@ -13,7 +13,7 @@
   '((<-denotational
      ((=>ucs@cognate	  . #x9149)	; &A-cgnU+9149;
       ))
-    (<-denotational
+    (<-denotational@usage
      ((==>ucs@bucs	  . #x9149)	; &BUCS+9149;
       ))
     (ideographic-radical . 164)	; ⾣

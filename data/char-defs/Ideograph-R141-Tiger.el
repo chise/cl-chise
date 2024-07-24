@@ -1368,29 +1368,6 @@
     ))
 (define-char
   '((ideographic-radical . 141)	; ⾌
-    (ideographic-structure
-     ?⿸
-     ((=>ucs-itaiji-001	. #x239B5)	; &A-U-i001+239B5;
-      )
-     ((=>ucs@component	. #x5DF1)	; &A-compU+5DF1;
-      ))
-    (=>ucs-itaiji-011	. #x864E)	; &U-i011+864E;
-    ))
-(define-char
-  '((<-denotational
-     ((=>ucs-itaiji-011	. #x864E)	; &U-i011+864E;
-      ))
-    (ideographic-radical . 141)	; ⾌
-    (ideographic-strokes . 3)
-    (total-strokes	 . 7)
-    (ideographic-structure
-     ?⿸
-     ?&U-i001+239B5;
-     ?巳)
-    (=ucs-itaiji-011	. #x864E)	; &U-i011+864E;
-    ))
-(define-char
-  '((ideographic-radical . 141)	; ⾌
     (ideographic-strokes . 3)
     (total-strokes	 . 9)
     (ideographic-structure
@@ -1451,6 +1428,36 @@
      ((=ucs		  . #x571F)	; 土
       ))
     (=ucs@JP/hanazono	. #x2E4DB)	; &hanaJU+2E4DB;
+    ))
+(define-char
+  '((ideographic-radical . 141)	; ⾌
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
+      (=ucs		  . #x2FF8)	; ⿸
+      )
+     ((=>ucs-itaiji-001	  . #x239B5)	; &A-U-i001+239B5;
+      )
+     ((=>ucs@component	  . #x5DF1)	; &A-compU+5DF1;
+      (=>iwds-1		  .  0120)	; &A-compU+5DF1;
+      ))
+    (=>ucs-itaiji-011	. #x864E)	; &A-U-i011+864E;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-011	  . #x864E)	; &A-U-i011+864E;
+      ))
+    (ideographic-radical . 141)	; ⾌
+    (ideographic-strokes . 3)
+    (total-strokes	 . 7)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
+      (=ucs		  . #x2FF8)	; ⿸
+      )
+     ((=ucs-itaiji-001	  . #x239B5)	; &U-i001+239B5;
+      )
+     ((=ucs		  . #x5DF3)	; 巳
+      ))
+    (=ucs-itaiji-011	. #x864E)	; &U-i011+864E;
     ))
 (define-char
   '((ideographic-radical . 141)	; ⾌
@@ -7229,7 +7236,7 @@
   '((ideographic-radical . 141)	; ⾌
     (ideographic-strokes . 9)
     (total-strokes	 . 15)
-    (=ucs 		. #x2E4E8)	; 𮓨
+    (=ucs  		. #x2E4E8)	; 𮓨
     ))
 (define-char
   '((<-denotational

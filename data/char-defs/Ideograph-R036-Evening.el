@@ -2723,9 +2723,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((ideographic-radical . 36)	; ⼣
-      (==>ucs@bucs	. #x5924)	; &BUCS+5924;
-      (==>daijiten	. 01944)	; &A2-DJT-01944;
+     ((==>ucs@bucs	  . #x5924)	; &BUCS+5924;
       ))
     (ideographic-radical . 36)	; ⼣
     (ideographic-structure
@@ -2853,9 +2851,11 @@
       (==cns11643-1	  . #x6843)	; &g2-AJ1-14445; [72-35]
       (==jis-x0213-2	  . #x253D)	; &g2-AJ1-14445; [05-29]
       (==daikanwa	  . 05805)	; &g2-AJ1-14445;
-      (==daijiten		. 01944)	; &I-DJT-01944;
+      (==daijiten	  . 01944)	; &g2-AJ1-14445;
       (->subsumptive
        ((===daikanwa	    . 05805)	; &R-M-05805;
+	)
+       ((===daijiten	    . 01944)	; &R-DJT-01944;
 	)
        ((===jis-x0212	    . #x386A)	; &R-JX2-253D; [24-74]
 	(===jis-x0213-2	    . #x253D)	; &R-JX2-253D; [05-29]
@@ -3800,4 +3800,9 @@
      ((=ucs		  . #x5915)	; 夕
       ))
     (=>ucs-itaiji-003@iwds-1 . #x590C)	; &A-IWDSU-i003+590C;
+    ))
+(define-char
+  '((ideographic-radical . 36)	; ⼣
+    (==>ucs@bucs	. #x5924)	; &BUCS+5924;
+    (==>daijiten	. 01944)	; &BUCS+5924;
     ))

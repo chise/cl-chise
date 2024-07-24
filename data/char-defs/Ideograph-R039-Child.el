@@ -2777,8 +2777,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((ideographic-radical . 39)	; ⼦
-      (==>daijiten	. 02283)	; &A2-DJT-02283;
+     ((==>daijiten	  . 02283)	; &A2-DJT-02283;
       ))
     (ideographic-radical . 39)	; ⼦
     (ideographic-structure
@@ -2866,7 +2865,7 @@
        ((===mj		    . 000728)	; &R-MJ000728;
 	))
       )
-     ((==daijiten		. 02283)	; &I-DJT-02283;
+     ((==daijiten	  . 02283)	; &g2-DJT-02283;
       )
      ((==ucs@unicode	  . #x3743)	; &g2-UU+3743;
       (==ucs@JP/hanazono  . nil)
@@ -3666,8 +3665,7 @@
       (=>jis-x0208	  . #x555A)	; &J97-555A; [53-58]
       ))
     (<-denotational@usage
-     ((ideographic-radical . 39)	; ⼦
-      (==>daijiten	. 02288)	; &A2-DJT-02288;
+     ((==>daijiten	  . 02288)	; &A2-DJT-02288;
       ))
     (ideographic-radical . 39)	; ⼦
     (ideographic-strokes . 10)
@@ -3851,8 +3849,10 @@
       (==mj		  . 010088)	; &g2-MJ010088;
       (==adobe-japan1-5	  . 20109)	; &g2-MJ010088;
       (==hanyo-denshi/jt  . #xB011)	; &g2-MJ010088;
-      (==daijiten	. 02288)	; &I-DJT-02288;
+      (==daijiten	  . 02288)	; &g2-MJ010088;
       (->subsumptive
+       ((===daijiten	    . 02288)	; &R-DJT-02288;
+	)
        ((===adobe-japan1-5  . 20109)	; &R-AJ1-20109;
 	)
        ((===hanyo-denshi/jt . #xB011)	; &R-HD-JT-B011;
@@ -5613,6 +5613,14 @@
   '((ideographic-radical . 39)	; ⼦
     (==>ucs@bucs	. #x5B69)	; &BUCS+5B69;
     (==>daijiten	. 02281)	; &BUCS+5B69;
+    ))
+(define-char
+  '((ideographic-radical . 39)	; ⼦
+    (==>daijiten	. 02283)	; &A2-DJT-02283;
+    ))
+(define-char
+  '((ideographic-radical . 39)	; ⼦
+    (==>daijiten	. 02288)	; &A2-DJT-02288;
     ))
 (define-char
   '((ideographic-radical . 39)	; ⼦

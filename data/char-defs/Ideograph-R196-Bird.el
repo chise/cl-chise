@@ -8848,6 +8848,7 @@
       )
      ((=ucs		  . #x9CE5)	; 鳥
       ))
+    (sound@ja/on	"seki")
     (=ucs		. #x2A0F9)	; 𪃹
     ))
 (define-char
@@ -8872,13 +8873,17 @@
     (=jis-x0213-2	. #x7E32)	; &I-JX2-7E32; [94-18]
     (=hanyo-denshi/jd	. #x7E32)	; &I-HD-JD-7E32; [94-18]
     (=daikanwa		. 46976)	; &I-M-46976;
-    (->synonyms 
-     ((=ucs@cns		  . #x4CED)	; &C7-5242;
-      (=cns11643-7	  . #x5242)	; &C7-5242; [50-34]
+    (<-formed
+     ((=ucs@cns		  . #x4CED)	; &MJ006100;
+      (=mj		  . 006100)	; &MJ006100;
+      ))
+    (<-same
+     ((=ucs@cns		  . #x4CED)	; &MJ006100;
+      (=mj		  . 006100)	; &MJ006100;
       (=daikanwa	  . 47115)	; &I-M-47115;
       ))
-    (->synonyms*sources
-     zihui-bei daikanwa)
+    (<-same*sources
+     zihui-bu daikanwa)
     (->subsumptive
      ((==ucs@iso	  . #x2A0F9)	; &g2-HD-JD-7E32;
       (==cns11643-7	  . #x455A)	; &g2-HD-JD-7E32; [37-58]
@@ -11203,6 +11208,13 @@
      ((=ucs		  . #x9CE5)	; 鳥
       ))
     (=ucs		. #x9D8F)	; 鶏
+    (<-Zhouwen
+     ((=ucs		  . #x96DE)	; 雞
+      ))
+    (<-Zhouwen$_1*sources
+     shuowen)
+    (<-Zhouwen*sources
+     shuowen)
     ))
 (define-char
   '((<-denotational
@@ -12339,6 +12351,8 @@
       )
      ((=ucs		  . #x9CE5)	; 鳥
       ))
+    (sound@ja/on/go	"syaku" "soku")
+    (sound@ja/on/kan	"seki" "syoku")
     (=ucs		. #x4CED)	; 䳭
     ))
 (define-char
@@ -12358,11 +12372,36 @@
      ((=ucs@unicode	  . #x9CE5)	; &AJ1-03031;
       (=adobe-japan1-0	  . 03031)	; &AJ1-03031;
       ))
-    (=ucs@cns		. #x4CED)	; &C7-5242;
-    (=cns11643-7	. #x5242)	; &C7-5242; [50-34]
+    (=ucs@cns		. #x4CED)	; &MJ006100;
+    (=mj		. 006100)	; &MJ006100;
+    (=cns11643-7	. #x5242)	; &I-C7-5242; [50-34]
+    (=koseki		. 533360)	; &MJ006100;
     (=daikanwa		. 47115)	; &I-M-47115;
+    (->formed
+     ((=ucs@unicode	  . #x9DBA)	; &AJ1-07400;
+      (=adobe-japan1-0	  . 07400)	; &AJ1-07400;
+      (=daikanwa	  . 47197)	; &I-M-47197;
+      )
+     ((=ucs@iso		  . #x2A0F9)	; &HD-JD-7E32;
+      (=cns11643-7	  . #x455A)	; &HD-JD-7E32; [37-58]
+      (=jis-x0213-2	  . #x7E32)	; &I-JX2-7E32; [94-18]
+      (=daikanwa	  . 46976)	; &I-M-46976;
+      ))
+    (->formed$_1*sources
+     jiyun daikanwa)
+    (->formed$_2*sources
+     jiyun daikanwa)
+    (->formed*sources
+     jiyun daikanwa)
     (->subsumptive
-     ((==daikanwa	  . 47115)	; &g2-M-47115;
+     ((==mj		  . 006100)	; &g2-MJ006100;
+      (==koseki		  . 533360)	; &g2-MJ006100;
+      (==daikanwa	  . 47115)	; &g2-MJ006100;
+      (->subsumptive
+       ((===daikanwa	    . 47115)	; &R-M-47115;
+	)
+       ((===mj		    . 006100)	; &R-MJ006100;
+	))
       )
      ((==ucs@cns	  . #x4CED)	; &g2-CU+4CED;
       (==cns11643-7	  . #x5242)	; &g2-CU+4CED; [50-34]
@@ -15029,11 +15068,41 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 196)	; ⿃
+  '((<-denotational@usage
+     ((==>ucs@bucs	  . #x9DBA)	; &BUCS+9DBA;
+      ))
+    (ideographic-radical . 196)	; ⿃
     (ideographic-strokes . 10)
     (total-strokes	 . 21)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x810A)	; 脊
+      )
+     ((=ucs		  . #x9CE5)	; 鳥
+      ))
     (=ucs		. #x9DBA)	; 鶺
-    (=adobe-japan1-0	. 07400)	; &I-AJ1-07400;
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x9DBA)	; 鶺
+      ))
+    (ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 10)
+    (total-strokes	 . 21)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@unicode	  . #x810A)	; &AJ1-02680;
+      (=adobe-japan1-0	  . 02680)	; &AJ1-02680;
+      )
+     ((=ucs@unicode	  . #x9CE5)	; &AJ1-03031;
+      (=adobe-japan1-0	  . 03031)	; &AJ1-03031;
+      ))
+    (=ucs@unicode	. #x9DBA)	; &AJ1-07400;
+    (=adobe-japan1-0	. 07400)	; &AJ1-07400;
     (=jis-x0208		. #x7335)	; &I-J90-7335; [83-21]
     (=cns11643-2	. #x6D2E)	; &I-C2-6D2E; [77-14]
     (=jis-x0213-1	. #x7335)	; &I-JX1-7335; [83-21]
@@ -15041,7 +15110,12 @@
     (=gt		. 64254)	; &I-GT-64254;
     (=gt-pj-1		. #x7335)	; &I-GT-64254; [83-21]
     (=daikanwa		. 47197)	; &I-M-47197;
-    (=shinjigen		.  9735)	; 鶺
+    (=daijiten		. 14532)	; &I-DJT-14532;
+    (=shinjigen		.  9735)	; &AJ1-07400;
+    (<-formed
+     ((=ucs@cns		  . #x4CED)	; &MJ006100;
+      (=mj		  . 006100)	; &MJ006100;
+      ))
     (->subsumptive
      ((==ucs@jis	  . #x9DBA)	; &g2-AJ1-07400;
       (==adobe-japan1-0	  . 07400)	; &g2-AJ1-07400;
@@ -15049,8 +15123,11 @@
       (==jis-x0213-1	  . #x7335)	; &g2-AJ1-07400; [83-21]
       (==gt		  . 64254)	; &g2-AJ1-07400;
       (==daikanwa	  . 47197)	; &g2-AJ1-07400;
+      (==daijiten	  . 14532)	; &g2-AJ1-07400;
       (->subsumptive
        ((===daikanwa	    . 47197)	; &R-M-47197;
+	)
+       ((===daijiten	    . 14532)	; &R-DJT-14532;
 	)
        ((===jis-x0208	    . #x7335)	; &R-J0-7335; [83-21]
 	(===jis-x0213-1	    . #x7335)	; &R-J0-7335; [83-21]
@@ -15647,6 +15724,13 @@
      ((=ucs		  . #x9CE5)	; 鳥
       ))
     (=ucs		. #x9DC4)	; 鷄
+    (<-Zhouwen
+     ((=ucs		  . #x96DE)	; 雞
+      ))
+    (<-Zhouwen$_1*sources
+     shuowen)
+    (<-Zhouwen*sources
+     shuowen)
     ))
 (define-char
   '((<-denotational
@@ -23455,6 +23539,7 @@
       )
      ((=ucs		  . #x9CE5)	; 鳥
       ))
+    (sound@ja/on	"rAHu")
     (=ucs		. #x2A1F9)	; 𪇹
     ))
 (define-char
@@ -23475,17 +23560,23 @@
       (=adobe-japan1-0	  . 03031)	; &AJ1-03031;
       ))
     (=ucs@iso		. #x2A1F9)	; &MJ055829;
-    (=mj		. 055829)	; &I-MJ055829;
+    (=mj		. 055829)	; &MJ055829;
     (=koseki		. 537210)	; &MJ055829;
-    (=daikanwa 		. 47461)	; &MJ055829;
+    (=daikanwa		. 47461)	; &I-M-47461;
     (<-formed
      ((=mj		  . 045224)	; &MJ045224;
       (=koseki		  . 322070)	; &MJ045224;
       ))
     (<-formed$_1*sources
-     koseki)
+     jiyun koseki)
     (<-formed*sources
-     koseki)
+     jiyun koseki)
+    (<-same
+     ((=mj		  . 045224)	; &MJ045224;
+      (=daikanwa	  . 28832)	; &I-M-28832;
+      ))
+    (<-same*sources
+     jiyun daikanwa)
     (->subsumptive
      ((==ucs@iso	  . #x2A1F9)	; &g2-MJ055829;
       (==mj		  . 055829)	; &g2-MJ055829;
@@ -25301,7 +25392,10 @@
     (==>daijiten	. 14376)	; &A2-DJT-14376;
     ))
 (define-char
-  '((ideographic-radical . 196)	; ⿃
+  '((<-denotational
+     ((==>daijiten	. 14378)	; &A2-DJT-14378;
+      ))
+    (ideographic-radical . 196)	; ⿃
     (==>ucs@bucs	. #x9CF3)	; &BUCS+9CF3;
     ))
 (define-char
@@ -25566,6 +25660,11 @@
 (define-char
   '((ideographic-radical . 196)	; ⿃
     (==>daijiten	. 14530)	; &A2-DJT-14530;
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (==>ucs@bucs	. #x9DBA)	; &BUCS+9DBA;
+    (==>daijiten	. 14532)	; &BUCS+9DBA;
     ))
 (define-char
   '((ideographic-radical . 196)	; ⿃

@@ -532,7 +532,7 @@
       (=>ucs@iwds-1/normalized . #x21BC3)	; &A-IWDSU+352B;
       ))
     (<-denotational@usage
-     ((==>daijiten	  . 02774)	; &A2-DJT-02774;
+     ((==>ucs@bucs	  . #x5DE6)	; &BUCS+5DE6;
       ))
     (ideographic-radical . 21)	; ⼔
     (ideographic-strokes . 2)
