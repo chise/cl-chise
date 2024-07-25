@@ -1,3 +1,16 @@
+2024-07-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* data/dumped-ids.lisp: New file.
+
+2024-07-24  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* Sync up with the current snapshot [2024-07-25 01:00 JST].
+
+	M	data/char-defs/Ideograph-R040-Roof.el
+	M	data/char-defs/Ideograph-R058-Snout.el
+	M	data/char-defs/Ideograph-R060-Step.el
+	M	data/char-defs/Ideograph-R196-Bird.el
+
 2024-07-24  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* loadup-char-defs.lisp (*ids-read-from-source*): New variable.
