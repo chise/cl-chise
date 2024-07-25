@@ -37,7 +37,8 @@
    :ideographic-structure-find-chars
    :ideographic-structure-some-chars
    :ideographic-structure
-   :chise-dump-db))
+   :chise-dump-db
+   :encode-json))
 
 (in-package :chise)
 
