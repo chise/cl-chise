@@ -1,5 +1,7 @@
 2024-07-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* cl-chise.lisp (export): Export `encode-json'.
+
 	* data/dumped-ids.lisp: New file.
 
 2024-07-24  MORIOKA Tomohiko  <tomo.git@chise.org>
