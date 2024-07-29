@@ -14595,8 +14595,8 @@
     (=shinjigen		.  2514)	; &AJ1-04840;
     (<-wrong
      ((=ucs@iso		  . #x226D5)	; &C5-325A;
-      (=cns11643-5	  . #x325A)	; &I-C5-325A; [18-58]
-      (=daikanwa 	  . 10793)	; &C5-325A;
+      (=cns11643-5	  . #x325A)	; &C5-325A; [18-58]
+      (=daikanwa	  . 10793)	; &I-M-10793;
       ))
     (<-wrong$_1*sources
      shuowen-zhu daikanwa)
@@ -14604,8 +14604,8 @@
      shuowen-zhu daikanwa)
     (->wrong
      ((=ucs@iso		  . #x226D5)	; &C5-325A;
-      (=cns11643-5	  . #x325A)	; &I-C5-325A; [18-58]
-      (=daikanwa 	  . 10793)	; &C5-325A;
+      (=cns11643-5	  . #x325A)	; &C5-325A; [18-58]
+      (=daikanwa	  . 10793)	; &I-M-10793;
       ))
     (->wrong$_1*sources
      zhengzitong shuowen-tongxundingsheng daikanwa)
@@ -20874,8 +20874,8 @@
       (=adobe-japan1-5	  . 17413)	; &AJ1-17413;
       ))
     (=ucs@iso		. #x226D5)	; &C5-325A;
-    (=cns11643-5	. #x325A)	; &I-C5-325A; [18-58]
-    (=daikanwa 		. 10793)	; &C5-325A;
+    (=cns11643-5	. #x325A)	; &C5-325A; [18-58]
+    (=daikanwa 		. 10793)	; &I-M-10793;
     (<-wrong
      ((=ucs@unicode	  . #x6083)	; &AJ1-04840;
       (=adobe-japan1-0	  . 04840)	; &AJ1-04840;
@@ -48962,7 +48962,7 @@
       (=ucs		  . #x2FF1)	; ⿱
       )
      ((=ucs@unicode	  . #x8C8C)	; &AJ1-03700;
-      (=adobe-japan1-0	  . 03700)	; &I-AJ1-03700;
+      (=adobe-japan1-0	  . 03700)	; &AJ1-03700;
       )
      ((=ucs		  . #x5FC3)	; 心
       ))

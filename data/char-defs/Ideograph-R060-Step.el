@@ -4528,8 +4528,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((==>ucs@bucs	. #x5F8A)	; &BUCS+5F8A;
-      (==>daijiten	  . 03136)	; &A2-DJT-03136;
+     ((==>ucs@bucs	  . #x5F8A)	; &BUCS+5F8A;
       ))
     (ideographic-radical . 60)	; ⼻
     (ideographic-structure
@@ -6188,6 +6187,7 @@
 (define-char
   '((<-denotational@usage
      ((==>daijiten	  . 03142)	; &A2-DJT-03142;
+      (==>ucs@bucs	. #x5F91)	; &BUCS+5F91;
       ))
     (ideographic-radical . 60)	; ⼻
     (ideographic-structure
@@ -21225,7 +21225,8 @@
     ))
 (define-char
   '((ideographic-radical . 60)	; ⼻
-    (==>daijiten	. 03136)	; &A2-DJT-03136;
+    (==>ucs@bucs	. #x5F8A)	; &BUCS+5F8A;
+    (==>daijiten	. 03136)	; &BUCS+5F8A;
     ))
 (define-char
   '((ideographic-radical . 60)	; ⼻

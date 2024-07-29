@@ -56829,13 +56829,6 @@
     (==>daijiten	. 03784)	; &BUCS+6308;
     ))
 (define-char
-  '((<-denotational
-     ((==>ucs@bucs	. #x5F04)	; &BUCS+5F04;
-      ))
-    (ideographic-radical . 64)	; ⼿
-    (==>daijiten	. 03786)	; &A2-DJT-03786;
-    ))
-(define-char
   '((ideographic-radical . 64)	; ⼿
     (==>ucs@bucs	. #x6311)	; &BUCS+6311;
     (==>daijiten	. 03793)	; &BUCS+6311;
@@ -57126,6 +57119,13 @@
       ))
     (ideographic-radical . 64)	; ⼿
     (==>daijiten	. 03767)	; &A2-DJT-03767;
+    ))
+(define-char
+  '((<-denotational
+     ((==>ucs@bucs	  . #x5F04)	; &BUCS+5F04;
+      ))
+    (ideographic-radical . 64)	; ⼿
+    (==>daijiten	. 03786)	; &A2-DJT-03786;
     ))
 (define-char
   '((<-denotational

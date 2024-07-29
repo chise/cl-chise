@@ -269,26 +269,6 @@
   '((ideographic-radical . 179)	; ⾲
     (ideographic-strokes . 4)
     (total-strokes	 . 13)
-    (ideographic-structure
-     ?⿱
-     ?文
-     ?韭)
-    (=ucs		. #x322A6)	; 𲊦
-    ))
-(define-char
-  '((ideographic-radical . 179)	; ⾲
-    (ideographic-strokes . 4)
-    (total-strokes	 . 13)
-    (ideographic-structure
-     ?⿱
-     ?文
-     ?韭)
-    (=ucs		. #x322A6)	; 𲊦
-    ))
-(define-char
-  '((ideographic-radical . 179)	; ⾲
-    (ideographic-strokes . 4)
-    (total-strokes	 . 13)
     (=ucs		. #x29402)	; 𩐂
     (->subsumptive
      ((=ucs@iso		  . #x29402)	; &M-43240;
@@ -296,6 +276,20 @@
       )
      ((=cns11643-6	  . #x5A2D)	; &C6-5A2D; [58-13]
       ))
+    ))
+(define-char
+  '((ideographic-radical . 179)	; ⾲
+    (ideographic-strokes . 4)
+    (total-strokes	 . 13)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x6587)	; 文
+      )
+     ((=ucs		  . #x97ED)	; 韭
+      ))
+    (=ucs		. #x322A6)	; 𲊦
     ))
 (define-char
   '((ideographic-radical . 179)	; ⾲
@@ -397,11 +391,15 @@
     ))
 (define-char
   '((ideographic-radical . 179)	; ⾲
-    (=>ucs@cognate	. #x97F1)	; 韱
+    (=>ucs@cognate	. #x97F1)	; &A-cgnU+97F1;
     ))
 (define-char
   '((<-denotational
-     ((=>ucs@cognate	. #x97F1)	; 韱
+     ((=>ucs@cognate	  . #x97F1)	; &A-cgnU+97F1;
+      ))
+    (<-denotational@usage
+     ((ideographic-radical . 179)	; ⾲
+      (==>daijiten	. 13274)	; &A2-DJT-13274;
       ))
     (ideographic-radical . 179)	; ⾲
     (ideographic-strokes . 8)
@@ -438,12 +436,14 @@
     (=cns11643-2	. #x6050)	; &I-C2-6050; [64-48]
     (=jis-x0213-2	. #x7C31)	; &I-JX2-7C31; [92-17]
     (=daikanwa		. 43246)	; &I-M-43246;
+    (=daijiten		. 13274)	; &I-DJT-13274;
     (->subsumptive
      ((==ucs@unicode	  . #x97F1)	; &g2-JSP-676E;
       (==jis-x0212	  . #x676E)	; &g2-JSP-676E; [71-78]
       (==cns11643-2	  . #x6050)	; &g2-JSP-676E; [64-48]
       (==jis-x0213-2	  . #x7C31)	; &g2-JSP-676E; [92-17]
       (==daikanwa	  . 43246)	; &g2-JSP-676E;
+      (==daijiten		. 13274)	; &I-DJT-13274;
       (->subsumptive
        ((===daikanwa	    . 43246)	; &R-M-43246;
 	)
@@ -458,7 +458,7 @@
     ))
 (define-char
   '((<-denotational
-     ((=>ucs@cognate	. #x97F1)	; 韱
+     ((=>ucs@cognate	  . #x97F1)	; &A-cgnU+97F1;
       ))
     (ideographic-radical . 179)	; ⾲
     (ideographic-strokes . 10)
@@ -467,15 +467,15 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT")
       (=ucs		  . #x2FF9)	; ⿹
       )
-     ((=>ucs-itaiji-001	. #x41DD)	; &U-i001+41DD;
+     ((=>ucs-itaiji-001	  . #x41DD)	; &A-U-i001+41DD;
       )
      ((=ucs		  . #x97ED)	; 韭
       ))
-    (=>ucs-itaiji-003	. #x97F1)	; &U-i003+97F1;
+    (=>ucs-itaiji-003	. #x97F1)	; &A-U-i003+97F1;
     ))
 (define-char
   '((<-denotational
-     ((=>ucs-itaiji-003	. #x97F1)	; &U-i003+97F1;
+     ((=>ucs-itaiji-003	  . #x97F1)	; &A-U-i003+97F1;
       ))
     (ideographic-radical . 179)	; ⾲
     (ideographic-strokes . 10)
@@ -484,7 +484,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT")
       (=ucs		  . #x2FF9)	; ⿹
       )
-     ((=ucs-itaiji-001	. #x41DD)	; &U-i001+41DD;
+     ((=ucs-itaiji-001	  . #x41DD)	; &U-i001+41DD;
       )
      ((=ucs		  . #x97ED)	; 韭
       ))

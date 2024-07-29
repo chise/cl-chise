@@ -18272,7 +18272,7 @@
     (=cns11643-1	. #x7665)	; &C1-7665; [86-69]
     (=daijiten		. 07244)	; &I-DJT-07244;
     (->subsumptive
-     ((==daijiten		. 07244)	; &I-DJT-07244;
+     ((==daijiten	  . 07244)	; &g2-DJT-07244;
       )
      ((==ucs@cns	  . #x7375)	; &g2-CU+7375;
       (==cns11643-1	  . #x7665)	; &g2-CU+7375; [86-69]
@@ -20342,13 +20342,6 @@
     (==>daijiten	. 07198)	; &A2-DJT-07198;
     ))
 (define-char
-  '((<-denotational
-     ((==>ucs@bucs	. #x7336)	; &BUCS+7336;
-      ))
-    (ideographic-radical . 94)	; ⽝
-    (==>daijiten	. 07203)	; &A2-DJT-07203;
-    ))
-(define-char
   '((ideographic-radical . 94)	; ⽝
     (==>ucs@bucs	. #x7336)	; &BUCS+7336;
     ))
@@ -20367,6 +20360,11 @@
     ))
 (define-char
   '((ideographic-radical . 94)	; ⽝
+    (==>ucs@bucs	. #x7375)	; &BUCS+7375;
+    (==>daijiten	. 07244)	; &BUCS+7375;
+    ))
+(define-char
+  '((ideographic-radical . 94)	; ⽝
     (==>ucs@bucs	. #x736C)	; &BUCS+736C;
     (==>daijiten	. 07233)	; &BUCS+736C;
     ))
@@ -20379,11 +20377,6 @@
   '((ideographic-radical . 94)	; ⽝
     (==>ucs@bucs	. #x737B)	; &BUCS+737B;
     (==>daijiten	. 07250)	; &BUCS+737B;
-    ))
-(define-char
-  '((ideographic-radical . 94)	; ⽝
-    (==>ucs@bucs	. #x7375)	; &BUCS+7375;
-    (==>daijiten	. 07244)	; &BUCS+7375;
     ))
 (define-char
   '((ideographic-radical . 94)	; ⽝
@@ -20401,4 +20394,11 @@
       ))
     (ideographic-radical . 94)	; ⽝
     (==>ucs@bucs	. #x72F8)	; &BUCS+72F8;
+    ))
+(define-char
+  '((<-denotational
+     ((==>ucs@bucs	  . #x7336)	; &BUCS+7336;
+      ))
+    (ideographic-radical . 94)	; ⽝
+    (==>daijiten	. 07203)	; &A2-DJT-07203;
     ))

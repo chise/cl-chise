@@ -22276,6 +22276,8 @@
     ))
 (define-char
   '((<-denotational@usage
+     ((==>ucs@bucs	  . #x5BF6)	; &BUCS+5BF6;
+      )
      ((==>daijiten	  . 02407)	; &A2-DJT-02407;
       ))
     (ideographic-radical . 40)	; ⼧
@@ -24470,6 +24472,13 @@
 (define-char
   '((ideographic-radical . 40)	; ⼧
     (==>daijiten	. 02403)	; &A2-DJT-02403;
+    ))
+(define-char
+  '((<-denotational
+     ((==>daijiten	. 02407)	; &A2-DJT-02407;
+      ))
+    (ideographic-radical . 40)	; ⼧
+    (==>ucs@bucs	. #x5BF6)	; &BUCS+5BF6;
     ))
 (define-char
   '((ideographic-radical . 40)	; ⼧
