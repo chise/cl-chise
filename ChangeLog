@@ -1,3 +1,16 @@
+2024-07-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* Sync up with the current snapshot [2024-07-25 23:30 JST].
+
+	M	data/char-defs/Ideograph-R040-Roof.el
+	M	data/char-defs/Ideograph-R060-Step.el
+	M	data/char-defs/Ideograph-R061-Heart.el
+	M	data/char-defs/Ideograph-R064-Hand.el
+	M	data/char-defs/Ideograph-R094-Dog.el
+	M	data/char-defs/Ideograph-R179-Leek.el
+	M	data/char-defs/Ideograph-R196-Bird.el
+	M	data/dumped-ids.lisp
+
 2024-07-25  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* cl-chise.lisp (export): Export `encode-json'.
