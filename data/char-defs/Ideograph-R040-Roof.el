@@ -17011,7 +17011,8 @@
      ((=>ucs@iwds-1	  . #x5BDD)	; &A-IWDSU+5BDD;
       ))
     (<-denotational@usage
-     ((==>daijiten	  . 02387)	; &A2-DJT-02387;
+     ((==>ucs@bucs	. #x5BE2)	; &BUCS+5BE2;
+      (==>daijiten	  . 02387)	; &A2-DJT-02387;
       ))
     (ideographic-radical . 40)	; ⼧
     (ideographic-strokes . 11)
@@ -24474,13 +24475,6 @@
     (==>daijiten	. 02403)	; &A2-DJT-02403;
     ))
 (define-char
-  '((<-denotational
-     ((==>daijiten	. 02407)	; &A2-DJT-02407;
-      ))
-    (ideographic-radical . 40)	; ⼧
-    (==>ucs@bucs	. #x5BF6)	; &BUCS+5BF6;
-    ))
-(define-char
   '((ideographic-radical . 40)	; ⼧
     (==>daijiten	. 02408)	; &A2-DJT-02408;
     ))
@@ -24521,4 +24515,11 @@
       ))
     (ideographic-radical . 40)	; ⼧
     (=daijiten		. 02319)	; &DJT-02319;
+    ))
+(define-char
+  '((<-denotational
+     ((==>daijiten	  . 02407)	; &A2-DJT-02407;
+      ))
+    (ideographic-radical . 40)	; ⼧
+    (==>ucs@bucs	. #x5BF6)	; &BUCS+5BF6;
     ))

@@ -2755,6 +2755,28 @@
     (=daikanwa		. 28982)	; &I-M-28982;
     ))
 (define-char
+  '((ideographic-radical . 127)	; ⽾
+    (=ucs		. #x26523)	; 𦔣
+    ))
+(define-char
+  '((ideographic-radical . 127)	; ⽾
+    (<-denotational
+     ((=ucs		. #x26523)	; 𦔣
+      ))
+    (ideographic-strokes . 12)
+    (total-strokes	 . 18)
+    (=ucs@iso		. #x26523)	; 𦔣
+    ))
+(define-char
+  '((ideographic-radical . 127)	; ⽾
+    (<-denotational
+     ((=ucs		. #x26523)	; 𦔣
+      ))
+    (ideographic-strokes . 10)
+    (total-strokes	 . 16)
+    (=ucs		. #x2F97C)	; 𦔣
+    ))
+(define-char
   '((<-denotational
      ((=>ucs@cognate	  . #x26518)	; &A-cgnU+26518;
       ))

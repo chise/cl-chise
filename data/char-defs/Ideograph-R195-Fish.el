@@ -25233,13 +25233,11 @@
      ((=ucs@cns		  . #x6182)	; &MJ011890;
       (=mj		  . 011890)	; &MJ011890;
       ))
-    (=daikanwa/ho	.  0765)	; &M-H0765;
-    (=daikanwa/ho	.  0765)	; &M-H0765;
+    (=daikanwa/ho 	.  0765)	; &M-H0765;
     (=ucs-var-001	. #x29F47)	; &M-H0765;
     (->subsumptive
      ((==daikanwa/ho	  .  0765)	; &g2-M-H0765;
       (==ucs-var-001	  . #x29F47)	; &g2-M-H0765;
-      (==daikanwa/ho	.  0765)	; &M-H0765;
       ))
     ))
 (define-char
@@ -25259,7 +25257,7 @@
      ((=ucs@unicode	  . #x6182)	; &MJ011891;
       (=mj		  . 011891)	; &MJ011891;
       ))
-    (=ucs@iso		. #x29F47)	; &M-H0765;
+    (=ucs@iso		. #x29F47)	; &U-00029F47;
     (->subsumptive
      ((==ucs@iso	  . #x29F47)	; &g2-IU-00029F47;
       ))
