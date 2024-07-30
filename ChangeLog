@@ -1,3 +1,19 @@
+2024-07-30  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* data/dumped-ids.lisp: Sync up with the current snapshot
+	[2024-07-30 15:00 JST].
+
+	* Sync up with the current snapshot [2024-07-30 15:00 JST].
+
+	M	data/char-defs/Ideograph-R009-Man.el
+	M	data/char-defs/Ideograph-R011-Enter.el
+	M	data/char-defs/Ideograph-R040-Roof.el
+	M	data/char-defs/Ideograph-R060-Step.el
+	M	data/char-defs/Ideograph-R096-Jade.el
+	M	data/char-defs/Ideograph-R127-Plow.el
+	M	data/char-defs/Ideograph-R195-Fish.el
+	M	data/char-defs/Ideograph-R196-Bird.el
+
 2024-07-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* Sync up with the current snapshot [2024-07-25 23:30 JST].
