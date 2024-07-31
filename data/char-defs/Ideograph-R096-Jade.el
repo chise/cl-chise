@@ -761,13 +761,16 @@
     (ideographic-strokes . 3)
     (total-strokes	 . 7)
     (ideographic-structure
-     ?⿰
-     ?𤣩
-     ((=big5-cdp		. #x88EC)	; &CDP-88EC;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x248E9)	; 𤣩
+      )
+     ((=big5-cdp	  . #x88EC)	; &CDP-88EC;
       ))
     (=ucs@cns		. #x3EAC)	; &C3-2671;
-    (=cns11643-3	. #x2671)	; &I-C3-2671; [06-81]
-    (=daikanwa		. 20836)	; &C3-2671;
+    (=cns11643-3	. #x2671)	; &C3-2671; [06-81]
+    (=daikanwa		. 20836)	; &I-M-20836;
     (->subsumptive
      ((==ucs@cns	  . #x3EAC)	; &g2-M-20836;
       (==cns11643-3	  . #x2671)	; &g2-M-20836; [06-81]
@@ -816,15 +819,21 @@
     (ideographic-strokes . 3)
     (total-strokes	 . 7)
     (ideographic-structure
-     ?⿰
-     ?𤣩
-     ?&AJ1-03724;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x248E9)	; 𤣩
+      )
+     ((=ucs@unicode	  . #x51E1)	; &AJ1-03724;
+      (=adobe-japan1-0	  . 03724)	; &AJ1-03724;
+      ))
     (=ucs		. #x2F92A)	; 㺬
     (=ucs@unicode	. #x3EAC)	; 㺬
     (=ucs@JP/hanazono	. nil)
     (->subsumptive
      ((==ucs@unicode	  . #x3EAC)	; &g2-UU+3EAC;
       (==ucs@JP/hanazono  . nil)
+      (==ucs@cns	. #x2F92A)	; 㺬
       ))
     ))
 (define-char
@@ -2906,9 +2915,13 @@
     (ideographic-strokes . 5)
     (total-strokes	 . 9)
     (ideographic-structure
-     ?⿱
-     ?&U-i001+201A9;
-     ?王)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs-itaiji-001	  . #x201A9)	; &U-i001+201A9;
+      )
+     ((=ucs		  . #x738B)	; 王
+      ))
     (=ucs		. #x2F92C)	; 㺸
     ))
 (define-char
@@ -23640,6 +23653,12 @@
     ))
 (define-char
   '((ideographic-radical . 96)	; ⽟
+    (ideographic-structure
+     ?⿱
+     ((=>ucs@iwds-1	. #x4EC7)	; &A-IWDSU+4EC7;
+      )
+     ((=>ucs@iwds-1	. #x7389)	; &A-IWDSU+7389;
+      ))
     (=>ucs@iwds-1	. #x3EB8)	; &A-IWDSU+3EB8;
     (=>ucs@iwds-1/normalized . #x3EB8)	; &A-IWDSU+3EB8;
     ))

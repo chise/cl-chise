@@ -22530,7 +22530,10 @@
     (=daikanwa		. 12311)	; &I-M-12311;
     ))
 (define-char
-  '((<-denotational@usage
+  '((<-denotational
+     ((=>ucs@iwds-1	  . #x63ED)	; &A-IWDSU+63ED;
+      ))
+    (<-denotational@usage
      ((==>ucs@bucs	  . #x63ED)	; &BUCS+63ED;
       ))
     (ideographic-radical . 64)	; ⼿
@@ -22568,16 +22571,7 @@
     (<-simplified@JP/Jouyou*sources
      daikanwa JP/Jouyou shinjigen@rev)
     (->subsumptive
-     ((ideographic-structure
-       ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
-	(=ucs		    . #x2FF0)	; ⿰
-	)
-       ((name		    . "CJK RADICAL HAND")
-	(=ucs		    . #x2E98)	; ⺘
-	)
-       ((==mj		    . 013489)	; &g2-MJ013489;
-	))
-      (==ucs@unicode	  . #x63B2)	; &g2-AJ1-01821;
+     ((==ucs@unicode	  . #x63B2)	; &g2-AJ1-01821;
       (==adobe-japan1-0	  . 01821)	; &g2-AJ1-01821;
       (==jis-x0208	  . #x3747)	; &g2-AJ1-01821; [23-39]
       (==cns11643-3	  . #x362D)	; &g2-AJ1-01821; [22-13]

@@ -2506,12 +2506,76 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=ucs		  . #x722B)	; 爫
+     ((=>ucs@iwds-1	  . #x2B735)	; &A-IWDSU+2B735;
+      (=>iwds-1		  .  0036)	; &A-IWDSU+2B735;
       )
      ((=ucs		  . #x65E7)	; 旧
       ))
-    (=>gt-k		. 06065)	; &A-GT-K06065;
-    (=>ucs-itaiji-005	. #x8200)	; &A-GT-K06065;
+    (=ucs		. #x31B39)	; 𱬹
+    (=>gt-k		. 06065)	; 𱬹
+    (=>ucs-itaiji-005	. #x8200)	; 𱬹
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x31B39)	; 𱬹
+      ))
+    (ideographic-radical . 87)	; ⽖
+    (ideographic-strokes . 5)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs@cns		  . #x722B)	; &GT-25225;
+      (=ucs@jis		  . #x722B)	; &GT-25225;
+      (=jis-x0212	  . #x4A48)	; &GT-25225; [42-40]
+      (=cns11643-4	  . #x2151)	; &I-C4-2151; [01-49]
+      (=jis-x0213-2	  . #x702A)	; &I-JX2-702A; [80-10]
+      (=daikanwa	  . 19655)	; &I-M-19655;
+      )
+     ((=ucs		  . #x65E7)	; 旧
+      ))
+    (=ucs@JP/hanazono	. #x31B39)	; &GT-K05976;
+    (=gt-k		. 05976)	; &GT-K05976;
+    (=gt-pj-k2		. #x3F3E)	; &GT-K05976; [31-30]
+    (=ucs-itaiji-005	. #x8200)	; &GT-K05976;
+    (<-formed@component
+     ((=ucs		  . #x8200)	; 舀
+      ))
+    (->subsumptive
+     ((==ucs@JP/hanazono  . #x31B39)	; &g2-U-i005+8200;
+      (==gt-k		  . 05976)	; &g2-U-i005+8200;
+      (==gt-pj-k2	  . #x3F3E)	; &g2-U-i005+8200; [31-30]
+      (==ucs-itaiji-005	  . #x8200)	; &g2-U-i005+8200;
+      ))
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x31B39)	; 𱬹
+      ))
+    (ideographic-radical . 87)	; ⽖
+    (ideographic-strokes . 5)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((name		  . "CJK RADICAL PAW ONE")
+      (=ucs		  . #x2EA4)	; ⺤
+      )
+     ((=ucs		  . #x65E7)	; 旧
+      ))
+    (=gt-k		. 06065)	; &GT-K06065;
+    (=gt-pj-k2		. #x3E7C)	; &GT-K06065; [30-92]
+    (=ucs-var-001	. #x8200)	; &GT-K06065;
+    (<-formed@component
+     ((=ucs		  . #x8200)	; 舀
+      ))
+    (->subsumptive
+     ((==gt-k		. 06065)	; &GT-K06065;
+      (==gt-pj-k2		. #x3E7C)	; &GT-K06065; [30-92]
+      (==ucs-var-001	. #x8200)	; &GT-K06065;
+      ))
     ))
 (define-char
   '((ideographic-radical . 87)	; ⽖
@@ -2568,56 +2632,6 @@
       (=ucs		  . #x2EB2)	; ⺲
       ))
     (=ucs-itaiji-004	. #x7235)	; &U-i004+7235;
-    ))
-(define-char
-  '((<-denotational
-     ((=>gt-k		  . 06065)	; &A-GT-K06065;
-      ))
-    (ideographic-radical . 87)	; ⽖
-    (ideographic-strokes . 5)
-    (total-strokes	 . 9)
-    (ideographic-structure
-     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
-      (=ucs		  . #x2FF1)	; ⿱
-      )
-     ((=ucs@cns		  . #x722B)	; &GT-25225;
-      (=ucs@jis		  . #x722B)	; &GT-25225;
-      (=jis-x0212	  . #x4A48)	; &GT-25225; [42-40]
-      (=cns11643-4	  . #x2151)	; &I-C4-2151; [01-49]
-      (=jis-x0213-2	  . #x702A)	; &I-JX2-702A; [80-10]
-      (=daikanwa	  . 19655)	; &I-M-19655;
-      )
-     ((=ucs		  . #x65E7)	; 旧
-      ))
-    (=gt-k		. 05976)	; &GT-K05976;
-    (=gt-pj-k2		. #x3F3E)	; &GT-K05976; [31-30]
-    (=ucs-itaiji-005	. #x8200)	; &GT-K05976;
-    (<-formed@component
-     ((=ucs		  . #x8200)	; 舀
-      ))
-    ))
-(define-char
-  '((<-denotational
-     ((=>gt-k		  . 06065)	; &A-GT-K06065;
-      ))
-    (ideographic-radical . 87)	; ⽖
-    (ideographic-strokes . 5)
-    (total-strokes	 . 9)
-    (ideographic-structure
-     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
-      (=ucs		  . #x2FF1)	; ⿱
-      )
-     ((name		  . "CJK RADICAL PAW ONE")
-      (=ucs		  . #x2EA4)	; ⺤
-      )
-     ((=ucs		  . #x65E7)	; 旧
-      ))
-    (=gt-k		. 06065)	; &GT-K06065;
-    (=gt-pj-k2		. #x3E7C)	; &GT-K06065; [30-92]
-    (=ucs-var-001	. #x8200)	; &GT-K06065;
-    (<-formed@component
-     ((=ucs		  . #x8200)	; 舀
-      ))
     ))
 (define-char
   '((ideographic-radical . 87)	; ⽖
@@ -3440,7 +3454,8 @@
       ))
     (=ucs-itaiji-006	. #x8200)	; &U-i006+8200;
     (<-formed
-     ((=gt-k		  . 05976)	; &GT-K05976;
+     ((=ucs@JP/hanazono	  . #x31B39)	; &GT-K05976;
+      (=gt-k		  . 05976)	; &GT-K05976;
       ))
     ))
 (define-char

@@ -656,13 +656,35 @@
 (define-char
   '((ideographic-radical . 90)	; ⽙
     (ideographic-strokes . 7)
-    (total-strokes	 . 11)
+    (ideographic-structure
+     ?⿰
+     ((=>ucs@iwds-1	. #x723F)	; &A-IWDSU+723F;
+      )
+     ?吾)
     (=ucs		. #x2457B)	; 𤕻
-    (=daikanwa		. 19775)	; &I-M-19775;
     ))
 (define-char
-  '((=>ucs		. #x2457B)	; 𤕻
-    (morohashi-daikanwa	19775 0 0)
+  '((ideographic-radical . 90)	; ⽙
+    (ideographic-strokes . 7)
+    (<-denotational
+     ((=ucs		. #x2457B)	; 𤕻
+      ))
+    (total-strokes	 . 11)
+    (ideographic-structure
+     ?⿰
+     ?爿
+     ?吾)
+    (=ucs@iso		. #x2457B)	; 𤕻
+    (=daikanwa		. 19775)	; &I-M-19775;
+    (->subsumptive
+     ((==ucs@iso		. #x2457B)	; 𤕻
+      (==daikanwa		. 19775)	; &I-M-19775;
+      )
+     ((==cns11643-6	. #x415B)	; &C6-415B; [33-59]
+      ))
+    (<-denotational
+     ((=ucs		. #x2457B)	; 𤕻
+      ))
     (ideographic-radical . 90)	; ⽙
     (ideographic-strokes . 7)
     (total-strokes	 . 11)
