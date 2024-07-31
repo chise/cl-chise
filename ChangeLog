@@ -1,3 +1,18 @@
+2024-07-31  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* Sync up with the current snapshot [2024-07-31 11:00 JST].
+
+	M	data/char-defs/Ideograph-R016-Table.el
+	M	data/char-defs/Ideograph-R019-Power.el
+	M	data/char-defs/Ideograph-R026-Seal.el
+	M	data/char-defs/Ideograph-R040-Roof.el
+	M	data/char-defs/Ideograph-R060-Step.el
+	M	data/char-defs/Ideograph-R064-Hand.el
+	M	data/char-defs/Ideograph-R087-Claw.el
+	M	data/char-defs/Ideograph-R090-Half-Tree-Trunk.el
+	M	data/char-defs/Ideograph-R096-Jade.el
+	M	data/dumped-ids.lisp
+
 2024-07-30  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* data/dumped-ids.lisp: Sync up with the current snapshot
