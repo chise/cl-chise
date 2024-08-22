@@ -2254,7 +2254,7 @@
     (ideographic-strokes . 7)
     (total-strokes	 . 16)
     (=ucs@iso		. #x295DA)	; &C5-5976;
-    (=cns11643-5	. #x5976)	; &I-C5-5976; [57-86]
+    (=cns11643-5	. #x5976)	; &C5-5976; [57-86]
     (=daikanwa 		. 43844)	; &C5-5976;
     (=daijiten		. 13452)	; &I-DJT-13452;
     (->subsumptive
@@ -2406,6 +2406,33 @@
     (total-strokes	 . 16)
     (=ucs		. #x295DF)	; 𩗟
     (=cns11643-5	. #x5975)	; &I-C5-5975; [57-85]
+    ))
+(define-char
+  '((ideographic-radical . 182)	; ⾵
+    (ideographic-strokes . 7)
+    (total-strokes	 . 11)
+    (ideographic-structure
+     ?⿺
+     ?风
+     ?𭻾)
+    (=ucs		. #x2CC7D)	; 𬱽
+    ))
+(define-char
+  '((ideographic-radical . 182)	; ⾵
+    (ideographic-strokes . 7)
+    (total-strokes	 . 11)
+    (ideographic-structure
+     ?⿺
+     ?风
+     ((=ucs@JP/hanazono	. #x2DEFE)	; &CDP-8DA6;
+      ))
+    (<-denotational
+     ((=ucs		. #x2CC7D)	; 𬱽
+      ))
+    (=ucs@JP/hanazono	. #x2CC7D)	; 𬱽
+    (<-simplified@CN
+     ((=ucs@unicode	. #x98B4)	; &JSP-683E;
+      ))
     ))
 (define-char
   '((ideographic-radical . 182)	; ⾵
@@ -2655,7 +2682,7 @@
     (ideographic-strokes . 8)
     (total-strokes	 . 17)
     (=ucs@iso		. #x295ED)	; &C5-5F7C;
-    (=cns11643-5	. #x5F7C)	; &I-C5-5F7C; [63-92]
+    (=cns11643-5	. #x5F7C)	; &C5-5F7C; [63-92]
     (=daikanwa 		. 43864)	; &C5-5F7C;
     (=daijiten		. 13454)	; &I-DJT-13454;
     (->subsumptive
@@ -3236,7 +3263,7 @@
     (ideographic-strokes . 9)
     (total-strokes	 . 18)
     (=ucs@iso		. #x29617)	; &C7-4521;
-    (=cns11643-7	. #x4521)	; &I-C7-4521; [37-01]
+    (=cns11643-7	. #x4521)	; &C7-4521; [37-01]
     (=daikanwa 		. 43887)	; &C7-4521;
     (=daijiten		. 13460)	; &I-DJT-13460;
     (->subsumptive
@@ -3332,7 +3359,7 @@
     (ideographic-strokes . 9)
     (total-strokes	 . 18)
     (=ucs@iso		. #x29606)	; &C7-4522;
-    (=cns11643-7	. #x4522)	; &I-C7-4522; [37-02]
+    (=cns11643-7	. #x4522)	; &C7-4522; [37-02]
     (=daikanwa 		. 43889)	; &C7-4522;
     (=daijiten		. 13462)	; &I-DJT-13462;
     (->subsumptive

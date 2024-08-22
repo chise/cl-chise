@@ -2065,18 +2065,38 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=ucs		  . #x65E5)	; 日
+     ((=>ucs@component	  . #x65E5)	; &A-compU+65E5;
+      (=>iwds-1		  .  0118)	; &A-compU+65E5;
       )
      ((=ucs		  . #x5B50)	; 子
       ))
     (=ucs		. #x3AD7)	; 㫗
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x3AD7)	; 㫗
+      ))
+    (ideographic-radical@ucs . 72)	; ⽇
+    (ideographic-radical@daikanwa . 73)	; ⽈
+    (ideographic-strokes . 3)
+    (total-strokes	 . 7)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x65E5)	; 日
+      )
+     ((=ucs		  . #x5B50)	; 子
+      ))
+    (=ucs@unicode	. #x3AD7)	; &AJ1-17758;
     (=adobe-japan1-5	. 17758)	; &I-AJ1-17758;
     (=cns11643-3	. #x2640)	; &I-C3-2640; [06-32]
     (=jis-x0213-2	. #x2E36)	; &I-JX2-2E36; [14-22]
     (=big5-cdp		. #x8DC6)	; &I-CDP-8DC6;
     (=daikanwa		. 14285)	; &I-M-14285;
     (<-original
-     ((=ucs		  . #x539A)	; 厚
+     ((=ucs@unicode	  . #x539A)	; &AJ1-01968;
+      (=adobe-japan1-0	  . 01968)	; &AJ1-01968;
       (=daikanwa	  . 02949)	; &I-M-02949;
       ))
     (<-original*sources
@@ -18375,7 +18395,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((==>daijiten	  . 04660)	; &A2-DJT-04660;
+     ((==>daijiten	  . 04660)	; &BUCS+66FC;
       ))
     (ideographic-radical . 72)	; ⽇
     (ideographic-strokes . 9)
@@ -23550,7 +23570,7 @@
     (=big5		. #xE9B4)	; &I-B-E9B4;
     (=gt		. 17942)	; &I-GT-17942;
     (=gt-pj-1		. #x5A7D)	; &I-GT-17942; [58-93]
-    (=daikanwa 		. 14160)	; &I-M-14160;
+    (=daikanwa		. 14160)	; &I-M-14160;
     (=daijiten		. 04614)	; &I-DJT-04614;
     (=shinjigen		.  3387)	; &AJ1-05122;
     (->subsumptive
@@ -30053,7 +30073,10 @@
     (==>daijiten	. 04523)	; &BUCS+6642;
     ))
 (define-char
-  '((ideographic-radical . 72)	; ⽇
+  '((<-denotational
+     ((==>daijiten	. 04614)	; &A2-DJT-04614;
+      ))
+    (ideographic-radical . 72)	; ⽇
     (==>ucs@bucs	. #x65FD)	; &BUCS+65FD;
     ))
 (define-char

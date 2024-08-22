@@ -378,12 +378,6 @@
 (define-char
   '((ideographic-radical . 210)	; ⿑
     (ideographic-strokes . 0)
-    (total-strokes	 . 6)
-    (=ucs-itaiji-002	. #x20137)	; &U-i002+20137;
-    ))
-(define-char
-  '((ideographic-radical . 210)	; ⿑
-    (ideographic-strokes . 0)
     (total-strokes	 . 11)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
@@ -419,6 +413,12 @@
     (->subsumptive
      ((==ucs-itaiji-005	  . #x9F4A)	; &g2-U-i005+9F4A;
       ))
+    ))
+(define-char
+  '((ideographic-radical . 210)	; ⿑
+    (ideographic-strokes . 0)
+    (total-strokes	 . 6)
+    (=ucs-itaiji-002	. #x20137)	; &U-i002+20137;
     ))
 (define-char
   '((ideographic-radical . 210)	; ⿑

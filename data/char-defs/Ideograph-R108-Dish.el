@@ -3769,7 +3769,7 @@
     (=ucs@cns		. #x76DD)	; &C2-453D;
     (=cns11643-2	. #x453D)	; &C2-453D; [37-29]
     (=big5		. #xDED7)	; &I-B-DED7;
-    (=daikanwa 		. 23019)	; &I-M-23019;
+    (=daikanwa		. 23019)	; &I-M-23019;
     (=daijiten		. 07774)	; &I-DJT-07774;
     (=cbeta		. 06164)	; &I-CB06164;
     (=jef-china3	. #x8EA6)	; &I-JC3-8EA6;
@@ -5734,6 +5734,104 @@
       ))
     ))
 (define-char
+  '((ideographic-radical . 108)	; ⽫
+    (ideographic-strokes . 11)
+    (total-strokes	 . 16)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT")
+      (=ucs		  . #x2FF9)	; ⿹
+      )
+     ((=>ucs-itaiji-002	  . #x4EAA)	; &A-U-i002+4EAA;
+      )
+     ((=ucs		  . #x76C6)	; 盆
+      ))
+    (=ucs		. #x31C95)	; 𱲕
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x31C95)	; 𱲕
+      ))
+    (ideographic-radical . 108)	; ⽫
+    (ideographic-strokes . 11)
+    (total-strokes	 . 16)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT")
+      (=ucs		  . #x2FF9)	; ⿹
+      )
+     ((=ucs-itaiji-002	  . #x4EAA)	; &U-i002+4EAA;
+      )
+     ((=ucs@unicode	  . #x76C6)	; &AJ1-13508;
+      (=adobe-japan1-0	  . 03725)	; &AJ1-13508;
+      (=adobe-japan1-4	  . 13508)	; &I-AJ1-13508;
+      ))
+    (=ucs@JP/hanazono	. #x31C95)	; &hanaJU+31C95;
+    ))
+(define-char
+  '((ideographic-radical . 108)	; ⽫
+    (ideographic-strokes . 11)
+    (total-strokes	 . 16)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT")
+      (=ucs		  . #x2FF9)	; ⿹
+      )
+     ((=>ucs-itaiji-002	  . #x4EAA)	; &A-U-i002+4EAA;
+      )
+     ((=>ucs@iwds-1	  . #x6637)	; &A-IWDSU+6637;
+      (=>iwds-1		  .  0320)	; &A-IWDSU+6637;
+      ))
+    (=ucs		. #x31C96)	; 𱲖
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x31C96)	; 𱲖
+      ))
+    (ideographic-radical . 108)	; ⽫
+    (ideographic-strokes . 11)
+    (total-strokes	 . 16)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT")
+      (=ucs		  . #x2FF9)	; ⿹
+      )
+     ((=ucs-itaiji-002	  . #x4EAA)	; &U-i002+4EAA;
+      )
+     ((=ucs		  . #x6637)	; 昷
+      ))
+    (=ucs@JP/hanazono	. #x31C96)	; &hanaJU+31C96;
+    ))
+(define-char
+  '((ideographic-radical . 108)	; ⽫
+    (ideographic-strokes . 11)
+    (total-strokes	 . 16)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT")
+      (=ucs		  . #x2FF9)	; ⿹
+      )
+     ((=ucs		  . #x4EAA)	; 亪
+      )
+     ((=ucs		  . #x76C6)	; 盆
+      ))
+    (=ucs		. #x31C97)	; 𱲗
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x31C97)	; 𱲗
+      ))
+    (ideographic-radical . 108)	; ⽫
+    (ideographic-strokes . 11)
+    (total-strokes	 . 16)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT")
+      (=ucs		  . #x2FF9)	; ⿹
+      )
+     ((=ucs-var-001	  . #x4EAA)	; &U-v001+4EAA;
+      )
+     ((=ucs@unicode	  . #x76C6)	; &AJ1-13508;
+      (=adobe-japan1-0	  . 03725)	; &AJ1-13508;
+      (=adobe-japan1-4	  . 13508)	; &I-AJ1-13508;
+      ))
+    (=ucs@JP/hanazono	. #x31C97)	; &hanaJU+31C97;
+    ))
+(define-char
   '((ideographic-radical@ucs . 108)	; ⽫
     (ideographic-strokes@ucs . 12)
     (ideographic-radical@cns . 15)	; ⼎
@@ -6352,6 +6450,39 @@
      ((=ucs		  . #x76BF)	; 皿
       ))
     (=ucs@JP/hanazono	. #x2DF91)	; &hanaJU+2DF91;
+    ))
+(define-char
+  '((ideographic-radical . 108)	; ⽫
+    (ideographic-strokes . 12)
+    (total-strokes	 . 17)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT")
+      (=ucs		  . #x2FF9)	; ⿹
+      )
+     ((=ucs		  . #x4EAA)	; 亪
+      )
+     ((=>ucs@iwds-1	  . #x6637)	; &A-IWDSU+6637;
+      (=>iwds-1		  .  0320)	; &A-IWDSU+6637;
+      ))
+    (=ucs		. #x31C99)	; 𱲙
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x31C99)	; 𱲙
+      ))
+    (ideographic-radical . 108)	; ⽫
+    (ideographic-strokes . 12)
+    (total-strokes	 . 17)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT")
+      (=ucs		  . #x2FF9)	; ⿹
+      )
+     ((=ucs-var-001	  . #x4EAA)	; &U-v001+4EAA;
+      )
+     ((=ucs@iso		  . #x25055)	; &AJ1-18183;
+      (=adobe-japan1-5	  . 18183)	; &AJ1-18183;
+      ))
+    (=ucs@JP/hanazono	. #x31C99)	; &hanaJU+31C99;
     ))
 (define-char
   '((ideographic-radical . 108)	; ⽫
@@ -7183,6 +7314,71 @@
     (total-strokes	 . 24)
     (=ucs		. #x250DC)	; 𥃜
     (=cns11643-7	. #x5F23)	; &I-C7-5F23; [63-03]
+    ))
+(define-char
+  '((ideographic-radical . 108)	; ⽫
+    (ideographic-strokes . 19)
+    (total-strokes	 . 24)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x76D8)	; 盘
+      )
+     ((=ucs		  . #x31625)	; 𱘥
+      ))
+    (=ucs		. #x2AF9D)	; 𪾝
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x2AF9D)	; 𪾝
+      ))
+    (ideographic-radical . 108)	; ⽫
+    (ideographic-strokes . 19)
+    (total-strokes	 . 24)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x76D8)	; 盘
+      )
+     ((=ucs@JP/hanazono	  . #x31625)	; &hanaJU+31625;
+      ))
+    (=ucs@JP/hanazono	. #x2AF9D)	; &hanaJU+2AF9D;
+    (->subsumptive
+     ((==ucs@JP/hanazono  . #x2AF9D)	; &g2-hanaJU+2AF9D;
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 108)	; ⽫
+    (ideographic-strokes . 19)
+    (total-strokes	 . 24)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x31625)	; 𱘥
+      )
+     ((=ucs		  . #x76D8)	; 盘
+      ))
+    (=ucs		. #x31CA2)	; 𱲢
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x31CA2)	; 𱲢
+      ))
+    (ideographic-radical . 108)	; ⽫
+    (ideographic-strokes . 19)
+    (total-strokes	 . 24)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@JP/hanazono	  . #x31625)	; &hanaJU+31625;
+      )
+     ((=ucs		  . #x76D8)	; 盘
+      ))
+    (=ucs@JP/hanazono	. #x31CA2)	; &hanaJU+31CA2;
     ))
 (define-char
   '((ideographic-radical . 108)	; ⽫

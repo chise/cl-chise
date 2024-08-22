@@ -7754,14 +7754,30 @@
   '((ideographic-radical . 164)	; ⾣
     (ideographic-strokes . 12)
     (total-strokes	 . 19)
+    (ideographic-structure
+     ?⿹
+     ?畯
+     ?酉)
     (=ucs		. #x288BD)	; 𨢽
-    (->subsumptive
-     ((=daikanwa	  . 40019)	; &M-40019;
-      )
-     ((=cns11643-7	  . #x4B2F)	; &C7-4B2F; [43-15]
-      )
-     ((=ucs@iso		  . #x288BD)	; &U-000288BD;
+    ))
+(define-char
+  '((ideographic-radical . 164)	; ⾣
+    (ideographic-strokes . 12)
+    (total-strokes	 . 19)
+    (<-denotational
+     ((=ucs		. #x288BD)	; 𨢽
       ))
+    (=ucs@iso		. #x288BD)	; 𨢽
+    (=daikanwa	  . 40019)	; &M-40019;
+    (=cns11643-7	  . #x4B2F)	; &C7-4B2F; [43-15]
+    (->subsumptive
+     ((==daikanwa	  . 40019)	; &M-40019;
+      )
+     ((==cns11643-7	  . #x4B2F)	; &C7-4B2F; [43-15]
+      )
+     ((==ucs@iso		  . #x288BD)	; &U-000288BD;
+      ))
+    (=ucs@iso		  . #x288BD)	; &U-000288BD;
     ))
 (define-char
   '((ideographic-radical . 164)	; ⾣

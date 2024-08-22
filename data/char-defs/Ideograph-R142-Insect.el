@@ -22243,6 +22243,25 @@
     (ideographic-strokes . 12)
     (total-strokes	 . 18)
     (ideographic-structure
+     ?⿱
+     ?絲
+     ?虫)
+    (=ucs		. #x2747F)	; 𧑿
+    ))
+(define-char
+  '((ideographic-radical . 142)	; ⾍
+    (ideographic-strokes . 12)
+    (total-strokes	 . 18)
+    (<-denotational
+     ((=ucs		. #x2747F)	; 𧑿
+      ))
+    (=ucs@iso		. #x2747F)	; 𧑿
+    ))
+(define-char
+  '((ideographic-radical . 142)	; ⾍
+    (ideographic-strokes . 12)
+    (total-strokes	 . 18)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )

@@ -2124,7 +2124,7 @@
       (=>>gt-k		  . 05239)	; &G-MJ011233;
       (=>>daikanwa	  . 09920)	; &G-MJ011233;
       (->subsumptive
-       ((==daikanwa 	    . 09920)	; &g2-M-09920;
+       ((==daikanwa	    . 09920)	; &g2-M-09920;
 	)
        ((=decomposition@cid
 	 ((=ucs		      . #x5F56)	; 彖
@@ -3624,8 +3624,8 @@
      shinjigen)
     (->subsumptive
      ((==mj		  . 068054)	; &MJ068054;
-      (==koseki		  . 112430)	; &MJ068054;
-      (==shinjigen	  .  2307)	; &MJ068054;
+      (==koseki		  . 112430)	; &g2-MJ068054;
+      (==shinjigen	  .  2307)	; &g2-MJ068054;
       (->subsumptive
        ((===mj		    . 068054)	; &MJ068054;
 	))

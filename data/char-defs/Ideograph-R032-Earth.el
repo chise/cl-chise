@@ -16204,6 +16204,31 @@
     (ideographic-strokes . 7)
     (total-strokes	 . 10)
     (ideographic-structure
+     ?⿱
+     ((=>ucs@component	. #x593E)	; &A-compU+593E;
+      )
+     ((=>ucs@iwds-1	. #x571F)	; &A-IWDSU+571F;
+      ))
+    (=ucs		. #x315AA)	; 𱖪
+    ))
+(define-char
+  '((ideographic-radical . 32)	; ⼟
+    (ideographic-strokes . 7)
+    (total-strokes	 . 10)
+    (ideographic-structure
+     ?⿱
+     ?夾
+     ?土)
+    (<-denotational
+     ((=ucs		. #x315AA)	; 𱖪
+      ))
+    (=ucs@JP/hanazono	. #x315AA)	; 𱖪
+    ))
+(define-char
+  '((ideographic-radical . 32)	; ⼟
+    (ideographic-strokes . 7)
+    (total-strokes	 . 10)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )

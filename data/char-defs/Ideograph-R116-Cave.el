@@ -3947,7 +3947,7 @@
      ((=big5-cdp-itaiji-001 . #x86E4)	; &CDP-i001-86E4;
       ))
     (=ucs@iso		. #x2597C)	; &C6-4C52;
-    (=cns11643-6	. #x4C52)	; &I-C6-4C52; [44-50]
+    (=cns11643-6	. #x4C52)	; &C6-4C52; [44-50]
     (=daikanwa 		. 25521)	; &C6-4C52;
     (->subsumptive
      ((==daikanwa 	  . 25521)	; &g2-M-25521;
@@ -9335,6 +9335,15 @@
     (ideographic-strokes . 12)
     (total-strokes	 . 17)
     (=ucs		. #x7AC3)	; 竃
+    ))
+(define-char
+  '((ideographic-radical . 116)	; ⽳
+    (ideographic-strokes . 12)
+    (total-strokes	 . 17)
+    (<-denotational
+     ((=ucs		. #x7AC3)	; 竃
+      ))
+    (=ucs@unicode	. #x7AC3)	; 竃
     (=adobe-japan1-0	. 01492)	; &I-AJ1-01492;
     (=jis-x0208@1978	. #x635E)	; &I-J78-635E; [67-62]
     (=jis-x0208@1983	. #x3376)	; &I-J83-3376; [19-86]
@@ -10185,19 +10194,22 @@
   '((<-denotational
      ((=>ucs@cognate	  . #x7AC8)	; &A-cgnU+7AC8;
       ))
+    (<-denotational@usage
+     ((ideographic-radical . 116)	; ⽳
+      (==>ucs@bucs	. #x7AC8)	; &BUCS+7AC8;
+      (==>daijiten	. 08352)	; &A2-DJT-08352;
+      ))
     (ideographic-radical . 116)	; ⽳
     (ideographic-strokes . 16)
     (total-strokes	 . 21)
     (ideographic-structure
-     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO MIDDLE AND BELOW")
-      (=ucs		  . #x2FF3)	; ⿳
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
       )
      ((=>ucs@iwds-1	  . #x7A74)	; &A-IWDSU+7A74;
       (=>iwds-1		  .  0223)	; &A-IWDSU+7A74;
       )
-     ((=ucs		  . #x571F)	; 土
-      )
-     ((=ucs		  . #x9EFD)	; 黽
+     ((=>ucs-itaiji-001	  . #x9F00)	; &U-i001+9F00;
       ))
     (=ucs		. #x7AC8)	; 竈
     ))

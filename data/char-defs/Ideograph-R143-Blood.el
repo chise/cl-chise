@@ -797,6 +797,23 @@
       )
      ((=ucs		  . #x8840)	; 血
       )
+     ((=ucs-var-004	. #x4E51)	; &U-v004+4E51;
+      ))
+    (=ucs-var-003	. #x8846)	; &U-v003+8846;
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x8846)	; 衆
+      ))
+    (ideographic-radical . 143)	; ⾎
+    (ideographic-strokes . 6)
+    (total-strokes	 . 12)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x8840)	; 血
+      )
      ((=ucs-itaiji-005	  . #x343A)	; &U-i005+343A;
       ))
     (=ucs-itaiji-005	. #x773E)	; &U-i005+773E;

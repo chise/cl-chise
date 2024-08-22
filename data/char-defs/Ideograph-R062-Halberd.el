@@ -5952,6 +5952,36 @@
       ))
     ))
 (define-char
+  '((ideographic-radical . 62)	; ⼽
+    (ideographic-strokes . 11)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ?⿰
+     ?崔
+     ?戈)
+    (=ucs		. #x317E0)	; 𱟠
+    ))
+(define-char
+  '((ideographic-radical . 62)	; ⼽
+    (ideographic-strokes . 11)
+    (total-strokes	 . 15)
+    (<-denotational
+     ((=ucs		. #x317E0)	; 𱟠
+      ))
+    (ideographic-structure
+     ?⿰
+     ((=ucs@unicode	. #x5D14)	; &AJ1-04688;
+      )
+     ?戈)
+    (=ucs@JP/hanazono	. #x317E0)	; 𱟠
+    (=cbeta		. 12124)	; &CB12124;
+    (->subsumptive
+     ((==ucs@JP/hanazono	. #x317E0)	; 𱟠
+      )
+     ((==cbeta		. 12124)	; &CB12124;
+      ))
+    ))
+(define-char
   '((<-denotational@usage
      ((==>ucs@bucs	  . #x6232)	; &BUCS+6232;
       ))

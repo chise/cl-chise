@@ -3289,7 +3289,7 @@
      ((=ucs@unicode	  . #x6B62)	; &MJ014823;
       (=mj		  . 014823)	; &MJ014823;
       )
-     ((=ucs		  . #x821F)	; 舟
+     ((=ucs@unicode	  . #x821F)	; 舟
       ))
     (=ucs@unicode	. #x6B6C)	; &AJ1-17891;
     (=adobe-japan1-5	. 17891)	; &AJ1-17891;

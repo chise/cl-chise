@@ -5087,7 +5087,7 @@
   '((<-denotational@usage
      ((ideographic-radical . 181)	; ⾴
       (==>ucs@bucs	. #x982D)	; &BUCS+982D;
-      (==>daijiten	. 13346)	; &A2-DJT-13346;
+      (==>daijiten	. 13346)	; &BUCS+982D;
       ))
     (ideographic-radical . 181)	; ⾴
     (ideographic-strokes . 7)
@@ -5106,7 +5106,7 @@
      ?&AJ1-03198;
      ?頁)
     (=ucs@unicode	. #x982D)	; 頭
-    (=adobe-japan1-0	. 03204)	; &I-AJ1-03204;
+    (=adobe-japan1-0	. 03204)	; &AJ1-03204;
     (=jis-x0208		. #x462C)	; &I-J90-462C; [38-12]
     (=ks-x1001		. #x5469)	; &I-K0-5469; [52-73]
     (=cns11643-1	. #x7324)	; &I-C1-7324; [83-04]
@@ -11352,7 +11352,7 @@
       )
      ((=ucs@iso		. #x280A0)	; &C7-3421;
       )
-     ((=ucs		  . #x821F)	; 舟
+     ((=ucs@unicode	  . #x821F)	; 舟
       ))
     (=ucs@iso		. #x2954E)	; &GT-58660;
     (=cns11643-7	. #x5A31)	; &GT-58660; [58-17]

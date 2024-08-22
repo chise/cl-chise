@@ -7900,7 +7900,7 @@
   '((<-denotational@usage
      ((ideographic-radical . 154)	; ⾙
       (==>ucs@bucs	. #x8CE1)	; &BUCS+8CE1;
-      (==>daijiten	. 11396)	; &A2-DJT-11396;
+      (==>daijiten	. 11396)	; &BUCS+8CE1;
       ))
     (ideographic-radical . 154)	; ⾙
     (ideographic-strokes . 8)
@@ -7921,12 +7921,12 @@
      ((=ucs		. #x8CE1)	; 賡
       ))
     (=ucs@unicode	. #x8CE1)	; 賡
-    (=jis-x0212		. #x5F35)	; &I-JSP-5F35; [63-21]
+    (=jis-x0212		. #x5F35)	; &JX1-7C39; [63-21]
     (=cns11643-1	. #x6F34)	; &I-C1-6F34; [79-20]
     (=jis-x0213-1	. #x7C39)	; &I-JX1-7C39; [92-25]
     (=gb12345		. #x6259)	; 賡 [66-57]
     (=big5		. #xBDE9)	; &I-B-BDE9;
-    (=daikanwa		. 36819)	; &M-36819;
+    (=daikanwa		. 36819)	; &JX1-7C39;
     (=daijiten		. 11396)	; &I-DJT-11396;
     (=jef-china3	. #x65F6)	; &I-JC3-65F6;
     (->subsumptive
@@ -9451,7 +9451,11 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 154)	; ⾙
+  '((<-denotational@usage
+     ((ideographic-radical . 154)	; ⾙
+      (==>ucs@bucs	. #x8CB4)	; &BUCS+8CB4;
+      ))
+    (ideographic-radical . 154)	; ⾙
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
@@ -9481,7 +9485,9 @@
     (=ucs@cns		. #x477F)	; &C3-5274;
     (=cns11643-3	. #x5274)	; &C3-5274; [50-84]
     (=daikanwa		. 36851)	; &I-M-36851;
+    (=daijiten		. 11409)	; &I-DJT-11409;
     (=shinjigen		.  7872)	; &C3-5274;
+    (=cbeta		. 08458)	; &CB08458;
     (<-original
      ((=ucs@unicode	  . #x8CB4)	; &AJ1-01608;
       (=adobe-japan1-0	  . 01608)	; &AJ1-01608;
@@ -9493,8 +9499,10 @@
     (->subsumptive
      ((==ucs@cns	  . #x477F)	; &g2-M-36851;
       (==cns11643-3	  . #x5274)	; &g2-M-36851; [50-84]
-      (==daikanwa	  . 36851)	; &g2-M-36851;
+      (==daikanwa	  . 36851)	; &g2-M-36851; 
+      (==daijiten	. 11409)	; &I-DJT-11409;
       (==shinjigen	  .  7872)	; &g2-M-36851;
+      (==cbeta		. 08458)	; &CB08458;
       (->subsumptive
        ((===daikanwa	    . 36851)	; &R-M-36851;
 	)
@@ -11376,7 +11384,7 @@
       )
      ((=big5-cdp	  . #x8BAE)	; &CDP-8BAE;
       )
-     ((=ucs@unicode	  . #x34C1)	; &AJ1-18384;
+     ((=ucs@unicode	  . #x34C1)	; ⺳
       )
      ((=ucs		  . #x54E1)	; 員
       ))

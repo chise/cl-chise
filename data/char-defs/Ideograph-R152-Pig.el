@@ -2219,15 +2219,35 @@
     (=jef-china3	. #x99B1)	; &I-JC3-99B1;
     ))
 (define-char
+  '((<-denotational@usage
+     ((ideographic-radical . 152)	; ⾗
+      (==>daijiten	. 11281)	; &A2-DJT-11281;
+      ))
+    (ideographic-radical . 152)	; ⾗
+    (ideographic-strokes . 7)
+    (total-strokes	 . 14)
+    (ideographic-structure
+     ?⿰
+     ((=>ucs@iwds-1	. #x8C55)	; &A-IWDSU+8C55;
+      )
+     ((=>ucs@iwds-1	. #x8C55)	; &A-IWDSU+8C55;
+      ))
+    (=ucs		. #x8C69)	; 豩
+    ))
+(define-char
   '((ideographic-radical . 152)	; ⾗
     (ideographic-strokes . 7)
     (total-strokes	 . 14)
-    (=ucs		. #x8C69)	; 豩
+    (<-denotational
+     ((=ucs		. #x8C69)	; 豩
+      ))
+    (=ucs@unicode	. #x8C69)	; 豩
     (=jis-x0212		. #x5E77)	; &I-JSP-5E77; [62-87]
     (=cns11643-2	. #x4E3A)	; &I-C2-4E3A; [46-26]
     (=jis-x0213-2	. #x7922)	; &I-JX2-7922; [89-02]
     (=big5		. #xE452)	; &I-B-E452;
     (=daikanwa		. 36405)	; &I-M-36405;
+    (=daijiten		. 11281)	; &I-DJT-11281;
     (->subsumptive
      ((==ucs@jis	  . #x8C69)	; &g2-JSP-5E77;
       (==jis-x0212	  . #x5E77)	; &g2-JSP-5E77; [62-87]
@@ -2245,6 +2265,8 @@
       )
      ((==ucs@cns	  . #x8C69)	; &g2-CU+8C69;
       (==cns11643-2	  . #x4E3A)	; &g2-CU+8C69; [46-26]
+      )
+     ((==daijiten	. 11281)	; &I-DJT-11281;
       ))
     ))
 (define-char

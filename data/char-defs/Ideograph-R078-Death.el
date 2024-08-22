@@ -1925,17 +1925,36 @@
     ))
 (define-char
   '((ideographic-radical . 78)	; ⽍
+    (ideographic-structure
+     ?⿰
+     ((=>ucs@component	. #x6B79)	; &A-compU+6B79;
+      )
+     ?欠)
+    (=ucs		. #x239CB)	; 𣧋
+    ))
+(define-char
+  '((ideographic-radical . 78)	; ⽍
+    (<-denotational
+     ((=ucs		. #x239CB)	; 𣧋
+      ))
     (ideographic-strokes . 4)
     (total-strokes	 . 8)
-    (=ucs		. #x239CB)	; 𣧋
+    (hanyu-dazidian	  2 1382 16)
+    (=ucs@iso		. #x239CB)	; 𣧋
+    (=cns11643-5	  . #x2666)	; &C5-2666; [06-70]
+    (=daikanwa	  . 16388)	; &I-M-16388;
     (->subsumptive
-     ((=cns11643-5	  . #x2666)	; &C5-2666; [06-70]
-      (=daikanwa	  . 16388)	; &I-M-16388;
+     ((==cns11643-5	  . #x2666)	; &C5-2666; [06-70]
+      (==daikanwa	  . 16388)	; &I-M-16388;
       )
-     ((hanyu-dazidian	  2 1382 16)
-      (=ucs@iso		  . #x239CB)	; &HZK04-C478;
-      (=hanziku-4	  . #xC478)	; &HZK04-C478;
+     ((==ucs@iso		  . #x239CB)	; &HZK04-C478;
+      (->subsumptive
+       ((===ucs@iso		  . #x239CB)	; &HZK04-C478;
+	)
+       ((=hanziku-4	  . #xC478)	; &HZK04-C478;
+	))
       ))
+    (=ucs@iso		  . #x239CB)	; &HZK04-C478;
     ))
 (define-char
   '((ideographic-radical . 78)	; ⽍

@@ -2489,10 +2489,31 @@
       ))
     ))
 (define-char
+  '((<-denotational@usage
+     ((ideographic-radical . 191)	; ⾾
+      (==>ucs@bucs	. #x9B27)	; &BUCS+9B27;
+      (==>daijiten	. 14023)	; &A2-DJT-14023;
+      ))
+    (ideographic-radical . 169)	; ⾨
+    (ideographic-structure
+     ?⿵
+     ?門
+     ((=>ucs@component	. #x5E02)	; &A-compU+5E02;
+      ))
+    (=ucs		. #x9599)	; 閙
+    ))
+(define-char
   '((ideographic-radical . 169)	; ⾨
+    (<-denotational
+     ((=ucs		. #x9599)	; 閙
+      ))
     (ideographic-strokes . 5)
     (total-strokes	 . 13)
-    (=ucs		. #x9599)	; 閙
+    (ideographic-structure
+     ?⿵
+     ?門
+     ?市)
+    (=ucs@unicode	. #x9599)	; 閙
     (=adobe-japan1-0	. 07066)	; &I-AJ1-07066;
     (=jis-x0208		. #x6F5F)	; &I-J90-6F5F; [79-63]
     (=cns11643-3	. #x453C)	; &I-C3-453C; [37-28]
@@ -2501,9 +2522,10 @@
     (=gt-k		. 10363)	; &I-GT-K10363;
     (=gt-pj-1		. #x6F5F)	; &I-GT-55511; [79-63]
     (=daikanwa		. 41264)	; &I-M-41264;
+    (=daijiten		. 12728)	; &I-DJT-12728;
     (=shinjigen		.  9494)	; 閙
     (<-vulgar
-     ((=ucs		  . #x9B27)	; 鬧
+     ((=ucs@unicode	  . #x9B27)	; 鬧
       (=jis-x0208	  . #x7229)	; &I-J90-7229; [82-09]
       (=shinjigen	  .  9493)	; 鬧
       ))
@@ -2538,6 +2560,19 @@
        ((===ucs@unicode	    . #x9599)	; &R-UU+9599;
 	))
       ))
+    ))
+(define-char
+  '((ideographic-radical . 169)	; ⾨
+    (<-denotational
+     ((=ucs		. #x9599)	; 閙
+      ))
+    (ideographic-strokes . 4)
+    (total-strokes	 . 12)
+    (ideographic-structure
+     ?⿵
+     ?門
+     ?巿)
+    (=ucs-var-002	. #x9599)	; &U-v002+9599;
     ))
 (define-char
   '((ideographic-radical . 169)	; ⾨

@@ -12654,6 +12654,30 @@
     (ideographic-strokes . 6)
     (total-strokes	 . 13)
     (ideographic-structure
+     ?⿰
+     ?言
+     ?𠂢)
+    (=ucs		. #x2E60C)	; 𮘌
+    ))
+(define-char
+  '((ideographic-radical . 149)	; ⾔
+    (ideographic-strokes . 6)
+    (total-strokes	 . 13)
+    (ideographic-structure
+     ?⿰
+     ?言
+     ((=ucs@iso		. #x200A2)	; &MJ030386;
+      ))
+    (<-denotational
+     ((=ucs		. #x2E60C)	; 𮘌
+      ))
+    (=ucs@JP/hanazono	. #x2E60C)	; 𮘌
+    ))
+(define-char
+  '((ideographic-radical . 149)	; ⾔
+    (ideographic-strokes . 6)
+    (total-strokes	 . 13)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )

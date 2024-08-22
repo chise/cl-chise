@@ -168,10 +168,31 @@
       ))
     ))
 (define-char
+  '((<-denotational@usage
+     ((ideographic-radical . 191)	; ⾾
+      (==>ucs@bucs	. #x9B27)	; &BUCS+9B27;
+      (==>daijiten	. 14023)	; &A2-DJT-14023;
+      ))
+    (ideographic-radical . 191)	; ⾾
+    (ideographic-structure
+     ?⿵
+     ?鬥
+     ((=>ucs@component	. #x5E02)	; &A-compU+5E02;
+      ))
+    (=ucs		. #x9B27)	; 鬧
+    ))
+(define-char
   '((ideographic-radical . 191)	; ⾾
+    (<-denotational
+     ((=ucs		. #x9B27)	; 鬧
+      ))
     (ideographic-strokes . 5)
     (total-strokes	 . 15)
-    (=ucs		. #x9B27)	; 鬧
+    (ideographic-structure
+     ?⿵
+     ?鬥
+     ?市)
+    (=ucs@unicode	. #x9B27)	; 鬧
     (=adobe-japan1-0	. 07294)	; &I-AJ1-07294;
     (=jis-x0208		. #x7229)	; &I-J90-7229; [82-09]
     (=ks-x1001		. #x5722)	; &I-K0-5722; [55-02]
@@ -181,6 +202,7 @@
     (=gt		. 61392)	; &I-GT-61392;
     (=gt-pj-1		. #x7229)	; &I-GT-61392; [82-09]
     (=daikanwa		. 45639)	; &I-M-45639;
+    (=daijiten		. 14023)	; &I-DJT-14023;
     (=shinjigen		.  9493)	; 鬧
     (->subsumptive
      ((==daikanwa	  . 45639)	; &g2-M-45639;
@@ -193,6 +215,7 @@
       (==jis-x0213-1	  . #x7229)	; &g2-AJ1-07294; [82-09]
       (==gt		  . 61392)	; &g2-AJ1-07294;
       (==shinjigen	  .  9493)	; &g2-AJ1-07294;
+      (==daijiten		. 14023)	; &I-DJT-14023;
       (->subsumptive
        ((===jis-x0208	    . #x7229)	; &R-J0-7229; [82-09]
 	(===jis-x0213-1	    . #x7229)	; &R-J0-7229; [82-09]

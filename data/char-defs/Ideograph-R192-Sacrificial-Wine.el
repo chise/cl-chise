@@ -3,7 +3,7 @@
   '((<-denotational@usage
      ((ideographic-radical . 192)	; ⾿
       (==>ucs@bucs	. #x9B2F)	; &BUCS+9B2F;
-      (==>daijiten	. 14036)	; &A2-DJT-14036;
+      (==>daijiten	. 14036)	; &BUCS+9B2F;
       ))
     (ideographic-radical . 192)	; ⾿
     (ideographic-strokes . 0)
@@ -79,6 +79,16 @@
       )
      ((==daijiten		. 14036)	; &I-DJT-14036;
       ))
+    ))
+(define-char
+  '((ideographic-radical . 192)	; ⾿
+    (ideographic-strokes . 0)
+    (total-strokes	 . 14)
+    (ideographic-structure
+     ?⿱
+     ?𱐍
+     ?𠂭)
+    (=ucs-itaiji-012	. #x9B2F)	; &U-i012+9B2F;
     ))
 (define-char
   '((ideographic-radical . 192)	; ⾿
@@ -512,7 +522,7 @@
   '((<-denotational@usage
      ((ideographic-radical . 192)	; ⾿
       (==>ucs@bucs	. #x9B31)	; &BUCS+9B31;
-      (==>daijiten	. 14039)	; &A2-DJT-14039;
+      (==>daijiten	. 14039)	; &BUCS+9B31;
       ))
     (ideographic-radical . 192)	; ⾿
     (ideographic-strokes . 19)
