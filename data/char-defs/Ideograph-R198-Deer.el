@@ -5829,6 +5829,21 @@
     ))
 (define-char
   '((ideographic-radical . 198)	; ⿅
+    (ideographic-strokes . 13)
+    (total-strokes	 . 24)
+    (=ucs		. #x2A2ED)	; 𪋭
+    ))
+(define-char
+  '((ideographic-radical . 198)	; ⿅
+    (ideographic-strokes . 13)
+    (total-strokes	 . 24)
+    (<-denotational
+     ((=ucs		. #x2A2ED)	; 𪋭
+      ))
+    (=ucs@iso		. #x2A2ED)	; 𪋭
+    ))
+(define-char
+  '((ideographic-radical . 198)	; ⿅
     (ideographic-strokes . 14)
     (total-strokes	 . 25)
     (=ucs		. #x9EA1)	; 麡

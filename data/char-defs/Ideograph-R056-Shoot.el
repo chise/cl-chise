@@ -68,18 +68,26 @@
     (ideographic-strokes@cns . 0)
     (total-strokes	 . 3)
     (=ucs		. #x2237A)	; 𢍺
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x2237A)	; 𢍺
+      ))
+    (ideographic-radical . 56)	; ⼷
+    (ideographic-strokes . 0)
+    (total-strokes	 . 3)
+    (=ucs@iso		. #x2237A)	; &M-09657;
+    (=daikanwa		. 09657)	; &M-09657;
+    (<-same
+     ((=ucs		  . #x5F0B)	; 弋
+      (=daikanwa	  . 09656)	; &I-M-09656;
+      ))
+    (<-same*sources
+     zihui-bu daikanwa)
     (->subsumptive
-     ((ideographic-radical . 56)	; ⼷
-      (ideographic-strokes . 0)
-      (=daikanwa	  . 09657)	; &M-09657;
+     ((==daikanwa	  . 09657)	; &g2-M-09657;
       )
-     ((ideographic-radical . 56)	; ⼷
-      (ideographic-strokes . 0)
-      (=ucs@iso		  . #x2237A)	; &U-0002237A;
-      )
-     ((ideographic-radical . 62)	; ⼽
-      (ideographic-strokes . 0)
-      (=cns11643-6	  . #x2140)	; &C6-2140; [01-32]
+     ((==ucs@iso	  . #x2237A)	; &g2-IU-0002237A;
       ))
     ))
 (define-char
@@ -315,12 +323,12 @@
     (ideographic-strokes . 2)
     (total-strokes	 . 5)
     (ideographic-structure
-     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
-      (=ucs		  . #x2FF1)	; ⿱
-      )
-     ((=ucs		  . #x5341)	; 十
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER RIGHT")
+      (=ucs		  . #x2FFD)	; ⿽
       )
      ((=ucs		  . #x5F0B)	; 弋
+      )
+     ((=ucs		  . #x5341)	; 十
       ))
     (=ucs-itaiji-001	. #x2298F)	; &U-i001+2298F;
     (<-formed

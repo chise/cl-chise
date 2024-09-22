@@ -5618,14 +5618,22 @@
     (ideographic-strokes . 12)
     (total-strokes	 . 21)
     (ideographic-structure
-     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER LEFT")
-      (=ucs		  . #x2FFA)	; ⿺
+     ((=>iwds-1		.  0307)	; &A-IWDSU+2FFA;
       )
      ((=ucs		  . #x98A8)	; 風
       )
      ((=ucs		  . #x5C1E)	; 尞
       ))
     (=ucs		. #x98C9)	; 飉
+    ))
+(define-char
+  '((ideographic-radical . 182)	; ⾵
+    (ideographic-strokes . 12)
+    (total-strokes	 . 21)
+    (<-denotational
+     ((=ucs		. #x98C9)	; 飉
+      ))
+    (=ucs@unicode	. #x98C9)	; 飉
     (=cns11643-2	. #x6C61)	; &I-C2-6C61; [76-65]
     (=daikanwa 		. 43967)	; &I-M-43967;
     (=daijiten		. 13488)	; &I-DJT-13488;

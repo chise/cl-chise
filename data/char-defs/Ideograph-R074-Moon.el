@@ -4862,7 +4862,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=big5-cdp-itaiji-001 . #x8D60)	; &CDP-i001-8D60;
+     ((=gt-k		  . 04643)	; &GT-K04643;
       )
      ((=ucs@unicode	  . #x6708)	; &MJ013520;
       (=mj		  . 013520)	; &MJ013520;
@@ -5417,6 +5417,7 @@
      ((=>ucs@component	  . #x6708)	; &A-compU+6708;
       (=>iwds-1		  .  0053)	; &A-compU+6708;
       ))
+    (sound@ja/on	"tEu")
     (=ucs		. #x2338D)	; 𣎍
     ))
 (define-char
@@ -5426,9 +5427,32 @@
     (ideographic-radical . 74)	; ⽉
     (ideographic-strokes . 10)
     (total-strokes	 . 14)
-    (=daikanwa 		. 14389)	; &M-14389;
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
+      (=ucs		  . #x2FF8)	; ⿸
+      )
+     ((=ucs-itaiji-005	  . #x501D)	; &U-i005+501D;
+      )
+     ((=gt-k		  . 00606)	; &GT-K00606;
+      ))
+    (=mj		. 037900)	; &MJ037900;
+    (=koseki		. 161920)	; &MJ037900;
+    (=daikanwa		. 14389)	; &I-M-14389;
+    (<-original
+     ((=mj		  . 013557)	; &MJ013557;
+      (=daikanwa	  . 14374)	; &I-M-14374;
+      ))
+    (<-original*sources
+     zihui daikanwa)
     (->subsumptive
-     ((==daikanwa	  . 14389)	; &g2-M-14389;
+     ((==mj		  . 037900)	; &g2-MJ037900;
+      (==koseki		  . 161920)	; &g2-MJ037900;
+      (==daikanwa	  . 14389)	; &g2-MJ037900;
+      (->subsumptive
+       ((===daikanwa	    . 14389)	; &R-M-14389;
+	)
+       ((===mj		    . 037900)	; &R-MJ037900;
+	))
       ))
     ))
 (define-char

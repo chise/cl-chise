@@ -42,7 +42,7 @@
     (=gt		. 51621)	; &I-GT-51621;
     (=gt-k		. 02605)	; &I-GT-K02605;
     (=gt-pj-1		. #x4324)	; &I-GT-51621; [35-04]
-    (=daikanwa 		. 38682)	; &I-M-38682;
+    (=daikanwa		. 38682)	; &I-M-38682;
     (=daijiten		. 11917)	; &I-DJT-11917;
     (=shinjigen		.  8205)	; 辰
     (<-interchangeable
@@ -190,7 +190,7 @@
     (total-strokes	 . 6)
     (=ucs		. #x200AE)	; 𠂮
     (=cns11643-6	. #x2556)	; &I-C6-2556; [05-54]
-    (=daikanwa 		. 38683)	; &I-M-38683;
+    (=daikanwa		. 38683)	; &I-M-38683;
     (->subsumptive
      ((==daikanwa	  . 38683)	; &g2-M-38683;
       )
@@ -203,7 +203,7 @@
 (define-char
   '((ideographic-radical . 161)	; ⾠
     (ideographic-strokes . 0)
-    (=ucs 		. #x28443)	; 𨑃
+    (=ucs		. #x28443)	; 𨑃
     ))
 (define-char
   '((<-denotational
@@ -214,7 +214,7 @@
     (total-strokes	 . 7)
     (=ucs@iso		. #x28443)	; &C6-292C;
     (=cns11643-6	. #x292C)	; &C6-292C; [09-12]
-    (=daikanwa 		. 38684)	; &I-M-38684;
+    (=daikanwa		. 38684)	; &I-M-38684;
     (->subsumptive
      ((==daikanwa	  . 38684)	; &g2-M-38684;
       )
@@ -241,7 +241,7 @@
     (total-strokes	 . 8)
     (=ucs@iso		. #x28444)	; &C6-2E37;
     (=cns11643-6	. #x2E37)	; &C6-2E37; [14-23]
-    (=daikanwa 		. 38685)	; &I-M-38685;
+    (=daikanwa		. 38685)	; &I-M-38685;
     (->subsumptive
      ((==ucs@iso	  . #x28444)	; &g2-M-38685;
       (==cns11643-6	  . #x2E37)	; &g2-M-38685; [14-23]
@@ -333,8 +333,6 @@
      ((=ucs		  . #x5BF8)	; 寸
       ))
     (=ucs		. #x8FB1)	; 辱
-    (=ucs		. #x8FB1)	; 辱
-    (=>ucs@unicode 	. #x8FB1)	; 辱
     (=big5		. #xB064)	; &I-B-B064;
     ))
 (define-char
@@ -362,7 +360,7 @@
     (=gt		. 51624)	; &I-GT-51624;
     (=gt-k		. 06472)	; &I-GT-K06472;
     (=gt-pj-1		. #x3F2B)	; &I-GT-51624; [31-11]
-    (=daikanwa 		. 38686)	; &I-M-38686;
+    (=daikanwa		. 38686)	; &I-M-38686;
     (=daijiten		. 11918)	; &I-DJT-11918;
     (->subsumptive
      ((==ucs@jis	  . #x8FB1)	; &g2-MJ025747;
@@ -447,7 +445,6 @@
      ((=>ucs@iwds-1	  . #x8FB0)	; &A-IWDSU+8FB0;
       (=>iwds-1		  .  0451)	; &A-IWDSU+8FB0;
       ))
-    (=ucs		. #x8FB2)	; 農
     (=ucs		. #x8FB2)	; 農
     ))
 (define-char
@@ -566,7 +563,7 @@
       ))
     (=ucs@iso		. #x28446)	; &C6-592C;
     (=cns11643-6	. #x592C)	; &C6-592C; [57-12]
-    (=daikanwa 		. 38689)	; &I-M-38689;
+    (=daikanwa		. 38689)	; &I-M-38689;
     (->subsumptive
      ((==daikanwa	  . 38689)	; &g2-M-38689;
       )
@@ -609,7 +606,7 @@
       ))
     (=ucs@iso		. #x28447)	; &C6-592B;
     (=cns11643-6	. #x592B)	; &C6-592B; [57-11]
-    (=daikanwa 		. 38690)	; &I-M-38690;
+    (=daikanwa		. 38690)	; &I-M-38690;
     (->subsumptive
      ((==ucs@iso	  . #x28447)	; &g2-M-38690;
       (==daikanwa	  . 38690)	; &g2-M-38690;
@@ -683,7 +680,7 @@
       ))
     (=ucs@cns		. #x4885)	; &C4-476B;
     (=cns11643-4	. #x476B)	; &C4-476B; [39-75]
-    (=daikanwa 		. 38691)	; &I-M-38691;
+    (=daikanwa		. 38691)	; &I-M-38691;
     (->subsumptive
      ((==daikanwa	  . 38691)	; &g2-M-38691;
       )
@@ -765,12 +762,14 @@
     (ideographic-strokes . 8)
     (total-strokes	 . 15)
     (ideographic-structure
-     ?⿽
-     ((=>ucs@iwds-1	. #x8FB1)	; &A-IWDSU+8FB1;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER RIGHT")
+      (=ucs		  . #x2FFD)	; ⿽
       )
-     ((=>ucs@iwds-1	. #x5B82)	; &A-IWDSU+5B82;
+     ((=>ucs@iwds-1	  . #x8FB1)	; &A-IWDSU+8FB1;
+      )
+     ((=>ucs@iwds-1	  . #x5B82)	; &A-IWDSU+5B82;
       ))
-    (=ucs 		. #x28448)	; 𨑈
+    (=ucs		. #x28448)	; 𨑈
     ))
 (define-char
   '((<-denotational
@@ -780,9 +779,15 @@
     (ideographic-strokes . 8)
     (total-strokes	 . 15)
     (ideographic-structure
-     ?⿽
-     ?&MJ025747;
-     ?&AJ1-13840;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER RIGHT")
+      (=ucs		  . #x2FFD)	; ⿽
+      )
+     ((=ucs@unicode	  . #x8FB1)	; &MJ025747;
+      (=mj		  . 025747)	; &MJ025747;
+      )
+     ((=ucs@cns		  . #x5B82)	; &AJ1-13840;
+      (=adobe-japan1-4	  . 13840)	; &AJ1-13840;
+      ))
     (=ucs@iso		. #x28448)	; &U-00028448;
     ))
 (define-char
@@ -869,7 +874,7 @@
       ))
     (=ucs@unicode	. #x4889)	; &C7-5056;
     (=cns11643-7	. #x5056)	; &C7-5056; [48-54]
-    (=daikanwa 		. 38697)	; &I-M-38697;
+    (=daikanwa		. 38697)	; &I-M-38697;
     (=daijiten		. 11923)	; &I-DJT-11923;
     (->subsumptive
      ((==ucs@unicode	  . #x4889)	; &g2-M-38697;

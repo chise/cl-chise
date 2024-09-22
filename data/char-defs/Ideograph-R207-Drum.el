@@ -1468,6 +1468,24 @@
     ))
 (define-char
   '((ideographic-radical . 207)	; ⿎
+    (=ucs		. #x2A534)	; 𪔴
+    ))
+(define-char
+  '((ideographic-radical . 207)	; ⿎
+    (<-denotational
+     ((=ucs		. #x2A534)	; 𪔴
+      ))
+    (ideographic-strokes . 12)
+    (total-strokes	 . 25)
+    (ideographic-structure
+     ?⿱
+     ((=ucs@unicode	. #x9F13)	; &AJ1-01937;
+      )
+     ?隆)
+    (=ucs@iso		. #x2A534)	; 𪔴
+    ))
+(define-char
+  '((ideographic-radical . 207)	; ⿎
     (ideographic-strokes . 12)
     (total-strokes	 . 25)
     (ideographic-structure

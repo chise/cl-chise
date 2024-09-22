@@ -647,7 +647,7 @@
       (=adobe-japan1-0	  . 03031)	; &AJ1-03031;
       ))
     (=ucs@unicode	. #x9CE9)	; &AJ1-03403;
-    (=adobe-japan1-0	. 03403)	; &I-AJ1-03403;
+    (=adobe-japan1-0	. 03403)	; &AJ1-03403;
     (=jis-x0208		. #x4837)	; &I-J90-4837; [40-23]
     (=ks-x1001		. #x4F4D)	; &I-K0-4F4D; [47-45]
     (=cns11643-1	. #x676D)	; &I-C1-676D; [71-77]
@@ -6965,7 +6965,8 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs@unicode	  . #x821F)	; 舟
+     ((=ucs@unicode	  . #x821F)	; &AJ1-02360;
+      (=adobe-japan1-0	  . 02360)	; &AJ1-02360;
       )
      ((=ucs@unicode	  . #x9CE5)	; &AJ1-03031;
       (=adobe-japan1-0	  . 03031)	; &AJ1-03031;
@@ -8110,7 +8111,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs		  . #x8099)	; 肙
+     ((=ucs@unicode	  . #x8099)	; 肙
       )
      ((=ucs@unicode	  . #x9CE5)	; &AJ1-03031;
       (=adobe-japan1-0	  . 03031)	; &AJ1-03031;
@@ -23782,6 +23783,25 @@
     ))
 (define-char
   '((ideographic-radical . 196)	; ⿃
+    (=ucs		. #x2A1CD)	; 𪇍
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (<-denotational
+     ((=ucs		. #x2A1CD)	; 𪇍
+      ))
+    (ideographic-strokes . 12)
+    (total-strokes	 . 23)
+    (ideographic-structure
+     ?⿰
+     ((=ucs@unicode	. #x9CE5)	; &AJ1-03031;
+      )
+     ((=ucs@jis		. #x904E)	; &MJ026041;
+      ))
+    (=ucs@iso		. #x2A1CD)	; 𪇍
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
     (=ucs		. #x4D0C)	; 䴌
     ))
 (define-char
@@ -24290,6 +24310,31 @@
     (ideographic-strokes . 14)
     (total-strokes	 . 19)
     (=ucs		. #x9E72)	; 鹲
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 14)
+    (total-strokes	 . 19)
+    (ideographic-structure
+     ?⿰
+     ?翠
+     ?鳥)
+    (=ucs		. #x2EB5A)	; 𮭚
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 14)
+    (total-strokes	 . 19)
+    (ideographic-structure
+     ?⿰
+     ((=mj		. 020696)	; &MJ020696;
+      )
+     ((=ucs@unicode	. #x9CE5)	; &AJ1-03031;
+      ))
+    (<-denotational
+     ((=ucs		. #x2EB5A)	; 𮭚
+      ))
+    (=ucs@JP/hanazono	. #x2EB5A)	; 𮭚
     ))
 (define-char
   '((ideographic-radical . 196)	; ⿃

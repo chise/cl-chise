@@ -543,7 +543,7 @@
      ((=>ucs@iwds-1	  . #x2DBC7)	; &A-IWDSU+2DBC7;
       ))
     (<-denotational@usage
-     ((==>daijiten	  . 05836)	; &BUCS+6BCF;
+     ((==>ucs@bucs	  . #x6BCF)	; &BUCS+6BCF;
       ))
     (ideographic-radical . 80)	; ⽏
     (ideographic-strokes . 2)
@@ -679,6 +679,7 @@
      ((=>ucs@component	  . #x6BCB)	; &A-compU+6BCB;
       (=>iwds-1		  .  0182)	; &A-compU+6BCB;
       ))
+    (sound@ja/on	"mai")
     (=ucs		. #x23AED)	; 𣫭
     ))
 (define-char
@@ -696,13 +697,24 @@
       )
      ((=ucs		  . #x6BCD)	; 母
       ))
-    (=ucs@iso		. #x23AED)	; &C6-283D;
-    (=cns11643-6	. #x283D)	; &C6-283D; [08-29]
+    (=ucs@iso		. #x23AED)	; &MJ038961;
+    (=mj		. 038961)	; &MJ038961;
+    (=cns11643-6	. #x283D)	; &I-C6-283D; [08-29]
+    (=koseki		. 189590)	; &MJ038961;
     (=daikanwa		. 16726)	; &I-M-16726;
     (=daijiten		. 05835)	; &I-DJT-05835;
-    (<-formed 
+    (<-formed
      ((=ucs		  . #x6BCF)	; 每
+      )
+     ((=ucs@unicode	  . #x6BCE)	; &AJ1-03734;
+      (=adobe-japan1-0	  . 03734)	; &AJ1-03734;
       ))
+    (<-formed$_1*sources
+     koseki mj)
+    (<-formed$_2*sources
+     koseki mj)
+    (<-formed*sources
+     koseki mj)
     (<-vulgar
      ((=ucs		  . #x6BCF)	; 每
       (=daikanwa	  . 16725)	; &I-M-16725;
@@ -711,14 +723,18 @@
     (<-vulgar*sources
      zhengzitong daikanwa daijiten)
     (->subsumptive
-     ((==ucs@iso	  . #x23AED)	; &g2-M-16726;
-      (==cns11643-6	  . #x283D)	; &g2-M-16726; [08-29]
-      (==daikanwa	  . 16726)	; &g2-M-16726;
-      (==daijiten	  . 05835)	; &g2-M-16726;
+     ((==ucs@iso	  . #x23AED)	; &g2-MJ038961;
+      (==mj		  . 038961)	; &g2-MJ038961;
+      (==cns11643-6	  . #x283D)	; &g2-MJ038961; [08-29]
+      (==koseki		  . 189590)	; &g2-MJ038961;
+      (==daikanwa	  . 16726)	; &g2-MJ038961;
+      (==daijiten	  . 05835)	; &g2-MJ038961;
       (->subsumptive
        ((===daikanwa	    . 16726)	; &R-M-16726;
 	)
        ((===daijiten	    . 05835)	; &R-DJT-05835;
+	)
+       ((===mj		    . 038961)	; &R-MJ038961;
 	)
        ((===hng-tsu	    . 08000)	; &HNG024-08000;
 	(<-HNG@chise
@@ -1609,9 +1625,8 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs@iso		  . #x23AED)	; &C6-283D;
-      (=cns11643-6	  . #x283D)	; &C6-283D; [08-29]
-      (=daikanwa	  . 16726)	; &I-M-16726;
+     ((=ucs@iso		  . #x23AED)	; &MJ038961;
+      (=mj		  . 038961)	; &MJ038961;
       )
      ((=ucs		  . #x2F982)	; 育
       ))
@@ -1623,6 +1638,8 @@
     (<-formed
      ((=ucs		  . #x2F982)	; 育
       ))
+    (<-formed$_1*sources
+     koseki)
     (<-formed*sources
      koseki)
     (<-same

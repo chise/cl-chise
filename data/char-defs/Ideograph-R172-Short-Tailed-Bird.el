@@ -3709,6 +3709,30 @@
   '((ideographic-radical . 172)	; ⾫
     (ideographic-strokes . 7)
     (total-strokes	 . 15)
+    (ideographic-structure
+     ?⿱
+     ?隹
+     ?冏)
+    (=ucs		. #x2E97C)	; 𮥼
+    ))
+(define-char
+  '((ideographic-radical . 172)	; ⾫
+    (ideographic-strokes . 7)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ?⿱
+     ?隹
+     ((=ucs@unicode	. #x518F)	; &AJ1-04223;
+      ))
+    (<-denotational
+     ((=ucs		. #x2E97C)	; 𮥼
+      ))
+    (=ucs@JP/hanazono	. #x2E97C)	; 𮥼
+    ))
+(define-char
+  '((ideographic-radical . 172)	; ⾫
+    (ideographic-strokes . 7)
+    (total-strokes	 . 15)
     (=ucs		. #x28FDA)	; 𨿚
     ))
 (define-char

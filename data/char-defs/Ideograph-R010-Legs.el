@@ -6061,6 +6061,38 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
+     ((=ucs-itaiji-005	  . #x56EA)	; &U-i005+56EA;
+      )
+     ((=>ucs@iwds-1	  . #x513F)	; &A-IWDSU+513F;
+      (=>iwds-1		  .  11922)	; &A-IWDSU+513F;
+      ))
+    (=>ucs-itaiji-001	. #x2B918)	; &A-U-i001+2B918;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-001	  . #x2B918)	; &A-U-i001+2B918;
+      ))
+    (ideographic-radical . 10)	; ⼉
+    (ideographic-strokes . 7)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs-itaiji-005	  . #x56EA)	; &U-i005+56EA;
+      )
+     ((=ucs		  . #x513F)	; 儿
+      ))
+    (=ucs-itaiji-001	. #x2B918)	; &U-i001+2B918;
+    ))
+(define-char
+  '((ideographic-radical . 10)	; ⼉
+    (ideographic-strokes . 7)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
      ((=>ucs@component	  . #x4E30)	; &A-compU+4E30;
       )
      ((=ucs		  . #x5144)	; 兄
@@ -8955,6 +8987,41 @@
       )
      ((==ucs@cns	  . #x204CF)	; &g2-CU+204CF;
       (==cns11643-5	  . #x6B6D)	; &g2-CU+204CF; [75-77]
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 10)	; ⼉
+    (ideographic-strokes . 18)
+    (total-strokes	 . 20)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5149)	; 光
+      )
+     ((=ucs		  . #x69AE)	; 榮
+      ))
+    (=ucs		. #x204D0)	; 𠓐
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x204D0)	; 𠓐
+      ))
+    (ideographic-radical . 10)	; ⼉
+    (ideographic-strokes . 18)
+    (total-strokes	 . 20)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@unicode	  . #x5149)	; &MJ007221;
+      (=mj		  . 007221)	; &MJ007221;
+      )
+     ((=ucs		  . #x69AE)	; 榮
+      ))
+    (=ucs@iso		. #x204D0)	; &U-000204D0;
+    (->subsumptive
+     ((==ucs@iso	  . #x204D0)	; &g2-IU-000204D0;
       ))
     ))
 (define-char

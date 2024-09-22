@@ -270,6 +270,40 @@
     ))
 (define-char
   '((ideographic-radical . 127)	; ⽾
+    (ideographic-strokes . 3)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x8012)	; 耒
+      )
+     ((=ucs		  . #x5973)	; 女
+      ))
+    (=ucs		. #x31EF2)	; 𱻲
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x31EF2)	; 𱻲
+      ))
+    (ideographic-radical . 127)	; ⽾
+    (ideographic-strokes . 3)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@cns		  . #x8012)	; &AJ1-06205;
+      (=ucs@jis		  . #x8012)	; &AJ1-06205;
+      (=ucs@ks		  . #x8012)	; &AJ1-06205;
+      (=adobe-japan1-0	  . 06205)	; &AJ1-06205;
+      )
+     ((=ucs		  . #x5973)	; 女
+      ))
+    (=ucs@JP/hanazono	. #x31EF2)	; &hanaJU+31EF2;
+    ))
+(define-char
+  '((ideographic-radical . 127)	; ⽾
     (ideographic-strokes . 4)
     (total-strokes	 . 10)
     (ideographic-structure
@@ -692,8 +726,6 @@
 (define-char
   '((<-denotational@usage
      ((==>ucs@bucs	  . #x8019)	; &BUCS+8019;
-      (==>ucs@bucs	. #x8019)	; &BUCS+8019;
-      (==>daijiten	. 09275)	; &A2-DJT-09275;
       ))
     (ideographic-radical . 127)	; ⽾
     (ideographic-strokes . 4)
@@ -2302,6 +2334,10 @@
       ))
     ))
 (define-char
+  '((ideographic-radical . 127)	; ⽾
+    (=ucs 		. #x26523)	; 𦔣
+    ))
+(define-char
   '((<-denotational
      ((=ucs		  . #x26523)	; 𦔣
       ))
@@ -2853,17 +2889,13 @@
     (=daikanwa		. 28985)	; &I-M-28985;
     ))
 (define-char
-  '((ideographic-radical . 127)	; ⽾
-    (=ucs		. #x26523)	; 𦔣
-    ))
-(define-char
   '((<-denotational
      ((=ucs		  . #x26523)	; 𦔣
       ))
     (ideographic-radical . 127)	; ⽾
     (ideographic-strokes . 12)
     (total-strokes	 . 18)
-    (=ucs@iso		. #x26523)	; &U-00026523;
+    (=ucs@iso 		. #x26523)	; &U-00026523;
     ))
 (define-char
   '((ideographic-radical . 127)	; ⽾

@@ -4307,6 +4307,21 @@
     (ideographic-strokes . 8)
     (total-strokes	 . 16)
     (ideographic-structure
+     ?⿱
+     ?雨
+     ?沲)
+    (=ucs		. #x290F0)	; 𩃰
+    (=cbeta		. 6416)		; &I-CB06416;
+    (->subsumptive
+     ((==ucs@iso		. #x290F0)	; 𩃰
+      (==cbeta		. 6416)		; &I-CB06416;
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 173)	; ⾬
+    (ideographic-strokes . 8)
+    (total-strokes	 . 16)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
@@ -4429,19 +4444,33 @@
     (=cns11643-3	. #x5673)	; &C3-5673; [54-83]
     ))
 (define-char
-  '((=>ucs		. #x290F6)	; 𩃶
+  '((=ucs		. #x290F6)	; 𩃶
     (ideographic-radical . 173)	; ⾬
     (ideographic-strokes . 9)
     (total-strokes	 . 17)
-    (=daikanwa		. 42347)	; &M-42347;
     ))
 (define-char
-  '((morohashi-daikanwa	42347 0 0)
+  '((<-denotational
+     ((=ucs		. #x290F6)	; 𩃶
+      ))
     (ideographic-radical . 173)	; ⾬
     (ideographic-strokes . 9)
     (total-strokes	 . 17)
-    (=ucs		. #x290F6)	; 𩃶
+    (=daikanwa		. 42347)	; &C4-595A;
+    (ideographic-radical . 173)	; ⾬
+    (ideographic-strokes . 9)
+    (total-strokes	 . 17)
+    (<-denotational
+     ((=ucs		. #x290F6)	; 𩃶
+      ))
+    (=ucs@iso		. #x290F6)	; 𩃶
     (=cns11643-4	. #x595A)	; &I-C4-595A; [57-58]
+    (->subsumptive
+     ((==daikanwa		. 42347)	; &C4-595A;
+      )
+     ((==ucs@iso		. #x290F6)	; 𩃶
+      (==cns11643-4	. #x595A)	; &I-C4-595A; [57-58]
+      ))
     ))
 (define-char
   '((ideographic-radical . 173)	; ⾬
@@ -7315,7 +7344,6 @@
      ((=ucs		  . #x96E8)	; 雨
       )
      ((=ucs@unicode	  . #x8846)	; &AJ1-02362;
-      (=adobe-japan1-0	  . 02362)	; &AJ1-02362;
       ))
     (=ucs@cns		. #x29167)	; &C4-647A;
     (=cns11643-4	. #x647A)	; &C4-647A; [68-90]

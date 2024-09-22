@@ -2153,7 +2153,11 @@
     (=gb2312		. #x6838)	; &I-G0-6838; [72-24]
     ))
 (define-char
-  '((ideographic-radical . 178)	; ⾱
+  '((<-denotational@usage
+     ((ideographic-radical . 178)	; ⾱
+      (==>ucs@bucs	. #x97DE)	; &BUCS+97DE;
+      ))
+    (ideographic-radical . 178)	; ⾱
     (ideographic-strokes . 9)
     (total-strokes	 . 13)
     (ideographic-structure
@@ -2180,7 +2184,7 @@
       )
      ((=ucs		  . #x97E6)	; 韦
       )
-     ((=ucs		  . #x6637)	; 昷
+     ((=ucs@unicode	  . #x6637)	; 昷
       ))
     (=ucs@unicode	. #x97EB)	; &G0-6839;
     (=gb2312		. #x6839)	; &G0-6839; [72-25]
@@ -2561,7 +2565,14 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 178)	; ⾱
+  '((<-denotational@usage
+     ((ideographic-radical . 178)	; ⾱
+      (==>daijiten	. 13261)	; &A2-DJT-13261;
+      )
+     ((ideographic-radical . 178)	; ⾱
+      (==>ucs@bucs	. #x97DE)	; &BUCS+97DE;
+      ))
+    (ideographic-radical . 178)	; ⾱
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
@@ -2599,6 +2610,7 @@
     (=hanyo-denshi/jb	. #x6768)	; &I-HD-JB-6768; [71-72]
     (=hanyo-denshi/ks	. 489270)	; &MJ028101;
     (=daikanwa		. 43191)	; &I-M-43191;
+    (=daijiten		. 13261)	; &I-DJT-13261;
     (=jef-china3	. #x6CCD)	; &I-JC3-6CCD;
     (->subsumptive
      ((total-strokes	   . 19)
@@ -2641,6 +2653,7 @@
       (==jis-x0213-1	  . #x7D73)	; &g2-MJ028101; [93-83]
       (==hanyo-denshi/jb  . #x6768)	; &g2-MJ028101; [71-72]
       (==jef-china3	  . #x6CCD)	; &g2-MJ028101;
+      (==daijiten		. 13261)	; &I-DJT-13261;
       (->subsumptive
        ((===jis-x0212	    . #x6768)	; &R-HD-JB-6768; [71-72]
 	(===jis-x0213-1	    . #x7D73)	; &R-HD-JB-6768; [93-83]
@@ -2665,7 +2678,7 @@
       )
      ((=ucs-itaiji-003	  . #x97CB)	; &U-i003+97CB;
       )
-     ((=ucs		  . #x6637)	; 昷
+     ((=ucs@unicode	  . #x6637)	; 昷
       ))
     (===hng-kar		. 04390)	; &HNG018-04390;
     ))
@@ -2683,7 +2696,7 @@
      ((=ucs@unicode	  . #x97CB)	; &MJ028060;
       (=mj		  . 028060)	; &MJ028060;
       )
-     ((=ucs		  . #x6637)	; 昷
+     ((=ucs@unicode	  . #x6637)	; 昷
       ))
     (=ucs@unicode	. #x97DE)	; &MJ028099;
     (=ucs@JP/hanazono	. nil)

@@ -515,7 +515,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=ucs		  . #x20BA5)	; 𠮥
+     ((=ucs@iso		  . #x20BA5)	; 𠮥
       )
      ((=ucs@unicode	  . #x6BD4)	; &AJ1-03450;
       (=adobe-japan1-0	  . 03450)	; &AJ1-03450;
@@ -1668,6 +1668,9 @@
   '((<-denotational
      ((=>ucs@cognate	  . #x6BDA)	; &A-cgnU+6BDA;
       ))
+    (<-denotational@usage
+     ((==>ucs@bucs	  . #x6BDA)	; &BUCS+6BDA;
+      ))
     (ideographic-radical . 81)	; ⽐
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
@@ -1707,6 +1710,7 @@
     (=big5		. #xC0D5)	; &I-B-C0D5;
     (=koseki		. 189980)	; &MJ014951;
     (=daikanwa		. 16767)	; &I-M-16767;
+    (=daijiten		. 05849)	; &I-DJT-05849;
     (->subsumptive
      ((==ucs@unicode	  . #x6BDA)	; &g2-MJ014951;
       (==mj		  . 014951)	; &g2-MJ014951;
@@ -1715,8 +1719,11 @@
       (==iso-ir165	  . #x7A3B)	; &g2-MJ014951; [90-27]
       (==jis-x0213-2	  . #x6E29)	; &g2-MJ014951; [78-09]
       (==daikanwa	  . 16767)	; &g2-MJ014951;
+      (==daijiten	  . 05849)	; &g2-MJ014951;
       (->subsumptive
        ((===daikanwa	    . 16767)	; &R-M-16767;
+	)
+       ((===daijiten	    . 05849)	; &R-DJT-05849;
 	)
        ((===jis-x0212	    . #x4639)	; &R-JX2-6E29; [38-25]
 	(===jis-x0213-2	    . #x6E29)	; &R-JX2-6E29; [78-09]
@@ -1731,6 +1738,26 @@
      ((==ucs@cns	  . #x6BDA)	; &g2-CU+6BDA;
       (==cns11643-1	  . #x737E)	; &g2-CU+6BDA; [83-94]
       ))
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x6BDA)	; 毚
+      ))
+    (ideographic-radical . 81)	; ⽐
+    (ideographic-strokes . 12)
+    (total-strokes	 . 16)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs@unicode	  . #x3C8B)	; &C4-297B;
+      (=cns11643-4	  . #x297B)	; &C4-297B; [09-91]
+      (=daikanwa	  . 16751)	; &I-M-16751;
+      )
+     ((=ucs@unicode	  . #x514D)	; &MJ007229;
+      (=mj		  . 007229)	; &MJ007229;
+      ))
+    (=cbeta		. 08585)	; &CB08585;
     ))
 (define-char
   '((<-denotational
@@ -1926,4 +1953,9 @@
   '((ideographic-radical . 81)	; ⽐
     (==>ucs@bucs	. #x6BD4)	; &BUCS+6BD4;
     (==>daijiten	. 05841)	; &BUCS+6BD4;
+    ))
+(define-char
+  '((ideographic-radical . 81)	; ⽐
+    (==>ucs@bucs	. #x6BDA)	; &BUCS+6BDA;
+    (==>daijiten	. 05849)	; &BUCS+6BDA;
     ))

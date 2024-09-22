@@ -1632,18 +1632,6 @@
   '((ideographic-radical . 52)	; ⼳
     (ideographic-strokes . 8)
     (total-strokes	 . 11)
-    (ideographic-structure
-     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO MIDDLE AND RIGHT")
-      (=ucs		  . #x2FF2)	; ⿲
-      )
-     ((=>ucs@iwds-1	  . #x5E7A)	; &A-IWDSU+5E7A;
-      (=>iwds-1		  .  0129)	; &A-IWDSU+5E7A;
-      )
-     ((=ucs		  . #x767D)	; 白
-      )
-     ((=>ucs@iwds-1	  . #x5E7A)	; &A-IWDSU+5E7A;
-      (=>iwds-1		  .  0129)	; &A-IWDSU+5E7A;
-      ))
     (=>big5-cdp		. #x8BF4)	; &A-CDP-8BF4;
     ))
 (define-char
@@ -1653,16 +1641,6 @@
     (ideographic-radical . 52)	; ⼳
     (ideographic-strokes . 8)
     (total-strokes	 . 11)
-    (ideographic-structure
-     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO MIDDLE AND RIGHT")
-      (=ucs		  . #x2FF2)	; ⿲
-      )
-     ((=ucs		  . #x5E7A)	; 幺
-      )
-     ((=ucs		  . #x767D)	; 白
-      )
-     ((=ucs		  . #x5E7A)	; 幺
-      ))
     (=big5-cdp		. #x8BF4)	; &CDP-8BF4;
     (->subsumptive
      ((==big5-cdp	  . #x8BF4)	; &g2-CDP-8BF4;

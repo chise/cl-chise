@@ -409,6 +409,24 @@
       ))
     ))
 (define-char
+  '((<-denotational
+     ((=ucs		  . #x4E87)	; 亇
+      ))
+    (ideographic-radical . 6)	; ⼅
+    (ideographic-strokes . 2)
+    (total-strokes	 . 3)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((name*		  . "ideographic component person for top")
+      (=ucs		  . #x20089)	; 𠂉
+      )
+     ((=ucs		  . #x2010C)	; 𠄌
+      ))
+    (=ucs-itaiji-002	. #x4E87)	; &U-i002+4E87;
+    ))
+(define-char
   '((ideographic-radical . 6)	; ⼅
     (ideographic-strokes . 2)
     (total-strokes	 . 3)
@@ -1089,6 +1107,25 @@
       ))
     (<-vulgar*sources
      songyuan-yilai-suzipu daikanwa shinjigen@1ed)
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@cognate	  . #x627F)	; &A-cgnU+627F;
+      ))
+    (ideographic-radical . 6)	; ⼅
+    (ideographic-strokes . 6)
+    (total-strokes	 . 7)
+    (=ucs		. #x20118)	; 𠄘
+    (=big5-cdp		. #x8763)	; &I-CDP-8763;
+    (->subsumptive
+     ((==ucs@iso	  . #x20118)	; &g2-CDP-8763;
+      (==big5-cdp	  . #x8763)	; &g2-CDP-8763;
+      (->subsumptive
+       ((===big5-cdp	    . #x8763)	; &R-CDP-8763;
+	)
+       ((===ucs@iso	    . #x20118)	; &R-U-00020118;
+	))
+      ))
     ))
 (define-char
   '((<-denotational@usage

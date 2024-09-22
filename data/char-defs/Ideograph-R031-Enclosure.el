@@ -3512,6 +3512,20 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
+     ((=ucs		  . #x4E3F)	; 丿
+      )
+     ((=ucs		  . #x211AA)	; 𡆪
+      ))
+    (=ucs-itaiji-005	. #x56EA)	; &U-i005+56EA;
+    ))
+(define-char
+  '((ideographic-radical . 31)	; ⼞
+    (ideographic-strokes . 4)
+    (total-strokes	 . 7)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
      ((=ucs		  . #x4E00)	; 一
       )
      ((=>ucs@iwds-1	  . #x56DE)	; &A-IWDSU+56DE;
@@ -5239,6 +5253,20 @@
       (=adobe-japan1-0	  . 01444)	; &AJ1-01444;
       ))
     (=ucs@JP/hanazono	. #x2EC18)	; &hanaJU+2EC18;
+    ))
+(define-char
+  '((ideographic-radical . 31)	; ⼞
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER FULL SURROUND")
+      (=ucs		  . #x2FF4)	; ⿴
+      )
+     ((=ucs		  . #x56D7)	; 囗
+      )
+     ((=ucs		  . #x866B)	; 虫
+      ))
+    (=ucs		. #x3157A)	; 𱕺
     ))
 (define-char
   '((<-denotational
@@ -8137,11 +8165,35 @@
   '((ideographic-radical . 31)	; ⼞
     (ideographic-strokes . 10)
     (total-strokes	 . 13)
-    (hanyu-dazidian	1 724 9)
     (=ucs		. #x2120D)	; 𡈍
-    (=cns11643-6	. #x5147)	; &I-C6-5147; [49-39]
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x2120D)	; 𡈍
+      ))
+    (ideographic-radical . 31)	; ⼞
+    (ideographic-strokes . 10)
+    (total-strokes	 . 13)
+    (hanyu-dazidian	1 724 9)
+    (=ucs@iso		. #x2120D)	; &C6-5147;
+    (=cns11643-6	. #x5147)	; &C6-5147; [49-39]
     (=big5-cdp		. #x8559)	; &I-CDP-8559;
     (=daikanwa		. 04823)	; &I-M-04823;
+    (->subsumptive
+     ((==ucs@iso	  . #x2120D)	; &g2-CDP-8559;
+      (==cns11643-6	  . #x5147)	; &g2-CDP-8559; [49-39]
+      (==big5-cdp	  . #x8559)	; &g2-CDP-8559;
+      (==daikanwa	  . 04823)	; &g2-CDP-8559;
+      (->subsumptive
+       ((===daikanwa	    . 04823)	; &R-M-04823;
+	)
+       ((===big5-cdp	    . #x8559)	; &R-CDP-8559;
+	)
+       ((===cns11643-6	    . #x5147)	; &R-C6-5147; [49-39]
+	)
+       ((===ucs@iso	    . #x2120D)	; &R-U-0002120D;
+	))
+      ))
     ))
 (define-char
   '((ideographic-radical . 31)	; ⼞

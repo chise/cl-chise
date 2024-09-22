@@ -377,9 +377,13 @@
     (ideographic-strokes . 4)
     (total-strokes	 . 10)
     (ideographic-structure
-     ?⿱
-     ?老
-     ?毛)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x8001)	; 老
+      )
+     ((=ucs		  . #x6BDB)	; 毛
+      ))
     (=ucs		. #x8004)	; 耄
     ))
 (define-char
@@ -408,7 +412,7 @@
     (=gt		. 37319)	; &I-GT-37319;
     (=gt-k		. 06628)	; &I-GT-K06628;
     (=gt-pj-1		. #x664E)	; &I-GT-37319; [70-46]
-    (=daikanwa 		. 28848)	; &I-M-28848;
+    (=daikanwa		. 28848)	; &I-M-28848;
     (=daijiten		. 09253)	; &I-DJT-09253;
     (=shinjigen		.  6344)	; &AJ1-06203;
     (->subsumptive
@@ -1123,7 +1127,7 @@
     (ideographic-radical . 125)	; ⽼
     (ideographic-strokes . 9)
     (total-strokes	 . 15)
-    (=ucs  		. #x264C1)	; 𦓁
+    (=ucs 		. #x264C1)	; 𦓁
     ))
 (define-char
   '((<-denotational

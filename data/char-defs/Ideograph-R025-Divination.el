@@ -440,7 +440,7 @@
      ((name		  . "CJK RADICAL DIVINATION")
       (=ucs		  . #x2E8A)	; ⺊
       )
-     ((=>ucs@component	. #x4E86)	; 了
+     ((=>ucs@component	  . #x4E86)	; &A-compU+4E86;
       ))
     (=>ucs@component	. #x2A7FD)	; &A-compU+2A7FD;
     ))

@@ -2196,11 +2196,52 @@
   '((ideographic-radical . 28)	; ⼛
     (ideographic-strokes . 7)
     (total-strokes	 . 9)
-    (hanyu-dazidian	1 397 9)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x53BB)	; 去
+      )
+     ((=ucs		  . #x53CA)	; 及
+      ))
     (=ucs		. #x20AF3)	; 𠫳
-    (=cns11643-4	. #x2856)	; &I-C4-2856; [08-54]
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x20AF3)	; 𠫳
+      ))
+    (ideographic-radical . 28)	; ⼛
+    (ideographic-strokes . 7)
+    (total-strokes	 . 9)
+    (hanyu-dazidian	1 397 9)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@unicode	  . #x53BB)	; &AJ1-01672;
+      (=adobe-japan1-0	  . 01672)	; &AJ1-01672;
+      )
+     ((=ucs@cns		  . #x53CA)	; &MJ007989;
+      (=ucs@ks		  . #x53CA)	; &MJ007989;
+      (=mj		  . 007989)	; &MJ007989;
+      ))
+    (=ucs@iso		. #x20AF3)	; &C4-2856;
+    (=cns11643-4	. #x2856)	; &C4-2856; [08-54]
     (=daikanwa		. 48989)	; &I-M-48989;
-    (=hanziku-1		. #xF7BB)	; &I-HZK01-F7BB;
+    (->subsumptive
+     ((==ucs@iso	  . #x20AF3)	; &g2-M-48989;
+      (==cns11643-4	  . #x2856)	; &g2-M-48989; [08-54]
+      (==daikanwa	  . 48989)	; &g2-M-48989;
+      (->subsumptive
+       ((===daikanwa	    . 48989)	; &R-M-48989;
+	)
+       ((===cns11643-4	    . #x2856)	; &R-C4-2856; [08-54]
+	)
+       ((===ucs@iso	    . #x20AF3)	; &R-U-00020AF3;
+	)
+       ((=hanziku-1	    . #xF7BB)	; &HZK01-F7BB;
+	))
+      ))
     ))
 (define-char
   '((<-denotational@component
@@ -3137,6 +3178,14 @@
       )
      ((=ucs		  . #x5C0F)	; 小
       ))
+    (ideographic-structure@apparent
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x53BD)	; 厽
+      )
+     ((=>ucs@iwds-1	  . #x5C12)	; &A-IWDSU+5C12;
+      ))
     (=ucs		. #x3558)	; 㕘
     (<-formed
      ((=ucs		  . #x53C3)	; 參
@@ -3159,6 +3208,14 @@
       (=mj		  . 031984)	; &MJ031984;
       )
      ((=ucs		  . #x5C0F)	; 小
+      ))
+    (ideographic-structure@apparent
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x53BD)	; 厽
+      )
+     ((=ucs		  . #x5C12)	; 尒
       ))
     (=ucs@unicode	. #x3558)	; &C3-3456;
     (=cns11643-3	. #x3456)	; &C3-3456; [20-54]

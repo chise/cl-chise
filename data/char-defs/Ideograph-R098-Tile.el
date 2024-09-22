@@ -3441,6 +3441,8 @@
       )
      ((=ucs		  . #x74E6)	; 瓦
       ))
+    (sound@ja/on/go	"ryaku")
+    (sound@ja/on/kan	"reki")
     (=ucs		. #x3F41)	; 㽁
     (<-formed
      ((=ucs		  . #x9B32)	; 鬲
@@ -3475,9 +3477,21 @@
       (=shinjigen	  .  9503)	; &AJ1-07300;
       ))
     (<-formed$_1*sources
-     shinjigen)
+     shinjigen jiyun)
     (<-formed*sources
-     shinjigen)
+     shinjigen jiyun)
+    (<-same
+     ((=ucs@jis		  . #x9B32)	; &AJ1-07300;
+      (=adobe-japan1-0	  . 07300)	; &AJ1-07300;
+      )
+     ((=daikanwa	  . 45679)	; &M-45679;
+      ))
+    (<-same$_1*sources
+     shuowen jiyun)
+    (<-same$_2*sources
+     jiyun)
+    (<-same*sources
+     jiyun)
     (->subsumptive
      ((==ucs@unicode	  . #x3F41)	; &g2-M-21599;
       (==daikanwa	  . 21599)	; &g2-M-21599;
@@ -4609,6 +4623,8 @@
       )
      ((=ucs		  . #x74E6)	; 瓦
       ))
+    (sound@ja/on/go	"ru")
+    (sound@ja/on/kan	"rIu")
     (=ucs		. #x24BB7)	; 𤮷
     ))
 (define-char
@@ -4627,7 +4643,7 @@
      ((=ucs		  . #x74E6)	; 瓦
       ))
     (=ucs@iso		. #x24BB7)	; &M-21640;
-    (=daikanwa 		. 21640)	; &M-21640;
+    (=daikanwa		. 21640)	; &M-21640;
     (->subsumptive
      ((==ucs@iso	  . #x24BB7)	; &g2-M-21640;
       (==daikanwa	  . 21640)	; &g2-M-21640;
@@ -4650,6 +4666,7 @@
       )
      ((=ucs		  . #x74E6)	; 瓦
       ))
+    (sound@ja/on	"rai")
     (=ucs		. #x24BB8)	; 𤮸
     ))
 (define-char
@@ -4670,7 +4687,7 @@
       ))
     (=ucs@iso		. #x24BB8)	; &C5-7A6C;
     (=cns11643-5	. #x7A6C)	; &C5-7A6C; [90-76]
-    (=daikanwa 		. 21641)	; &I-M-21641;
+    (=daikanwa		. 21641)	; &I-M-21641;
     (->subsumptive
      ((==ucs@iso	  . #x24BB8)	; &g2-M-21641;
       (==cns11643-5	  . #x7A6C)	; &g2-M-21641; [90-76]

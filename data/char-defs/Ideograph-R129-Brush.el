@@ -815,9 +815,7 @@
     (ideographic-strokes . 4)
     (total-strokes	 . 9)
     (ideographic-structure
-     ((name		  . "IDEOGRAPHIC DESCRIPTION CHARACTER OVERLAID")
-      (=ucs		  . #x2FFB)	; ⿻
-      )
+     ?&U-i001+2FF1;
      ((=ucs		  . #x26612)	; 𦘒
       )
      ((=ucs		  . #x206AA)	; 𠚪
@@ -832,9 +830,7 @@
     (ideographic-strokes . 4)
     (total-strokes	 . 9)
     (ideographic-structure
-     ((name		  . "IDEOGRAPHIC DESCRIPTION CHARACTER OVERLAID")
-      (=ucs		  . #x2FFB)	; ⿻
-      )
+     ?&U-i001+2FF1;
      ((=ucs		  . #x26612)	; 𦘒
       )
      ((=ucs@iso		  . #x206AA)	; &MJ031242;
@@ -1340,6 +1336,41 @@
     (===hng-kar		. 03200)	; &HNG018-03200;
     ))
 (define-char
+  '((<-denotational
+     ((=>ucs@cognate	  . #x8085)	; &A-cgnU+8085;
+      ))
+    (<-denotational@usage
+     ((==>ucs@bucs	  . #x8085)	; &BUCS+8085;
+      ))
+    (ideographic-radical . 129)	; ⾀
+    (ideographic-strokes . 8)
+    (total-strokes	 . 14)
+    (ideographic-structure
+     ((=ucs-itaiji-001	  . #x2FF1)	; &U-i001+2FF1;
+      )
+     ((=>gt-k		  . 02332)	; &A-GT-K02332;
+      )
+     ((=ucs		  . #x23D92)	; 𣶒
+      ))
+    (=>ucs-itaiji-005	. #x8085)	; &A-U-i005+8085;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-005	  . #x8085)	; &A-U-i005+8085;
+      ))
+    (ideographic-radical . 129)	; ⾀
+    (ideographic-strokes . 8)
+    (total-strokes	 . 14)
+    (ideographic-structure
+     ((=ucs-itaiji-001	  . #x2FF1)	; &U-i001+2FF1;
+      )
+     ((=gt-k		  . 02332)	; &GT-K02332;
+      )
+     ((=ucs		  . #x23D92)	; 𣶒
+      ))
+    (=ucs-itaiji-005	. #x8085)	; &U-i005+8085;
+    ))
+(define-char
   '((<-denotational@usage
      ((==>ucs@bucs	  . #x8086)	; &BUCS+8086;
       ))
@@ -1801,37 +1832,6 @@
     (total-strokes	 . 14)
     (=ucs		. #x2661E)	; 𦘞
     (=cns11643-6	. #x6062)	; &I-C6-6062; [64-66]
-    ))
-(define-char
-  '((<-denotational
-     ((=>ucs@cognate	  . #x8085)	; &A-cgnU+8085;
-      ))
-    (<-denotational@usage
-     ((==>ucs@bucs	  . #x8085)	; &BUCS+8085;
-      ))
-    (ideographic-radical . 129)	; ⾀
-    (ideographic-strokes . 8)
-    (total-strokes	 . 14)
-    (ideographic-structure
-     ?&U-i001+2FF1;
-     ((=>gt-k		. 02332)	; &A-GT-K02332;
-      )
-     ?𣶒)
-    (=>ucs-itaiji-005	. #x8085)	; &U-i005+8085;
-    ))
-(define-char
-  '((<-denotational
-     ((=>ucs-itaiji-005	. #x8085)	; &BUCS+4E03;
-      ))
-    (ideographic-radical . 129)	; ⾀
-    (ideographic-strokes . 8)
-    (total-strokes	 . 14)
-    (ideographic-structure
-     ?&U-i001+2FF1;
-     ((=gt-k		. 02332)	; &GT-K02332;
-      )
-     ?𣶒)
-    (=ucs-itaiji-005	. #x8085)	; &U-i005+8085;
     ))
 (define-char
   '((ideographic-radical . 129)	; ⾀

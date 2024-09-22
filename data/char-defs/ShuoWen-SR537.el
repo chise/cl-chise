@@ -836,7 +836,7 @@
      ((=ucs		  . #x288BD)	; 𨢽
       ))
     (<-Zhouwen@shuowen
-     ((=shuowen-jiguge	. 51917)	; &SW-JIGUGE-51917;
+     ((=shuowen-jiguge	  . 51917)	; &SW-JIGUGE-51917;
       )
      ((=ucs		  . #x9178)	; 酸
       ))

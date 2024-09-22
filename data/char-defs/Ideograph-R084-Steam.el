@@ -1460,13 +1460,6 @@
     (=daikanwa		. 17082)	; &I-M-17082;
     ))
 (define-char
-  '((<-denotational
-     ((==>ucs@bucs	  . #x6C23)	; &BUCS+6C23;
-      ))
-    (ideographic-radical . 84)	; ⽓
-    (==>daijiten	. 05939)	; &A2-DJT-05939;
-    ))
-(define-char
   '((ideographic-radical . 84)	; ⽓
     (==>ucs@bucs	. #x6C23)	; &BUCS+6C23;
     ))
@@ -1474,6 +1467,13 @@
   '((ideographic-radical . 84)	; ⽓
     (==>ucs@bucs	. #x6C1B)	; &BUCS+6C1B;
     (==>daijiten	. 05941)	; &BUCS+6C1B;
+    ))
+(define-char
+  '((<-denotational
+     ((==>ucs@bucs	  . #x6C23)	; &BUCS+6C23;
+      ))
+    (ideographic-radical . 84)	; ⽓
+    (==>daijiten	. 05939)	; &A2-DJT-05939;
     ))
 (define-char
   '((<-denotational

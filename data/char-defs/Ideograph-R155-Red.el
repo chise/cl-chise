@@ -163,6 +163,37 @@
     ))
 (define-char
   '((ideographic-radical . 155)	; ⾚
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x8D64)	; 赤
+      )
+     ((=ucs		  . #x53CA)	; 及
+      ))
+    (=ucs		. #x27E5C)	; 𧹜
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x27E5C)	; 𧹜
+      ))
+    (ideographic-radical . 155)	; ⾚
+    (ideographic-strokes . 4)
+    (total-strokes	 . 11)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x8D64)	; 赤
+      )
+     ((=ucs@cns		  . #x53CA)	; &MJ007989;
+      (=ucs@ks		  . #x53CA)	; &MJ007989;
+      (=mj		  . 007989)	; &MJ007989;
+      ))
+    (=ucs@iso		. #x27E5C)	; &U-00027E5C;
+    ))
+(define-char
+  '((ideographic-radical . 155)	; ⾚
     (ideographic-strokes . 5)
     (total-strokes	 . 12)
     (=ucs		. #x27E5D)	; 𧹝
@@ -369,7 +400,7 @@
       ))
     (=ucs		. #x27E67)	; 𧹧
     (=cns11643-7	. #x293A)	; &I-C7-293A; [09-26]
-    (=daikanwa 		. 37011)	; &I-M-37011;
+    (=daikanwa		. 37011)	; &I-M-37011;
     (->subsumptive
      ((=>>daikanwa	  . 37011)	; &G-M-37011;
       (->subsumptive
@@ -604,7 +635,7 @@
      ((=ucs		  . #x8D64)	; 赤
       ))
     (=ucs@iso		. #x27E73)	; &M-37022;
-    (=daikanwa 		. 37022)	; &M-37022;
+    (=daikanwa		. 37022)	; &M-37022;
     (->subsumptive
      ((==ucs@iso	  . #x27E73)	; &g2-M-37022;
       (==daikanwa	  . 37022)	; &g2-M-37022;
@@ -626,11 +657,12 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
       (=ucs		  . #x2FF8)	; ⿸
       )
-     ((=ucs@unicode	  . #x501D)	; 倝
+     ((=ucs@unicode	  . #x501D)	; &AJ1-21127;
+      (=adobe-japan1-6	  . 21127)	; &AJ1-21127;
       )
      ((=ucs		  . #x8D64)	; 赤
       ))
-    (=ucs@cns 		. #x27E73)	; &C5-5E6A;
+    (=ucs@cns		. #x27E73)	; &C5-5E6A;
     (=cns11643-5	. #x5E6A)	; &C5-5E6A; [62-74]
     (->subsumptive
      ((==ucs@cns	  . #x27E73)	; &g2-CU+27E73;

@@ -13660,7 +13660,12 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 184)	; ⾷
+  '((<-denotational@usage
+     ((ideographic-radical . 184)	; ⾷
+      (==>ucs@bucs	. #x9942)	; &BUCS+9942;
+      (==>daijiten	. 13605)	; &A2-DJT-13605;
+      ))
+    (ideographic-radical . 184)	; ⾷
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
@@ -13717,6 +13722,7 @@
     (=gt		. 59629)	; &I-GT-59629;
     (=gt-pj-1		. #x713B)	; &I-GT-59629; [81-27]
     (=daikanwa		. 44339)	; &I-M-44339;
+    (=daijiten		. 13605)	; &I-DJT-13605;
     (=shinjigen		.  9295)	; &AJ1-07218;
     (->subsumptive
      ((==ucs@jis	  . #x9942)	; &g2-AJ1-07218;
@@ -13725,6 +13731,7 @@
       (==jis-x0213-1	  . #x713B)	; &g2-AJ1-07218; [81-27]
       (==gt		  . 59629)	; &g2-AJ1-07218;
       (==daikanwa	  . 44339)	; &g2-AJ1-07218;
+      (==daijiten		. 13605)	; &I-DJT-13605;
       (==shinjigen	  .  9295)	; &g2-AJ1-07218;
       (->subsumptive
        ((===daikanwa	    . 44339)	; &R-M-44339;
@@ -13768,7 +13775,7 @@
      ((name		  . "CJK RADICAL EAT THREE")
       (=ucs		  . #x2EDF)	; ⻟
       )
-     ((=ucs		  . #x6637)	; 昷
+     ((=ucs@unicode	  . #x6637)	; 昷
       ))
     (=ucs@unicode	. #x9942)	; &UU+9942;
     (=ucs@JP/hanazono	. nil)
@@ -13791,12 +13798,14 @@
      ((name		  . "CJK RADICAL EAT TWO")
       (=ucs		  . #x2EDE)	; ⻞
       )
-     ((=ucs		  . #x6637)	; 昷
+     ((=ucs@unicode	  . #x6637)	; 昷
       ))
     (=mj		. 028517)	; &MJ028517;
     (=hanyo-denshi/ib	. #x246F)	; &I-HD-IB-246F; [04-79]
     (=koseki		. 501890)	; &MJ028517;
     (=shinjigen		.  9296)	; &MJ028517;
+    (=daikanwa		. 44295)
+    (=daijiten		. 13602)	; &I-DJT-13602;
     (<-vulgar
      ((=ucs@jis		  . #x9942)	; &AJ1-07218;
       (=adobe-japan1-0	  . 07218)	; &AJ1-07218;
@@ -13809,6 +13818,7 @@
      ((==mj		  . 028517)	; &g2-MJ028517;
       (==hanyo-denshi/ib  . #x246F)	; &g2-MJ028517; [04-79]
       (==koseki		  . 501890)	; &g2-MJ028517;
+      (==daikanwa		. 44295)
       (==shinjigen	  .  9296)	; &g2-MJ028517;
       (->subsumptive
        ((===hanyo-denshi/ib . #x246F)	; &R-HD-IB-246F; [04-79]
@@ -16223,7 +16233,7 @@
     (<-denotational@usage
      ((ideographic-radical . 184)	; ⾷
       (==>ucs@bucs	. #x9952)	; &BUCS+9952;
-      (==>daijiten	. 13641)	; &A2-DJT-13641;
+      (==>daijiten	. 13641)	; &BUCS+9952;
       ))
     (ideographic-radical . 184)	; ⾷
     (ideographic-structure

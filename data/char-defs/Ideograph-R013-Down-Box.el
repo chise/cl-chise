@@ -269,7 +269,10 @@
     (=big5-cdp-var-004	. #x8BD6)	; &CDP-v004-8BD6;
     ))
 (define-char
-  '((ideographic-radical . 13)	; ⼌
+  '((<-denotational@component
+     ((=>ucs@component	  . #x5DFE)	; &A-compU+5DFE;
+      ))
+    (ideographic-radical . 13)	; ⼌
     (ideographic-strokes . 1)
     (total-strokes	 . 3)
     (ideographic-structure
@@ -2770,22 +2773,6 @@
     ))
 (define-char
   '((<-denotational
-     ((=ucs@cns		  . #x518E)	; &AJ1-21183;
-      (=ucs@jis		  . #x518E)	; &AJ1-21183;
-      (=adobe-japan1-6	  . 21183)	; &AJ1-21183;
-      ))
-    (ideographic-radical . 13)	; ⼌
-    (ideographic-strokes . 4)
-    (total-strokes	 . 6)
-    (=gt-k		. 02493)	; &GT-K02493;
-    (=gt-pj-k1		. #x3230)	; &GT-K02493; [18-16]
-    (->subsumptive
-     ((==gt-k		  . 02493)	; &g2-GT-K02493;
-      (==gt-pj-k1	  . #x3230)	; &g2-GT-K02493; [18-16]
-      ))
-    ))
-(define-char
-  '((<-denotational
      ((=ucs		  . #x518E)	; 冎
       ))
     (ideographic-radical . 13)	; ⼌
@@ -2820,6 +2807,25 @@
       ))
     (->subsumptive
      ((==big5-cdp	  . #x89A9)	; &g2-CDP-89A9;
+      ))
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs@cns		  . #x518E)	; &AJ1-21183;
+      (=ucs@jis		  . #x518E)	; &AJ1-21183;
+      (=adobe-japan1-6	  . 21183)	; &AJ1-21183;
+      ))
+    (ideographic-radical . 13)	; ⼌
+    (ideographic-strokes . 4)
+    (total-strokes	 . 6)
+    (=big5-cdp		. #x8A4F)	; &CDP-8A4F;
+    (=gt-k		. 02493)	; &I-GT-K02493;
+    (=gt-pj-k1		. #x3230)	; &CDP-8A4F; [18-16]
+    (->subsumptive
+     ((==big5-cdp	  . #x8A4F)	; &g2-CDP-8A4F;
+      )
+     ((==gt-k		  . 02493)	; &g2-GT-K02493;
+      (==gt-pj-k1	  . #x3230)	; &g2-GT-K02493; [18-16]
       ))
     ))
 (define-char
@@ -5579,7 +5585,7 @@
       (=>ucs@iwds-1/normalized . #x5195)	; &A-IWDSU+5195;
       ))
     (<-denotational@usage
-     ((==>daijiten	  . 00639)	; &A2-DJT-00639;
+     ((==>ucs@bucs	  . #x5195)	; &BUCS+5195;
       ))
     (ideographic-radical@ucs . 13)	; ⼌
     (ideographic-strokes@ucs . 9)
@@ -5758,16 +5764,6 @@
        ((=ucs		    . #x5195)	; 冕
 	)
        ((=ucs		    . #xE0102)	; 󠄂
-	))
-      (ideographic-structure
-       ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
-	(=ucs		    . #x2FF1)	; ⿱
-	)
-       ((name		    . "CJK RADICAL SUN")
-	(=ucs		    . #x2E9C)	; ⺜
-	)
-       ((==ucs@jis	    . #x514D)	; &g2-MJ007230;
-	(==mj		    . 007230)	; &g2-MJ007230;
 	))
       (==adobe-japan1-4	  . 14104)	; &g2-AJ1-14104;
       ))
@@ -7190,7 +7186,8 @@
     ))
 (define-char
   '((ideographic-radical . 13)	; ⼌
-    (==>daijiten	. 00639)	; &A2-DJT-00639;
+    (==>ucs@bucs	. #x5195)	; &BUCS+5195;
+    (==>daijiten	. 00639)	; &BUCS+5195;
     ))
 (define-char
   '((ideographic-radical . 13)	; ⼌

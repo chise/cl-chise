@@ -3277,6 +3277,20 @@
     ))
 (define-char
   '((ideographic-radical . 19)	; ⼒
+    (ideographic-strokes . 6)
+    (total-strokes	 . 8)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER FULL SURROUND")
+      (=ucs		  . #x2FF4)	; ⿴
+      )
+     ((=ucs		  . #x884C)	; 行
+      )
+     ((=ucs		  . #x529B)	; 力
+      ))
+    (=ucs		. #x2D124)	; 𭄤
+    ))
+(define-char
+  '((ideographic-radical . 19)	; ⼒
     (ideographic-strokes . 7)
     (total-strokes	 . 9)
     (ideographic-structure
@@ -6497,8 +6511,8 @@
     (<-same*sources
      jiyun daikanwa)
     (->ancient
-     ((=ucs@iso		  . #x23283)	; &C7-2357;
-      (=cns11643-7	  . #x2357)	; &C7-2357; [03-55]
+     ((=ucs@iso		  . #x23283)	; &MJ037781;
+      (=mj		  . 037781)	; &MJ037781;
       (=daikanwa	  . 14141)	; &I-M-14141;
       ))
     (->ancient$_1*sources
@@ -6508,6 +6522,10 @@
     (->formed
      ((=ucs		  . #x725F)	; 牟
       (=daikanwa	  . 19928)	; &I-M-19928;
+      )
+     ((=ucs@iso		  . #x23283)	; &MJ037781;
+      (=mj		  . 037781)	; &MJ037781;
+      (=daikanwa	  . 14141)	; &I-M-14141;
       ))
     (->formed$_1*sources
      jiyun daikanwa)

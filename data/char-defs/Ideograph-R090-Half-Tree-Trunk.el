@@ -665,6 +665,7 @@
       )
      ((=ucs		  . #x543E)	; 吾
       ))
+    (sound@ja/on	"go")
     (=ucs		. #x2457B)	; 𤕻
     ))
 (define-char
@@ -683,8 +684,14 @@
      ((=ucs		  . #x543E)	; 吾
       ))
     (=ucs@iso		. #x2457B)	; &C6-415B;
-    (=cns11643-6	. #x415B)	; &I-C6-415B; [33-59]
-    (=daikanwa 		. 19775)	; &C6-415B;
+    (=cns11643-6	. #x415B)	; &C6-415B; [33-59]
+    (=daikanwa		. 19775)	; &I-M-19775;
+    (<-wrong
+     ((=ucs		  . #x727E)	; 牾
+      (=daikanwa	  . 20028)	; &I-M-20028;
+      ))
+    (<-wrong*sources
+     kangxi daikanwa)
     (->subsumptive
      ((==ucs@iso	  . #x2457B)	; &g2-M-19775;
       (==daikanwa	  . 19775)	; &g2-M-19775;

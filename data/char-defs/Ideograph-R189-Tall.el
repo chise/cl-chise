@@ -503,7 +503,11 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 189)	; ⾼
+  '((<-denotational@usage
+     ((ideographic-radical . 163)	; ⾢
+      (==>daijiten	. 12179)	; &A2-DJT-12179;
+      ))
+    (ideographic-radical . 189)	; ⾼
     (ideographic-strokes . 6)
     (total-strokes	 . 16)
     (ideographic-structure
@@ -541,11 +545,13 @@
     (=cns11643-7	. #x362D)	; &C7-362D; [22-13]
     (=big5-cdp		. #x8AE6)	; &I-CDP-8AE6;
     (=daikanwa		. 45329)	; &I-M-45329;
+    (=daijiten		. 13942)	; &I-DJT-13942;
     (->subsumptive
      ((==ucs@iso	  . #x29ACF)	; &g2-CDP-8AE6;
       (==cns11643-7	  . #x362D)	; &g2-CDP-8AE6; [22-13]
       (==big5-cdp	  . #x8AE6)	; &g2-CDP-8AE6;
       (==daikanwa	  . 45329)	; &g2-CDP-8AE6;
+      (==daijiten		. 13942)	; &I-DJT-13942;
       (->subsumptive
        ((===daikanwa	    . 45329)	; &R-M-45329;
 	)

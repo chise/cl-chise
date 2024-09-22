@@ -1366,7 +1366,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((==>daijiten	  . 04667)	; &A2-DJT-04667;
+     ((==>ucs@bucs	  . #x6703)	; &BUCS+6703;
       ))
     (ideographic-radical . 73)	; ⽈
     (ideographic-strokes . 6)
@@ -1876,6 +1876,14 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
+     ((=big5-cdp-itaiji-001 . #x8CBF)	; &CDP-i001-8CBF;
+      )
+     ((=ucs		  . #x53C8)	; 又
+      ))
+    (ideographic-structure@apparent/rightmost
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
      ((=ucs		  . #x66F0)	; 曰
       )
      ((=gt-k		  . 03405)	; &GT-K03405;
@@ -1936,7 +1944,7 @@
       (=>ucs@iwds-1/normalized . #x5195)	; &A-IWDSU+5195;
       ))
     (<-denotational@usage
-     ((==>daijiten	  . 00639)	; &A2-DJT-00639;
+     ((==>ucs@bucs	  . #x5195)	; &BUCS+5195;
       ))
     (ideographic-radical@ucs . 13)	; ⼌
     (ideographic-strokes@ucs . 9)
@@ -2919,7 +2927,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((==>daijiten	  . 04667)	; &A2-DJT-04667;
+     ((==>ucs@bucs	  . #x6703)	; &BUCS+6703;
       ))
     (ideographic-radical . 73)	; ⽈
     (ideographic-strokes . 8)
@@ -3274,15 +3282,15 @@
       ))
     ))
 (define-char
-  '((<-denotational@usage
-     ((==>daijiten	  . 04667)	; &A2-DJT-04667;
-      ))
-    (ideographic-radical . 73)	; ⽈
+  '((ideographic-radical . 73)	; ⽈
     (=>ucs@cognate	. #x6703)	; &A-cgnU+6703;
     ))
 (define-char
   '((<-denotational
      ((=>ucs@cognate	  . #x6703)	; &A-cgnU+6703;
+      ))
+    (<-denotational@usage
+     ((==>ucs@bucs	  . #x6703)	; &BUCS+6703;
       ))
     (ideographic-radical . 73)	; ⽈
     (ideographic-strokes . 9)
@@ -3369,6 +3377,23 @@
     (ideographic-radical . 73)	; ⽈
     (ideographic-strokes . 9)
     (total-strokes	 . 13)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs-var-001	  . #x204DB)	; &U-v001+204DB;
+      )
+     ((=big5-cdp	  . #x8B63)	; &CDP-8B63;
+      ))
+    (=ucs-var-002	. #x6703)	; &U-v002+6703;
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x6703)	; 會
+      ))
+    (ideographic-radical . 73)	; ⽈
+    (ideographic-strokes . 9)
+    (total-strokes	 . 13)
     (=mj		. 013512)	; &MJ013512;
     (=hanyo-denshi/jt	. #xAD98)	; &I-HD-JT-AD98;
     (->subsumptive
@@ -3384,6 +3409,9 @@
 (define-char
   '((<-denotational
      ((=>ucs@cognate	  . #x6703)	; &A-cgnU+6703;
+      ))
+    (<-denotational@usage
+     ((==>ucs@bucs	  . #x6703)	; &BUCS+6703;
       ))
     (ideographic-radical@mj . 9)	; ⼈
     (ideographic-strokes@mj . 10)
@@ -4498,6 +4526,11 @@
     ))
 (define-char
   '((ideographic-radical . 73)	; ⽈
+    (==>ucs@bucs	. #x6703)	; &BUCS+6703;
+    (==>daijiten	. 04667)	; &BUCS+6703;
+    ))
+(define-char
+  '((ideographic-radical . 73)	; ⽈
     (==>daijiten	. 04664)	; &A2-DJT-04664;
     ))
 (define-char
@@ -4529,10 +4562,6 @@
 (define-char
   '((ideographic-radical . 73)	; ⽈
     (==>daijiten	. 04657)	; &A2-DJT-04657;
-    ))
-(define-char
-  '((ideographic-radical . 73)	; ⽈
-    (==>daijiten	. 04667)	; &A2-DJT-04667;
     ))
 (define-char
   '((ideographic-radical . 73)	; ⽈
