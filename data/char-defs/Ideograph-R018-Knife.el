@@ -17134,10 +17134,13 @@
     (ideographic-strokes . 9)
     (total-strokes	 . 11)
     (ideographic-structure
-     ?⿰
-     ((=>ucs-itaiji-001	. #x21DAC)	; &A-U-i001+21DAC;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
       )
-     ?刂)
+     ((=>ucs-itaiji-001	  . #x21DAC)	; &A-U-i001+21DAC;
+      )
+     ((=ucs		  . #x5202)	; 刂
+      ))
     (=ucs		. #x20774)	; 𠝴
     ))
 (define-char
@@ -17148,10 +17151,13 @@
     (ideographic-strokes . 9)
     (total-strokes	 . 11)
     (ideographic-structure
-     ?⿰
-     ((=ucs-itaiji-001	. #x21DAC)	; &U-i001+21DAC;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
       )
-     ?刂)
+     ((=ucs-itaiji-001	  . #x21DAC)	; &U-i001+21DAC;
+      )
+     ((=ucs		  . #x5202)	; 刂
+      ))
     (=ucs@iso		. #x20774)	; &U-00020774;
     ))
 (define-char
@@ -20306,7 +20312,7 @@
       ))
     (=ucs@iso		. #x207BC)	; &C6-5070;
     (=cns11643-6	. #x5070)	; &C6-5070; [48-80]
-    (=daikanwa 		. 02168)	; &I-M-02168;
+    (=daikanwa		. 02168)	; &I-M-02168;
     (->subsumptive
      ((==daikanwa	  . 02168)	; &g2-M-02168;
       )
@@ -20344,12 +20350,32 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=mj		. 007531)	; &MJ007531;
+     ((=mj		  . 007531)	; &MJ007531;
       )
      ((=ucs@iso		  . #x206AA)	; &MJ031242;
       (=mj		  . 031242)	; &MJ031242;
       ))
-    (=daikanwa 		. 02169)	; &M-02169;
+    (=mj		. 031419)	; &MJ031419;
+    (=koseki		. 025330)	; &MJ031419;
+    (=daikanwa		. 02169)	; &I-M-02169;
+    (<-formed
+     ((=ucs@jis		. #x7FE6)	; &AJ1-06197;
+      (=jis-x0213-1	  . #x6648)	; &AJ1-06197; [70-40]
+      ))
+    (<-formed$_1*sources
+     koseki mj)
+    (<-formed*sources
+     koseki mj)
+    (->subsumptive
+     ((==mj		  . 031419)	; &g2-MJ031419;
+      (==koseki		  . 025330)	; &g2-MJ031419;
+      (==daikanwa	  . 02169)	; &g2-MJ031419;
+      (->subsumptive
+       ((===daikanwa	    . 02169)	; &R-M-02169;
+	)
+       ((===mj		    . 031419)	; &R-MJ031419;
+	))
+      ))
     ))
 (define-char
   '((<-denotational

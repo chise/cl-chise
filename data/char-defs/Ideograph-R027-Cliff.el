@@ -6889,6 +6889,13 @@
     ))
 (define-char
   '((ideographic-radical . 27)	; ⼚
+    (=>ucs@iwds-1	. #x20A9A)	; 𠪚
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@iwds-1	. #x20A9A)	; 𠪚
+      ))
+    (ideographic-radical . 27)	; ⼚
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
       (=ucs		  . #x2FF8)	; ⿸
@@ -6954,6 +6961,22 @@
        ((===cbeta	    . 10887)	; &R-CB10887;
 	))
       ))
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@iwds-1	. #x20A9A)	; 𠪚
+      ))
+    (ideographic-radical . 27)	; ⼚
+    (=ucs		. #x20AAC)	; 𠪬
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		. #x20AAC)	; 𠪬
+      ))
+    (ideographic-radical . 27)	; ⼚
+    (ideographic-strokes . 11)
+    (total-strokes	 . 13)
+    (=ucs@iso		. #x20AAC)	; 𠪬
     ))
 (define-char
   '((ideographic-radical . 27)	; ⼚
@@ -8304,6 +8327,30 @@
     (ideographic-strokes . 13)
     (total-strokes	 . 15)
     (ideographic-structure
+     ?⿸
+     ?厂
+     ?楚)
+    (=ucs		. #x20AB4)	; 𠪴
+    ))
+(define-char
+  '((ideographic-radical . 27)	; ⼚
+    (ideographic-strokes . 13)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ?⿸
+     ?厂
+     ((=ucs@unicode	. #x695A)	; &AJ1-02753;
+      ))
+    (<-denotational
+     ((=ucs		. #x20AB4)	; 𠪴
+      ))
+    (=ucs@iso		. #x20AB4)	; 𠪴
+    ))
+(define-char
+  '((ideographic-radical . 27)	; ⼚
+    (ideographic-strokes . 13)
+    (total-strokes	 . 15)
+    (ideographic-structure
      ((=>ucs@iwds-1	  . #x2FF8)	; &U-v002+2FF1;
       (=>iwds-1		  .  0305)	; &U-v002+2FF1;
       )
@@ -9176,9 +9223,31 @@
     ))
 (define-char
   '((ideographic-radical . 27)	; ⼚
-    (hanyu-dazidian	1 75 14)
+    (ideographic-strokes . 9)
+    (total-strokes	   . 11)
+    (ideographic-structure
+     ?⿸
+     ?厂
+     ?𮂸)
     (=ucs		. #x20A81)	; 𠪁
-    (=hanziku-1		. #xB37A)	; &I-HZK01-B37A;
+    ))
+(define-char
+  '((ideographic-radical . 27)	; ⼚
+    (<-denotational
+     ((=ucs		. #x20A81)	; 𠪁
+      ))
+    (ideographic-strokes . 9)
+    (total-strokes	   . 11)
+    (hanyu-dazidian	1 75 14)
+    (=ucs@iso		. #x20A81)	; 𠪁
+    (->subsumptive
+     ((==ucs@iso		. #x20A81)	; 𠪁
+      (->subsumptive
+       ((===ucs@iso		. #x20A81)	; 𠪁
+	)
+       ((=hanziku-1		. #xB37A)	; &I-HZK01-B37A;
+	))
+      ))
     ))
 (define-char
   '((ideographic-radical . 27)	; ⼚

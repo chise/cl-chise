@@ -9228,6 +9228,38 @@
     (ideographic-strokes . 6)
     (total-strokes	 . 10)
     (ideographic-structure
+     ?⿱
+     ?亦
+     ?火)
+    (=ucs		. #x2DD22)	; 𭴢
+    ))
+(define-char
+  '((ideographic-radical . 86)	; ⽕
+    (ideographic-strokes . 6)
+    (total-strokes	 . 10)
+    (<-denotational
+     ((=ucs		. #x2DD22)	; 𭴢
+      ))
+    (ideographic-structure
+     ?⿱
+     ((=ucs@unicode	. #x4EA6)	; &AJ1-03744;
+      )
+     ?火)
+    (=ucs@JP/hanazono	. #x2DD22)	; 𭴢
+    (=cbeta		. 03255)	; &CB03255;
+    (->subsumptive
+     ((==ucs@JP/hanazono	. #x2DD22)	; 𭴢
+      (==cbeta		. 03255)	; &CB03255;
+      (->subsumptive
+       ((===cbeta		. 03255)	; &CB03255;
+	))
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 86)	; ⽕
+    (ideographic-strokes . 6)
+    (total-strokes	 . 10)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )

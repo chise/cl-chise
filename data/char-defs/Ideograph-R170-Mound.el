@@ -6289,11 +6289,11 @@
     (<-denotational
      ((=ucs		. #x28E7C)	; 𨹼
       ))
-    (=ucs@iso		  . #x28E7C)	; &M-41699;
-    (=daikanwa	  . 41699)	; &M-41699;
+    (=ucs@iso		  . #x28E7C)	; &C6-4623;
+    (=daikanwa	  . 41699)	; &C6-4623;
     (->subsumptive
-     ((==ucs@iso		  . #x28E7C)	; &M-41699;
-      (==daikanwa	  . 41699)	; &M-41699;
+     ((==ucs@iso		  . #x28E7C)	; &C6-4623;
+      (==daikanwa	  . 41699)	; &C6-4623;
       )
      ((==cns11643-6	  . #x4623)	; &C6-4623; [38-03]
       ))
@@ -8095,13 +8095,63 @@
     ))
 (define-char
   '((ideographic-radical . 170)	; ⾩
+    (=>ucs@cognate	. #x49D8)	; 䧘
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@cognate	. #x49D8)	; 䧘
+      ))
+    (ideographic-radical . 170)	; ⾩
     (ideographic-strokes . 9)
     (total-strokes	 . 12)
-    (hanyu-dazidian	6 4149 4)
+    (ideographic-structure
+     ?⿰
+     ?⻖
+     ?彖)
     (=ucs		. #x49D8)	; 䧘
+    ))
+(define-char
+  '((ideographic-radical . 170)	; ⾩
+    (ideographic-strokes . 9)
+    (total-strokes	 . 12)
+    (<-denotational
+     ((=ucs		. #x49D8)	; 䧘
+      ))
+    (hanyu-dazidian	6 4149 4)
+    (=ucs@iso		. #x49D8)	; 䧘
     (=cns11643-4	. #x3B6D)	; &I-C4-3B6D; [27-77]
     (=daikanwa		. 41741)	; &I-M-41741;
-    (=hanziku-11	. #xB26B)	; &I-HZK11-B26B;
+    (->subsumptive
+     ((==ucs@iso		. #x49D8)	; 䧘
+      (==cns11643-4	. #x3B6D)	; &I-C4-3B6D; [27-77]
+      (==daikanwa		. 41741)	; &I-M-41741;
+      (=hanziku-11	. #xB26B)	; &I-HZK11-B26B;
+      ))
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@cognate	. #x49D8)	; 䧘
+      ))
+    (ideographic-radical . 170)	; ⾩
+    (ideographic-structure
+     ?⿰
+     ?𨸏
+     ?彖)
+    (=>ucs-itaiji-001	. #x49D8)	; &BUCS+4E01;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-001 . #x49D8)
+      ))
+    (ideographic-radical . 170)	; ⾩
+    (ideographic-strokes . 9)
+    (total-strokes	 . 17)
+    (ideographic-structure
+     ?⿰
+     ?𨸏
+     ((=ucs@unicode	. #x5F56)	; &MJ011233;
+      ))
+    (=ucs-itaiji-001	. #x49D8)	; &U-i001+49D8;
     ))
 (define-char
   '((ideographic-radical . 170)	; ⾩

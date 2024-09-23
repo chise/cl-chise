@@ -993,6 +993,21 @@
       )
      ((=>ucs@component	  . #x725B)	; &A-compU+725B;
       )
+     ((=>ucs@iwds-1	. #x6534)	; &A-IWDSU+6534;
+      ))
+    (=>ucs@iwds-1	. #x7267)	; 牧
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@iwds-1	. #x7267)	; 牧
+      ))
+    (ideographic-radical . 93)	; ⽜
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=>ucs@component	  . #x725B)	; &A-compU+725B;
+      )
      ((=>ucs@component	  . #x6535)	; &A-compU+6535;
       (=>iwds-1		  .  0194)	; &A-compU+6535;
       ))
@@ -1402,12 +1417,39 @@
       ))
     ))
 (define-char
+  '((<-denotational
+     ((=>ucs@iwds-1	. #x7267)	; 牧
+      ))
+    (ideographic-radical . 93)	; ⽜
+    (ideographic-strokes . 4)
+    (total-strokes	 . 8)
+    (ideographic-structure
+     ?⿰
+     ((=>ucs@component	. #x725B)	; &A-compU+725B;
+      )
+     ?攴)
+    (=ucs		. #x24634)	; 𤘴
+    ))
+(define-char
   '((ideographic-radical . 93)	; ⽜
     (ideographic-strokes . 4)
     (total-strokes	 . 8)
-    (=ucs		. #x24634)	; 𤘴
+    (<-denotational
+     ((=ucs		. #x24634)	; 𤘴
+      ))
+    (ideographic-structure
+     ?⿰
+     ?牜
+     ((=ucs@unicode	. #x6534)	; &AJ1-05058;
+      ))
+    (=ucs@iso		. #x24634)	; 𤘴
     (=cns11643-6	. #x2C70)	; &I-C6-2C70; [12-80]
     (=daikanwa		. 49283)	; &I-M-49283;
+    (->subsumptive
+     ((==ucs@iso		. #x24634)	; 𤘴
+      (==cns11643-6	. #x2C70)	; &I-C6-2C70; [12-80]
+      (==daikanwa		. 49283)	; &I-M-49283;
+      ))
     ))
 (define-char
   '((ideographic-radical . 93)	; ⽜

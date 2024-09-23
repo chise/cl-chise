@@ -402,7 +402,7 @@
     (<-ancient*sources
      jiyun daikanwa)
     (<-formed
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (<-formed$_1*sources
      koseki mj)
@@ -643,7 +643,7 @@
       )
      ((=ucs		  . #x4E5D)	; 九
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@iso		. #x248EC)	; &M-20835;
     (=daikanwa		. 20835)	; &M-20835;
@@ -1268,7 +1268,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       )
      ((=ucs		  . #x5C71)	; 山
       ))
@@ -2048,6 +2048,23 @@
      ((=ucs		  . #x7389)	; 玉
       ))
     (=ucs		. #x24934)	; 𤤴
+    ))
+(define-char
+  '((ideographic-radical . 96)	; ⽟
+    (ideographic-strokes . 5)
+    (total-strokes	 . 10)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@unicode	  . #x7389)	; 玉
+      )
+     ((=ucs@unicode	  . #x7389)	; 玉
+      ))
+    (<-denotational
+     ((=ucs		. #x24934)	; 𤤴
+      ))
+    (=ucs@iso		. #x24934)	; 𤤴
     (->subsumptive
      ((==ucs@iso	  . #x24934)	; &g2-IU-00024934;
       ))
@@ -2455,7 +2472,7 @@
       )
      ((=ucs		  . #x5929)	; 天
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=daikanwa		. 20886)	; &M-20886;
     ))
@@ -2472,7 +2489,7 @@
       )
      ((=ucs		  . #x592D)	; 夭
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@iso		. #x2490B)	; &U-0002490B;
     (->subsumptive
@@ -2888,7 +2905,7 @@
      ((=ucs@iso		  . #x201A9)	; &MJ030536;
       (=mj		  . 030536)	; &MJ030536;
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@unicode	. #x3EB8)	; &C3-323A;
     (=cns11643-3	. #x323A)	; &C3-323A; [18-26]
@@ -4077,7 +4094,7 @@
       )
      ((=ucs		  . #x5C14)	; 尔
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@unicode	. #x73BA)	; &AJ1-13802;
     (=adobe-japan1-4	. 13802)	; &AJ1-13802;
@@ -4288,7 +4305,7 @@
       )
      ((=ucs		  . #x300EE)	; 𰃮
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@JP/hanazono	. #x2DE3C)	; &MJ059895;
     (=mj		. 059895)	; &MJ059895;
@@ -4729,7 +4746,7 @@
      ((=ucs@unicode	  . #x5919)	; &AJ1-02386;
       (=adobe-japan1-0	  . 02386)	; &AJ1-02386;
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@iso		. #x24954)	; &C4-3331;
     (=cns11643-4	. #x3331)	; &C4-3331; [19-17]
@@ -6001,7 +6018,7 @@
      ((=ucs@JP		  . #x9FB9)	; &GT-K01769;
       (=gt-k		  . 01769)	; &GT-K01769;
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@JP/hanazono	. #x2C362)	; &hanaJU+2C362;
     (->subsumptive
@@ -7698,7 +7715,7 @@
      ((name		  . "CJK RADICAL SIMPLIFIED WHEAT")
       (=ucs		  . #x2EE8)	; ⻨
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@JP/hanazono	. #x2C35E)	; &hanaJU+2C35E;
     ))
@@ -7716,7 +7733,7 @@
      ((=ucs@cns		  . #x9EA6)	; &C3-2547;
       (=cns11643-3	  . #x2547)	; &C3-2547; [05-39]
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs-var-003	. #x2C35E)	; &U-v003+2C35E;
     ))
@@ -8160,7 +8177,7 @@
      ((=ucs@jis		  . #x5F25)	; &AJ1-03835;
       (=adobe-japan1-0	  . 03835)	; &AJ1-03835;
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@cns		. #x24980)	; &C6-5529;
     (=cns11643-6	. #x5529)	; &C6-5529; [53-09]
@@ -8190,7 +8207,7 @@
      ((=ucs@unicode	  . #x5F25)	; &G0-4356;
       (=gb2312		  . #x4356)	; &G0-4356; [35-54]
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@iso		. #x24980)	; &U-00024980;
     (->subsumptive
@@ -8927,7 +8944,7 @@
       )
      ((=ucs		  . #x81E4)	; 臤
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@iso		. #x24981)	; &C4-3E5A;
     (=cns11643-4	. #x3E5A)	; &C4-3E5A; [30-58]
@@ -9960,9 +9977,42 @@
   '((ideographic-radical . 96)	; ⽟
     (ideographic-strokes . 8)
     (total-strokes	 . 12)
+    (ideographic-structure
+     ?⿰
+     ?𤣩
+     ((=>ucs@iwds-1	. #x81FE)	; &A-IWDSU+81FE;
+      ))
     (=ucs		. #x249D9)	; 𤧙
-    (=cns11643-5	. #x3A2E)	; &I-C5-3A2E; [26-14]
+    ))
+(define-char
+  '((ideographic-radical . 96)	; ⽟
+    (ideographic-strokes . 9)
+    (total-strokes	 . 13)
+    (<-denotational
+     ((=ucs		. #x249D9)	; 𤧙
+      ))
     (=daikanwa		. 49304)	; &I-M-49304;
+    (->subsumptive
+     ((==daikanwa		. 49304)	; &I-M-49304;
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 96)	; ⽟
+    (ideographic-strokes . 8)
+    (total-strokes	 . 12)
+    (<-denotational
+     ((=ucs		. #x249D9)	; 𤧙
+      ))
+    (ideographic-structure
+     ?⿰
+     ?𤣩
+     ?&C1-4F3B;)
+    (=ucs@iso		. #x249D9)	; 𤧙
+    (=cns11643-5	. #x3A2E)	; &C5-3A2E; [26-14]
+    (->subsumptive
+     ((==ucs@iso		. #x249D9)	; 𤧙
+      (==cns11643-5	. #x3A2E)	; &C5-3A2E; [26-14]
+      ))
     ))
 (define-char
   '((ideographic-radical . 96)	; ⽟
@@ -10230,7 +10280,7 @@
       )
      ((=ucs		  . #x53D6)	; 取
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@iso		. #x2499F)	; &U-0002499F;
     (->subsumptive
@@ -12680,7 +12730,7 @@
       )
      ((=ucs		  . #x2D55B)	; 𭕛
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@iso		. #x249E4)	; &U-000249E4;
     ))
@@ -13535,7 +13585,7 @@
       )
      ((=ucs		  . #x241FE)	; 𤇾
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@unicode	. #x7469)	; &AJ1-05675;
     (=adobe-japan1-0	. 05675)	; &AJ1-05675;
@@ -13769,7 +13819,7 @@
      ((=ucs@cns		  . #x6D41)	; &MJ015329;
       (=mj		  . 015329)	; &MJ015329;
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@cns		. #x746C)	; &C3-477B;
     (=cns11643-3	. #x477B)	; &C3-477B; [39-91]
@@ -15278,7 +15328,7 @@
      ((=ucs@unicode	  . #x6BB9)	; &M-16634;
       (=daikanwa	  . 16634)	; &M-16634;
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@unicode	. #x747F)	; &M-21188;
     (=daikanwa		. 21188)	; &M-21188;
@@ -15303,7 +15353,7 @@
      ((=ucs@jis		  . #x6BB9)	; &MJ014915;
       (=mj		  . 014915)	; &MJ014915;
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@cns		. #x747F)	; &C2-584E;
     (=cns11643-2	. #x584E)	; &C2-584E; [56-46]
@@ -16120,7 +16170,7 @@
       )
      ((=gt-k		  . 08905)	; &GT-K08905;
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@iso		. #x24A17)	; &C7-2F7B;
     (=cns11643-7	. #x2F7B)	; &C7-2F7B; [15-91]
@@ -17019,7 +17069,7 @@
      ((=ucs@unicode	  . #x6E6F)	; &AJ1-03180;
       (=adobe-japan1-0	  . 03180)	; &AJ1-03180;
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@unicode	. #x7497)	; &AJ1-18106;
     (=adobe-japan1-5	. 18106)	; &AJ1-18106;
@@ -18095,7 +18145,7 @@
      ((=ucs@unicode	  . #x53A4)	; &AJ1-17335;
       (=adobe-japan1-5	  . 17335)	; &AJ1-17335;
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@unicode	. #x3EFA)	; &C4-566F;
     (=cns11643-4	. #x566F)	; &C4-566F; [54-79]
@@ -18467,7 +18517,7 @@
       )
      ((=gt-k		  . 10099)	; &GT-K10099;
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@iso		. #x24A64)	; &MJ041079;
     (=mj		. 041079)	; &MJ041079;
@@ -20063,7 +20113,7 @@
       )
      ((=ucs-itaiji-006	  . #x8207)	; &U-i006+8207;
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@unicode	. #x3F02)	; &C3-5831;
     (=cns11643-3	. #x5831)	; &C3-5831; [56-17]
@@ -20751,7 +20801,7 @@
       )
      ((=gt-k		  . 11278)	; &GT-K11278;
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@jis		. #x74BA)	; &AJ1-18113;
     (=adobe-japan1-5	. 18113)	; &AJ1-18113;
@@ -20791,7 +20841,7 @@
       )
      ((=ucs-itaiji-009	  . #x8208)	; &U-i009+8208;
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@unicode	. #x74BA)	; &C2-693E;
     (=ucs@JP/hanazono	. nil)
@@ -20979,7 +21029,7 @@
      ((=ucs@unicode	  . #x723E)	; &MJ016762;
       (=mj		  . 016762)	; &MJ016762;
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@unicode	. #x74BD)	; &AJ1-02257;
     (=adobe-japan1-0	. 02257)	; &AJ1-02257;
@@ -21037,7 +21087,7 @@
       )
      ((=mj		  . 016763)	; &MJ016763;
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=adobe-japan1-5	. 20173)	; &AJ1-20173;
     (->subsumptive
@@ -21306,7 +21356,7 @@
       )
      ((=ucs		  . #x238F8)	; 𣣸
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@iso		. #x24A8E)	; &C4-6026;
     (=cns11643-4	. #x6026)	; &C4-6026; [64-06]
@@ -21495,7 +21545,7 @@
       (=cns11643-3	  . #x417A)	; &C3-417A; [33-90]
       (=daikanwa	  . 15166)	; &I-M-15166;
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@iso		. #x24A87)	; &C7-405F;
     (=cns11643-7	. #x405F)	; &C7-405F; [32-63]
@@ -23298,7 +23348,7 @@
       )
      ((=ucs		  . #x736E)	; 獮
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@iso		. #x24ACF)	; &U-00024ACF;
     (->subsumptive

@@ -1919,19 +1919,32 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 82)	; ⽑
+  '((<-denotational@usage
+     ((ideographic-radical . 82)	; ⽑
+      (==>daijiten	. 05871)	; &A2-DJT-05871;
+      ))
+    (ideographic-radical . 82)	; ⽑
     (ideographic-strokes . 8)
     (total-strokes	 . 12)
+    (ideographic-structure
+     ?⿰
+     ?炎
+     ?毛)
     (=ucs		. #x3C9C)	; 㲜
     (=daikanwa		. 16859)	; &I-M-16859;
-    ))
-(define-char
-  '((=>ucs		. #x3C9C)	; 㲜
-    (morohashi-daikanwa	16859 0 0)
+    (=daijiten		. 05870)	; &I-DJT-05870;
+    (=ucs		. #x3C9C)	; 㲜
     (ideographic-radical . 82)	; ⽑
     (ideographic-strokes . 8)
     (total-strokes	 . 12)
     (=cns11643-3	. #x3C4C)	; &C3-3C4C; [28-44]
+    (->subsumptive
+     ((==ucs@iso		. #x3C9C)	; 㲜
+      (==daikanwa		. 16859)	; &I-M-16859;
+      (==daijiten		. 05870)	; &I-DJT-05870;
+      )
+     ((==cns11643-3	. #x3C4C)	; &C3-3C4C; [28-44]
+      ))
     ))
 (define-char
   '((ideographic-radical . 82)	; ⽑

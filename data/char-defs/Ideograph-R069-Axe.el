@@ -2096,6 +2096,25 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
+     ((=>ucs@iwds-1	  . #x20041)	; 𠁁
+      )
+     ((=ucs		  . #x65A4)	; 斤
+      ))
+    (=>ucs@iwds-1	. #x65B2)	; 斲
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@iwds-1	. #x65B2)	; 斲
+      ))
+    (<-denotational@usage
+     ((ideographic-radical . 69)	; ⽄
+      (==>daijiten	. 04378)	; &A2-DJT-04378;
+      ))
+    (ideographic-radical . 69)	; ⽄
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
      ((=ucs		  . #x20041)	; 𠁁
       )
      ((=ucs		  . #x65A4)	; 斤
@@ -2113,7 +2132,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=big5-cdp	  . #x8A41)	; &CDP-8A41;
+     ((=ucs-var-001	. #x20041)	; &U-v001+20041;
       )
      ((=ucs		  . #x65A4)	; 斤
       ))
@@ -2187,6 +2206,40 @@
        ((===ucs@unicode	    . #x65B2)	; &R-UU+65B2;
 	))
       ))
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x65B2)	; 斲
+      ))
+    (ideographic-radical . 69)	; ⽄
+    (ideographic-strokes . 11)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=mj		. 056847)	; &MJ056847;
+      )
+     ((=ucs		  . #x65A4)	; 斤
+      ))
+    (=ucs-itaiji-002	. #x65B2)	; 斲
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x65B2)	; 斲
+      ))
+    (ideographic-radical . 69)	; ⽄
+    (ideographic-strokes . 11)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=mj		. 056846)	; &MJ056846;
+      )
+     ((=ucs		  . #x65A4)	; 斤
+      ))
+    (=ucs-itaiji-003	. #x65B2)	; &U-i003+65B2;
     ))
 (define-char
   '((ideographic-radical . 69)	; ⽄
@@ -2845,7 +2898,10 @@
     (=cns11643-4	. #x504D)	; &I-C4-504D; [48-45]
     ))
 (define-char
-  '((ideographic-radical . 69)	; ⽄
+  '((<-denotational
+     ((=>ucs@iwds-1	. #x65B2)	; 斲
+      ))
+    (ideographic-radical . 69)	; ⽄
     (ideographic-strokes . 13)
     (total-strokes	 . 17)
     (ideographic-structure

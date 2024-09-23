@@ -1181,7 +1181,7 @@
      ((=ucs		  . #x37B7)	; 㞷
       ))
     (<-denotational@component
-     ((=ucs		. #x2125A)	; 𡉚
+     ((=ucs		  . #x2125A)	; 𡉚
       ))
     (ideographic-radical . 45)	; ⼬
     (ideographic-strokes . 4)
@@ -1198,9 +1198,10 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=ucs-var-002	. #x37A2)	; &U-v002+37A2;
+     ((=ucs-var-002	  . #x37A2)	; &U-v002+37A2;
       )
-     ?土)
+     ((=ucs		  . #x571F)	; 土
+      ))
     (=ucs@JP/hanazono	. #x37B7)	; &MJ000836;
     (=mj		. 000836)	; &MJ000836;
     (=cbeta		. 08147)	; &I-CB08147;
