@@ -1,3 +1,45 @@
+2024-09-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* Sync up with the current snapshot [2024-09-24 23:30 JST].
+
+	M	data/char-defs/Ideograph-R001-One.el
+	M	data/char-defs/Ideograph-R004-Slash.el
+	M	data/char-defs/Ideograph-R008-Lid.el
+	M	data/char-defs/Ideograph-R009-Man.el
+	M	data/char-defs/Ideograph-R016-Table.el
+	M	data/char-defs/Ideograph-R018-Knife.el
+	M	data/char-defs/Ideograph-R019-Power.el
+	M	data/char-defs/Ideograph-R025-Divination.el
+	M	data/char-defs/Ideograph-R027-Cliff.el
+	M	data/char-defs/Ideograph-R034-Go.el
+	M	data/char-defs/Ideograph-R037-Big.el
+	M	data/char-defs/Ideograph-R038-Woman.el
+	M	data/char-defs/Ideograph-R042-Small.el
+	M	data/char-defs/Ideograph-R053-Dotted-Cliff.el
+	M	data/char-defs/Ideograph-R064-Hand.el
+	M	data/char-defs/Ideograph-R066-Rap.el
+	M	data/char-defs/Ideograph-R069-Axe.el
+	M	data/char-defs/Ideograph-R072-Sun.el
+	M	data/char-defs/Ideograph-R075-Tree.el
+	M	data/char-defs/Ideograph-R081-Compare.el
+	M	data/char-defs/Ideograph-R082-Fur.el
+	M	data/char-defs/Ideograph-R085-Water.el
+	M	data/char-defs/Ideograph-R086-Fire.el
+	M	data/char-defs/Ideograph-R087-Claw.el
+	M	data/char-defs/Ideograph-R093-Cow.el
+	M	data/char-defs/Ideograph-R094-Dog.el
+	M	data/char-defs/Ideograph-R096-Jade.el
+	M	data/char-defs/Ideograph-R097-Melon.el
+	M	data/char-defs/Ideograph-R102-Field.el
+	M	data/char-defs/Ideograph-R104-Sickness.el
+	M	data/char-defs/Ideograph-R112-Stone.el
+	M	data/char-defs/Ideograph-R114-Track.el
+	M	data/char-defs/Ideograph-R115-Grain.el
+	M	data/char-defs/Ideograph-R119-Rice.el
+	M	data/char-defs/Ideograph-R134-Mortar.el
+	M	data/char-defs/Ideograph-R172-Short-Tailed-Bird.el
+	M	data/dumped-ids.lisp
+
 2024-09-23  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* Sync up with the current snapshot [2024-09-22 21:00 JST].
