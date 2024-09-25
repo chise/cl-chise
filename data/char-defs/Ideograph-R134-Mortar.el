@@ -3015,14 +3015,35 @@
 (define-char
   '((ideographic-radical . 134)	; ⾅
     (ideographic-strokes . 5)
-    (total-strokes	 . 11)
-    (=ucs		. #x4455)	; 䑕
-    (->subsumptive
-     ((=ucs@unicode	  . #x4455)	; &M-49562;
-      (=daikanwa	  . 49562)	; &M-49562;
+    (ideographic-structure
+     ?⿱
+     ((=>ucs@component	. #x81FC)	; &A-compU+81FC;
       )
-     ((=cns11643-4	  . #x3458)	; &C4-3458; [20-56]
+     ?𠂡)
+    (=ucs		. #x4455)	; 䑕
+    ))
+(define-char
+  '((ideographic-radical . 134)	; ⾅
+    (ideographic-strokes . 5)
+    (<-denotational
+     ((=ucs		. #x4455)	; 䑕
       ))
+    (total-strokes	 . 11)
+    (ideographic-structure
+     ?⿱
+     ((=ucs@unicode	. #x81FC)	; &MJ021316;
+      )
+     ?&GT-K01457;)
+    (=ucs@unicode	. #x4455)	; 䑕
+    (=ucs@unicode	  . #x4455)	; &M-49562;
+    (=daikanwa	  . 49562)	; &M-49562;
+    (->subsumptive
+     ((==ucs@unicode	  . #x4455)	; &M-49562;
+      (==daikanwa	  . 49562)	; &M-49562;
+      )
+     ((==cns11643-4	  . #x3458)	; &C4-3458; [20-56]
+      ))
+    (=cns11643-4	  . #x3458)	; &C4-3458; [20-56]
     ))
 (define-char
   '((ideographic-radical . 134)	; ⾅

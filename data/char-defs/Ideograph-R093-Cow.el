@@ -993,13 +993,14 @@
       )
      ((=>ucs@component	  . #x725B)	; &A-compU+725B;
       )
-     ((=>ucs@iwds-1	. #x6534)	; &A-IWDSU+6534;
+     ((=>ucs@iwds-1	  . #x6534)	; &A-IWDSU+6534;
+      (=>iwds-1		  .  45924)	; &A-IWDSU+6534;
       ))
-    (=>ucs@iwds-1	. #x7267)	; 牧
+    (=>ucs@iwds-1	. #x7267)	; &A-IWDSU+7267;
     ))
 (define-char
   '((<-denotational
-     ((=>ucs@iwds-1	. #x7267)	; 牧
+     ((=>ucs@iwds-1	  . #x7267)	; &A-IWDSU+7267;
       ))
     (ideographic-radical . 93)	; ⽜
     (ideographic-structure
@@ -1418,37 +1419,51 @@
     ))
 (define-char
   '((<-denotational
-     ((=>ucs@iwds-1	. #x7267)	; 牧
+     ((=>ucs@iwds-1	  . #x7267)	; &A-IWDSU+7267;
       ))
     (ideographic-radical . 93)	; ⽜
     (ideographic-strokes . 4)
     (total-strokes	 . 8)
     (ideographic-structure
-     ?⿰
-     ((=>ucs@component	. #x725B)	; &A-compU+725B;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
       )
-     ?攴)
+     ((=>ucs@component	  . #x725B)	; &A-compU+725B;
+      )
+     ((=ucs		  . #x6534)	; 攴
+      ))
     (=ucs		. #x24634)	; 𤘴
     ))
 (define-char
-  '((ideographic-radical . 93)	; ⽜
+  '((<-denotational
+     ((=ucs		  . #x24634)	; 𤘴
+      ))
+    (ideographic-radical . 93)	; ⽜
     (ideographic-strokes . 4)
     (total-strokes	 . 8)
-    (<-denotational
-     ((=ucs		. #x24634)	; 𤘴
-      ))
     (ideographic-structure
-     ?⿰
-     ?牜
-     ((=ucs@unicode	. #x6534)	; &AJ1-05058;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x725C)	; 牜
+      )
+     ((=ucs@unicode	  . #x6534)	; &AJ1-05058;
+      (=adobe-japan1-0	  . 05058)	; &AJ1-05058;
       ))
-    (=ucs@iso		. #x24634)	; 𤘴
-    (=cns11643-6	. #x2C70)	; &I-C6-2C70; [12-80]
+    (=ucs@iso		. #x24634)	; &C6-2C70;
+    (=cns11643-6	. #x2C70)	; &C6-2C70; [12-80]
     (=daikanwa		. 49283)	; &I-M-49283;
     (->subsumptive
-     ((==ucs@iso		. #x24634)	; 𤘴
-      (==cns11643-6	. #x2C70)	; &I-C6-2C70; [12-80]
-      (==daikanwa		. 49283)	; &I-M-49283;
+     ((==ucs@iso	  . #x24634)	; &g2-M-49283;
+      (==cns11643-6	  . #x2C70)	; &g2-M-49283; [12-80]
+      (==daikanwa	  . 49283)	; &g2-M-49283;
+      (->subsumptive
+       ((===daikanwa	    . 49283)	; &R-M-49283;
+	)
+       ((===cns11643-6	    . #x2C70)	; &R-C6-2C70; [12-80]
+	)
+       ((===ucs@iso	    . #x24634)	; &R-U-00024634;
+	))
       ))
     ))
 (define-char

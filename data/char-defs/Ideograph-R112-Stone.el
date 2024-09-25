@@ -11739,9 +11739,28 @@
   '((ideographic-radical . 112)	; ⽯
     (ideographic-strokes . 9)
     (total-strokes	 . 14)
+    (ideographic-structure
+     ?⿰
+     ?石
+     ((=>ucs@iwds-1	. #x2504B)	; &A-IWDSU+2504B;
+      ))
     (=ucs		. #x25510)	; 𥔐
+    ))
+(define-char
+  '((ideographic-radical . 112)	; ⽯
+    (ideographic-strokes . 9)
+    (total-strokes	 . 14)
+    (<-denotational
+     ((=ucs		. #x25510)	; 𥔐
+      ))
+    (=ucs@iso		. #x25510)	; 𥔐
     (=cns11643-6	. #x5F58)	; &I-C6-5F58; [63-56]
     (=daikanwa		. 49394)	; &I-M-49394;
+    (->subsumptive
+     ((==ucs@iso		. #x25510)	; 𥔐
+      (==cns11643-6	. #x5F58)	; &I-C6-5F58; [63-56]
+      (==daikanwa		. 49394)	; &I-M-49394;
+      ))
     ))
 (define-char
   '((ideographic-radical . 112)	; ⽯

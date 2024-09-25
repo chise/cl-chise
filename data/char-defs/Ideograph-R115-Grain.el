@@ -4089,6 +4089,30 @@
     (ideographic-strokes . 5)
     (total-strokes	 . 10)
     (ideographic-structure
+     ?⿰
+     ?禾
+     ?民)
+    (=ucs		. #x25794)	; 𥞔
+    ))
+(define-char
+  '((ideographic-radical . 115)	; ⽲
+    (ideographic-strokes . 5)
+    (total-strokes	 . 10)
+    (ideographic-structure
+     ?⿰
+     ((=ucs@unicode	. #x79BE)	; &AJ1-01363;
+      )
+     ?民)
+    (<-denotational
+     ((=ucs		. #x25794)	; 𥞔
+      ))
+    (=ucs@iso		. #x25794)	; 𥞔
+    ))
+(define-char
+  '((ideographic-radical . 115)	; ⽲
+    (ideographic-strokes . 5)
+    (total-strokes	 . 10)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )

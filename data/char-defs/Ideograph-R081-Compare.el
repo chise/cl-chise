@@ -491,8 +491,7 @@
      ((=>ucs@component	  . #x3C8B)	; &A-compU+3C8B;
       ))
     (<-denotational@usage
-     ((ideographic-radical . 81)	; ⽐
-      (==>daijiten	. 05843)	; &A2-DJT-05843;
+     ((==>daijiten	  . 05843)	; &A2-DJT-05843;
       ))
     (ideographic-radical . 81)	; ⽐
     (ideographic-strokes . 5)
@@ -532,20 +531,23 @@
     (=daikanwa		. 16751)	; &I-M-16751;
     (=daijiten		. 05843)	; &I-DJT-05843;
     (->subsumptive
-     ((==big5-cdp	  . #x8CD1)	; &g2-CDP-8CD1;
+     ((==ucs@unicode	  . #x3C8B)	; &g2-CDP-8CD1;
+      (==ucs@JP/hanazono  . nil)
+      (==big5-cdp	  . #x8CD1)	; &g2-CDP-8CD1;
       (==daikanwa	  . 16751)	; &g2-CDP-8CD1;
-      (==daijiten		. 05843)	; &I-DJT-05843;
+      (==daijiten	  . 05843)	; &g2-CDP-8CD1;
       (->subsumptive
        ((===daikanwa	    . 16751)	; &R-M-16751;
 	)
+       ((===daijiten	    . 05843)	; &R-DJT-05843;
+	)
        ((===big5-cdp	    . #x8CD1)	; &R-CDP-8CD1;
+	)
+       ((===ucs@unicode	    . #x3C8B)	; &R-UU+3C8B;
 	))
-      (==ucs@unicode	  . #x3C8B)	; &g2-UU+3C8B;
-      (==ucs@JP/hanazono . nil)
-      (==ucs@unicode	    . #x3C8B)	; &R-UU+3C8B;
       )
-     ((==cns11643-4	  . #x297B)	; &g2-UU+3C8B; [09-91]
-      (==cns11643-4	    . #x297B)	; &R-C4-297B; [09-91]
+     ((==ucs@cns	  . #x3C8B)	; &g2-CU+3C8B;
+      (==cns11643-4	  . #x297B)	; &g2-CU+3C8B; [09-91]
       ))
     ))
 (define-char
@@ -1959,6 +1961,10 @@
   '((ideographic-radical . 81)	; ⽐
     (==>ucs@bucs	. #x6BD4)	; &BUCS+6BD4;
     (==>daijiten	. 05841)	; &BUCS+6BD4;
+    ))
+(define-char
+  '((ideographic-radical . 81)	; ⽐
+    (==>daijiten	. 05843)	; &A2-DJT-05843;
     ))
 (define-char
   '((ideographic-radical . 81)	; ⽐

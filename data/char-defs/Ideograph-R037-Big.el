@@ -11915,7 +11915,8 @@
      ((=>ucs@component	  . #x72AC)	; &A-compU+72AC;
       (=>iwds-1		  .  0239)	; &A-compU+72AC;
       )
-     ((=>ucs@iwds-1	. #x20041)	; &A-IWDSU+20041;
+     ((=>ucs@iwds-1	  . #x20041)	; &A-IWDSU+20041;
+      (=>iwds-1		  .  0161)	; &A-IWDSU+20041;
       ))
     (=ucs		. #x2165E)	; 𡙞
     ))
@@ -11944,9 +11945,12 @@
     (ideographic-strokes . 10)
     (total-strokes	 . 13)
     (ideographic-structure
-     ?⿱
-     ?大
-     ((=ucs@iso		. #x20041)	; &GT-00094;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x5927)	; 大
+      )
+     ((=ucs-var-002	  . #x20041)	; &U-v002+20041;
       ))
     (=cbeta		. 11281)	; &CB11281;
     ))
@@ -13819,7 +13823,7 @@
       )
      ((=ucs		  . #x5927)	; 大
       )
-     ((=mj		  . 057897)	; 歲
+     ((=mj		  . 057897)	; &MJ057897;
       ))
     (=ucs@iso		. #x21693)	; &M-H0115;
     (=daikanwa/ho	.  0115)	; &M-H0115;

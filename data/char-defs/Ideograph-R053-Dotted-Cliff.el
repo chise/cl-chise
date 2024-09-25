@@ -7005,9 +7005,8 @@
      ((=ucs		  . #x4E2D)	; 中
       (=daikanwa	  . 00073)	; &I-M-00073;
       )
-     ((=ucs@unicode	  . #x8846)	; &AJ1-02362;
-      (=adobe-japan1-0	  . 02362)	; &AJ1-02362;
-      (=daikanwa	  . 33981)	; &I-M-33981;
+     ((=adobe-japan1-0	  . 02362)	; &AJ1-02362;
+      (=daikanwa 	  . 33981)	; &I-M-33981;
       )
      ((=ucs@unicode	  . #x5889)	; &AJ1-16820;
       (=adobe-japan1-5	  . 16820)	; &AJ1-16820;

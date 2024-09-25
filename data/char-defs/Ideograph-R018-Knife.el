@@ -604,6 +604,14 @@
     (ideographic-strokes . 1)
     (total-strokes	 . 3)
     (hanyu-dazidian	1 320 4)
+    (ideographic-structure
+     ((name		  . "IDEOGRAPHIC DESCRIPTION CHARACTER OVERLAID")
+      (=ucs		  . #x2FFB)	; ⿻
+      )
+     ((=ucs		  . #x5200)	; 刀
+      )
+     ((=ucs		  . #x4E40)	; 乀
+      ))
     (=ucs@unicode	. #x5204)	; &AJ1-04250;
     (=adobe-japan1-0	. 04250)	; &AJ1-04250;
     (=jis-x0208		. #x5163)	; &I-J90-5163; [49-67]
@@ -13613,6 +13621,9 @@
      ((=ucs@unicode	  . #x5265)	; &AJ1-03363;
       (=adobe-japan1-0	  . 03363)	; &AJ1-03363;
       (=daikanwa	  . 48939)	; &I-M-48939;
+      )
+     ((=mj		  . 031771)	; &MJ031771;
+      (=daikanwa	  . 02782)	; &I-M-02782;
       ))
     (->formed$_1*sources
      shuowen jiyun daikanwa)
@@ -20359,8 +20370,8 @@
     (=koseki		. 025330)	; &MJ031419;
     (=daikanwa		. 02169)	; &I-M-02169;
     (<-formed
-     ((=ucs@jis		. #x7FE6)	; &AJ1-06197;
-      (=jis-x0213-1	  . #x6648)	; &AJ1-06197; [70-40]
+     ((=ucs@jis		  . #x7FE6)	; &AJ1-06197;
+      (=adobe-japan1-0	  . 06197)	; &I-AJ1-06197;
       ))
     (<-formed$_1*sources
      koseki mj)
@@ -21872,7 +21883,7 @@
     (ideographic-radical . 18)	; ⼑
     (ideographic-strokes . 12)
     (total-strokes	 . 14)
-    (=ucs@iso 		. #x207DB)	; &U-000207DB;
+    (=ucs@iso  		. #x207DB)	; &U-000207DB;
     ))
 (define-char
   '((ideographic-radical . 18)	; ⼑

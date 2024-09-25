@@ -6379,7 +6379,22 @@
   '((ideographic-radical . 172)	; ⾫
     (ideographic-strokes . 10)
     (total-strokes	 . 18)
+    (ideographic-structure
+     ((=>iwds-1		.  0305)	; &U-v002+2FF1;
+      )
+     ((=>ucs@iwds-1	. #x2DBB0)	; &A-IWDSU+2DBB0;
+      )
+     ?隹)
     (=ucs		. #x29020)	; 𩀠
+    ))
+(define-char
+  '((ideographic-radical . 172)	; ⾫
+    (ideographic-strokes . 10)
+    (total-strokes	 . 18)
+    (<-denotational
+     ((=ucs		. #x29020)	; 𩀠
+      ))
+    (=ucs@iso		. #x29020)	; 𩀠
     (=cns11643-7	. #x4451)	; &I-C7-4451; [36-49]
     (=daikanwa		. 49858)	; &I-M-49858;
     (->subsumptive

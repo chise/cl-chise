@@ -37991,14 +37991,32 @@
   '((ideographic-radical . 86)	; ⽕
     (ideographic-strokes . 16)
     (total-strokes	 . 20)
-    (hanyu-dazidian	8 30 5)
+    (ideographic-structure
+     ?⿰
+     ?炙
+     ?棗)
     (=ucs		. #x24497)	; 𤒗
-    (=daikanwa		. 49266)	; &I-M-49266;
-    (=hanziku-12	. #xEECE)	; &I-HZK12-EECE;
     ))
 (define-char
-  '((=>ucs		. #x24497)	; 𤒗
-    (morohashi-daikanwa	49266 0 0)
+  '((ideographic-radical . 86)	; ⽕
+    (ideographic-strokes . 16)
+    (total-strokes	 . 20)
+    (<-denotational
+     ((=ucs		. #x24497)	; 𤒗
+      ))
+    (hanyu-dazidian	8 30 5)
+    (=ucs@iso		. #x24497)	; 𤒗
+    (=daikanwa		. 49266)	; &I-M-49266;
+    (->subsumptive
+     ((==ucs@iso		. #x24497)	; 𤒗
+      (==daikanwa		. 49266)	; &I-M-49266;
+      (=hanziku-12	. #xEECE)	; &I-HZK12-EECE;
+      )
+     ((==cns11643-7	. #x4E36)	; &C7-4E36; [46-22]
+      ))
+    (<-denotational
+     ((=ucs		. #x24497)	; 𤒗
+      ))
     (ideographic-radical . 86)	; ⽕
     (ideographic-strokes . 16)
     (total-strokes	 . 20)

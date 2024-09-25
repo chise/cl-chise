@@ -9382,6 +9382,13 @@
      ((=>ucs@iwds-1	  . #x20041)	; &A-IWDSU+20041;
       (=>iwds-1		  .  0161)	; &A-IWDSU+20041;
       ))
+    (ideographic-radical . 1)	; ⼀
+    (=>ucs@component	. #x20041)	; &A-IWDSU+20041;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@component	. #x20041)	; &A-IWDSU+20041;
+      ))
     (<-denotational@usage
      ((==>daijiten	  . 00042)	; &A2-DJT-00042;
       ))
@@ -9429,6 +9436,15 @@
        ((===cbeta	    . 07403)	; &R-CB07403;
 	))
       ))
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x20041)	; 𠁁
+      ))
+    (ideographic-radical . 1)	; ⼀
+    (ideographic-strokes . 10)
+    (total-strokes	 . 11)
+    (=ucs-var-002	. #x20041)	; &U-v002+20041;
     ))
 (define-char
   '((<-denotational
@@ -9500,8 +9516,7 @@
     ))
 (define-char
   '((<-denotational
-     ((=>ucs@iwds-1	  . #x20041)	; &A-IWDSU+20041;
-      (=>iwds-1		  .  0161)	; &A-IWDSU+20041;
+     ((=>ucs@component	. #x20041)	; &A-IWDSU+20041;
       ))
     (ideographic-radical . 1)	; ⼀
     (ideographic-strokes@ucs . 9)

@@ -12070,10 +12070,10 @@
      ?犭
      ?&MJ008018;)
     (=ucs@unicode	. #x7340)	; &C2-4472;
-    (=daijiten		. 07210)	; &I-DJT-07210;
+    (=daijiten		. 07210)	; &C2-4472;
     (->subsumptive
      ((==ucs@unicode	. #x7340)	; &C2-4472;
-      (==daijiten		. 07210)	; &I-DJT-07210;
+      (==daijiten		. 07210)	; &C2-4472;
       (==ucs@unicode	  . #x7340)	; &g2-M-20588;
       (==ucs@unicode	    . #x7340)	; &R-UU+7340;
       ))
@@ -14253,8 +14253,7 @@
     (=koseki		. 231820)	; 𤡗
     (=daikanwa		. 20657)	; &I-M-20657;
     (<-formed
-     ((=ucs@unicode	  . #x7340)	; &C2-4472;
-      (=cns11643-2	  . #x4472)	; &C2-4472; [36-82]
+     ((=cns11643-2	  . #x4472)	; &C2-4472; [36-82]
       (=daikanwa	  . 20588)	; &I-M-20588;
       ))
     (<-formed$_1*sources
@@ -15627,7 +15626,7 @@
     (->subsumptive
      ((==ucs@unicode	  . #x3E96)	; &g2-M-20689;
       (==ucs@JP/hanazono . nil)
-      (==ucs@unicode	    . #x3E96)	; &R-UU+3E96;
+      (==ucs@unicode	    . #x3E96)	; &g2-UU+3E96;
       ))
     ))
 (define-char
