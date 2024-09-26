@@ -15,6 +15,7 @@
       ))
     (<-denotational@usage
      ((==>ucs@bucs	  . #x9149)	; &BUCS+9149;
+      (==>daijiten	. 12259)	; &A2-DJT-12259;
       ))
     (ideographic-radical . 164)	; ⾣
     (ideographic-strokes . 0)
@@ -31,6 +32,7 @@
     (=gt-k		. 02623)	; &I-GT-K02623;
     (=gt-pj-1		. #x4653)	; &I-GT-53496; [38-51]
     (=daikanwa		. 39763)	; &I-M-39763;
+    (=daijiten		. 12259)	; &I-DJT-12259;
     (=shinjigen		.  8489)	; 酉
     (->subsumptive
      ((==ucs@cns	  . #x9149)	; &g2-M-39763;
@@ -51,6 +53,7 @@
       (==gt		  . 53496)	; &g2-AJ1-03243;
       (==gt-k		  . 02623)	; &g2-AJ1-03243;
       (==shinjigen	  .  8489)	; &g2-AJ1-03243;
+      (==daijiten		. 12259)	; &I-DJT-12259;
       (->subsumptive
        ((===jis-x0208	    . #x4653)	; &R-J0-4653; [38-51]
 	(===jis-x0213-1	    . #x4653)	; &R-J0-4653; [38-51]
@@ -589,6 +592,8 @@
       (==shinjigen	  .  8498)	; &g2-AJ1-03345;
       (==daijiten	. 12263)	; &I-DJT-12263;
       (->subsumptive
+       ((===daijiten	    . 12263)	; &R-DJT-12263;
+	)
        ((===jis-x0208	    . #x475B)	; &R-J0-475B; [39-59]
 	(===jis-x0213-1	    . #x475B)	; &R-J0-475B; [39-59]
 	)
@@ -1284,6 +1289,8 @@
       (==gt		  . 53541)	; &g2-AJ1-06947;
       (==daijiten		. 12276)	; &I-DJT-12276;
       (->subsumptive
+       ((===daijiten	    . 12276)	; &R-DJT-12276;
+	)
        ((===jis-x0208@1990  . #x6E46)	; &R-J90-6E46; [78-38]
 	(===jis-x0213-1	    . #x6E46)	; &R-J90-6E46; [78-38]
 	)
@@ -1491,6 +1498,8 @@
       (==shinjigen	  .  8501)	; &g2-AJ1-02610;
       (==daijiten		. 12272)	; &I-DJT-12272;
       (->subsumptive
+       ((===daijiten	    . 12272)	; &R-DJT-12272;
+	)
        ((===jis-x0208	    . #x3F6C)	; &R-J0-3F6C; [31-76]
 	(===jis-x0213-1	    . #x3F6C)	; &R-J0-3F6C; [31-76]
 	)
@@ -6271,10 +6280,26 @@
     (ideographic-strokes . 4)
     (total-strokes	 . 11)
     (=ucs		. #x915D)	; 酝
+    ))
+(define-char
+  '((ideographic-radical . 164)	; ⾣
+    (ideographic-strokes . 4)
+    (total-strokes	 . 11)
+    (<-denotational
+     ((=ucs		. #x915D)	; 酝
+      ))
+    (=ucs@unicode	. #x915D)	; 酝
     (=gb2312		. #x544D)	; &I-G0-544D; [52-45]
     (<-simplified@CN
-     ((=ucs		  . #x9196)	; 醖
+     ((=ucs@unicode	  . #x9196)	; 醖
       (=gb12345		  . #x544D)	; 醖 [52-45]
+      ))
+    (->subsumptive
+     ((==ucs@unicode	. #x915D)	; 酝
+      (==gb2312		. #x544D)	; &I-G0-544D; [52-45]
+      (->subsumptive
+       ((===ucs@unicode	. #x915D)	; 酝
+	))
       ))
     ))
 (define-char

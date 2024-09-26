@@ -815,7 +815,8 @@
     (ideographic-strokes . 4)
     (total-strokes	 . 9)
     (ideographic-structure
-     ?&U-i001+2FF1;
+     ((=ucs-itaiji-001	  . #x2FF1)	; &U-i001+2FF1;
+      )
      ((=ucs		  . #x26612)	; 𦘒
       )
      ((=ucs		  . #x206AA)	; 𠚪
@@ -830,7 +831,8 @@
     (ideographic-strokes . 4)
     (total-strokes	 . 9)
     (ideographic-structure
-     ?&U-i001+2FF1;
+     ((=ucs-itaiji-001	  . #x2FF1)	; &U-i001+2FF1;
+      )
      ((=ucs		  . #x26612)	; 𦘒
       )
      ((=ucs@iso		  . #x206AA)	; &MJ031242;

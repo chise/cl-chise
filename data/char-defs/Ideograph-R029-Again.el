@@ -898,7 +898,7 @@
     ))
 (define-char
   '((<-denotational
-     ((=>ucs@cognate	  . #x20B1B)	; &A-cgnU+20B1B;
+     ((=>ucs-itaiji-003	. #x20B1B)	; &U-i003+20B1B;
       ))
     (ideographic-radical . 29)	; ⼜
     (ideographic-strokes . 3)

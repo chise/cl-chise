@@ -15382,7 +15382,7 @@
   '((<-denotational@usage
      ((ideographic-radical . 140)	; ⾋
       (==>ucs@bucs	. #x8304)	; &BUCS+8304;
-      (==>daijiten	. 09809)	; &A2-DJT-09809;
+      (==>daijiten	. 09809)	; &BUCS+8304;
       ))
     (ideographic-radical . 140)	; ⾋
     (ideographic-strokes . 5)
@@ -15405,7 +15405,7 @@
      ?⺿
      ?加)
     (=ucs@cns		. #x8304)	; &C1-533B;
-    (=cns11643-1	. #x533B)	; &I-C1-533B; [51-27]
+    (=cns11643-1	. #x533B)	; &C1-533B; [51-27]
     (=daikanwa		. 30835)	; &I-M-30835;
     (->subsumptive
      ((==ucs@cns	  . #x8304)	; &g2-M-30835;
@@ -93292,7 +93292,7 @@
      ((name		  . "CJK RADICAL GRASS ONE")
       (=ucs		  . #x2EBE)	; ⺾
       )
-     ((=ucs		  . #x697D)	; 楽
+     ((=ucs@unicode	  . #x697D)	; 楽
       ))
     (=ucs@unicode	. #x85AC)	; &AJ1-03840;
     (=adobe-japan1-0	. 03840)	; &AJ1-03840;

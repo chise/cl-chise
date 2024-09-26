@@ -1150,10 +1150,13 @@
     (ideographic-strokes . 4)
     (total-strokes	 . 8)
     (ideographic-structure
-     ((=>ucs@iwds-1	. #x2FFA)	; &A-IWDSU+2FFA;
+     ((=>ucs@iwds-1	  . #x2FFA)	; &A-IWDSU+2FFA;
+      (=>iwds-1		  .  0307)	; &A-IWDSU+2FFA;
       )
-     ?爪
-     ?巴)
+     ((=ucs		  . #x722A)	; 爪
+      )
+     ((=ucs		  . #x5DF4)	; 巴
+      ))
     (=ucs		. #x722C)	; 爬
     ))
 (define-char

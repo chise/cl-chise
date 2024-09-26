@@ -45872,6 +45872,22 @@
       ))
     ))
 (define-char
+  '((ideographic-radical . 38)	; ⼥
+    (ideographic-radical@ucs/code . 119)	; ⽶
+    (ideographic-strokes@ucs/code . 9)
+    (ideographic-strokes . 12)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5A04)	; 娄
+      )
+     ((=ucs		  . #x540E)	; 后
+      ))
+    (=ucs		. #x21890)	; 𡢐
+    ))
+(define-char
   '((<-denotational
      ((=>ucs@iwds-1	  . #x2D4A1)	; &A-IWDSU+2D4A1;
       ))
@@ -45976,18 +45992,6 @@
      ((=ucs		  . #x60CC)	; 惌
       ))
     (=>ucs-itaiji-001	. #x5A49)	; &A-U-i001+5A49;
-    ))
-(define-char
-  '((ideographic-radical . 38)	; ⼥
-    (ideographic-strokes . 12)
-    (ideographic-radical@ucs/code . 119)	; ⽶
-    (ideographic-strokes@ucs/code . 9)
-    (total-strokes	 . 15)
-    (ideographic-structure
-     ?⿰
-     ?娄
-     ?后)
-    (=ucs		. #x21890)	; 𡢐
     ))
 (define-char
   '((ideographic-radical . 38)	; ⼥
@@ -46672,21 +46676,6 @@
      ((==ucs@cns	  . #x21892)	; &g2-CU+21892;
       (==cns11643-5	  . #x5423)	; &g2-CU+21892; [52-03]
       ))
-    ))
-(define-char
-  '((ideographic-radical . 38)	; ⼥
-    (ideographic-strokes . 13)
-    (total-strokes	 . 16)
-    (=ucs		. #x218AE)	; 𡢮
-    ))
-(define-char
-  '((ideographic-radical . 38)	; ⼥
-    (ideographic-strokes . 13)
-    (total-strokes	 . 16)
-    (<-denotational
-     ((=ucs		. #x218AE)	; 𡢮
-      ))
-    (=ucs@iso		. #x218AE)	; 𡢮
     ))
 (define-char
   '((ideographic-radical . 38)	; ⼥
@@ -49499,6 +49488,21 @@
      ((=ucs-var-001	  . #x2C758)	; &U-v001+2C758;
       ))
     (=ucs@iso		. #x218AB)	; &U-000218AB;
+    ))
+(define-char
+  '((ideographic-radical . 38)	; ⼥
+    (ideographic-strokes . 13)
+    (total-strokes	 . 16)
+    (=ucs 		. #x218AE)	; 𡢮
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x218AE)	; 𡢮
+      ))
+    (ideographic-radical . 38)	; ⼥
+    (ideographic-strokes . 13)
+    (total-strokes	 . 16)
+    (=ucs@iso 		. #x218AE)	; &U-000218AE;
     ))
 (define-char
   '((ideographic-radical . 38)	; ⼥

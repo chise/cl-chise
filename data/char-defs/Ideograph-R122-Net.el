@@ -396,30 +396,6 @@
 (define-char
   '((ideographic-radical . 122)	; ⽹
     (ideographic-strokes . 0)
-    (total-strokes	 . 6)
-    (ideographic-structure
-     ?⿵
-     ?冂
-     ((=>ucs@iwds-1	. #x4ECE)	; &A-IWDSU+4ECE;
-      ))
-    (=>ucs-itaiji-001	. #x7F51)	; &U-i001+7F51;
-    ))
-(define-char
-  '((<-denotational
-     ((=>ucs-itaiji-001	. #x7F51)	; &U-i001+7F51;
-      ))
-    (ideographic-radical . 122)	; ⽹
-    (ideographic-strokes . 0)
-    (total-strokes	 . 6)
-    (ideographic-structure
-     ?⿵
-     ?冂
-     ?从)
-    (=ucs-itaiji-001	. #x7F51)	; &U-i001+7F51;
-    ))
-(define-char
-  '((ideographic-radical . 122)	; ⽹
-    (ideographic-strokes . 0)
     (total-strokes	 . 4)
     (=ucs		. #x2626B)	; 𦉫
     (=cns11643-6	. #x2228)	; &I-C6-2228; [02-08]
@@ -705,6 +681,38 @@
        ((===ucs@iso	    . #x26270)	; &R-U-00026270;
 	))
       ))
+    ))
+(define-char
+  '((ideographic-radical . 122)	; ⽹
+    (ideographic-strokes . 0)
+    (total-strokes	 . 6)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM ABOVE")
+      (=ucs		  . #x2FF5)	; ⿵
+      )
+     ((=ucs		  . #x5182)	; 冂
+      )
+     ((=>ucs@iwds-1	  . #x4ECE)	; &A-IWDSU+4ECE;
+      (=>ucs@iwds-1/normalized . #x4ECE)	; &A-IWDSU+4ECE;
+      ))
+    (=>ucs-itaiji-001	. #x7F51)	; &A-U-i001+7F51;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-001	  . #x7F51)	; &A-U-i001+7F51;
+      ))
+    (ideographic-radical . 122)	; ⽹
+    (ideographic-strokes . 0)
+    (total-strokes	 . 6)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM ABOVE")
+      (=ucs		  . #x2FF5)	; ⿵
+      )
+     ((=ucs		  . #x5182)	; 冂
+      )
+     ((=ucs		  . #x4ECE)	; 从
+      ))
+    (=ucs-itaiji-001	. #x7F51)	; &U-i001+7F51;
     ))
 (define-char
   '((ideographic-radical . 122)	; ⽹

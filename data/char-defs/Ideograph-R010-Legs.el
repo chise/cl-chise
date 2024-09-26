@@ -8937,8 +8937,22 @@
   '((ideographic-radical . 10)	; ⼉
     (ideographic-strokes . 17)
     (total-strokes	 . 19)
-    (hanyu-dazidian	1 275 12)
+    (ideographic-structure
+     ?⿰
+     ((=>ucs@iwds-1	. #x5149)	; &A-IWDSU+5149;
+      )
+     ?睪)
     (=ucs		. #x204CB)	; 𠓋
+    ))
+(define-char
+  '((ideographic-radical . 10)	; ⼉
+    (ideographic-strokes . 17)
+    (total-strokes	 . 19)
+    (<-denotational
+     ((=ucs		. #x204CB)	; 𠓋
+      ))
+    (hanyu-dazidian	1 275 12)
+    (=ucs@iso		. #x204CB)	; 𠓋
     (=mj		. 030945)	; &I-MJ030945;
     (=cns11643-7	. #x4629)	; &I-C7-4629; [38-09]
     (=koseki		. 016510)	; 𠓋

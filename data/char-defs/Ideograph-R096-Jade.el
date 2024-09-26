@@ -7303,13 +7303,13 @@
      ((=ucs		. #x740D)	; 琍
       ))
     (=ucs@unicode	. #x740D)	; 琍
-    (=cns11643-1	. #x5C23)	; &I-C1-5C23; [60-03]
+    (=cns11643-1	. #x5C23)	; &C1-5C23; [60-03]
     (=big5		. #xB27C)	; &I-B-B27C;
     (=daikanwa		. 21028)	; &I-M-21028;
     (=jef-china3	. #x9EC4)	; &I-JC3-9EC4;
     (->subsumptive
      ((==ucs@unicode	. #x740D)	; 琍
-      (==cns11643-1	. #x5C23)	; &I-C1-5C23; [60-03]
+      (==cns11643-1	. #x5C23)	; &C1-5C23; [60-03]
       (==big5		. #xB27C)	; &I-B-B27C;
       (==daikanwa		. 21028)	; &I-M-21028;
       (==jef-china3	. #x9EC4)	; &I-JC3-9EC4;
@@ -19163,6 +19163,11 @@
   '((<-denotational
      ((=>ucs@iwds-1	  . #x74A7)	; &A-IWDSU+74A7;
       ))
+    (<-denotational@usage
+     ((ideographic-radical . 96)	; ⽟
+      (==>ucs@bucs	. #x74A7)	; &BUCS+74A7;
+      (==>daijiten	. 07382)	; &A2-DJT-07382;
+      ))
     (ideographic-radical . 96)	; ⽟
     (ideographic-strokes . 13)
     (total-strokes	 . 18)
@@ -19175,6 +19180,15 @@
      ((=ucs		  . #x7389)	; 玉
       ))
     (=ucs		. #x74A7)	; 璧
+    ))
+(define-char
+  '((ideographic-radical . 96)	; ⽟
+    (ideographic-strokes . 13)
+    (total-strokes	 . 18)
+    (<-denotational
+     ((=ucs		. #x74A7)	; 璧
+      ))
+    (=ucs@unicode	. #x74A7)	; 璧
     (=adobe-japan1-0	. 05683)	; &I-AJ1-05683;
     (=jis-x0208		. #x607A)	; &I-J90-607A; [64-90]
     (=gb2312		. #x6835)	; &I-G0-6835; [72-21]
@@ -19185,6 +19199,7 @@
     (=gt		. 27303)	; &I-GT-27303;
     (=gt-pj-1		. #x607A)	; &I-GT-27303; [64-90]
     (=daikanwa		. 21269)	; &I-M-21269;
+    (=daijiten		. 07382)	; &I-DJT-07382;
     (=shinjigen		.  4965)	; 璧
     (->subsumptive
      ((=decomposition@cid
@@ -19201,6 +19216,7 @@
       (==jis-x0213-1	  . #x607A)	; &g2-AJ1-05683; [64-90]
       (==gt		  . 27303)	; &g2-AJ1-05683;
       (==daikanwa	  . 21269)	; &g2-AJ1-05683;
+      (==daijiten	. 07382)	; &I-DJT-07382;
       (==shinjigen	  .  4965)	; &g2-AJ1-05683;
       (->subsumptive
        ((===daikanwa	    . 21269)	; &R-M-21269;
@@ -21605,11 +21621,11 @@
     (ideographic-strokes . 14)
     (total-strokes	 . 18)
     (=ucs@iso		. #x24AA2)	; 𤪢
-    (=cns11643-7	. #x4061)	; &I-C7-4061; [32-65]
+    (=cns11643-7	. #x4061)	; &C7-4061; [32-65]
     (=daikanwa		. 49315)	; &I-M-49315;
     (->subsumptive
      ((==ucs@iso		. #x24AA2)	; 𤪢
-      (==cns11643-7	. #x4061)	; &I-C7-4061; [32-65]
+      (==cns11643-7	. #x4061)	; &C7-4061; [32-65]
       (==daikanwa		. 49315)	; &I-M-49315;
       ))
     ))

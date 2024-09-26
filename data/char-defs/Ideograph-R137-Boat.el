@@ -1245,7 +1245,8 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs@unicode	  . #x821F)	; 舟
+     ((=ucs@unicode	  . #x821F)	; &AJ1-02360;
+      (=adobe-japan1-0	  . 02360)	; &AJ1-02360;
       )
      ((=ucs		  . #x65B9)	; 方
       ))
@@ -1937,9 +1938,10 @@
     (=daikanwa		. 30400)	; &I-M-30400;
     (=shinjigen		.  3562)	; &AJ1-02857;
     (<-formed
-     ((=ucs@unicode	  . #x67C1)	; 柁
+     ((=ucs@unicode	  . #x67C1)	; &AJ1-02856;
+      (=adobe-japan1-0	  . 02856)	; &AJ1-02856;
       (=jis-x0208	  . #x4248)	; &I-J90-4248; [34-40]
-      (=shinjigen	  .  3560)	; 柁
+      (=shinjigen	  .  3560)	; &AJ1-02856;
       ))
     (<-formed$_1*sources
      shinjigen)
@@ -1991,7 +1993,7 @@
      ((=ucs@unicode	  . #x821F)	; &AJ1-02360;
       (=adobe-japan1-0	  . 02360)	; &AJ1-02360;
       )
-     ((=ucs-var-001	. #x5B83)	; &U-v001+5B83;
+     ((=ucs-var-001	  . #x5B83)	; &U-v001+5B83;
       ))
     (=daijiten		. 09670)	; &DJT-09670;
     ))
@@ -2006,9 +2008,10 @@
     (=cbeta		. 03374)	; &I-CB03374;
     (=jef-china3	. #x61A4)	; &I-JC3-61A4;
     (<-formed
-     ((=ucs@unicode	  . #x67C1)	; 柁
+     ((=ucs@unicode	  . #x67C1)	; &AJ1-02856;
+      (=adobe-japan1-0	  . 02856)	; &AJ1-02856;
       (=jis-x0208	  . #x4248)	; &I-J90-4248; [34-40]
-      (=shinjigen	  .  3560)	; 柁
+      (=shinjigen	  .  3560)	; &AJ1-02856;
       ))
     (<-formed*sources
      shinjigen)
@@ -6517,7 +6520,7 @@
       )
      ((=hanyo-denshi/ks	  . 338850)	; &HD-KS-338850;
       )
-     ((=ucs-var-003	. #x60A4)	; &U-v003+60A4;
+     ((=ucs-var-003	  . #x60A4)	; &U-v003+60A4;
       ))
     (=ucs@iso		. #x26A90)	; &U-00026A90;
     ))

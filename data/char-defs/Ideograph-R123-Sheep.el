@@ -581,7 +581,7 @@
       )
      ((=ucs@unicode	  . #x2EB6)	; &UU+2EB6;
       )
-     ((=gt-k		  . 00031)	; &GT-K00031;
+     ((=gt-k		  . 00031)	; &I-GT-K00031;
       ))
     (=ucs-itaiji-002	. #x7F8C)	; &U-i002+7F8C;
     ))
@@ -1332,7 +1332,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=ucs		. #x2634B)	; 𦍋
+     ((=ucs		  . #x2634B)	; 𦍋
       )
      ((=ucs		  . #x4E45)	; 久
       ))
@@ -3079,9 +3079,13 @@
   '((ideographic-radical . 123)	; ⽺
     (ideographic-strokes . 5)
     (ideographic-structure
-     ?⿷
-     ?羐
-     ?厶)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LEFT")
+      (=ucs		  . #x2FF7)	; ⿷
+      )
+     ((=ucs		  . #x7F90)	; 羐
+      )
+     ((=ucs		  . #x53B6)	; 厶
+      ))
     (=ucs		. #x26C83)	; 𦲃
     ))
 (define-char
@@ -3092,11 +3096,14 @@
     (ideographic-strokes . 5)
     (total-strokes	 . 12)
     (ideographic-structure
-     ?⿷
-     ((=ucs-itaiji-001	. #x7F90)	; &U-i001+7F90;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LEFT")
+      (=ucs		  . #x2FF7)	; ⿷
       )
-     ?厶)
-    (=daikanwa		. 49508)	; &M-49508;
+     ((=ucs-itaiji-001	  . #x7F90)	; &U-i001+7F90;
+      )
+     ((=ucs		  . #x53B6)	; 厶
+      ))
+    (=daikanwa 		. 49508)	; &M-49508;
     ))
 (define-char
   '((<-denotational
@@ -3105,7 +3112,7 @@
     (ideographic-radical . 123)	; ⽺
     (ideographic-strokes . 5)
     (total-strokes	 . 12)
-    (=ucs@iso 		. #x26C83)	; &C6-4C7B;
+    (=ucs@iso  		. #x26C83)	; &C6-4C7B;
     (=cns11643-6	. #x4C7B)	; &C6-4C7B; [44-91]
     (->subsumptive
      ((==ucs@iso	  . #x26C83)	; &g2-IU-00026C83;
@@ -7509,7 +7516,7 @@
       (=ucs		  . #x2FF5)	; ⿵
       )
      ((=ucs@cns		  . #x26760)	; &C5-4227;
-      (=cns11643-5	  . #x4227)	; &I-C5-4227; [34-07]
+      (=cns11643-5	  . #x4227)	; &C5-4227; [34-07]
       )
      ((=ucs		  . #x7F8A)	; 羊
       ))
@@ -7903,7 +7910,7 @@
     (ideographic-radical@cns . 123)	; ⽺
     (ideographic-strokes@cns . 14)
     (total-strokes	 . 20)
-    (=ucs  		. #x8B71)	; 譱
+    (=ucs 		. #x8B71)	; 譱
     ))
 (define-char
   '((<-denotational

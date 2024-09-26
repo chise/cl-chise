@@ -1222,14 +1222,38 @@
       ))
     ))
 (define-char
+  '((<-denotational@usage
+     ((ideographic-radical . 112)	; ⽯
+      (==>ucs@bucs	. #x77FD)	; &BUCS+77FD;
+      ))
+    (ideographic-radical . 112)	; ⽯
+    (ideographic-strokes . 3)
+    (total-strokes	 . 8)
+    (ideographic-structure
+     ?⿰
+     ?石
+     ?夕)
+    (=ucs		. #x77FD)	; 矽
+    ))
+(define-char
   '((ideographic-radical . 112)	; ⽯
     (ideographic-strokes . 3)
     (total-strokes	 . 8)
-    (=ucs		. #x77FD)	; 矽
+    (<-denotational
+     ((=ucs		. #x77FD)	; 矽
+      ))
+    (=ucs@unicode	. #x77FD)	; 矽
     (=gb2312		. #x4E79)	; &I-G0-4E79; [46-89]
     (=cns11643-1	. #x4F22)	; &I-C1-4F22; [47-02]
     (=big5		. #xAABF)	; &I-B-AABF;
     (=daikanwa		. 24045)	; &I-M-24045;
+    (->subsumptive
+     ((==ucs@unicode		. #x77FD)	; 矽
+      (==gb2312		. #x4E79)	; &I-G0-4E79; [46-89]
+      (==cns11643-1	. #x4F22)	; &I-C1-4F22; [47-02]
+      (==big5		. #xAABF)	; &I-B-AABF;
+      (==daikanwa		. 24045)	; &I-M-24045;
+      ))
     ))
 (define-char
   '((ideographic-radical . 112)	; ⽯
@@ -11754,11 +11778,11 @@
      ((=ucs		. #x25510)	; 𥔐
       ))
     (=ucs@iso		. #x25510)	; 𥔐
-    (=cns11643-6	. #x5F58)	; &I-C6-5F58; [63-56]
+    (=cns11643-6	. #x5F58)	; &C6-5F58; [63-56]
     (=daikanwa		. 49394)	; &I-M-49394;
     (->subsumptive
      ((==ucs@iso		. #x25510)	; 𥔐
-      (==cns11643-6	. #x5F58)	; &I-C6-5F58; [63-56]
+      (==cns11643-6	. #x5F58)	; &C6-5F58; [63-56]
       (==daikanwa		. 49394)	; &I-M-49394;
       ))
     ))

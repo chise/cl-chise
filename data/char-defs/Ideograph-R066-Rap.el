@@ -7666,14 +7666,20 @@
       ))
     (ideographic-radical . 66)	; ⽁
     (ideographic-structure
-     ?⿹
-     ?攻
-     ?𤮺)
-    (ideographic-structure@apparent
-     ?⿰
-     ((=>big5-cdp		. #x8C5B)	; &A-GT-K04926;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT")
+      (=ucs		  . #x2FF9)	; ⿹
       )
-     ((=>ucs@component	. #x6535)	; &A-compU+6535;
+     ((=ucs		  . #x653B)	; 攻
+      )
+     ((=ucs		  . #x24BBA)	; 𤮺
+      ))
+    (ideographic-structure@apparent
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=>big5-cdp	  . #x8C5B)	; &A-GT-K04926;
+      )
+     ((=>ucs@component	  . #x6535)	; &A-compU+6535;
       ))
     (=>ucs@unicode	. #x6562)	; &J97-343A;
     (=>jis-x0208	. #x343A)	; &J97-343A; [20-26]

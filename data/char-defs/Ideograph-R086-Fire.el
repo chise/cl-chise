@@ -3580,7 +3580,7 @@
     (<-denotational@usage
      ((ideographic-radical . 86)	; ⽕
       (==>ucs@bucs	. #x7095)	; &BUCS+7095;
-      (==>daijiten	. 06802)	; &A2-DJT-06802;
+      (==>daijiten	. 06802)	; &BUCS+7095;
       ))
     (ideographic-radical . 86)	; ⽕
     (ideographic-strokes . 4)
@@ -3600,7 +3600,7 @@
      ((=ucs		. #x7095)	; 炕
       ))
     (=ucs@unicode	. #x7095)	; 炕
-    (=gb2312		. #x3F3B)	; &I-G0-3F3B; [31-27]
+    (=gb2312		. #x3F3B)	; &JX2-6F5E; [31-27]
     (=jis-x0212		. #x494D)	; &I-JSP-494D; [41-45]
     (=cns11643-1	. #x4E62)	; &I-C1-4E62; [46-66]
     (=jis-x0213-2	. #x6F5E)	; &I-JX2-6F5E; [79-62]
@@ -19727,7 +19727,7 @@
       ))
     (=daikanwa		. 19243)	; &M-19243;
     (<-vulgar
-     ((=ucs		  . #x7095)	; 炕
+     ((=ucs@unicode	  . #x7095)	; 炕
       (=daikanwa	  . 18918)	; &I-M-18918;
       ))
     (<-vulgar*sources

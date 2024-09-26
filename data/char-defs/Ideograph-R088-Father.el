@@ -155,10 +155,27 @@
       ))
     ))
 (define-char
+  '((<-denotational@usage
+     ((ideographic-radical . 88)	; ⽗
+      (==>ucs@bucs	. #x7238)	; &BUCS+7238;
+      ))
+    (ideographic-radical . 88)	; ⽗
+    (ideographic-strokes . 4)
+    (total-strokes	 . 8)
+    (ideographic-structure
+     ?⿱
+     ?父
+     ?巴)
+    (=ucs		. #x7238)	; 爸
+    ))
+(define-char
   '((ideographic-radical . 88)	; ⽗
     (ideographic-strokes . 4)
     (total-strokes	 . 8)
-    (=ucs		. #x7238)	; 爸
+    (<-denotational
+     ((=ucs		. #x7238)	; 爸
+      ))
+    (=ucs@unicode	. #x7238)	; 爸
     (=gb2312		. #x3056)	; &I-G0-3056; [16-54]
     (=jis-x0212		. #x4A4B)	; &I-JSP-4A4B; [42-43]
     (=cns11643-1	. #x4E69)	; &I-C1-4E69; [46-73]

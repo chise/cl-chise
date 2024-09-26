@@ -5655,9 +5655,27 @@
   '((ideographic-radical . 72)	; ⽇
     (ideographic-strokes . 4)
     (total-strokes	 . 8)
+    (ideographic-structure
+     ?⿰
+     ?日
+     ?丑)
     (=ucs		. #x23174)	; 𣅴
+    ))
+(define-char
+  '((ideographic-radical . 72)	; ⽇
+    (ideographic-strokes . 4)
+    (total-strokes	 . 8)
+    (<-denotational
+     ((=ucs		. #x23174)	; 𣅴
+      ))
+    (=ucs@iso		. #x23174)	; 𣅴
     (=cns11643-6	. #x2B76)	; &I-C6-2B76; [11-86]
     (=daikanwa		. 49150)	; &I-M-49150;
+    (->subsumptive
+     ((==ucs@iso		. #x23174)	; 𣅴
+      (==cns11643-6	. #x2B76)	; &I-C6-2B76; [11-86]
+      (==daikanwa		. 49150)	; &I-M-49150;
+      ))
     ))
 (define-char
   '((<-denotational@usage
@@ -28114,14 +28132,14 @@
     (=daikanwa 		. 49156)	; &I-M-49156;
     (->subsumptive
      ((==daikanwa	  . 49156)	; &g2-M-49156;
-      (==daikanwa	    . 49156)	; &R-M-49156;
+      (==daikanwa	    . 49156)	; &g2-M-49156;
       )
      ((==cns11643-7	  . #x3F76)	; &g2-M-49156; [31-86]
-      (==cns11643-7	    . #x3F76)	; &R-C7-3F76; [31-86]
+      (==cns11643-7	    . #x3F76)	; &g2-CU+3B27; [31-86]
       )
      ((==ucs@unicode	  . #x3B27)	; &g2-M-49156;
       (==ucs@JP/hanazono . nil)
-      (==ucs@unicode	    . #x3B27)	; &R-UU+3B27;
+      (==ucs@unicode	    . #x3B27)	; &g2-UU+3B27;
       ))
     ))
 (define-char

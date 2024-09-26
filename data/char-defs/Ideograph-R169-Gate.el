@@ -2976,6 +2976,15 @@
      ((=ucs		  . #x7389)	; 玉
       ))
     (=ucs		. #x95A0)	; 閠
+    ))
+(define-char
+  '((ideographic-radical . 169)	; ⾨
+    (ideographic-strokes . 5)
+    (total-strokes	 . 13)
+    (<-denotational
+     ((=ucs		. #x95A0)	; 閠
+      ))
+    (=ucs@unicode	. #x95A0)	; 閠
     (=adobe-japan1-0	. 07067)	; &I-AJ1-07067;
     (=jis-x0208		. #x6F60)	; &I-J90-6F60; [79-64]
     (=jis-x0213-1	. #x6F60)	; &I-JX1-6F60; [79-64]

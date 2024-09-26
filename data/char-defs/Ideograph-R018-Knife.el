@@ -19010,9 +19010,13 @@
 (define-char
   '((ideographic-radical . 18)	; ⼑
     (ideographic-structure
-     ?⿽
-     ?𠛱
-     ?艹)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER RIGHT")
+      (=ucs		  . #x2FFD)	; ⿽
+      )
+     ((=ucs		  . #x206F1)	; 𠛱
+      )
+     ((=ucs		  . #x8279)	; 艹
+      ))
     (=ucs		. #x2079D)	; 𠞝
     ))
 (define-char
@@ -19023,9 +19027,16 @@
     (ideographic-strokes . 10)
     (total-strokes	 . 12)
     (ideographic-structure
-     ?⿽
-     ?&C6-296C;
-     ?⺿)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER RIGHT")
+      (=ucs		  . #x2FFD)	; ⿽
+      )
+     ((=ucs@iso		  . #x206F1)	; &C6-296C;
+      (=cns11643-6	  . #x296C)	; &C6-296C; [09-76]
+      (=daikanwa	  . 01973)	; &I-M-01973;
+      )
+     ((name		  . "CJK RADICAL GRASS TWO")
+      (=ucs		  . #x2EBF)	; ⺿
+      ))
     (=ucs@iso		. #x2079D)	; &C6-466E;
     (=cns11643-6	. #x466E)	; &C6-466E; [38-78]
     (=daikanwa		. 48940)	; &I-M-48940;
@@ -21901,7 +21912,11 @@
   '((ideographic-radical . 18)	; ⼑
     (ideographic-strokes . 12)
     (total-strokes	 . 14)
-    (=ucs 		. #x207DB)	; 𠟛
+    (ideographic-structure
+     ?⿹
+     ?釗
+     ?灬)
+    (=ucs		. #x207DB)	; 𠟛
     ))
 (define-char
   '((<-denotational

@@ -5105,7 +5105,11 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 141)	; ⾌
+  '((<-denotational@usage
+     ((ideographic-radical . 141)	; ⾌
+      (==>daijiten	. 10274)	; &A2-DJT-10274;
+      ))
+    (ideographic-radical . 141)	; ⾌
     (ideographic-strokes . 7)
     (total-strokes	 . 13)
     (ideographic-structure
@@ -5132,16 +5136,19 @@
      ((=ucs@unicode	  . #x864D)	; &AJ1-06479;
       (=adobe-japan1-0	  . 06479)	; &AJ1-06479;
       )
-     ((=ucs@unicode	  . #x8C46)	; 豆
+     ((=ucs@unicode	  . #x8C46)	; &AJ1-03198;
+      (=adobe-japan1-0	  . 03198)	; &AJ1-03198;
       ))
     (=ucs@unicode	. #x4592)	; &C3-4441;
     (=cns11643-3	. #x4441)	; &C3-4441; [36-33]
     (=big5-cdp		. #x8CB1)	; &I-CDP-8CB1;
     (=daikanwa		. 32717)	; &I-M-32717;
+    (=daijiten		. 10274)	; &I-DJT-10274;
     (->subsumptive
      ((==ucs@unicode	  . #x4592)	; &g2-CDP-8CB1;
       (==big5-cdp	  . #x8CB1)	; &g2-CDP-8CB1;
       (==daikanwa	  . 32717)	; &g2-CDP-8CB1;
+      (==daijiten		. 10274)	; &I-DJT-10274;
       (->subsumptive
        ((===daikanwa	    . 32717)	; &R-M-32717;
 	)

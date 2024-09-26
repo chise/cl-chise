@@ -4363,7 +4363,7 @@
       )
      ((=ucs		  . #x5B80)	; 宀
       )
-     ((=ucs		  . #x7389)	; 玉
+     ((=ucs@unicode	  . #x7389)	; 玉
       ))
     (=ucs@unicode	. #x5B9D)	; &AJ1-03653;
     (=adobe-japan1-0	. 03653)	; &AJ1-03653;

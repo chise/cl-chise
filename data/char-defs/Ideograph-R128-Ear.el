@@ -3111,8 +3111,7 @@
       )
      ((=ucs		  . #x53D6)	; 取
       )
-     ((=ucs@unicode	  . #x4E51)	; &AJ1-17241;
-      (=adobe-japan1-5	  . 17241)	; &AJ1-17241;
+     ((=+>ucs@unicode	. #x4E51)	; &AJ1-17241;
       ))
     (=ucs@unicode	. #x805A)	; &AJ1-06217;
     (=adobe-japan1-0	. 06217)	; &AJ1-06217;

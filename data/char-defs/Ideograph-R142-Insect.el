@@ -22859,9 +22859,26 @@
     ))
 (define-char
   '((ideographic-radical . 142)	; ⾍
+    (ideographic-structure
+     ?⿱
+     ((=>ucs@iwds-1	. #x8C55)	; &A-IWDSU+8C55;
+      )
+     ?䖵)
+    (=ucs		. #x87F8)	; 蟸
+    ))
+(define-char
+  '((ideographic-radical . 142)	; ⾍
     (ideographic-strokes . 13)
     (total-strokes	 . 19)
-    (=ucs		. #x87F8)	; 蟸
+    (<-denotational
+     ((=ucs		. #x87F8)	; 蟸
+      ))
+    (ideographic-structure
+     ?⿱
+     ((=ucs@unicode	. #x8C55)	; &MJ024906;
+      )
+     ?䖵)
+    (=ucs@unicode	. #x87F8)	; 蟸
     (=jis-x0212		. #x5B65)	; &I-JSP-5B65; [59-69]
     (=cns11643-3	. #x5B2C)	; &I-C3-5B2C; [59-12]
     (=daikanwa		. 33666)	; &I-M-33666;

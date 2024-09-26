@@ -989,11 +989,15 @@
     (ideographic-strokes . 4)
     (total-strokes	 . 11)
     (ideographic-structure
-     ?⿱
-     ?&CDP-8BAE;
-     ((=>ucs@iwds-1	. #x8C55)	; &A-IWDSU+8C55;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=big5-cdp	  . #x8BAE)	; &CDP-8BAE;
+      )
+     ((=>ucs@iwds-1	  . #x8C55)	; &A-IWDSU+8C55;
+      (=>iwds-1		  .  0246)	; &A-IWDSU+8C55;
       ))
-    (=ucs 		. #x8C59)	; 豙
+    (=ucs		. #x8C59)	; 豙
     ))
 (define-char
   '((<-denotational
@@ -1003,9 +1007,14 @@
     (ideographic-strokes . 4)
     (total-strokes	 . 11)
     (ideographic-structure
-     ?⿱
-     ?&CDP-8BAE;
-     ?&MJ024906;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=big5-cdp	  . #x8BAE)	; &CDP-8BAE;
+      )
+     ((=ucs@unicode	  . #x8C55)	; &MJ024906;
+      (=mj		  . 024906)	; &MJ024906;
+      ))
     (=ucs@unicode	. #x8C59)	; &JSP-5E72;
     (=jis-x0212		. #x5E72)	; &JSP-5E72; [62-82]
     (=cns11643-4	. #x354D)	; &I-C4-354D; [21-45]
@@ -1961,7 +1970,7 @@
     ))
 (define-char
   '((ideographic-radical . 152)	; ⾗
-    (=ucs 		. #x27C48)	; 𧱈
+    (=ucs  		. #x27C48)	; 𧱈
     ))
 (define-char
   '((<-denotational
@@ -2296,9 +2305,15 @@
     (ideographic-strokes . 7)
     (total-strokes	 . 14)
     (ideographic-structure
-     ?⿰
-     ?&MJ024906;
-     ?&MJ024906;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@unicode	  . #x8C55)	; &MJ024906;
+      (=mj		  . 024906)	; &MJ024906;
+      )
+     ((=ucs@unicode	  . #x8C55)	; &MJ024906;
+      (=mj		  . 024906)	; &MJ024906;
+      ))
     (=ucs@unicode	. #x8C69)	; &JX2-7922;
     (=jis-x0212		. #x5E77)	; &JX2-7922; [62-87]
     (=cns11643-2	. #x4E3A)	; &I-C2-4E3A; [46-26]
@@ -2584,7 +2599,7 @@
   '((ideographic-radical . 152)	; ⾗
     (ideographic-strokes . 7)
     (total-strokes	 . 14)
-    (=ucs 		. #x2B387)	; 𫎇
+    (=ucs  		. #x2B387)	; 𫎇
     ))
 (define-char
   '((<-denotational

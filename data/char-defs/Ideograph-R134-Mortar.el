@@ -3035,11 +3035,11 @@
       )
      ?&GT-K01457;)
     (=ucs@unicode	. #x4455)	; 䑕
-    (=ucs@unicode	  . #x4455)	; &M-49562;
-    (=daikanwa	  . 49562)	; &M-49562;
+    (=ucs@unicode	  . #x4455)	; &C4-3458;
+    (=daikanwa	  . 49562)	; &C4-3458;
     (->subsumptive
-     ((==ucs@unicode	  . #x4455)	; &M-49562;
-      (==daikanwa	  . 49562)	; &M-49562;
+     ((==ucs@unicode	  . #x4455)	; &C4-3458;
+      (==daikanwa	  . 49562)	; &C4-3458;
       )
      ((==cns11643-4	  . #x3458)	; &C4-3458; [20-56]
       ))
@@ -4137,6 +4137,23 @@
 (define-char
   '((<-denotational
      ((=>ucs@cognate	  . #x26973)	; &A-cgnU+26973;
+      ))
+    (ideographic-radical . 134)	; ⾅
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		. #x81FE)	; 臾
+      )
+     ((=ucs		  . #x200A4)	; 𠂤
+      ))
+    (=>mj		. 058418)	; &MJ058418;
+    (=>hanyo-denshi/ks	. 337390)	; &MJ058418;
+    ))
+(define-char
+  '((<-denotational
+     ((=>mj		. 058418)	; &MJ058418;
+      (=>hanyo-denshi/ks	. 337390)	; &MJ058418;
       ))
     (ideographic-radical . 134)	; ⾅
     (ideographic-strokes . 8)
@@ -6193,10 +6210,19 @@
     (total-strokes	 . 18)
     (sound@ja/on	"you")
     (=ucs		. #x2699E)	; 𦦞
+    ))
+(define-char
+  '((ideographic-radical . 134)	; ⾅
+    (ideographic-strokes . 11)
+    (total-strokes	 . 18)
+    (<-denotational
+     ((=ucs		. #x2699E)	; 𦦞
+      ))
+    (=ucs@iso		. #x2699E)	; 𦦞
     (=cns11643-7	. #x4226)	; &I-C7-4226; [34-06]
     (=daikanwa		. 49570)	; &I-M-49570;
     (<-interchangeable
-     ((=ucs		  . #x9095)	; 邕
+     ((=ucs@unicode	  . #x9095)	; 邕
       (=daikanwa	  . 39277)	; &I-M-39277;
       ))
     (<-interchangeable*sources

@@ -4353,7 +4353,6 @@
     (ideographic-radical . 31)	; ⼞
     (ideographic-strokes . 5)
     (total-strokes	 . 8)
-    (hanyu-dazidian	1 716 7)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER FULL SURROUND")
       (=ucs		  . #x2FF4)	; ⿴
@@ -4363,6 +4362,16 @@
      ((=ucs		  . #x7389)	; 玉
       ))
     (=ucs		. #x56FD)	; 国
+    ))
+(define-char
+  '((ideographic-radical . 31)	; ⼞
+    (ideographic-strokes . 5)
+    (total-strokes	 . 8)
+    (<-denotational
+     ((=ucs		. #x56FD)	; 国
+      ))
+    (hanyu-dazidian	1 716 7)
+    (=ucs@unicode	. #x56FD)	; 国
     (=adobe-japan1-0	. 02051)	; &I-AJ1-02051;
     (=jis-x0208		. #x3971)	; &I-J90-3971; [25-81]
     (=gb2312		. #x397A)	; &I-G0-397A; [25-90]

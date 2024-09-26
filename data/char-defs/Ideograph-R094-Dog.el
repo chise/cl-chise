@@ -6017,7 +6017,7 @@
       )
      ((=ucs		  . #x72AD)	; 犭
       )
-     ((=ucs		  . #x8099)	; 肙
+     ((=ucs@unicode	  . #x8099)	; 肙
       ))
     (=ucs@unicode	. #x72F7)	; &AJ1-05631;
     (=adobe-japan1-0	. 05631)	; &AJ1-05631;
