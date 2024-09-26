@@ -9383,11 +9383,11 @@
       (=>iwds-1		  .  0161)	; &A-IWDSU+20041;
       ))
     (ideographic-radical . 1)	; ⼀
-    (=>ucs@component	. #x20041)	; &A-IWDSU+20041;
+    (=>ucs@component	. #x20041)	; &A-compU+20041;
     ))
 (define-char
   '((<-denotational
-     ((=>ucs@component	. #x20041)	; &A-IWDSU+20041;
+     ((=>ucs@component	  . #x20041)	; &A-compU+20041;
       ))
     (<-denotational@usage
      ((==>daijiten	  . 00042)	; &A2-DJT-00042;
@@ -9516,7 +9516,7 @@
     ))
 (define-char
   '((<-denotational
-     ((=>ucs@component	. #x20041)	; &A-IWDSU+20041;
+     ((=>ucs@component	  . #x20041)	; &A-compU+20041;
       ))
     (ideographic-radical . 1)	; ⼀
     (ideographic-strokes@ucs . 9)

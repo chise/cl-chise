@@ -19009,11 +19009,38 @@
     ))
 (define-char
   '((ideographic-radical . 18)	; ⼑
+    (ideographic-structure
+     ?⿽
+     ?𠛱
+     ?艹)
+    (=ucs		. #x2079D)	; 𠞝
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x2079D)	; 𠞝
+      ))
+    (ideographic-radical . 18)	; ⼑
     (ideographic-strokes . 10)
     (total-strokes	 . 12)
-    (=ucs		. #x2079D)	; 𠞝
-    (=cns11643-6	. #x466E)	; &I-C6-466E; [38-78]
+    (ideographic-structure
+     ?⿽
+     ?&C6-296C;
+     ?⺿)
+    (=ucs@iso		. #x2079D)	; &C6-466E;
+    (=cns11643-6	. #x466E)	; &C6-466E; [38-78]
     (=daikanwa		. 48940)	; &I-M-48940;
+    (->subsumptive
+     ((==ucs@iso	  . #x2079D)	; &g2-M-48940;
+      (==cns11643-6	  . #x466E)	; &g2-M-48940; [38-78]
+      (==daikanwa	  . 48940)	; &g2-M-48940;
+      (->subsumptive
+       ((===daikanwa	    . 48940)	; &R-M-48940;
+	)
+       ((===cns11643-6	    . #x466E)	; &R-C6-466E; [38-78]
+	)
+       ((===ucs@iso	    . #x2079D)	; &R-U-0002079D;
+	))
+      ))
     ))
 (define-char
   '((ideographic-radical . 18)	; ⼑
@@ -20371,7 +20398,7 @@
     (=daikanwa		. 02169)	; &I-M-02169;
     (<-formed
      ((=ucs@jis		  . #x7FE6)	; &AJ1-06197;
-      (=adobe-japan1-0	  . 06197)	; &I-AJ1-06197;
+      (=adobe-japan1-0	  . 06197)	; &AJ1-06197;
       ))
     (<-formed$_1*sources
      koseki mj)
@@ -21883,7 +21910,7 @@
     (ideographic-radical . 18)	; ⼑
     (ideographic-strokes . 12)
     (total-strokes	 . 14)
-    (=ucs@iso  		. #x207DB)	; &U-000207DB;
+    (=ucs@iso 		. #x207DB)	; &U-000207DB;
     ))
 (define-char
   '((ideographic-radical . 18)	; ⼑

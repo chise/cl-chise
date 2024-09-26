@@ -9784,7 +9784,7 @@
     (=ucs		. #x2188F)	; 𡢏
     ))
 (define-char
-  '((ideographic-radical . 119)	; ⽶
+  '((ideographic-radical@ucs/code . 119)	; ⽶
     (ideographic-strokes . 12)
     (total-strokes	 . 15)
     (ideographic-structure

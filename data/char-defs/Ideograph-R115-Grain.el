@@ -1401,9 +1401,27 @@
   '((ideographic-radical . 115)	; ⽲
     (ideographic-strokes . 3)
     (total-strokes	 . 8)
+    (ideographic-structure
+     ?⿰
+     ?禾
+     ?千)
     (=ucs		. #x412D)	; 䄭
+    ))
+(define-char
+  '((ideographic-radical . 115)	; ⽲
+    (ideographic-strokes . 3)
+    (total-strokes	 . 8)
+    (<-denotational
+     ((=ucs		. #x412D)	; 䄭
+      ))
+    (=ucs@unicode	. #x412D)	; 䄭
     (=cns11643-3	. #x2A43)	; &I-C3-2A43; [10-35]
     (=daikanwa		. 49406)	; &I-M-49406;
+    (->subsumptive
+     ((==ucs@unicode	. #x412D)	; 䄭
+      (==cns11643-3	. #x2A43)	; &I-C3-2A43; [10-35]
+      (==daikanwa		. 49406)	; &I-M-49406;
+      ))
     ))
 (define-char
   '((<-denotational@component
