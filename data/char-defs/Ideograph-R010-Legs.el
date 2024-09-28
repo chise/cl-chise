@@ -8956,9 +8956,18 @@
     (total-strokes	 . 19)
     (hanyu-dazidian	1 275 12)
     (ideographic-structure
-     ?⿰
-     ?&MJ007221;
-     ?&JX2-7227;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@unicode	  . #x5149)	; &MJ007221;
+      (=mj		  . 007221)	; &MJ007221;
+      )
+     ((=ucs@unicode	  . #x776A)	; &JX2-7227;
+      (=jis-x0212	  . #x4F23)	; &JX2-7227; [47-03]
+      (=cns11643-1	  . #x6548)	; &I-C1-6548; [69-40]
+      (=jis-x0213-2	  . #x7227)	; &I-JX2-7227; [82-07]
+      (=daikanwa	  . 23466)	; &I-M-23466;
+      ))
     (=ucs@iso		. #x204CB)	; &MJ030945;
     (=mj		. 030945)	; &MJ030945;
     (=cns11643-7	. #x4629)	; &I-C7-4629; [38-09]

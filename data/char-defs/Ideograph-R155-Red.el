@@ -205,9 +205,19 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 155)	; ⾚
+  '((<-denotational@usage
+     ((ideographic-radical . 155)	; ⾚
+      (==>ucs@bucs	. #x8D67)	; &BUCS+8D67;
+      (==>daijiten	. 11448)	; &A2-DJT-11448;
+      ))
+    (ideographic-radical . 155)	; ⾚
     (ideographic-strokes . 5)
     (total-strokes	 . 11)
+    (ideographic-structure
+     ?⿰
+     ?赤
+     ((=>ucs@iwds-1	. #x378B)	; &A-IWDSU+378B;
+      ))
     (=ucs		. #x8D67)	; 赧
     ))
 (define-char
@@ -223,7 +233,7 @@
       )
      ((=ucs		  . #x8D64)	; 赤
       )
-     ((=ucs		  . #x378B)	; 㞋
+     ((=ucs-itaiji-001	. #x20B1D)	; &U-i001+20B1D;
       ))
     (=ucs@jis		. #x8D67)	; &AJ1-06784;
     (=adobe-japan1-0	. 06784)	; &AJ1-06784;

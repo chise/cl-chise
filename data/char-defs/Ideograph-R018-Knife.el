@@ -21930,10 +21930,15 @@
     (ideographic-strokes . 12)
     (total-strokes	 . 14)
     (ideographic-structure
-     ?⿹
-     ((=ucs@unicode	. #x91D7)	; &AJ1-08640;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT")
+      (=ucs		  . #x2FF9)	; ⿹
       )
-     ?⺣)
+     ((=ucs@unicode	  . #x91D7)	; &AJ1-08640;
+      (=adobe-japan1-2	  . 08640)	; &AJ1-08640;
+      )
+     ((name		  . "CJK RADICAL FIRE")
+      (=ucs		  . #x2EA3)	; ⺣
+      ))
     (=ucs@iso		. #x207DB)	; &U-000207DB;
     ))
 (define-char
@@ -23254,24 +23259,31 @@
     (ideographic-strokes . 13)
     (total-strokes	 . 15)
     (ideographic-structure
-     ?⿰
-     ?𭱁
-     ?刂)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x2DC41)	; 𭱁
+      )
+     ((=ucs		  . #x5202)	; 刂
+      ))
     (=ucs		. #x207F4)	; 𠟴
     ))
 (define-char
-  '((ideographic-radical . 18)	; ⼑
+  '((<-denotational
+     ((=ucs		  . #x207F4)	; 𠟴
+      ))
+    (ideographic-radical . 18)	; ⼑
     (ideographic-strokes . 13)
     (total-strokes	 . 15)
     (ideographic-structure
-     ?⿰
-     ((=ucs-itaiji-001	. #x2DC41)	; &U-i001+2DC41;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
       )
-     ?刂)
-    (<-denotational
-     ((=ucs		. #x207F4)	; 𠟴
+     ((=ucs-itaiji-001	  . #x2DC41)	; &U-i001+2DC41;
+      )
+     ((=ucs		  . #x5202)	; 刂
       ))
-    (=ucs@iso		. #x207F4)	; 𠟴
+    (=ucs@iso		. #x207F4)	; &U-000207F4;
     ))
 (define-char
   '((ideographic-radical . 18)	; ⼑

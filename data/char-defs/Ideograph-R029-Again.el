@@ -1010,6 +1010,26 @@
       ))
     ))
 (define-char
+  '((<-denotational@component
+     ((=>ucs@iwds-1	  . #x378B)	; &A-IWDSU+378B;
+      (=>iwds-1		  .  0125)	; &A-IWDSU+378B;
+      )
+     ((=ucs		. #x378B)	; 㞋
+      ))
+    (<-denotational@usage
+     ((==>daijiten	  . 01114)	; &A2-DJT-01114;
+      ))
+    (ideographic-radical . 29)	; ⼜
+    (ideographic-strokes . 2)
+    (total-strokes	 . 4)
+    (ideographic-structure
+     ?⿸
+     ((=gt-k		. 00304)	; &GT-K00304;
+      )
+     ?又)
+    (=ucs-itaiji-001	. #x20B1D)	; &U-i001+20B1D;
+    ))
+(define-char
   '((<-denotational@usage
      ((==>daijiten	  . 12994)	; &A2-DJT-12994;
       ))

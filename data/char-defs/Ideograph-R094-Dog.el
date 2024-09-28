@@ -6017,7 +6017,8 @@
       )
      ((=ucs		  . #x72AD)	; 犭
       )
-     ((=ucs@unicode	  . #x8099)	; 肙
+     ((=ucs@unicode	  . #x8099)	; &MJ020931;
+      (=mj		  . 020931)	; &MJ020931;
       ))
     (=ucs@unicode	. #x72F7)	; &AJ1-05631;
     (=adobe-japan1-0	. 05631)	; &AJ1-05631;
@@ -12042,14 +12043,21 @@
     (ideographic-strokes . 10)
     (total-strokes	 . 13)
     (ideographic-structure
-     ?⿰
-     ?犭
-     ((=ucs@cns		. #x53DF)	; &MJ008019;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x72AD)	; 犭
+      )
+     ((=ucs@cns		  . #x53DF)	; &MJ008019;
+      (=ucs@jis/2004	  . #x53DF)	; &MJ008019;
+      (=mj		  . 008019)	; &MJ008019;
       ))
+    (=ucs@cns	  . #x7340)	; &g2-M-20588;
     (=cns11643-2	. #x4472)	; &C2-4472; [36-82]
     (=daikanwa		. 20588)	; &I-M-20588;
     (->subsumptive
-     ((==cns11643-2	  . #x4472)	; &g2-M-20588; [36-82]
+     ((==ucs@cns	  . #x7340)	; &g2-M-20588;
+      (==cns11643-2	  . #x4472)	; &g2-M-20588; [36-82]
       (==daikanwa	  . 20588)	; &g2-M-20588;
       (->subsumptive
        ((===daikanwa	    . 20588)	; &R-M-20588;
@@ -12066,16 +12074,24 @@
     (ideographic-strokes . 9)
     (total-strokes	 . 12)
     (ideographic-structure
-     ?⿰
-     ?犭
-     ?&MJ008018;)
-    (=ucs@unicode	. #x7340)	; &C2-4472;
-    (=daijiten		. 07210)	; &C2-4472;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x72AD)	; 犭
+      )
+     ((=ucs@unicode	  . #x53DF)	; &MJ008018;
+      (=mj		  . 008018)	; &MJ008018;
+      ))
+    (=ucs@unicode	. #x7340)	; &DJT-07210;
+    (=daijiten		. 07210)	; &DJT-07210;
     (->subsumptive
-     ((==ucs@unicode	. #x7340)	; &C2-4472;
-      (==daijiten		. 07210)	; &C2-4472;
-      (==ucs@unicode	  . #x7340)	; &g2-M-20588;
-      (==ucs@unicode	    . #x7340)	; &R-UU+7340;
+     ((==ucs@unicode	  . #x7340)	; &g2-DJT-07210;
+      (==daijiten	  . 07210)	; &g2-DJT-07210;
+      (->subsumptive
+       ((===daijiten	    . 07210)	; &R-DJT-07210;
+	)
+       ((===ucs@unicode	    . #x7340)	; &R-UU+7340;
+	))
       ))
     ))
 (define-char
@@ -14373,7 +14389,8 @@
     (=cns11643-6	. #x5E6A)	; &C6-5E6A; [62-74]
     (=daikanwa		. 20660)	; &I-M-20660;
     (<-same
-     ((=daikanwa  	  . 20689)	; &C4-4A76;
+     ((=cns11643-4	. #x4A76)	; &C4-4A76; [42-86]
+      (=daikanwa	  . 20689)	; &C4-4A76;
       ))
     (<-same*sources
      zihui-bu daikanwa)
@@ -15593,19 +15610,29 @@
       )
      ((=ucs		  . #x72AD)	; 犭
       )
-     ((=ucs@jis		. #x6562)	; &AJ1-01526;
+     ((=ucs@cns		  . #x6562)	; &AJ1-01526;
+      (=ucs@jis		  . #x6562)	; &AJ1-01526;
+      (=ucs@ks		  . #x6562)	; &AJ1-01526;
+      (=adobe-japan1-0	  . 01526)	; &AJ1-01526;
       ))
     (=cns11643-4	. #x4A76)	; &C4-4A76; [42-86]
-    (=daikanwa 		. 20689)	; &C4-4A76;
+    (=daikanwa		. 20689)	; &C4-4A76;
     (=cbeta		. 07453)	; &I-CB07453;
+    (=ucs@cns	  . #x3E96)	; &g2-M-20689;
+    (=cns11643-4	  . #x4A76)	; &g2-M-20689; [42-86]
+    (=daikanwa	  . 20689)	; &g2-M-20689;
+    (=cbeta		  . 07453)	; &g2-M-20689;
     (->subsumptive
-     ((==cns11643-4	  . #x4A76)	; &g2-M-20689; [42-86]
+     ((==ucs@cns	  . #x3E96)	; &g2-M-20689;
+      (==cns11643-4	  . #x4A76)	; &g2-M-20689; [42-86]
       (==daikanwa	  . 20689)	; &g2-M-20689;
       (==cbeta		  . 07453)	; &g2-M-20689;
       (->subsumptive
        ((===daikanwa	    . 20689)	; &R-M-20689;
 	)
        ((===cns11643-4	    . #x4A76)	; &R-C4-4A76; [42-86]
+	)
+       ((===cbeta	    . 07453)	; &R-CB07453;
 	))
       ))
     ))
@@ -15617,15 +15644,19 @@
     (ideographic-strokes . 11)
     (total-strokes	 . 14)
     (ideographic-structure
-     ?⿰
-     ?犭
-     ?&G0-3852;)
-    (=ucs@unicode	. #x3E96)	; &C4-4A76;
-    (=ucs@JP/hanazono . nil)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x72AD)	; 犭
+      )
+     ((=ucs@unicode	  . #x6562)	; &G0-3852;
+      (=gb2312		  . #x3852)	; &G0-3852; [24-50]
+      ))
+    (=ucs@unicode	. #x3E96)	; &UU+3E96;
+    (=ucs@JP/hanazono	. nil)
     (->subsumptive
-     ((==ucs@unicode	  . #x3E96)	; &g2-M-20689;
-      (==ucs@JP/hanazono . nil)
-      (==ucs@unicode	    . #x3E96)	; &g2-UU+3E96;
+     ((==ucs@unicode	  . #x3E96)	; &g2-UU+3E96;
+      (==ucs@JP/hanazono  . nil)
       ))
     ))
 (define-char

@@ -179,9 +179,14 @@
     (ideographic-strokes . 4)
     (total-strokes	 . 8)
     (ideographic-structure
-     ?⿱
-     ?父
-     ?&AJ1-03321;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x7236)	; 父
+      )
+     ((=ucs@unicode	  . #x5DF4)	; &AJ1-03321;
+      (=adobe-japan1-0	  . 03321)	; &AJ1-03321;
+      ))
     (=ucs@unicode	. #x7238)	; &JX2-702C;
     (=gb2312		. #x3056)	; &JX2-702C; [16-54]
     (=jis-x0212		. #x4A4B)	; &I-JSP-4A4B; [42-43]

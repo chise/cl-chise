@@ -3251,7 +3251,7 @@
     (=koseki		. 065770)	; &MJ033351;
     (=daikanwa		. 05740)	; &I-M-05740;
     (<-formed
-     ((=ucs		  . #x5A5A)	; 婚
+     ((=ucs@unicode	  . #x5A5A)	; 婚
       (=mj		  . 009783)	; &I-MJ009783;
       (=koseki		  . 073250)	; 婚
       ))
@@ -3659,7 +3659,7 @@
     (=cns11643-7	. #x464B)	; &C7-464B; [38-43]
     (=daikanwa		. 05743)	; &I-M-05743;
     (<-same
-     ((=ucs		  . #x5A5A)	; 婚
+     ((=ucs@unicode	  . #x5A5A)	; 婚
       (=daikanwa	  . 06418)	; &I-M-06418;
       ))
     (<-same*sources

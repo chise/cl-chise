@@ -23280,7 +23280,12 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 38)	; ⼥
+  '((<-denotational@usage
+     ((ideographic-radical . 38)	; ⼥
+      (==>ucs@bucs	. #x5A5A)	; &BUCS+5A5A;
+      (==>daijiten	. 02149)	; &A2-DJT-02149;
+      ))
+    (ideographic-radical . 38)	; ⼥
     (ideographic-strokes . 8)
     (total-strokes	 . 11)
     (ideographic-structure
@@ -23292,6 +23297,15 @@
      ((=ucs		  . #x660F)	; 昏
       ))
     (=ucs		. #x5A5A)	; 婚
+    ))
+(define-char
+  '((ideographic-radical . 38)	; ⼥
+    (ideographic-strokes . 8)
+    (total-strokes	 . 11)
+    (<-denotational
+     ((=ucs		. #x5A5A)	; 婚
+      ))
+    (=ucs@unicode	. #x5A5A)	; 婚
     (=mj		. 009783)	; &I-MJ009783;
     (=adobe-japan1-0	. 02071)	; &I-AJ1-02071;
     (=jis-x0208		. #x3A27)	; &I-J90-3A27; [26-07]
@@ -23304,6 +23318,7 @@
     (=gt		. 08034)	; &I-GT-08034;
     (=gt-pj-1		. #x3A27)	; &I-GT-08034; [26-07]
     (=daikanwa		. 06418)	; &I-M-06418;
+    (=daijiten		. 02149)	; &I-DJT-02149;
     (=shinjigen		.  1684)	; 婚
     (->subsumptive
      ((=decomposition@cid
@@ -23321,6 +23336,7 @@
       (==koseki		  . 073250)	; &g2-MJ009783;
       (==gt		  . 08034)	; &g2-MJ009783;
       (==daikanwa	  . 06418)	; &g2-MJ009783;
+      (==daijiten	. 02149)	; &I-DJT-02149;
       (==shinjigen	  .  1684)	; &g2-MJ009783;
       (->subsumptive
        ((===daikanwa	    . 06418)	; &R-M-06418;
@@ -26673,13 +26689,22 @@
      ((=ucs		  . #x662C)	; 昬
       ))
     (=ucs		. #x36F0)	; 㛰
+    ))
+(define-char
+  '((ideographic-radical . 38)	; ⼥
+    (ideographic-strokes . 9)
+    (total-strokes	 . 12)
+    (<-denotational
+     ((=ucs		. #x36F0)	; 㛰
+      ))
+    (=ucs@unicode	. #x36F0)	; 㛰
     (=mj		. 000651)	; &I-MJ000651;
     (=cns11643-3	. #x3A74)	; &I-C3-3A74; [26-84]
     (=koseki		. 073810)	; 㛰
     (=daikanwa		. 06466)	; &I-M-06466;
     (=shinjigen		.  1685)	; 㛰
     (<-vulgar
-     ((=ucs		  . #x5A5A)	; 婚
+     ((=ucs@unicode	  . #x5A5A)	; 婚
       (=jis-x0208	  . #x3A27)	; &I-J90-3A27; [26-07]
       (=shinjigen	  .  1684)	; 婚
       ))

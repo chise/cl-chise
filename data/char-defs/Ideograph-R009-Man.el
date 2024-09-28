@@ -35692,7 +35692,6 @@
   '((ideographic-radical . 9)	; ⼈
     (ideographic-strokes . 8)
     (total-strokes	 . 10)
-    (hanyu-dazidian	1 182 2)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
@@ -35702,6 +35701,16 @@
      ((=ucs		  . #x660F)	; 昏
       ))
     (=ucs		. #x20263)	; 𠉣
+    ))
+(define-char
+  '((ideographic-radical . 9)	; ⼈
+    (ideographic-strokes . 8)
+    (total-strokes	 . 10)
+    (<-denotational
+     ((=ucs		. #x20263)	; 𠉣
+      ))
+    (hanyu-dazidian	1 182 2)
+    (=ucs@iso		. #x20263)	; 𠉣
     (=cns11643-4	. #x2B63)	; &I-C4-2B63; [11-67]
     (=daikanwa		. 00728)	; &I-M-00728;
     (->subsumptive
@@ -53254,7 +53263,7 @@
      ((=ucs		  . #x4EBB)	; 亻
       )
      ((=ucs@unicode	  . #x52C7)	; 勇
-      (=mj		  . 007667)	; &MJ007667;
+      (=mj		  . 007667)	; 勇
       ))
     (=ucs@iso		. #x202C0)	; &U-000202C0;
     ))

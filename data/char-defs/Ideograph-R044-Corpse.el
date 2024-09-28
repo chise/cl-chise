@@ -8776,7 +8776,7 @@
      ((=gt-k		  . 04055)	; &GT-K04055;
       )
      ((=ucs@unicode	  . #x8700)	; &AJ1-06509;
-      (=adobe-japan1-0	  . 06509)	; &I-AJ1-06509;
+      (=adobe-japan1-0	  . 06509)	; &AJ1-06509;
       ))
     (=ucs@unicode	. #x5C6C)	; &AJ1-04657;
     (=adobe-japan1-0	. 04657)	; &AJ1-04657;

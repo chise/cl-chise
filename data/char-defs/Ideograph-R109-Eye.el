@@ -2375,8 +2375,8 @@
      ((=ucs		  . #x76EE)	; 目
       ))
     (=ucs@iso		. #x25108)	; &C6-3336;
-    (=cns11643-6	. #x3336)	; &I-C6-3336; [19-22]
-    (=daikanwa		. 23157)	; &C6-3336;
+    (=cns11643-6	. #x3336)	; &C6-3336; [19-22]
+    (=daikanwa 		. 23157)	; &I-M-23157;
     (->subsumptive
      ((==daikanwa	  . 23157)	; &g2-M-23157;
       )
@@ -7733,8 +7733,7 @@
     (=hanyo-denshi/ks	. 261040)	; &MJ058166;
     (=shinjigen@rev	.  7317)	; &MJ058166;
     (<-original
-     ((=ucs@jis	  . #x8846)	; &AJ1-02362;
-      (=ucs@jis	  . #x8846)	; &AJ1-02362;
+     ((=ucs@jis		  . #x8846)	; &AJ1-02362;
       (=adobe-japan1-0	  . 02362)	; &AJ1-02362;
       (=jis-x0208	  . #x3D30)	; &I-J90-3D30; [29-16]
       (=shinjigen	  .  7316)	; &AJ1-02362;
@@ -7775,7 +7774,8 @@
     (=cns11643-1	. #x5C38)	; &C1-5C38; [60-24]
     (=shinjigen@1ed	.  7318)	; &C1-5C38;
     (<-original
-     ((=adobe-japan1-0	  . 02362)	; &AJ1-02362;
+     ((=ucs@jis		  . #x8846)	; &AJ1-02362;
+      (=adobe-japan1-0	  . 02362)	; &AJ1-02362;
       (=jis-x0208	  . #x3D30)	; &I-J90-3D30; [29-16]
       (=shinjigen	  .  7316)	; &AJ1-02362;
       ))
@@ -7855,7 +7855,8 @@
      ((=ucs@jis		  . #x773E)	; &MJ018210;
       (=mj		  . 018210)	; &MJ018210;
       )
-     ((=adobe-japan1-0	  . 02362)	; &AJ1-02362;
+     ((=ucs@jis		  . #x8846)	; &AJ1-02362;
+      (=adobe-japan1-0	  . 02362)	; &AJ1-02362;
       ))
     (<-ancient$_1*sources
      jiyun daikanwa)

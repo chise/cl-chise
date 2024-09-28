@@ -10869,7 +10869,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs		  . #x660F)	; 昏
+     ((=ucs@unicode	  . #x660F)	; 昏
       )
      ((=ucs@unicode	  . #x9CE5)	; &AJ1-03031;
       (=adobe-japan1-0	  . 03031)	; &AJ1-03031;
@@ -12177,7 +12177,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs		  . #x660F)	; 昏
+     ((=ucs@unicode	  . #x660F)	; 昏
       )
      ((name		  . "CJK RADICAL C-SIMPLIFIED BIRD")
       (=ucs		  . #x2EE6)	; ⻦

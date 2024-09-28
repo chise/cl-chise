@@ -3604,9 +3604,14 @@
     (ideographic-strokes . 4)
     (total-strokes	 . 8)
     (ideographic-structure
-     ?⿰
-     ?火
-     ?&AJ1-04111;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x706B)	; 火
+      )
+     ((=ucs@unicode	  . #x4EA2)	; &AJ1-04111;
+      (=adobe-japan1-0	  . 04111)	; &AJ1-04111;
+      ))
     (=ucs@unicode	. #x7095)	; &JX2-6F5E;
     (=gb2312		. #x3F3B)	; &JX2-6F5E; [31-27]
     (=jis-x0212		. #x494D)	; &I-JSP-494D; [41-45]
@@ -19647,10 +19652,21 @@
       )
      ((=ucs		  . #x706B)	; 火
       ))
-    (=ucs@iso		. #x242C5)	; &M-19239;
-    (=daikanwa 		. 19239)	; &M-19239;
+    (=ucs@iso		. #x242C5)	; &MJ002290;
+    (=mj		. 002290)	; &I-MJ002290;
+    (=koseki . 216610)
+    (=daikanwa 		. 19239)	; &MJ002290;
+    (<-formed
+     ((=jis-x0208		. #x5148)	; &I-J90-5148; [49-40]
+      ))
+    (<-formed$_1*sources
+     koseki mj)
+    (<-formed*sources
+     koseki mj)
     (->subsumptive
      ((==ucs@iso	  . #x242C5)	; &g2-M-19239;
+      (==mj		. 002290)	; &I-MJ002290;
+      (==koseki . 216610)
       (==daikanwa	  . 19239)	; &g2-M-19239;
       (->subsumptive
        ((===daikanwa	    . 19239)	; &R-M-19239;
@@ -19751,10 +19767,15 @@
       (=daikanwa	  . 19671)	; &I-M-19671;
       ))
     (=mj		. 039988)	; &MJ039988;
-    (=koseki . 216650)
-    (=daikanwa		. 19243)	; &M-19243;
+    (=koseki		. 216650)	; &MJ039988;
+    (=daikanwa 		. 19243)	; &I-M-19243;
     (<-formed
-     ((=jis-x0213-2	  . #x6F5E)	; &I-JX2-6F5E; [79-62]
+     ((=ucs@unicode	  . #x7095)	; &JX2-6F5E;
+      (=gb2312		  . #x3F3B)	; &JX2-6F5E; [31-27]
+      (=jis-x0212	  . #x494D)	; &I-JSP-494D; [41-45]
+      (=cns11643-1	  . #x4E62)	; &I-C1-4E62; [46-66]
+      (=jis-x0213-2	  . #x6F5E)	; &I-JX2-6F5E; [79-62]
+      (=daikanwa	  . 18918)	; &I-M-18918;
       ))
     (<-formed$_1*sources
      koseki mj)
@@ -19771,9 +19792,14 @@
     (<-vulgar*sources
      longkanshoujian daikanwa)
     (->subsumptive
-     ((==mj		. 039988)	; &MJ039988;
-      (==koseki . 216650)
-      (==daikanwa	  . 19243)	; &g2-M-19243;
+     ((==mj		  . 039988)	; &g2-MJ039988;
+      (==koseki		  . 216650)	; &g2-MJ039988;
+      (==daikanwa	  . 19243)	; &g2-MJ039988;
+      (->subsumptive
+       ((===daikanwa	    . 19243)	; &R-M-19243;
+	)
+       ((===mj		    . 039988)	; &R-MJ039988;
+	))
       ))
     ))
 (define-char
@@ -38110,12 +38136,17 @@
     (total-strokes	 . 20)
     (hanyu-dazidian	8 30 5)
     (ideographic-structure
-     ?⿰
-     ?&AJ1-05552;
-     ?棗)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@unicode	  . #x7099)	; &AJ1-05552;
+      (=adobe-japan1-0	  . 05552)	; &AJ1-05552;
+      )
+     ((=ucs		  . #x68D7)	; 棗
+      ))
     (=ucs@iso		. #x24497)	; &C7-4E36;
-    (=cns11643-7	. #x4E36)	; &I-C7-4E36; [46-22]
-    (=daikanwa		. 49266)	; &C7-4E36;
+    (=cns11643-7	. #x4E36)	; &C7-4E36; [46-22]
+    (=daikanwa 		. 49266)	; &I-M-49266;
     (->subsumptive
      ((==ucs@iso	  . #x24497)	; &g2-M-49266;
       (==daikanwa	  . 49266)	; &g2-M-49266;
@@ -38124,7 +38155,7 @@
 	)
        ((===ucs@iso	    . #x24497)	; &R-U-00024497;
 	)
-       ((=hanziku-12	  . #xEECE)	; &g2-M-49266;
+       ((=hanziku-12	    . #xEECE)	; &HZK12-EECE;
 	))
       )
      ((==ucs@cns	  . #x24497)	; &g2-CU+24497;
