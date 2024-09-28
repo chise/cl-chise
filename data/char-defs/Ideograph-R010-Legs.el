@@ -8938,24 +8938,31 @@
     (ideographic-strokes . 17)
     (total-strokes	 . 19)
     (ideographic-structure
-     ?⿰
-     ((=>ucs@iwds-1	. #x5149)	; &A-IWDSU+5149;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
       )
-     ?睪)
+     ((=>ucs@iwds-1	  . #x5149)	; &A-IWDSU+5149;
+      )
+     ((=ucs		  . #x776A)	; 睪
+      ))
     (=ucs		. #x204CB)	; 𠓋
     ))
 (define-char
-  '((ideographic-radical . 10)	; ⼉
+  '((<-denotational
+     ((=ucs		  . #x204CB)	; 𠓋
+      ))
+    (ideographic-radical . 10)	; ⼉
     (ideographic-strokes . 17)
     (total-strokes	 . 19)
-    (<-denotational
-     ((=ucs		. #x204CB)	; 𠓋
-      ))
     (hanyu-dazidian	1 275 12)
-    (=ucs@iso		. #x204CB)	; 𠓋
-    (=mj		. 030945)	; &I-MJ030945;
+    (ideographic-structure
+     ?⿰
+     ?&MJ007221;
+     ?&JX2-7227;)
+    (=ucs@iso		. #x204CB)	; &MJ030945;
+    (=mj		. 030945)	; &MJ030945;
     (=cns11643-7	. #x4629)	; &I-C7-4629; [38-09]
-    (=koseki		. 016510)	; 𠓋
+    (=koseki		. 016510)	; &MJ030945;
     (=daikanwa		. 48930)	; &I-M-48930;
     (->subsumptive
      ((==mj		  . 030945)	; &g2-MJ030945;

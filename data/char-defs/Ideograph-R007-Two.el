@@ -389,8 +389,12 @@
       ))
     ))
 (define-char
-  '((<-denotational@usage
-     ((==>ucs@bucs	  . #x4E8E)	; &BUCS+4E8E;
+  '((ideographic-radical . 7)	; ⼆
+    (=>ucs@component	. #x4E8F)	; &A-IWDSU+4E8F;
+    ))
+(define-char
+  '((<-denotational@component
+     ((=>ucs@component	. #x4E8F)	; &A-IWDSU+4E8F;
       ))
     (ideographic-radical . 7)	; ⼆
     (ideographic-strokes . 1)
@@ -402,6 +406,9 @@
   '((<-denotational
      ((=>ucs@iwds-1	  . #x4E8F)	; &A-IWDSU+4E8F;
       (=>iwds-1		  .  0093)	; &A-IWDSU+4E8F;
+      ))
+    (<-denotational@usage
+     ((==>ucs@bucs	  . #x4E8E)	; &BUCS+4E8E;
       ))
     (ideographic-radical . 7)	; ⼆
     (ideographic-strokes . 1)
@@ -457,9 +464,32 @@
       ))
     ))
 (define-char
+  '((<-denotational@component
+     ((=>ucs@component	. #x4E8F)	; &A-IWDSU+4E8F;
+      ))
+    (ideographic-radical . 7)	; ⼆
+    (ideographic-strokes . 1)
+    (total-strokes	 . 3)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=>ucs@component	. #x4E00)	; &A-compU+4E00;
+      )
+     ((=ucs		  . #x20001)	; 𠀁
+      ))
+    (=>ucs@component		. #x4E90)	; 亐
+    ))
+(define-char
   '((<-denotational
      ((=>ucs@iwds-1	  . #x4E8F)	; &A-IWDSU+4E8F;
       (=>iwds-1		  .  0093)	; &A-IWDSU+4E8F;
+      ))
+    (<-denotational@component
+     ((=>ucs@component		. #x4E90)	; 亐
+      ))
+    (<-denotational@usage
+     ((==>ucs@bucs	  . #x4E8E)	; &BUCS+4E8E;
       ))
     (ideographic-radical . 7)	; ⼆
     (ideographic-strokes . 1)
@@ -484,8 +514,31 @@
       (=jis-x0208	  . #x5032)	; &I-J90-5032; [48-18]
       (=shinjigen	  .  0075)	; 于
       ))
+    (<-formed$_1*sources
+     shinjigen)
     (<-formed*sources
      shinjigen)
+    (->subsumptive
+     ((==ucs@unicode	. #x4E90)	; 亐
+      (==ks-x1001		. #x6A27)	; &I-K0-6A27; [74-07]
+      (==big5-cdp		. #x8A42)	; &I-CDP-8A42;
+      (==gt		. 00333)	; &I-GT-00333;
+      (==gt-pj-9		. #x4B26)	; &I-GT-00333; [43-06]
+      (==shinjigen		.  0077)	; 亐
+      ))
+    ))
+(define-char
+  '((<-denotational@component
+     ((=>ucs@component		. #x4E90)	; 亐
+      ))
+    (ideographic-radical . 7)	; ⼆
+    (ideographic-strokes . 1)
+    (total-strokes	 . 3)
+    (ideographic-structure
+     ?⿱
+     ?丿
+     ?𠀁)
+    (=ucs-var-001	. #x4E90)	; &U-v001+4E90;
     ))
 (define-char
   '((ideographic-radical . 7)	; ⼆

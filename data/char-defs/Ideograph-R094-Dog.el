@@ -14261,8 +14261,7 @@
     (<-formed*sources
      koseki)
     (<-same
-     ((=ucs@unicode	  . #x7340)	; &C2-4472;
-      (=cns11643-2	  . #x4472)	; &C2-4472; [36-82]
+     ((=cns11643-2	  . #x4472)	; &C2-4472; [36-82]
       (=daikanwa	  . 20588)	; &I-M-20588;
       ))
     (<-same*sources

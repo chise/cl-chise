@@ -4087,11 +4087,11 @@
     (ideographic-radical . 4)	; ⼃
     (ideographic-strokes . 5)
     (total-strokes	 . 6)
-    (=+>ucs@unicode	. #x4E51)	; &AJ1-17241;
+    (=+>ucs@unicode	. #x4E51)	; &o-UU+4E51;
     ))
 (define-char
   '((<-denotational
-     ((=+>ucs@unicode	. #x4E51)	; &AJ1-17241;
+     ((=+>ucs@unicode	  . #x4E51)	; &o-UU+4E51;
       ))
     (ideographic-radical . 4)	; ⼃
     (ideographic-strokes . 5)
@@ -4185,7 +4185,7 @@
     ))
 (define-char
   '((<-denotational
-     ((=+>ucs@unicode	. #x4E51)	; &AJ1-17241;
+     ((=+>ucs@unicode	  . #x4E51)	; &o-UU+4E51;
       ))
     (ideographic-radical . 4)	; ⼃
     (ideographic-strokes . 5)

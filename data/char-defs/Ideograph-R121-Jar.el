@@ -373,6 +373,12 @@
   '((ideographic-radical . 121)	; ⽸
     (ideographic-strokes . 3)
     (total-strokes	 . 9)
+    (=ucs		. #x26224)	; 𦈤
+    ))
+(define-char
+  '((ideographic-radical . 121)	; ⽸
+    (ideographic-strokes . 3)
+    (total-strokes	 . 9)
     (=ucs		. #x26225)	; 𦈥
     (=cns11643-5	. #x2B28)	; &I-C5-2B28; [11-08]
     ))

@@ -45243,27 +45243,42 @@
     (ideographic-strokes . 12)
     (total-strokes	 . 15)
     (ideographic-structure
-     ?⿰
-     ?氵
-     ?無)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x6C35)	; 氵
+      )
+     ((=ucs		  . #x7121)	; 無
+      ))
     (=ucs		. #x6F55)	; 潕
     ))
 (define-char
-  '((ideographic-radical . 85)	; ⽔
+  '((<-denotational
+     ((=ucs		  . #x6F55)	; 潕
+      ))
+    (ideographic-radical . 85)	; ⽔
     (ideographic-strokes . 12)
     (total-strokes	 . 15)
-    (<-denotational
-     ((=ucs		. #x6F55)	; 潕
+    (ideographic-structure
+     ?⿰
+     ?氵
+     ((=ucs@unicode	. #x7121)	; &AJ1-03777;
       ))
-    (=ucs@unicode	. #x6F55)	; 潕
-    (=cns11643-2	. #x5153)	; &I-C2-5153; [49-51]
+    (=ucs@unicode	. #x6F55)	; &C2-5153;
+    (=cns11643-2	. #x5153)	; &C2-5153; [49-51]
     (=big5		. #xE64B)	; &I-B-E64B;
     (=daikanwa		. 18232)	; &I-M-18232;
     (->subsumptive
-     ((==ucs@unicode	. #x6F55)	; 潕
-      (==cns11643-2	. #x5153)	; &I-C2-5153; [49-51]
-      (==big5		. #xE64B)	; &I-B-E64B;
-      (==daikanwa		. 18232)	; &I-M-18232;
+     ((==ucs@unicode	  . #x6F55)	; &g2-M-18232;
+      (==cns11643-2	  . #x5153)	; &g2-M-18232; [49-51]
+      (==daikanwa	  . 18232)	; &g2-M-18232;
+      (->subsumptive
+       ((===daikanwa	    . 18232)	; &R-M-18232;
+	)
+       ((===cns11643-2	    . #x5153)	; &R-C2-5153; [49-51]
+	)
+       ((===ucs@unicode	    . #x6F55)	; &R-UU+6F55;
+	))
       ))
     ))
 (define-char
@@ -67906,25 +67921,29 @@
       (=daikanwa	  . 15783)	; &I-M-15783;
       ))
     (=ucs@iso		. #x24145)	; &MJ039807;
-    (=mj		. 039807)	; &I-MJ039807;
-    (=koseki . 211960)
-    (=cns11643-7	. #x5833)	; &MJ039807; [56-19]
+    (=mj		. 039807)	; &MJ039807;
+    (=cns11643-7	. #x5833)	; &I-C7-5833; [56-19]
+    (=koseki		. 211960)	; &MJ039807;
     (=daikanwa		. 18806)	; &I-M-18806;
     (<-formed
-     ((=daikanwa		. 18232)	; &I-M-18232;
+     ((=ucs@unicode	  . #x6F55)	; &C2-5153;
+      (=cns11643-2	  . #x5153)	; &C2-5153; [49-51]
+      (=daikanwa	  . 18232)	; &I-M-18232;
       ))
     (<-formed$_1*sources
      koseki)
     (<-formed*sources
      koseki)
     (->subsumptive
-     ((==ucs@iso	  . #x24145)	; &g2-M-18806;
-      (==mj		. 039807)	; &I-MJ039807;
-      (==koseki . 211960)
-      (==cns11643-7	  . #x5833)	; &g2-M-18806; [56-19]
-      (==daikanwa	  . 18806)	; &g2-M-18806;
+     ((==ucs@iso	  . #x24145)	; &g2-MJ039807;
+      (==mj		  . 039807)	; &g2-MJ039807;
+      (==cns11643-7	  . #x5833)	; &g2-MJ039807; [56-19]
+      (==koseki		  . 211960)	; &g2-MJ039807;
+      (==daikanwa	  . 18806)	; &g2-MJ039807;
       (->subsumptive
        ((===daikanwa	    . 18806)	; &R-M-18806;
+	)
+       ((===mj		    . 039807)	; &R-MJ039807;
 	)
        ((===cns11643-7	    . #x5833)	; &R-C7-5833; [56-19]
 	)

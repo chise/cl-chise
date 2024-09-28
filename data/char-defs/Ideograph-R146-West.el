@@ -731,6 +731,31 @@
     ))
 (define-char
   '((ideographic-radical . 146)	; ⾑
+    (ideographic-strokes . 3)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ?⿱
+     ((=>ucs@iwds-1	. #x897E)	; &A-IWDSU+897E;
+      )
+     ?𠔼)
+    (=>ucs-itaiji-001	. #x8D3E)	; &U-i001+8D3E;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-001	. #x8D3E)	; &U-i001+8D3E;
+      ))
+    (ideographic-radical . 146)	; ⾑
+    (ideographic-strokes . 3)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ?⿱
+     ?覀
+     ((=ucs-var-004	  . #x2053C)	; &U-v004+2053C;
+      ))
+    (=ucs-itaiji-001	. #x8D3E)	; &U-i001+8D3E;
+    ))
+(define-char
+  '((ideographic-radical . 146)	; ⾑
     (ideographic-strokes . 4)
     (total-strokes	 . 10)
     (ideographic-structure

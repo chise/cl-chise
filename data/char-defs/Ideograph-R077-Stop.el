@@ -2001,9 +2001,15 @@
     (ideographic-strokes . 4)
     (total-strokes	 . 8)
     (ideographic-structure
-     ?⿰
-     ?&MJ014823;
-     ?&AJ1-02215;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@unicode	  . #x6B62)	; &MJ014823;
+      (=mj		  . 014823)	; &MJ014823;
+      )
+     ((=ucs@unicode	  . #x652F)	; &AJ1-02215;
+      (=adobe-japan1-0	  . 02215)	; &AJ1-02215;
+      ))
     (=ucs@unicode	. #x6B67)	; &AJ1-16922;
     (=adobe-japan1-5	. 16922)	; &AJ1-16922;
     (=gb2312		. #x4667)	; &I-G0-4667; [38-71]
@@ -2029,7 +2035,7 @@
 	)
        ((===daijiten	    . 05650)	; &R-DJT-05650;
 	)
-       ((===jis-x0212	    . #x4579)	; &R-JSP-4579; [37-89]
+       ((===jis-x0212	    . #x4579)	; &R-JX1-7644; [37-89]
 	(===jis-x0213-1	    . #x7644)	; &R-JX1-7644; [86-36]
 	)
        ((===adobe-japan1-5  . 16922)	; &R-AJ1-16922;
@@ -6067,7 +6073,7 @@
   '((ideographic-radical . 77)	; ⽌
     (ideographic-strokes . 9)
     (total-strokes	 . 13)
-    (=ucs 		. #x2B793)	; 𫞓
+    (=ucs		. #x2B793)	; 𫞓
     ))
 (define-char
   '((<-denotational

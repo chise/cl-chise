@@ -7625,6 +7625,30 @@
     (ideographic-strokes . 9)
     (total-strokes	 . 15)
     (ideographic-structure
+     ?⿰
+     ?娄
+     ((=>ucs-itaiji-003@iwds-1 . #x20B1B)	; &A-IWDSU-i003+20B1B;
+      ))
+    (=ucs		. #x2188F)	; 𡢏
+    ))
+(define-char
+  '((ideographic-radical . 119)	; ⽶
+    (ideographic-strokes . 9)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ?⿰
+     ?娄
+     ?&U-i004+20B1B;)
+    (<-denotational
+     ((=ucs		. #x2188F)	; 𡢏
+      ))
+    (=ucs@iso		. #x2188F)	; 𡢏
+    ))
+(define-char
+  '((ideographic-radical . 119)	; ⽶
+    (ideographic-strokes . 9)
+    (total-strokes	 . 15)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
@@ -9776,22 +9800,6 @@
     (->subsumptive
      ((==ucs-var-002	  . #x7CDE)	; &g2-U-v002+7CDE;
       ))
-    ))
-(define-char
-  '((ideographic-radical . 119)	; ⽶
-    (ideographic-strokes . 9)
-    (total-strokes	 . 15)
-    (=ucs		. #x2188F)	; 𡢏
-    ))
-(define-char
-  '((ideographic-radical@ucs/code . 119)	; ⽶
-    (ideographic-strokes . 12)
-    (total-strokes	 . 15)
-    (ideographic-structure
-     ?⿰
-     ?娄
-     ?后)
-    (=ucs		. #x21890)	; 𡢐
     ))
 (define-char
   '((ideographic-radical . 119)	; ⽶

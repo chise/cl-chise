@@ -185,6 +185,7 @@
     (=>big5-cdp		. #x88BC)	; &A-GT-K01853;
     (=>gt-k		. 01853)	; &A-GT-K01853;
     (=>ucs-itaiji-001	. #x864D)	; &A-GT-K01853;
+    (=>ucs@cognate	. #x2CEC9)	; 𬻉
     ))
 (define-char
   '((<-denotational
@@ -315,6 +316,30 @@
     (->subsumptive
      ((==ucs-itaiji-006	  . #x864D)	; &g2-U-i006+864D;
       ))
+    ))
+(define-char
+  '((ideographic-radical . 141)	; ⾌
+    (ideographic-strokes . 0)
+    (total-strokes	 . 5)
+    (ideographic-structure
+     ?⿸
+     ?广
+     ((=>ucs@iwds-1	. #x4E03)	; &A-IWDSU+4E03;
+      ))
+    (=>ucs-itaiji-002	. #x2CEC9)	; &BUCS+4E01;
+    ))
+(define-char
+  '((ideographic-radical . 141)	; ⾌
+    (ideographic-strokes . 0)
+    (total-strokes	 . 5)
+    (<-denotational
+     ((=>ucs-itaiji-002	. #x2CEC9)	; &BUCS+4E01;
+      ))
+    (ideographic-structure
+     ?⿸
+     ?广
+     ?七)
+    (=ucs-itaiji-002	. #x2CEC9)	; 𬻉
     ))
 (define-char
   '((<-denotational@component

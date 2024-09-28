@@ -21913,9 +21913,13 @@
     (ideographic-strokes . 12)
     (total-strokes	 . 14)
     (ideographic-structure
-     ?⿹
-     ?釗
-     ?灬)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT")
+      (=ucs		  . #x2FF9)	; ⿹
+      )
+     ((=ucs		  . #x91D7)	; 釗
+      )
+     ((=ucs		  . #x706C)	; 灬
+      ))
     (=ucs		. #x207DB)	; 𠟛
     ))
 (define-char
@@ -21925,7 +21929,12 @@
     (ideographic-radical . 18)	; ⼑
     (ideographic-strokes . 12)
     (total-strokes	 . 14)
-    (=ucs@iso 		. #x207DB)	; &U-000207DB;
+    (ideographic-structure
+     ?⿹
+     ((=ucs@unicode	. #x91D7)	; &AJ1-08640;
+      )
+     ?⺣)
+    (=ucs@iso		. #x207DB)	; &U-000207DB;
     ))
 (define-char
   '((ideographic-radical . 18)	; ⼑
@@ -23239,6 +23248,30 @@
     (->subsumptive
      ((==ucs@iso	  . #x207F2)	; &g2-IU-000207F2;
       ))
+    ))
+(define-char
+  '((ideographic-radical . 18)	; ⼑
+    (ideographic-strokes . 13)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ?⿰
+     ?𭱁
+     ?刂)
+    (=ucs		. #x207F4)	; 𠟴
+    ))
+(define-char
+  '((ideographic-radical . 18)	; ⼑
+    (ideographic-strokes . 13)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ?⿰
+     ((=ucs-itaiji-001	. #x2DC41)	; &U-i001+2DC41;
+      )
+     ?刂)
+    (<-denotational
+     ((=ucs		. #x207F4)	; 𠟴
+      ))
+    (=ucs@iso		. #x207F4)	; 𠟴
     ))
 (define-char
   '((ideographic-radical . 18)	; ⼑

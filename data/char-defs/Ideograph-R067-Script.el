@@ -251,44 +251,55 @@
     ))
 (define-char
   '((<-denotational
+     ((=>ucs-itaiji-003@iwds-1 . #x20B1B)	; &A-IWDSU-i003+20B1B;
+      ))
+    (ideographic-radical . 67)	; ⽂
+    (ideographic-strokes . 2)
+    (total-strokes	 . 6)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x2008A)	; 𠂊
+      )
+     ((=ucs		  . #x6587)	; 文
+      ))
+    (=>ucs-itaiji-003	. #x20B1B)	; &A-U-i003+20B1B;
+    (=>ucs-itaiji-004	. #x20B1B)	; &A-U-i003+20B1B;
+    ))
+(define-char
+  '((<-denotational
      ((=>ucs@cognate	  . #x20B1B)	; &A-cgnU+20B1B;
       ))
     (ideographic-radical . 67)	; ⽂
     (ideographic-strokes . 2)
     (total-strokes	 . 6)
     (ideographic-structure
-     ?⿱
-     ((=>ucs@component	. #x5200)	; &A-compU+5200;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
       )
-     ?文)
-    (=>ucs-itaiji-003@iwds-1	. #x20B1B)	; &U-i003+20B1B;
-    (=>ucs-itaiji-004@iwds-1	. #x20B1B)	; &U-i004+20B1B;
+     ((=>ucs@component	  . #x5200)	; &A-compU+5200;
+      (=>iwds-1		  .  0149)	; &A-compU+5200;
+      )
+     ((=ucs		  . #x6587)	; 文
+      ))
+    (=>ucs-itaiji-003@iwds-1 . #x20B1B)	; &A-IWDSU-i003+20B1B;
     ))
 (define-char
   '((<-denotational
-     ((=>ucs-itaiji-003@iwds-1	. #x20B1B)	; &U-i003+20B1B;
+     ((=>ucs-itaiji-003	  . #x20B1B)	; &A-U-i003+20B1B;
       ))
     (ideographic-radical . 67)	; ⽂
     (ideographic-strokes . 2)
     (total-strokes	 . 6)
     (ideographic-structure
-     ?⿱
-     ?𠂊
-     ?文)
-    (=>ucs-itaiji-003	. #x20B1B)	; &U-i003+20B1B;
-    (=>ucs-itaiji-004	. #x20B1B)	; &U-i004+20B1B;
-    ))
-(define-char
-  '((<-denotational
-     ((=>ucs-itaiji-004	. #x20B1B)	; &U-i004+20B1B;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x52F9)	; 勹
+      )
+     ((=ucs		  . #x6587)	; 文
       ))
-    (ideographic-radical . 67)	; ⽂
-    (ideographic-strokes . 2)
-    (total-strokes	 . 6)
-    (ideographic-structure
-     ?⿱
-     ?勹
-     ?文)
     (=ucs-itaiji-004	. #x20B1B)	; &U-i004+20B1B;
     (<-formed
      ((=ucs@iso		  . #x20B1B)	; &MJ032008;
