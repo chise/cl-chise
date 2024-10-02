@@ -2380,6 +2380,35 @@
     ))
 (define-char
   '((ideographic-radical . 213)	; ⿔
+    (ideographic-strokes . 12)
+    (total-strokes	 . 28)
+    (ideographic-structure
+     ?⿱
+     ?敞
+     ?亀)
+    (=ucs		. #x2B81D)	; 𫠝
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x2B81D)	; 𫠝
+      ))
+    (ideographic-radical . 213)	; ⿔
+    (ideographic-strokes . 12)
+    (total-strokes	 . 23)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs@unicode	  . #x655E)	; &MJ012993;
+      (=mj		  . 012993)	; &MJ012993;
+      )
+     ((=ucs@unicode	  . #x4E80)	; &AJ1-01615;
+      (=adobe-japan1-0	  . 01615)	; &AJ1-01615;
+      ))
+    (=ucs@JP/hanazono	. #x2B81D)	; &hanaJU+2B81D;
+    ))
+(define-char
+  '((ideographic-radical . 213)	; ⿔
     (ideographic-strokes . 17)
     (total-strokes	 . 33)
     (=ucs		. #x2A6C8)	; 𪛈

@@ -12051,24 +12051,79 @@
   '((ideographic-radical . 119)	; ⽶
     (ideographic-strokes . 13)
     (total-strokes	 . 19)
+    (ideographic-structure
+     ?⿰
+     ?米
+     ?𥇡)
     (=ucs		. #x25F49)	; 𥽉
+    ))
+(define-char
+  '((ideographic-radical . 119)	; ⽶
+    (ideographic-strokes . 13)
+    (total-strokes	 . 19)
+    (<-denotational
+     ((=ucs		. #x25F49)	; 𥽉
+      ))
+    (=ucs@iso		  . #x25F49)	; &M-49463;
+    (=daikanwa	  . 49463)	; &M-49463;
     (->subsumptive
-     ((=ucs@iso		  . #x25F49)	; &M-49463;
-      (=daikanwa	  . 49463)	; &M-49463;
+     ((==ucs@iso		  . #x25F49)	; &M-49463;
+      (==daikanwa	  . 49463)	; &M-49463;
       )
-     ((=cns11643-7	  . #x4854)	; &C7-4854; [40-52]
+     ((==cns11643-7	  . #x4854)	; &C7-4854; [40-52]
+      ))
+    (=cns11643-7	  . #x4854)	; &C7-4854; [40-52]
+    ))
+(define-char
+  '((ideographic-radical . 119)	; ⽶
+    (ideographic-strokes . 13)
+    (total-strokes	 . 19)
+    (ideographic-structure
+     ?⿰
+     ?米
+     ?感)
+    (=ucs		. #x25F47)	; 𥽇
+    ))
+(define-char
+  '((ideographic-radical . 119)	; ⽶
+    (ideographic-strokes . 13)
+    (total-strokes	 . 19)
+    (<-denotational
+     ((=ucs		. #x25F47)	; 𥽇
+      ))
+    (ideographic-structure
+     ?⿰
+     ?米
+     ((=daijiten		. 03409)	; &DJT-03409;
+      ))
+    (=mj		. 044356)	; &MJ044356;
+    (=koseki . 303690)
+    (=daikanwa	  . 49464)	; &M-49464;
+    (<-formed
+     ((=daikanwa		. 32661)	; &M-32661;
+      ))
+    (<-formed$_1*sources
+     koseki)
+    (<-formed*sources
+     koseki)
+    (->subsumptive
+     ((==daikanwa	  . 49464)	; &M-49464;
+      (==mj		. 044356)	; &MJ044356;
+      (==koseki . 303690)
       ))
     ))
 (define-char
   '((ideographic-radical . 119)	; ⽶
     (ideographic-strokes . 13)
     (total-strokes	 . 19)
-    (=ucs		. #x25F47)	; 𥽇
+    (<-denotational
+     ((=ucs		. #x25F47)	; 𥽇
+      ))
+    (=ucs@iso	  . #x25F47)	; &M-49464;
+    (=cns11643-7	  . #x4851)	; &C7-4851; [40-49]
     (->subsumptive
-     ((=ucs@unicode	  . #x25F47)	; &M-49464;
-      (=daikanwa	  . 49464)	; &M-49464;
-      )
-     ((=cns11643-7	  . #x4851)	; &C7-4851; [40-49]
+     ((==ucs@iso	  . #x25F47)	; &M-49464;
+      (==cns11643-7	  . #x4851)	; &C7-4851; [40-49]
       ))
     ))
 (define-char

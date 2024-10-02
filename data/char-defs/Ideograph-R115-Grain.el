@@ -10062,9 +10062,15 @@
     (ideographic-strokes . 9)
     (total-strokes	 . 14)
     (ideographic-structure
-     ?⿰
-     ?&AJ1-01363;
-     ?&AJ1-04815;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@unicode	  . #x79BE)	; &AJ1-01363;
+      (=adobe-japan1-0	  . 01363)	; &AJ1-01363;
+      )
+     ((=ucs@unicode	  . #x6031)	; &AJ1-04815;
+      (=adobe-japan1-0	  . 04815)	; &AJ1-04815;
+      ))
     (=ucs@iso		. #x25821)	; &C6-5F6D;
     (=cns11643-6	. #x5F6D)	; &C6-5F6D; [63-77]
     (=daikanwa		. 49409)	; &I-M-49409;
@@ -14705,7 +14711,7 @@
     (ideographic-radical . 115)	; ⽲
     (ideographic-strokes . 12)
     (total-strokes	 . 17)
-    (=ucs@iso 		. #x25898)	; &U-00025898;
+    (=ucs@iso		. #x25898)	; &U-00025898;
     ))
 (define-char
   '((ideographic-radical . 115)	; ⽲

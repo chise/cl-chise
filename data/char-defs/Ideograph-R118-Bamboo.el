@@ -16754,12 +16754,30 @@
   '((ideographic-radical . 118)	; ⽵
     (ideographic-strokes . 9)
     (total-strokes	 . 15)
+    (ideographic-structure
+     ?⿱
+     ?竹
+     ?秌)
     (=ucs		. #x25C02)	; 𥰂
-    (=daikanwa		. 49428)	; &I-M-49428;
     ))
 (define-char
-  '((=>ucs		. #x25C02)	; 𥰂
-    (morohashi-daikanwa	49428 0 0)
+  '((ideographic-radical . 118)	; ⽵
+    (ideographic-strokes . 9)
+    (total-strokes	 . 15)
+    (<-denotational
+     ((=ucs		. #x25C02)	; 𥰂
+      ))
+    (=ucs@iso		. #x25C02)	; 𥰂
+    (=daikanwa		. 49428)	; &I-M-49428;
+    (->subsumptive
+     ((==ucs@iso		. #x25C02)	; 𥰂
+      (==daikanwa		. 49428)	; &I-M-49428;
+      )
+     ((==cns11643-7	. #x2646)	; &C7-2646; [06-38]
+      ))
+    (<-denotational
+     ((=ucs		. #x25C02)	; 𥰂
+      ))
     (ideographic-radical . 118)	; ⽵
     (ideographic-strokes . 9)
     (total-strokes	 . 15)

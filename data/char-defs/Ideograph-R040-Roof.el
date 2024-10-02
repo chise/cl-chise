@@ -9119,6 +9119,11 @@
       )
      ((=>mj		  . 007290)	; &A-MJ007290;
       ))
+    (ideographic-structure@apparent
+     ?⿱
+     ?宜
+     ((=>ucs@iwds-1	. #x4E38)	; &A-IWDSU+4E38;
+      ))
     (=ucs		. #x21A0B)	; 𡨋
     ))
 (define-char
@@ -9136,9 +9141,16 @@
       )
      ((=mj		  . 007290)	; &MJ007290;
       ))
+    (ideographic-structure@apparent
+     ?⿱
+     ((=ucs@unicode	. #x5B9C)	; &AJ1-01619;
+      )
+     ((=>ucs@component	. #x513F)	; &A-compU+513F;
+      ))
     (=ucs@iso		. #x21A0B)	; &MJ033991;
     (=mj		. 033991)	; &MJ033991;
     (=koseki		. 081750)	; &MJ033991;
+    (=cbeta		. 07448)	; &CB07448;
     (<-formed
      ((=ucs@unicode	  . #x51A5)	; &AJ1-03785;
       (=adobe-japan1-0	  . 03785)	; &AJ1-03785;
@@ -11505,7 +11517,8 @@
     (=gt-pj-11		. #x4434)	; &GT-09042; [36-20]
     (=daikanwa/ho	.  0131)	; &GT-09042;
     (<-same
-     ((=ucs		  . #x20263)	; 𠉣
+     ((=ucs@iso		  . #x20263)	; &C4-2B63;
+      (=cns11643-4	  . #x2B63)	; &C4-2B63; [11-67]
       (=daikanwa	  . 00728)	; &I-M-00728;
       ))
     (<-same*sources

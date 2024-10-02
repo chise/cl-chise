@@ -8973,7 +8973,7 @@
 	)
        ((===jis-x0212	    . #x6239)	; &R-C6-4F63; [66-25]
 	)
-       ((===adobe-japan1-6  . 22685)	; &C3-3F59;
+       ((===adobe-japan1-6  . 22685)	; 鄊
 	)
        ((===cns11643-2	    . #x407A)	; &U-00028726; [32-90]
 	)
@@ -9104,12 +9104,12 @@
     (total-strokes	 . 12)
     (=ucs		. #x910A)	; 鄊
     (=ucs		. #x910A)	; 鄊
-    (=cns11643-3	  . #x3F59)	; &C3-3F59; [31-57]
+    (=cns11643-3	  . #x3F59)	; 鄊 [31-57]
     (=daikanwa	  . 39542)	; &I-M-39542;
-    (=cns11643-3	  . #x3F59)	; &C3-3F59; [31-57]
+    (=cns11643-3	  . #x3F59)	; 鄊 [31-57]
     (=daikanwa	  . 39542)	; &I-M-39542;
     (->subsumptive
-     ((==cns11643-3	  . #x3F59)	; &C3-3F59; [31-57]
+     ((==cns11643-3	  . #x3F59)	; 鄊 [31-57]
       (==daikanwa	  . 39542)	; &I-M-39542;
       )
      ((==ucs@unicode	  . #x910A)	; &U-0002872D;
@@ -9956,7 +9956,9 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((==>daijiten	  . 12204)	; &A2-DJT-12205;
+     ((ideographic-radical . 163)	; ⾢
+      (==>ucs@bucs	. #x90AC)	; &BUCS+90AC;
+      (==>daijiten	. 12204)	; &A2-DJT-12204;
       ))
     (ideographic-radical . 163)	; ⾢
     (ideographic-strokes . 10)
@@ -9971,6 +9973,15 @@
       (=ucs		  . #x2ECF)	; ⻏
       ))
     (=ucs		. #x9114)	; 鄔
+    ))
+(define-char
+  '((ideographic-radical . 163)	; ⾢
+    (ideographic-strokes . 10)
+    (total-strokes	 . 13)
+    (<-denotational
+     ((=ucs		. #x9114)	; 鄔
+      ))
+    (=ucs@unicode	. #x9114)	; 鄔
     (=adobe-japan1-5	. 17158)	; &I-AJ1-17158;
     (=jis-x0212		. #x623C)	; &I-JSP-623C; [66-28]
     (=cns11643-2	. #x482F)	; &I-C2-482F; [40-15]
@@ -9978,6 +9989,7 @@
     (=gb12345		. #x5A79)	; 鄔 [58-89]
     (=big5		. #xE0A9)	; &I-B-E0A9;
     (=daikanwa		. 39570)	; &I-M-39570;
+    (=daijiten		. 12204)	; &I-DJT-12204;
     (=daijiten		. 12204)	; &I-DJT-12204;
     (->subsumptive
      ((==ucs@unicode	  . #x9114)	; &g2-MJ026366;
@@ -9987,6 +9999,7 @@
       (==jis-x0213-1	  . #x7C6B)	; &g2-MJ026366; [92-75]
       (==gb12345	  . #x5A79)	; &g2-MJ026366; [58-89]
       (==daikanwa	  . 39570)	; &g2-MJ026366;
+      (==daijiten	. 12204)	; &I-DJT-12204;
       (==daijiten	  . 12204)	; &g2-MJ026366;
       (->subsumptive
        ((===daikanwa	    . 39570)	; &R-M-39571;

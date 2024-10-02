@@ -53765,6 +53765,8 @@
       )
      ((=ucs		  . #x6BDA)	; 毚
       ))
+    (sound@ja/on/kan "saN")
+    (sound@ja/on/go "zeN")
     (=ucs		. #x2294B)	; 𢥋
     ))
 (define-char
@@ -53784,7 +53786,7 @@
       ))
     (=ucs@iso		. #x2294B)	; &C5-6776;
     (=cns11643-5	. #x6776)	; &C5-6776; [71-86]
-    (=daikanwa/ho 	.  0192)	; &C5-6776;
+    (=daikanwa/ho	.  0192)	; &C5-6776;
     (->subsumptive
      ((==ucs@JP/hanazono  . #x2294B)	; &g2-M-H0192;
       (==daikanwa/ho	  .  0192)	; &g2-M-H0192;
@@ -54364,6 +54366,7 @@
   '((ideographic-radical . 61)	; ⼼
     (ideographic-strokes . 17)
     (total-strokes	 . 20)
+    (sound@ja/on "tui")
     (=ucs 		. #x22953)	; 𢥓
     ))
 (define-char
@@ -54376,6 +54379,11 @@
     (=ucs@iso		. #x22953)	; &C7-4D6B;
     (=cns11643-7	. #x4D6B)	; &C7-4D6B; [45-75]
     (=daikanwa 		. 11487)	; &I-M-11487;
+    (<-same
+     ((=daikanwa		. 11376)	; &I-M-11376;
+      ))
+    (<-same*sources
+     shuowen-changjian daikanwa)
     (->subsumptive
      ((==ucs@iso	  . #x22953)	; &g2-M-11487;
       (==cns11643-7	  . #x4D6B)	; &g2-M-11487; [45-75]

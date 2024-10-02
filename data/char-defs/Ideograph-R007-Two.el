@@ -405,6 +405,8 @@
       ))
     (<-denotational@usage
      ((==>ucs@bucs	  . #x4E8E)	; &BUCS+4E8E;
+      )
+     ((==>ucs@bucs	  . #x8667)	; &BUCS+8667;
       ))
     (ideographic-radical . 7)	; ⼆
     (ideographic-strokes . 1)
@@ -435,6 +437,11 @@
       ))
     (<-original*sources
      zhengzitong daikanwa shinjigen)
+    (<-simplified@CN
+     ((=ucs@unicode	  . #x8667)	; &C1-7536;
+      (=cns11643-1	  . #x7536)	; &I-C1-7536; [85-22]
+      (=gb12345		  . #x3F77)	; &C1-7536; [31-87]
+      ))
     (->subsumptive
      ((==ucs@unicode	  . #x4E8F)	; &g2-GT-00332;
       (==gb2312		  . #x3F77)	; &g2-GT-00332; [31-87]

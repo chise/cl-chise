@@ -22858,10 +22858,15 @@
     (ideographic-strokes . 9)
     (total-strokes	 . 13)
     (ideographic-structure
-     ?⿰
-     ((=>ucs@component	. #x6708)	; &A-compU+6708;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
       )
-     ?&AJ1-21708;)
+     ((=>ucs@component	  . #x6708)	; &A-compU+6708;
+      (=>iwds-1		  .  0053)	; &A-compU+6708;
+      )
+     ((=ucs@unicode	  . #x6637)	; &AJ1-21708;
+      (=adobe-japan1-6	  . 21708)	; &AJ1-21708;
+      ))
     (=ucs@unicode	. #x817D)	; &C3-4422;
     (=gb2312		. #x6B70)	; &C3-4422; [75-80]
     (=cns11643-3	. #x4422)	; &I-C3-4422; [36-02]

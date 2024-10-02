@@ -2676,9 +2676,9 @@
     (->formed$_1*sources
      jiyun daikanwa)
     (->formed$_2*sources
-     guliang-zhu daikanwa)
+     chunqiu-guliang-zhu daikanwa)
     (->formed$_3*sources
-     guliang-zhu daikanwa)
+     chunqiu-guliang-zhu daikanwa)
     (->formed*sources
      daikanwa)
     (->interchangeable
@@ -13663,7 +13663,7 @@
   '((<-denotational@usage
      ((ideographic-radical . 184)	; ⾷
       (==>ucs@bucs	. #x9942)	; &BUCS+9942;
-      (==>daijiten	. 13605)	; &A2-DJT-13605;
+      (==>daijiten	. 13605)	; &BUCS+9942;
       ))
     (ideographic-radical . 184)	; ⾷
     (ideographic-structure

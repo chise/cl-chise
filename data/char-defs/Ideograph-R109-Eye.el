@@ -20543,6 +20543,33 @@
     (=ucs@iso		. #x252D4)	; &U-000252D4;
     ))
 (define-char
+  '((ideographic-radical . 109)	; ⽬
+    (ideographic-strokes . 12)
+    (total-strokes	 . 17)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x76EE)	; 目
+      )
+     ((=ucs		  . #x76DC)	; 盜
+      ))
+    (=ucs		. #x252D5)	; 𥋕
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x252D5)	; 𥋕
+      ))
+    (ideographic-radical . 109)	; ⽬
+    (ideographic-strokes . 12)
+    (total-strokes	 . 17)
+    (ideographic-structure
+     ?⿰
+     ?目
+     ?&AJ1-05336;)
+    (=ucs@iso		. #x252D5)	; &U-000252D5;
+    ))
+(define-char
   '((<-denotational@usage
      ((==>ucs@bucs	  . #x77BB)	; &BUCS+77BB;
       ))

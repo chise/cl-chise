@@ -373,7 +373,26 @@
   '((ideographic-radical . 121)	; ⽸
     (ideographic-strokes . 3)
     (total-strokes	 . 9)
+    (ideographic-structure
+     ?⿰
+     ((=>ucs@iwds-1	. #x7F36)	; &A-IWDSU+7F36;
+      )
+     ((=>ucs@component	. #x4E90)	; &A-compU+4E90;
+      ))
     (=ucs		. #x26224)	; 𦈤
+    ))
+(define-char
+  '((ideographic-radical . 121)	; ⽸
+    (ideographic-strokes . 3)
+    (total-strokes	 . 9)
+    (<-denotational
+     ((=ucs		. #x26224)	; 𦈤
+      ))
+    (ideographic-structure
+     ?⿰
+     ?缶
+     ?&U-v001+4E90;)
+    (=ucs@iso		. #x26224)	; 𦈤
     ))
 (define-char
   '((ideographic-radical . 121)	; ⽸

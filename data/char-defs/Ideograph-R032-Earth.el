@@ -29382,7 +29382,8 @@
       )
      ((=gt-k		  . 00199)	; &GT-K00199;
       )
-     ((=ucs		  . #x70CF)	; 烏
+     ((=ucs@unicode	  . #x70CF)	; &AJ1-01226;
+      (=adobe-japan1-0	  . 01226)	; &I-AJ1-01226;
       ))
     (=ucs@unicode	. #x5862)	; &AJ1-04506;
     (=adobe-japan1-0	. 04506)	; &AJ1-04506;
@@ -29398,12 +29399,12 @@
     (=daijiten		. 01826)	; &I-DJT-01826;
     (=shinjigen		.  8916)	; &AJ1-04506;
     (<-formed
-     ((=ucs		  . #x9696)	; 隖
+     ((=ucs@unicode	  . #x9696)	; 隖
       ))
     (<-formed$_1*sources
      jiyun)
     (<-same
-     ((=ucs		  . #x9696)	; 隖
+     ((=ucs@unicode	  . #x9696)	; 隖
       (=daikanwa	  . 41786)	; &I-M-41786;
       ))
     (<-same$_1*sources
@@ -37050,7 +37051,17 @@
   '((ideographic-radical . 32)	; ⼟
     (ideographic-strokes . 12)
     (total-strokes	 . 15)
+    (ideographic-structure
+     ?⿱
+     ?䧘
+     ((=>ucs@iwds-1	. #x571F)	; &A-IWDSU+571F;
+      ))
     (=ucs		. #x58AC)	; 墬
+    (<-Zhouwen
+     ((=ucs		  . #x5730)	; 地
+      ))
+    (<-Zhouwen$_1*sources
+     shuowen)
     ))
 (define-char
   '((<-denotational
@@ -37060,6 +37071,11 @@
     (ideographic-strokes . 12)
     (total-strokes	 . 15)
     (hanyu-dazidian	1 484 7)
+    (ideographic-structure
+     ?⿱
+     ((=ucs@iso		. #x49D8)	; &C4-3B6D;
+      )
+     ?土)
     (=ucs@unicode	. #x58AC)	; &C2-4F77;
     (=cns11643-2	. #x4F77)	; &C2-4F77; [47-87]
     (=big5		. #xE550)	; &I-B-E550;
@@ -43392,11 +43408,30 @@
     (ideographic-strokes . 15)
     (total-strokes	 . 18)
     (=ucs		. #x214B0)	; 𡒰
-    (=daikanwa		. 05573)	; &I-M-05573;
+    (<-Zhouwen
+     ((=ucs		  . #x5730)	; 地
+      ))
+    (<-Zhouwen$_1*sources
+     shuowen)
     ))
 (define-char
-  '((=>ucs		. #x214B0)	; 𡒰
-    (morohashi-daikanwa	5573 0 0)
+  '((ideographic-radical . 32)	; ⼟
+    (ideographic-strokes . 15)
+    (total-strokes	 . 18)
+    (<-denotational
+     ((=ucs		. #x214B0)	; 𡒰
+      ))
+    (=ucs@iso		. #x214B0)	; 𡒰
+    (=daikanwa		. 05573)	; &I-M-05573;
+    (->subsumptive
+     ((==ucs@iso		. #x214B0)	; 𡒰
+      (==daikanwa		. 05573)	; &I-M-05573;
+      )
+     ((==cns11643-7	. #x3F34)	; &C7-3F34; [31-20]
+      ))
+    (<-denotational
+     ((=ucs		. #x214B0)	; 𡒰
+      ))
     (ideographic-radical . 32)	; ⼟
     (ideographic-strokes . 15)
     (total-strokes	 . 18)
@@ -45586,6 +45621,11 @@
       (=>iwds-1		  .  0312)	; &A-IWDSU+571F;
       ))
     (=ucs		. #x214EC)	; 𡓬
+    (<-Zhouwen
+     ((=ucs		  . #x5730)	; 地
+      ))
+    (<-Zhouwen$_1*sources
+     shuowen)
     ))
 (define-char
   '((<-denotational

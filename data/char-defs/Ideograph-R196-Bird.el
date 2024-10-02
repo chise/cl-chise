@@ -2,6 +2,18 @@
 (define-char
   '((ideographic-radical . 196)	; ⿃
     (ideographic-strokes . 0)
+    (total-strokes	 . 6)
+    (=big5-cdp		. #x89DF)	; &CDP-89DF;
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 0)
+    (total-strokes	 . 5)
+    (=big5-cdp-itaiji-001 . #x89DF)	; &CDP-i001-89DF;
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 0)
     (=>ucs@cognate	. #x9CE5)	; &A-cgnU+9CE5;
     ))
 (define-char
@@ -19812,6 +19824,21 @@
       (=adobe-japan1-0	  . 03031)	; &AJ1-03031;
       ))
     (=ucs@iso		. #x2A16B)	; &U-0002A16B;
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 11)
+    (total-strokes	 . 16)
+    (=ucs		. #x2B815)	; 𫠕
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 11)
+    (total-strokes	 . 16)
+    (<-denotational
+     ((=ucs		. #x2B815)	; 𫠕
+      ))
+    (=ucs@JP/hanazono	. #x2B815)	; 𫠕
     ))
 (define-char
   '((ideographic-radical . 196)	; ⿃

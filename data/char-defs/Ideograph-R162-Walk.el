@@ -52,7 +52,7 @@
      ((=daikanwa	  . 37925)	; &M-37925;
       ))
     (<-synonyms*sources
-     yili-zhu gongyang-zhuan jingdian-shiwen daikanwa)
+     yili-zhu chunqiu-gongyang-zhuan jingdian-shiwen daikanwa)
     (->subsumptive
      ((==ucs@unicode	  . #x8FB5)	; &g2-AJ1-15183;
       (==adobe-japan1-4	  . 15183)	; &g2-AJ1-15183;
@@ -3247,14 +3247,14 @@
       (=daikanwa	  . 10529)	; &I-M-10529;
       ))
     (<-synonyms@p2/s4*sources
-     shuowen-tongxundingsheng zuoshi-zhuan zuoshi-zhu daikanwa)
+     shuowen-tongxundingsheng chunqiu-zuoshi-zhuan chunqiu-zuoshi-zhu daikanwa)
     (->formed
      ((=ucs@jis		  . #x901B)	; &JSP-6150;
       (=jis-x0212	  . #x6150)	; &JSP-6150; [65-48]
       (=daikanwa	  . 38893)	; &I-M-38893;
       ))
     (->formed*sources
-     jiyun zuoshi-zhuan daikanwa)
+     jiyun chunqiu-zuoshi-zhuan daikanwa)
     (->subsumptive
      ((==ucs@jis	  . #x8FCB)	; &g2-AJ1-22662;
       (==adobe-japan1-6	  . 22662)	; &g2-AJ1-22662;
@@ -16231,7 +16231,7 @@
        ((=daikanwa	    . 27667)	; &M-27667;
 	))
       (<-synonyms*sources
-       shuowen-tongxundingsheng fangyan zuoshi-zhuan zuoshi-zhu daikanwa)
+       shuowen-tongxundingsheng fangyan chunqiu-zuoshi-zhuan chunqiu-zuoshi-zhu daikanwa)
       (->formed
        ((=ucs@cns	    . #x5448)	; &MJ008132;
 	(=mj		    . 008132)	; &MJ008132;
@@ -26346,7 +26346,7 @@
       (=daikanwa	  . 22701)	; &I-M-22701;
       ))
     (<-synonyms*sources
-     maoshi zuoshi-zhuan daikanwa)
+     maoshi chunqiu-zuoshi-zhuan daikanwa)
     (->formed
      ((=ucs@unicode	  . #x5FA8)	; &MJ011334;
       (=mj		  . 011334)	; &MJ011334;
@@ -38773,7 +38773,7 @@
       (=daikanwa	  . 02459)	; &I-M-02459;
       ))
     (<-synonyms*sources
-     shuowen-tongxundingsheng zuoshi-zhuan zuoshi-zhu zuoshi-shu daikanwa)
+     shuowen-tongxundingsheng chunqiu-zuoshi-zhuan chunqiu-zuoshi-zhu chunqiu-zuoshi-shu daikanwa)
     (->formed
      ((=daikanwa	  . 39258)	; &M-39258;
       ))

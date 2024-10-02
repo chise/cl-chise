@@ -297,16 +297,45 @@
       ))
     ))
 (define-char
+  '((<-denotational
+     ((=>ucs@iwds-1	  . #x27FBA)	; &A-IWDSU+27FBA;
+      (=>ucs@iwds-1/normalized . #x27FBA)	; &A-IWDSU+27FBA;
+      ))
+    (ideographic-radical . 157)	; ⾜
+    (ideographic-strokes . 2)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ?⿱
+     ?入
+     ((=>ucs@iwds-1	. #x8DB3)	; &A-IWDSU+8DB3;
+      ))
+    (=ucs		. #x27FBA)	; 𧾺
+    (<-ancient
+     ((=ucs		  . #x4F01)	; 企
+      ))
+    (<-ancient$_1*sources
+     shuowen)
+    ))
+(define-char
   '((ideographic-radical . 157)	; ⾜
     (ideographic-strokes . 2)
     (total-strokes	 . 9)
-    (=ucs		. #x27FBA)	; 𧾺
-    (->subsumptive
-     ((=ucs@iso		  . #x27FBA)	; &M-37369;
-      (=daikanwa	  . 37369)	; &M-37369;
-      )
-     ((=cns11643-6	  . #x345B)	; &C6-345B; [20-59]
+    (<-denotational
+     ((=ucs		. #x27FBA)	; 𧾺
       ))
+    (ideographic-structure
+     ?⿱
+     ?入
+     ?足)
+    (=ucs@iso		  . #x27FBA)	; &C6-345B;
+    (=daikanwa	  . 37369)	; &C6-345B;
+    (->subsumptive
+     ((==ucs@iso		  . #x27FBA)	; &C6-345B;
+      (==daikanwa	  . 37369)	; &C6-345B;
+      )
+     ((==cns11643-6	  . #x345B)	; &C6-345B; [20-59]
+      ))
+    (=cns11643-6	  . #x345B)	; &C6-345B; [20-59]
     ))
 (define-char
   '((ideographic-radical . 157)	; ⾜
@@ -11875,7 +11904,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((==>daijiten	  . 11640)	; &A2-DJT-11640;
+     ((==>daijiten	  . 11640)	; &BUCS+8E5F;
       )
      ((==>ucs@bucs	  . #x8E5F)	; &BUCS+8E5F;
       ))
@@ -18522,7 +18551,7 @@
     ))
 (define-char
   '((ideographic-radical . 157)	; ⾜
-    (==>daijiten	. 11640)	; &A2-DJT-11640;
+    (==>daijiten	. 11640)	; &BUCS+8E5F;
     (==>ucs@bucs	. #x8E5F)	; &BUCS+8E5F;
     ))
 (define-char

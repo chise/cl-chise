@@ -1357,20 +1357,20 @@
 	(=daikanwa	    . 21371)	; &I-M-21371;
 	))
       (=ucs@iso		  . #x24B0C)	; &MJ041159;
-      (=mj		  . 041159)	; &I-MJ041159;
-      (=koseki . 240040)
-      (=daikanwa 	  . 21410)	; &MJ041159;
+      (=mj		  . 041159)	; &MJ041159;
+      (=koseki		  . 240040)	; &MJ041159;
+      (=daikanwa	  . 21410)	; &I-M-21410;
       (->subsumptive
        ((==ucs@iso	    . #x24B0C)	; &g2-M-21410;
+	(==koseki	    . 240040)	; &g2-M-21410;
 	(==daikanwa	    . 21410)	; &g2-M-21410;
-	(==koseki . 240040)
 	(->subsumptive
 	 ((===daikanwa	      . 21410)	; &R-M-21410;
 	  )
 	 ((===ucs@iso	      . #x24B0C)	; &R-U-00024B0C;
 	  ))
 	)
-       ((==mj		  . 041159)	; &I-MJ041159;
+       ((==mj		    . 041159)	; &g2-MJ041159;
 	))
       )
      ((ideographic-structure
@@ -2137,10 +2137,16 @@
     (ideographic-strokes . 19)
     (total-strokes	 . 24)
     (ideographic-structure
-     ?⿽
-     ((=ucs@unicode	. #x87F8)	; &JSP-5B65;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER RIGHT")
+      (=ucs		  . #x2FFD)	; ⿽
+      )
+     ((=ucs@unicode	  . #x87F8)	; &JSP-5B65;
+      (=jis-x0212	  . #x5B65)	; &I-JSP-5B65; [59-69]
+      (=cns11643-3	  . #x5B2C)	; &I-C3-5B2C; [59-12]
+      (=daikanwa	  . 33666)	; &I-M-33666;
       )
      ((=ucs@cns		  . #x74DC)	; &HD-JT-B5DE;
+      (=cns11643-1	  . #x466A)	; &HD-JT-B5DE; [38-74]
       ))
     (=ucs@unicode	. #x74E5)	; &C2-7041;
     (=ucs@unicode	. #x74E5)	; &C2-7041;
@@ -2148,7 +2154,7 @@
     (=big5		. #xF8B3)	; &I-B-F8B3;
     (=daikanwa		. 21433)	; &I-M-21433;
     (->subsumptive
-     ((==daikanwa 	  . 21433)	; &g2-M-21433;
+     ((==daikanwa	  . 21433)	; &g2-M-21433;
       )
      ((==ucs@unicode	  . #x74E5)	; &g2-UU+74E5;
       (==ucs@JP/hanazono  . nil)
@@ -2230,7 +2236,7 @@
 	(=ucs		    . #x2FF1)	; ⿱
 	)
        ((=ucs@iso	    . #x24B0C)	; &MJ041159;
-	(=daikanwa	    . 21410)	; &MJ041159;
+	(=daikanwa	    . 21410)	; &I-M-21410;
 	)
        ((=ucs		    . #x45B5)	; 䖵
 	))

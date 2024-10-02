@@ -1468,21 +1468,29 @@
     ))
 (define-char
   '((ideographic-radical . 207)	; ⿎
+    (ideographic-structure
+     ?⿱
+     ?鼓
+     ?隆)
     (=ucs		. #x2A534)	; 𪔴
     ))
 (define-char
-  '((ideographic-radical . 207)	; ⿎
-    (<-denotational
-     ((=ucs		. #x2A534)	; 𪔴
+  '((<-denotational
+     ((=ucs		  . #x2A534)	; 𪔴
       ))
+    (ideographic-radical . 207)	; ⿎
     (ideographic-strokes . 12)
     (total-strokes	 . 25)
     (ideographic-structure
-     ?⿱
-     ((=ucs@unicode	. #x9F13)	; &AJ1-01937;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
       )
-     ?隆)
-    (=ucs@iso		. #x2A534)	; 𪔴
+     ((=ucs@unicode	  . #x9F13)	; &AJ1-01937;
+      (=adobe-japan1-0	  . 01937)	; &AJ1-01937;
+      )
+     ((=ucs		  . #xF9DC)	; 隆
+      ))
+    (=ucs@iso		. #x2A534)	; &U-0002A534;
     ))
 (define-char
   '((ideographic-radical . 207)	; ⿎
