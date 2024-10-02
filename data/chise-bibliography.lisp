@@ -9,7 +9,8 @@
 (define-bibliography
   '((=chise-bib-id . bencao-gangmu)))
 (define-bibliography
-  '((=chise-bib-id . bos)))
+  '((=title . "東洋學文獻類目")
+    (=chise-bib-id . bos)))
 (define-bibliography
   '((=title . "博雅")
     (=chise-bib-id . boya)))
@@ -45,23 +46,109 @@
       ((=name . "朱熹")
        (=id . u6731u71B9))))))
 (define-bibliography
-  '((=chise-bib-id . chuci-zhu)))
+  '((=title . "楚辭注")
+    (=chise-bib-id . chuci-zhu)
+    (->commented
+     (:bibliography
+      ((=title . "楚辭")
+       (=chise-bib-id . chuci))))))
 (define-bibliography
-  '((=chise-bib-id . chunqiu-gongyang-zhu)))
+  '((=title . "春秋")
+    (=chise-bib-id . chunqiu)))
 (define-bibliography
-  '((=chise-bib-id . chunqiu-zuoshi-huijian)))
+  '((=title . "春秋公羊傳")
+    (=chise-bib-id . chunqiu-gongyang)
+    (->commented
+     (:bibliography
+      ((=title . "春秋")
+       (=chise-bib-id . chunqiu))))))
 (define-bibliography
-  '((=chise-bib-id . chunqiu-zuoshi-shiwen)))
+  '((=title . "春秋公羊傳解詁")
+    (=chise-bib-id . chunqiu-gongyang-zhu)
+    (->commented
+     (:bibliography
+      ((=title . "春秋公羊傳")
+       (=chise-bib-id . chunqiu-gongyang))))))
 (define-bibliography
-  '((=chise-bib-id . chunqiu-zuoshi-zhu)))
+  '((=title . "春秋穀梁傳")
+    (=chise-bib-id . chunqiu-guliang)
+    (->commented
+     (:bibliography
+      ((=title . "春秋")
+       (=chise-bib-id . chunqiu))))))
 (define-bibliography
-  '((=chise-bib-id . chunqiu-zuoshi-zhuan+chunqiu-gongyang)))
+  '((=title . "春秋穀梁傳注")
+    (=chise-bib-id . chunqiu-guliang-zhu)
+    (->commented
+     (:bibliography
+      ((=title . "春秋穀梁傳")
+       (=chise-bib-id . chunqiu-guliang))))
+    (->author
+     (:creator
+      ((=name . "范甯")
+       (=id . u8303u752F))))
+    (=abbreviated-title . "穀梁注")))
 (define-bibliography
-  '((=chise-bib-id . chunqiu-zuoshi-zhuan+chunqiu-guliang)))
+  '((=title . "春秋左氏傳")
+    (=chise-bib-id . chunqiu-zuoshi)
+    (->commented
+     (:bibliography
+      ((=title . "春秋")
+       (=chise-bib-id . chunqiu))))
+    (->author
+     (:creator
+      ((=name . "左丘明")
+       (=id . u5DE6u4E18u660E))))
+    (=abbreviated-title . "左氏傳")))
+(define-bibliography
+  '((=chise-bib-id . chunqiu-zuoshi+chunqiu-gongyang)))
+(define-bibliography
+  '((=chise-bib-id . chunqiu-zuoshi+chunqiu-guliang)))
+(define-bibliography
+  '((=title . "左氏會箋")
+    (=chise-bib-id . chunqiu-zuoshi-huijian)
+    (->commented
+     (:bibliography
+      ((=title . "春秋左氏傳")
+       (=chise-bib-id . chunqiu-zuoshi)
+       (=abbreviated-title . "左氏傳"))))))
+(define-bibliography
+  '((=chise-bib-id . chunqiu-zuoshi-shiwen)
+    (->commented
+     (:bibliography
+      ((=title . "春秋左氏傳")
+       (=chise-bib-id . chunqiu-zuoshi)
+       (=abbreviated-title . "左氏傳"))))))
+(define-bibliography
+  '((=title . "春秋左傳正義")
+    (=chise-bib-id . chunqiu-zuoshi-shu)
+    (->commented
+     (:bibliography
+      ((=title . "春秋左氏傳")
+       (=chise-bib-id . chunqiu-zuoshi)
+       (=abbreviated-title . "左氏傳"))))
+    (->author
+     (:creator
+      ((=name . "孔穎達")
+       (=id . u5B54u7A4Eu9054))))
+    (=abbreviated-title . "左氏疏")))
+(define-bibliography
+  '((=title . "春秋經傳集解")
+    (=chise-bib-id . chunqiu-zuoshi-zhu)
+    (->commented
+     (:bibliography
+      ((=title . "春秋左氏傳")
+       (=chise-bib-id . chunqiu-zuoshi)
+       (=abbreviated-title . "左氏傳"))))
+    (->author
+     (:creator
+      ((=name . "杜預")
+       (=id . u675Cu9810))))
+    (=abbreviated-title . "左氏注")))
 (define-bibliography
   '((=chise-bib-id . chuogenglu)))
 (define-bibliography
-  '((=title . "辞海")
+  '((=title . "辞海")
     (=chise-bib-id . cihai)))
 (define-bibliography
   '((=chise-bib-id . ciyuan)))
@@ -102,16 +189,19 @@
 (define-bibliography
   '((=chise-bib-id . dadaili-zhu)))
 (define-bibliography
-  '((=chise-bib-id . daijiten)))
+  '((=title . "大字典")
+    (=chise-bib-id . daijiten)))
 (define-bibliography
-  '((=title . "大漢和辞典")
+  '((=title . "大漢和辭典")
     (=chise-bib-id . daikanwa)))
 (define-bibliography
-  '((=chise-bib-id . daikanwa/+p)))
+  '((=title . "大漢和辭典(ddddd')")
+    (=chise-bib-id . daikanwa/+p)))
 (define-bibliography
   '((=chise-bib-id . daikanwa/fixed)))
 (define-bibliography
-  '((=chise-bib-id . daikanwa/ho)))
+  '((=title . "大漢和辭典(補)")
+    (=chise-bib-id . daikanwa/ho)))
 (define-bibliography
   '((=chise-bib-id . daikanwa/p1/s6)))
 (define-bibliography
@@ -119,9 +209,11 @@
 (define-bibliography
   '((=chise-bib-id . daikanwa@r110)))
 (define-bibliography
-  '((=chise-bib-id . daikanwa@rev1)))
+  '((=title . "大漢和辭典(修訂版)")
+    (=chise-bib-id . daikanwa@rev1)))
 (define-bibliography
-  '((=chise-bib-id . daikanwa@rev2)))
+  '((=title . "大漢和辭典(修訂第二版)")
+    (=chise-bib-id . daikanwa@rev2)))
 (define-bibliography
   '((=chise-bib-id . daizhen-shuzheng)))
 (define-bibliography
@@ -140,6 +232,10 @@
 (define-bibliography
   '((=title . "爾雅注疏")
     (=chise-bib-id . erya-shu)
+    (->commented
+     (:bibliography
+      ((=title . "爾雅")
+       (=chise-bib-id . erya))))
     (->author
      (:creator
       ((=name . "邢昺")
@@ -150,6 +246,10 @@
 (define-bibliography
   '((=title . "爾雅義疏")
     (=chise-bib-id . erya-yishu)
+    (->commented
+     (:bibliography
+      ((=title . "爾雅")
+       (=chise-bib-id . erya))))
     (->author
      (:creator
       ((=name . "郝懿行")
@@ -157,6 +257,10 @@
 (define-bibliography
   '((=title . "爾雅注")
     (=chise-bib-id . erya-zhu)
+    (->commented
+     (:bibliography
+      ((=title . "爾雅")
+       (=chise-bib-id . erya))))
     (->author
      (:creator
       ((=name . "郭璞")
@@ -173,19 +277,25 @@
 (define-bibliography
   '((=title . "方言疏證")
     (=chise-bib-id . fangyan-shuzheng)
+    (->commented
+     (:bibliography
+      ((=title . "方言")
+       (=chise-bib-id . fangyan))))
     (->author
      (:creator
       ((=name . "錢繹")
        (=id . u9322u7E79))))))
 (define-bibliography
   '((=title . "方言注")
-    (=chise-bib-id . fangyan-zhu)))
+    (=chise-bib-id . fangyan-zhu)
+    (->commented
+     (:bibliography
+      ((=title . "方言")
+       (=chise-bib-id . fangyan))))))
 (define-bibliography
   '((=chise-bib-id . fangyan-zhuanshu)))
 (define-bibliography
   '((=chise-bib-id . ganluzishu)))
-(define-bibliography
-  '((=chise-bib-id . gongyang-zhuan)))
 (define-bibliography
   '((=chise-bib-id . goonruiju)))
 (define-bibliography
@@ -200,29 +310,39 @@
 (define-bibliography
   '((=title . "廣雅疏證")
     (=chise-bib-id . guangya-shuzheng)
+    (->commented
+     (:bibliography
+      ((=title . "廣雅")
+       (=chise-bib-id . guangya))))
     (->author
      (:creator
       ((=name . "王念孫")
        (=id . u738Bu5FF5u5B6B))))))
 (define-bibliography
-  '((=title . "広韻")
+  '((=title . "廣韻")
     (=chise-bib-id . guangyun)))
 (define-bibliography
   '((=chise-bib-id . guangyun+jiyun)))
 (define-bibliography
-  '((=title . "管子注")
-    (=chise-bib-id . guanzi-zhu)))
+  '((=title . "管子")
+    (=chise-bib-id . guanzi)))
 (define-bibliography
-  '((=title . "春秋穀梁傳注")
-    (=chise-bib-id . guliang-zhu)
-    (->author
-     (:creator
-      ((=name . "范甯")
-       (=id . u8303u752F))))
-    (=abbreviated-title . "穀梁注")))
+  '((=title . "管子注")
+    (=chise-bib-id . guanzi-zhu)
+    (->commented
+     (:bibliography
+      ((=title . "管子")
+       (=chise-bib-id . guanzi))))))
+(define-bibliography
+  '((=title . "國語")
+    (=chise-bib-id . guoyu)))
 (define-bibliography
   '((=title . "國語注")
     (=chise-bib-id . guoyu-zhu)
+    (->commented
+     (:bibliography
+      ((=title . "國語")
+       (=chise-bib-id . guoyu))))
     (->author
      (:creator
       ((=name . "韋昭")
@@ -234,7 +354,7 @@
 (define-bibliography
   '((=chise-bib-id . guwenyuan-zhu)))
 (define-bibliography
-  '((=title . "海篇")
+  '((=title . "海篇")
     (=chise-bib-id . haipian)))
 (define-bibliography
   '((=chise-bib-id . hanshi-waichuan-jiaozhu)))
@@ -266,6 +386,8 @@
     (=abbreviated-title . "漢書注")))
 (define-bibliography
   '((=chise-bib-id . hanyu-qiuhuaishi-zhu)))
+(define-bibliography
+  '((=chise-bib-id . hdic-tsj)))
 (define-bibliography
   '((=chise-bib-id . hng)))
 (define-bibliography
@@ -448,7 +570,6 @@
      (:bibliography
       ((=abbreviated-title@_2 . "道德經")
        (=title . "老子道德經")
-       (=id . laozi)
        (=chise-bib-id . laozi)
        (=abbreviated-title@_1 . "老子")
        (=abbreviated-title . "老子"))))
@@ -664,10 +785,10 @@
 (define-bibliography
   '((=chise-bib-id . peixi-ji)))
 (define-bibliography
-  '((=title . "篇海")
+  '((=title . "篇海")
     (=chise-bib-id . pianhai)))
 (define-bibliography
-  '((=title . "篇海類編")
+  '((=title . "篇海類編")
     (=chise-bib-id . pianhai-leibian)))
 (define-bibliography
   '((=chise-bib-id . pianyun)))
@@ -714,18 +835,26 @@
 (define-bibliography
   '((=chise-bib-id . shangshu-zhuan)))
 (define-bibliography
-  '((=title . "山海經")
+  '((=title . "山海經")
     (=chise-bib-id . shanhaijing)))
 (define-bibliography
-  '((=title . "山海經箋疏")
+  '((=title . "山海經箋疏")
     (=chise-bib-id . shanhaijing-jianshu)
+    (->commented
+     (:bibliography
+      ((=title . "山海經")
+       (=chise-bib-id . shanhaijing))))
     (->author
      (:creator
       ((=name . "郝懿行")
        (=id . u90DDu61FFu884C))))))
 (define-bibliography
-  '((=title . "山海經注")
+  '((=title . "山海經注")
     (=chise-bib-id . shanhaijing-zhu)
+    (->commented
+     (:bibliography
+      ((=title . "山海經")
+       (=chise-bib-id . shanhaijing))))
     (->author
      (:creator
       ((=name . "郭璞")
@@ -770,7 +899,8 @@
 (define-bibliography
   '((=chise-bib-id . shiji-zhu)))
 (define-bibliography
-  '((=chise-bib-id . shijiazhai-yangxin-lu)))
+  '((=title . "十駕斎養新錄")
+    (=chise-bib-id . shijiazhai-yangxinlu)))
 (define-bibliography
   '((=title . "釋名")
     (=chise-bib-id . shiming)
@@ -947,7 +1077,7 @@
 (define-bibliography
   '((=chise-bib-id . wuyin-jiyun)))
 (define-bibliography
-  '((=title . "五音篇海")
+  '((=title . "五音篇海")
     (=chise-bib-id . wuyin-pianhai)))
 (define-bibliography
   '((=title . "五音集韻")
@@ -1033,6 +1163,8 @@
        (=id . u9867u91CEu738B))))))
 (define-bibliography
   '((=chise-bib-id . yupian+shuowen)))
+(define-bibliography
+  '((=chise-bib-id . yupian@hdic-syp)))
 (define-bibliography
   '((=chise-bib-id . yuwen)))
 (define-bibliography
@@ -1158,27 +1290,3 @@
   '((=chise-bib-id . zixuesanzheng)))
 (define-bibliography
   '((=chise-bib-id . zixuezhinan)))
-(define-bibliography
-  '((=title . "春秋左傳正義")
-    (=chise-bib-id . zuoshi-shu)
-    (->author
-     (:creator
-      ((=name . "孔穎達")
-       (=id . u5B54u7A4Eu9054))))
-    (=abbreviated-title . "左氏疏")))
-(define-bibliography
-  '((=title . "春秋經傳集解")
-    (=chise-bib-id . zuoshi-zhu)
-    (->author
-     (:creator
-      ((=name . "杜預")
-       (=id . u675Cu9810))))
-    (=abbreviated-title . "左氏注")))
-(define-bibliography
-  '((=title . "春秋左氏傳")
-    (=chise-bib-id . zuoshi-zhuan)
-    (->author
-     (:creator
-      ((=name . "左丘明")
-       (=id . u5DE6u4E18u660E))))
-    (=abbreviated-title . "左氏傳")))
