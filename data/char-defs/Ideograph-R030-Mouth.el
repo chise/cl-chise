@@ -1739,7 +1739,7 @@
     (<-interchangeable$_7*sources
      hanshu-zhu daikanwa)
     (<-interchangeable$_8*sources
-     chunqiu-zuoshi-zhuan+chunqiu-guliang-zhuan daikanwa)
+     chunqiu-zuoshi+chunqiu-guliang daikanwa)
     (<-interchangeable$_9*sources
      shuowen-tongxundingsheng daikanwa)
     (<-interchangeable*sources
@@ -46022,10 +46022,12 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 30)	; ⼝
+  '((<-denotational@usage
+     ((==>ucs@bucs	  . #x5598)	; &BUCS+5598;
+      ))
+    (ideographic-radical . 30)	; ⼝
     (ideographic-strokes . 9)
     (total-strokes	 . 12)
-    (hanyu-dazidian	1 655 5)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
@@ -46035,7 +46037,29 @@
      ((=ucs		  . #x8011)	; 耑
       ))
     (=ucs		. #x5598)	; 喘
-    (=adobe-japan1-0	. 04406)	; &I-AJ1-04406;
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x5598)	; 喘
+      ))
+    (ideographic-radical . 30)	; ⼝
+    (ideographic-strokes . 9)
+    (total-strokes	 . 12)
+    (hanyu-dazidian	1 655 5)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x53E3)	; 口
+      )
+     ((=ucs@unicode	  . #x8011)	; &JX2-7526;
+      (=jis-x0212	  . #x554E)	; &JX2-7526; [53-46]
+      (=cns11643-1	  . #x5325)	; &I-C1-5325; [51-05]
+      (=jis-x0213-2	  . #x7526)	; &I-JX2-7526; [85-06]
+      (=daikanwa	  . 28880)	; &I-M-28880;
+      ))
+    (=ucs@unicode	. #x5598)	; &AJ1-04406;
+    (=adobe-japan1-0	. 04406)	; &AJ1-04406;
     (=jis-x0208		. #x5343)	; &I-J90-5343; [51-35]
     (=gb2312		. #x342D)	; &I-G0-342D; [20-13]
     (=ks-x1001		. #x7437)	; &I-K0-7437; [84-23]
@@ -46045,7 +46069,8 @@
     (=gt		. 04969)	; &I-GT-04969;
     (=gt-pj-1		. #x5343)	; &I-GT-04969; [51-35]
     (=daikanwa		. 03946)	; &I-M-03946;
-    (=shinjigen		.  1164)	; 喘
+    (=daijiten		. 01407)	; &I-DJT-01407;
+    (=shinjigen		.  1164)	; &AJ1-04406;
     (->subsumptive
      ((=decomposition@cid
        ((=ucs		    . #x5598)	; 喘
@@ -46079,6 +46104,8 @@
 	)
        ((===ucs@unicode	    . #x5598)	; &R-UU+5598;
 	))
+      )
+     ((==daijiten	  . 01407)	; &g2-DJT-01407;
       ))
     ))
 (define-char
@@ -46777,7 +46804,8 @@
       )
      ((=ucs		  . #x53E3)	; 口
       )
-     ((=ucs		  . #x66F7)	; 曷
+     ((=ucs@unicode	  . #x66F7)	; &MJ013488;
+      (=mj		  . 013488)	; &MJ013488;
       ))
     (=ucs		. #xFA36)	; 喝
     (=ucs@unicode	. #x559D)	; 喝
@@ -46790,6 +46818,7 @@
     (=jis-x0213-1	. #x2F2C)	; &I-JX1-2F2C; [15-12]
     (=big5		. #xB3DC)	; &I-B-B3DC;
     (=daikanwa		. 03960)	; &I-M-03960;
+    (=daijiten		. 01414)	; &I-DJT-01414;
     (=shinjigen@1ed	.  1142)	; 喝
     (=shinjigen@rev	.  1109)	; 喝
     (<-formed
@@ -46848,10 +46877,13 @@
       (==cns11643-1	  . #x5E42)	; &g2-AJ1-07651; [62-34]
       (==jis-x0213-1	  . #x2F2C)	; &g2-AJ1-07651; [15-12]
       (==daikanwa	  . 03960)	; &g2-AJ1-07651;
+      (==daijiten	  . 01414)	; &g2-AJ1-07651;
       (==shinjigen@1ed	  .  1142)	; &g2-AJ1-07651;
       (==shinjigen@rev	  .  1109)	; &g2-AJ1-07651;
       (->subsumptive
        ((===daikanwa	    . 03960)	; &R-M-03960;
+	)
+       ((===daijiten	    . 01414)	; &R-DJT-01414;
 	)
        ((===jis-x0208@1978  . #x3365)	; &R-J78-3365; [19-69]
 	)
@@ -56317,9 +56349,13 @@
     (total-strokes	 . 13)
     (hanyu-dazidian	1 668 15)
     (ideographic-structure
-     ?⿰
-     ?口
-     ((=ucs@unicode	. #x70CF)	; &AJ1-01226;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x53E3)	; 口
+      )
+     ((=ucs@unicode	  . #x70CF)	; &AJ1-01226;
+      (=adobe-japan1-0	  . 01226)	; &AJ1-01226;
       ))
     (=ucs@unicode	. #x55DA)	; &AJ1-04414;
     (=adobe-japan1-0	. 04414)	; &AJ1-04414;
@@ -99916,6 +99952,11 @@
   '((ideographic-radical . 30)	; ⼝
     (==>ucs@bucs	. #x558A)	; &BUCS+558A;
     (==>daijiten	. 01400)	; &BUCS+558A;
+    ))
+(define-char
+  '((ideographic-radical . 30)	; ⼝
+    (==>ucs@bucs	. #x5598)	; &BUCS+5598;
+    (==>daijiten	. 01407)	; &BUCS+5598;
     ))
 (define-char
   '((ideographic-radical . 30)	; ⼝

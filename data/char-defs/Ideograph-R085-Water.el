@@ -54994,6 +54994,45 @@
     ))
 (define-char
   '((ideographic-radical . 85)	; ⽔
+    (ideographic-structure
+     ((=>ucs@component	. #x2FF0)	; &U-v001+2FF0;
+      )
+     ?氵
+     ((=>ucs@iwds-1	. #x7155)	; &A-IWDSU+7155;
+      ))
+    (=>ucs@iwds-1	. #x24020)	; 𤀠
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@iwds-1	. #x24020)	; 𤀠
+      ))
+    (ideographic-radical . 85)	; ⽔
+    (ideographic-strokes . 13)
+    (total-strokes	 . 16)
+    (ideographic-structure
+     ((=>ucs@component	. #x2FF0)	; &U-v001+2FF0;
+      )
+     ?氵
+     ((=>ucs@iwds-1	. #x7155)	; &A-IWDSU+7155;
+      ))
+    (=ucs		. #x24020)	; 𤀠
+    ))
+(define-char
+  '((ideographic-radical . 85)	; ⽔
+    (ideographic-strokes . 13)
+    (total-strokes	 . 16)
+    (ideographic-structure
+     ?⿰
+     ?氵
+     ((=ucs@unicode	. #x7199)	; &GT-24690;
+      ))
+    (<-denotational
+     ((=ucs		. #x24020)	; 𤀠
+      ))
+    (=ucs@iso		. #x24020)	; 𤀠
+    ))
+(define-char
+  '((ideographic-radical . 85)	; ⽔
     (ideographic-strokes . 13)
     (total-strokes	 . 16)
     (ideographic-structure
@@ -61889,7 +61928,7 @@
       (=adobe-japan1-5	  . 19381)	; &AJ1-19381;
       ))
     (=ucs@iso		. #x240B4)	; &MJ039733;
-    (=mj		. 039733)	; &I-MJ039733;
+    (=mj		. 039733)	; &MJ039733;
     (=koseki . 210080)
     (=cns11643-7	. #x475C)	; &MJ039733; [39-60]
     (=daikanwa		. 18635)	; &I-M-18635;
@@ -61907,16 +61946,16 @@
      zhengzitong daikanwa)
     (->subsumptive
      ((==daikanwa	  . 18635)	; &g2-M-18635;
-      (==daikanwa	    . 18635)	; &R-M-18635;
+      (==daikanwa	    . 18635)	; &g2-M-18635;
       )
-     ((==mj		. 039733)	; &I-MJ039733;
+     ((==mj		. 039733)	; &MJ039733;
       (==koseki . 210080)
       )
      ((==ucs@iso	  . #x240B4)	; &g2-M-18635;
-      (==ucs@iso	    . #x240B4)	; &R-U-000240B4;
+      (==ucs@iso	    . #x240B4)	; &g2-IU-000240B4;
       )
      ((==cns11643-7	  . #x475C)	; &g2-M-18635; [39-60]
-      (==cns11643-7	    . #x475C)	; &R-C7-475C; [39-60]
+      (==cns11643-7	    . #x475C)	; &g2-CU+240B4; [39-60]
       ))
     ))
 (define-char

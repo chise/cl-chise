@@ -8720,7 +8720,7 @@
     (=ucs@JP/hanazono	. #x318C2)	; &hanaJU+318C2;
     (<-simplified@CN
      ((=ucs@unicode	  . #x3BA7)	; &C4-4421;
-      (=cns11643-4	  . #x4421)	; &I-C4-4421; [36-01]
+      (=cns11643-4	  . #x4421)	; &C4-4421; [36-01]
       (=daikanwa	  . 15247)	; &I-M-15247;
       ))
     ))
@@ -40325,8 +40325,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((ideographic-radical . 75)	; ⽊
-      (==>daijiten	. 05196)	; &A2-DJT-05196;
+     ((==>daijiten	  . 05196)	; &A2-DJT-05196;
       ))
     (ideographic-radical . 75)	; ⽊
     (ideographic-strokes . 10)
@@ -40349,12 +40348,16 @@
     (ideographic-strokes . 10)
     (total-strokes	 . 14)
     (ideographic-structure
-     ?⿰
-     ?木
-     ((=ucs@unicode	. #x70CF)	; &AJ1-01226;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x6728)	; 木
+      )
+     ((=ucs@unicode	  . #x70CF)	; &AJ1-01226;
+      (=adobe-japan1-0	  . 01226)	; &AJ1-01226;
       ))
     (=ucs@unicode	. #x3BA7)	; &C4-4421;
-    (=cns11643-4	. #x4421)	; &I-C4-4421; [36-01]
+    (=cns11643-4	. #x4421)	; &C4-4421; [36-01]
     (=daikanwa		. 15247)	; &I-M-15247;
     (=daijiten		. 05196)	; &I-DJT-05196;
     (=cbeta		. 03388)	; &I-CB03388;
@@ -40362,14 +40365,18 @@
      ((==ucs@unicode	  . #x3BA7)	; &g2-M-15247;
       (==cns11643-4	  . #x4421)	; &g2-M-15247; [36-01]
       (==daikanwa	  . 15247)	; &g2-M-15247;
-      (==daijiten		. 05196)	; &I-DJT-05196;
+      (==daijiten	  . 05196)	; &g2-M-15247;
       (==cbeta		  . 03388)	; &g2-M-15247;
       (->subsumptive
        ((===daikanwa	    . 15247)	; &R-M-15247;
 	)
+       ((===daijiten	    . 05196)	; &R-DJT-05196;
+	)
        ((===cns11643-4	    . #x4421)	; &R-C4-4421; [36-01]
 	)
        ((===ucs@unicode	    . #x3BA7)	; &R-UU+3BA7;
+	)
+       ((===cbeta	    . 03388)	; &R-CB03388;
 	))
       ))
     ))
@@ -76918,6 +76925,10 @@
   '((ideographic-radical . 75)	; ⽊
     (==>ucs@bucs	. #x699C)	; &BUCS+699C;
     (==>daijiten	. 05191)	; &BUCS+699C;
+    ))
+(define-char
+  '((ideographic-radical . 75)	; ⽊
+    (==>daijiten	. 05196)	; &A2-DJT-05196;
     ))
 (define-char
   '((ideographic-radical . 75)	; ⽊

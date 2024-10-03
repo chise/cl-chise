@@ -2634,7 +2634,7 @@
     (=gb2312		. #x4E5A)	; &G0-4E5A; [46-58]
     (<-simplified@CN
      ((=ucs@unicode	  . #x70CF)	; &AJ1-01226;
-      (=adobe-japan1-0	  . 01226)	; &I-AJ1-01226;
+      (=adobe-japan1-0	  . 01226)	; &AJ1-01226;
       (=gb12345		  . #x4E5A)	; &AJ1-01226; [46-58]
       ))
     (->subsumptive

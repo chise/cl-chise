@@ -21741,9 +21741,27 @@
   '((ideographic-radical . 109)	; ⽬
     (ideographic-strokes . 13)
     (total-strokes	 . 18)
+    (ideographic-structure
+     ?⿰
+     ?目
+     ?𥇡)
     (=ucs		. #x252ED)	; 𥋭
+    ))
+(define-char
+  '((ideographic-radical . 109)	; ⽬
+    (ideographic-strokes . 13)
+    (total-strokes	 . 18)
+    (<-denotational
+     ((=ucs		. #x252ED)	; 𥋭
+      ))
+    (=ucs@iso		. #x252ED)	; 𥋭
     (=cns11643-7	. #x407D)	; &I-C7-407D; [32-93]
     (=daikanwa		. 49377)	; &I-M-49377;
+    (->subsumptive
+     ((==ucs@iso		. #x252ED)	; 𥋭
+      (==cns11643-7	. #x407D)	; &I-C7-407D; [32-93]
+      (==daikanwa		. 49377)	; &I-M-49377;
+      ))
     ))
 (define-char
   '((ideographic-radical . 109)	; ⽬

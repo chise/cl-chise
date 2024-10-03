@@ -2520,6 +2520,10 @@
     (ideographic-radical . 134)	; ⾅
     (ideographic-strokes . 4)
     (total-strokes	 . 11)
+    (ideographic-structure
+     ?⿱
+     ?𦥑
+     ?廾)
     (=ucs		. #x2F98B)	; 舁
     (=mj		. 021328)	; &I-MJ021328;
     (=cns11643-4	. #x3457)	; &I-C4-3457; [20-55]
@@ -3064,7 +3068,7 @@
       (=gt-k		  . 01457)	; &GT-K01457;
       ))
     (=ucs@unicode	. #x4455)	; &C4-3458;
-    (=cns11643-4	. #x3458)	; &I-C4-3458; [20-56]
+    (=cns11643-4	. #x3458)	; &C4-3458; [20-56]
     (=daikanwa 		. 49562)	; &C4-3458;
     (->subsumptive
      ((==ucs@unicode	  . #x4455)	; &g2-M-49562;

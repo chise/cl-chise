@@ -23310,7 +23310,7 @@
      ((=ucs		  . #x5973)	; 女
       )
      ((=ucs@unicode	  . #x660F)	; &AJ1-02074;
-      (=adobe-japan1-0	  . 02074)	; &I-AJ1-02074;
+      (=adobe-japan1-0	  . 02074)	; &AJ1-02074;
       ))
     (=ucs@unicode	. #x5A5A)	; &MJ009783;
     (=mj		. 009783)	; &MJ009783;
@@ -26697,7 +26697,7 @@
       )
      ((=ucs		  . #x662C)	; 昬
       ))
-    (sound@ja/on "koN")
+    (sound@ja/on	"koN")
     (=ucs		. #x36F0)	; 㛰
     ))
 (define-char
@@ -26714,7 +26714,7 @@
      ((=ucs		  . #x5973)	; 女
       )
      ((=ucs@unicode	  . #x662C)	; &AJ1-14603;
-      (=adobe-japan1-4	  . 14603)	; &I-AJ1-14603;
+      (=adobe-japan1-4	  . 14603)	; &AJ1-14603;
       ))
     (=ucs@unicode	. #x36F0)	; &MJ000651;
     (=mj		. 000651)	; &MJ000651;
@@ -26723,14 +26723,18 @@
     (=daikanwa		. 06466)	; &I-M-06466;
     (=shinjigen		.  1685)	; &MJ000651;
     (<-formed
-     ((=jis-x0208	  . #x3A27)	; &I-J90-3A27; [26-07]
+     ((=ucs@unicode	  . #x5A5A)	; &MJ009783;
+      (=mj		  . 009783)	; &MJ009783;
+      (=koseki		  . 073250)	; &MJ009783;
       ))
     (<-formed$_1*sources
      koseki mj)
     (<-formed*sources
      koseki mj)
     (<-same
-     ((=daikanwa		. 06418)	; &I-M-06418;
+     ((=ucs@unicode	  . #x5A5A)	; &MJ009783;
+      (=mj		  . 009783)	; &MJ009783;
+      (=daikanwa	  . 06418)	; &I-M-06418;
       ))
     (<-same*sources
      zihui daikanwa)
@@ -32960,10 +32964,25 @@
   '((<-denotational
      ((=ucs		  . #x5AB5)	; 媵
       ))
+    (=>ucs*		. #x5AB5)	; 媵
     (ideographic-radical . 38)	; ⼥
     (ideographic-strokes . 10)
     (total-strokes	 . 13)
-    (=mj		. 009876)	; &MJ009876;
+    (ideographic-structure
+     ?⿸
+     ((=ucs-var-007	. #x30BA4)	; 𰮤
+      )
+     ?女)
+    (=ucs 		. #x2F986)	; 媵
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x5AB5)	; 媵
+      ))
+    (ideographic-radical . 38)	; ⼥
+    (ideographic-strokes . 10)
+    (total-strokes	 . 13)
+    (=mj  		. 009876)	; &MJ009876;
     (=hanyo-denshi/jt	. #xAFFA)	; &I-HD-JT-AFFA;
     (->subsumptive
      ((=decomposition@hanyo-denshi
@@ -51479,6 +51498,7 @@
      ((=ucs		  . #x5973)	; 女
       )
      ((=>ucs@iwds-1	  . #x7155)	; &A-IWDSU+7155;
+      (=>iwds-1		  .  0165)	; &A-IWDSU+7155;
       ))
     (=ucs		. #x372F)	; 㜯
     ))
@@ -51495,7 +51515,7 @@
       )
      ((=ucs		  . #x5973)	; 女
       )
-     ((=ucs		  . #x7155)	; 煕
+     ((=ucs@unicode	  . #x7155)	; 煕
       ))
     (=mj		. 000706)	; &MJ000706;
     (=hanyo-denshi/ia	. #x2F2E)	; &I-HD-IA-2F2E; [15-14]

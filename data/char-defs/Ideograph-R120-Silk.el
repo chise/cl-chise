@@ -2145,7 +2145,7 @@
   '((<-denotational@usage
      ((ideographic-radical . 120)	; ⽷
       (==>ucs@bucs	. #x7D0B)	; &BUCS+7D0B;
-      (==>daijiten	. 08746)	; &A2-DJT-08746;
+      (==>daijiten	. 08746)	; &BUCS+7D0B;
       ))
     (ideographic-radical . 120)	; ⽷
     (ideographic-strokes . 4)
@@ -2160,7 +2160,7 @@
      ((=ucs		. #x7D0B)	; 紋
       ))
     (=ucs@unicode	. #x7D0B)	; 紋
-    (=adobe-japan1-0	. 03826)	; &I-AJ1-03826;
+    (=adobe-japan1-0	. 03826)	; &AJ1-03826;
     (=jis-x0208		. #x4C66)	; &I-J90-4C66; [44-70]
     (=ks-x1001		. #x5A23)	; &I-K0-5A23; [58-03]
     (=cns11643-1	. #x5741)	; &I-C1-5741; [55-33]
@@ -18615,7 +18615,7 @@
       (=adobe-japan1-0	  . 02227)	; &AJ1-02227;
       )
      ((=ucs@iso		  . #x2719B)	; &CB07968;
-      (=cbeta		  . 07968)	; &I-CB07968;
+      (=cbeta		  . 07968)	; &CB07968;
       ))
     (=ucs@iso		. #x2606D)	; &U-0002606D;
     ))
@@ -31504,7 +31504,7 @@
       )
      ((=ucs		  . #x21655)	; 𡙕
       )
-     ((=ucs		  . #x7CF8)	; 糸
+     ((=>ucs@iwds-1	. #x7CF8)	; &A-IWDSU+7CF8;
       ))
     (sound@ja/on	"tIHu")
     (=ucs		. #x2616C)	; 𦅬
@@ -31524,7 +31524,7 @@
       (=cns11643-6	  . #x4759)	; &C6-4759; [39-57]
       (=daikanwa	  . 49010)	; &I-M-49010;
       )
-     ((=ucs		  . #x7CF8)	; 糸
+     ((=ucs@unicode	  . #x7CF8)	; 糸
       ))
     (=mj		. 044670)	; &MJ044670;
     (=koseki		. 312180)	; &MJ044670;
@@ -31724,7 +31724,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs		  . #x7CF8)	; 糸
+     ((=ucs@unicode	  . #x7CF8)	; 糸
       )
      ((=ucs@cns		  . #x44E4)	; &C4-3A61;
       (=cns11643-4	  . #x3A61)	; &C4-3A61; [26-65]
@@ -31795,7 +31795,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs		  . #x7CF8)	; 糸
+     ((=ucs@unicode	  . #x7CF8)	; 糸
       )
      ((=mj		  . 013511)	; &MJ013511;
       ))
@@ -33712,7 +33712,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs		  . #x7CF8)	; 糸
+     ((=ucs@unicode	  . #x7CF8)	; 糸
       )
      ((=ucs-var-001	  . #x21570)	; &U-v001+21570;
       ))
@@ -34952,7 +34952,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs		  . #x7CF8)	; 糸
+     ((=ucs@unicode	  . #x7CF8)	; 糸
       )
      ((=ucs-var-001	  . #x24CA5)	; &U-v001+24CA5;
       ))
@@ -36309,7 +36309,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs		  . #x7CF8)	; 糸
+     ((=ucs@unicode	  . #x7CF8)	; 糸
       )
      ((=ucs@cns		  . #x4525)	; &C3-4E50;
       (=cns11643-3	  . #x4E50)	; &C3-4E50; [46-48]
@@ -38189,7 +38189,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs		  . #x7CF8)	; 糸
+     ((=ucs@unicode	  . #x7CF8)	; 糸
       )
      ((=ucs-itaiji-007	  . #x9063)	; &U-i007+9063;
       ))

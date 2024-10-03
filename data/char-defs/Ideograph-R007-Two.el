@@ -439,7 +439,7 @@
      zhengzitong daikanwa shinjigen)
     (<-simplified@CN
      ((=ucs@unicode	  . #x8667)	; &C1-7536;
-      (=cns11643-1	  . #x7536)	; &I-C1-7536; [85-22]
+      (=cns11643-1	  . #x7536)	; &C1-7536; [85-22]
       (=gb12345		  . #x3F77)	; &C1-7536; [31-87]
       ))
     (->subsumptive

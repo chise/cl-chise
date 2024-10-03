@@ -2141,8 +2141,16 @@
     (=gb2312		. #x404D)	; &C3-2463; [32-45]
     (=cns11643-3	. #x2463)	; &I-C3-2463; [04-67]
     (=daikanwa		. 02328)	; &I-M-02328;
-    (=hanziku-1		. #xF1C1)	; &I-HZK01-F1C1;
     (=jef-china3	. #x82B2)	; &I-JC3-82B2;
+    (->subsumptive
+     ((==ucs@unicode	. #x52B3)	; &C3-2463;
+      (==gb2312		. #x404D)	; &C3-2463; [32-45]
+      (==cns11643-3	. #x2463)	; &I-C3-2463; [04-67]
+      (==daikanwa		. 02328)	; &I-M-02328;
+      (=hanziku-1		. #xF1C1)	; &I-HZK01-F1C1;
+      (=hanziku-1		. #xF1C1)	; &I-HZK01-F1C1;
+      (==jef-china3	. #x82B2)	; &I-JC3-82B2;
+      ))
     (<-simplified@CN
      ((=ucs		  . #x52DE)	; 勞
       (=gb12345		  . #x404D)	; 勞 [32-45]
@@ -2153,6 +2161,15 @@
       ))
     (<-vulgar*sources
      songyuan-yilai-suzipu daikanwa)
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x52B3)	; 劳
+      ))
+    (ideographic-radical . 19)	; ⼒
+    (ideographic-strokes . 6)
+    (total-strokes	 . 8)
+    (=ucs		. #x2F992)	; 劳
     ))
 (define-char
   '((<-denotational@usage
@@ -4148,7 +4165,7 @@
     (=ucs		. #xFA76)	; 勇
     (=ucs@unicode	. #x52C7)	; 勇
     (=ucs@JP/hanazono	. nil)
-    (=mj		. 007667)	; &MJ007667;
+    (=mj		. 007667)	; 勇
     (=adobe-japan1-4	. 14070)	; &I-AJ1-14070;
     (=gb2312		. #x5342)	; &I-G0-5342; [51-34]
     (=cns11643-1	. #x502D)	; &I-C1-502D; [48-13]

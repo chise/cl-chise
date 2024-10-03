@@ -2884,9 +2884,41 @@
   '((ideographic-radical . 127)	; ⽾
     (ideographic-strokes . 12)
     (total-strokes	 . 18)
+    (ideographic-structure
+     ?⿰
+     ?耒
+     ?㫺)
     (=ucs		. #x26521)	; 𦔡
+    ))
+(define-char
+  '((ideographic-radical . 127)	; ⽾
+    (ideographic-strokes . 12)
+    (total-strokes	 . 18)
+    (<-denotational
+     ((=ucs		. #x26521)	; 𦔡
+      ))
+    (=ucs@iso		. #x26521)	; 𦔡
     (=cns11643-7	. #x4174)	; &I-C7-4174; [33-84]
     (=daikanwa		. 28985)	; &I-M-28985;
+    (=gt		. 37525)	; &GT-37525;
+    (=gt-pj-6		. #x3653)	; &GT-37525; [22-51]
+    (->subsumptive
+     ((==daikanwa		. 28985)	; &I-M-28985;
+      )
+     ((==ucs@iso		. #x26521)	; 𦔡
+      (==cns11643-7	. #x4174)	; &I-C7-4174; [33-84]
+      (==gt		. 37525)	; &GT-37525;
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 127)	; ⽾
+    (ideographic-strokes . 12)
+    (total-strokes	 . 18)
+    (<-denotational
+     ((=ucs		. #x26521)	; 𦔡
+      ))
+    (=gt		. 37527)	; &GT-37527;
+    (=gt-pj-10		. #x3162)	; &GT-37527; [17-66]
     ))
 (define-char
   '((<-denotational

@@ -8914,9 +8914,7 @@
     (ideographic-strokes . 7)
     (total-strokes	 . 12)
     (ideographic-structure
-     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
-      (=ucs		  . #x2FF0)	; ⿰
-      )
+     ?⿱
      ((=ucs		  . #x7536)	; 甶
       )
      ((=>ucs@iwds-1	  . #x4E51)	; &A-IWDSU+4E51;
@@ -8939,9 +8937,7 @@
     (ideographic-strokes . 7)
     (total-strokes	 . 12)
     (ideographic-structure
-     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
-      (=ucs		  . #x2FF0)	; ⿰
-      )
+     ?⿱
      ((=ucs@unicode	  . #x7536)	; &JSP-4D2B;
       (=jis-x0212	  . #x4D2B)	; &JSP-4D2B; [45-11]
       (=cns11643-4	  . #x232B)	; &I-C4-232B; [03-11]
@@ -8982,9 +8978,7 @@
     (ideographic-strokes . 7)
     (total-strokes	 . 12)
     (ideographic-structure
-     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
-      (=ucs		  . #x2FF0)	; ⿰
-      )
+     ?⿱
      ((=ucs@unicode	  . #x7536)	; &JSP-4D2B;
       (=jis-x0212	  . #x4D2B)	; &JSP-4D2B; [45-11]
       (=cns11643-4	  . #x232B)	; &I-C4-232B; [03-11]

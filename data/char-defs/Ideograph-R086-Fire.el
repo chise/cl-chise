@@ -7767,7 +7767,7 @@
       (=ucs		  . #x2EA3)	; ⺣
       ))
     (=ucs@unicode	. #x70CF)	; &AJ1-01226;
-    (=adobe-japan1-0	. 01226)	; &I-AJ1-01226;
+    (=adobe-japan1-0	. 01226)	; &AJ1-01226;
     (=jis-x0208		. #x3128)	; &I-J90-3128; [17-08]
     (=ks-x1001		. #x6821)	; &I-K0-6821; [72-01]
     (=cns11643-1	. #x5654)	; &I-C1-5654; [54-52]
@@ -17127,6 +17127,8 @@
       )
      ((=ucs		  . #x706C)	; 灬
       ))
+    (=>iwds-1*note "165+162+163")
+    (=>iwds-1 . 165)
     (=>ucs@iwds-1	. #x7155)	; &A-IWDSU+7155;
     ))
 (define-char
@@ -20761,7 +20763,10 @@
     (=ucs@iso		. #x242E5)	; &U-000242E5;
     ))
 (define-char
-  '((<-denotational@usage
+  '((<-denotational
+     ((=>ucs@iwds-1	. #x7155)	; &A-IWDSU+7155;
+      ))
+    (<-denotational@usage
      ((==>ucs@bucs	  . #x7199)	; &BUCS+7199;
       ))
     (ideographic-radical . 86)	; ⽕
@@ -30578,9 +30583,29 @@
   '((ideographic-radical . 86)	; ⽕
     (ideographic-strokes . 12)
     (total-strokes	 . 16)
+    (ideographic-structure
+     ?⿸
+     ((=>gt-k		. 09373)	; &A-GT-K09373;
+      )
+     ?火)
     (=ucs		. #x243C0)	; 𤏀
+    ))
+(define-char
+  '((ideographic-radical . 86)	; ⽕
+    (ideographic-strokes . 12)
+    (total-strokes	 . 16)
+    (<-denotational
+     ((=ucs		. #x243C0)	; 𤏀
+      ))
+    (=ucs@iso		. #x243C0)	; 𤏀
     (=cns11643-7	. #x2F5C)	; &I-C7-2F5C; [15-60]
     (=daikanwa		. 49254)	; &I-M-49254;
+    (->subsumptive
+     ((==daikanwa		. 49254)	; &I-M-49254;
+      )
+     ((==ucs@iso		. #x243C0)	; 𤏀
+      (==cns11643-7	. #x2F5C)	; &I-C7-2F5C; [15-60]
+      ))
     ))
 (define-char
   '((ideographic-radical . 86)	; ⽕
@@ -30969,6 +30994,34 @@
     ))
 (define-char
   '((ideographic-radical . 86)	; ⽕
+    (ideographic-strokes . 12)
+    (total-strokes	 . 16)
+    (ideographic-structure
+     ?⿰
+     ?火
+     ((=>ucs@iwds-1	. #x7CB5)	; &A-IWDSU+7CB5;
+      ))
+    (=ucs		. #x243D3)	; 𤏓
+    ))
+(define-char
+  '((ideographic-radical . 86)	; ⽕
+    (ideographic-strokes . 12)
+    (total-strokes	 . 16)
+    (ideographic-structure
+     ?⿰
+     ?火
+     ((=ucs-itaiji-001	. #x7CB5)	; &U-i001+7CB5;
+      ))
+    (<-denotational
+     ((=ucs		. #x243D3)	; 𤏓
+      ))
+    (=ucs@iso		. #x243D3)	; 𤏓
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@iwds-1	. #x24020)	; 𤀠
+      ))
+    (ideographic-radical . 86)	; ⽕
     (ideographic-strokes . 12)
     (total-strokes	 . 16)
     (=ucs		. #x243C1)	; 𤏁

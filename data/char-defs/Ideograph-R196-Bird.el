@@ -5685,6 +5685,26 @@
   '((ideographic-radical . 196)	; ⿃
     (ideographic-strokes . 5)
     (total-strokes	 . 16)
+    (=ucs		. #x2B814)	; 𫠔
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 5)
+    (total-strokes	 . 16)
+    (ideographic-structure
+     ?⿱
+     ?&M-H0111;
+     ((=ucs@unicode	. #x9CE5)	; &AJ1-03031;
+      ))
+    (<-denotational
+     ((=ucs		. #x2B814)	; 𫠔
+      ))
+    (=ucs@JP/hanazono	. #x2B814)	; 𫠔
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 5)
+    (total-strokes	 . 16)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
