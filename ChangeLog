@@ -1,3 +1,60 @@
+2024-10-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* Sync up with the current snapshot [2024-10-03 23:00 JST].
+
+	M	data/char-defs/Ideograph-R004-Slash.el
+	M	data/char-defs/Ideograph-R007-Two.el
+	M	data/char-defs/Ideograph-R009-Man.el
+	M	data/char-defs/Ideograph-R019-Power.el
+	M	data/char-defs/Ideograph-R027-Cliff.el
+	M	data/char-defs/Ideograph-R029-Again.el
+	M	data/char-defs/Ideograph-R030-Mouth.el
+	M	data/char-defs/Ideograph-R032-Earth.el
+	M	data/char-defs/Ideograph-R036-Evening.el
+	M	data/char-defs/Ideograph-R038-Woman.el
+	M	data/char-defs/Ideograph-R040-Roof.el
+	M	data/char-defs/Ideograph-R049-Oneself.el
+	M	data/char-defs/Ideograph-R061-Heart.el
+	M	data/char-defs/Ideograph-R070-Square.el
+	M	data/char-defs/Ideograph-R072-Sun.el
+	M	data/char-defs/Ideograph-R074-Moon.el
+	M	data/char-defs/Ideograph-R075-Tree.el
+	M	data/char-defs/Ideograph-R085-Water.el
+	M	data/char-defs/Ideograph-R086-Fire.el
+	M	data/char-defs/Ideograph-R087-Claw.el
+	M	data/char-defs/Ideograph-R093-Cow.el
+	M	data/char-defs/Ideograph-R102-Field.el
+	M	data/char-defs/Ideograph-R109-Eye.el
+	M	data/char-defs/Ideograph-R118-Bamboo.el
+	M	data/char-defs/Ideograph-R120-Silk.el
+	M	data/char-defs/Ideograph-R127-Plow.el
+	M	data/char-defs/Ideograph-R130-Meat.el
+	M	data/char-defs/Ideograph-R134-Mortar.el
+	M	data/char-defs/Ideograph-R140-Grass.el
+	M	data/char-defs/Ideograph-R162-Walk.el
+	M	data/char-defs/Ideograph-R196-Bird.el
+	M	data/dumped-ids.lisp
+
+2024-10-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* data/chise-bibliography.lisp: Add titles and notes for some
+	references.
+	(chunqiu): New reference.
+	(chunqiu-gongyang): Renamed from `gongyang-zhuan'.
+	(chunqiu-guliang): New reference.
+	(chunqiu-guliang-zhu): Renamed from `guliang-zhu'.
+	(chunqiu-zuoshi): Renamed from `zuoshi-zhuan'.
+	(chunqiu-zuoshi+chunqiu-gongyang): Renamed from
+	`chunqiu-zuoshi-zhuan+chunqiu-gongyang'.
+	(chunqiu-zuoshi+chunqiu-guliang): Renamed from
+	`chunqiu-zuoshi-zhuan+chunqiu-guliang'.
+	(chunqiu-zuoshi-shu): Renamed from `zuoshi-shu'.
+	(chunqiu-zuoshi-zhu): Renamed from `zuoshi-zhu'.
+	(guanzi): New reference.
+	(hdic-tsj): New reference.
+	(shijiazhai-yangxinlu): Renamed from `shijiazhai-yangxin-lu'.
+	(yupian@hdic-syp): New reference.
+
 2024-10-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* Sync up with the current snapshot [2024-10-01 23:00 JST].
