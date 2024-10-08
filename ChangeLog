@@ -1,3 +1,59 @@
+2024-10-08  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* data/chise-bibliography.lisp (chunqiu-gongyang-shiwen): New
+	reference.
+	(chunqiu-guliang-shiwen): New reference.
+	(chunqiu-zuoshi-shiwen): Add `=title'; add `<-part' for `shiwen'.
+	(erya-shiwen): Add `=title'; add `<-part' for `shiwen'; add
+	`->commented' for `erya'.
+	(hdic-tsj): Add `=title'.
+	(jingdian-shiwen): Abolished.
+	(jingdian-shiwen/zhuangzi): Abolished.
+	(laozi-shiwen): New reference.
+	(liji-shiwen): Add `=title'; add `<-part' for `shiwen'; add
+	`->commented' for `liji'.
+	(liji-shu): Add `->commented' for `liji'.
+	(liji-zhu): Add `->commented' for `liji'.
+	(lunyu-huangshu): Add `->commented' for `lunyu'.
+	(lunyu-jizhu): Add `->commented' for `lunyu'.
+	(lunyu-shiwen): Add `=title'; add `<-part' for `shiwen'; add
+	`->commented' for `lunyu'.
+	(lunyu-zhu): Add `->commented' for `lunyu'.
+	(maoshi): Add `=abbreviated-title'.
+	(maoshi-jian): Add `->commented' for `maoshi'.
+	(maoshi-jichuan): Abolished.
+	(maoshi-jizhuan): Add `->commented' for `maoshi'.
+	(maoshi-shiwen): Add `=title'; add `<-part' for `shiwen'; add
+	`->commented' for `maoshi'.
+	(maoshi-shu): Add `->commented' for `maoshi'.
+	(maoshi-zhu): Add `->commented' for `maoshi'.
+	(maoshi-zhuan): Add `->commented' for `maoshi'.
+	(maoshi-zhuanshu): Add `->commented' for `maoshi'.
+	(shangshu-dazhuan): Add `->commented' for `shangshu'.
+	(shangshu-kongzhuan): Swap `=title' and `=abbreviated-title'; add
+	`<-denotational' for `shangshu'.
+	(shangshu-shiwen): Add `=title'; add `<-part' for `shiwen'; add
+	`->commented' for `shangshu'.
+	(shangshu-shu): Add `->commented' for `shangshu-kongzhuan'.
+	(shiwen): Add `->part'.
+	(xiaojing): New reference.
+	(xiaojing-shiwen): New reference.
+	(yili-shiwen): New reference.
+	(yili-shu): Add `->commented' for `yili'.
+	(yili-zhu): Add `->commented' for `yili'.
+	(yupian@hdic-syp): Add `=title'; add `<-denotational' for
+	`yupian'.
+	(zhouli-shiwen): Add `=title'; add `<-part' for `shiwen'; add
+	`->commented' for `zhouli'.
+	(zhouli-shu): Add `->commented' for `zhouli'.
+	(zhouli-zhu): Add `->commented' for `zhouli'.
+	(zhouyi-jijie): Add `->commented' for `zhouyi'.
+	(zhouyi-shiwen): Add `=title'; add `<-part' for `shiwen'; add
+	`->commented' for `zhouyi'.
+	(zhouyi-zhu): Add `->commented' for `zhouyi'.
+	(zhuangzi-shiwen): Add `=title'; add `<-part' for `shiwen'; add
+	`->commented' for `zhuangzi'.
+
 2024-10-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* Sync up with the current snapshot [2024-10-03 23:00 JST].
