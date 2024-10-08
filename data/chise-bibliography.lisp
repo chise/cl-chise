@@ -63,6 +63,18 @@
       ((=title . "春秋")
        (=chise-bib-id . chunqiu))))))
 (define-bibliography
+  '((=title . "經典釋文‐春秋公羊音義")
+    (<-part
+     (:bibliography
+      ((=title . "經典釋文")
+       (=chise-bib-id . shiwen)
+       (=abbreviated-title . "釋文"))))
+    (=chise-bib-id . chunqiu-gongyang-shiwen)
+    (->commented
+     (:bibliography
+      ((=title . "春秋公羊傳")
+       (=chise-bib-id . chunqiu-gongyang))))))
+(define-bibliography
   '((=title . "春秋公羊傳解詁")
     (=chise-bib-id . chunqiu-gongyang-zhu)
     (->commented
@@ -76,6 +88,18 @@
      (:bibliography
       ((=title . "春秋")
        (=chise-bib-id . chunqiu))))))
+(define-bibliography
+  '((=title . "經典釋文‐春秋穀梁音義")
+    (<-part
+     (:bibliography
+      ((=title . "經典釋文")
+       (=chise-bib-id . shiwen)
+       (=abbreviated-title . "釋文"))))
+    (=chise-bib-id . chunqiu-guliang-shiwen)
+    (->commented
+     (:bibliography
+      ((=title . "春秋穀梁傳")
+       (=chise-bib-id . chunqiu-guliang))))))
 (define-bibliography
   '((=title . "春秋穀梁傳注")
     (=chise-bib-id . chunqiu-guliang-zhu)
@@ -113,7 +137,13 @@
        (=chise-bib-id . chunqiu-zuoshi)
        (=abbreviated-title . "左氏傳"))))))
 (define-bibliography
-  '((=chise-bib-id . chunqiu-zuoshi-shiwen)
+  '((=title . "經典釋文‐春秋左氏音義")
+    (<-part
+     (:bibliography
+      ((=title . "經典釋文")
+       (=chise-bib-id . shiwen)
+       (=abbreviated-title . "釋文"))))
+    (=chise-bib-id . chunqiu-zuoshi-shiwen)
     (->commented
      (:bibliography
       ((=title . "春秋左氏傳")
@@ -228,7 +258,17 @@
 (define-bibliography
   '((=chise-bib-id . erya-guopu-zhu)))
 (define-bibliography
-  '((=chise-bib-id . erya-shiwen)))
+  '((=title . "經典釋文‐爾雅音義")
+    (<-part
+     (:bibliography
+      ((=title . "經典釋文")
+       (=chise-bib-id . shiwen)
+       (=abbreviated-title . "釋文"))))
+    (=chise-bib-id . erya-shiwen)
+    (->commented
+     (:bibliography
+      ((=title . "爾雅")
+       (=chise-bib-id . erya))))))
 (define-bibliography
   '((=title . "爾雅注疏")
     (=chise-bib-id . erya-shu)
@@ -387,7 +427,8 @@
 (define-bibliography
   '((=chise-bib-id . hanyu-qiuhuaishi-zhu)))
 (define-bibliography
-  '((=chise-bib-id . hdic-tsj)))
+  '((=title . "新撰字鏡(HDIC)")
+    (=chise-bib-id . hdic-tsj)))
 (define-bibliography
   '((=chise-bib-id . hng)))
 (define-bibliography
@@ -441,10 +482,6 @@
   '((=chise-bib-id . jiayi-xinshu-zhu)))
 (define-bibliography
   '((=chise-bib-id . jigakushinan)))
-(define-bibliography
-  '((=chise-bib-id . jingdian-shiwen)))
-(define-bibliography
-  '((=chise-bib-id . jingdian-shiwen/zhuangzi)))
 (define-bibliography
   '((=title . "經傳釋詞")
     (=chise-bib-id . jingzhuanshici)
@@ -564,6 +601,21 @@
     (=abbreviated-title@_1 . "老子")
     (=abbreviated-title . "老子")))
 (define-bibliography
+  '((=title . "經典釋文‐老子音義")
+    (<-part
+     (:bibliography
+      ((=title . "經典釋文")
+       (=chise-bib-id . shiwen)
+       (=abbreviated-title . "釋文"))))
+    (=chise-bib-id . laozi-shiwen)
+    (->commented
+     (:bibliography
+      ((=abbreviated-title@_2 . "道德經")
+       (=title . "老子道德經")
+       (=chise-bib-id . laozi)
+       (=abbreviated-title@_1 . "老子")
+       (=abbreviated-title . "老子"))))))
+(define-bibliography
   '((=title . "老子注")
     (=chise-bib-id . laozi-wangbi-zhu)
     (->commented
@@ -598,10 +650,24 @@
   '((=title . "禮記")
     (=chise-bib-id . liji)))
 (define-bibliography
-  '((=chise-bib-id . liji-shiwen)))
+  '((=title . "經典釋文‐禮記音義")
+    (<-part
+     (:bibliography
+      ((=title . "經典釋文")
+       (=chise-bib-id . shiwen)
+       (=abbreviated-title . "釋文"))))
+    (=chise-bib-id . liji-shiwen)
+    (->commented
+     (:bibliography
+      ((=title . "禮記")
+       (=chise-bib-id . liji))))))
 (define-bibliography
   '((=title . "禮記正義")
     (=chise-bib-id . liji-shu)
+    (->commented
+     (:bibliography
+      ((=title . "禮記")
+       (=chise-bib-id . liji))))
     (->author
      (:creator
       ((=name . "孔穎達")
@@ -610,6 +676,10 @@
 (define-bibliography
   '((=title . "禮記注")
     (=chise-bib-id . liji-zhu)
+    (->commented
+     (:bibliography
+      ((=title . "禮記")
+       (=chise-bib-id . liji))))
     (->author
      (:creator
       ((=name . "鄭玄")
@@ -665,6 +735,10 @@
 (define-bibliography
   '((=title . "論語義疏")
     (=chise-bib-id . lunyu-huangshu)
+    (->commented
+     (:bibliography
+      ((=title . "論語")
+       (=chise-bib-id . lunyu))))
     (->author
      (:creator
       ((=name . "皇侃")
@@ -675,15 +749,33 @@
 (define-bibliography
   '((=title . "論語集註")
     (=chise-bib-id . lunyu-jizhu)
+    (->commented
+     (:bibliography
+      ((=title . "論語")
+       (=chise-bib-id . lunyu))))
     (->author
      (:creator
       ((=name . "朱熹")
        (=id . u6731u71B9))))))
 (define-bibliography
-  '((=chise-bib-id . lunyu-shiwen)))
+  '((=title . "經典釋文‐論語音義")
+    (<-part
+     (:bibliography
+      ((=title . "經典釋文")
+       (=chise-bib-id . shiwen)
+       (=abbreviated-title . "釋文"))))
+    (=chise-bib-id . lunyu-shiwen)
+    (->commented
+     (:bibliography
+      ((=title . "論語")
+       (=chise-bib-id . lunyu))))))
 (define-bibliography
   '((=title . "論語集解")
     (=chise-bib-id . lunyu-zhu)
+    (->commented
+     (:bibliography
+      ((=title . "論語")
+       (=chise-bib-id . lunyu))))
     (->author
      (:creator
       ((=name . "何晏")
@@ -702,10 +794,16 @@
        (=id . u9AD8u8A98))))))
 (define-bibliography
   '((=title . "毛詩")
-    (=chise-bib-id . maoshi)))
+    (=chise-bib-id . maoshi)
+    (=abbreviated-title . "詩經")))
 (define-bibliography
   '((=title . "毛詩鄭箋")
     (=chise-bib-id . maoshi-jian)
+    (->commented
+     (:bibliography
+      ((=title . "毛詩")
+       (=chise-bib-id . maoshi)
+       (=abbreviated-title . "詩經"))))
     (->author
      (:creator
       ((=name . "鄭玄")
@@ -714,19 +812,38 @@
 (define-bibliography
   '((=chise-bib-id . maoshi-jiananjiantongshi)))
 (define-bibliography
-  '((=chise-bib-id . maoshi-jichuan)))
-(define-bibliography
   '((=title . "詩集傳")
     (=chise-bib-id . maoshi-jizhuan)
+    (->commented
+     (:bibliography
+      ((=title . "毛詩")
+       (=chise-bib-id . maoshi)
+       (=abbreviated-title . "詩經"))))
     (->author
      (:creator
       ((=name . "朱熹")
        (=id . u6731u71B9))))))
 (define-bibliography
-  '((=chise-bib-id . maoshi-shiwen)))
+  '((=title . "經典釋文‐毛詩音義")
+    (<-part
+     (:bibliography
+      ((=title . "經典釋文")
+       (=chise-bib-id . shiwen)
+       (=abbreviated-title . "釋文"))))
+    (=chise-bib-id . maoshi-shiwen)
+    (->commented
+     (:bibliography
+      ((=title . "毛詩")
+       (=chise-bib-id . maoshi)
+       (=abbreviated-title . "詩經"))))))
 (define-bibliography
   '((=title . "毛詩正義")
     (=chise-bib-id . maoshi-shu)
+    (->commented
+     (:bibliography
+      ((=title . "毛詩")
+       (=chise-bib-id . maoshi)
+       (=abbreviated-title . "詩經"))))
     (->author
      (:creator
       ((=name . "孔穎達")
@@ -735,6 +852,11 @@
 (define-bibliography
   '((=title . "毛詩鄭箋")
     (=chise-bib-id . maoshi-zhu)
+    (->commented
+     (:bibliography
+      ((=title . "毛詩")
+       (=chise-bib-id . maoshi)
+       (=abbreviated-title . "詩經"))))
     (->author
      (:creator
       ((=name . "鄭玄")
@@ -743,6 +865,11 @@
 (define-bibliography
   '((=title . "毛詩傳")
     (=chise-bib-id . maoshi-zhuan)
+    (->commented
+     (:bibliography
+      ((=title . "毛詩")
+       (=chise-bib-id . maoshi)
+       (=abbreviated-title . "詩經"))))
     (->author
      (:creator
       ((=name . "毛亨")
@@ -750,6 +877,11 @@
 (define-bibliography
   '((=title . "詩毛氏傳疏")
     (=chise-bib-id . maoshi-zhuanshu)
+    (->commented
+     (:bibliography
+      ((=title . "毛詩")
+       (=chise-bib-id . maoshi)
+       (=abbreviated-title . "詩經"))))
     (->author
      (:creator
       ((=name . "陳奐")
@@ -811,23 +943,46 @@
 (define-bibliography
   '((=title . "尚書大傳")
     (=chise-bib-id . shangshu-dazhuan)
+    (->commented
+     (:bibliography
+      ((=title . "尚書")
+       (=chise-bib-id . shangshu))))
     (->author
      (:creator
       ((=name . "伏生")
        (=id . u4F0Fu751F))))))
 (define-bibliography
-  '((=title . "尚書傳")
+  '((=title . "尚書孔傳")
+    (<-denotational
+     (:bibliography
+      ((=title . "尚書")
+       (=chise-bib-id . shangshu))))
     (=chise-bib-id . shangshu-kongzhuan)
     (->author
      (:creator
       ((=name . "孔安國")
        (=id . u5B54u5B89u570B))))
-    (=abbreviated-title . "尚書孔傳")))
+    (=abbreviated-title . "尚書傳")))
 (define-bibliography
-  '((=chise-bib-id . shangshu-shiwen)))
+  '((=title . "經典釋文‐尚書音義")
+    (<-part
+     (:bibliography
+      ((=title . "經典釋文")
+       (=chise-bib-id . shiwen)
+       (=abbreviated-title . "釋文"))))
+    (=chise-bib-id . shangshu-shiwen)
+    (->commented
+     (:bibliography
+      ((=title . "尚書")
+       (=chise-bib-id . shangshu))))))
 (define-bibliography
   '((=title . "尚書正義")
     (=chise-bib-id . shangshu-shu)
+    (->commented
+     (:bibliography
+      ((=title . "尚書孔傳")
+       (=chise-bib-id . shangshu-kongzhuan)
+       (=abbreviated-title . "尚書傳"))))
     (->author
      (:creator
       ((=name . "孔穎達")
@@ -931,6 +1086,49 @@
 (define-bibliography
   '((=title . "經典釋文")
     (=chise-bib-id . shiwen)
+    (->part
+     (:bibliography
+      ((=title . "經典釋文‐周易音義")
+       (=chise-bib-id . zhouyi-shiwen)))
+     (:bibliography
+      ((=title . "經典釋文‐尚書音義")
+       (=chise-bib-id . shangshu-shiwen)))
+     (:bibliography
+      ((=title . "經典釋文‐毛詩音義")
+       (=chise-bib-id . maoshi-shiwen)))
+     (:bibliography
+      ((=title . "經典釋文‐周禮音義")
+       (=chise-bib-id . zhouli-shiwen)))
+     (:bibliography
+      ((=title . "經典釋文‐儀禮音義")
+       (=chise-bib-id . yili-shiwen)))
+     (:bibliography
+      ((=title . "經典釋文‐禮記音義")
+       (=chise-bib-id . liji-shiwen)))
+     (:bibliography
+      ((=title . "經典釋文‐春秋左氏音義")
+       (=chise-bib-id . chunqiu-zuoshi-shiwen)))
+     (:bibliography
+      ((=title . "經典釋文‐春秋公羊音義")
+       (=chise-bib-id . chunqiu-gongyang-shiwen)))
+     (:bibliography
+      ((=title . "經典釋文‐春秋穀梁音義")
+       (=chise-bib-id . chunqiu-guliang-shiwen)))
+     (:bibliography
+      ((=title . "經典釋文‐孝經音義")
+       (=chise-bib-id . xiaojing-shiwen)))
+     (:bibliography
+      ((=title . "經典釋文‐論語音義")
+       (=chise-bib-id . lunyu-shiwen)))
+     (:bibliography
+      ((=title . "經典釋文‐老子音義")
+       (=chise-bib-id . laozi-shiwen)))
+     (:bibliography
+      ((=title . "經典釋文‐莊子音義")
+       (=chise-bib-id . zhuangzi-shiwen)))
+     (:bibliography
+      ((=title . "經典釋文‐爾雅音義")
+       (=chise-bib-id . erya-shiwen))))
     (->author
      (:creator
       ((=name . "陸德明")
@@ -1083,6 +1281,21 @@
   '((=title . "五音集韻")
     (=chise-bib-id . wuyinjiyun)))
 (define-bibliography
+  '((=title . "孝經")
+    (=chise-bib-id . xiaojing)))
+(define-bibliography
+  '((=title . "經典釋文‐孝經音義")
+    (<-part
+     (:bibliography
+      ((=title . "經典釋文")
+       (=chise-bib-id . shiwen)
+       (=abbreviated-title . "釋文"))))
+    (=chise-bib-id . xiaojing-shiwen)
+    (->commented
+     (:bibliography
+      ((=title . "孝經")
+       (=chise-bib-id . xiaojing))))))
+(define-bibliography
   '((=chise-bib-id . xinfangyan)))
 (define-bibliography
   '((=title . "新唐書")
@@ -1115,8 +1328,24 @@
   '((=title . "儀禮")
     (=chise-bib-id . yili)))
 (define-bibliography
+  '((=title . "經典釋文‐儀禮音義")
+    (<-part
+     (:bibliography
+      ((=title . "經典釋文")
+       (=chise-bib-id . shiwen)
+       (=abbreviated-title . "釋文"))))
+    (=chise-bib-id . yili-shiwen)
+    (->commented
+     (:bibliography
+      ((=title . "儀禮")
+       (=chise-bib-id . yili))))))
+(define-bibliography
   '((=title . "儀禮注疏")
     (=chise-bib-id . yili-shu)
+    (->commented
+     (:bibliography
+      ((=title . "儀禮")
+       (=chise-bib-id . yili))))
     (->author
      (:creator
       ((=name . "賈公彥")
@@ -1125,6 +1354,10 @@
 (define-bibliography
   '((=title . "儀禮注")
     (=chise-bib-id . yili-zhu)
+    (->commented
+     (:bibliography
+      ((=title . "儀禮")
+       (=chise-bib-id . yili))))
     (->author
      (:creator
       ((=name . "鄭玄")
@@ -1164,7 +1397,12 @@
 (define-bibliography
   '((=chise-bib-id . yupian+shuowen)))
 (define-bibliography
-  '((=chise-bib-id . yupian@hdic-syp)))
+  '((=title . "宋本玉篇(HDIC)")
+    (<-denotational
+     (:bibliography
+      ((=title . "玉篇")
+       (=chise-bib-id . yupian))))
+    (=chise-bib-id . yupian@hdic-syp)))
 (define-bibliography
   '((=chise-bib-id . yuwen)))
 (define-bibliography
@@ -1209,10 +1447,24 @@
   '((=title . "周禮")
     (=chise-bib-id . zhouli)))
 (define-bibliography
-  '((=chise-bib-id . zhouli-shiwen)))
+  '((=title . "經典釋文‐周禮音義")
+    (<-part
+     (:bibliography
+      ((=title . "經典釋文")
+       (=chise-bib-id . shiwen)
+       (=abbreviated-title . "釋文"))))
+    (=chise-bib-id . zhouli-shiwen)
+    (->commented
+     (:bibliography
+      ((=title . "周禮")
+       (=chise-bib-id . zhouli))))))
 (define-bibliography
   '((=title . "周禮注疏")
     (=chise-bib-id . zhouli-shu)
+    (->commented
+     (:bibliography
+      ((=title . "周禮")
+       (=chise-bib-id . zhouli))))
     (->author
      (:creator
       ((=name . "賈公彥")
@@ -1221,6 +1473,10 @@
 (define-bibliography
   '((=title . "周禮注")
     (=chise-bib-id . zhouli-zhu)
+    (->commented
+     (:bibliography
+      ((=title . "周禮")
+       (=chise-bib-id . zhouli))))
     (->author
      (:creator
       ((=name . "鄭玄")
@@ -1230,12 +1486,30 @@
     (=chise-bib-id . zhouyi)))
 (define-bibliography
   '((=title . "周易集解")
-    (=chise-bib-id . zhouyi-jijie)))
+    (=chise-bib-id . zhouyi-jijie)
+    (->commented
+     (:bibliography
+      ((=title . "周易")
+       (=chise-bib-id . zhouyi))))))
 (define-bibliography
-  '((=chise-bib-id . zhouyi-shiwen)))
+  '((=title . "經典釋文‐周易音義")
+    (<-part
+     (:bibliography
+      ((=title . "經典釋文")
+       (=chise-bib-id . shiwen)
+       (=abbreviated-title . "釋文"))))
+    (=chise-bib-id . zhouyi-shiwen)
+    (->commented
+     (:bibliography
+      ((=title . "周易")
+       (=chise-bib-id . zhouyi))))))
 (define-bibliography
   '((=title . "周易注")
     (=chise-bib-id . zhouyi-zhu)
+    (->commented
+     (:bibliography
+      ((=title . "周易")
+       (=chise-bib-id . zhouyi))))
     (->author
      (:creator
       ((=name . "王弼")
@@ -1248,7 +1522,17 @@
 (define-bibliography
   '((=chise-bib-id . zhuangzi-jishi)))
 (define-bibliography
-  '((=chise-bib-id . zhuangzi-shiwen)))
+  '((=title . "經典釋文‐莊子音義")
+    (<-part
+     (:bibliography
+      ((=title . "經典釋文")
+       (=chise-bib-id . shiwen)
+       (=abbreviated-title . "釋文"))))
+    (=chise-bib-id . zhuangzi-shiwen)
+    (->commented
+     (:bibliography
+      ((=title . "莊子")
+       (=chise-bib-id . zhuangzi))))))
 (define-bibliography
   '((=title . "南華眞經注疏")
     (=chise-bib-id . zhuangzi-zhushu)
