@@ -745,8 +745,6 @@
        (=id . u7687u4F83))))
     (=abbreviated-title . "論語皇疏")))
 (define-bibliography
-  '((=chise-bib-id . lunyu-jijie)))
-(define-bibliography
   '((=title . "論語集註")
     (=chise-bib-id . lunyu-jizhu)
     (->commented
@@ -782,12 +780,19 @@
        (=id . u4F55u664F))))
     (=abbreviated-title . "論語注")))
 (define-bibliography
+  '((=title . "呂氏春秋")
+    (=chise-bib-id . lushichunqiu)))
+(define-bibliography
   '((=chise-bib-id . lushichunqiu+hanshu)))
 (define-bibliography
   '((=chise-bib-id . lushichunqiu-xinjiaozheng)))
 (define-bibliography
   '((=title . "呂氏春秋注")
     (=chise-bib-id . lushichunqiu-zhu)
+    (->commented
+     (:bibliography
+      ((=title . "呂氏春秋")
+       (=chise-bib-id . lushichunqiu))))
     (->author
      (:creator
       ((=name . "高誘")
@@ -893,6 +898,10 @@
 (define-bibliography
   '((=title . "孟子集註")
     (=chise-bib-id . mengzi-jizhu)
+    (->commented
+     (:bibliography
+      ((=title . "孟子")
+       (=chise-bib-id . mengzi))))
     (->author
      (:creator
       ((=name . "朱熹")
@@ -902,6 +911,10 @@
 (define-bibliography
   '((=title . "孟子注")
     (=chise-bib-id . mengzi-zhu)
+    (->commented
+     (:bibliography
+      ((=title . "孟子")
+       (=chise-bib-id . mengzi))))
     (->author
      (:creator
       ((=name . "趙岐")
@@ -1261,15 +1274,26 @@
 (define-bibliography
   '((=chise-bib-id . ucs@code)))
 (define-bibliography
+  '((=title . "文選")
+    (=chise-bib-id . wenxuan)))
+(define-bibliography
   '((=title . "文選注")
     (=chise-bib-id . wenxuan-lishan-zhu)
+    (->commented
+     (:bibliography
+      ((=title . "文選")
+       (=chise-bib-id . wenxuan))))
     (->author
      (:creator
       ((=name . "李善")
        (=id . u674Eu5584))))
     (=abbreviated-title . "文選李善注")))
 (define-bibliography
-  '((=chise-bib-id . wenxuan-zhu)))
+  '((=chise-bib-id . wenxuan-zhu)
+    (->commented
+     (:bibliography
+      ((=title . "文選")
+       (=chise-bib-id . wenxuan))))))
 (define-bibliography
   '((=chise-bib-id . wujingwenzi)))
 (define-bibliography
@@ -1314,6 +1338,10 @@
 (define-bibliography
   '((=title . "荀子注")
     (=chise-bib-id . xunzi-zhu)
+    (->commented
+     (:bibliography
+      ((=title . "荀子")
+       (=chise-bib-id . xunzi))))
     (->author
      (:creator
       ((=name . "楊倞")
@@ -1414,6 +1442,10 @@
 (define-bibliography
   '((=title . "戰國策注")
     (=chise-bib-id . zhanguoce-zhu)
+    (->commented
+     (:bibliography
+      ((=title . "戰國策")
+       (=chise-bib-id . zhanguoce))))
     (->author
      (:creator
       ((=name . "高誘")
@@ -1536,6 +1568,10 @@
 (define-bibliography
   '((=title . "南華眞經注疏")
     (=chise-bib-id . zhuangzi-zhushu)
+    (->commented
+     (:bibliography
+      ((=title . "莊子")
+       (=chise-bib-id . zhuangzi))))
     (->author
      (:creator
       ((=name . "成玄英")
