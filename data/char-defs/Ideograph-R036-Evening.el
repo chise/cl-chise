@@ -1055,7 +1055,7 @@
     ))
 (define-char
   '((<-denotational@component
-     ((=>ucs-itaiji-002	. #x5C17)	; &A-U-i002+5C17;
+     ((=>ucs-itaiji-002	  . #x5C17)	; &A-U-i002+5C17;
       ))
     (ideographic-radical . 36)	; ⼣
     (ideographic-strokes . 3)

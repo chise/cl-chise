@@ -606,7 +606,54 @@
 (define-char
   '((ideographic-radical . 194)	; ⿁
     (ideographic-strokes . 4)
+    (ideographic-structure
+     ((=>ucs@iwds-1	. #x2FFA)	; &A-IWDSU+2FFA;
+      )
+     ?鬼
+     ?斗)
+    (=>ucs@iwds-1	. #x9B41)	; 魁
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@iwds-1	. #x9B41)	; 魁
+      ))
+    (<-denotational@usage
+     ((ideographic-radical . 194)	; ⿁
+      (==>ucs@bucs	. #x9B41)	; &BUCS+9B41;
+      (==>daijiten	. 14066)	; &A2-DJT-14066;
+      ))
+    (ideographic-radical . 194)	; ⿁
+    (ideographic-strokes . 4)
+    (ideographic-structure
+     ((=>ucs@iwds-1	. #x2FFA)	; &A-IWDSU+2FFA;
+      )
+     ?⻤
+     ?斗)
     (=ucs		. #x9B41)	; 魁
+    ))
+(define-char
+  '((ideographic-radical . 194)	; ⿁
+    (ideographic-strokes . 4)
+    (<-denotational
+     ((=ucs		. #x9B41)	; 魁
+      ))
+    (ideographic-structure
+     ?⿺
+     ?⻤
+     ?斗)
+    (=+>ucs@unicode	  . #x9B41)	; &G0-3F7D;
+    (=+>gb2312		  . #x3F7D)	; &G0-3F7D; [31-93]
+    (=+>ucs@unicode	. #x9B41)	; 魁
+    (=+>ucs@jis		  . #x9B41)	; &AJ1-01407;
+    (=+>adobe-japan1-0	  . 01407)	; &AJ1-01407;
+    (=+>jis-x0208	  . #x3321)	; &I-J90-3321; [19-01]
+    (=+>ks-x1001	  . #x4E5A)	; &I-K0-4E5A; [46-58]
+    (=+>cns11643-1	  . #x6B76)	; &I-C1-6B76; [75-86]
+    (=+>jis-x0213-1	  . #x3321)	; &I-JX1-3321; [19-01]
+    (=+>gt		  . 61564)	; &I-GT-61564;
+    (=+>gt-k		  . 11103)	; &I-GT-K11103;
+    (=+>daikanwa	  . 45785)	; &I-M-45785;
+    (=+>shinjigen	  .  3218)	; &AJ1-01407;
     (->subsumptive
      ((total-strokes	   . 14)
       (=ucs@jis		  . #x9B41)	; &AJ1-01407;
@@ -654,6 +701,11 @@
       (=ucs@unicode	  . #x9B41)	; &G0-3F7D;
       (=ucs@JP/hanazono	  . nil)
       (=gb2312		  . #x3F7D)	; &G0-3F7D; [31-93]
+      (->subsumptive
+       ((==ucs@unicode	  . #x9B41)	; &G0-3F7D;
+	(==ucs@JP/hanazono	  . nil)
+	(==gb2312		  . #x3F7D)	; &G0-3F7D; [31-93]
+	))
       ))
     ))
 (define-char
@@ -1195,7 +1247,7 @@
   '((<-denotational@usage
      ((ideographic-radical . 194)	; ⿁
       (==>ucs@bucs	. #x9B45)	; &BUCS+9B45;
-      (==>daijiten	. 14073)	; &A2-DJT-14073;
+      (==>daijiten	. 14073)	; &BUCS+9B45;
       ))
     (ideographic-radical . 194)	; ⿁
     (ideographic-strokes . 5)

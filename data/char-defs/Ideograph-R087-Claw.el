@@ -439,33 +439,6 @@
     ))
 (define-char
   '((ideographic-radical . 87)	; ⽖
-    (ideographic-strokes . 3)
-    (total-strokes	 . 6)
-    (ideographic-structure
-     ?⿰
-     ((=>ucs@component	. #x2CF16)	; &A-compU+2CF16;
-      )
-     ((=>ucs@component	. #x2CF16)	; &A-compU+2CF16;
-      ))
-    (=>ucs-itaiji-002	. #x722A)	; &U-i002+722A;
-    ))
-(define-char
-  '((<-denotational
-     ((=>ucs-itaiji-002	. #x722A)	; &U-i002+722A;
-      ))
-    (ideographic-radical . 87)	; ⽖
-    (ideographic-strokes . 3)
-    (total-strokes	 . 6)
-    (ideographic-structure
-     ?⿰
-     ((=ucs		. #x30004)	; 𰀄
-      )
-     ((=ucs		. #x30004)	; 𰀄
-      ))
-    (=ucs-itaiji-002	. #x722A)	; &U-i002+722A;
-    ))
-(define-char
-  '((ideographic-radical . 87)	; ⽖
     (ideographic-strokes . 0)
     (total-strokes	 . 5)
     (=>big5-cdp		. #x8766)	; &A-CDP-8766;
@@ -1032,6 +1005,37 @@
       ))
     (=>big5-cdp		. #x8CC5)	; &A-GT-K03307;
     (=>gt-k		. 03307)	; &A-GT-K03307;
+    ))
+(define-char
+  '((ideographic-radical . 87)	; ⽖
+    (ideographic-strokes . 3)
+    (total-strokes	 . 6)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=>ucs@component	  . #x2CF16)	; &A-compU+2CF16;
+      )
+     ((=>ucs@component	  . #x2CF16)	; &A-compU+2CF16;
+      ))
+    (=>ucs-itaiji-002	. #x722A)	; &A-U-i002+722A;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-002	  . #x722A)	; &A-U-i002+722A;
+      ))
+    (ideographic-radical . 87)	; ⽖
+    (ideographic-strokes . 3)
+    (total-strokes	 . 6)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x30004)	; 𰀄
+      )
+     ((=ucs		  . #x30004)	; 𰀄
+      ))
+    (=ucs-itaiji-002	. #x722A)	; &U-i002+722A;
     ))
 (define-char
   '((ideographic-radical . 87)	; ⽖

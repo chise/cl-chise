@@ -1640,10 +1640,14 @@
   '((ideographic-radical . 134)	; ⾅
     (ideographic-strokes . 3)
     (ideographic-structure
-     ?⿱
-     ?𦥔
-     ?了)
-    (=ucs 		. #x26957)	; 𦥗
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x26954)	; 𦥔
+      )
+     ((=ucs		  . #x4E86)	; 了
+      ))
+    (=ucs		. #x26957)	; 𦥗
     ))
 (define-char
   '((<-denotational
@@ -1653,9 +1657,13 @@
     (ideographic-strokes . 3)
     (total-strokes	 . 9)
     (ideographic-structure
-     ?⿱
-     ?&U-v002+26954;
-     ?了)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs-var-002	  . #x26954)	; &U-v002+26954;
+      )
+     ((=ucs		  . #x4E86)	; 了
+      ))
     (=ucs@iso		. #x26957)	; &U-00026957;
     ))
 (define-char
@@ -2521,9 +2529,13 @@
     (ideographic-strokes . 4)
     (total-strokes	 . 11)
     (ideographic-structure
-     ?⿱
-     ?𦥑
-     ?廾)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x26951)	; 𦥑
+      )
+     ((=ucs		  . #x2F890)	; 廾
+      ))
     (=ucs		. #x2F98B)	; 舁
     (=mj		. 021328)	; &I-MJ021328;
     (=cns11643-4	. #x3457)	; &I-C4-3457; [20-55]
@@ -3067,11 +3079,22 @@
      ((=ucs@iso		  . #x200A1)	; &GT-K01457;
       (=gt-k		  . 01457)	; &GT-K01457;
       ))
-    (=ucs@unicode	. #x4455)	; &C4-3458;
-    (=cns11643-4	. #x3458)	; &C4-3458; [20-56]
-    (=daikanwa 		. 49562)	; &C4-3458;
+    (=ucs@unicode	. #x4455)	; &MJ003907;
+    (=mj		. 003907)	; &I-MJ003907;
+    (=koseki . 337090)
+    (=cns11643-4	. #x3458)	; &MJ003907; [20-56]
+    (=daikanwa		. 49562)	; &I-M-49562;
+    (<-formed
+     ((=jis-x0208		. #x414D)	; &I-J90-414D; [33-45]
+      ))
+    (<-formed$_1*sources
+     koseki mj)
+    (<-formed*sources
+     koseki mj)
     (->subsumptive
      ((==ucs@unicode	  . #x4455)	; &g2-M-49562;
+      (==mj		. 003907)	; &I-MJ003907;
+      (==koseki . 337090)
       (==daikanwa	  . 49562)	; &g2-M-49562;
       (->subsumptive
        ((===daikanwa	    . 49562)	; &R-M-49562;
@@ -5868,7 +5891,7 @@
       ))
     (=ucs@iso		. #x26996)	; &C7-3175;
     (=cns11643-7	. #x3175)	; &C7-3175; [17-85]
-    (=daikanwa 		. 30239)	; &I-M-30239;
+    (=daikanwa		. 30239)	; &I-M-30239;
     (->subsumptive
      ((==daikanwa	  . 30239)	; &g2-M-30239;
       )
@@ -6244,7 +6267,7 @@
     (ideographic-strokes . 11)
     (total-strokes	 . 18)
     (sound@ja/on	"you")
-    (=ucs 		. #x2699E)	; 𦦞
+    (=ucs  		. #x2699E)	; 𦦞
     ))
 (define-char
   '((<-denotational

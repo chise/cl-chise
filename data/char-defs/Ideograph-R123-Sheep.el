@@ -6070,6 +6070,24 @@
     ))
 (define-char
   '((ideographic-radical . 123)	; ⽺
+    (=ucs		. #x2C678)	; 𬙸
+    ))
+(define-char
+  '((ideographic-radical . 123)	; ⽺
+    (ideographic-strokes . 9)
+    (total-strokes	 . 15)
+    (<-denotational
+     ((=ucs		. #x2C678)	; 𬙸
+      ))
+    (ideographic-structure
+     ?⿱
+     ((=ucs-itaiji-001	. #x4EAF)	; &U-i001+4EAF;
+      )
+     ?羊)
+    (=ucs@JP/hanazono	. #x2C678)	; 𬙸
+    ))
+(define-char
+  '((ideographic-radical . 123)	; ⽺
     (ideographic-strokes . 9)
     (total-strokes	 . 15)
     (ideographic-structure

@@ -2885,38 +2885,58 @@
     (ideographic-strokes . 12)
     (total-strokes	 . 18)
     (ideographic-structure
-     ?⿰
-     ?耒
-     ?㫺)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x8012)	; 耒
+      )
+     ((=ucs		  . #x3AFA)	; 㫺
+      ))
     (=ucs		. #x26521)	; 𦔡
     ))
 (define-char
-  '((ideographic-radical . 127)	; ⽾
+  '((<-denotational
+     ((=ucs		  . #x26521)	; 𦔡
+      ))
+    (ideographic-radical . 127)	; ⽾
     (ideographic-strokes . 12)
     (total-strokes	 . 18)
-    (<-denotational
-     ((=ucs		. #x26521)	; 𦔡
-      ))
-    (=ucs@iso		. #x26521)	; 𦔡
-    (=cns11643-7	. #x4174)	; &I-C7-4174; [33-84]
-    (=daikanwa		. 28985)	; &I-M-28985;
-    (=gt		. 37525)	; &GT-37525;
-    (=gt-pj-6		. #x3653)	; &GT-37525; [22-51]
-    (->subsumptive
-     ((==daikanwa		. 28985)	; &I-M-28985;
+    (ideographic-structure
+     ?⿰
+     ((=ucs@cns		. #x8012)	; &AJ1-06205;
       )
-     ((==ucs@iso		. #x26521)	; 𦔡
-      (==cns11643-7	. #x4174)	; &I-C7-4174; [33-84]
-      (==gt		. 37525)	; &GT-37525;
+     ?&C3-3C27;)
+    (=ucs@iso		. #x26521)	; &GT-37525;
+    (=cns11643-7	. #x4174)	; &I-C7-4174; [33-84]
+    (=gt		. 37525)	; &I-GT-37525;
+    (=gt-pj-6		. #x3653)	; &I-GT-37525; [22-51]
+    (=daikanwa		. 28985)	; &I-M-28985;
+    (->subsumptive
+     ((==daikanwa	  . 28985)	; &g2-M-28985;
+      )
+     ((==ucs@iso	  . #x26521)	; &g2-GT-37525;
+      (==cns11643-7	  . #x4174)	; &g2-GT-37525; [33-84]
+      (==gt		  . 37525)	; &g2-GT-37525;
+      (->subsumptive
+       ((===cns11643-7	    . #x4174)	; &R-C7-4174; [33-84]
+	)
+       ((===gt		    . 37525)	; &R-GT-37525;
+	)
+       ((===ucs@iso	    . #x26521)	; &R-U-00026521;
+	))
       ))
     ))
 (define-char
-  '((ideographic-radical . 127)	; ⽾
+  '((<-denotational
+     ((=ucs		  . #x26521)	; 𦔡
+      ))
+    (ideographic-radical . 127)	; ⽾
     (ideographic-strokes . 12)
     (total-strokes	 . 18)
-    (<-denotational
-     ((=ucs		. #x26521)	; 𦔡
-      ))
+    (ideographic-structure
+     ?⿰
+     ?&HD-FT-384C;
+     ?&C3-3C27;)
     (=gt		. 37527)	; &GT-37527;
     (=gt-pj-10		. #x3162)	; &GT-37527; [17-66]
     ))

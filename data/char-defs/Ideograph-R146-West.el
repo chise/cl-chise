@@ -708,6 +708,38 @@
     ))
 (define-char
   '((ideographic-radical . 146)	; ⾑
+    (ideographic-strokes . 3)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=>ucs@iwds-1	  . #x897E)	; &A-IWDSU+897E;
+      (=>iwds-1		  .  0159)	; &A-IWDSU+897E;
+      )
+     ((=ucs		  . #x2053C)	; 𠔼
+      ))
+    (=>ucs-itaiji-001	. #x8D3E)	; &A-U-i001+8D3E;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-001	  . #x8D3E)	; &A-U-i001+8D3E;
+      ))
+    (ideographic-radical . 146)	; ⾑
+    (ideographic-strokes . 3)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x8980)	; 覀
+      )
+     ((=ucs-var-004	  . #x2053C)	; &U-v004+2053C;
+      ))
+    (=ucs-itaiji-001	. #x8D3E)	; &U-i001+8D3E;
+    ))
+(define-char
+  '((ideographic-radical . 146)	; ⾑
     (ideographic-strokes . 4)
     (total-strokes	 . 10)
     (=ucs		. #x277E7)	; 𧟧
@@ -728,31 +760,6 @@
     (=ucs		. #x277E8)	; 𧟨
     (=cns11643-4	. #x2F74)	; &I-C4-2F74; [15-84]
     (=daikanwa		. 34771)	; &I-M-34771;
-    ))
-(define-char
-  '((ideographic-radical . 146)	; ⾑
-    (ideographic-strokes . 3)
-    (total-strokes	 . 9)
-    (ideographic-structure
-     ?⿱
-     ((=>ucs@iwds-1	. #x897E)	; &A-IWDSU+897E;
-      )
-     ?𠔼)
-    (=>ucs-itaiji-001	. #x8D3E)	; &U-i001+8D3E;
-    ))
-(define-char
-  '((<-denotational
-     ((=>ucs-itaiji-001	. #x8D3E)	; &U-i001+8D3E;
-      ))
-    (ideographic-radical . 146)	; ⾑
-    (ideographic-strokes . 3)
-    (total-strokes	 . 9)
-    (ideographic-structure
-     ?⿱
-     ?覀
-     ((=ucs-var-004	  . #x2053C)	; &U-v004+2053C;
-      ))
-    (=ucs-itaiji-001	. #x8D3E)	; &U-i001+8D3E;
     ))
 (define-char
   '((ideographic-radical . 146)	; ⾑
@@ -2443,9 +2450,13 @@
     (ideographic-strokes . 12)
     (total-strokes	 . 18)
     (ideographic-structure
-     ?⿰
-     ?粟
-     ?产)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x7C9F)	; 粟
+      )
+     ((=ucs		  . #x4EA7)	; 产
+      ))
     (=ucs		. #x2C87B)	; 𬡻
     ))
 (define-char

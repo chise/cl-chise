@@ -1469,9 +1469,13 @@
 (define-char
   '((ideographic-radical . 207)	; ⿎
     (ideographic-structure
-     ?⿱
-     ?鼓
-     ?隆)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x9F13)	; 鼓
+      )
+     ((=ucs		  . #x9686)	; 隆
+      ))
     (=ucs		. #x2A534)	; 𪔴
     ))
 (define-char

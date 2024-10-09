@@ -2142,15 +2142,6 @@
     (=cns11643-3	. #x2463)	; &I-C3-2463; [04-67]
     (=daikanwa		. 02328)	; &I-M-02328;
     (=jef-china3	. #x82B2)	; &I-JC3-82B2;
-    (->subsumptive
-     ((==ucs@unicode	. #x52B3)	; &C3-2463;
-      (==gb2312		. #x404D)	; &C3-2463; [32-45]
-      (==cns11643-3	. #x2463)	; &I-C3-2463; [04-67]
-      (==daikanwa		. 02328)	; &I-M-02328;
-      (=hanziku-1		. #xF1C1)	; &I-HZK01-F1C1;
-      (=hanziku-1		. #xF1C1)	; &I-HZK01-F1C1;
-      (==jef-china3	. #x82B2)	; &I-JC3-82B2;
-      ))
     (<-simplified@CN
      ((=ucs		  . #x52DE)	; 勞
       (=gb12345		  . #x404D)	; 勞 [32-45]
@@ -2161,14 +2152,41 @@
       ))
     (<-vulgar*sources
      songyuan-yilai-suzipu daikanwa)
+    (->subsumptive
+     ((==ucs@unicode	  . #x52B3)	; &g2-M-02328;
+      (==gb2312		  . #x404D)	; &g2-M-02328; [32-45]
+      (==cns11643-3	  . #x2463)	; &g2-M-02328; [04-67]
+      (==daikanwa	  . 02328)	; &g2-M-02328;
+      (==jef-china3	  . #x82B2)	; &g2-M-02328;
+      (->subsumptive
+       ((===daikanwa	    . 02328)	; &R-M-02328;
+	)
+       ((===cns11643-3	    . #x2463)	; &R-C3-2463; [04-67]
+	)
+       ((===jef-china3	    . #x82B2)	; &R-JC3-82B2;
+	)
+       ((===ucs@unicode	    . #x52B3)	; &R-UU+52B3;
+	)
+       ((=hanziku-1	    . #xF1C1)	; &HZK01-F1C1;
+	))
+      ))
     ))
 (define-char
   '((<-denotational
      ((=ucs		  . #x52B3)	; 劳
       ))
+    (=>ucs*		. #x52B3)	; 劳
     (ideographic-radical . 19)	; ⼒
     (ideographic-strokes . 6)
     (total-strokes	 . 8)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs-var-001	  . #x2B1E6)	; &U-v001+2B1E6;
+      )
+     ((=ucs		  . #x529B)	; 力
+      ))
     (=ucs		. #x2F992)	; 劳
     ))
 (define-char
@@ -4165,7 +4183,7 @@
     (=ucs		. #xFA76)	; 勇
     (=ucs@unicode	. #x52C7)	; 勇
     (=ucs@JP/hanazono	. nil)
-    (=mj		. 007667)	; 勇
+    (=mj		. 007667)	; &MJ007667;
     (=adobe-japan1-4	. 14070)	; &I-AJ1-14070;
     (=gb2312		. #x5342)	; &I-G0-5342; [51-34]
     (=cns11643-1	. #x502D)	; &I-C1-502D; [48-13]

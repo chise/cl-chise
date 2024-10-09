@@ -2482,7 +2482,7 @@
       ))
     (=mj		. 040950)	; &MJ040950;
     (=koseki		. 234290)	; &MJ040950;
-    (=daikanwa 		. 20886)	; &I-M-20886;
+    (=daikanwa		. 20886)	; &I-M-20886;
     (->subsumptive
      ((==mj		  . 040950)	; &g2-MJ040950;
       (==koseki		  . 234290)	; &g2-MJ040950;
@@ -5021,7 +5021,7 @@
     (=mj		. 002498)	; &I-MJ002498;
     (=cns11643-3	. #x3243)	; &I-C3-3243; [18-35]
     (=koseki		. 235010)	; 㻀
-    (=daikanwa 		. 20958)	; &I-M-20958;
+    (=daikanwa		. 20958)	; &I-M-20958;
     (->subsumptive
      ((==koseki		  . 235010)	; &g2-M-20958;
       (==daikanwa	  . 20958)	; &g2-M-20958;
@@ -10070,10 +10070,13 @@
     (ideographic-strokes . 8)
     (total-strokes	 . 12)
     (ideographic-structure
-     ?⿴
-     ((=>ucs@iwds-1	. #x73CF)	; &A-IWDSU+73CF;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER FULL SURROUND")
+      (=ucs		  . #x2FF4)	; ⿴
       )
-     ?分)
+     ((=>ucs@iwds-1	  . #x73CF)	; &A-IWDSU+73CF;
+      )
+     ((=ucs		  . #x5206)	; 分
+      ))
     (=ucs		. #x249A6)	; 𤦦
     ))
 (define-char
@@ -10084,12 +10087,17 @@
     (ideographic-strokes . 8)
     (total-strokes	 . 12)
     (ideographic-structure
-     ?⿴
-     ?玨
-     ?&MJ007455;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER FULL SURROUND")
+      (=ucs		  . #x2FF4)	; ⿴
+      )
+     ((=ucs		  . #x73A8)	; 玨
+      )
+     ((=ucs@unicode	  . #x5206)	; &MJ007455;
+      (=mj		  . 007455)	; &MJ007455;
+      ))
     (=ucs@iso		. #x249A6)	; &C6-4B4A;
-    (=cns11643-6	. #x4B4A)	; &I-C6-4B4A; [43-42]
-    (=daikanwa		. 49302)	; &C6-4B4A;
+    (=cns11643-6	. #x4B4A)	; &C6-4B4A; [43-42]
+    (=daikanwa		. 49302)	; &I-M-49302;
     (->subsumptive
      ((==ucs@iso	  . #x249A6)	; &g2-M-49302;
       (==daikanwa	  . 49302)	; &g2-M-49302;

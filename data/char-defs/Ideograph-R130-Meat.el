@@ -11740,24 +11740,8 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs		. #x2EBC)	; ⺼
-      )
-     ((=ucs		. #x9FB9)	; 龹
-      ))
-    (=>ucs-var-007	. #x30BA4)	; &U-v007+30BA4;
-    ))
-(define-char
-  '((<-denotational
-     ((=>ucs-var-007	. #x30BA4)	; &U-v007+30BA4;
-      ))
-    (ideographic-radical . 130)	; ⾁
-    (ideographic-strokes . 6)
-    (total-strokes	 . 10)
-    (ideographic-structure
-     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
-      (=ucs		  . #x2FF0)	; ⿰
-      )
-     ((=ucs		. #x2EBC)	; ⺼
+     ((name		  . "CJK RADICAL MEAT")
+      (=ucs		  . #x2EBC)	; ⺼
       )
      ((=ucs@gb		  . #x9FB9)	; &CDP-8BFA;
       (=big5-cdp	  . #x8BFA)	; &CDP-8BFA;
@@ -24506,20 +24490,6 @@
       ))
     ))
 (define-char
-  '((<-denotational
-     ((=ucs		  . #x267B5)	; 𦞵
-      ))
-    (ideographic-radical . 130)	; ⾁
-    (ideographic-strokes . 10)
-    (total-strokes	 . 14)
-    (ideographic-structure
-     ?⿰
-     ?⺼
-     ((=jis-x0208@1978/-4X . #x6228)	; &CB06267; [66-08]
-      ))
-    (=ucs		. #x2F988)	; 𦞵
-    ))
-(define-char
   '((ideographic-radical . 130)	; ⾁
     (ideographic-strokes . 10)
     (total-strokes	 . 14)
@@ -24727,6 +24697,25 @@
      ((=ucs-itaiji-001	  . #x342C)	; &U-i001+342C;
       ))
     (=ucs@JP/hanazono	. #x2E32B)	; &hanaJU+2E32B;
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x267B5)	; 𦞵
+      ))
+    (=>ucs*		. #x267B5)	; 𦞵
+    (ideographic-radical . 130)	; ⾁
+    (ideographic-strokes . 10)
+    (total-strokes	 . 14)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((name		  . "CJK RADICAL MEAT")
+      (=ucs		  . #x2EBC)	; ⺼
+      )
+     ((=cbeta		  . 06267)	; &CB06267;
+      ))
+    (=ucs		. #x2F988)	; 𦞵
     ))
 (define-char
   '((ideographic-radical . 130)	; ⾁
@@ -29778,12 +29767,12 @@
       ))
     (<-same@s=drink*sources
      jiyun daikanwa)
-    (->formed@s=drink
+    (->formed@s=drink 
      ((=ucs		  . #x91B7)	; 醷
       (=daikanwa	  . 40058)	; &I-M-40058;
       ))
     (->formed@s=drink*sources
-     jingdian-shiwen daikanwa)
+     shiwen daikanwa)
     (->subsumptive
      ((=>>ucs@unicode	  . #x81C6)	; &G-J0-3232;
       (=>>jis-x0208	  . #x3232)	; &G-J0-3232; [18-18]

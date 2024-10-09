@@ -15,7 +15,7 @@
       ))
     (<-denotational@usage
      ((==>ucs@bucs	  . #x9149)	; &BUCS+9149;
-      (==>daijiten	. 12259)	; &A2-DJT-12259;
+      (==>daijiten	. 12259)	; &BUCS+9149;
       ))
     (ideographic-radical . 164)	; ⾣
     (ideographic-strokes . 0)
@@ -2424,14 +2424,26 @@
       )
      ((=ucs		  . #x9149)	; 酉
       )
-     ((=ucs		  . #x378B)	; 㞋
+     ((=ucs		. #x378B)	; 㞋
       ))
     (=ucs@iso		. #x28821)	; &M-39838;
     (=daikanwa 		. 39838)	; &M-39838;
     (->subsumptive
-     ((==daikanwa	  . 39838)	; &g2-M-39838;
-      )
-     ((==ucs@iso	  . #x28821)	; &g2-IU-00028821;
+     ((ideographic-structure
+       ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+	(=ucs		  . #x2FF0)	; ⿰
+	)
+       ((=ucs		  . #x9149)	; 酉
+	)
+       ((=ucs-itaiji-001	. #x20B1D)	; &U-i001+20B1D;
+	))
+      (=>>ucs@iso		. #x28821)	; &M-39838;
+      (=>>daikanwa 		. 39838)	; &M-39838;
+      (->subsumptive
+       ((==daikanwa	  . 39838)	; &g2-M-39838;
+	)
+       ((==ucs@iso	  . #x28821)	; &g2-IU-00028821;
+	))
       ))
     ))
 (define-char
@@ -6289,14 +6301,14 @@
      ((=ucs		. #x915D)	; 酝
       ))
     (=ucs@unicode	. #x915D)	; 酝
-    (=gb2312		. #x544D)	; &I-G0-544D; [52-45]
+    (=gb2312		. #x544D)	; &G0-544D; [52-45]
     (<-simplified@CN
      ((=ucs@unicode	  . #x9196)	; 醖
       (=gb12345		  . #x544D)	; 醖 [52-45]
       ))
     (->subsumptive
      ((==ucs@unicode	. #x915D)	; 酝
-      (==gb2312		. #x544D)	; &I-G0-544D; [52-45]
+      (==gb2312		. #x544D)	; &G0-544D; [52-45]
       (->subsumptive
        ((===ucs@unicode	. #x915D)	; 酝
 	))

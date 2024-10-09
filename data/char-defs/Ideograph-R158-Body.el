@@ -860,31 +860,6 @@
   '((ideographic-radical . 158)	; ⾝
     (ideographic-strokes . 6)
     (total-strokes	 . 13)
-    (ideographic-structure
-     ?⿰
-     ?身
-     ((=>ucs@iwds-1	. #x5173)	; &A-IWDSU+5173;
-      ))
-    (=ucs		. #x2823D)	; 𨈽
-    ))
-(define-char
-  '((ideographic-radical . 158)	; ⾝
-    (ideographic-strokes . 6)
-    (total-strokes	 . 13)
-    (ideographic-structure
-     ?⿰
-     ?身
-     ((=ucs@unicode	. #x5173)	; &MJ007284;
-      ))
-    (<-denotational
-     ((=ucs		. #x2823D)	; 𨈽
-      ))
-    (=ucs@iso		. #x2823D)	; 𨈽
-    ))
-(define-char
-  '((ideographic-radical . 158)	; ⾝
-    (ideographic-strokes . 6)
-    (total-strokes	 . 13)
     (=ucs		. #x4839)	; 䠹
     (->subsumptive
      ((=daikanwa	  . 38087)	; &M-38087;
@@ -893,6 +868,38 @@
       )
      ((=ucs@unicode	  . #x4839)	; &UU+4839;
       ))
+    ))
+(define-char
+  '((ideographic-radical . 158)	; ⾝
+    (ideographic-strokes . 6)
+    (total-strokes	 . 13)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x8EAB)	; 身
+      )
+     ((=>ucs@iwds-1	  . #x5173)	; &A-IWDSU+5173;
+      ))
+    (=ucs		. #x2823D)	; 𨈽
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x2823D)	; 𨈽
+      ))
+    (ideographic-radical . 158)	; ⾝
+    (ideographic-strokes . 6)
+    (total-strokes	 . 13)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x8EAB)	; 身
+      )
+     ((=ucs@unicode	  . #x5173)	; &MJ007284;
+      (=mj		  . 007284)	; &MJ007284;
+      ))
+    (=ucs@iso		. #x2823D)	; &U-0002823D;
     ))
 (define-char
   '((=>ucs		. #x28248)	; 𨉈
@@ -1047,27 +1054,40 @@
     (ideographic-strokes . 7)
     (total-strokes	 . 14)
     (ideographic-structure
-     ?⿰
-     ?身
-     ?𡗬)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x8EAB)	; 身
+      )
+     ((=ucs		  . #x215EC)	; 𡗬
+      ))
     (=ucs		. #x2824A)	; 𨉊
     ))
 (define-char
-  '((ideographic-radical . 158)	; ⾝
+  '((<-denotational
+     ((=ucs		  . #x2824A)	; 𨉊
+      ))
+    (ideographic-radical . 158)	; ⾝
     (ideographic-strokes . 7)
     (total-strokes	 . 14)
-    (<-denotational
-     ((=ucs		. #x2824A)	; 𨉊
-      ))
-    (=daikanwa	  . 38092)	; &C6-6324;
+    (ideographic-structure
+     ?⿰
+     ?身
+     ?&U-000215EC;)
+    (=ucs@iso		. #x2824A)	; &C6-6324;
+    (=cns11643-6	. #x6324)	; &I-C6-6324; [67-04]
+    (=daikanwa 		. 38092)	; &C6-6324;
     (->subsumptive
-     ((==daikanwa	  . 38092)	; &C6-6324;
+     ((==daikanwa	  . 38092)	; &g2-M-38092;
       )
-     ((==ucs@iso		  . #x2824A)	; &C6-6324;
-      (==cns11643-6	  . #x6324)	; &C6-6324; [67-04]
+     ((==ucs@iso	  . #x2824A)	; &g2-IU-0002824A;
+      (==cns11643-6	  . #x6324)	; &g2-IU-0002824A; [67-04]
+      (->subsumptive
+       ((===cns11643-6	    . #x6324)	; &R-C6-6324; [67-04]
+	)
+       ((===ucs@iso	    . #x2824A)	; &R-U-0002824A;
+	))
       ))
-    (=ucs@iso		  . #x2824A)	; &C6-6324;
-    (=cns11643-6	  . #x6324)	; &C6-6324; [67-04]
     ))
 (define-char
   '((ideographic-radical . 158)	; ⾝

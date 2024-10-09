@@ -6649,6 +6649,24 @@
     (ideographic-strokes . 12)
     (total-strokes	 . 16)
     (ideographic-structure
+     ?⿱
+     ?或
+     ?或)
+    (=ucs		. #x304B2)	; 𰒲
+    (=cbeta		. 12041)	; &I-CB12041;
+    (->subsumptive
+     ((==ucs@JP/hanazono		. #x304B2)	; 𰒲
+      (==cbeta		. 12041)	; &I-CB12041;
+      (->subsumptive
+       ((===cbeta		. 12041)	; &I-CB12041;
+	))
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 62)	; ⼽
+    (ideographic-strokes . 12)
+    (total-strokes	 . 16)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )

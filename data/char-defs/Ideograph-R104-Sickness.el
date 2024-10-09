@@ -1579,6 +1579,23 @@
      ((=ucs		  . #x378B)	; 㞋
       ))
     (=ucs		. #x24D67)	; 𤵧
+    ))
+(define-char
+  '((ideographic-radical . 104)	; ⽧
+    (ideographic-strokes . 5)
+    (total-strokes	 . 10)
+    (<-denotational
+     ((=ucs		. #x24D67)	; 𤵧
+      ))
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
+      (=ucs		  . #x2FF8)	; ⿸
+      )
+     ((=ucs		  . #x7592)	; 疒
+      )
+     ((=ucs-itaiji-001	. #x20B1D)	; &U-i001+20B1D;
+      ))
+    (=ucs@iso		. #x24D67)	; 𤵧
     (=cns11643-4	. #x2E3E)	; &I-C4-2E3E; [14-30]
     (=daikanwa		. 22080)	; &I-M-22080;
     (<-Zhouwen

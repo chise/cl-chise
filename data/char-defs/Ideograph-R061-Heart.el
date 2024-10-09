@@ -7992,7 +7992,7 @@
       )
      ((=ucs		  . #x5FC4)	; 忄
       )
-     ((=ucs		  . #x378B)	; 㞋
+     ((=ucs@unicode	  . #x378B)	; 㞋
       ))
     (=ucs@iso		. #x2260E)	; &C6-2B49;
     (=cns11643-6	. #x2B49)	; &C6-2B49; [11-41]
@@ -21744,9 +21744,14 @@
     (ideographic-strokes . 8)
     (total-strokes	 . 11)
     (ideographic-structure
-     ?⿰
-     ?忄
-     ?&AJ1-02074;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5FC4)	; 忄
+      )
+     ((=ucs@unicode	  . #x660F)	; &AJ1-02074;
+      (=adobe-japan1-0	  . 02074)	; &AJ1-02074;
+      ))
     (=ucs@unicode	. #x60DB)	; &AJ1-14545;
     (=adobe-japan1-4	. 14545)	; &AJ1-14545;
     (=jis-x0212		. #x3E2E)	; &I-JSP-3E2E; [30-14]
@@ -21770,7 +21775,7 @@
 	)
        ((===daijiten	    . 03363)	; &R-DJT-03363;
 	)
-       ((===jis-x0212	    . #x3E2E)	; &R-JSP-3E2E; [30-14]
+       ((===jis-x0212	    . #x3E2E)	; &R-JX2-2C56; [30-14]
 	(===jis-x0213-2	    . #x2C56)	; &R-JX2-2C56; [12-54]
 	)
        ((===adobe-japan1-4  . 14545)	; &R-AJ1-14545;
@@ -54427,9 +54432,9 @@
     (ideographic-radical . 61)	; ⼼
     (ideographic-strokes . 17)
     (total-strokes	 . 20)
-    (=ucs@iso		. #x22953)	; &C7-4D6B;
+    (=ucs@iso 		. #x22953)	; &C7-4D6B;
     (=cns11643-7	. #x4D6B)	; &C7-4D6B; [45-75]
-    (=daikanwa 		. 11487)	; &I-M-11487;
+    (=daikanwa		. 11487)	; &I-M-11487;
     (<-same
      ((=ucs		  . #x61DF)	; 懟
       (=daikanwa	  . 11376)	; &I-M-11376;

@@ -540,6 +540,7 @@
       (=ucs		  . #x2FF1)	; ⿱
       )
      ((=>ucs@iwds-1	  . #x8278)	; &A-IWDSU+8278;
+      (=>iwds-1		  .  40452)	; &A-IWDSU+8278;
       )
      ((=>ucs@iwds-1	  . #x8FB0)	; &A-IWDSU+8FB0;
       (=>iwds-1		  .  0451)	; &A-IWDSU+8FB0;

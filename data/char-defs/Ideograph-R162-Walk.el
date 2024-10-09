@@ -52,7 +52,7 @@
      ((=daikanwa	  . 37925)	; &M-37925;
       ))
     (<-synonyms*sources
-     yili-zhu chunqiu-gongyang jingdian-shiwen daikanwa)
+     yili-zhu chunqiu-gongyang shiwen daikanwa)
     (->subsumptive
      ((==ucs@unicode	  . #x8FB5)	; &g2-AJ1-15183;
       (==adobe-japan1-4	  . 15183)	; &g2-AJ1-15183;
@@ -10666,7 +10666,7 @@
       (=daikanwa	  . 00113)	; &I-M-00113;
       ))
     (<-synonyms*sources
-     shuowen-tongxundingsheng erya yupian zhengzitong liezi jingdian-shiwen daikanwa)
+     shuowen-tongxundingsheng erya yupian zhengzitong liezi shiwen daikanwa)
     (->subsumptive
      ((=decomposition@cid
        ((=ucs		    . #x8FFA)	; 迺
@@ -11836,7 +11836,7 @@
       (=daikanwa	  . 11988)	; &I-M-11988;
       ))
     (->formed*sources
-     lunyu jingdian-shiwen daikanwa)
+     lunyu shiwen daikanwa)
     (->subsumptive
      ((=decomposition@cid
        ((=ucs		    . #x9002)	; 适
@@ -14535,7 +14535,7 @@
     (->formed$_2*sources
      shuowen-tongxundingsheng daikanwa)
     (->formed$_3*sources
-     shuowen-tongxundingsheng jingdian-shiwen daikanwa)
+     shuowen-tongxundingsheng shiwen daikanwa)
     (->formed*sources
      daikanwa)
     (->subsumptive
@@ -17242,7 +17242,7 @@
       (=daikanwa	  . 21206)	; &I-M-21206;
       ))
     (->ancient*sources
-     jiyun liji jingdian-shiwen daikanwa)
+     jiyun liji shiwen daikanwa)
     (->subsumptive
      ((=decomposition@cid
        ((=ucs		    . #x9023)	; 連
@@ -24504,7 +24504,7 @@
       (=daikanwa	  . 10946)	; &I-M-10946;
       ))
     (<-synonyms*sources
-     shuowen-tongxundingsheng maoshi jingdian-shiwen daikanwa)
+     shuowen-tongxundingsheng maoshi shiwen daikanwa)
     (->subsumptive
      ((==ucs@ks		  . #x9047)	; &g2-M-38991;
       (==ks-x1001	  . #x6967)	; &g2-M-38991; [73-71]
@@ -25207,7 +25207,7 @@
       (=daikanwa	  . 14037)	; &I-M-14037;
       ))
     (<-synonyms*sources
-     shuowen-tongxundingsheng zhouli-zhu jingdian-shiwen daikanwa)
+     shuowen-tongxundingsheng zhouli-zhu shiwen daikanwa)
     (->subsumptive
      ((==ucs@ks		  . #x904B)	; &g2-AJ1-13649;
       (==adobe-japan1-4	  . 13649)	; &g2-AJ1-13649;
@@ -26012,7 +26012,7 @@
       (=daikanwa	  . 07165)	; &I-M-07165;
       ))
     (<-synonyms*sources
-     shuowen-tongxundingsheng maoshi jingdian-shiwen daikanwa)
+     shuowen-tongxundingsheng maoshi shiwen daikanwa)
     (->subsumptive
      ((=decomposition@cid
        ((=ucs		    . #x904F)	; 遏
@@ -26732,7 +26732,7 @@
       (=daikanwa	  . 07465)	; &I-M-07465;
       ))
     (<-synonyms*sources
-     shuowen-tongxundingsheng lunyu jingdian-shiwen dadaili dadaili-zhu daikanwa)
+     shuowen-tongxundingsheng lunyu shiwen dadaili dadaili-zhu daikanwa)
     (->subsumptive
      ((=decomposition@cid
        ((=ucs		    . #x9053)	; 道
@@ -38218,7 +38218,7 @@
       (=daikanwa	  . 32697)	; &I-M-32697;
       ))
     (<-synonyms*sources
-     shuowen-tongxundingsheng zhuangzi jingdian-shiwen daikanwa)
+     shuowen-tongxundingsheng zhuangzi shiwen daikanwa)
     (->subsumptive
      ((=decomposition@cid
        ((=ucs		    . #x907D)	; 遽
@@ -40741,7 +40741,7 @@
       (=daikanwa	  . 19750)	; &I-M-19750;
       ))
     (<-synonyms*sources
-     jingdian-shiwen daikanwa)
+     shiwen daikanwa)
     (->formed
      ((=daikanwa	  . 38793)	; &M-38793;
       ))

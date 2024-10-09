@@ -292,7 +292,7 @@
     (=gt		. 48555)	; &GT-48555;
     (=gt-k		. 07548)	; &I-GT-K07548;
     (=gt-pj-7		. #x3B7A)	; &GT-48555; [27-90]
-    (=daikanwa 		. 36188)	; &I-M-36188;
+    (=daikanwa		. 36188)	; &I-M-36188;
     (->subsumptive
      ((==ucs@iso	  . #x27BAD)	; &g2-GT-48555;
       (==gt		  . 48555)	; &g2-GT-48555;
@@ -434,6 +434,16 @@
     (=daikanwa 		. 36193)	; &I-M-36193;
     (=daijiten		. 11238)	; &I-DJT-11238;
     (->subsumptive
+     ((==ucs@unicode	  . #x8C3A)	; &g2-UU+8C3A;
+      (==ucs@JP/hanazono  . nil)
+      (==daikanwa	  . 36193)	; &g2-AJ1-06735;
+      (==daikanwa	    . 36193)	; &R-M-36193;
+      )
+     ((==daijiten	  . 11238)	; &g2-DJT-11238;
+      )
+     ((==ucs@cns	  . #x8C3A)	; &g2-CU+8C3A;
+      (==cns11643-3	  . #x392A)	; &g2-CU+8C3A; [25-10]
+      )
      ((=decomposition@hanyo-denshi
        ((=ucs		    . #x8C3A)	; 谺
 	)
@@ -444,10 +454,7 @@
       (==jis-x0208	  . #x6C2E)	; &g2-AJ1-06735; [76-14]
       (==jis-x0213-1	  . #x6C2E)	; &g2-AJ1-06735; [76-14]
       (==hanyo-denshi/ja  . #x6C2E)	; &g2-AJ1-06735; [76-14]
-      (==daikanwa	  . 36193)	; &g2-AJ1-06735;
       (->subsumptive
-       ((===daikanwa	    . 36193)	; &R-M-36193;
-	)
        ((===jis-x0208	    . #x6C2E)	; &R-J0-6C2E; [76-14]
 	(===jis-x0213-1	    . #x6C2E)	; &R-J0-6C2E; [76-14]
 	)
@@ -455,14 +462,6 @@
 	))
       )
      ((==gt		  . 48569)	; &g2-GT-48569;
-      )
-     ((==ucs@cns	  . #x8C3A)	; &g2-CU+8C3A;
-      (==cns11643-3	  . #x392A)	; &g2-CU+8C3A; [25-10]
-      )
-     ((==ucs@unicode	  . #x8C3A)	; &g2-UU+8C3A;
-      (==ucs@JP/hanazono  . nil)
-      )
-     ((==daijiten	  . 11238)	; &g2-DJT-11238;
       ))
     ))
 (define-char
@@ -773,10 +772,14 @@
     (ideographic-strokes . 5)
     (total-strokes	 . 12)
     (ideographic-structure
-     ?⿸
-     ?&U-i002+239B5;
-     ?谷)
-    (=gt-k 		. 10155)	; &GT-K10155;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
+      (=ucs		  . #x2FF8)	; ⿸
+      )
+     ((=ucs-itaiji-002	  . #x239B5)	; &U-i002+239B5;
+      )
+     ((=ucs		  . #x8C37)	; 谷
+      ))
+    (=gt-k		. 10155)	; &GT-K10155;
     (=gt-pj-k1		. #x685D)	; &GT-K10155; [72-61]
     (->subsumptive
      ((==gt-k		  . 10155)	; &g2-GT-K10155;
@@ -1929,9 +1932,12 @@
     (ideographic-strokes . 13)
     (total-strokes	 . 20)
     (ideographic-structure
-     ?⿰
-     ?谷
-     ((=ucs		. #x959C)	; 閜
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x8C37)	; 谷
+      )
+     ((=ucs		  . #x959C)	; 閜
       ))
     (=ucs@iso		. #x27BD3)	; &C7-503A;
     (=cns11643-7	. #x503A)	; &C7-503A; [48-26]
