@@ -3870,7 +3870,12 @@
     (=daikanwa		. 13791)	; &I-M-13791;
     ))
 (define-char
-  '((ideographic-radical . 72)	; ⽇
+  '((<-denotational@usage
+     ((==>ucs@bucs	  . #x6606)	; &BUCS+6606;
+      )
+     ((==>ucs@bucs	  . #x5D11)	; &BUCS+5D11;
+      ))
+    (ideographic-radical . 72)	; ⽇
     (ideographic-strokes . 4)
     (total-strokes	 . 8)
     (ideographic-structure
@@ -3914,6 +3919,7 @@
     (=gt-k		. 03712)	; &I-GT-K03712;
     (=gt-pj-1		. #x3A2B)	; &I-GT-17433; [26-11]
     (=daikanwa		. 13792)	; &I-M-13792;
+    (=daijiten		. 04478)	; &I-DJT-04478;
     (=shinjigen@1ed	.  3283)	; &AJ1-02075;
     (=shinjigen@rev	.  3281)	; &AJ1-02075;
     (<-interchangeable
@@ -4004,10 +4010,13 @@
       (==gt		  . 17433)	; &g2-AJ1-02075;
       (==gt-k		  . 03712)	; &g2-AJ1-02075;
       (==daikanwa	  . 13792)	; &g2-AJ1-02075;
+      (==daijiten	  . 04478)	; &g2-AJ1-02075;
       (==shinjigen@1ed	  .  3283)	; &g2-AJ1-02075;
       (==shinjigen@rev	  .  3281)	; &g2-AJ1-02075;
       (->subsumptive
        ((===daikanwa	    . 13792)	; &R-M-13792;
+	)
+       ((===daijiten	    . 04478)	; &R-DJT-04478;
 	)
        ((===jis-x0208	    . #x3A2B)	; &R-J0-3A2B; [26-11]
 	(===jis-x0213-1	    . #x3A2B)	; &R-J0-3A2B; [26-11]
@@ -30760,6 +30769,11 @@
   '((ideographic-radical . 72)	; ⽇
     (==>ucs@bucs	. #x6603)	; &BUCS+6603;
     (==>daijiten	. 04476)	; &BUCS+6603;
+    ))
+(define-char
+  '((ideographic-radical . 72)	; ⽇
+    (==>ucs@bucs	. #x6606)	; &BUCS+6606;
+    (==>daijiten	. 04478)	; &BUCS+6606;
     ))
 (define-char
   '((ideographic-radical . 72)	; ⽇

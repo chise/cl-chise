@@ -2153,9 +2153,33 @@
   '((ideographic-radical . 85)	; ⽔
     (ideographic-strokes . 3)
     (total-strokes	 . 7)
+    (ideographic-structure
+     ?⿱
+     ((=>ucs@component	. #x5C6E)	; &A-compU+5C6E;
+      )
+     ((=>ucs@iwds-1	. #x6C34)	; &A-IWDSU+6C34;
+      ))
     (=ucs		. #x6C56)	; 汖
+    ))
+(define-char
+  '((ideographic-radical . 85)	; ⽔
+    (ideographic-strokes . 3)
+    (total-strokes	 . 7)
+    (<-denotational
+     ((=ucs		. #x6C56)	; 汖
+      ))
+    (ideographic-structure
+     ?⿱
+     ?山
+     ?水)
+    (=ucs@unicode	. #x6C56)	; 汖
     (=cns11643-3	. #x2655)	; &I-C3-2655; [06-53]
     (=daikanwa		. 17129)	; &I-M-17129;
+    (->subsumptive
+     ((==ucs@unicode	. #x6C56)	; 汖
+      (==cns11643-3	. #x2655)	; &I-C3-2655; [06-53]
+      (==daikanwa		. 17129)	; &I-M-17129;
+      ))
     ))
 (define-char
   '((ideographic-radical . 85)	; ⽔
@@ -54334,7 +54358,7 @@
      ((=ucs@iso		. #x242BD)	; &C6-545E;
       ))
     (=ucs@iso		. #x23FF3)	; &C7-2F3E;
-    (=cns11643-7	. #x2F3E)	; &I-C7-2F3E; [15-30]
+    (=cns11643-7	. #x2F3E)	; &C7-2F3E; [15-30]
     (=daikanwa		. 18477)	; &C7-2F3E;
     (->subsumptive
      ((==daikanwa	  . 18477)	; &g2-M-18477;
@@ -62049,14 +62073,14 @@
     (=koseki		. 210080)	; &MJ039733;
     (=daikanwa		. 18635)	; &I-M-18635;
     (<-formed
-     ((=daikanwa  	  . 18698)	; &M-18698;
+     ((=daikanwa  	  . 18698)	; &C5-6C4A;
       ))
     (<-formed$_1*sources
      koseki)
     (<-formed*sources
      koseki)
     (<-vulgar
-     ((=daikanwa 	  . 18698)	; &M-18698;
+     ((=daikanwa 	  . 18698)	; &C5-6C4A;
       ))
     (<-vulgar*sources
      zhengzitong daikanwa)
@@ -65060,12 +65084,12 @@
      ((=ucs		. #x240EA)	; 𤃪
       ))
     (=ucs@iso		. #x240EA)	; 𤃪
-    (=daikanwa	  . 18698)	; &M-18698;
-    (=ucs@iso		  . #x240EA)	; &U-000240EA;
+    (=daikanwa	  . 18698)	; &C5-6C4A;
+    (=ucs@iso		  . #x240EA)	; &C5-6C4A;
     (->subsumptive
-     ((==daikanwa	  . 18698)	; &M-18698;
+     ((==daikanwa	  . 18698)	; &C5-6C4A;
       )
-     ((==ucs@iso		  . #x240EA)	; &U-000240EA;
+     ((==ucs@iso		  . #x240EA)	; &C5-6C4A;
       )
      ((==cns11643-5	  . #x6C4A)	; &C5-6C4A; [76-42]
       ))

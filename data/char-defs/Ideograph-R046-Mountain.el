@@ -31976,6 +31976,10 @@
     (==>daijiten	. 02752)	; &BUCS+5DCD;
     ))
 (define-char
+  '((ideographic-radical . 46)	; ⼭
+    (==>ucs@bucs	. #x5D11)	; &BUCS+5D11;
+    ))
+(define-char
   '((<-denotational
      ((==>ucs@bucs	  . #x5CB3)	; &BUCS+5CB3;
       ))

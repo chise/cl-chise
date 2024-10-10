@@ -91,11 +91,11 @@
   '((ideographic-radical . 44)	; ⼫
     (ideographic-strokes . 0)
     (total-strokes	 . 3)
-    (=>ucs@component	. #x5C38)	; 尸
+    (=>ucs@component	. #x5C38)	; &A-compU+5C38;
     ))
 (define-char
   '((<-denotational@component
-     ((=>ucs@component	. #x5C38)	; 尸
+     ((=>ucs@component	  . #x5C38)	; &A-compU+5C38;
       ))
     (<-denotational@usage
      ((==>ucs@bucs	  . #x5C38)	; &BUCS+5C38;
@@ -167,7 +167,7 @@
     ))
 (define-char
   '((<-denotational@component
-     ((=>ucs@component	. #x5C38)	; 尸
+     ((=>ucs@component	  . #x5C38)	; &A-compU+5C38;
       )
      ((=>ucs@component	  . #x5369)	; &A-compU+5369;
       ))
@@ -796,8 +796,7 @@
     ))
 (define-char
   '((<-denotational@component
-     ((=>ucs@iwds-1	  . #x378B)	; &A-IWDSU+378B;
-      (=>iwds-1		  .  0125)	; &A-IWDSU+378B;
+     ((=>ucs@component	  . #x378B)	; &A-compU+378B;
       ))
     (ideographic-radical . 44)	; ⼫
     (ideographic-strokes . 2)
@@ -806,29 +805,17 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
       (=ucs		  . #x2FF8)	; ⿸
       )
-     ((=>ucs@component	  . #x5C38)	; 尸
+     ((=ucs		  . #x5C38)	; 尸
       )
      ((=ucs		  . #x53C8)	; 又
       ))
-    (sound@ja/on/kan "syoku" "deN")
-    (sound@ja/on/go "siki" "neN")
+    (sound@ja/on/go	"siki" "neN")
+    (sound@ja/on/kan	"syoku" "deN")
     (=ucs		. #x378B)	; 㞋
-    ))
-(define-char
-  '((<-denotational
-     ((=ucs		  . #x378B)	; 㞋
-      ))
-    (ideographic-radical . 44)	; ⼫
-    (ideographic-strokes . 2)
-    (total-strokes	 . 5)
-    (ideographic-structure
-     ?⿸
-     ?尸
-     ?又)
-    (=ucs@unicode	. #x378B)	; &MJ000796;
-    (=mj		. 000796)	; &I-MJ000796;
+    (=ucs@unicode 	. #x378B)	; 㞋
+    (=mj		. 000796)	; 㞋
     (=cns11643-3	. #x2240)	; &I-C3-2240; [02-32]
-    (=koseki		. 086780)	; &MJ000796;
+    (=koseki		. 086780)	; 㞋
     (=daikanwa		. 07637)	; &I-M-07637;
     (=cbeta		. 07131)	; &I-CB07131;
     (<-formed@shuowen/xiaoxuben
@@ -1258,28 +1245,24 @@
     (=koseki		. 086850)	; &MJ034308;
     (=daikanwa		. 07643)	; &I-M-07643;
     (<-formed
-     ((=ucs@unicode	  . #x378B)	; &MJ000796;
-      (=mj		  . 000796)	; &I-MJ000796;
-      (=koseki		  . 086780)	; &MJ000796;
+     ((=ucs		  . #x378B)	; 㞋
+      (=koseki		  . 086780)	; 㞋
       ))
     (<-formed*sources
      koseki)
     (<-formed@shuowen/daxuben
-     ((=ucs@unicode	  . #x378B)	; &MJ000796;
-      (=mj		  . 000796)	; &I-MJ000796;
+     ((=ucs		  . #x378B)	; 㞋
       ))
     (<-formed@shuowen/daxuben*sources
      shuowen-zhu)
     (<-same
-     ((=ucs@unicode	  . #x378B)	; &MJ000796;
-      (=mj		  . 000796)	; &I-MJ000796;
+     ((=ucs		  . #x378B)	; 㞋
       (=daikanwa	  . 07637)	; &I-M-07637;
       ))
     (<-same*sources
      shuowen-zhu daikanwa)
     (->formed@shuowen/xiaoxuben
-     ((=ucs@unicode	  . #x378B)	; &MJ000796;
-      (=mj		  . 000796)	; &I-MJ000796;
+     ((=ucs		  . #x378B)	; 㞋
       ))
     (->formed@shuowen/xiaoxuben*sources
      shuowen-zhu)

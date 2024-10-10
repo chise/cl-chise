@@ -1892,6 +1892,39 @@
     ))
 (define-char
   '((ideographic-radical . 51)	; ⼲
+    (ideographic-strokes . 10)
+    (total-strokes	 . 13)
+    (ideographic-structure
+     ?⿱
+     ((=>ucs-itaiji-002	. #x4EAF)	; &U-i002+4EAF;
+      )
+     ((=ucs		. #x22189)	; 𢆉
+      ))
+    (=>ucs-itaiji-002	. #x2C678)	; &U-i002+2C678;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-002	. #x2C678)	; &U-i002+2C678;
+      ))
+    (ideographic-radical . 51)	; ⼲
+    (ideographic-strokes . 10)
+    (total-strokes	 . 13)
+    (ideographic-structure
+     ?⿱
+     ((=ucs-itaiji-002	. #x4EAF)	; &U-i002+4EAF;
+      )
+     ((=ucs@iso		. #x22189)	; &MJ035213;
+      ))
+    (ideographic-structure@apparent
+     ?⿳
+     ?古
+     ?口
+     ((=ucs@iso		. #x22189)	; &MJ035213;
+      ))
+    (=ucs-itaiji-002	. #x2C678)	; &U-i002+2C678;
+    ))
+(define-char
+  '((ideographic-radical . 51)	; ⼲
     (ideographic-structure
      ?⿰
      ((=>ucs-itaiji-001	. #x2C678)	; 𬙸

@@ -974,14 +974,34 @@
 (define-char
   '((ideographic-radical . 80)	; ⽏
     (ideographic-strokes . 4)
-    (total-strokes	 . 8)
-    (=ucs		. #x6BD1)	; 毑
-    (->subsumptive
-     ((=ucs@unicode	  . #x6BD1)	; &M-16729;
-      (=daikanwa	  . 16729)	; &M-16729;
+    (ideographic-structure
+     ?⿰
+     ((=>ucs@component	. #x6BCB)	; &A-compU+6BCB;
       )
-     ((=cns11643-3	  . #x295A)	; &C3-295A; [09-58]
+     ?也)
+    (=ucs		. #x6BD1)	; 毑
+    ))
+(define-char
+  '((ideographic-radical . 80)	; ⽏
+    (ideographic-strokes . 4)
+    (total-strokes	 . 8)
+    (total-strokes	 . 8)
+    (<-denotational
+     ((=ucs		. #x6BD1)	; 毑
       ))
+    (=ucs@unicode	. #x6BD1)	; 毑
+    (=ucs@unicode	  . #x6BD1)	; &M-16729;
+    (=daikanwa	  . 16729)	; &M-16729;
+    (<-ancient
+     ((=ucs		    . #x59D0)	; 姐
+      ))
+    (->subsumptive
+     ((==ucs@unicode	  . #x6BD1)	; &M-16729;
+      (==daikanwa	  . 16729)	; &M-16729;
+      )
+     ((==cns11643-3	  . #x295A)	; &C3-295A; [09-58]
+      ))
+    (=cns11643-3	  . #x295A)	; &C3-295A; [09-58]
     ))
 (define-char
   '((ideographic-radical . 80)	; ⽏
@@ -1240,9 +1260,42 @@
   '((ideographic-radical . 80)	; ⽏
     (ideographic-strokes . 5)
     (total-strokes	 . 9)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x6BCD)	; 母
+      )
+     ((=ucs		  . #x5DF4)	; 巴
+      ))
     (=ucs		. #x23AF0)	; 𣫰
-    (=cns11643-6	. #x3229)	; &I-C6-3229; [18-09]
-    (=daikanwa		. 16733)	; &I-M-16733;
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x23AF0)	; 𣫰
+      ))
+    (ideographic-radical . 80)	; ⽏
+    (ideographic-strokes . 5)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ?⿰
+     ?母
+     ?&AJ1-03321;)
+    (=ucs@iso		. #x23AF0)	; &C6-3229;
+    (=cns11643-6	. #x3229)	; &C6-3229; [18-09]
+    (=daikanwa		. 16733)	; &C6-3229;
+    (->subsumptive
+     ((==ucs@iso	  . #x23AF0)	; &g2-M-16733;
+      (==cns11643-6	  . #x3229)	; &g2-M-16733; [18-09]
+      (==daikanwa	  . 16733)	; &g2-M-16733;
+      (->subsumptive
+       ((===daikanwa	    . 16733)	; &R-M-16733;
+	)
+       ((===cns11643-6	    . #x3229)	; &R-C6-3229; [18-09]
+	)
+       ((===ucs@iso	    . #x23AF0)	; &R-U-00023AF0;
+	))
+      ))
     ))
 (define-char
   '((<-denotational

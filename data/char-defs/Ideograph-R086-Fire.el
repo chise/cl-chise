@@ -844,6 +844,30 @@
   '((ideographic-radical . 86)	; ⽕
     (ideographic-strokes . 2)
     (total-strokes	 . 6)
+    (ideographic-structure
+     ?⿱
+     ((=>ucs@iwds-1	. #x5315)	; &J97-5238;
+      )
+     ?火)
+    (=ucs		. #x2DD01)	; 𭴁
+    ))
+(define-char
+  '((ideographic-radical . 86)	; ⽕
+    (ideographic-strokes . 2)
+    (total-strokes	 . 6)
+    (ideographic-structure
+     ?⿱
+     ?匕
+     ?火)
+    (<-denotational
+     ((=ucs		. #x2DD01)	; 𭴁
+      ))
+    (=ucs@JP/hanazono	. #x2DD01)	; 𭴁
+    ))
+(define-char
+  '((ideographic-radical . 86)	; ⽕
+    (ideographic-strokes . 2)
+    (total-strokes	 . 6)
     (hanyu-dazidian	8 28 13)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
@@ -42081,15 +42105,51 @@
     ))
 (define-char
   '((ideographic-radical . 86)	; ⽕
-    (hanyu-dazidian	3 2246 17)
+    (ideographic-structure
+     ?⿰
+     ?火
+     ?𦺸)
     (=ucs		. #x24491)	; 𤒑
-    (=hanziku-6		. #xD0DD)	; &I-HZK06-D0DD;
     ))
 (define-char
   '((ideographic-radical . 86)	; ⽕
-    (hanyu-dazidian	3 2246 18)
+    (<-denotational
+     ((=ucs		. #x24491)	; 𤒑
+      ))
+    (ideographic-strokes . 15)
+    (total-strokes	 . 19)
+    (hanyu-dazidian	3 2246 17)
+    (=ucs@iso		. #x24491)	; 𤒑
+    (->subsumptive
+     ((==ucs@iso		. #x24491)	; 𤒑
+      (->subsumptive
+       ((===ucs@iso		. #x24491)	; 𤒑
+	)
+       ((=hanziku-6		. #xD0DD)	; &I-HZK06-D0DD;
+	))
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 86)	; ⽕
     (=ucs		. #x24492)	; 𤒒
-    (=hanziku-6		. #xD0DE)	; &I-HZK06-D0DE;
+    ))
+(define-char
+  '((ideographic-radical . 86)	; ⽕
+    (<-denotational
+     ((=ucs		. #x24492)	; 𤒒
+      ))
+    (ideographic-strokes . 16)
+    (total-strokes	 . 20)
+    (hanyu-dazidian	3 2246 18)
+    (=ucs@iso		. #x24492)	; 𤒒
+    (->subsumptive
+     ((==ucs@iso		. #x24492)	; 𤒒
+      (->subsumptive
+       ((===ucs@iso		. #x24492)	; 𤒒
+	)
+       ((=hanziku-6		. #xD0DE)	; &I-HZK06-D0DE;
+	))
+      ))
     ))
 (define-char
   '((ideographic-radical . 86)	; ⽕

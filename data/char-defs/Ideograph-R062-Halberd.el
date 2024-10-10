@@ -6649,16 +6649,20 @@
     (ideographic-strokes . 12)
     (total-strokes	 . 16)
     (ideographic-structure
-     ?⿱
-     ?或
-     ?或)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x6216)	; 或
+      )
+     ((=ucs		  . #x6216)	; 或
+      ))
     (=ucs		. #x304B2)	; 𰒲
     (=cbeta		. 12041)	; &I-CB12041;
     (->subsumptive
-     ((==ucs@JP/hanazono		. #x304B2)	; 𰒲
-      (==cbeta		. 12041)	; &I-CB12041;
+     ((==ucs@JP/hanazono  . #x304B2)	; &g2-CB12041;
+      (==cbeta		  . 12041)	; &g2-CB12041;
       (->subsumptive
-       ((===cbeta		. 12041)	; &I-CB12041;
+       ((===cbeta	    . 12041)	; &R-CB12041;
 	))
       ))
     ))

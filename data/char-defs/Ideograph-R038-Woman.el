@@ -824,7 +824,7 @@
   '((<-denotational@usage
      ((==>ucs@bucs	  . #x5979)	; &BUCS+5979;
       )
-     ((==>daijiten	  . 02055)	; &A2-DJT-02055;
+     ((==>ucs@bucs	  . #x59D0)	; &BUCS+59D0;
       ))
     (ideographic-radical . 38)	; ⼥
     (ideographic-strokes . 3)
@@ -837,8 +837,8 @@
       )
      ((=ucs		  . #x4E5F)	; 也
       ))
-    (sound@ja/on/kan "ti" "sya" "ta")
-    (sound@ja/on/go "di" "se" "i")
+    (sound@ja/on/go	"di" "se" "i")
+    (sound@ja/on/kan	"ti" "sya" "ta")
     (=ucs		. #x5979)	; 她
     (=mj		. 009549)	; &I-MJ009549;
     (=adobe-japan1-5	. 19306)	; &I-AJ1-19306;
@@ -851,12 +851,13 @@
     (=daijiten		. 02026)	; &I-DJT-02026;
     (=jef-china3	. #x91C0)	; &I-JC3-91C0;
     (<-formed
-     ((=daikanwa		. 06172)	; &I-M-06172;
+     ((=ucs		  . #x59D0)	; 姐
       ))
     (<-formed$_1*sources
      jiyun)
     (<-same
-     ((=daikanwa		. 06172)	; &I-M-06172;
+     ((=ucs		  . #x59D0)	; 姐
+      (=daikanwa	  . 06172)	; &I-M-06172;
       ))
     (<-same$_1*sources
      jiyun daikanwa)
@@ -6288,9 +6289,9 @@
       )
      ((=ucs		  . #x65E6)	; 旦
       ))
-    (sound@ja/on/kan "tatu" "taN")
-    (sound@ja/on/go "tati" "taN")
     (sound@ja/on/conventional "datu")
+    (sound@ja/on/go	"tati" "taN")
+    (sound@ja/on/kan	"tatu" "taN")
     (=ucs		. #x59B2)	; 妲
     (=mj		. 009609)	; &I-MJ009609;
     (=adobe-japan1-0	. 04566)	; &I-AJ1-04566;
@@ -6306,7 +6307,8 @@
     (=daijiten		. 02054)	; &I-DJT-02054;
     (=shinjigen		.  1634)	; 妲
     (->mistakable
-     ((=daikanwa		. 06172)	; &I-M-06172;
+     ((=ucs		  . #x59D0)	; 姐
+      (=daikanwa	  . 06172)	; &I-M-06172;
       ))
     (->mistakable*sources
      daikanwa)
@@ -8535,7 +8537,6 @@
       ))
     (<-denotational@usage
      ((==>ucs@bucs	  . #x59D0)	; &BUCS+59D0;
-      (==>daijiten	  . 02055)	; &A2-DJT-02055;
       ))
     (ideographic-radical . 38)	; ⼥
     (ideographic-strokes . 5)
@@ -8548,9 +8549,9 @@
       )
      ((=ucs		  . #x4E14)	; 且
       ))
-    (sound@ja/on/kan "sya" "si" "syo" "syo")
-    (sound@ja/on/go "sya" "si" "so" "syo")
     (sound@ja/on/conventional "so")
+    (sound@ja/on/go	"sya" "si" "so" "syo")
+    (sound@ja/on/kan	"sya" "si" "syo" "syo")
     (=ucs		. #x59D0)	; 姐
     (=mj		. 009640)	; &I-MJ009640;
     (=adobe-japan1-0	. 01149)	; &I-AJ1-01149;
@@ -8566,24 +8567,30 @@
     (=daikanwa		. 06172)	; &I-M-06172;
     (=daijiten		. 02055)	; &I-DJT-02055;
     (=shinjigen		.  1633)	; 姐
-    (<-interchangeable@ancient
-     ((=daikanwa		. 06657)	; &I-M-06657;
-      ))
-    (<-interchangeable@ancient$_1*sources
-     wenxuan-lishan-zhu)
     (<-formed
-     ((=daikanwa		. 16733)	; &I-M-16733;
+     ((=ucs@iso		. #x23AF0)	; &C6-3229;
+      (=daikanwa	  . 16733)	; &C6-3229;
       )
-     ((=daikanwa		. 06657)	; &I-M-06657;
+     ((=ucs@unicode	  . #x3718)	; &MJ000687;
+      (=mj		  . 000687)	; &I-MJ000687;
       ))
     (<-formed$_1*sources
      jiyun)
     (<-formed$_2*sources
      jiyun wenxuan-lishan-zhu)
+    (<-interchangeable@ancient
+     ((=ucs@unicode	  . #x3718)	; &MJ000687;
+      (=mj		  . 000687)	; &I-MJ000687;
+      ))
+    (<-interchangeable@ancient$_1*sources
+     wenxuan-lishan-zhu)
     (<-same
-     ((=daikanwa		. 16733)	; &I-M-16733;
+     ((=ucs@iso		. #x23AF0)	; &C6-3229;
+      (=daikanwa	  . 16733)	; &C6-3229;
       )
-     ((=daikanwa		. 06657)	; &I-M-06657;
+     ((=ucs@unicode	  . #x3718)	; &MJ000687;
+      (=mj		  . 000687)	; &I-MJ000687;
+      (=daikanwa 	  . 06657)	; &MJ000687;
       ))
     (<-same$_1*sources
      jiyun daikanwa)
@@ -8592,16 +8599,19 @@
     (<-same*sources
      jiyun daikanwa)
     (->ancient
-     ((=daikanwa		. 16729)	; &M-16729;
+     ((=ucs@unicode	  . #x6BD1)	; &M-16729;
+      (=daikanwa	  . 16729)	; &M-16729;
       ))
     (->ancient$_1*sources
      jiyun daikanwa)
     (->ancient*sources
      jiyun daikanwa)
     (->formed
-     ((=daikanwa		. 06046)	; &I-M-06046;
+     ((=ucs		  . #x5979)	; 她
+      (=daikanwa	  . 06046)	; &I-M-06046;
       )
-     ((=daikanwa		. 06491)	; &I-M-06491;
+     ((=mj		  . 009837)	; &MJ009837;
+      (=daikanwa	  . 06491)	; &I-M-06491;
       ))
     (->formed$_1*sources
      jiyun daikanwa)
@@ -17123,8 +17133,8 @@
       )
      ((=ucs		  . #x90A3)	; 那
       ))
-    (sound@ja/on/kan "da")
-    (sound@ja/on/go "na")
+    (sound@ja/on/go	"na")
+    (sound@ja/on/kan	"da")
     (=ucs		. #x5A1C)	; 娜
     ))
 (define-char
@@ -17150,7 +17160,9 @@
     (=daikanwa		. 06311)	; &I-M-06311;
     (=daijiten		. 02119)	; &I-DJT-02119;
     (<-interchangeable
-     ((=daikanwa		. 39305)	; &I-M-39305;
+     ((=ucs@ks		  . #x90A3)	; &MJ026238;
+      (=mj		  . 026238)	; &MJ026238;
+      (=daikanwa	  . 39305)	; &I-M-39305;
       ))
     (<-interchangeable$_1*sources
      zhengzitong daikanwa)
@@ -28261,7 +28273,10 @@
       ))
     (=mj		. 009837)	; &MJ009837;
     (=koseki		. 074040)	; &MJ009837;
-    (=daikanwa		. 06491)	; &I-M-06491;
+    (=daikanwa 		. 06491)	; &I-M-06491;
+    (<-formed
+     ((=ucs		  . #x59D0)	; 姐
+      ))
     (->subsumptive
      ((==mj		  . 009837)	; &g2-MJ009837;
       (==koseki		  . 074040)	; &g2-MJ009837;
@@ -39617,10 +39632,10 @@
       (=daikanwa	  . 32701)	; &I-M-32701;
       ))
     (=ucs@unicode	. #x3718)	; &MJ000687;
-    (=mj		. 000687)	; &MJ000687;
+    (=mj		. 000687)	; &I-MJ000687;
     (=cns11643-4	. #x4268)	; &I-C4-4268; [34-72]
     (=koseki		. 075820)	; &MJ000687;
-    (=daikanwa		. 06657)	; &I-M-06657;
+    (=daikanwa 		. 06657)	; &MJ000687;
     (->subsumptive
      ((==ucs@unicode	  . #x3718)	; &g2-MJ000687;
       (==mj		  . 000687)	; &g2-MJ000687;
@@ -57936,9 +57951,10 @@
     ))
 (define-char
   '((ideographic-radical . 38)	; ⼥
-    (sound@ja/on/kan "sya")
-    (sound@ja/on/go "se")
-    (==>daijiten	. 02055)	; &A2-DJT-02055;
+    (sound@ja/on/go	"se")
+    (sound@ja/on/kan	"sya")
+    (==>ucs@bucs	. #x59D0)	; &BUCS+59D0;
+    (==>daijiten	. 02055)	; &BUCS+59D0;
     ))
 (define-char
   '((ideographic-radical . 38)	; ⼥
@@ -57968,10 +57984,6 @@
   '((ideographic-radical . 38)	; ⼥
     (==>ucs@bucs	. #x59C6)	; &BUCS+59C6;
     (==>daijiten	. 02065)	; &BUCS+59C6;
-    ))
-(define-char
-  '((ideographic-radical . 38)	; ⼥
-    (==>ucs@bucs	. #x59D0)	; &BUCS+59D0;
     ))
 (define-char
   '((ideographic-radical . 38)	; ⼥
