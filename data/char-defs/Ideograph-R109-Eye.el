@@ -21764,12 +21764,18 @@
     (ideographic-strokes . 13)
     (total-strokes	 . 18)
     (ideographic-structure
-     ?⿰
-     ?目
-     ?&C6-5566;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x76EE)	; 目
+      )
+     ((=ucs@iso		  . #x251E1)	; &C6-5566;
+      (=cns11643-6	  . #x5566)	; &C6-5566; [53-70]
+      (=daikanwa	  . 23467)	; &I-M-23467;
+      ))
     (=ucs@iso		. #x252ED)	; &C7-407D;
     (=cns11643-7	. #x407D)	; &C7-407D; [32-93]
-    (=daikanwa		. 49377)	; &I-M-49377;
+    (=daikanwa 		. 49377)	; &I-M-49377;
     (->subsumptive
      ((==ucs@iso	  . #x252ED)	; &g2-M-49377;
       (==cns11643-7	  . #x407D)	; &g2-M-49377; [32-93]

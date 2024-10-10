@@ -1684,10 +1684,14 @@
     (ideographic-strokes . 3)
     (total-strokes	 . 6)
     (ideographic-structure
-     ?⿰
-     ((=>ucs@iwds-1	. #x571F)	; &A-IWDSU+571F;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
       )
-     ?也)
+     ((=>ucs@iwds-1	  . #x571F)	; &A-IWDSU+571F;
+      (=>iwds-1		  .  0312)	; &A-IWDSU+571F;
+      )
+     ((=ucs		  . #x4E5F)	; 也
+      ))
     (=ucs		. #x5730)	; 地
     ))
 (define-char
@@ -14767,21 +14771,27 @@
       )
      ((=ucs		  . #x6C56)	; 汖
       )
-     ((=>ucs@iwds-1	. #x571F)	; &A-IWDSU+571F;
+     ((=>ucs@iwds-1	  . #x571F)	; &A-IWDSU+571F;
+      (=>iwds-1		  .  0312)	; &A-IWDSU+571F;
       ))
     (sound@ja/on	"ti")
     (=ucs		. #x57CA)	; 埊
     ))
 (define-char
-  '((ideographic-radical . 32)	; ⼟
+  '((<-denotational
+     ((=ucs		  . #x57CA)	; 埊
+      ))
+    (ideographic-radical . 32)	; ⼟
     (ideographic-strokes . 7)
     (total-strokes	 . 10)
-    (<-denotational
-     ((=ucs		. #x57CA)	; 埊
-      ))
     (hanyu-dazidian	1 445 3)
-    (=ucs@unicode	. #x57CA)	; 埊
-    (=cns11643-3	. #x3037)	; &I-C3-3037; [16-23]
+    (ideographic-structure
+     ?⿱
+     ((=ucs@unicode	. #x6C56)	; &C3-2655;
+      )
+     ?土)
+    (=ucs@unicode	. #x57CA)	; &C3-3037;
+    (=cns11643-3	. #x3037)	; &C3-3037; [16-23]
     (=daikanwa		. 05115)	; &I-M-05115;
     (=cbeta		. 09928)	; &I-CB09928;
     (<-ancient
@@ -43469,13 +43479,16 @@
   '((ideographic-radical . 32)	; ⼟
     (ideographic-strokes . 15)
     (total-strokes	 . 18)
-    (sound@ja/on	. "ti")
     (ideographic-structure
-     ?⿱
-     ((=>ucs-itaiji-002	. #x49D8)	; &A-U-i002+49D8;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=>ucs@iwds-1	. #x571F)	; &A-IWDSU+571F;
+     ((=>ucs-itaiji-002	  . #x49D8)	; &A-U-i002+49D8;
+      )
+     ((=>ucs@iwds-1	  . #x571F)	; &A-IWDSU+571F;
+      (=>iwds-1		  .  0312)	; &A-IWDSU+571F;
       ))
+    (sound@ja/on	. "ti")
     (=ucs		. #x214B0)	; 𡒰
     (<-Zhouwen
      ((=ucs		  . #x5730)	; 地
@@ -43491,10 +43504,13 @@
     (ideographic-strokes . 15)
     (total-strokes	 . 18)
     (ideographic-structure
-     ?⿱
-     ((=ucs-itaiji-002	. #x49D8)	; &U-i002+49D8;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
       )
-     ?土)
+     ((=ucs-itaiji-002	  . #x49D8)	; &U-i002+49D8;
+      )
+     ((=ucs		  . #x571F)	; 土
+      ))
     (=ucs@iso		. #x214B0)	; &MJ033233;
     (=mj		. 033233)	; &MJ033233;
     (=cns11643-7	. #x3F34)	; &I-C7-3F34; [31-20]

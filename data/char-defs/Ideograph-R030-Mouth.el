@@ -19370,6 +19370,35 @@
       ))
     ))
 (define-char
+  '((ideographic-radical . 30)	; ⼝
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=>ucs@iwds-1	  . #x53E4)	; &A-IWDSU+53E4;
+      )
+     ((=ucs		  . #x53E3)	; 口
+      ))
+    (=>ucs-itaiji-002	. #x4EAF)	; &A-U-i002+4EAF;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-002	  . #x4EAF)	; &A-U-i002+4EAF;
+      ))
+    (ideographic-radical . 30)	; ⼝
+    (ideographic-strokes . 5)
+    (total-strokes	 . 8)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x53E4)	; 古
+      )
+     ((=ucs		  . #x53E3)	; 口
+      ))
+    (=ucs-itaiji-002	. #x4EAF)	; &U-i002+4EAF;
+    ))
+(define-char
   '((<-denotational@usage
      ((==>ucs@bucs	  . #x5433)	; &BUCS+5433;
       ))
@@ -19448,28 +19477,6 @@
      ((==gt-k		  . 04903)	; &g2-GT-K04903;
       (==gt-pj-k1	  . #x393C)	; &g2-GT-K04903; [25-28]
       ))
-    ))
-(define-char
-  '((ideographic-radical . 30)	; ⼝
-    (ideographic-structure
-     ?⿱
-     ((=>ucs@iwds-1	. #x53E4)	; &A-IWDSU+53E4;
-      )
-     ?口)
-    (=>ucs-itaiji-002	. #x4EAF)	; &U-i002+4EAF;
-    ))
-(define-char
-  '((<-denotational
-     ((=>ucs-itaiji-002	. #x4EAF)	; &U-i002+4EAF;
-      ))
-    (ideographic-radical . 30)	; ⼝
-    (ideographic-strokes . 5)
-    (total-strokes	 . 8)
-    (ideographic-structure
-     ?⿱
-     ?古
-     ?口)
-    (=ucs-itaiji-002	. #x4EAF)	; &U-i002+4EAF;
     ))
 (define-char
   '((<-denotational
@@ -23989,24 +23996,34 @@
     (=ucs		. #x54CB)	; 哋
     ))
 (define-char
-  '((ideographic-radical . 30)	; ⼝
+  '((<-denotational
+     ((=ucs		  . #x54CB)	; 哋
+      ))
+    (ideographic-radical . 30)	; ⼝
     (ideographic-strokes . 6)
     (total-strokes	 . 9)
-    (<-denotational
-     ((=ucs		. #x54CB)	; 哋
-      ))
     (hanyu-dazidian	1 612 7)
-    (=ucs@unicode	. #x54CB)	; 哋
-    (=gb12345		. #x7C26)	; 哋 [92-06]
+    (ideographic-structure
+     ?⿰
+     ?口
+     ?&AJ1-02957;)
+    (=ucs@unicode	. #x54CB)	; &M-03619;
+    (=gb12345		. #x7C26)	; &M-03619; [92-06]
     (=daikanwa		. 03619)	; &M-03619;
-    (->subsumptive
-     ((==ucs@unicode	. #x54CB)	; 哋
-      (==gb12345		. #x7C26)	; 哋 [92-06]
-      (==daikanwa		. 03619)	; &M-03619;
-      (=hanziku-2		. #xD065)	; &g2-M-03619;
-      (==cbeta		. 03970)	; &I-CB03970;
-      ))
     (=cbeta		. 03970)	; &I-CB03970;
+    (->subsumptive
+     ((==ucs@unicode	  . #x54CB)	; &g2-M-03619;
+      (==gb12345	  . #x7C26)	; &g2-M-03619; [92-06]
+      (==daikanwa	  . 03619)	; &g2-M-03619;
+      (==cbeta		  . 03970)	; &g2-M-03619;
+      (->subsumptive
+       ((===daikanwa	    . 03619)	; &R-M-03619;
+	)
+       ((===ucs@unicode	    . #x54CB)	; &R-UU+54CB;
+	)
+       ((=hanziku-2	  . #xD065)	; &g2-M-03619;
+	))
+      ))
     ))
 (define-char
   '((ideographic-radical@ucs . 30)	; ⼝

@@ -1110,7 +1110,7 @@
     (=ucs@iso		. #x24D3F)	; &M-22060;
     (=daikanwa		. 22060)	; &M-22060;
     (->Zhouwen
-     ((=ucs		  . #x24D67)	; 𤵧
+     ((=ucs@iso		  . #x24D67)	; 𤵧
       (=daikanwa	  . 22080)	; &I-M-22080;
       ))
     (->Zhouwen*sources
@@ -1596,7 +1596,7 @@
      ((=ucs-itaiji-001	. #x20B1D)	; &U-i001+20B1D;
       ))
     (=ucs@iso		. #x24D67)	; 𤵧
-    (=cns11643-4	. #x2E3E)	; &I-C4-2E3E; [14-30]
+    (=cns11643-4	. #x2E3E)	; &C4-2E3E; [14-30]
     (=daikanwa		. 22080)	; &I-M-22080;
     (<-Zhouwen
      ((=ucs@iso		  . #x24D3F)	; &M-22060;

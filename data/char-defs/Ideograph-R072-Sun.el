@@ -18165,8 +18165,16 @@
     (=daikanwa		. 14040)	; &I-M-14040;
     ))
 (define-char
-  '((ideographic-radical . 72)	; ⽇
+  '((<-denotational
+     ((=>ucs@iwds-1	  . #x656F)	; &A-IWDSU+656F;
+      ))
+    (ideographic-radical . 72)	; ⽇
     (sound@ja/on	"biN" "koN")
+    (ideographic-structure
+     ?⿺
+     ?昬
+     ((=>ucs@component	. #x6535)	; &A-compU+6535;
+      ))
     (=ucs		. #x668B)	; 暋
     ))
 (define-char
@@ -18176,6 +18184,10 @@
     (ideographic-radical . 72)	; ⽇
     (ideographic-strokes . 9)
     (total-strokes	 . 13)
+    (ideographic-structure
+     ?⿺
+     ?&AJ1-14603;
+     ?攵)
     (ideographic-structure@apparent
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱

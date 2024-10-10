@@ -3651,28 +3651,27 @@
     (->subsumptive
      ((ideographic-structure
        ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
-	(=ucs		  . #x2FF0)	; ⿰
+	(=ucs		    . #x2FF0)	; ⿰
 	)
-       ((=ucs@unicode	  . #x77F3)	; &AJ1-02676;
-	(=adobe-japan1-0	  . 02676)	; &AJ1-02676;
+       ((=ucs@unicode	    . #x77F3)	; &AJ1-02676;
+	(=adobe-japan1-0    . 02676)	; &AJ1-02676;
 	)
-       ((=ucs@unicode	  . #x378B)	; 㞋
+       ((=ucs		    . #x378B)	; 㞋
 	))
-      (=>>ucs@iso	  . #x2544A)	; &g2-M-24105;
-      (=>>cns11643-6	  . #x3A35)	; &g2-M-24105; [26-21]
-      (=>>daikanwa	  . 24105)	; &g2-M-24105;
-      (=>>shinjigen	  .  5469)	; &g2-M-24105;
+      (=>>ucs@iso	  . #x2544A)	; &G-IU+2544A;
+      (=>>cns11643-6	  . #x3A35)	; &G-IU+2544A; [26-21]
+      (=>>daikanwa	  . 24105)	; &G-IU+2544A;
       (->subsumptive
-       ((==ucs@iso	  . #x2544A)	; &g2-M-24105;
-	(==cns11643-6	  . #x3A35)	; &g2-M-24105; [26-21]
-	(==daikanwa	  . 24105)	; &g2-M-24105;
-	(==shinjigen	  .  5469)	; &g2-M-24105;
+       ((==ucs@iso	    . #x2544A)	; &g2-M-24105;
+	(==cns11643-6	    . #x3A35)	; &g2-M-24105; [26-21]
+	(==daikanwa	    . 24105)	; &g2-M-24105;
+	(==shinjigen	    .  5469)	; &g2-M-24105;
 	(->subsumptive
-	 ((===daikanwa	    . 24105)	; &R-M-24105;
+	 ((===daikanwa	      . 24105)	; &R-M-24105;
 	  )
-	 ((===cns11643-6	    . #x3A35)	; &R-C6-3A35; [26-21]
+	 ((===cns11643-6      . #x3A35)	; &R-C6-3A35; [26-21]
 	  )
-	 ((===ucs@iso	    . #x2544A)	; &R-U-0002544A;
+	 ((===ucs@iso	      . #x2544A)	; &R-U-0002544A;
 	  ))
 	))
       ))
@@ -15437,9 +15436,15 @@
     (ideographic-strokes . 11)
     (total-strokes	 . 16)
     (ideographic-structure
-     ?⿰
-     ?&AJ1-02676;
-     ?&AJ1-02719;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@unicode	  . #x77F3)	; &AJ1-02676;
+      (=adobe-japan1-0	  . 02676)	; &AJ1-02676;
+      )
+     ((=ucs@unicode	  . #x65CB)	; &AJ1-02719;
+      (=adobe-japan1-0	  . 02719)	; &AJ1-02719;
+      ))
     (=ucs@unicode	. #x40E0)	; &C4-516D;
     (=cns11643-4	. #x516D)	; &C4-516D; [49-77]
     (=daikanwa/ho	.  0391)	; &C4-516D;

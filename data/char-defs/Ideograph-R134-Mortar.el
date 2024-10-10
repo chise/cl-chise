@@ -3080,24 +3080,28 @@
       (=gt-k		  . 01457)	; &GT-K01457;
       ))
     (=ucs@unicode	. #x4455)	; &MJ003907;
-    (=mj		. 003907)	; &I-MJ003907;
-    (=koseki . 337090)
-    (=cns11643-4	. #x3458)	; &MJ003907; [20-56]
+    (=mj		. 003907)	; &MJ003907;
+    (=cns11643-4	. #x3458)	; &I-C4-3458; [20-56]
+    (=koseki		. 337090)	; &MJ003907;
     (=daikanwa		. 49562)	; &I-M-49562;
     (<-formed
-     ((=jis-x0208		. #x414D)	; &I-J90-414D; [33-45]
+     ((=ucs@unicode	. #x9F20)	; &AJ1-02767;
+      (=jis-x0208	  . #x414D)	; &AJ1-02767; [33-45]
+      (=jis-x0213-1	  . #x414D)	; &I-JX1-414D; [33-45]
       ))
     (<-formed$_1*sources
      koseki mj)
     (<-formed*sources
      koseki mj)
     (->subsumptive
-     ((==ucs@unicode	  . #x4455)	; &g2-M-49562;
-      (==mj		. 003907)	; &I-MJ003907;
-      (==koseki . 337090)
-      (==daikanwa	  . 49562)	; &g2-M-49562;
+     ((==ucs@unicode	  . #x4455)	; &g2-MJ003907;
+      (==mj		  . 003907)	; &g2-MJ003907;
+      (==koseki		  . 337090)	; &g2-MJ003907;
+      (==daikanwa	  . 49562)	; &g2-MJ003907;
       (->subsumptive
        ((===daikanwa	    . 49562)	; &R-M-49562;
+	)
+       ((===mj		    . 003907)	; &R-MJ003907;
 	)
        ((===ucs@unicode	    . #x4455)	; &R-UU+4455;
 	))
@@ -4742,7 +4746,7 @@
       ))
     (=ucs@iso		. #x26978)	; &C6-607A;
     (=cns11643-6	. #x607A)	; &C6-607A; [64-90]
-    (=daikanwa 		. 49565)	; &I-M-49565;
+    (=daikanwa		. 49565)	; &I-M-49565;
     (->subsumptive
      ((==daikanwa	  . 49565)	; &g2-M-49565;
       )
@@ -6267,7 +6271,7 @@
     (ideographic-strokes . 11)
     (total-strokes	 . 18)
     (sound@ja/on	"you")
-    (=ucs  		. #x2699E)	; 𦦞
+    (=ucs 		. #x2699E)	; 𦦞
     ))
 (define-char
   '((<-denotational

@@ -2676,9 +2676,13 @@
 (define-char
   '((ideographic-radical . 137)	; ⾈
     (ideographic-structure
-     ?⿰
-     ?舟
-     ((=>ucs@iwds-1	. #x5E77)	; &J97-5675;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x821F)	; 舟
+      )
+     ((=>ucs@iwds-1	  . #x5E77)	; &J97-5675;
+      (=>jis-x0208@1997	  . #x5675)	; &J97-5675; [54-85]
       ))
     (=ucs		. #x446B)	; 䑫
     ))
@@ -2690,12 +2694,18 @@
     (ideographic-strokes . 6)
     (total-strokes	 . 12)
     (ideographic-structure
-     ?⿰
-     ?&AJ1-02360;
-     ?&AJ1-04738;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@unicode	  . #x821F)	; &AJ1-02360;
+      (=adobe-japan1-0	  . 02360)	; &AJ1-02360;
+      )
+     ((=ucs@unicode	  . #x5E76)	; &AJ1-04738;
+      (=adobe-japan1-0	  . 04738)	; &AJ1-04738;
+      ))
     (=ucs@unicode	. #x446B)	; &C4-3A4E;
-    (=cns11643-4	. #x3A4E)	; &I-C4-3A4E; [26-46]
-    (=daikanwa		. 30420)	; &C4-3A4E;
+    (=cns11643-4	. #x3A4E)	; &C4-3A4E; [26-46]
+    (=daikanwa		. 30420)	; &I-M-30420;
     (->subsumptive
      ((==daikanwa	  . 30420)	; &g2-M-30420;
       )
@@ -3446,7 +3456,7 @@
      ((=ucs@unicode	  . #x821F)	; &AJ1-02360;
       (=adobe-japan1-0	  . 02360)	; &AJ1-02360;
       )
-     ((=ucs@unicode 	  . #x5EF7)	; &MJ011103;
+     ((=ucs@unicode	  . #x5EF7)	; &MJ011103;
       (=mj		  . 011103)	; &MJ011103;
       ))
     (=ucs@unicode	. #x8247)	; &AJ1-03094;
@@ -3466,7 +3476,7 @@
     (->subsumptive
      ((==jis-x0208@1978	  . #x447A)	; &g2-M-30440; [36-90]
       (==jis-x0208@1983	  . #x447A)	; &g2-M-30440; [36-90]
-      (==daikanwa 	  . 30440)	; &g2-M-30440;
+      (==daikanwa	  . 30440)	; &g2-M-30440;
       (==daijiten	  . 09681)	; &g2-M-30440;
       (->subsumptive
        ((===daikanwa	    . 30440)	; &R-M-30440;
@@ -4033,9 +4043,8 @@
     (->subsumptive
      ((==daikanwa	  . 30466)	; &g2-M-30466;
       )
-     ((==ucs@cns	  . #x2F98E)	; &g2-IU-0002F98E;
-      (==cns11643-6	  . #x6125)	; &g2-IU-0002F98E; [65-05]
-      (==cns11643-6	    . #x6125)	; &R-C6-6125; [65-05]
+     ((==ucs@cns	  . #x2F98E)	; &g2-CU+2F98E;
+      (==cns11643-6	  . #x6125)	; &g2-CU+2F98E; [65-05]
       ))
     ))
 (define-char

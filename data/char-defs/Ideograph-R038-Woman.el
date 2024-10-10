@@ -8568,11 +8568,12 @@
     (=daijiten		. 02055)	; &I-DJT-02055;
     (=shinjigen		.  1633)	; 姐
     (<-formed
-     ((=ucs@iso		. #x23AF0)	; &C6-3229;
-      (=daikanwa	  . 16733)	; &C6-3229;
+     ((=ucs@iso		  . #x23AF0)	; &C6-3229;
+      (=cns11643-6	  . #x3229)	; &I-C6-3229; [18-09]
+      (=daikanwa 	  . 16733)	; &C6-3229;
       )
      ((=ucs@unicode	  . #x3718)	; &MJ000687;
-      (=mj		  . 000687)	; &I-MJ000687;
+      (=mj		  . 000687)	; &MJ000687;
       ))
     (<-formed$_1*sources
      jiyun)
@@ -8580,17 +8581,18 @@
      jiyun wenxuan-lishan-zhu)
     (<-interchangeable@ancient
      ((=ucs@unicode	  . #x3718)	; &MJ000687;
-      (=mj		  . 000687)	; &I-MJ000687;
+      (=mj		  . 000687)	; &MJ000687;
       ))
     (<-interchangeable@ancient$_1*sources
      wenxuan-lishan-zhu)
     (<-same
-     ((=ucs@iso		. #x23AF0)	; &C6-3229;
-      (=daikanwa	  . 16733)	; &C6-3229;
+     ((=ucs@iso		  . #x23AF0)	; &C6-3229;
+      (=cns11643-6	  . #x3229)	; &I-C6-3229; [18-09]
+      (=daikanwa 	  . 16733)	; &C6-3229;
       )
      ((=ucs@unicode	  . #x3718)	; &MJ000687;
-      (=mj		  . 000687)	; &I-MJ000687;
-      (=daikanwa 	  . 06657)	; &MJ000687;
+      (=mj		  . 000687)	; &MJ000687;
+      (=daikanwa	  . 06657)	; &I-M-06657;
       ))
     (<-same$_1*sources
      jiyun daikanwa)
@@ -8599,8 +8601,9 @@
     (<-same*sources
      jiyun daikanwa)
     (->ancient
-     ((=ucs@unicode	  . #x6BD1)	; &M-16729;
-      (=daikanwa	  . 16729)	; &M-16729;
+     ((=ucs@unicode	  . #x6BD1)	; &C3-295A;
+      (=cns11643-3	  . #x295A)	; &I-C3-295A; [09-58]
+      (=daikanwa 	  . 16729)	; &C3-295A;
       ))
     (->ancient$_1*sources
      jiyun daikanwa)
@@ -39632,10 +39635,10 @@
       (=daikanwa	  . 32701)	; &I-M-32701;
       ))
     (=ucs@unicode	. #x3718)	; &MJ000687;
-    (=mj		. 000687)	; &I-MJ000687;
+    (=mj		. 000687)	; &MJ000687;
     (=cns11643-4	. #x4268)	; &I-C4-4268; [34-72]
     (=koseki		. 075820)	; &MJ000687;
-    (=daikanwa 		. 06657)	; &MJ000687;
+    (=daikanwa 		. 06657)	; &I-M-06657;
     (->subsumptive
      ((==ucs@unicode	  . #x3718)	; &g2-MJ000687;
       (==mj		  . 000687)	; &g2-MJ000687;

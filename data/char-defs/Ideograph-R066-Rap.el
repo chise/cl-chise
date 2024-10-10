@@ -11208,9 +11208,7 @@
     (ideographic-strokes . 9)
     (total-strokes	 . 13)
     (ideographic-structure
-     ((=>ucs@iwds-1	  . #x2FFA)	; &A-IWDSU+2FFA;
-      (=>iwds-1		  .  0307)	; &A-IWDSU+2FFA;
-      )
+     ?⿰
      ((=ucs		  . #x662C)	; 昬
       )
      ((=>ucs@component	  . #x6535)	; &A-compU+6535;
