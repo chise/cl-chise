@@ -1,5 +1,34 @@
 2024-10-10  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* Sync up with the current snapshot [2024-10-10 18:30 JST].
+
+	M	data/char-defs/Ideograph-R029-Again.el
+	M	data/char-defs/Ideograph-R030-Mouth.el
+	M	data/char-defs/Ideograph-R032-Earth.el
+	M	data/char-defs/Ideograph-R038-Woman.el
+	M	data/char-defs/Ideograph-R046-Mountain.el
+	M	data/char-defs/Ideograph-R051-Dry.el
+	M	data/char-defs/Ideograph-R066-Rap.el
+	M	data/char-defs/Ideograph-R072-Sun.el
+	M	data/char-defs/Ideograph-R080-Do-Not.el
+	M	data/char-defs/Ideograph-R085-Water.el
+	M	data/char-defs/Ideograph-R086-Fire.el
+	M	data/char-defs/Ideograph-R094-Dog.el
+	M	data/char-defs/Ideograph-R104-Sickness.el
+	M	data/char-defs/Ideograph-R109-Eye.el
+	M	data/char-defs/Ideograph-R112-Stone.el
+	M	data/char-defs/Ideograph-R118-Bamboo.el
+	M	data/char-defs/Ideograph-R119-Rice.el
+	M	data/char-defs/Ideograph-R120-Silk.el
+	M	data/char-defs/Ideograph-R123-Sheep.el
+	M	data/char-defs/Ideograph-R127-Plow.el
+	M	data/char-defs/Ideograph-R134-Mortar.el
+	M	data/char-defs/Ideograph-R137-Boat.el
+	M	data/char-defs/Ideograph-R138-Stopping.el
+	M	data/dumped-ids.lisp
+
+2024-10-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* Sync up with the current snapshot [2024-10-09 11:30 JST].
 
 	M	data/char-defs/Ideograph-R029-Again.el
