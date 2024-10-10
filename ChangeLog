@@ -1,3 +1,113 @@
+2024-10-10  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* Sync up with the current snapshot [2024-10-09 11:30 JST].
+
+	M	data/char-defs/Ideograph-R029-Again.el
+	M	data/char-defs/Ideograph-R030-Mouth.el
+	M	data/char-defs/Ideograph-R032-Earth.el
+	M	data/char-defs/Ideograph-R038-Woman.el
+	M	data/char-defs/Ideograph-R044-Corpse.el
+	M	data/char-defs/Ideograph-R046-Mountain.el
+	M	data/char-defs/Ideograph-R051-Dry.el
+	M	data/char-defs/Ideograph-R058-Snout.el
+	M	data/char-defs/Ideograph-R061-Heart.el
+	M	data/char-defs/Ideograph-R062-Halberd.el
+	M	data/char-defs/Ideograph-R072-Sun.el
+	M	data/char-defs/Ideograph-R080-Do-Not.el
+	M	data/char-defs/Ideograph-R085-Water.el
+	M	data/char-defs/Ideograph-R086-Fire.el
+	M	data/char-defs/Ideograph-R140-Grass.el
+	M	data/dumped-ids.lisp
+
+2024-10-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* data/chise-bibliography.lisp (lunyu-jijie): Abolished [use
+	`lunyu-zhu' instead].
+	(lushichunqiu): New reference.
+	(lushichunqiu-zhu): Add `->commented' for `lushichunqiu'.
+	(mengzi-jizhu): Add `->commented' for `mengzi'.
+	(mengzi-zhu): Add `->commented' for `mengzi'.
+	(wenxuan): New reference.
+	(wenxuan-lishan-zhu): Add `->commented' for `wenxuan'.
+	(wenxuan-zhu): Add `->commented' for `wenxuan'.
+	(xunzi-zhu): Add `->commented' for `xunzi'.
+	(zhanguoce-zhu): Add `->commented' for `zhanguoce'.
+	(zhuangzi-zhushu): Add `->commented' for `zhuangzi'.
+
+	* Sync up with the current snapshot [2024-10-08 12:30 JST].
+
+	M	data/char-defs/Ideograph-R001-One.el
+	M	data/char-defs/Ideograph-R002-Line.el
+	M	data/char-defs/Ideograph-R008-Lid.el
+	M	data/char-defs/Ideograph-R009-Man.el
+	M	data/char-defs/Ideograph-R019-Power.el
+	M	data/char-defs/Ideograph-R027-Cliff.el
+	M	data/char-defs/Ideograph-R029-Again.el
+	M	data/char-defs/Ideograph-R030-Mouth.el
+	M	data/char-defs/Ideograph-R032-Earth.el
+	M	data/char-defs/Ideograph-R036-Evening.el
+	M	data/char-defs/Ideograph-R038-Woman.el
+	M	data/char-defs/Ideograph-R044-Corpse.el
+	M	data/char-defs/Ideograph-R046-Mountain.el
+	M	data/char-defs/Ideograph-R051-Dry.el
+	M	data/char-defs/Ideograph-R055-Two-Hands.el
+	M	data/char-defs/Ideograph-R061-Heart.el
+	M	data/char-defs/Ideograph-R062-Halberd.el
+	M	data/char-defs/Ideograph-R064-Hand.el
+	M	data/char-defs/Ideograph-R068-Dipper.el
+	M	data/char-defs/Ideograph-R070-Square.el
+	M	data/char-defs/Ideograph-R072-Sun.el
+	M	data/char-defs/Ideograph-R074-Moon.el
+	M	data/char-defs/Ideograph-R075-Tree.el
+	M	data/char-defs/Ideograph-R077-Stop.el
+	M	data/char-defs/Ideograph-R085-Water.el
+	M	data/char-defs/Ideograph-R086-Fire.el
+	M	data/char-defs/Ideograph-R087-Claw.el
+	M	data/char-defs/Ideograph-R096-Jade.el
+	M	data/char-defs/Ideograph-R097-Melon.el
+	M	data/char-defs/Ideograph-R104-Sickness.el
+	M	data/char-defs/Ideograph-R109-Eye.el
+	M	data/char-defs/Ideograph-R111-Arrow.el
+	M	data/char-defs/Ideograph-R112-Stone.el
+	M	data/char-defs/Ideograph-R116-Cave.el
+	M	data/char-defs/Ideograph-R118-Bamboo.el
+	M	data/char-defs/Ideograph-R119-Rice.el
+	M	data/char-defs/Ideograph-R120-Silk.el
+	M	data/char-defs/Ideograph-R121-Jar.el
+	M	data/char-defs/Ideograph-R123-Sheep.el
+	M	data/char-defs/Ideograph-R127-Plow.el
+	M	data/char-defs/Ideograph-R128-Ear.el
+	M	data/char-defs/Ideograph-R130-Meat.el
+	M	data/char-defs/Ideograph-R134-Mortar.el
+	M	data/char-defs/Ideograph-R137-Boat.el
+	M	data/char-defs/Ideograph-R138-Stopping.el
+	M	data/char-defs/Ideograph-R140-Grass.el
+	M	data/char-defs/Ideograph-R141-Tiger.el
+	M	data/char-defs/Ideograph-R142-Insect.el
+	M	data/char-defs/Ideograph-R143-Blood.el
+	M	data/char-defs/Ideograph-R146-West.el
+	M	data/char-defs/Ideograph-R150-Valley.el
+	M	data/char-defs/Ideograph-R151-Bean.el
+	M	data/char-defs/Ideograph-R154-Shell.el
+	M	data/char-defs/Ideograph-R155-Red.el
+	M	data/char-defs/Ideograph-R156-Run.el
+	M	data/char-defs/Ideograph-R157-Foot.el
+	M	data/char-defs/Ideograph-R158-Body.el
+	M	data/char-defs/Ideograph-R159-Cart.el
+	M	data/char-defs/Ideograph-R161-Morning.el
+	M	data/char-defs/Ideograph-R162-Walk.el
+	M	data/char-defs/Ideograph-R163-City.el
+	M	data/char-defs/Ideograph-R164-Wine.el
+	M	data/char-defs/Ideograph-R194-Ghost.el
+	M	data/char-defs/Ideograph-R207-Drum.el
+	M	data/char-defs/Ideograph-R213-Turtle.el
+	M	data/char-defs/ShuoWen-SR012.el
+	M	data/char-defs/ShuoWen-SR014.el
+	M	data/char-defs/ShuoWen-SR206.el
+	M	data/char-defs/ShuoWen-SR274.el
+	M	data/char-defs/ShuoWen-SR410.el
+	M	data/dumped-ids.lisp
+
 2024-10-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* data/chise-bibliography.lisp (chunqiu-gongyang-shiwen): New
