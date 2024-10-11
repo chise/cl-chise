@@ -884,6 +884,12 @@
 
 (defvar *ids-read-from-source* nil)
 
+(defun char-id-string (character)
+  (let ((id (char-id character)))
+    (if (numberp id)
+	(format nil "~X" id)
+	id)))
+
 (unless (eq (get-char-attribute #\U2A6D6 '=ucs) #x2A6D6)
   (dolist (file *system-char-db-source-file-list*)
     (format t "Loading ~a...~%" file)
@@ -895,7 +901,8 @@
 		  (asdf:system-source-directory :cl-chise)))
 	(dumped-ids-file
 	  (merge-pathnames "data/dumped-ids.lisp"
-			   (asdf:system-source-directory :cl-chise))))
+			   (asdf:system-source-directory :cl-chise)))
+	a-str ret)
     (cond
       ((and (not *ids-read-from-source*)
 	    (probe-file dumped-ids-file))
@@ -925,8 +932,8 @@
        (some-in-character-feature
 	(lambda (c v)
 	  (unless (equal (setq ret (ideographic-structure-compact v)) v)
-	    (format t "~X (~a) : Compact~%~T~T   ~a~%~T~T-> ~a~%"
-		    (char-id c) c
+	    (format t "~a (~a) : Compact~%~T~T   ~a~%~T~T-> ~a~%"
+		    (char-id-string c) c
 		    v ret)
 	    (put-char-attribute c 'ideographic-structure ret)
 	    (setq v ret))
@@ -934,8 +941,8 @@
 			(get-char-attribute c 'ideographic-structure@apparent))
 	    (when (setq a-str
 			(functional-ideographic-structure-to-apparent-structure v))
-	      (format t "~X (~a) : F2A-Conversion~%~T~T   ~a~%~T~T-> ~a~%"
-		      (char-id c) c
+	      (format t "~a (~a) : F2A-Conversion~%~T~T   ~a~%~T~T-> ~a~%"
+		      (char-id-string c) c
 		      v a-str)
 	      (put-char-attribute c 'ideographic-structure@apparent
 				  (ideographic-structure-compact a-str))))
@@ -945,8 +952,8 @@
        (some-in-character-feature
 	(lambda (c v)
 	  (unless (equal (setq ret (ideographic-structure-compact v)) v)
-	    (format t "~X (~a) : Compact [apparent]~%~T~T   ~a~%~T~T-> ~a~%"
-		    (char-id c) c
+	    (format t "~a (~a) : Compact [apparent]~%~T~T   ~a~%~T~T-> ~a~%"
+		    (char-id-string c) c
 		    v ret)
 	    (put-char-attribute c 'ideographic-structure@apparent ret)
 	    (setq v ret))
@@ -957,8 +964,8 @@
 	(lambda (c v)
 	  (unless (equal (setq ret (ideographic-structure-compact v)) v)
 	    (format
-	     t "~X (~a) : Compact [apparent/leftmost]~%~T~T   ~a~%~T~T-> ~a~%"
-	     (char-id c) c
+	     t "~a (~a) : Compact [apparent/leftmost]~%~T~T   ~a~%~T~T-> ~a~%"
+	     (char-id-string c) c
 	     v ret)
 	    (put-char-attribute c 'ideographic-structure@apparent/leftmost ret)
 	    (setq v ret))
@@ -969,8 +976,8 @@
 	(lambda (c v)
 	  (unless (equal (setq ret (ideographic-structure-compact v)) v)
 	    (format
-	     t "~X (~a) : Compact [apparent/rightmost]~%~T~T   ~a~%~T~T-> ~a~%"
-	     (char-id c) c
+	     t "~a (~a) : Compact [apparent/rightmost]~%~T~T   ~a~%~T~T-> ~a~%"
+	     (char-id-string c) c
 	     v ret)
 	    (put-char-attribute c 'ideographic-structure@apparent/rightmost ret)
 	    (setq v ret))
@@ -982,8 +989,8 @@
        (some-in-character-feature
 	(lambda (c v)
 	  (unless (equal (setq ret (ideographic-structure-compact v)) v)
-	    (format t "~X (~a) : Compact [2nd]~%~T~T   ~a~%~T~T-> ~a~%"
-		    (char-id c) c
+	    (format t "~a (~a) : Compact [2nd]~%~T~T   ~a~%~T~T-> ~a~%"
+		    (char-id-string c) c
 		    v ret)
 	    (put-char-attribute c 'ideographic-structure ret)
 	    (setq v ret))
@@ -993,8 +1000,8 @@
        (some-in-character-feature
 	(lambda (c v)
 	  (unless (equal (setq ret (ideographic-structure-compact v)) v)
-	    (format t "~X (~a) : Compact [apparent,2nd]~%~T~T   ~a~%~T~T-> ~a~%"
-		    (char-id c) c
+	    (format t "~a (~a) : Compact [apparent,2nd]~%~T~T   ~a~%~T~T-> ~a~%"
+		    (char-id-string c) c
 		    v ret)
 	    (put-char-attribute c 'ideographic-structure@apparent ret)
 	    (setq v ret))
@@ -1005,8 +1012,8 @@
 	(lambda (c v)
 	  (unless (equal (setq ret (ideographic-structure-compact v)) v)
 	    (format
-	     t "~X (~a) : Compact [apparent/leftmost,2nd]~%~T~T   ~a~%~T~T-> ~a~%"
-	     (char-id c) c
+	     t "~a (~a) : Compact [apparent/leftmost,2nd]~%~T~T   ~a~%~T~T-> ~a~%"
+	     (char-id-string c) c
 	     v ret)
 	    (put-char-attribute c 'ideographic-structure@apparent/leftmost ret)
 	    (setq v ret))
@@ -1017,8 +1024,8 @@
 	(lambda (c v)
 	  (unless (equal (setq ret (ideographic-structure-compact v)) v)
 	    (format
-	     t "~X (~a) : Compact [apparent/rightmost,2nd]~%~T~T   ~a~%~T~T-> ~a~%"
-	     (char-id c) c
+	     t "~a (~a) : Compact [apparent/rightmost,2nd]~%~T~T   ~a~%~T~T-> ~a~%"
+	     (char-id-string c) c
 	     v ret)
 	    (put-char-attribute c 'ideographic-structure@apparent/rightmost ret)
 	    (setq v ret))
