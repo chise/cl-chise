@@ -132,6 +132,13 @@
 (defun encode-char (character ccs)
   (get-char-attribute character ccs))
 
+(defun ucs-character-id-p (id)
+  (and (numberp id)
+       (< id #xF0000)))
+
+(defun ucs-character-p (character)
+  (ucs-character-id-p (concord:object-id character)))
+
 (defun decode-char (ccs code-point)
   (let (ret)
     (cond ((and (or (eql ccs '=ucs)
@@ -140,7 +147,7 @@
 	   (code-char code-point)
 	   )
 	  ((setq ret (concord:decode-object ccs code-point :genre 'character))
-	   (if (< (concord:object-id ret) #xF0000)
+	   (if (ucs-character-p ret)
 	       (code-char (concord:object-id ret))
 	       ret)
 	   ))))
@@ -149,7 +156,8 @@
   (let (id)
     (if (and (concord:object-p object)
 	     (eq (concord:genre-name (concord:object-genre object)) 'character)
-	     (< (setq id (concord:object-id object)) #xF0000))
+	     (setq id (concord:object-id object))
+	     (ucs-character-id-p id))
 	(code-char id)
 	object)))
 
