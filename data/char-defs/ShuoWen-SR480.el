@@ -33,9 +33,9 @@
     (<-Small-Seal@shuowen
      ((=ucs		  . #x214EC)	; 𡓬
       )
-     ((=ucs		  . #x214B0)	; 𡒰
-      )
      ((=ucs		  . #x58AC)	; 墬
+      )
+     ((=ucs		  . #x214B0)	; 𡒰
       ))
     (<-Zhouwen@shuowen
      ((=shuowen-jiguge	  . 47011)	; &SW-JIGUGE-47011;

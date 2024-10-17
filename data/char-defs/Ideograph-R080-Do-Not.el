@@ -993,12 +993,16 @@
     (ideographic-strokes . 4)
     (total-strokes	 . 8)
     (ideographic-structure
-     ?⿰
-     ?母
-     ?也)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x6BCD)	; 母
+      )
+     ((=ucs		  . #x4E5F)	; 也
+      ))
     (=ucs@unicode	. #x6BD1)	; &C3-295A;
-    (=cns11643-3	. #x295A)	; &I-C3-295A; [09-58]
-    (=daikanwa		. 16729)	; &C3-295A;
+    (=cns11643-3	. #x295A)	; &C3-295A; [09-58]
+    (=daikanwa 		. 16729)	; &I-M-16729;
     (<-ancient
      ((=ucs		  . #x59D0)	; 姐
       ))
@@ -1299,8 +1303,8 @@
       (=adobe-japan1-0	  . 03321)	; &AJ1-03321;
       ))
     (=ucs@iso		. #x23AF0)	; &C6-3229;
-    (=cns11643-6	. #x3229)	; &I-C6-3229; [18-09]
-    (=daikanwa		. 16733)	; &C6-3229;
+    (=cns11643-6	. #x3229)	; &C6-3229; [18-09]
+    (=daikanwa		. 16733)	; &I-M-16733;
     (->subsumptive
      ((==ucs@iso	  . #x23AF0)	; &g2-M-16733;
       (==cns11643-6	  . #x3229)	; &g2-M-16733; [18-09]

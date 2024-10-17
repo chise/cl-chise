@@ -1,12 +1,9 @@
 ;; -*- coding: utf-8-mcs-er -*-
 (define-char
   '((<-denotational@usage
-     ((ideographic-radical . 171)	; ⾪
-      (==>ucs@bucs	. #x96B6)	; &BUCS+96B6;
-      (==>daijiten	. 12940)	; &A2-DJT-12940;
+     ((==>ucs@bucs	  . #x96B6)	; &BUCS+96B6;
       )
-     ((ideographic-radical . 171)	; ⾪
-      (==>ucs@bucs	. #x96B7)	; &BUCS+96B7;
+     ((==>ucs@bucs	  . #x96B7)	; &BUCS+96B7;
       ))
     (ideographic-radical . 171)	; ⾪
     (ideographic-strokes . 0)
@@ -24,7 +21,8 @@
     (=daikanwa		. 41923)	; &I-M-41923;
     (=daijiten		. 12940)	; &I-DJT-12940;
     (<-simplified@CN
-     ((=gb12345		. #x4125)	; 隸 [33-05]
+     ((=ucs		. #x96B8)	; 隸
+      (=gb12345		  . #x4125)	; 隸 [33-05]
       ))
     (->subsumptive
      ((==ucs@unicode	  . #x96B6)	; &g2-AJ1-07113;
@@ -35,9 +33,11 @@
       (==gt		  . 56338)	; &g2-AJ1-07113;
       (==gt-k		  . 03924)	; &g2-AJ1-07113;
       (==daikanwa	  . 41923)	; &g2-AJ1-07113;
-      (==daijiten	. 12940)	; &I-DJT-12940;
+      (==daijiten	  . 12940)	; &g2-AJ1-07113;
       (->subsumptive
        ((===daikanwa	    . 41923)	; &R-M-41923;
+	)
+       ((===daijiten	    . 12940)	; &R-DJT-12940;
 	)
        ((===jis-x0208	    . #x7030)	; &R-J0-7030; [80-16]
 	(===jis-x0213-1	    . #x7030)	; &R-J0-7030; [80-16]
@@ -137,7 +137,7 @@
       ))
     (=ucs@iso		. #x28F76)	; &C6-596D;
     (=cns11643-6	. #x596D)	; &C6-596D; [57-77]
-    (=daikanwa 		. 41924)	; &I-M-41924;
+    (=daikanwa		. 41924)	; &I-M-41924;
     (->subsumptive
      ((==ucs@iso	  . #x28F76)	; &g2-M-41924;
       (==daikanwa	  . 41924)	; &g2-M-41924;
@@ -223,6 +223,8 @@
       (==cbeta		  . 12528)	; &g2-CB12528;
       (->subsumptive
        ((===ucs@iso	    . #x28F7B)	; &R-U-00028F7B;
+	)
+       ((===cbeta	    . 12528)	; &R-CB12528;
 	))
       ))
     ))
@@ -243,9 +245,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((ideographic-radical . 171)	; ⾪
-      (==>ucs@bucs	. #x96B7)	; &BUCS+96B7;
-      (==>daijiten	. 12945)	; &A2-DJT-12945;
+     ((==>ucs@bucs	  . #x96B7)	; &BUCS+96B7;
       ))
     (ideographic-radical . 171)	; ⾪
     (ideographic-strokes . 8)
@@ -299,9 +299,11 @@
       (==jis-x0208	  . #x4E6C)	; &g2-AJ1-04020; [46-76]
       (==jis-x0213-1	  . #x4E6C)	; &g2-AJ1-04020; [46-76]
       (==gt		  . 56345)	; &g2-AJ1-04020;
+      (==daijiten	  . 12943)	; &g2-AJ1-04020;
       (==shinjigen	  .  8938)	; &g2-AJ1-04020;
-      (==daijiten		. 12943)	; &I-DJT-12943;
       (->subsumptive
+       ((===daijiten	    . 12943)	; &R-DJT-12943;
+	)
        ((===jis-x0208	    . #x4E6C)	; &R-J0-4E6C; [46-76]
 	(===jis-x0213-1	    . #x4E6C)	; &R-J0-4E6C; [46-76]
 	)
@@ -367,20 +369,29 @@
     (ideographic-strokes . 8)
     (total-strokes	 . 16)
     (ideographic-structure
-     ?⿰
-     ?&GT-K04236;
-     ?隶)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=gt-k		  . 04236)	; &GT-K04236;
+      )
+     ((=ucs		  . #x96B6)	; 隶
+      ))
     (=ucs		. #x28F7E)	; 𨽾
     (=daikanwa/ho	.  0688)	; 𨽾
     (<-vulgar
-     ((=ucs		. #x96B8)	; 隸
-      (=daikanwa	  . 41932)	; 隸
+     ((=ucs		  . #x96B8)	; 隸
+      (=daikanwa	  . 41932)	; &I-M-41932;
       ))
     (<-vulgar*sources
      hongwu-zhengyun daikanwa)
     (->subsumptive
-     ((==ucs@iso		. #x28F7E)	; 𨽾
-      (==daikanwa/ho	.  0688)	; 𨽾
+     ((==ucs@iso	  . #x28F7E)	; &g2-M-H0688;
+      (==daikanwa/ho	  .  0688)	; &g2-M-H0688;
+      (->subsumptive
+       ((===daikanwa/ho	    .  0688)	; &R-M-H0688;
+	)
+       ((===ucs@iso	    . #x28F7E)	; &R-U-00028F7E;
+	))
       ))
     ))
 (define-char
@@ -399,9 +410,18 @@
     (=cns11643-4	. #x5956)	; &C4-5956; [57-54]
     ))
 (define-char
-  '((ideographic-radical . 171)	; ⾪
+  '((<-denotational@usage
+     ((ideographic-radical . 171)	; ⾪
+      (==>ucs@bucs	. #x96B7)	; &BUCS+96B7;
+      (==>daijiten	. 12945)	; &BUCS+96B7;
+      ))
+    (ideographic-radical . 171)	; ⾪
     (ideographic-strokes . 9)
     (total-strokes	 . 17)
+    (ideographic-structure
+     ?⿰
+     ?柰
+     ?隶)
     (=ucs		. #x96B8)	; 隸
     (=adobe-japan1-0	. 07114)	; &I-AJ1-07114;
     (=jis-x0208		. #x7031)	; &I-J90-7031; [80-17]
@@ -410,7 +430,8 @@
     (=gb12345		. #x4125)	; 隸 [33-05]
     (=gt		. 56348)	; &I-GT-56348;
     (=gt-pj-1		. #x7031)	; &I-GT-56348; [80-17]
-    (=daikanwa		. 41932)	; 隸
+    (=daikanwa		. 41932)	; &I-M-41932;
+    (=daijiten		. 12945)	; &I-DJT-12945;
     (=shinjigen		.  8939)	; 隸
     (->subsumptive
      ((==daikanwa	  . 41932)	; &g2-M-41932;
@@ -425,6 +446,7 @@
       (==gb12345	  . #x4125)	; &g2-AJ1-07114; [33-05]
       (==gt		  . 56348)	; &g2-AJ1-07114;
       (==shinjigen	  .  8939)	; &g2-AJ1-07114;
+      (==daijiten	. 12945)	; &I-DJT-12945;
       (->subsumptive
        ((===jis-x0208	    . #x7031)	; &R-J0-7031; [80-17]
 	(===jis-x0213-1	    . #x7031)	; &R-J0-7031; [80-17]
@@ -501,9 +523,13 @@
     (ideographic-strokes . 12)
     (total-strokes	 . 20)
     (ideographic-structure
-     ?⿰
-     ?𪐗
-     ?隶)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x2A417)	; 𪐗
+      )
+     ((=ucs		  . #x96B6)	; 隶
+      ))
     (=ucs		. #x28F84)	; 𨾄
     ))
 (define-char
@@ -514,10 +540,15 @@
     (ideographic-strokes . 12)
     (total-strokes	 . 20)
     (ideographic-structure
-     ?⿰
-     ((=ucs@iso		. #x2A417)	; &C6-6476;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
       )
-     ?隶)
+     ((=ucs@iso		  . #x2A417)	; &C6-6476;
+      (=cns11643-6	  . #x6476)	; &I-C6-6476; [68-86]
+      (=daikanwa	  . 48039)	; &I-M-48039;
+      )
+     ((=ucs		  . #x96B6)	; 隶
+      ))
     (=ucs@iso		. #x28F84)	; &M-49958;
     (=daikanwa		. 49958)	; &M-49958;
     (->subsumptive
@@ -529,4 +560,14 @@
        ((===ucs@iso	    . #x28F84)	; &R-U-00028F84;
 	))
       ))
+    ))
+(define-char
+  '((ideographic-radical . 171)	; ⾪
+    (==>ucs@bucs	. #x96B6)	; &BUCS+96B6;
+    (==>daijiten	. 12940)	; &BUCS+96B6;
+    ))
+(define-char
+  '((ideographic-radical . 171)	; ⾪
+    (==>ucs@bucs	. #x96B7)	; &BUCS+96B7;
+    (==>daijiten	. 12945)	; &BUCS+96B7;
     ))

@@ -11208,7 +11208,9 @@
     (ideographic-strokes . 9)
     (total-strokes	 . 13)
     (ideographic-structure
-     ?⿰
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
      ((=ucs		  . #x662C)	; 昬
       )
      ((=>ucs@component	  . #x6535)	; &A-compU+6535;

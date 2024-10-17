@@ -7390,7 +7390,7 @@
       )
      ((=>big5-cdp@iwds-1  . #x8CAF)	; &A-GT-K02231;
       )
-     ((=ucs		  . #x378B)	; 㞋
+     ((=>ucs@component	  . #x378B)	; &A-compU+378B;
       ))
     (sound@ja/on	"syuN")
     (=ucs		. #x20B60)	; 𠭠
@@ -7408,9 +7408,7 @@
       )
      ((=gt-k		  . 02232)	; &GT-K02232;
       )
-     ((=ucs		. #x378B)	; 㞋
-      (=ucs@unicode	  . #x378B)	; 㞋
-      (=mj		  . 000796)	; 㞋
+     ((=ucs		  . #x378B)	; 㞋
       ))
     (=ucs@iso		. #x20B60)	; &MJ032061;
     (=mj		. 032061)	; &MJ032061;
@@ -8964,8 +8962,6 @@
      ((=ucs		  . #x34C1)	; 㓁
       )
      ((=ucs		  . #x378B)	; 㞋
-      (=ucs@unicode	  . #x378B)	; 㞋
-      (=mj		  . 000796)	; 㞋
       ))
     (=ucs@iso		. #x20B7C)	; &MJ032081;
     (=mj		. 032081)	; &MJ032081;

@@ -13023,6 +13023,21 @@
 	 ((===ucs@unicode     . #x7DD0)	; &R-UU+7DD0;
 	  ))
 	))
+      )
+     ((ideographic-structure
+       ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+	(=ucs		    . #x2FF0)	; ⿰
+	)
+       ((=ucs		    . #x6BCF)	; 每
+	)
+       ((=ucs@cns		  . #x7CFB)	; &C1-4B37;
+	))
+      (=ucs@cns	  . #x7DD0)	; &UU+7DD0;
+      (=cns11643-3	  . #x6629)	; &C3-6629; [70-09]
+      (->subsumptive
+       ((==ucs@cns	  . #x7DD0)	; &UU+7DD0;
+	(==cns11643-3	  . #x6629)	; &C3-6629; [70-09]
+	))
       ))
     ))
 (define-char

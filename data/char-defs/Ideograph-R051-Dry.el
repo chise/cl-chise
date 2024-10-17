@@ -2053,15 +2053,15 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=>ucs-itaiji-002	. #x2C678)	; &A-U-i002+2C678;
+     ((=>ucs-itaiji-002	  . #x2C678)	; &A-U-i002+2C678;
       )
      ((=ucs		  . #x4E38)	; 丸
       ))
-    (=>ucs-itaiji-002	. #x5B70)	; &U-i002+5B70;
+    (=>ucs-itaiji-002	. #x5B70)	; &A-U-i002+5B70;
     ))
 (define-char
   '((<-denotational
-     ((=>ucs-itaiji-002	. #x5B70)	; &U-i002+5B70;
+     ((=>ucs-itaiji-002	  . #x5B70)	; &A-U-i002+5B70;
       ))
     (ideographic-radical . 51)	; ⼲
     (ideographic-strokes . 13)
@@ -2070,9 +2070,9 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs-itaiji-002	. #x2C678)	; &A-U-i002+2C678;
+     ((=ucs-itaiji-002	  . #x2C678)	; &U-i002+2C678;
       )
-     ((=ucs		. #x2F801)	; 丸
+     ((=ucs		  . #x2F801)	; 丸
       ))
     (=ucs-itaiji-002	. #x5B70)	; &U-i002+5B70;
     ))

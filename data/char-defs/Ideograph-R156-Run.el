@@ -1684,7 +1684,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs-var-001	. #x2395A)	; &U-v001+2395A;
+     ((=ucs-var-001	  . #x2395A)	; &U-v001+2395A;
       )
      ((=ucs		  . #x6209)	; 戉
       ))
@@ -2394,12 +2394,17 @@
     (ideographic-strokes . 7)
     (total-strokes	 . 14)
     (ideographic-structure
-     ?⿺
-     ?走
-     ?&AJ1-02354;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER LEFT")
+      (=ucs		  . #x2FFA)	; ⿺
+      )
+     ((=ucs		  . #x8D70)	; 走
+      )
+     ((=ucs@unicode	  . #x79C0)	; &AJ1-02354;
+      (=adobe-japan1-0	  . 02354)	; &AJ1-02354;
+      ))
     (=ucs@unicode	. #x47AC)	; &C6-6275;
-    (=cns11643-6	. #x6275)	; &I-C6-6275; [66-85]
-    (=daikanwa		. 37155)	; &C6-6275;
+    (=cns11643-6	. #x6275)	; &C6-6275; [66-85]
+    (=daikanwa		. 37155)	; &I-M-37155;
     (<-formed
      ((=ucs@ks		  . #x900F)	; &M-38876;
       (=ks-x1001	  . #x7762)	; &M-38876; [87-66]

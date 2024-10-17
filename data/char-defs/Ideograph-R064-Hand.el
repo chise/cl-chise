@@ -3621,7 +3621,7 @@
     (<-formed$_2*sources
      jiyun)
     (<-interchangeable
-     ((=ucs		  . #x28822)	; 𨠢
+     ((=ucs@iso		  . #x28822)	; 𨠢
       (=daikanwa	  . 39827)	; &I-M-39827;
       ))
     (<-interchangeable$_1*sources

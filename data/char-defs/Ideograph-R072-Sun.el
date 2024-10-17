@@ -18169,12 +18169,16 @@
      ((=>ucs@iwds-1	  . #x656F)	; &A-IWDSU+656F;
       ))
     (ideographic-radical . 72)	; ⽇
-    (sound@ja/on	"biN" "koN")
     (ideographic-structure
-     ?⿺
-     ?昬
-     ((=>ucs@component	. #x6535)	; &A-compU+6535;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER LEFT")
+      (=ucs		  . #x2FFA)	; ⿺
+      )
+     ((=ucs		  . #x662C)	; 昬
+      )
+     ((=>ucs@component	  . #x6535)	; &A-compU+6535;
+      (=>iwds-1		  .  0194)	; &A-compU+6535;
       ))
+    (sound@ja/on	"biN" "koN")
     (=ucs		. #x668B)	; 暋
     ))
 (define-char
@@ -18185,9 +18189,14 @@
     (ideographic-strokes . 9)
     (total-strokes	 . 13)
     (ideographic-structure
-     ?⿺
-     ?&AJ1-14603;
-     ?攵)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER LEFT")
+      (=ucs		  . #x2FFA)	; ⿺
+      )
+     ((=ucs@unicode	  . #x662C)	; &AJ1-14603;
+      (=adobe-japan1-4	  . 14603)	; &AJ1-14603;
+      )
+     ((=ucs		  . #x6535)	; 攵
+      ))
     (ideographic-structure@apparent
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
@@ -18206,6 +18215,7 @@
     (=cns11643-2	. #x4349)	; &I-C2-4349; [35-41]
     (=big5		. #xDDC3)	; &I-B-DDC3;
     (=daikanwa		. 14041)	; &I-M-14041;
+    (=daijiten		. 04580)	; &I-DJT-04580;
     (=jef-china3	. #x51B5)	; &I-JC3-51B5;
     (<-formed
      ((=ucs@unicode	  . #x656F)	; &C2-4342;
@@ -18231,8 +18241,11 @@
       (==jis-x0212	  . #x424D)	; &g2-AJ1-19437; [34-45]
       (==iso-ir165	  . #x7C41)	; &g2-AJ1-19437; [92-33]
       (==cns11643-2	  . #x4349)	; &g2-AJ1-19437; [35-41]
+      (==daijiten	  . 04580)	; &g2-AJ1-19437;
       (==jef-china3	  . #x51B5)	; &g2-AJ1-19437;
       (->subsumptive
+       ((===daijiten	    . 04580)	; &R-DJT-04580;
+	)
        ((===jis-x0212	    . #x424D)	; &R-JSP-424D; [34-45]
 	)
        ((===adobe-japan1-5  . 19437)	; &R-AJ1-19437;

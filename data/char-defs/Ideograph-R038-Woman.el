@@ -8569,8 +8569,8 @@
     (=shinjigen		.  1633)	; 姐
     (<-formed
      ((=ucs@iso		  . #x23AF0)	; &C6-3229;
-      (=cns11643-6	  . #x3229)	; &I-C6-3229; [18-09]
-      (=daikanwa 	  . 16733)	; &C6-3229;
+      (=cns11643-6	  . #x3229)	; &C6-3229; [18-09]
+      (=daikanwa	  . 16733)	; &I-M-16733;
       )
      ((=ucs@unicode	  . #x3718)	; &MJ000687;
       (=mj		  . 000687)	; &MJ000687;
@@ -8587,8 +8587,8 @@
      wenxuan-lishan-zhu)
     (<-same
      ((=ucs@iso		  . #x23AF0)	; &C6-3229;
-      (=cns11643-6	  . #x3229)	; &I-C6-3229; [18-09]
-      (=daikanwa 	  . 16733)	; &C6-3229;
+      (=cns11643-6	  . #x3229)	; &C6-3229; [18-09]
+      (=daikanwa	  . 16733)	; &I-M-16733;
       )
      ((=ucs@unicode	  . #x3718)	; &MJ000687;
       (=mj		  . 000687)	; &MJ000687;
@@ -8602,8 +8602,8 @@
      jiyun daikanwa)
     (->ancient
      ((=ucs@unicode	  . #x6BD1)	; &C3-295A;
-      (=cns11643-3	  . #x295A)	; &I-C3-295A; [09-58]
-      (=daikanwa 	  . 16729)	; &C3-295A;
+      (=cns11643-3	  . #x295A)	; &C3-295A; [09-58]
+      (=daikanwa	  . 16729)	; &I-M-16729;
       ))
     (->ancient$_1*sources
      jiyun daikanwa)
@@ -39638,7 +39638,7 @@
     (=mj		. 000687)	; &MJ000687;
     (=cns11643-4	. #x4268)	; &I-C4-4268; [34-72]
     (=koseki		. 075820)	; &MJ000687;
-    (=daikanwa 		. 06657)	; &I-M-06657;
+    (=daikanwa		. 06657)	; &I-M-06657;
     (->subsumptive
      ((==ucs@unicode	  . #x3718)	; &g2-MJ000687;
       (==mj		  . 000687)	; &g2-MJ000687;

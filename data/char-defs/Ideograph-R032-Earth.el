@@ -14786,10 +14786,15 @@
     (total-strokes	 . 10)
     (hanyu-dazidian	1 445 3)
     (ideographic-structure
-     ?⿱
-     ((=ucs@unicode	. #x6C56)	; &C3-2655;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
       )
-     ?土)
+     ((=ucs@unicode	  . #x6C56)	; &C3-2655;
+      (=cns11643-3	  . #x2655)	; &C3-2655; [06-53]
+      (=daikanwa	  . 17129)	; &I-M-17129;
+      )
+     ((=ucs		  . #x571F)	; 土
+      ))
     (=ucs@unicode	. #x57CA)	; &C3-3037;
     (=cns11643-3	. #x3037)	; &C3-3037; [16-23]
     (=daikanwa		. 05115)	; &I-M-05115;
@@ -30529,6 +30534,7 @@
     (=ucs		. #x2F857)	; 報
     (=cns11643-6	. #x514A)	; &I-C6-514A; [49-42]
     (=daikanwa		. 05383)	; &I-M-05383;
+    (=hanyo-denshi/ks  . 061470)	; &g2-HD-KS-061470;
     (<-wrong
      ((=ucs@unicode	  . #x5831)	; &AJ1-03651;
       (=adobe-japan1-0	  . 03651)	; &AJ1-03651;

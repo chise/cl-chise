@@ -2622,7 +2622,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=ucs		. #x5929)	; 天
+     ((=ucs		  . #x5929)	; 天
       )
      ((=ucs@unicode	  . #x6B62)	; &MJ014823;
       (=mj		  . 014823)	; &MJ014823;
@@ -6091,7 +6091,7 @@
   '((ideographic-radical . 77)	; ⽌
     (ideographic-strokes . 9)
     (total-strokes	 . 13)
-    (=ucs		. #x2B793)	; 𫞓
+    (=ucs 		. #x2B793)	; 𫞓
     ))
 (define-char
   '((<-denotational

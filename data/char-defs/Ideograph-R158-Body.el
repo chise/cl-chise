@@ -1071,12 +1071,16 @@
     (ideographic-strokes . 7)
     (total-strokes	 . 14)
     (ideographic-structure
-     ?⿰
-     ?身
-     ?&U-000215EC;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x8EAB)	; 身
+      )
+     ((=ucs@iso		  . #x215EC)	; &U-000215EC;
+      ))
     (=ucs@iso		. #x2824A)	; &C6-6324;
-    (=cns11643-6	. #x6324)	; &I-C6-6324; [67-04]
-    (=daikanwa 		. 38092)	; &C6-6324;
+    (=cns11643-6	. #x6324)	; &C6-6324; [67-04]
+    (=daikanwa 		. 38092)	; &I-M-38092;
     (->subsumptive
      ((==daikanwa	  . 38092)	; &g2-M-38092;
       )

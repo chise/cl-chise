@@ -902,6 +902,7 @@
      ((=ucs		  . #x5342)	; 卂
       ))
     (=>ucs-itaiji-002	. #x7B51)	; &A-U-i002+7B51;
+    (=>ucs-itaiji-003	. #x7B51)	; &U-i003+7B51;
     ))
 (define-char
   '((<-denotational
@@ -920,6 +921,24 @@
      ((=big5-cdp	  . #x88EC)	; &CDP-88EC;
       ))
     (=ucs-itaiji-002	. #x7B51)	; &U-i002+7B51;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-002	  . #x7B51)	; &A-U-i002+7B51;
+      ))
+    (ideographic-radical . 118)	; ⽵
+    (ideographic-strokes . 3)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((name		  . "CJK RADICAL BAMBOO")
+      (=ucs		  . #x2EAE)	; ⺮
+      )
+     ((=cbeta		. 07314)	; &CB07314;
+      ))
+    (=ucs-itaiji-003	. #x7B51)	; &U-i003+7B51;
     ))
 (define-char
   '((ideographic-radical . 118)	; ⽵
@@ -8942,7 +8961,15 @@
     (ideographic-radical . 118)	; ⽵
     (ideographic-strokes . 7)
     (total-strokes	 . 13)
-    (=mj 		. 043748)	; &MJ043748;
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs-itaiji-003	. #x7B51)	; &U-i003+7B51;
+      )
+     ((=ucs		  . #x6728)	; 木
+      ))
+    (=mj		. 043748)	; &MJ043748;
     (=koseki		. 291810)	; &MJ043748;
     (=daikanwa 		. 26096)	; &I-M-26096;
     (<-formed
@@ -17352,7 +17379,7 @@
   '((ideographic-radical . 118)	; ⽵
     (ideographic-strokes . 9)
     (total-strokes	 . 15)
-    (=ucs 		. #x25C12)	; 𥰒
+    (=ucs  		. #x25C12)	; 𥰒
     ))
 (define-char
   '((<-denotational
@@ -31421,7 +31448,7 @@
   '((ideographic-radical . 118)	; ⽵
     (ideographic-strokes . 15)
     (total-strokes	 . 21)
-    (=ucs 		. #x25DA4)	; 𥶤
+    (=ucs  		. #x25DA4)	; 𥶤
     ))
 (define-char
   '((<-denotational

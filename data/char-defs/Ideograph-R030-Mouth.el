@@ -15671,8 +15671,7 @@
       )
      ((=ucs		  . #x53E3)	; 口
       )
-     ((=ucs@unicode	  . #x378B)	; 㞋
-      (=mj		  . 000796)	; 㞋
+     ((=ucs		  . #x378B)	; 㞋
       ))
     (=ucs@iso		. #x20C0E)	; &MJ032182;
     (=mj		. 032182)	; &MJ032182;
@@ -24004,9 +24003,14 @@
     (total-strokes	 . 9)
     (hanyu-dazidian	1 612 7)
     (ideographic-structure
-     ?⿰
-     ?口
-     ?&AJ1-02957;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x53E3)	; 口
+      )
+     ((=ucs@unicode	  . #x5730)	; &AJ1-02957;
+      (=adobe-japan1-0	  . 02957)	; &AJ1-02957;
+      ))
     (=ucs@unicode	. #x54CB)	; &M-03619;
     (=gb12345		. #x7C26)	; &M-03619; [92-06]
     (=daikanwa		. 03619)	; &M-03619;
@@ -24021,7 +24025,9 @@
 	)
        ((===ucs@unicode	    . #x54CB)	; &R-UU+54CB;
 	)
-       ((=hanziku-2	  . #xD065)	; &g2-M-03619;
+       ((=hanziku-2	    . #xD065)	; &HZK02-D065;
+	)
+       ((===cbeta	    . 03970)	; &R-CB03970;
 	))
       ))
     ))

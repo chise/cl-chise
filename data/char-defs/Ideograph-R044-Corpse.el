@@ -812,8 +812,8 @@
     (sound@ja/on/go	"siki" "neN")
     (sound@ja/on/kan	"syoku" "deN")
     (=ucs		. #x378B)	; 㞋
-    (=ucs@unicode 	. #x378B)	; 㞋
-    (=mj		. 000796)	; 㞋
+    (=ucs		. #x378B)	; 㞋
+    (=mj		. 000796)	; &I-MJ000796;
     (=cns11643-3	. #x2240)	; &I-C3-2240; [02-32]
     (=koseki		. 086780)	; 㞋
     (=daikanwa		. 07637)	; &I-M-07637;

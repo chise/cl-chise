@@ -38584,7 +38584,15 @@
     ))
 (define-char
   '((ideographic-radical . 85)	; ⽔
-    (=ucs 		. #x2B799)	; 𫞙
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x6C35)	; 氵
+      )
+     ((=>ucs-itaiji-001	  . #x83BD)	; &A-U-i001+83BD;
+      ))
+    (=ucs		. #x2B799)	; 𫞙
     ))
 (define-char
   '((<-denotational
@@ -38593,7 +38601,25 @@
     (ideographic-radical . 85)	; ⽔
     (ideographic-strokes . 10)
     (total-strokes	 . 13)
-    (=ucs@JP/hanazono 	. #x2B799)	; &hanaJU+2B799;
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x6C35)	; 氵
+      )
+     ((=ucs-itaiji-001	  . #x83BD)	; &U-i001+83BD;
+      ))
+    (=ucs@JP/hanazono	. #x2B799)	; &MJ057961;
+    (=mj		. 057961)	; &MJ057961;
+    (=koseki		. 203790)	; &MJ057961;
+    (->subsumptive
+     ((==ucs@JP/hanazono  . #x2B799)	; &g2-MJ057961;
+      (==mj		  . 057961)	; &g2-MJ057961;
+      (==koseki		  . 203790)	; &g2-MJ057961;
+      (->subsumptive
+       ((===mj		    . 057961)	; &R-MJ057961;
+	))
+      ))
     ))
 (define-char
   '((ideographic-radical . 85)	; ⽔
@@ -62098,8 +62124,8 @@
     (=daikanwa		. 18635)	; &I-M-18635;
     (<-formed
      ((=ucs@iso		  . #x240EA)	; &C5-6C4A;
-      (=cns11643-5	  . #x6C4A)	; &I-C5-6C4A; [76-42]
-      (=daikanwa 	  . 18698)	; &C5-6C4A;
+      (=cns11643-5	  . #x6C4A)	; &C5-6C4A; [76-42]
+      (=daikanwa	  . 18698)	; &I-M-18698;
       ))
     (<-formed$_1*sources
      koseki)
@@ -62107,8 +62133,8 @@
      koseki)
     (<-vulgar
      ((=ucs@iso		  . #x240EA)	; &C5-6C4A;
-      (=cns11643-5	  . #x6C4A)	; &I-C5-6C4A; [76-42]
-      (=daikanwa 	  . 18698)	; &C5-6C4A;
+      (=cns11643-5	  . #x6C4A)	; &C5-6C4A; [76-42]
+      (=daikanwa	  . 18698)	; &I-M-18698;
       ))
     (<-vulgar*sources
      zhengzitong daikanwa)
@@ -65116,12 +65142,17 @@
     (ideographic-strokes . 17)
     (total-strokes	 . 20)
     (ideographic-structure
-     ?⿰
-     ?氵
-     ?&AJ1-04941;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x6C35)	; 氵
+      )
+     ((=ucs@unicode	  . #x6232)	; &AJ1-04941;
+      (=adobe-japan1-0	  . 04941)	; &AJ1-04941;
+      ))
     (=ucs@iso		. #x240EA)	; &C5-6C4A;
-    (=cns11643-5	. #x6C4A)	; &I-C5-6C4A; [76-42]
-    (=daikanwa		. 18698)	; &C5-6C4A;
+    (=cns11643-5	. #x6C4A)	; &C5-6C4A; [76-42]
+    (=daikanwa 		. 18698)	; &I-M-18698;
     (->subsumptive
      ((==daikanwa	  . 18698)	; &g2-M-18698;
       )
