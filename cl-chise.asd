@@ -1,6 +1,6 @@
 (defsystem :cl-chise
   :description "CHISE implementation based on Common Lisp"
-  :version "1.1"
+  :version "1.2"
   :author "Tomohiko Morioka"
   :licence "LGPL"
   :depends-on (:cl-concord :split-sequence :cl-json)
