@@ -1,5 +1,9 @@
 2024-10-17  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* cl-chise.asd (version): Update to "1.2".
+
+2024-10-17  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* Sync up with the current snapshot [2024-10-12 23:55 JST].
 
 	M	data/char-defs/Ideograph-R029-Again.el
