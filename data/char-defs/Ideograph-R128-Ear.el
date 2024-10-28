@@ -2448,7 +2448,12 @@
     (=daikanwa		. 29073)	; &I-M-29073;
     ))
 (define-char
-  '((ideographic-radical . 128)	; ⽿
+  '((<-denotational@usage
+     ((ideographic-radical . 128)	; ⽿
+      (==>ucs@bucs	. #x8056)	; &BUCS+8056;
+      (==>daijiten	. 09308)	; &A2-DJT-09308;
+      ))
+    (ideographic-radical . 128)	; ⽿
     (ideographic-strokes . 7)
     (total-strokes	 . 13)
     (=ucs		. #x8056)	; 聖
@@ -2496,6 +2501,15 @@
       )
      ((==jef-china3	  . #x60CB)	; &g2-JC3-60CB;
       ))
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x8056)	; 聖
+      ))
+    (ideographic-radical . 128)	; ⽿
+    (ideographic-strokes . 7)
+    (total-strokes	 . 13)
+    (=daijiten		. 09308)	; &I-DJT-09308;
     ))
 (define-char
   '((<-denotational

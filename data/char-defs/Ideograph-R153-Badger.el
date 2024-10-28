@@ -873,9 +873,28 @@
   '((ideographic-radical . 153)	; ⾘
     (ideographic-strokes . 5)
     (total-strokes	 . 12)
+    (ideographic-structure
+     ?⿰
+     ?豸
+     ((=>ucs@component	. #x5723)	; &A-compU+5723;
+      ))
     (=ucs		. #x27CB5)	; 𧲵
+    ))
+(define-char
+  '((ideographic-radical . 153)	; ⾘
+    (ideographic-strokes . 5)
+    (total-strokes	 . 12)
+    (<-denotational
+     ((=ucs		. #x27CB5)	; 𧲵
+      ))
+    (=ucs@iso		. #x27CB5)	; 𧲵
     (=cns11643-5	. #x3C43)	; &I-C5-3C43; [28-35]
     (=daikanwa		. 36530)	; &I-M-36530;
+    (->subsumptive
+     ((==ucs@iso		. #x27CB5)	; 𧲵
+      (==cns11643-5	. #x3C43)	; &I-C5-3C43; [28-35]
+      (==daikanwa		. 36530)	; &I-M-36530;
+      ))
     ))
 (define-char
   '((ideographic-radical . 153)	; ⾘

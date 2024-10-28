@@ -2381,6 +2381,23 @@
      ((=ucs		  . #x72AC)	; 犬
       ))
     (=ucs		. #x25B07)	; 𥬇
+    ))
+(define-char
+  '((ideographic-radical . 118)	; ⽵
+    (ideographic-strokes . 4)
+    (total-strokes	 . 10)
+    (<-denotational
+     ((=ucs		. #x25B07)	; 𥬇
+      ))
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		. #x2EAE)	; ⺮
+      )
+     ((=ucs		  . #x72AC)	; 犬
+      ))
+    (=ucs@iso		. #x25B07)	; 𥬇
     (=cns11643-4	. #x2E76)	; &I-C4-2E76; [14-86]
     (=daikanwa		. 49424)	; &I-M-49424;
     (=chise-hdic-syp	. #x2B01)	; 𥬇
@@ -23865,9 +23882,32 @@
   '((ideographic-radical . 118)	; ⽵
     (ideographic-strokes . 11)
     (total-strokes	 . 17)
+    (ideographic-structure
+     ?⿱
+     ?竹
+     ?𠊳)
     (=ucs		. #x25CBC)	; 𥲼
+    ))
+(define-char
+  '((ideographic-radical . 118)	; ⽵
+    (ideographic-strokes . 11)
+    (total-strokes	 . 17)
+    (<-denotational
+     ((=ucs		. #x25CBC)	; 𥲼
+      ))
+    (ideographic-structure
+     ?⿱
+     ?⺮
+     ((=ucs@iso		. #x202B3)	; &C6-3D2E;
+      ))
+    (=ucs@iso		. #x25CBC)	; 𥲼
     (=cns11643-7	. #x3A2E)	; &I-C7-3A2E; [26-14]
     (=daikanwa		. 49434)	; &I-M-49434;
+    (->subsumptive
+     ((==ucs@iso		. #x25CBC)	; 𥲼
+      (==cns11643-7	. #x3A2E)	; &I-C7-3A2E; [26-14]
+      (==daikanwa		. 49434)	; &I-M-49434;
+      ))
     ))
 (define-char
   '((ideographic-radical . 118)	; ⽵
@@ -31293,9 +31333,27 @@
   '((ideographic-radical . 118)	; ⽵
     (ideographic-strokes . 15)
     (total-strokes	 . 21)
+    (ideographic-structure
+     ?⿱
+     ?竹
+     ?𢵄)
     (=ucs		. #x25DAA)	; 𥶪
+    ))
+(define-char
+  '((ideographic-radical . 118)	; ⽵
+    (ideographic-strokes . 15)
+    (total-strokes	 . 21)
+    (<-denotational
+     ((=ucs		. #x25DAA)	; 𥶪
+      ))
+    (=ucs@iso		. #x25DAA)	; 𥶪
     (=cns11643-7	. #x5433)	; &I-C7-5433; [52-19]
     (=daikanwa		. 49445)	; &I-M-49445;
+    (->subsumptive
+     ((==ucs@iso		. #x25DAA)	; 𥶪
+      (==cns11643-7	. #x5433)	; &I-C7-5433; [52-19]
+      (==daikanwa		. 49445)	; &I-M-49445;
+      ))
     ))
 (define-char
   '((ideographic-radical . 118)	; ⽵

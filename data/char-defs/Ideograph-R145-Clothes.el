@@ -23978,7 +23978,13 @@
     (ideographic-radical . 145)	; ⾐
     (ideographic-strokes . 19)
     (total-strokes	 . 25)
+    (=ucs@unicode	. #x4670)	; &C3-6079;
     (=daikanwa		. 34742)	; &M-34742;
+    (->subsumptive
+     ((==daikanwa		. 34742)	; &M-34742;
+      )
+     ((==ucs@unicode	  . #x4670)	; &g2-UU+4670;
+      ))
     ))
 (define-char
   '((<-denotational
@@ -23987,13 +23993,12 @@
     (ideographic-radical . 145)	; ⾐
     (ideographic-strokes . 18)
     (total-strokes	 . 24)
-    (=ucs@unicode	. #x4670)	; &C3-6079;
+    (=ucs@cns	  . #x4670)	; &g2-CU+4670;
+    (=cns11643-3	  . #x6079)	; &g2-CU+4670; [64-89]
     (=cns11643-3	. #x6079)	; &C3-6079; [64-89]
     (->subsumptive
      ((==ucs@cns	  . #x4670)	; &g2-CU+4670;
       (==cns11643-3	  . #x6079)	; &g2-CU+4670; [64-89]
-      )
-     ((==ucs@unicode	  . #x4670)	; &g2-UU+4670;
       ))
     ))
 (define-char

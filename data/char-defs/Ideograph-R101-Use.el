@@ -150,6 +150,7 @@
     (ideographic-radical . 101)	; ⽤
     (ideographic-strokes . 0)
     (total-strokes	 . 5)
+    (sound@ja/on	"syutu")
     (=ucs		. #x7529)	; 甩
     ))
 (define-char
@@ -163,7 +164,7 @@
     (=mj		. 017630)	; &MJ017630;
     (=jis-x0212		. #x4D28)	; &I-JSP-4D28; [45-08]
     (=koseki		. 243380)	; &MJ017630;
-    (=daikanwa 		. 21704)	; &I-M-21704;
+    (=daikanwa		. 21704)	; &I-M-21704;
     (<-formed
      ((=ucs@jis		  . #x6454)	; &JSP-405E;
       (=jis-x0212	  . #x405E)	; &JSP-405E; [32-62]
@@ -173,6 +174,13 @@
      koseki)
     (<-formed*sources
      koseki)
+    (<-same
+     ((=ucs@jis		  . #x6454)	; &JSP-405E;
+      (=jis-x0212	  . #x405E)	; &JSP-405E; [32-62]
+      (=daikanwa	  . 12577)	; &I-M-12577;
+      ))
+    (<-same*sources
+     cihai daikanwa)
     (->subsumptive
      ((==ucs@jis	  . #x7529)	; &g2-MJ017630;
       (==mj		  . 017630)	; &g2-MJ017630;

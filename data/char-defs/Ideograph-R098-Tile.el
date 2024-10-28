@@ -3468,7 +3468,7 @@
       ))
     (=ucs@unicode	. #x3F41)	; &C3-5551;
     (=cns11643-3	. #x5551)	; &C3-5551; [53-49]
-    (=daikanwa 		. 21599)	; &I-M-21599;
+    (=daikanwa		. 21599)	; &I-M-21599;
     (=shinjigen		.  9505)	; &C3-5551;
     (<-formed
      ((=ucs@jis		  . #x9B32)	; &AJ1-07300;
@@ -4609,7 +4609,18 @@
   '((ideographic-radical . 98)	; ⽡
     (ideographic-strokes . 19)
     (total-strokes	 . 24)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x7215)	; 爕
+      )
+     ((=ucs		  . #x74E6)	; 瓦
+      ))
     (=ucs		. #x24BB6)	; 𤮶
+    (->subsumptive
+     ((==ucs@iso	  . #x24BB6)	; &g2-IU-00024BB6;
+      ))
     ))
 (define-char
   '((ideographic-radical . 98)	; ⽡

@@ -565,6 +565,38 @@
 (define-char
   '((ideographic-radical . 205)	; ⿌
     (ideographic-strokes . 3)
+    (total-strokes	 . 12)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=>ucs@iwds-1	  . #x571F)	; &A-IWDSU+571F;
+      (=>iwds-1		  .  0312)	; &A-IWDSU+571F;
+      )
+     ((=big5-cdp	  . #x89BD)	; &CDP-89BD;
+      ))
+    (=>ucs-itaiji-004	. #x9F00)	; &A-U-i004+9F00;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-004	  . #x9F00)	; &A-U-i004+9F00;
+      ))
+    (ideographic-radical . 205)	; ⿌
+    (ideographic-strokes . 3)
+    (total-strokes	 . 12)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x571F)	; 土
+      )
+     ((=big5-cdp	  . #x89BD)	; &CDP-89BD;
+      ))
+    (=ucs-itaiji-004	. #x9F00)	; &U-i004+9F00;
+    ))
+(define-char
+  '((ideographic-radical . 205)	; ⿌
+    (ideographic-strokes . 3)
     (total-strokes	 . 16)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
@@ -614,38 +646,6 @@
     (<-simplified@component
      ((=ucs		  . #x9F00)	; 鼀
       ))
-    ))
-(define-char
-  '((ideographic-radical . 205)	; ⿌
-    (ideographic-strokes . 3)
-    (total-strokes	 . 12)
-    (ideographic-structure
-     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
-      (=ucs		  . #x2FF1)	; ⿱
-      )
-     ((=>ucs@iwds-1	  . #x571F)	; &A-IWDSU+571F;
-      (=>iwds-1		  .  0312)	; &A-IWDSU+571F;
-      )
-     ((=big5-cdp	  . #x89BD)	; &CDP-89BD;
-      ))
-    (=>ucs-itaiji-004	. #x9F00)	; &A-U-i004+9F00;
-    ))
-(define-char
-  '((<-denotational
-     ((=>ucs-itaiji-004	  . #x9F00)	; &A-U-i004+9F00;
-      ))
-    (ideographic-radical . 205)	; ⿌
-    (ideographic-strokes . 3)
-    (total-strokes	 . 12)
-    (ideographic-structure
-     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
-      (=ucs		  . #x2FF1)	; ⿱
-      )
-     ((=ucs		  . #x571F)	; 土
-      )
-     ((=big5-cdp	  . #x89BD)	; &CDP-89BD;
-      ))
-    (=ucs-itaiji-004	. #x9F00)	; &U-i004+9F00;
     ))
 (define-char
   '((<-denotational@usage

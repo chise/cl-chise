@@ -30533,8 +30533,8 @@
     (sound@ja/on	"hAu")
     (=ucs		. #x2F857)	; 報
     (=cns11643-6	. #x514A)	; &I-C6-514A; [49-42]
+    (=hanyo-denshi/ks	. 061470)	; 報
     (=daikanwa		. 05383)	; &I-M-05383;
-    (=hanyo-denshi/ks  . 061470)	; &g2-HD-KS-061470;
     (<-wrong
      ((=ucs@unicode	  . #x5831)	; &AJ1-03651;
       (=adobe-japan1-0	  . 03651)	; &AJ1-03651;

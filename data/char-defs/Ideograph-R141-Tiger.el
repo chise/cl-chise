@@ -210,6 +210,38 @@
 (define-char
   '((ideographic-radical . 141)	; ⾌
     (ideographic-strokes . 0)
+    (total-strokes	 . 5)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
+      (=ucs		  . #x2FF8)	; ⿸
+      )
+     ((=ucs		  . #x5E7F)	; 广
+      )
+     ((=>ucs@iwds-1	  . #x4E03)	; &A-IWDSU+4E03;
+      (=>iwds-1		  .  0141)	; &A-IWDSU+4E03;
+      ))
+    (=>ucs-itaiji-002	. #x2CEC9)	; &A-U-i002+2CEC9;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-002	  . #x2CEC9)	; &A-U-i002+2CEC9;
+      ))
+    (ideographic-radical . 141)	; ⾌
+    (ideographic-strokes . 0)
+    (total-strokes	 . 5)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
+      (=ucs		  . #x2FF8)	; ⿸
+      )
+     ((=ucs		  . #x5E7F)	; 广
+      )
+     ((=ucs		  . #x4E03)	; 七
+      ))
+    (=ucs-itaiji-002	. #x2CEC9)	; &U-i002+2CEC9;
+    ))
+(define-char
+  '((ideographic-radical . 141)	; ⾌
+    (ideographic-strokes . 0)
     (total-strokes	 . 6)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
@@ -318,38 +350,6 @@
     (->subsumptive
      ((==ucs-itaiji-006	  . #x864D)	; &g2-U-i006+864D;
       ))
-    ))
-(define-char
-  '((ideographic-radical . 141)	; ⾌
-    (ideographic-strokes . 0)
-    (total-strokes	 . 5)
-    (ideographic-structure
-     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
-      (=ucs		  . #x2FF8)	; ⿸
-      )
-     ((=ucs		  . #x5E7F)	; 广
-      )
-     ((=>ucs@iwds-1	  . #x4E03)	; &A-IWDSU+4E03;
-      (=>iwds-1		  .  0141)	; &A-IWDSU+4E03;
-      ))
-    (=>ucs-itaiji-002	. #x2CEC9)	; &A-U-i002+2CEC9;
-    ))
-(define-char
-  '((<-denotational
-     ((=>ucs-itaiji-002	  . #x2CEC9)	; &A-U-i002+2CEC9;
-      ))
-    (ideographic-radical . 141)	; ⾌
-    (ideographic-strokes . 0)
-    (total-strokes	 . 5)
-    (ideographic-structure
-     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
-      (=ucs		  . #x2FF8)	; ⿸
-      )
-     ((=ucs		  . #x5E7F)	; 广
-      )
-     ((=ucs		  . #x4E03)	; 七
-      ))
-    (=ucs-itaiji-002	. #x2CEC9)	; &U-i002+2CEC9;
     ))
 (define-char
   '((<-denotational@component

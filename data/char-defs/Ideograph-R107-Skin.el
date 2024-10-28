@@ -2760,6 +2760,7 @@
       )
      ((=ucs		  . #x76AE)	; 皮
       ))
+    (sound@ja/on	"keN")
     (=ucs		. #x25039)	; 𥀹
     ))
 (define-char
@@ -2780,7 +2781,27 @@
       ))
     (=ucs@cns		. #x25039)	; &C5-776C;
     (=cns11643-5	. #x776C)	; &C5-776C; [87-76]
-    (=daikanwa 		. 22939)	; &I-M-22939;
+    (=daikanwa		. 22939)	; &I-M-22939;
+    (<-formed
+     ((=ucs@unicode	. #x8DBC)	; &GT-50007;
+      (=daikanwa	  . 37398)	; &GT-50007;
+      ))
+    (<-formed$_1*sources
+     jiyun yunhai)
+    (<-interchangeable
+     ((=daikanwa	  . 27944)	; &M-27944;
+      ))
+    (<-interchangeable$_1*sources
+     yunhai daikanwa)
+    (<-interchangeable*sources
+     yunhai daikanwa)
+    (<-same
+     ((=daikanwa 	  . 37398)	; &GT-50007;
+      ))
+    (<-same$_1*sources
+     jiyun yunhai daikanwa)
+    (<-same*sources
+     jiyun yunhai daikanwa)
     (->subsumptive
      ((==ucs@cns	  . #x25039)	; &g2-M-22939;
       (==cns11643-5	  . #x776C)	; &g2-M-22939; [87-76]
@@ -2804,7 +2825,7 @@
       (=ucs		  . #x2FF0)	; ⿰
       )
      ((=ucs@unicode	  . #x7E6D)	; &AJ1-03752;
-      (=adobe-japan1-0	  . 03752)	; &I-AJ1-03752;
+      (=adobe-japan1-0	  . 03752)	; &AJ1-03752;
       )
      ((=ucs		  . #x76AE)	; 皮
       ))

@@ -65132,6 +65132,7 @@
       )
      ((=ucs		  . #x6232)	; 戲
       ))
+    (sound@ja/on	"ki")
     (=ucs		. #x240EA)	; 𤃪
     ))
 (define-char
@@ -65152,7 +65153,16 @@
       ))
     (=ucs@iso		. #x240EA)	; &C5-6C4A;
     (=cns11643-5	. #x6C4A)	; &C5-6C4A; [76-42]
-    (=daikanwa 		. 18698)	; &I-M-18698;
+    (=daikanwa		. 18698)	; &I-M-18698;
+    (->interchangeable
+     ((=ucs@unicode	  . #x6232)	; &AJ1-04941;
+      (=adobe-japan1-0	  . 04941)	; &AJ1-04941;
+      (=daikanwa	  . 11681)	; &I-M-11681;
+      ))
+    (->interchangeable$_1*sources
+     jiyun daikanwa)
+    (->interchangeable*sources
+     jiyun daikanwa)
     (->subsumptive
      ((==daikanwa	  . 18698)	; &g2-M-18698;
       )

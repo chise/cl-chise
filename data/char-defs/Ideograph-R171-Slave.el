@@ -21,7 +21,7 @@
     (=daikanwa		. 41923)	; &I-M-41923;
     (=daijiten		. 12940)	; &I-DJT-12940;
     (<-simplified@CN
-     ((=ucs		. #x96B8)	; 隸
+     ((=ucs		  . #x96B8)	; 隸
       (=gb12345		  . #x4125)	; 隸 [33-05]
       ))
     (->subsumptive
@@ -411,17 +411,19 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((ideographic-radical . 171)	; ⾪
-      (==>ucs@bucs	. #x96B7)	; &BUCS+96B7;
-      (==>daijiten	. 12945)	; &BUCS+96B7;
+     ((==>ucs@bucs	  . #x96B7)	; &BUCS+96B7;
       ))
     (ideographic-radical . 171)	; ⾪
     (ideographic-strokes . 9)
     (total-strokes	 . 17)
     (ideographic-structure
-     ?⿰
-     ?柰
-     ?隶)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x67F0)	; 柰
+      )
+     ((=ucs		  . #x96B6)	; 隶
+      ))
     (=ucs		. #x96B8)	; 隸
     (=adobe-japan1-0	. 07114)	; &I-AJ1-07114;
     (=jis-x0208		. #x7031)	; &I-J90-7031; [80-17]
@@ -445,9 +447,11 @@
       (==jis-x0213-1	  . #x7031)	; &g2-AJ1-07114; [80-17]
       (==gb12345	  . #x4125)	; &g2-AJ1-07114; [33-05]
       (==gt		  . 56348)	; &g2-AJ1-07114;
+      (==daijiten	  . 12945)	; &g2-AJ1-07114;
       (==shinjigen	  .  8939)	; &g2-AJ1-07114;
-      (==daijiten	. 12945)	; &I-DJT-12945;
       (->subsumptive
+       ((===daijiten	    . 12945)	; &R-DJT-12945;
+	)
        ((===jis-x0208	    . #x7031)	; &R-J0-7031; [80-17]
 	(===jis-x0213-1	    . #x7031)	; &R-J0-7031; [80-17]
 	)
@@ -544,7 +548,7 @@
       (=ucs		  . #x2FF0)	; ⿰
       )
      ((=ucs@iso		  . #x2A417)	; &C6-6476;
-      (=cns11643-6	  . #x6476)	; &I-C6-6476; [68-86]
+      (=cns11643-6	  . #x6476)	; &C6-6476; [68-86]
       (=daikanwa	  . 48039)	; &I-M-48039;
       )
      ((=ucs		  . #x96B6)	; 隶

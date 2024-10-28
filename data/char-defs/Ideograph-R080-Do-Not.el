@@ -983,6 +983,7 @@
       )
      ((=ucs		  . #x4E5F)	; 也
       ))
+    (sound@ja/on	"sa" "sya")
     (=ucs		. #x6BD1)	; 毑
     ))
 (define-char
@@ -1002,10 +1003,28 @@
       ))
     (=ucs@unicode	. #x6BD1)	; &C3-295A;
     (=cns11643-3	. #x295A)	; &C3-295A; [09-58]
-    (=daikanwa 		. 16729)	; &I-M-16729;
+    (=daikanwa		. 16729)	; &I-M-16729;
     (<-ancient
      ((=ucs		  . #x59D0)	; 姐
+      (=daikanwa	  . 06172)	; &I-M-06172;
       ))
+    (<-ancient$_1*sources
+     jiyun daikanwa)
+    (<-ancient*sources
+     jiyun daikanwa)
+    (->formed
+     ((=ucs		  . #x5979)	; 她
+      (=daikanwa	  . 06046)	; &I-M-06046;
+      )
+     ((=ucs		  . #x59D0)	; 姐
+      (=daikanwa	  . 06172)	; &I-M-06172;
+      ))
+    (->formed$_1*sources
+     jiyun daikanwa)
+    (->formed$_2*sources
+     jiyun daikanwa)
+    (->formed*sources
+     jiyun daikanwa)
     (->subsumptive
      ((==ucs@unicode	  . #x6BD1)	; &g2-M-16729;
       (==daikanwa	  . 16729)	; &g2-M-16729;

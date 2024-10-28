@@ -11969,8 +11969,22 @@
     (ideographic-strokes . 10)
     (total-strokes	 . 15)
     (=ucs		. #x24CBF)	; 𤲿
+    ))
+(define-char
+  '((ideographic-radical . 102)	; ⽥
+    (ideographic-strokes . 10)
+    (total-strokes	 . 15)
+    (<-denotational
+     ((=ucs		. #x24CBF)	; 𤲿
+      ))
+    (=ucs@iso		. #x24CBF)	; 𤲿
     (=cns11643-7	. #x2551)	; &I-C7-2551; [05-49]
     (=daikanwa		. 49340)	; &I-M-49340;
+    (->subsumptive
+     ((==ucs@iso		. #x24CBF)	; 𤲿
+      (==cns11643-7	. #x2551)	; &I-C7-2551; [05-49]
+      (==daikanwa		. 49340)	; &I-M-49340;
+      ))
     ))
 (define-char
   '((ideographic-radical . 102)	; ⽥

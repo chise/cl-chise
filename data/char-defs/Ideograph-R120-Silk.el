@@ -5896,27 +5896,54 @@
       ))
     ))
 (define-char
+  '((<-denotational@usage
+     ((ideographic-radical . 120)	; ⽷
+      (==>ucs@bucs	. #x7D3C)	; &BUCS+7D3C;
+      (==>daijiten	. 08789)	; &A2-DJT-08789;
+      ))
+    (ideographic-radical . 120)	; ⽷
+    (ideographic-strokes . 5)
+    (total-strokes	 . 11)
+    (ideographic-structure
+     ?⿰
+     ?糸
+     ?弗)
+    (=ucs		. #x7D3C)	; 紼
+    ))
+(define-char
   '((ideographic-radical . 120)	; ⽷
     (ideographic-strokes . 5)
     (total-strokes	 . 11)
-    (=ucs		. #x7D3C)	; 紼
+    (<-denotational
+     ((=ucs		. #x7D3C)	; 紼
+      ))
+    (=ucs@unicode	. #x7D3C)	; 紼
     (=adobe-japan1-5	. 19661)	; &I-AJ1-19661;
     (=jis-x0212		. #x535B)	; &I-JSP-535B; [51-59]
     (=cns11643-1	. #x5C56)	; &I-C1-5C56; [60-54]
     (=gb12345		. #x6728)	; 紼 [71-08]
     (=big5		. #xB2D1)	; &I-B-B2D1;
     (=daikanwa		. 27364)	; &I-M-27364;
+    (=daijiten		. 08789)	; &I-DJT-08789;
     (->subsumptive
-     ((==ucs@jis	  . #x7D3C)	; &g2-AJ1-19661;
-      (==adobe-japan1-5	  . 19661)	; &g2-AJ1-19661;
-      (==jis-x0212	  . #x535B)	; &g2-AJ1-19661; [51-59]
-      (==daikanwa	  . 27364)	; &g2-AJ1-19661;
+     ((=>>ucs@jis	  . #x7D3C)	; &g2-AJ1-19661;
+      (=>>adobe-japan1-5	  . 19661)	; &g2-AJ1-19661;
+      (=>>jis-x0212	  . #x535B)	; &g2-AJ1-19661; [51-59]
+      (=>>daikanwa	  . 27364)	; &g2-AJ1-19661;
+      (=>>daijiten	. 08789)	; &I-DJT-08789;
       (->subsumptive
-       ((===daikanwa	    . 27364)	; &R-M-27364;
-	)
-       ((===jis-x0212	    . #x535B)	; &R-JSP-535B; [51-59]
-	)
-       ((===adobe-japan1-5  . 19661)	; &R-AJ1-19661;
+       ((==ucs@jis	  . #x7D3C)	; &g2-AJ1-19661;
+	(==adobe-japan1-5	  . 19661)	; &g2-AJ1-19661;
+	(==jis-x0212	  . #x535B)	; &g2-AJ1-19661; [51-59]
+	(==daikanwa	  . 27364)	; &g2-AJ1-19661;
+	(==daijiten	. 08789)	; &I-DJT-08789;
+	(->subsumptive
+	 ((===daikanwa	    . 27364)	; &R-M-27364;
+	  )
+	 ((===jis-x0212	    . #x535B)	; &R-JSP-535B; [51-59]
+	  )
+	 ((===adobe-japan1-5  . 19661)	; &R-AJ1-19661;
+	  ))
 	))
       )
      ((=>>ucs@unicode	  . #x7D3C)	; &G-UU+7D3C;
@@ -13032,12 +13059,8 @@
 	)
        ((=ucs@cns		  . #x7CFB)	; &C1-4B37;
 	))
-      (=ucs@cns	  . #x7DD0)	; &UU+7DD0;
-      (=cns11643-3	  . #x6629)	; &C3-6629; [70-09]
-      (->subsumptive
-       ((==ucs@cns	  . #x7DD0)	; &UU+7DD0;
-	(==cns11643-3	  . #x6629)	; &C3-6629; [70-09]
-	))
+      (=ucs@cns/2008	  . #x7DD0)	; &UU+7DD0;
+      (=cns11643-3@2008	  . #x6629)	; &C3-6629; [70-09]
       ))
     ))
 (define-char

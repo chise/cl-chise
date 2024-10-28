@@ -1772,13 +1772,33 @@
   '((ideographic-radical . 119)	; ⽶
     (ideographic-strokes . 4)
     (total-strokes	 . 10)
+    (ideographic-structure
+     ?⿰
+     ?米
+     ?气)
     (=ucs		. #x25E3D)	; 𥸽
-    (->subsumptive
-     ((=ucs@iso		  . #x25E3D)	; &M-49457;
-      (=daikanwa	  . 49457)	; &M-49457;
-      )
-     ((=cns11643-6	  . #x3A53)	; &C6-3A53; [26-51]
+    ))
+(define-char
+  '((ideographic-radical . 119)	; ⽶
+    (ideographic-strokes . 4)
+    (total-strokes	 . 10)
+    (ideographic-structure
+     ?⿰
+     ?米
+     ((=hanyo-denshi/ks	. 002130)	; &HD-KS-002130;
       ))
+    (<-denotational
+     ((=ucs		. #x25E3D)	; 𥸽
+      ))
+    (=ucs@iso		  . #x25E3D)	; &M-49457;
+    (=daikanwa	  . 49457)	; &M-49457;
+    (->subsumptive
+     ((==ucs@iso		  . #x25E3D)	; &M-49457;
+      (==daikanwa	  . 49457)	; &M-49457;
+      )
+     ((==cns11643-6	  . #x3A53)	; &C6-3A53; [26-51]
+      ))
+    (=cns11643-6	  . #x3A53)	; &C6-3A53; [26-51]
     ))
 (define-char
   '((ideographic-radical . 119)	; ⽶

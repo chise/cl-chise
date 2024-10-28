@@ -12571,6 +12571,13 @@
     ))
 (define-char
   '((ideographic-radical . 149)	; ⾔
+    (=>ucs@cognate	. #x2E60E)	; 𮘎
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@cognate	. #x2E60E)	; 𮘎
+      ))
+    (ideographic-radical . 149)	; ⾔
     (ideographic-strokes . 6)
     (total-strokes	 . 13)
     (ideographic-structure
@@ -12617,6 +12624,33 @@
        ((===mj		    . 058745)	; &R-MJ058745;
 	))
       ))
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@cognate	. #x2E60E)	; 𮘎
+      ))
+    (ideographic-radical . 149)	; ⾔
+    (ideographic-strokes . 6)
+    (total-strokes	 . 13)
+    (ideographic-structure
+     ?⿴
+     ?𢆶
+     ?言)
+    (=>ucs-itaiji-001	. #x2E60E)	; &BUCS+4E01;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-001	. #x2E60E)	; &BUCS+4E01;
+      ))
+    (ideographic-radical . 149)	; ⾔
+    (ideographic-strokes . 6)
+    (total-strokes	 . 13)
+    (ideographic-structure
+     ?⿴
+     ((=ucs@iso		. #x221B6)	; &C4-2267;
+      )
+     ?言)
+    (=ucs-itaiji-001	. #x2E60E)	; 𮘎
     ))
 (define-char
   '((ideographic-radical . 149)	; ⾔

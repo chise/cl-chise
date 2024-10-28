@@ -852,6 +852,10 @@
     (=jef-china3	. #x91C0)	; &I-JC3-91C0;
     (<-formed
      ((=ucs		  . #x59D0)	; 姐
+      )
+     ((=ucs@unicode	  . #x6BD1)	; &C3-295A;
+      (=cns11643-3	  . #x295A)	; &C3-295A; [09-58]
+      (=daikanwa	  . 16729)	; &I-M-16729;
       ))
     (<-formed$_1*sources
      jiyun)
@@ -8574,6 +8578,10 @@
       )
      ((=ucs@unicode	  . #x3718)	; &MJ000687;
       (=mj		  . 000687)	; &MJ000687;
+      )
+     ((=ucs@unicode	  . #x6BD1)	; &C3-295A;
+      (=cns11643-3	  . #x295A)	; &C3-295A; [09-58]
+      (=daikanwa	  . 16729)	; &I-M-16729;
       ))
     (<-formed$_1*sources
      jiyun)
@@ -13798,10 +13806,28 @@
       ))
     ))
 (define-char
+  '((<-denotational@usage
+     ((ideographic-radical . 38)	; ⼥
+      (==>ucs@bucs	. #x5A03)	; &BUCS+5A03;
+      (==>daijiten	. 02106)	; &A2-DJT-02106;
+      ))
+    (ideographic-radical . 38)	; ⼥
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ?⿰
+     ?女
+     ?圭)
+    (=ucs		. #x5A03)	; 娃
+    ))
+(define-char
   '((ideographic-radical . 38)	; ⼥
     (ideographic-strokes . 6)
     (total-strokes	 . 9)
-    (=ucs		. #x5A03)	; 娃
+    (<-denotational
+     ((=ucs		. #x5A03)	; 娃
+      ))
+    (=ucs@unicode	. #x5A03)	; 娃
     (=mj		. 009696)	; &I-MJ009696;
     (=adobe-japan1-0	. 01127)	; &I-AJ1-01127;
     (=jis-x0208		. #x3023)	; &I-J90-3023; [16-03]
@@ -13815,6 +13841,7 @@
     (=gt-k		. 05015)	; &I-GT-K05015;
     (=gt-pj-1		. #x3023)	; &I-GT-07802; [16-03]
     (=daikanwa		. 06262)	; &I-M-06262;
+    (=daijiten		. 02106)	; &I-DJT-02106;
     (=shinjigen		.  1640)	; 娃
     (->subsumptive
      ((=decomposition@cid
@@ -13833,6 +13860,7 @@
       (==gt		  . 07802)	; &g2-MJ009696;
       (==gt-k		  . 05015)	; &g2-MJ009696;
       (==daikanwa	  . 06262)	; &g2-MJ009696;
+      (==daijiten	. 02106)	; &I-DJT-02106;
       (==shinjigen	  .  1640)	; &g2-MJ009696;
       (->subsumptive
        ((===daikanwa	    . 06262)	; &R-M-06262;
@@ -28257,6 +28285,7 @@
       )
      ((=ucs		  . #x8005)	; 者
       ))
+    (sound@ja/on	"so")
     (=ucs		. #x5A8E)	; 媎
     ))
 (define-char
@@ -28276,10 +28305,16 @@
       ))
     (=mj		. 009837)	; &MJ009837;
     (=koseki		. 074040)	; &MJ009837;
-    (=daikanwa 		. 06491)	; &I-M-06491;
+    (=daikanwa		. 06491)	; &I-M-06491;
     (<-formed
      ((=ucs		  . #x59D0)	; 姐
       ))
+    (<-same
+     ((=ucs		  . #x59D0)	; 姐
+      (=daikanwa	  . 06172)	; &I-M-06172;
+      ))
+    (<-same*sources
+     zihui daikanwa)
     (->subsumptive
      ((==mj		  . 009837)	; &g2-MJ009837;
       (==koseki		  . 074040)	; &g2-MJ009837;
@@ -49734,7 +49769,12 @@
   '((ideographic-radical . 38)	; ⼥
     (ideographic-strokes . 13)
     (total-strokes	 . 16)
-    (=ucs 		. #x218AE)	; 𡢮
+    (ideographic-structure
+     ?⿱
+     ((=>ucs-itaiji-001	. #x2E60E)	; &A-U-i001+2E60E;
+      )
+     ?女)
+    (=ucs		. #x218AE)	; 𡢮
     ))
 (define-char
   '((<-denotational
@@ -49743,7 +49783,12 @@
     (ideographic-radical . 38)	; ⼥
     (ideographic-strokes . 13)
     (total-strokes	 . 16)
-    (=ucs@iso 		. #x218AE)	; &U-000218AE;
+    (ideographic-structure
+     ?⿱
+     ((=ucs-itaiji-001	. #x2E60E)	; &U-i001+2E60E;
+      )
+     ?女)
+    (=ucs@iso		. #x218AE)	; &U-000218AE;
     ))
 (define-char
   '((ideographic-radical . 38)	; ⼥

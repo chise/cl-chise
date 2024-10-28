@@ -1524,7 +1524,7 @@
   '((shuowen-radical	. 382)	; 火
     (=shuowen-jiguge	. 34911)	; &SW-JIGUGE-34911;
     (<-Small-Seal@shuowen
-     ((=ucs		. #x706E)	; 灮
+     ((=ucs		  . #x706E)	; 灮
       )
      ((=ucs		  . #x5149)	; 光
       ))
@@ -1543,9 +1543,9 @@
      ((=ucs		  . #x243AB)	; 𤎫
       ))
     (<-ancient@shuowen
-     ((=shuowen-jiguge	. 34911)	; &SW-JIGUGE-34911;
+     ((=shuowen-jiguge	  . 34911)	; &SW-JIGUGE-34911;
       )
-     ((=ucs		. #x706E)	; 灮
+     ((=ucs		  . #x706E)	; 灮
       )
      ((=ucs		  . #x5149)	; 光
       ))
@@ -1563,12 +1563,12 @@
     (<-Small-Seal@shuowen
      ((=ucs		  . #x7097)	; 炗
       )
-     ((=>big5-cdp		. #x8D67)	; &CDP-8D67;
+     ((=>big5-cdp	  . #x8D67)	; &A-CDP-8D67;
       ))
     (<-ancient@shuowen
-     ((=shuowen-jiguge	. 34911)	; &SW-JIGUGE-34911;
+     ((=shuowen-jiguge	  . 34911)	; &SW-JIGUGE-34911;
       )
-     ((=ucs		. #x706E)	; 灮
+     ((=ucs		  . #x706E)	; 灮
       )
      ((=ucs		  . #x5149)	; 光
       ))
