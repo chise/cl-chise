@@ -1773,32 +1773,45 @@
     (ideographic-strokes . 4)
     (total-strokes	 . 10)
     (ideographic-structure
-     ?⿰
-     ?米
-     ?气)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x7C73)	; 米
+      )
+     ((=ucs		  . #x6C14)	; 气
+      ))
     (=ucs		. #x25E3D)	; 𥸽
     ))
 (define-char
-  '((ideographic-radical . 119)	; ⽶
+  '((<-denotational
+     ((=ucs		  . #x25E3D)	; 𥸽
+      ))
+    (ideographic-radical . 119)	; ⽶
     (ideographic-strokes . 4)
     (total-strokes	 . 10)
     (ideographic-structure
-     ?⿰
-     ?米
-     ((=hanyo-denshi/ks	. 002130)	; &HD-KS-002130;
-      ))
-    (<-denotational
-     ((=ucs		. #x25E3D)	; 𥸽
-      ))
-    (=ucs@iso		  . #x25E3D)	; &M-49457;
-    (=daikanwa	  . 49457)	; &M-49457;
-    (->subsumptive
-     ((==ucs@iso		  . #x25E3D)	; &M-49457;
-      (==daikanwa	  . 49457)	; &M-49457;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
       )
-     ((==cns11643-6	  . #x3A53)	; &C6-3A53; [26-51]
+     ((=ucs		  . #x7C73)	; 米
+      )
+     ((=hanyo-denshi/ks	  . 002130)	; &HD-KS-002130;
       ))
-    (=cns11643-6	  . #x3A53)	; &C6-3A53; [26-51]
+    (=ucs@iso		. #x25E3D)	; &C6-3A53;
+    (=cns11643-6	. #x3A53)	; &I-C6-3A53; [26-51]
+    (=daikanwa 		. 49457)	; &C6-3A53;
+    (->subsumptive
+     ((==ucs@iso	  . #x25E3D)	; &g2-M-49457;
+      (==daikanwa	  . 49457)	; &g2-M-49457;
+      (->subsumptive
+       ((===daikanwa	    . 49457)	; &R-M-49457;
+	)
+       ((===ucs@iso	    . #x25E3D)	; &R-U-00025E3D;
+	))
+      )
+     ((==ucs@cns	  . #x25E3D)	; &g2-CU+25E3D;
+      (==cns11643-6	  . #x3A53)	; &g2-CU+25E3D; [26-51]
+      ))
     ))
 (define-char
   '((ideographic-radical . 119)	; ⽶
@@ -7481,7 +7494,7 @@
     (ideographic-radical . 119)	; ⽶
     (ideographic-strokes . 9)
     (total-strokes	 . 15)
-    (=ucs@cns 		. #x25ED4)	; &C7-265A;
+    (=ucs@cns  		. #x25ED4)	; &C7-265A;
     (=cns11643-7	. #x265A)	; &C7-265A; [06-58]
     (->subsumptive
      ((==ucs@cns	  . #x25ED4)	; &g2-CU+25ED4;
@@ -13202,7 +13215,7 @@
     ))
 (define-char
   '((ideographic-radical . 119)	; ⽶
-    (=ucs  		. #x31E68)	; 𱹨
+    (=ucs 		. #x31E68)	; 𱹨
     ))
 (define-char
   '((<-denotational

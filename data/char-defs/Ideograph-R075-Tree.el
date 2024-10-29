@@ -2539,9 +2539,18 @@
     (===hng-kar		. 01930)	; &HNG018-01930;
     ))
 (define-char
-  '((ideographic-radical . 75)	; ⽊
+  '((<-denotational@usage
+     ((ideographic-radical . 75)	; ⽊
+      (==>ucs@bucs	. #x6751)	; &BUCS+6751;
+      (==>daijiten	. 04739)	; &A2-DJT-04739;
+      ))
+    (ideographic-radical . 75)	; ⽊
     (ideographic-strokes . 3)
     (total-strokes	 . 7)
+    (ideographic-structure
+     ?⿰
+     ?木
+     ?寸)
     (=ucs		. #x6751)	; 村
     (=adobe-japan1-0	. 02844)	; &I-AJ1-02844;
     (=jis-x0208		. #x423C)	; &I-J90-423C; [34-28]
@@ -2554,7 +2563,24 @@
     (=gt-k		. 02601)	; &I-GT-K02601;
     (=gt-pj-1		. #x423C)	; &I-GT-18415; [34-28]
     (=daikanwa		. 14464)	; &I-M-14464;
+    (=daijiten		. 04739)	; &I-DJT-04739;
     (=shinjigen		.  3482)	; 村
+    (->subsumptive
+     ((==ucs@unicode		. #x6751)	; 村
+      (==adobe-japan1-0	. 02844)	; &I-AJ1-02844;
+      (==jis-x0208		. #x423C)	; &I-J90-423C; [34-28]
+      (==gb2312		. #x3465)	; &I-G0-3465; [20-69]
+      (==ks-x1001		. #x753D)	; &I-K0-753D; [85-29]
+      (==cns11643-1	. #x4A5A)	; &I-C1-4A5A; [42-58]
+      (==jis-x0213-1	. #x423C)	; &I-JX1-423C; [34-28]
+      (==big5		. #xA7F8)	; &I-B-A7F8;
+      (==gt		. 18415)	; &I-GT-18415;
+      (==gt-k		. 02601)	; &I-GT-K02601;
+      (==gt-pj-1		. #x423C)	; &I-GT-18415; [34-28]
+      (==daikanwa		. 14464)	; &I-M-14464;
+      (==daijiten		. 04739)	; &I-DJT-04739;
+      (==shinjigen		.  3482)	; 村
+      ))
     ))
 (define-char
   '((ideographic-radical . 75)	; ⽊
@@ -14213,7 +14239,12 @@
   '((ideographic-radical . 75)	; ⽊
     (ideographic-strokes . 5)
     (total-strokes	 . 9)
-    (=ucs 		. #x23427)	; 𣐧
+    (ideographic-structure
+     ?⿰
+     ?木
+     ((=>ucs-itaiji-001	. #x5386)	; &U-i001+5386;
+      ))
+    (=ucs		. #x23427)	; 𣐧
     ))
 (define-char
   '((<-denotational
@@ -14222,7 +14253,12 @@
     (ideographic-radical . 75)	; ⽊
     (ideographic-strokes . 5)
     (total-strokes	 . 9)
-    (=ucs@iso 		. #x23427)	; &U-00023427;
+    (ideographic-structure
+     ?⿰
+     ?木
+     ((=ucs-itaiji-001	. #x5386)	; &U-i001+5386;
+      ))
+    (=ucs@iso		. #x23427)	; &U-00023427;
     ))
 (define-char
   '((ideographic-radical . 75)	; ⽊
@@ -77299,6 +77335,10 @@
 (define-char
   '((ideographic-radical . 75)	; ⽊
     (==>daijiten	. 05421)	; &A2-DJT-05421;
+    ))
+(define-char
+  '((ideographic-radical . 75)	; ⽊
+    (==>ucs@bucs	. #x6751)	; &BUCS+6751;
     ))
 (define-char
   '((<-denotational

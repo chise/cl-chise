@@ -15756,9 +15756,12 @@
     (ideographic-strokes . 11)
     (total-strokes	 . 16)
     (ideographic-structure
-     ?⿰
-     ?石
-     ((=>ucs-itaiji-004	. #x695A)	; &A-U-i004+695A;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x77F3)	; 石
+      )
+     ((=>ucs-itaiji-004	  . #x695A)	; &A-U-i004+695A;
       ))
     (=ucs		. #x25569)	; 𥕩
     ))
@@ -15770,9 +15773,13 @@
     (ideographic-strokes . 11)
     (total-strokes	 . 16)
     (ideographic-structure
-     ?⿰
-     ?&AJ1-02676;
-     ((=ucs-itaiji-004	. #x695A)	; &U-i004+695A;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@unicode	  . #x77F3)	; &AJ1-02676;
+      (=adobe-japan1-0	  . 02676)	; &AJ1-02676;
+      )
+     ((=ucs-itaiji-004	  . #x695A)	; &U-i004+695A;
       ))
     (=ucs@iso		. #x25569)	; &U-00025569;
     ))
@@ -17274,9 +17281,12 @@
     (ideographic-strokes . 12)
     (total-strokes	 . 17)
     (ideographic-structure
-     ?⿰
-     ?石
-     ((=>ucs-itaiji-010	. #x6176)	; &A-U-i010+6176;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x77F3)	; 石
+      )
+     ((=>ucs-itaiji-010	  . #x6176)	; &A-U-i010+6176;
       ))
     (=ucs		. #x25582)	; 𥖂
     ))
@@ -17288,9 +17298,14 @@
     (ideographic-strokes . 12)
     (total-strokes	 . 17)
     (ideographic-structure
-     ?⿰
-     ?&AJ1-02676;
-     ?&U-i010+6176;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@unicode	  . #x77F3)	; &AJ1-02676;
+      (=adobe-japan1-0	  . 02676)	; &AJ1-02676;
+      )
+     ((=ucs-itaiji-010	  . #x6176)	; &U-i010+6176;
+      ))
     (=ucs@iso		. #x25582)	; &U-00025582;
     ))
 (define-char

@@ -392,6 +392,31 @@
     ))
 (define-char
   '((ideographic-radical . 27)	; ⼚
+    (ideographic-strokes . 3)
+    (total-strokes	 . 5)
+    (ideographic-structure
+     ?⿸
+     ?𠂆
+     ((=>ucs-itaiji-003	. #x529B)	; &U-i003+529B;
+      ))
+    (=>ucs-itaiji-001	. #x5386)	; &U-i001+5386;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-001	. #x5386)	; &U-i001+5386;
+      ))
+    (ideographic-radical . 27)	; ⼚
+    (ideographic-strokes . 3)
+    (total-strokes	 . 5)
+    (ideographic-structure
+     ?⿸
+     ?𠂆
+     ((=ucs-itaiji-003	. #x529B)	; &U-i003+529B;
+      ))
+    (=ucs-itaiji-001	. #x5386)	; &U-i001+5386;
+    ))
+(define-char
+  '((ideographic-radical . 27)	; ⼚
     (=>ucs@cognate	. #x20A2D)	; &A-cgnU+20A2D;
     ))
 (define-char

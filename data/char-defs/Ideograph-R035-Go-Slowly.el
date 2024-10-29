@@ -1215,6 +1215,29 @@
     ))
 (define-char
   '((ideographic-radical . 35)	; ⼢
+    (ideographic-structure
+     ?⿱
+     ?卋
+     ((=>ucs@component	. #x590A)	; &A-compU+590A;
+      ))
+    (=>ucs-itaiji-004	. #x590C)	; &U-i004+590C;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-004	. #x590C)	; &U-i004+590C;
+      ))
+    (ideographic-radical . 35)	; ⼢
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ?⿱
+     ((=ucs-var-001	. #x534B)	; &U-v001+534B;
+      )
+     ?夂)
+    (=ucs-itaiji-004	. #x590C)	; &U-i004+590C;
+    ))
+(define-char
+  '((ideographic-radical . 35)	; ⼢
     (ideographic-strokes . 6)
     (total-strokes	 . 9)
     (ideographic-structure
