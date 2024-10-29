@@ -1,3 +1,21 @@
+2024-10-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* Sync up with the current snapshot [2024-10-29 08:30 JST].
+
+	M	data/char-defs/Ideograph-R019-Power.el
+	M	data/char-defs/Ideograph-R027-Cliff.el
+	M	data/char-defs/Ideograph-R035-Go-Slowly.el
+	M	data/char-defs/Ideograph-R038-Woman.el
+	M	data/char-defs/Ideograph-R075-Tree.el
+	M	data/char-defs/Ideograph-R096-Jade.el
+	M	data/char-defs/Ideograph-R102-Field.el
+	M	data/char-defs/Ideograph-R104-Sickness.el
+	M	data/char-defs/Ideograph-R107-Skin.el
+	M	data/char-defs/Ideograph-R112-Stone.el
+	M	data/char-defs/Ideograph-R119-Rice.el
+	M	data/char-defs/Ideograph-R120-Silk.el
+	M	data/dumped-ids.lisp
+
 2024-10-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* Sync up with the current snapshot [2024-10-24 15:00 JST].
