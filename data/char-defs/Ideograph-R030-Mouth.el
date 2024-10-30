@@ -20216,7 +20216,11 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 30)	; ⼝
+  '((<-denotational@usage
+     ((ideographic-radical . 30)	; ⼝
+      (==>ucs@bucs	. #x54A7)	; &BUCS+54A7;
+      ))
+    (ideographic-radical . 30)	; ⼝
     (ideographic-strokes . 6)
     (total-strokes	 . 9)
     (ideographic-structure
@@ -20228,6 +20232,15 @@
      ((=ucs		  . #x5217)	; 列
       ))
     (=ucs		. #x54A7)	; 咧
+    ))
+(define-char
+  '((ideographic-radical . 30)	; ⼝
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (<-denotational
+     ((=ucs		. #x54A7)	; 咧
+      ))
+    (=ucs@unicode	. #x54A7)	; 咧
     (=adobe-japan1-5	. 19226)	; &I-AJ1-19226;
     (=gb2312		. #x5F56)	; &I-G0-5F56; [63-54]
     (=jis-x0212		. #x352E)	; &I-JSP-352E; [21-14]

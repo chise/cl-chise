@@ -5643,9 +5643,19 @@
     (=daikanwa		. 05914)	; &I-M-05914;
     ))
 (define-char
-  '((ideographic-radical . 37)	; ⼤
+  '((<-denotational@usage
+     ((ideographic-radical . 37)	; ⼤
+      (==>ucs@bucs	. #x594F)	; &BUCS+594F;
+      (==>daijiten	. 01981)	; &A2-DJT-01981;
+      ))
+    (ideographic-radical . 37)	; ⼤
     (ideographic-strokes . 6)
     (total-strokes	 . 9)
+    (ideographic-structure
+     ?⿱
+     ?𡗗
+     ((=>ucs@iwds-1	. #x5929)	; &A-IWDSU+5929;
+      ))
     (=ucs		. #x594F)	; 奏
     ))
 (define-char
@@ -5655,6 +5665,11 @@
     (ideographic-radical . 37)	; ⼤
     (ideographic-strokes . 6)
     (total-strokes	 . 9)
+    (ideographic-structure
+     ?⿱
+     ((=ucs@iso		  . #x215D7)	; &AJ1-17472;
+      )
+     ?夭)
     (=adobe-japan1-5	. 20103)	; &AJ1-20103;
     (=gt		. 07451)	; &I-GT-07451;
     (=gt-k		. 05365)	; &I-GT-K05365;
@@ -5687,13 +5702,22 @@
     (ideographic-radical . 37)	; ⼤
     (ideographic-strokes . 6)
     (total-strokes	 . 9)
+    (ideographic-structure
+     ?⿱
+     ((=ucs		. #x215D7)	; 𡗗
+      )
+     ?天)
     (=+>ucs@unicode	. #x594F)	; &o-J0-4155;
     (=+>jis-x0208	. #x4155)	; &o-J0-4155; [33-53]
     (=+>jis-x0213-1	. #x4155)	; &o-J0-4155; [33-53]
     (=+>adobe-japan1-0	. 02775)	; &o-J0-4155;
     (=+>gt		. 07472)	; &o-J0-4155;
     (->subsumptive
-     ((=ucs@jis		  . #x594F)	; &AJ1-02775;
+     ((ideographic-structure
+       ?⿱
+       ?&AJ1-17472;
+       ?天)
+      (=ucs@jis		  . #x594F)	; &AJ1-02775;
       (=ucs@ks		  . #x594F)	; &AJ1-02775;
       (=adobe-japan1-0	  . 02775)	; &AJ1-02775;
       (=jis-x0208	  . #x4155)	; &I-J90-4155; [33-53]
@@ -5703,6 +5727,7 @@
       (=gt-k		  . 05366)	; &I-GT-K05366;
       (=gt-pj-1		  . #x4155)	; &I-GT-07472; [33-53]
       (=shinjigen	  .  1582)	; &AJ1-02775;
+      (=daijiten	. 01981)	; &I-DJT-01981;
       (->subsumptive
        ((=decomposition@cid
 	 ((=ucs		      . #x594F)	; 奏
@@ -5718,6 +5743,7 @@
 	(==gt		    . 07472)	; &g2-AJ1-02775;
 	(==gt-k		    . 05366)	; &g2-AJ1-02775;
 	(==shinjigen	    .  1582)	; &g2-AJ1-02775;
+	(==daijiten	. 01981)	; &I-DJT-01981;
 	(->subsumptive
 	 ((===jis-x0208	      . #x4155)	; &R-J0-4155; [33-53]
 	  (===jis-x0213-1     . #x4155)	; &R-J0-4155; [33-53]
@@ -5732,7 +5758,12 @@
 	  ))
 	))
       )
-     ((=ucs@unicode	  . #x594F)	; &C1-5057;
+     ((ideographic-structure
+       ?⿱
+       ((=big5-cdp	  . #x8BE9)	; &CDP-8BE9;
+	)
+       ?天)
+      (=ucs@unicode	  . #x594F)	; &C1-5057;
       (=ucs@JP/hanazono	  . nil)
       (=gb2312		  . #x5760)	; &C1-5057; [55-64]
       (=cns11643-1	  . #x5057)	; &I-C1-5057; [48-55]
@@ -13856,7 +13887,7 @@
       )
      ((=ucs		  . #x5927)	; 大
       )
-     ((=mj		  . 057897)	; &MJ057897;
+     ((=mj		  . 057897)	; 歲
       ))
     (=ucs@iso		. #x21693)	; &M-H0115;
     (=daikanwa/ho	.  0115)	; &M-H0115;

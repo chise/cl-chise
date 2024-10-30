@@ -115,30 +115,41 @@
   '((ideographic-radical . 19)	; ⼒
     (ideographic-strokes . 1)
     (total-strokes	 . 3)
-    (=>ucs-itaiji-002	. #x529B)	; &U-i002+529B;
-    (=>ucs-itaiji-003	. #x529B)	; &U-i003+529B;
+    (=>ucs-itaiji-002	. #x529B)	; &A-U-i002+529B;
+    (=>ucs-itaiji-003	. #x529B)	; &A-U-i002+529B;
     ))
 (define-char
   '((<-denotational
-     ((=>ucs-itaiji-002	. #x529B)	; &U-i002+529B;
-      ))
-    (ideographic-radical . 19)	; ⼒
-    (ideographic-strokes . 1)
-    (total-strokes	 . 3)
-    (ideographic-structure ?⿻ ?力 ?丶)
-    (=ucs-itaiji-002	. #x529B)	; &U-i002+529B;
-    ))
-(define-char
-  '((<-denotational
-     ((=>ucs-itaiji-003	. #x529B)	; &U-i003+529B;
+     ((=>ucs-itaiji-002	  . #x529B)	; &A-U-i002+529B;
       ))
     (ideographic-radical . 19)	; ⼒
     (ideographic-strokes . 1)
     (total-strokes	 . 3)
     (ideographic-structure
-     ?⿻
-     ?力
-     ?&CDP-89C7;)
+     ((name		  . "IDEOGRAPHIC DESCRIPTION CHARACTER OVERLAID")
+      (=ucs		  . #x2FFB)	; ⿻
+      )
+     ((=ucs		  . #x529B)	; 力
+      )
+     ((=ucs		  . #x4E36)	; 丶
+      ))
+    (=ucs-itaiji-002	. #x529B)	; &U-i002+529B;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-002	  . #x529B)	; &A-U-i002+529B;
+      ))
+    (ideographic-radical . 19)	; ⼒
+    (ideographic-strokes . 1)
+    (total-strokes	 . 3)
+    (ideographic-structure
+     ((name		  . "IDEOGRAPHIC DESCRIPTION CHARACTER OVERLAID")
+      (=ucs		  . #x2FFB)	; ⿻
+      )
+     ((=ucs		  . #x529B)	; 力
+      )
+     ((=big5-cdp	  . #x89C7)	; &CDP-89C7;
+      ))
     (=ucs-itaiji-003	. #x529B)	; &U-i003+529B;
     ))
 (define-char
@@ -4213,7 +4224,7 @@
     (=ucs		. #xFA76)	; 勇
     (=ucs@unicode	. #x52C7)	; 勇
     (=ucs@JP/hanazono	. nil)
-    (=mj		. 007667)	; 勇
+    (=mj		. 007667)	; &MJ007667;
     (=adobe-japan1-4	. 14070)	; &I-AJ1-14070;
     (=gb2312		. #x5342)	; &I-G0-5342; [51-34]
     (=cns11643-1	. #x502D)	; &I-C1-502D; [48-13]

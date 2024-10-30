@@ -2540,17 +2540,19 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((ideographic-radical . 75)	; ⽊
-      (==>ucs@bucs	. #x6751)	; &BUCS+6751;
-      (==>daijiten	. 04739)	; &A2-DJT-04739;
+     ((==>ucs@bucs	  . #x6751)	; &BUCS+6751;
       ))
     (ideographic-radical . 75)	; ⽊
     (ideographic-strokes . 3)
     (total-strokes	 . 7)
     (ideographic-structure
-     ?⿰
-     ?木
-     ?寸)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x6728)	; 木
+      )
+     ((=ucs		  . #x5BF8)	; 寸
+      ))
     (=ucs		. #x6751)	; 村
     (=adobe-japan1-0	. 02844)	; &I-AJ1-02844;
     (=jis-x0208		. #x423C)	; &I-J90-423C; [34-28]
@@ -2566,20 +2568,38 @@
     (=daijiten		. 04739)	; &I-DJT-04739;
     (=shinjigen		.  3482)	; 村
     (->subsumptive
-     ((==ucs@unicode		. #x6751)	; 村
-      (==adobe-japan1-0	. 02844)	; &I-AJ1-02844;
-      (==jis-x0208		. #x423C)	; &I-J90-423C; [34-28]
-      (==gb2312		. #x3465)	; &I-G0-3465; [20-69]
-      (==ks-x1001		. #x753D)	; &I-K0-753D; [85-29]
-      (==cns11643-1	. #x4A5A)	; &I-C1-4A5A; [42-58]
-      (==jis-x0213-1	. #x423C)	; &I-JX1-423C; [34-28]
-      (==big5		. #xA7F8)	; &I-B-A7F8;
-      (==gt		. 18415)	; &I-GT-18415;
-      (==gt-k		. 02601)	; &I-GT-K02601;
-      (==gt-pj-1		. #x423C)	; &I-GT-18415; [34-28]
-      (==daikanwa		. 14464)	; &I-M-14464;
-      (==daijiten		. 04739)	; &I-DJT-04739;
-      (==shinjigen		.  3482)	; 村
+     ((==ucs@unicode	  . #x6751)	; &g2-AJ1-02844;
+      (==adobe-japan1-0	  . 02844)	; &g2-AJ1-02844;
+      (==gb2312		  . #x3465)	; &g2-AJ1-02844; [20-69]
+      (==ks-x1001	  . #x753D)	; &g2-AJ1-02844; [85-29]
+      (==jis-x0208	  . #x423C)	; &g2-AJ1-02844; [34-28]
+      (==cns11643-1	  . #x4A5A)	; &g2-AJ1-02844; [42-58]
+      (==jis-x0213-1	  . #x423C)	; &g2-AJ1-02844; [34-28]
+      (==gt		  . 18415)	; &g2-AJ1-02844;
+      (==gt-k		  . 02601)	; &g2-AJ1-02844;
+      (==daikanwa	  . 14464)	; &g2-AJ1-02844;
+      (==daijiten	  . 04739)	; &g2-AJ1-02844;
+      (==shinjigen	  .  3482)	; &g2-AJ1-02844;
+      (->subsumptive
+       ((===daikanwa	    . 14464)	; &R-M-14464;
+	)
+       ((===daijiten	    . 04739)	; &R-DJT-04739;
+	)
+       ((===jis-x0208	    . #x423C)	; &R-J0-423C; [34-28]
+	(===jis-x0213-1	    . #x423C)	; &R-J0-423C; [34-28]
+	)
+       ((===adobe-japan1-0  . 02844)	; &R-AJ1-02844;
+	)
+       ((===cns11643-1	    . #x4A5A)	; &R-C1-4A5A; [42-58]
+	)
+       ((===gt		    . 18415)	; &R-GT-18415;
+	(===gt-k	    . 02601)	; &R-GT-18415;
+	)
+       ((===ucs@ks	    . #x6751)	; &R-K0-753D;
+	(===ks-x1001	    . #x753D)	; &R-K0-753D; [85-29]
+	)
+       ((===ucs@unicode	    . #x6751)	; &R-UU+6751;
+	))
       ))
     ))
 (define-char
@@ -14240,9 +14260,12 @@
     (ideographic-strokes . 5)
     (total-strokes	 . 9)
     (ideographic-structure
-     ?⿰
-     ?木
-     ((=>ucs-itaiji-001	. #x5386)	; &U-i001+5386;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x6728)	; 木
+      )
+     ((=>ucs-itaiji-001	  . #x5386)	; &A-U-i001+5386;
       ))
     (=ucs		. #x23427)	; 𣐧
     ))
@@ -14254,9 +14277,12 @@
     (ideographic-strokes . 5)
     (total-strokes	 . 9)
     (ideographic-structure
-     ?⿰
-     ?木
-     ((=ucs-itaiji-001	. #x5386)	; &U-i001+5386;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x6728)	; 木
+      )
+     ((=ucs-itaiji-001	  . #x5386)	; &U-i001+5386;
       ))
     (=ucs@iso		. #x23427)	; &U-00023427;
     ))
@@ -77027,6 +77053,11 @@
     ))
 (define-char
   '((ideographic-radical . 75)	; ⽊
+    (==>ucs@bucs	. #x6751)	; &BUCS+6751;
+    (==>daijiten	. 04739)	; &BUCS+6751;
+    ))
+(define-char
+  '((ideographic-radical . 75)	; ⽊
     (==>daijiten	. 04745)	; &A2-DJT-04745;
     ))
 (define-char
@@ -77335,10 +77366,6 @@
 (define-char
   '((ideographic-radical . 75)	; ⽊
     (==>daijiten	. 05421)	; &A2-DJT-05421;
-    ))
-(define-char
-  '((ideographic-radical . 75)	; ⽊
-    (==>ucs@bucs	. #x6751)	; &BUCS+6751;
     ))
 (define-char
   '((<-denotational

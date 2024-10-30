@@ -10695,20 +10695,34 @@
     (=hanziku-5		. #xD7A1)	; &I-HZK05-D7A1;
     ))
 (define-char
+  '((<-denotational@usage
+     ((ideographic-radical . 64)	; ⼿
+      (==>ucs@bucs	. #x62F7)	; &BUCS+62F7;
+      (==>daijiten	. 03774)	; &A2-DJT-03774;
+      ))
+    (ideographic-radical . 64)	; ⼿
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ?⿰
+     ?扌
+     ?考)
+    (=ucs		. #x62F7)	; 拷
+    (=big5		. #xABFE)	; &I-B-ABFE;
+    ))
+(define-char
   '((ideographic-radical . 64)	; ⼿
     (ideographic-strokes . 6)
     (total-strokes	 . 9)
-    (=ucs		. #x62F7)	; 拷
+    (<-denotational
+     ((=ucs		. #x62F7)	; 拷
+      ))
     (=adobe-japan1-0	. 02043)	; &I-AJ1-02043;
     (=jis-x0208		. #x3969)	; &I-J90-3969; [25-73]
-    (=gb2312		. #x3F3D)	; &I-G0-3F3D; [31-29]
     (=ks-x1001		. #x4D38)	; &I-K0-4D38; [45-24]
-    (=cns11643-1	. #x5142)	; &I-C1-5142; [49-34]
     (=jis-x0213-1	. #x3969)	; &I-JX1-3969; [25-73]
-    (=big5		. #xABFE)	; &I-B-ABFE;
     (=gt		. 15156)	; &I-GT-15156;
     (=gt-pj-1		. #x3969)	; &I-GT-15156; [25-73]
-    (=daikanwa		. 12006)	; &I-M-12006;
     (=shinjigen@1ed	.  2910)	; 拷
     (=shinjigen@rev	.  2912)	; 拷
     (->subsumptive
@@ -10719,6 +10733,7 @@
       (==jis-x0208@1983	  . #x3969)	; &g2-M-12006; [25-73]
       (==cns11643-1	  . #x5142)	; &g2-M-12006; [49-34]
       (==daikanwa	  . 12006)	; &g2-M-12006;
+      (==daijiten		. 03774)	; &I-DJT-03774;
       (->subsumptive
        ((===daikanwa	    . 12006)	; &R-M-12006;
 	)
@@ -10753,6 +10768,17 @@
        ((===gt		    . 15156)	; &R-GT-15156;
 	))
       ))
+    (ideographic-radical . 64)	; ⼿
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (<-denotational
+     ((=ucs		. #x62F7)	; 拷
+      ))
+    (=ucs@unicode	. #x62F7)	; 拷
+    (=gb2312		. #x3F3D)	; &I-G0-3F3D; [31-29]
+    (=cns11643-1	. #x5142)	; &I-C1-5142; [49-34]
+    (=daikanwa		. 12006)	; &I-M-12006;
+    (=daijiten		. 03774)	; &I-DJT-03774;
     ))
 (define-char
   '((=>ucs*		. #x6350)	; 捐

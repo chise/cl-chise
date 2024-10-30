@@ -3414,7 +3414,9 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((==>daijiten	  . 02489)	; &A2-DJT-02489;
+     ((ideographic-radical . 44)	; ⼫
+      (==>ucs@bucs	. #x5C4D)	; &BUCS+5C4D;
+      (==>daijiten	  . 02489)	; &A2-DJT-02489;
       ))
     (ideographic-radical . 44)	; ⼫
     (ideographic-strokes . 6)
@@ -3425,9 +3427,18 @@
       )
      ((=ucs		  . #x5C38)	; 尸
       )
-     ((=ucs		  . #x6B7B)	; 死
+     ((=>ucs@iwds-1	. #x6B7B)	; &A-IWDSU+6B7B;
       ))
     (=ucs		. #x5C4D)	; 屍
+    ))
+(define-char
+  '((ideographic-radical . 44)	; ⼫
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (<-denotational
+     ((=ucs		. #x5C4D)	; 屍
+      ))
+    (=ucs@unicode	. #x5C4D)	; 屍
     (=adobe-japan1-0	. 02209)	; &I-AJ1-02209;
     (=jis-x0208		. #x3B53)	; &I-J90-3B53; [27-51]
     (=ks-x1001		. #x633B)	; &I-K0-633B; [67-27]

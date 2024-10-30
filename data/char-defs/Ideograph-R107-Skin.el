@@ -2784,9 +2784,9 @@
     (=daikanwa		. 22939)	; &I-M-22939;
     (<-formed
      ((=ucs@unicode	  . #x8DBC)	; &GT-50007;
-      (=gb2312		  . #x7542)	; &I-G0-7542; [85-34]
+      (=gb2312		  . #x7542)	; &GT-50007; [85-34]
       (=cns11643-2	  . #x3959)	; &I-C2-3959; [25-57]
-      (=daikanwa 	  . 37398)	; &GT-50007;
+      (=daikanwa	  . 37398)	; &I-M-37398;
       ))
     (<-formed$_1*sources
      jiyun yunhai)
@@ -2799,9 +2799,9 @@
      yunhai daikanwa)
     (<-same
      ((=ucs@unicode	  . #x8DBC)	; &GT-50007;
-      (=gb2312		  . #x7542)	; &I-G0-7542; [85-34]
+      (=gb2312		  . #x7542)	; &GT-50007; [85-34]
       (=cns11643-2	  . #x3959)	; &I-C2-3959; [25-57]
-      (=daikanwa 	  . 37398)	; &GT-50007;
+      (=daikanwa	  . 37398)	; &I-M-37398;
       ))
     (<-same$_1*sources
      jiyun yunhai daikanwa)

@@ -13830,9 +13830,13 @@
     (ideographic-strokes . 6)
     (total-strokes	 . 9)
     (ideographic-structure
-     ?⿰
-     ?女
-     ((=ucs@unicode	. #x572D)	; &AJ1-01811;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5973)	; 女
+      )
+     ((=ucs@unicode	  . #x572D)	; &AJ1-01811;
+      (=adobe-japan1-0	  . 01811)	; &AJ1-01811;
       ))
     (=ucs@unicode	. #x5A03)	; &MJ009696;
     (=mj		. 009696)	; &MJ009696;

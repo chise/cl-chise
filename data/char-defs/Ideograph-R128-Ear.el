@@ -2449,9 +2449,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((ideographic-radical . 128)	; ⽿
-      (==>ucs@bucs	. #x8056)	; &BUCS+8056;
-      (==>daijiten	. 09308)	; &A2-DJT-09308;
+     ((==>ucs@bucs	  . #x8056)	; &BUCS+8056;
       ))
     (ideographic-radical . 128)	; ⽿
     (ideographic-strokes . 7)
@@ -2509,7 +2507,7 @@
     (ideographic-radical . 128)	; ⽿
     (ideographic-strokes . 7)
     (total-strokes	 . 13)
-    (=daijiten		. 09308)	; &I-DJT-09308;
+    (=daijiten		. 09308)	; &DJT-09308;
     ))
 (define-char
   '((<-denotational
@@ -7848,6 +7846,11 @@
   '((ideographic-radical . 128)	; ⽿
     (==>ucs@bucs	. #x806F)	; &BUCS+806F;
     (==>daijiten	. 09325)	; &BUCS+806F;
+    ))
+(define-char
+  '((ideographic-radical . 128)	; ⽿
+    (==>ucs@bucs	. #x8056)	; &BUCS+8056;
+    (==>daijiten	. 09308)	; &BUCS+8056;
     ))
 (define-char
   '((ideographic-radical . 128)	; ⽿

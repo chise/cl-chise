@@ -7276,10 +7276,26 @@
     (=ucs@unicode	. #x5CD1)	; &UU+5CD1;
     ))
 (define-char
+  '((<-denotational@usage
+     ((ideographic-radical . 46)	; ⼭
+      (==>ucs@bucs	. #x5CD2)	; &BUCS+5CD2;
+      (==>daijiten	. 02572)	; &A2-DJT-02572;
+      ))
+    (ideographic-radical . 46)	; ⼭
+    (ideographic-structure
+     ?⿰
+     ?山
+     ?同)
+    (=ucs		. #x5CD2)	; 峒
+    ))
+(define-char
   '((ideographic-radical . 46)	; ⼭
+    (<-denotational
+     ((=ucs		. #x5CD2)	; 峒
+      ))
     (ideographic-strokes . 6)
     (total-strokes	 . 9)
-    (=ucs		. #x5CD2)	; 峒
+    (=ucs@unicode	. #x5CD2)	; 峒
     (=adobe-japan1-4	. 14483)	; &I-AJ1-14483;
     (=gb2312		. #x613C)	; &I-G0-613C; [65-28]
     (=jis-x0212		. #x3B3B)	; &I-JSP-3B3B; [27-27]
@@ -7287,6 +7303,7 @@
     (=jis-x0213-1	. #x4F6C)	; &I-JX1-4F6C; [47-76]
     (=big5		. #xABD0)	; &I-B-ABD0;
     (=daikanwa		. 08038)	; &I-M-08038;
+    (=daijiten		. 02572)	; &I-DJT-02572;
     (=jef-china3	. #x4BC2)	; &I-JC3-4BC2;
     (->subsumptive
      ((=decomposition@cid
@@ -7301,6 +7318,7 @@
       (==cns11643-1	  . #x5072)	; &g2-AJ1-14483; [48-82]
       (==jis-x0213-1	  . #x4F6C)	; &g2-AJ1-14483; [47-76]
       (==daikanwa	  . 08038)	; &g2-AJ1-14483;
+      (==daijiten	. 02572)	; &I-DJT-02572;
       (==jef-china3	  . #x4BC2)	; &g2-AJ1-14483;
       (->subsumptive
        ((===daikanwa	    . 08038)	; &R-M-08038;
