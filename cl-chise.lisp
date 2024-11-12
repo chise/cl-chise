@@ -16,7 +16,7 @@
    :expand-feature-name
    :sequence-list-p :association-list-p
    :while
-   :=id :=_id :=ucs)
+   :=id :=_id :=ucs :=>ucs)
   (:export
    :decode-char :encode-char
    :get-char-attribute :put-char-attribute
