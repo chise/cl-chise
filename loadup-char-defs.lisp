@@ -884,6 +884,14 @@
 
 (defvar *ids-read-from-source* nil)
 
+(defvar *git-command-path*
+  (let (path)
+    (dolist (dir (uiop:getenv-absolute-directories "PATH"))
+      (setq path (make-pathname :directory (pathname-directory dir)
+				:name "git"))
+      (if (probe-file path)
+	  (return path)))))
+
 (defun char-id-string (character)
   (let ((id (char-id character)))
     (if (numberp id)
@@ -910,19 +918,17 @@
        (ids-update-index)
        )
       (t
-       (when (fboundp 'sb-ext:run-program)
-	 (if (directory ids-dir)
-	     (sb-ext:run-program
-	      "/usr/bin/git" '("pull")
-	      :directory ids-dir
-	      :output *standard-output*)
-	     (sb-ext:run-program
-	      "/usr/bin/git"
-	      (list "clone"
-		    "https://gitlab.chise.org/CHISE/ids.git"
-		    (format nil "~a" ids-dir))
-	      :output *standard-output*)))
-
+       (if (directory ids-dir)
+	   (uiop:run-program
+	    (list *git-command-path* "pull")
+	    :directory ids-dir
+	    :output t :error-output t)
+	   (uiop:run-program
+	    (list *git-command-path*
+		  "clone"
+		  "https://gitlab.chise.org/CHISE/ids.git"
+		  (format nil "~a" ids-dir))
+	    :output t :error-output t))
        (when (directory ids-dir)
 	 (dolist (file *ids-source-file-list*)
 	   (ids-read-file (merge-pathnames file ids-dir) :prompt t)))
