@@ -5509,7 +5509,8 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
       (=ucs		  . #x2FF8)	; ⿸
       )
-     ((=ucs@iso		. #x271A8)	; &MJ047381;
+     ((=ucs@iso		  . #x271A8)	; &MJ047381;
+      (=mj		  . 047381)	; &MJ047381;
       )
      ((=ucs		  . #x76BF)	; 皿
       ))
