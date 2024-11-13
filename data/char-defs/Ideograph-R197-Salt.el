@@ -72,6 +72,29 @@
     (=ucs		. #x209F8)	; 𠧸
     (=cns11643-6	. #x3C7A)	; &I-C6-3C7A; [28-90]
     (=daikanwa		. 47529)	; &I-M-47529;
+    (=cbeta		. 08965)	; &CB08965;
+    (->subsumptive
+     ((==ucs@iso		. #x209F8)	; 𠧸
+      (==cns11643-6	. #x3C7A)	; &I-C6-3C7A; [28-90]
+      (==daikanwa		. 47529)	; &I-M-47529;
+      (==cbeta		. 08965)	; &CB08965;
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 197)	; ⿄
+    (ideographic-strokes . 0)
+    (total-strokes	 . 10)
+    (ideographic-structure
+     ?⿴
+     ((=big5-cdp		. #x8CC8)	; &CDP-8CC8;
+      )
+     ?𠂭)
+    (ideographic-structure@apparent
+     ?⿱
+     ?丿
+     ((=ucs		. #x3157B)	; 𱕻
+      ))
+    (=ucs-itaiji-008	. #x9E75)	; &U-i008+9E75;
     ))
 (define-char
   '((ideographic-radical . 197)	; ⿄

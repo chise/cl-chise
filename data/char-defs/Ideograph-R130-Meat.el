@@ -349,17 +349,19 @@
     (=daikanwa		. 29238)	; &I-M-29238;
     (=shinjigen		.  6569)	; 肊
     (<-original
-     ((=ucs		  . #x81C6)	; 臆
+     ((=ucs@unicode	  . #x81C6)	; 臆
       (=jis-x0208	  . #x3232)	; &I-J90-3232; [18-18]
       (=shinjigen	  .  6568)	; 臆
       ))
     (<-original*sources
      shinjigen)
-    (->formed@p=yi
-     ((=ucs		  . #x81C6)	; 臆
+    (->formed
+     ((=ucs@unicode	  . #x81C6)	; 臆
       (=daikanwa	  . 29951)	; &I-M-29951;
       ))
-    (->formed@p=yi*sources
+    (->formed$_1*sources
+     shuowen daikanwa)
+    (->formed*sources
      shuowen daikanwa)
     (->synonyms@s=overflowing
      ((=ucs@cns		  . #x22843)	; &C4-5036;
@@ -368,11 +370,13 @@
       ))
     (->synonyms@s=overflowing*sources
      shuowen-tongxundingsheng daikanwa)
-    (->wrong@p=yi
+    (->wrong
      ((=ucs		  . #x8090)	; 肐
       (=daikanwa	  . 29254)	; &I-M-29254;
       ))
-    (->wrong@p=yi*sources
+    (->wrong$_1*sources
+     kangxi jiyun-jiaozheng daikanwa)
+    (->wrong*sources
      kangxi jiyun-jiaozheng daikanwa)
     (->subsumptive
      ((==ucs@unicode	  . #x808A)	; &g2-GT-37858;
@@ -21658,7 +21662,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=gt-k		  . 05805)	; &GT-K05805;
+     ((=ucs		  . #x3157B)	; 𱕻
       )
      ((=>ucs@component	  . #x6708)	; &A-compU+6708;
       (=>iwds-1		  .  0053)	; &A-compU+6708;
@@ -21667,11 +21671,11 @@
     (=ucs		. #x26785)	; 𦞅
     (=cns11643-6	. #x5722)	; &I-C6-5722; [55-02]
     (=daikanwa		. 29741)	; &I-M-29741;
-    (<-formed@shuowen
+    (<-original
      ((=ucs@unicode	  . #x80C3)	; &AJ1-01187;
       (=adobe-japan1-0	  . 01187)	; &AJ1-01187;
       ))
-    (<-formed@shuowen*sources
+    (<-original*sources
      zhengzitong)
     (<-same
      ((=ucs@unicode	  . #x80C3)	; &AJ1-01187;
@@ -29727,16 +29731,40 @@
       ))
     ))
 (define-char
+  '((<-denotational@usage
+     ((ideographic-radical . 130)	; ⾁
+      (==>ucs@bucs	. #x81C6)	; &BUCS+81C6;
+      (==>daijiten	. 09572)	; &A2-DJT-09572;
+      ))
+    (ideographic-radical . 130)	; ⾁
+    (ideographic-strokes . 13)
+    (total-strokes	 . 17)
+    (sound@ja/on/go "oku"  "i")
+    (sound@ja/on/kan "yoku" "i")
+    (sound@zh	"yi")
+    (sound@ja/on/go "oku"  "i")
+    (sound@ja/on/kan "yoku" "i")
+    (sound@zh	"yi")
+    (ideographic-structure
+     ?⿰
+     ?⺼
+     ?意)
+    (=ucs		. #x81C6)	; 臆
+    (<-formed
+     ((=ucs		  . #x808A)	; 肊
+      ))
+    (<-formed$_1*sources
+     shuowen)
+    ))
+(define-char
   '((ideographic-radical . 130)	; ⾁
     (ideographic-strokes . 13)
     (total-strokes	 . 17)
-    (sound@ja/on/go/p=yi "oku")
-    (sound@ja/on/kan/p=yi "yoku")
-    (sound@ja/on/s=drink "i")
-    (sound@zh/p=yi	"yi")
-    (sound@zh/s=drink	"yi")
-    (=ucs		. #x81C6)	; 臆
-    (=mj		. 021253)	; &I-MJ021253;
+    (<-denotational
+     ((=ucs		. #x81C6)	; 臆
+      ))
+    (=ucs@unicode	. #x81C6)	; 臆
+    (=mj		. 021253)	; &MJ021253;
     (=adobe-japan1-0	. 01330)	; &I-AJ1-01330;
     (=jis-x0208		. #x3232)	; &I-J90-3232; [18-18]
     (=gb2312		. #x525C)	; &I-G0-525C; [50-60]
@@ -29748,30 +29776,39 @@
     (=gt		. 38705)	; &I-GT-38705;
     (=gt-pj-1		. #x3232)	; &I-GT-38705; [18-18]
     (=daikanwa		. 29951)	; &I-M-29951;
+    (=daijiten		. 09572)	; &I-DJT-09572;
     (=shinjigen		.  6568)	; 臆
-    (<-formed@p=yi
-     ((=ucs		  . #x808A)	; 肊
+    (<-formed
+     ((=ucs 		  . #x808A)	; 肊
       ))
-    (<-formed@p=yi*sources
+    (<-formed$_1*sources
      shuowen)
-    (<-same@p=yi
-     ((=ucs		  . #x808A)	; 肊
+    (<-formed*sources
+     shuowen)
+    (<-same
+     ((=ucs 		  . #x808A)	; 肊
       (=daikanwa	  . 29238)	; &I-M-29238;
       ))
-    (<-same@p=yi*sources
+    (<-same$_1*sources
      shuowen daikanwa)
-    (<-same@s=drink
+    (<-same*sources
+     shuowen daikanwa)
+    (<-same
      ((=ucs@unicode	  . #x91AB)	; &MJ026547;
       (=mj		  . 026547)	; &MJ026547;
       (=daikanwa	  . 40006)	; &I-M-40006;
       ))
-    (<-same@s=drink*sources
+    (<-same$_1*sources
      jiyun daikanwa)
-    (->formed@s=drink 
+    (<-same*sources
+     jiyun daikanwa)
+    (->formed
      ((=ucs		  . #x91B7)	; 醷
       (=daikanwa	  . 40058)	; &I-M-40058;
       ))
-    (->formed@s=drink*sources
+    (->formed$_1*sources
+     shiwen daikanwa)
+    (->formed*sources
      shiwen daikanwa)
     (->subsumptive
      ((=>>ucs@unicode	  . #x81C6)	; &G-J0-3232;
@@ -29819,6 +29856,7 @@
 	))
       )
      ((==shinjigen	  .  6568)	; &g2-SJG2-6568;
+      (==daijiten		. 09572)	; &I-DJT-09572;
       ))
     ))
 (define-char
@@ -30234,15 +30272,43 @@
   '((ideographic-radical . 130)	; ⾁
     (ideographic-strokes . 13)
     (total-strokes	 . 19)
-    (=ucs		. #x2686D)	; 𦡭
-    (->subsumptive
-     ((hanyu-dazidian	  5 2933 16)
-      (=ucs@iso		  . #x2686D)	; &M-p29965;
-      (=daikanwa/+p	  . 29965)	; &M-p29965;
-      (=hanziku-8	  . #xB3F3)	; &M-p29965;
+    (ideographic-structure
+     ?⿱
+     ((=>ucs-itaiji-006	. #x8207)	; &A-U-i006+8207;
       )
-     ((=cns11643-7	  . #x487E)	; &C7-487E; [40-94]
+     ?肉)
+    (=ucs		. #x2686D)	; 𦡭
+    ))
+(define-char
+  '((ideographic-radical . 130)	; ⾁
+    (ideographic-strokes . 13)
+    (total-strokes	 . 19)
+    (<-denotational
+     ((=ucs		. #x2686D)	; 𦡭
       ))
+    (hanyu-dazidian	  5 2933 16)
+    (ideographic-structure
+     ?⿱
+     ((=ucs-itaiji-006	. #x8207)	; &U-i006+8207;
+      )
+     ?肉)
+    (=ucs@iso		  . #x2686D)	; &C7-487E;
+    (=daikanwa/+p	  . 29965)	; &C7-487E;
+    (->subsumptive
+     ((==ucs@iso		  . #x2686D)	; &C7-487E;
+      (==daikanwa/+p	  . 29965)	; &C7-487E;
+      (=hanziku-8	  . #xB3F3)	; &C7-487E;
+      )
+     ((==cns11643-7	  . #x487E)	; &C7-487E; [40-94]
+      ))
+    (=cns11643-7	  . #x487E)	; &C7-487E; [40-94]
+    (->formed
+     ((=daikanwa 		. 49549)	; &M-49549;
+      ))
+    (->formed$_1*sources
+     yupian daikanwa)
+    (->formed*sources
+     yupian daikanwa)
     ))
 (define-char
   '((ideographic-radical . 130)	; ⾁
@@ -30278,6 +30344,7 @@
   '((ideographic-radical . 130)	; ⾁
     (ideographic-strokes . 13)
     (total-strokes	 . 17)
+    (sound@ja/on "yo")
     (=ucs 		. #x2684C)	; 𦡌
     ))
 (define-char
@@ -30289,7 +30356,12 @@
     (total-strokes	 . 17)
     (=ucs@iso		. #x2684C)	; &C5-5D5E;
     (=cns11643-5	. #x5D5E)	; &C5-5D5E; [61-62]
-    (=daikanwa 		. 49549)	; &I-M-49549;
+    (=daikanwa 		. 49549)	; &M-49549;
+    (<-same
+     ((=daikanwa/+p	  . 29965)	; &C7-487E;
+      ))
+    (<-same*sources
+     daikanwa)
     (->subsumptive
      ((==daikanwa	  . 49549)	; &g2-M-49549;
       )

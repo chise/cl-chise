@@ -46162,8 +46162,6 @@
     ))
 (define-char
   '((ideographic-radical . 38)	; ⼥
-    (ideographic-radical@ucs/code . 119)	; ⽶
-    (ideographic-strokes@ucs/code . 9)
     (ideographic-strokes . 12)
     (total-strokes	 . 15)
     (ideographic-structure

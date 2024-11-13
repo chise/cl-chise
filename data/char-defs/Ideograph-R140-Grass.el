@@ -49101,7 +49101,7 @@
       )
      ((=ucs		  . #x8279)	; 艹
       )
-     ((=gt-k		  . 05805)	; &GT-K05805;
+     ((=ucs		  . #x3157B)	; 𱕻
       ))
     (sound@ja/on	"si")
     (=ucs		. #x26CCA)	; 𦳊
@@ -49121,7 +49121,7 @@
      ((name		  . "CJK RADICAL GRASS TWO")
       (=ucs		  . #x2EBF)	; ⺿
       )
-     ((=gt-k		  . 05805)	; &GT-K05805;
+     ((=ucs		  . #x3157B)	; 𱕻
       ))
     (=ucs@iso		. #x26CCA)	; &C6-575A;
     (=cns11643-6	. #x575A)	; &C6-575A; [55-58]
@@ -86275,7 +86275,7 @@
 	)
        ((=cns11643-1	    . #x4E71)	; &C1-4E71; [46-81]
 	))
-      (=ucs@cns	    . #x26EE8)	; &g2-CU+26EE8;
+      (=ucs@cns		  . #x26EE8)	; &C7-3254;
       (=cns11643-7	  . #x3254)	; &C7-3254; [18-52]
       (->subsumptive
        ((==ucs@cns	    . #x26EE8)	; &g2-CU+26EE8;
@@ -105355,7 +105355,7 @@
       (=ucs		  . #x2EBF)	; ⺿
       )
      ((=ucs@unicode	  . #x9132)	; &AJ1-06943;
-      (=adobe-japan1-0	  . 06943)	; &I-AJ1-06943;
+      (=adobe-japan1-0	  . 06943)	; &AJ1-06943;
       ))
     (=ucs@cns		. #x4564)	; &C3-5B24;
     (=cns11643-3	. #x5B24)	; &C3-5B24; [59-04]
@@ -105386,7 +105386,7 @@
       (=ucs		  . #x2EBE)	; ⺾
       )
      ((=ucs@unicode	  . #x9132)	; &AJ1-06943;
-      (=adobe-japan1-0	  . 06943)	; &I-AJ1-06943;
+      (=adobe-japan1-0	  . 06943)	; &AJ1-06943;
       ))
     (=ucs@unicode	. #x4564)	; &UU+4564;
     (->subsumptive
@@ -106083,6 +106083,8 @@
     (=mj		. 047169)	; &MJ047169;
     (=koseki		. 367650)	; &MJ047169;
     (=daikanwa 		. 49652)	; &I-M-49652;
+    (=ucs@cns 		. #x27057)	; &C7-4950;
+    (=cns11643-7	. #x4950)	; &C7-4950; [41-48]
     (->subsumptive
      ((==mj		  . 047169)	; &g2-MJ047169;
       (==koseki		  . 367650)	; &g2-MJ047169;
@@ -106092,6 +106094,11 @@
 	)
        ((===mj		    . 047169)	; &R-MJ047169;
 	))
+      )
+     ((==ucs@cns	  . #x27057)	; &g2-CU+27057;
+      (==cns11643-7	  . #x4950)	; &g2-CU+27057; [41-48]
+      (==ucs@cns	  . #x27057)	; &g2-CU+27057;
+      (==cns11643-7	  . #x4950)	; &g2-CU+27057; [41-48]
       ))
     ))
 (define-char
@@ -106101,6 +106108,11 @@
     (ideographic-radical . 140)	; ⾋
     (ideographic-strokes . 15)
     (total-strokes	 . 19)
+    (ideographic-structure
+     ?⿴
+     ((=daikanwa		. 30757)	; &M-30757;
+      )
+     ?&UU+60A4;)
     (=ucs@iso 		. #x27057)	; &U-00027057;
     (->subsumptive
      ((==ucs@iso	  . #x27057)	; &g2-IU-00027057;
@@ -106113,12 +106125,8 @@
     (ideographic-radical . 140)	; ⾋
     (ideographic-strokes . 15)
     (total-strokes	 . 19)
-    (=ucs@cns	  . #x27057)	; &g2-CU+27057;
+    (=ucs@cns 		. #x27057)	; &C7-4950;
     (=cns11643-7	. #x4950)	; &C7-4950; [41-48]
-    (->subsumptive
-     ((==ucs@cns	  . #x27057)	; &g2-CU+27057;
-      (==cns11643-7	  . #x4950)	; &g2-CU+27057; [41-48]
-      ))
     ))
 (define-char
   '((ideographic-radical . 140)	; ⾋
@@ -111533,15 +111541,15 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=ucs		. #x8279)	; 艹
+     ((=ucs		  . #x8279)	; 艹
       )
-     ((=ucs		. #x5EEA)	; 廪
+     ((=ucs		  . #x5EEA)	; 廪
       ))
-    (=>ucs@unicode	. #x4572)	; &UU+4572;
+    (=>ucs@unicode	. #x4572)	; &A-UU+4572;
     ))
 (define-char
   '((<-denotational
-     ((=>ucs@unicode	. #x4572)	; &UU+4572;
+     ((=>ucs@unicode	  . #x4572)	; &A-UU+4572;
       ))
     (ideographic-radical . 140)	; ⾋
     (ideographic-strokes . 16)
@@ -111567,7 +111575,7 @@
     ))
 (define-char
   '((<-denotational
-     ((=>ucs@unicode	. #x4572)	; &UU+4572;
+     ((=>ucs@unicode	  . #x4572)	; &A-UU+4572;
       ))
     (ideographic-radical . 140)	; ⾋
     (ideographic-strokes . 16)
@@ -111576,13 +111584,14 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=ucs		. #x2EBF)	; ⺿
+     ((name		  . "CJK RADICAL GRASS TWO")
+      (=ucs		  . #x2EBF)	; ⺿
       )
      ((=ucs@unicode	  . #x5EEA)	; &C3-505C;
       (=gb2312		  . #x625E)	; &C3-505C; [66-62]
       (=cns11643-3	  . #x505C)	; &I-C3-505C; [48-60]
       ))
-    (=ucs@cns	  . #x4572)	; &g2-CU+4572;
+    (=ucs@cns		. #x4572)	; &C4-6436;
     (=cns11643-4	. #x6436)	; &C4-6436; [68-22]
     (->subsumptive
      ((==ucs@cns	  . #x4572)	; &g2-CU+4572;
@@ -117138,8 +117147,7 @@
 	)
        ((=daikanwa	    . 30757)	; &M-30757;
 	)
-       ((=ucs@cns/2008	    . #x7DD0)	; &MCS-0010B557;
-	(=cns11643-3@2008   . #x6629)	; &MCS-0010B557; [70-09]
+       ((=ucs@cns/2008	    . #x7DD0)	; &MCS-0010B5AE;
 	))
       (=ucs@cns		  . #x2712B)	; &C7-5874;
       (=cns11643-7	  . #x5874)	; &C7-5874; [56-84]

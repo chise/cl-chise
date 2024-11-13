@@ -28871,9 +28871,20 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 85)	; ⽔
+  '((<-denotational@usage
+     ((==>ucs@bucs	  . #x6E4A)	; &BUCS+6E4A;
+      ))
+    (ideographic-radical . 85)	; ⽔
     (ideographic-strokes . 9)
     (total-strokes	 . 12)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x6C35)	; 氵
+      )
+     ((=ucs		  . #x594F)	; 奏
+      ))
     (=ucs		. #x6E4A)	; 湊
     ))
 (define-char
@@ -28883,8 +28894,28 @@
     (ideographic-radical . 85)	; ⽔
     (ideographic-strokes . 9)
     (total-strokes	 . 12)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x6C35)	; 氵
+      )
+     ((=adobe-japan1-5	  . 20103)	; &AJ1-20103;
+      ))
+    (=ucs@ks		  . #x6E4A)	; &g2-M-17822;
     (=ks-x1001		. #x713E)	; &M-17822; [81-30]
     (=daikanwa		. 17822)	; &I-M-17822;
+    (->subsumptive
+     ((==ucs@ks		  . #x6E4A)	; &g2-M-17822;
+      (==ks-x1001	  . #x713E)	; &g2-M-17822; [81-30]
+      (==daikanwa	  . 17822)	; &g2-M-17822;
+      (->subsumptive
+       ((===daikanwa	    . 17822)	; &R-M-17822;
+	)
+       ((===ucs@ks	    . #x6E4A)	; &R-K0-713E;
+	(===ks-x1001	    . #x713E)	; &R-K0-713E; [81-30]
+	))
+      ))
     ))
 (define-char
   '((<-denotational
@@ -28893,13 +28924,32 @@
     (ideographic-radical . 85)	; ⽔
     (ideographic-strokes . 9)
     (total-strokes	 . 12)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x6C35)	; 氵
+      )
+     ((=+>ucs@unicode	  . #x594F)	; &o-J0-4155;
+      (=+>jis-x0208	  . #x4155)	; &o-J0-4155; [33-53]
+      ))
     (=+>ucs@unicode	. #x6E4A)	; &o-J0-4C2B;
     (=+>jis-x0208	. #x4C2B)	; &o-J0-4C2B; [44-11]
     (=+>jis-x0213-1	. #x4C2B)	; &o-J0-4C2B; [44-11]
     (=big5		. #xB4EA)	; &o-J0-4C2B;
     (=+>gt		. 22813)	; &o-J0-4C2B;
     (->subsumptive
-     ((=ucs@jis		  . #x6E4A)	; &AJ1-03767;
+     ((ideographic-structure
+       ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+	(=ucs		    . #x2FF0)	; ⿰
+	)
+       ((=ucs		    . #x6C35)	; 氵
+	)
+       ((=ucs@jis	    . #x594F)	; &AJ1-02775;
+	(=ucs@ks	    . #x594F)	; &AJ1-02775;
+	(=adobe-japan1-0    . 02775)	; &AJ1-02775;
+	))
+      (=ucs@jis		  . #x6E4A)	; &AJ1-03767;
       (=adobe-japan1-0	  . 03767)	; &AJ1-03767;
       (=jis-x0208	  . #x4C2B)	; &I-J90-4C2B; [44-11]
       (=jis-x0213-1	  . #x4C2B)	; &I-JX1-4C2B; [44-11]
@@ -28921,7 +28971,17 @@
 	  ))
 	))
       )
-     ((=ucs@unicode	  . #x6E4A)	; &C1-6031;
+     ((ideographic-structure
+       ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+	(=ucs		    . #x2FF0)	; ⿰
+	)
+       ((=ucs		    . #x6C35)	; 氵
+	)
+       ((=ucs@unicode	    . #x594F)	; &C1-5057;
+	(=gb2312	    . #x5760)	; &C1-5057; [55-64]
+	(=cns11643-1	    . #x5057)	; &I-C1-5057; [48-55]
+	))
+      (=ucs@unicode	  . #x6E4A)	; &C1-6031;
       (=ucs@JP/hanazono	  . nil)
       (=cns11643-1	  . #x6031)	; &C1-6031; [64-17]
       (->subsumptive
@@ -70301,6 +70361,11 @@
   '((ideographic-radical . 85)	; ⽔
     (==>ucs@bucs	. #x6EAB)	; &BUCS+6EAB;
     (==>daijiten	. 06326)	; &BUCS+6EAB;
+    ))
+(define-char
+  '((ideographic-radical . 85)	; ⽔
+    (==>ucs@bucs	. #x6E4A)	; &BUCS+6E4A;
+    (==>daijiten	. 06355)	; &BUCS+6E4A;
     ))
 (define-char
   '((ideographic-radical . 85)	; ⽔

@@ -1798,7 +1798,7 @@
      ((=hanyo-denshi/ks	  . 002130)	; &HD-KS-002130;
       ))
     (=ucs@iso		. #x25E3D)	; &C6-3A53;
-    (=cns11643-6	. #x3A53)	; &I-C6-3A53; [26-51]
+    (=cns11643-6	. #x3A53)	; &C6-3A53; [26-51]
     (=daikanwa 		. 49457)	; &C6-3A53;
     (->subsumptive
      ((==ucs@iso	  . #x25E3D)	; &g2-M-49457;
@@ -7663,6 +7663,8 @@
   '((ideographic-radical . 119)	; ⽶
     (ideographic-strokes . 9)
     (total-strokes	 . 15)
+    (ideographic-radical@ucs/code . 38)	; ⼥
+    (ideographic-strokes@ucs/code . 12)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
