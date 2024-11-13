@@ -1,5 +1,19 @@
 2024-11-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* Sync up with the current snapshot [2024-11-13 15:40 JST].
+
+	M	data/char-defs/Ideograph-R108-Dish.el
+	M	data/char-defs/Ideograph-R118-Bamboo.el
+	M	data/char-defs/Ideograph-R130-Meat.el
+	M	data/dumped-ids.lisp
+
+2024-11-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* loadup-char-defs.lisp (*git-command-path*): New variable.
+	- Use `uiop:run-program' instead of `sb-ext:run-program'.
+
+2024-11-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* Sync up with the current snapshot [2024-11-11 11:30 JST].
 
 	M	data/char-defs/Ideograph-R001-One.el
