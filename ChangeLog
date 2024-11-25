@@ -1,3 +1,41 @@
+2024-11-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* Sync up with the current snapshot [2024-11-25 11:45 JST].
+
+	M	data/char-defs/Ideograph-R004-Slash.el
+	M	data/char-defs/Ideograph-R032-Earth.el
+	M	data/char-defs/Ideograph-R035-Go-Slowly.el
+	M	data/char-defs/Ideograph-R037-Big.el
+	M	data/char-defs/Ideograph-R042-Small.el
+	M	data/char-defs/Ideograph-R044-Corpse.el
+	M	data/char-defs/Ideograph-R045-Sprout.el
+	M	data/char-defs/Ideograph-R050-Turban.el
+	M	data/char-defs/Ideograph-R053-Dotted-Cliff.el
+	M	data/char-defs/Ideograph-R058-Snout.el
+	M	data/char-defs/Ideograph-R066-Rap.el
+	M	data/char-defs/Ideograph-R073-Say.el
+	M	data/char-defs/Ideograph-R075-Tree.el
+	M	data/char-defs/Ideograph-R079-Weapon.el
+	M	data/char-defs/Ideograph-R082-Fur.el
+	M	data/char-defs/Ideograph-R085-Water.el
+	M	data/char-defs/Ideograph-R086-Fire.el
+	M	data/char-defs/Ideograph-R094-Dog.el
+	M	data/char-defs/Ideograph-R096-Jade.el
+	M	data/char-defs/Ideograph-R097-Melon.el
+	M	data/char-defs/Ideograph-R102-Field.el
+	M	data/char-defs/Ideograph-R120-Silk.el
+	M	data/char-defs/Ideograph-R123-Sheep.el
+	M	data/char-defs/Ideograph-R125-Old.el
+	M	data/char-defs/Ideograph-R130-Meat.el
+	M	data/char-defs/Ideograph-R134-Mortar.el
+	M	data/char-defs/Ideograph-R140-Grass.el
+	M	data/char-defs/Ideograph-R149-Speech.el
+	M	data/char-defs/ShuoWen-SR400.el
+	M	data/char-defs/ShuoWen-SR480.el
+	M	data/char-defs/ruimoku6.el
+	M	data/char-defs/u02E00-CJK-Radical-Supplement.el
+	M	data/dumped-ids.lisp
+
 2024-11-14  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* cl-chise.asd (version): Update to "1.3".
