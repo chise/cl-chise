@@ -6862,21 +6862,40 @@
       )
      ((=ucs-var-002	  . #x20B1E)	; &U-v002+20B1E;
       ))
-    (=ucs@iso		. #x20B61)	; &GT-00215;
-    (=cns11643-6	. #x3C7C)	; &GT-00215; [28-92]
+    (=ucs@iso		. #x20B61)	; &MJ032062;
+    (=mj		. 032062)	; &MJ032062;
+    (=cns11643-6	. #x3C7C)	; &I-C6-3C7C; [28-92]
+    (=koseki		. 001920)	; &MJ032062;
     (=gt		. 00215)	; &I-GT-00215;
     (=gt-pj-2		. #x313F)	; &I-GT-00215; [17-31]
-    (=daikanwa 		. 48910)	; &I-M-48910;
+    (=daikanwa		. 48910)	; &I-M-48910;
     (<-formed
      ((=adobe-japan1-5	  . 20103)	; &AJ1-20103;
+      )
+     ((=ucs@jis		  . #x594F)	; &AJ1-02775;
+      (=ucs@ks		  . #x594F)	; &AJ1-02775;
+      (=adobe-japan1-0	  . 02775)	; &I-AJ1-02775;
       ))
+    (<-formed$_1*sources
+     koseki mj)
+    (<-formed*sources
+     koseki mj)
+    (<-same
+     ((=adobe-japan1-5	  . 20103)	; &AJ1-20103;
+      (=daikanwa	  . 05915)	; &I-M-05915;
+      ))
+    (<-same*sources
+     daikanwa)
     (->subsumptive
-     ((==ucs@iso	  . #x20B61)	; &g2-GT-00215;
-      (==cns11643-6	  . #x3C7C)	; &g2-GT-00215; [28-92]
-      (==gt		  . 00215)	; &g2-GT-00215;
-      (==daikanwa	  . 48910)	; &g2-GT-00215;
+     ((==daikanwa	  . 48910)	; &g2-M-48910;
+      )
+     ((==ucs@iso	  . #x20B61)	; &g2-MJ032062;
+      (==mj		  . 032062)	; &g2-MJ032062;
+      (==cns11643-6	  . #x3C7C)	; &g2-MJ032062; [28-92]
+      (==koseki		  . 001920)	; &g2-MJ032062;
+      (==gt		  . 00215)	; &g2-MJ032062;
       (->subsumptive
-       ((===daikanwa	    . 48910)	; &R-M-48910;
+       ((===mj		    . 032062)	; &R-MJ032062;
 	)
        ((===cns11643-6	    . #x3C7C)	; &R-C6-3C7C; [28-92]
 	)

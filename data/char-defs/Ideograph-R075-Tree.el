@@ -20397,6 +20397,8 @@
      ((=>ucs@component	  . #x5DE0)	; &A-compU+5DE0;
       (=>iwds-1		  .  0085)	; &A-compU+5DE0;
       ))
+    (sound@ja/on/go	"kIyAu")
+    (sound@ja/on/kan	"kei")
     (=ucs		. #x6871)	; 桱
     ))
 (define-char
@@ -20420,7 +20422,7 @@
     (=jis-x0212		. #x4364)	; &I-JSP-4364; [35-68]
     (=cns11643-2	. #x362C)	; &I-C2-362C; [22-12]
     (=big5		. #xD5C8)	; &I-B-D5C8;
-    (=daikanwa 		. 14804)	; &I-M-14804;
+    (=daikanwa		. 14804)	; &I-M-14804;
     (->subsumptive
      ((==ucs@unicode	  . #x6871)	; &g2-AJ1-21761;
       (==adobe-japan1-6	  . 21761)	; &g2-AJ1-21761;
@@ -44227,9 +44229,17 @@
   '((ideographic-radical . 75)	; ⽊
     (ideographic-strokes . 10)
     (total-strokes	 . 14)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x209F8)	; 𠧸
+      )
+     ((=ucs		  . #x6728)	; 木
+      ))
     (=ucs		. #x235F4)	; 𣗴
     (=cns11643-6	. #x5D6A)	; &I-C6-5D6A; [61-74]
-    (=daikanwa		. 15341)	; &I-M-15341;
+    (=daikanwa 		. 15341)	; &I-M-15341;
     (->subsumptive
      ((==ucs@iso	  . #x235F4)	; &g2-M-15341;
       (==daikanwa	  . 15341)	; &g2-M-15341;

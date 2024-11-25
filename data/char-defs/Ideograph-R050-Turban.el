@@ -4096,7 +4096,7 @@
     (=hanyo-denshi/ip	. #x5E23)	; &HD-IP-5E23;
     (=daikanwa		. 08881)	; &I-M-08881;
     (<-interchangeable
-     ((=gt		  . 35296)	; &MJ020102;
+     ((=gt		  . 35296)	; &GT-35296;
       (=daikanwa	  . 27442)	; &I-M-27442;
       ))
     (<-interchangeable$_1*sources
@@ -16198,6 +16198,7 @@
       )
      ((=ucs		  . #x3157B)	; 𱕻
       ))
+    (sound@ja/on	"Wi")
     (=ucs		. #x2247A)	; 𢑺
     ))
 (define-char
@@ -16219,7 +16220,22 @@
     (=ucs@iso		. #x2247A)	; &GT-11513;
     (=gt		. 11513)	; &GT-11513;
     (=gt-pj-11		. #x4757)	; &GT-11513; [39-55]
-    (=daikanwa/ho 	.  0163)	; &GT-11513;
+    (=daikanwa/ho	.  0163)	; &GT-11513;
+    (<-same
+     ((=ucs@unicode	  . #x5F59)	; &AJ1-04782;
+      (=adobe-japan1-0	  . 04782)	; &AJ1-04782;
+      (=daikanwa	  . 09936)	; &I-M-09936;
+      ))
+    (<-same*sources
+     jiyun daikanwa)
+    (->Liwen
+     ((=ucs@unicode	  . #x5F59)	; &AJ1-04782;
+      (=adobe-japan1-0	  . 04782)	; &AJ1-04782;
+      ))
+    (->Liwen$_1*sources
+     jiyun)
+    (->Liwen*sources
+     jiyun)
     (->subsumptive
      ((==gt		  . 11513)	; &g2-GT-11513;
       (==daikanwa/ho	  .  0163)	; &g2-GT-11513;

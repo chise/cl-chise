@@ -1698,6 +1698,44 @@
     (ideographic-strokes . 4)
     (total-strokes	 . 7)
     (ideographic-structure
+     ?⿱
+     ((=>ucs@iwds-1	. #x5929)	; &A-IWDSU+5929;
+      )
+     ((=>ucs@iwds-1	. #x5C0F)	; &A-IWDSU+5C0F;
+      ))
+    (=ucs		. #x2D547)	; 𭕇
+    ))
+(define-char
+  '((ideographic-radical . 42)	; ⼩
+    (ideographic-strokes . 4)
+    (total-strokes	 . 7)
+    (ideographic-structure
+     ?⿱
+     ?天
+     ?小)
+    (<-denotational
+     ((=ucs		. #x2D547)	; 𭕇
+      ))
+    (=ucs@JP/hanazono	. #x2D547)	; 𭕇
+    ))
+(define-char
+  '((ideographic-radical . 42)	; ⼩
+    (ideographic-strokes . 4)
+    (total-strokes	 . 7)
+    (ideographic-structure
+     ?⿱
+     ?夭
+     ?小)
+    (<-denotational
+     ((=ucs		. #x2D547)	; 𭕇
+      ))
+    (=ucs-var-001	. #x2D547)	; &U-v001+2D547;
+    ))
+(define-char
+  '((ideographic-radical . 42)	; ⼩
+    (ideographic-strokes . 4)
+    (total-strokes	 . 7)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
@@ -3054,8 +3092,8 @@
       (=daikanwa	  . 19218)	; &I-M-19218;
       ))
     (<-same
-     ((=ucs@iso		  . #x71CE)	; &M-19414;
-      (=daikanwa	  . 19414)	; &M-19414;
+     ((=ucs@iso		  . #x71CE)	; &AJ1-05588;
+      (=daikanwa	  . 19414)	; &AJ1-05588;
       ))
     (<-same*sources
      zihui daikanwa)

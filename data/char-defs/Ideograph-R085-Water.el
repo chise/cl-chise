@@ -28885,6 +28885,8 @@
       )
      ((=ucs		  . #x594F)	; 奏
       ))
+    (sound@ja/on/go	"su")
+    (sound@ja/on/kan	"sou")
     (=ucs		. #x6E4A)	; 湊
     ))
 (define-char
@@ -28902,9 +28904,33 @@
       )
      ((=adobe-japan1-5	  . 20103)	; &AJ1-20103;
       ))
-    (=ucs@ks		  . #x6E4A)	; &g2-M-17822;
+    (=ucs@ks		. #x6E4A)	; &M-17822;
     (=ks-x1001		. #x713E)	; &M-17822; [81-30]
     (=daikanwa		. 17822)	; &I-M-17822;
+    (<-interchangeable
+     ((=ucs		  . #x8D70)	; 走
+      ))
+    (<-interchangeable$_1*sources
+     shuowen-tongxundingsheng daikanwa)
+    (->formed
+     ((=daikanwa	  . 38429)	; &M-38429;
+      )
+     ((=ucs@jis		  . #x8160)	; &JX1-7A50;
+      (=jis-x0212	  . #x563D)	; &JX1-7A50; [54-29]
+      (=jis-x0213-1	  . #x7A50)	; &I-JX1-7A50; [90-48]
+      (=daikanwa	  . 29670)	; &I-M-29670;
+      )
+     ((=adobe-japan1-5	  . 20103)	; &AJ1-20103;
+      (=daikanwa	  . 05915)	; &I-M-05915;
+      ))
+    (->formed$_1*sources
+     shuowen-tongxundingsheng daikanwa)
+    (->formed$_2*sources
+     shuowen-tongxundingsheng daikanwa)
+    (->formed$_3*sources
+     jiyun daikanwa)
+    (->formed*sources
+     daikanwa)
     (->subsumptive
      ((==ucs@ks		  . #x6E4A)	; &g2-M-17822;
       (==ks-x1001	  . #x713E)	; &g2-M-17822; [81-30]
@@ -49798,7 +49824,8 @@
     (=cns11643-7	. #x245F)	; &I-C7-245F; [04-63]
     (=daikanwa		. 18359)	; &I-M-18359;
     (<-same
-     ((=ks-x1001	  . #x713E)	; &M-17822; [81-30]
+     ((=ucs@ks		  . #x6E4A)	; &M-17822;
+      (=ks-x1001	  . #x713E)	; &M-17822; [81-30]
       (=daikanwa	  . 17822)	; &I-M-17822;
       ))
     (<-same*sources

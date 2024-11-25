@@ -1683,7 +1683,9 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((==>daijiten	  . 04658)	; &A2-DJT-04658;
+     ((ideographic-radical . 73)	; ⽈
+      (==>ucs@bucs	. #x66F9)	; &BUCS+66F9;
+      (==>daijiten	  . 04658)	; &A2-DJT-04658;
       ))
     (ideographic-radical . 73)	; ⽈
     (ideographic-strokes . 7)
@@ -1694,9 +1696,18 @@
       )
      ((=big5-cdp	  . #x8D61)	; &CDP-8D61;
       )
-     ((=ucs		  . #x66F0)	; 曰
+     ((=>iwds-1		.  0118)	; &A-compU+65E5;
       ))
     (=ucs		. #x66F9)	; 曹
+    ))
+(define-char
+  '((ideographic-radical . 73)	; ⽈
+    (ideographic-strokes . 7)
+    (total-strokes	 . 11)
+    (<-denotational
+     ((=ucs		. #x66F9)	; 曹
+      ))
+    (=ucs@unicode	. #x66F9)	; 曹
     (=adobe-japan1-0	. 02788)	; &I-AJ1-02788;
     (=jis-x0208		. #x4162)	; &I-J90-4162; [33-66]
     (=gb2312		. #x325C)	; &I-G0-325C; [18-60]

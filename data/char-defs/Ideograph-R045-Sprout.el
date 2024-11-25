@@ -2437,7 +2437,7 @@
     (<-formed
      ((=ucs@jis		  . #x594F)	; &AJ1-02775;
       (=ucs@ks		  . #x594F)	; &AJ1-02775;
-      (=adobe-japan1-0	  . 02775)	; &AJ1-02775;
+      (=adobe-japan1-0	  . 02775)	; &I-AJ1-02775;
       ))
     (<-formed*sources
      koseki mj)
@@ -2955,6 +2955,7 @@
       )
      ((=>ucs-itaiji-005	  . #x5932)	; &A-U-i005+5932;
       ))
+    (sound@ja/on	"sou")
     (=ucs		. #x21D28)	; 𡴨
     ))
 (define-char
@@ -2972,21 +2973,39 @@
       )
      ((=ucs-itaiji-005	  . #x5932)	; &U-i005+5932;
       ))
-    (=ucs@iso		. #x21D28)	; &C7-2242;
+    (=ucs@iso		. #x21D28)	; &MJ034468;
+    (=mj		. 034468)	; &MJ034468;
     (=cns11643-7	. #x2242)	; &I-C7-2242; [02-34]
-    (=daikanwa 		. 07865)	; &C7-2242;
+    (=koseki		. 089220)	; &MJ034468;
+    (=daikanwa		. 07865)	; &I-M-07865;
     (<-ancient
      ((=adobe-japan1-5	  . 20103)	; &AJ1-20103;
+      (=daikanwa	  . 05915)	; &I-M-05915;
       ))
+    (<-ancient*sources
+     zihui-bu daikanwa)
+    (<-formed
+     ((=ucs@jis		  . #x594F)	; &AJ1-02775;
+      (=ucs@ks		  . #x594F)	; &AJ1-02775;
+      (=adobe-japan1-0	  . 02775)	; &I-AJ1-02775;
+      ))
+    (<-formed$_1*sources
+     koseki mj)
+    (<-formed*sources
+     koseki mj)
     (<-original
      ((=adobe-japan1-5	  . 20103)	; &AJ1-20103;
       ))
     (->subsumptive
-     ((==daikanwa 	  . 07865)	; &g2-M-07865;
+     ((==daikanwa	  . 07865)	; &g2-M-07865;
       )
-     ((==ucs@iso	  . #x21D28)	; &g2-IU-00021D28;
-      (==cns11643-7	  . #x2242)	; &g2-IU-00021D28; [02-34]
+     ((==ucs@iso	  . #x21D28)	; &g2-MJ034468;
+      (==mj		  . 034468)	; &g2-MJ034468;
+      (==cns11643-7	  . #x2242)	; &g2-MJ034468; [02-34]
+      (==koseki		  . 089220)	; &g2-MJ034468;
       (->subsumptive
+       ((===mj		    . 034468)	; &R-MJ034468;
+	)
        ((===cns11643-7	    . #x2242)	; &R-C7-2242; [02-34]
 	)
        ((===ucs@iso	    . #x21D28)	; &R-U-00021D28;

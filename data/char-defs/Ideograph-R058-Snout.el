@@ -3573,7 +3573,12 @@
     (<-Liwen
      ((=ucs@iso		  . #x22477)	; &MJ035744;
       (=mj		  . 035744)	; &MJ035744;
+      )
+     ((=ucs@iso		  . #x2247A)	; &GT-11513;
+      (=gt		  . 11513)	; &GT-11513;
       ))
+    (<-Liwen$_1*sources
+     jiyun)
     (<-Liwen*sources
      jiyun)
     (<-ancient
@@ -3771,8 +3776,8 @@
      shinjigen)
     (->subsumptive
      ((==mj		  . 068054)	; &MJ068054;
-      (==koseki		  . 112430)	; &MJ068054;
-      (==shinjigen	  .  2307)	; &MJ068054;
+      (==koseki		  . 112430)	; &g2-MJ068054;
+      (==shinjigen	  .  2307)	; &g2-MJ068054;
       (->subsumptive
        ((===mj		    . 068054)	; &MJ068054;
 	))
@@ -5175,6 +5180,7 @@
       )
      ((=ucs		  . #x3157B)	; 𱕻
       ))
+    (sound@ja/on	"Wi")
     (=ucs		. #x2247A)	; 𢑺
     ))
 (define-char
@@ -5196,7 +5202,22 @@
     (=ucs@iso		. #x2247A)	; &GT-11513;
     (=gt		. 11513)	; &GT-11513;
     (=gt-pj-11		. #x4757)	; &GT-11513; [39-55]
-    (=daikanwa/ho 	.  0163)	; &GT-11513;
+    (=daikanwa/ho	.  0163)	; &GT-11513;
+    (<-same
+     ((=ucs@unicode	  . #x5F59)	; &AJ1-04782;
+      (=adobe-japan1-0	  . 04782)	; &AJ1-04782;
+      (=daikanwa	  . 09936)	; &I-M-09936;
+      ))
+    (<-same*sources
+     jiyun daikanwa)
+    (->Liwen
+     ((=ucs@unicode	  . #x5F59)	; &AJ1-04782;
+      (=adobe-japan1-0	  . 04782)	; &AJ1-04782;
+      ))
+    (->Liwen$_1*sources
+     jiyun)
+    (->Liwen*sources
+     jiyun)
     (->subsumptive
      ((==gt		  . 11513)	; &g2-GT-11513;
       (==daikanwa/ho	  .  0163)	; &g2-GT-11513;

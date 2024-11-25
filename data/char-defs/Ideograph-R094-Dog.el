@@ -16075,8 +16075,16 @@
   '((ideographic-radical . 94)	; ⽝
     (ideographic-strokes . 12)
     (total-strokes	 . 15)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x72AD)	; 犭
+      )
+     ((=>gt-k		  . 10703)	; &A-GT-K10703;
+      ))
     (sound@ja/on	"gaN")
-    (=ucs 		. #x2488B)	; 𤢋
+    (=ucs		. #x2488B)	; 𤢋
     ))
 (define-char
   '((<-denotational
@@ -16085,13 +16093,27 @@
     (ideographic-radical . 94)	; ⽝
     (ideographic-strokes . 12)
     (total-strokes	 . 15)
-    (=ucs@iso		. #x2488B)	; &M-20707;
-    (=daikanwa 		. 20707)	; &M-20707;
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x72AD)	; 犭
+      )
+     ((=gt-k		  . 10703)	; &GT-K10703;
+      ))
+    (=ucs@iso		. #x2488B)	; &MJ040871;
+    (=mj		. 040871)	; &MJ040871;
+    (=koseki		. 232330)	; &MJ040871;
+    (=daikanwa		. 20707)	; &I-M-20707;
     (->subsumptive
-     ((==ucs@iso	  . #x2488B)	; &g2-M-20707;
-      (==daikanwa	  . 20707)	; &g2-M-20707;
+     ((==ucs@iso	  . #x2488B)	; &g2-MJ040871;
+      (==mj		  . 040871)	; &g2-MJ040871;
+      (==koseki		  . 232330)	; &g2-MJ040871;
+      (==daikanwa	  . 20707)	; &g2-MJ040871;
       (->subsumptive
        ((===daikanwa	    . 20707)	; &R-M-20707;
+	)
+       ((===mj		    . 040871)	; &R-MJ040871;
 	)
        ((===ucs@iso	    . #x2488B)	; &R-U-0002488B;
 	))

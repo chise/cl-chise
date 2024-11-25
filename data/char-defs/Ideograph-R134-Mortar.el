@@ -4091,6 +4091,28 @@
     ))
 (define-char
   '((ideographic-radical . 134)	; ⾅
+    (ideographic-structure
+     ?⿴
+     ((=>big5-cdp		. #x86FE)	; &A-CDP-86FE;
+      )
+     ?囟)
+    (=>ucs-itaiji-004	. #x26989)	; &U-i004+26989;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-004	. #x26989)	; &U-i004+26989;
+      ))
+    (ideographic-radical . 134)	; ⾅
+    (ideographic-strokes . 6)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ?⿴
+     ?&CDP-85D6;
+     ?囟)
+    (=ucs-itaiji-004	. #x26989)	; &U-i004+26989;
+    ))
+(define-char
+  '((ideographic-radical . 134)	; ⾅
     (=>ucs@cognate	. #x26973)	; &A-cgnU+26973;
     ))
 (define-char

@@ -138,7 +138,16 @@
       ))
     ))
 (define-char
+  '((ideographic-radical . 123)	; ⽺
+    (ideographic-strokes . 0)
+    (total-strokes	 . 7)
+    (=>big5-cdp		. #x8CCC)	; &CDP-8CCC;
+    ))
+(define-char
   '((<-denotational
+     ((=>big5-cdp		. #x8CCC)	; &CDP-8CCC;
+      ))
+    (<-denotational@component
      ((name		  . "CJK RADICAL SHEEP")
       (=ucs		  . #x2EB6)	; ⺶
       ))
@@ -152,6 +161,15 @@
     (->subsumptive
      ((==big5-cdp	  . #x8CCC)	; &g2-CDP-8CCC;
       ))
+    ))
+(define-char
+  '((<-denotational
+     ((=>big5-cdp		. #x8CCC)	; &CDP-8CCC;
+      ))
+    (ideographic-radical . 123)	; ⽺
+    (ideographic-strokes . 0)
+    (total-strokes	 . 7)
+    (=big5-cdp-itaiji-001 . #x8CCC)	; &CDP-i001-8CCC;
     ))
 (define-char
   '((<-denotational
@@ -7949,6 +7967,9 @@
     (ideographic-radical@cns . 123)	; ⽺
     (ideographic-strokes@cns . 14)
     (total-strokes	 . 20)
+    (ideographic-radical@ucs . 149)	; ⾔
+    (ideographic-strokes@ucs . 13)
+    (total-strokes	   . 20)
     (ideographic-structure
      ((=ucs-itaiji-001	  . #x2FF1)	; &U-i001+2FF1;
       )
@@ -7966,10 +7987,7 @@
     (=daikanwa		. 36028)	; &I-M-36028;
     (=daijiten		. 11194)	; &I-DJT-11194;
     (->subsumptive
-     ((ideographic-radical . 149)	; ⾔
-      (ideographic-strokes . 13)
-      (total-strokes	   . 20)
-      (=decomposition@cid
+     ((=decomposition@cid
        ((=ucs		    . #x8B71)	; 譱
 	)
        ((=ucs		    . #xE0100)	; 󠄀

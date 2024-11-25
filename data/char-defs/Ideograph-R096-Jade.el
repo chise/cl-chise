@@ -18700,6 +18700,7 @@
       )
      ((=>ucs-itaiji-005	  . #x865F)	; &A-U-i005+865F;
       ))
+    (sound@ja/on	"gAu")
     (=ucs		. #x24A69)	; 𤩩
     ))
 (define-char
@@ -18719,7 +18720,7 @@
       ))
     (=ucs@iso		. #x24A69)	; &C5-555A;
     (=cns11643-5	. #x555A)	; &C5-555A; [53-58]
-    (=daikanwa 		. 21263)	; &I-M-21263;
+    (=daikanwa		. 21263)	; &I-M-21263;
     (->subsumptive
      ((==daikanwa	  . 21263)	; &g2-M-21263;
       )

@@ -6915,7 +6915,17 @@
   '((ideographic-radical . 44)	; ⼫
     (ideographic-strokes . 10)
     (total-strokes	 . 13)
+    (sound@ja/on	"sAu")
     (=ucs 		. #x21CAF)	; 𡲯
+    (<-ancient
+     ((=ucs		  . #x21D1D)	; 𡴝
+      )
+     ((=ucs		  . #x594F)	; 奏
+      ))
+    (<-ancient$_1*sources
+     shuowen)
+    (<-ancient$_2*sources
+     shuowen)
     ))
 (define-char
   '((<-denotational
@@ -6924,9 +6934,15 @@
     (ideographic-radical . 44)	; ⼫
     (ideographic-strokes . 10)
     (total-strokes	 . 13)
-    (=ucs@iso		. #x21CAF)	; &C6-5226;
+    (=ucs@iso 		. #x21CAF)	; &C6-5226;
     (=cns11643-6	. #x5226)	; &C6-5226; [50-06]
-    (=daikanwa 		. 07774)	; &I-M-07774;
+    (=daikanwa		. 07774)	; &I-M-07774;
+    (<-ancient
+     ((=adobe-japan1-5	  . 20103)	; &AJ1-20103;
+      (=daikanwa	  . 05915)	; &I-M-05915;
+      ))
+    (<-ancient*sources
+     shuowen jiyun daikanwa)
     (<-formed
      ((=adobe-japan1-5	  . 20103)	; &AJ1-20103;
       ))
@@ -6953,11 +6969,32 @@
     ))
 (define-char
   '((ideographic-radical . 44)	; ⼫
+    (=ucs		. #x21CB1)	; 𡲱
+    (<-ancient
+     ((=ucs		  . #x21D1D)	; 𡴝
+      )
+     ((=ucs		  . #x594F)	; 奏
+      ))
+    (<-ancient$_1*sources
+     shuowen)
+    (<-ancient$_2*sources
+     shuowen)
+    ))
+(define-char
+  '((ideographic-radical . 44)	; ⼫
+    (<-denotational
+     ((=ucs		. #x21CB1)	; 𡲱
+      ))
     (ideographic-strokes . 10)
     (total-strokes	 . 13)
-    (=ucs		. #x21CB1)	; 𡲱
+    (=ucs@iso		. #x21CB1)	; 𡲱
     (=cns11643-6	. #x5225)	; &I-C6-5225; [50-05]
     (=daikanwa		. 07776)	; &I-M-07776;
+    (->subsumptive
+     ((==ucs@iso		. #x21CB1)	; 𡲱
+      (==cns11643-6	. #x5225)	; &I-C6-5225; [50-05]
+      (==daikanwa		. 07776)	; &I-M-07776;
+      ))
     ))
 (define-char
   '((ideographic-radical . 44)	; ⼫

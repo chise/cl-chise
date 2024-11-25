@@ -57914,7 +57914,8 @@
       ))
     (=ucs@JP/hanazono	. #x30C5D)	; &hanaJU+30C5D;
     (<-simplified@CN
-     ((=daikanwa	  . 31947)	; &C7-323D;
+     ((=ucs@iso		. #x26EA3)	; &C7-323D;
+      (=daikanwa	  . 31947)	; &C7-323D;
       ))
     ))
 (define-char
@@ -106083,8 +106084,8 @@
     (=mj		. 047169)	; &MJ047169;
     (=koseki		. 367650)	; &MJ047169;
     (=daikanwa 		. 49652)	; &I-M-49652;
-    (=ucs@cns 		. #x27057)	; &C7-4950;
-    (=cns11643-7	. #x4950)	; &C7-4950; [41-48]
+    (=ucs@cns 		. #x27057)	; &MJ047169;
+    (=cns11643-7	. #x4950)	; &MJ047169; [41-48]
     (->subsumptive
      ((==mj		  . 047169)	; &g2-MJ047169;
       (==koseki		  . 367650)	; &g2-MJ047169;
@@ -106125,8 +106126,8 @@
     (ideographic-radical . 140)	; ⾋
     (ideographic-strokes . 15)
     (total-strokes	 . 19)
-    (=ucs@cns 		. #x27057)	; &C7-4950;
-    (=cns11643-7	. #x4950)	; &C7-4950; [41-48]
+    (=ucs@cns 		. #x27057)	; &MJ047169;
+    (=cns11643-7	. #x4950)	; &MJ047169; [41-48]
     ))
 (define-char
   '((ideographic-radical . 140)	; ⾋

@@ -38187,10 +38187,7 @@
     (=daikanwa		. 36028)	; &I-M-36028;
     (=daijiten		. 11194)	; &I-DJT-11194;
     (->subsumptive
-     ((ideographic-radical . 149)	; ⾔
-      (ideographic-strokes . 13)
-      (total-strokes	   . 20)
-      (=decomposition@cid
+     ((=decomposition@cid
        ((=ucs		    . #x8B71)	; 譱
 	)
        ((=ucs		    . #xE0100)	; 󠄀

@@ -6728,14 +6728,46 @@
     (=cns11643-2	. #x257E)	; &C2-257E; [05-94]
     ))
 (define-char
+  '((<-denotational@usage
+     ((ideographic-radical . 32)	; ⼟
+      (==>ucs@bucs	. #x584B)	; &BUCS+584B;
+      )
+     ((ideographic-radical . 32)	; ⼟
+      (==>daijiten	. 01765)	; &BUCS+5802;
+      ))
+    (ideographic-radical . 32)	; ⼟
+    (ideographic-strokes . 5)
+    (total-strokes	 . 8)
+    (ideographic-structure
+     ?⿱
+     ?龸
+     ?土)
+    (=ucs		. #x5763)	; 坣
+    (<-ancient
+     ((=ucs		  . #x5802)	; 堂
+      ))
+    (<-ancient$_1*sources
+     shuowen)
+    (<-ancient*sources
+     shuowen)
+    ))
+(define-char
   '((ideographic-radical . 32)	; ⼟
     (ideographic-strokes . 5)
     (total-strokes	 . 8)
+    (<-denotational
+     ((=ucs		. #x5763)	; 坣
+      ))
     (hanyu-dazidian	1 431 2)
-    (=ucs		. #x5763)	; 坣
+    (=ucs@unicode	. #x5763)	; 坣
     (=cns11643-3	. #x2825)	; &I-C3-2825; [08-05]
     (=daikanwa		. 04968)	; &I-M-04968;
-    (=hanziku-2		. #xA8D2)	; &I-HZK02-A8D2;
+    (->subsumptive
+     ((==ucs@unicode	. #x5763)	; 坣
+      (==cns11643-3	. #x2825)	; &I-C3-2825; [08-05]
+      (==daikanwa		. 04968)	; &I-M-04968;
+      (=hanziku-2		. #xA8D2)	; &I-HZK02-A8D2;
+      ))
     ))
 (define-char
   '((ideographic-radical . 32)	; ⼟
@@ -40919,7 +40951,13 @@
       )
      ((=ucs		  . #x5802)	; 堂
       ))
+    (sound@ja/on	"dAu")
     (=ucs		. #x3676)	; 㙶
+    (<-Zhouwen
+     ((=ucs		  . #x5802)	; 堂
+      ))
+    (<-Zhouwen$_1*sources
+     shuowen)
     ))
 (define-char
   '((<-denotational
@@ -40937,15 +40975,36 @@
      ((=ucs@unicode	  . #x5802)	; &AJ1-03210;
       (=adobe-japan1-0	  . 03210)	; &AJ1-03210;
       ))
-    (=ucs@unicode	. #x3676)	; &C3-5045;
-    (=cns11643-3	. #x5045)	; &C3-5045; [48-37]
-    (=daikanwa 		. 05534)	; &I-M-05534;
+    (=ucs@unicode	. #x3676)	; &MJ000543;
+    (=mj		. 000543)	; &MJ000543;
+    (=cns11643-3	. #x5045)	; &I-C3-5045; [48-37]
+    (=koseki		. 063300)	; &MJ000543;
+    (=daikanwa		. 05534)	; &I-M-05534;
+    (<-Zhouwen
+     ((=ucs@unicode	  . #x5802)	; &AJ1-03210;
+      (=adobe-japan1-0	  . 03210)	; &AJ1-03210;
+      (=daikanwa	  . 05207)	; &I-M-05207;
+      ))
+    (<-Zhouwen*sources
+     shuowen daikanwa)
+    (<-formed
+     ((=ucs@unicode	  . #x5802)	; &AJ1-03210;
+      (=adobe-japan1-0	  . 03210)	; &AJ1-03210;
+      ))
+    (<-formed$_1*sources
+     koseki mj)
+    (<-formed*sources
+     koseki mj)
     (->subsumptive
-     ((==ucs@unicode	  . #x3676)	; &g2-M-05534;
-      (==cns11643-3	  . #x5045)	; &g2-M-05534; [48-37]
-      (==daikanwa	  . 05534)	; &g2-M-05534;
+     ((==ucs@unicode	  . #x3676)	; &g2-MJ000543;
+      (==mj		  . 000543)	; &g2-MJ000543;
+      (==cns11643-3	  . #x5045)	; &g2-MJ000543; [48-37]
+      (==koseki		  . 063300)	; &g2-MJ000543;
+      (==daikanwa	  . 05534)	; &g2-MJ000543;
       (->subsumptive
        ((===daikanwa	    . 05534)	; &R-M-05534;
+	)
+       ((===mj		    . 000543)	; &R-MJ000543;
 	)
        ((===cns11643-3	    . #x5045)	; &R-C3-5045; [48-37]
 	)
