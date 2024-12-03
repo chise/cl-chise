@@ -6089,7 +6089,7 @@
      ((=ucs@unicode	  . #x821F)	; &AJ1-02360;
       (=adobe-japan1-0	  . 02360)	; &AJ1-02360;
       )
-     ((=ucs		  . #x66F9)	; 曹
+     ((=ucs@unicode	  . #x66F9)	; 曹
       ))
     (=ucs@unicode	. #x825A)	; &AJ1-06312;
     (=adobe-japan1-0	. 06312)	; &AJ1-06312;

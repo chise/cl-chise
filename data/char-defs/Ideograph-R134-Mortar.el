@@ -1058,7 +1058,7 @@
 (define-char
   '((ideographic-radical . 134)	; ⾅
     (ideographic-strokes . 2)
-    (=ucs 		. #x26956)	; 𦥖
+    (=ucs		. #x26956)	; 𦥖
     ))
 (define-char
   '((<-denotational
@@ -3085,9 +3085,8 @@
     (=koseki		. 337090)	; &MJ003907;
     (=daikanwa		. 49562)	; &I-M-49562;
     (<-formed
-     ((=ucs@unicode	. #x9F20)	; &AJ1-02767;
-      (=jis-x0208	  . #x414D)	; &AJ1-02767; [33-45]
-      (=jis-x0213-1	  . #x414D)	; &I-JX1-414D; [33-45]
+     ((=ucs@unicode	  . #x9F20)	; &AJ1-02767;
+      (=adobe-japan1-0	  . 02767)	; &AJ1-02767;
       ))
     (<-formed$_1*sources
      koseki mj)
@@ -4017,6 +4016,35 @@
       ))
     ))
 (define-char
+  '((ideographic-radical . 134)	; ⾅
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER FULL SURROUND")
+      (=ucs		  . #x2FF4)	; ⿴
+      )
+     ((=>big5-cdp	  . #x86FE)	; &A-CDP-86FE;
+      )
+     ((=ucs		  . #x56DF)	; 囟
+      ))
+    (=>ucs-itaiji-004	. #x26989)	; &A-U-i004+26989;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-004	  . #x26989)	; &A-U-i004+26989;
+      ))
+    (ideographic-radical . 134)	; ⾅
+    (ideographic-strokes . 6)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER FULL SURROUND")
+      (=ucs		  . #x2FF4)	; ⿴
+      )
+     ((=big5-cdp	  . #x85D6)	; &CDP-85D6;
+      )
+     ((=ucs		  . #x56DF)	; 囟
+      ))
+    (=ucs-itaiji-004	. #x26989)	; &U-i004+26989;
+    ))
+(define-char
   '((<-denotational
      ((=>big5-cdp-itaiji-001 . #x85B9)	; &A-CDP-i001-85B9;
       ))
@@ -4088,28 +4116,6 @@
      ((==gt-k		  . 11083)	; &g2-GT-K11083;
       (==gt-pj-k1	  . #x382D)	; &g2-GT-K11083; [24-13]
       ))
-    ))
-(define-char
-  '((ideographic-radical . 134)	; ⾅
-    (ideographic-structure
-     ?⿴
-     ((=>big5-cdp		. #x86FE)	; &A-CDP-86FE;
-      )
-     ?囟)
-    (=>ucs-itaiji-004	. #x26989)	; &U-i004+26989;
-    ))
-(define-char
-  '((<-denotational
-     ((=>ucs-itaiji-004	. #x26989)	; &U-i004+26989;
-      ))
-    (ideographic-radical . 134)	; ⾅
-    (ideographic-strokes . 6)
-    (total-strokes	 . 15)
-    (ideographic-structure
-     ?⿴
-     ?&CDP-85D6;
-     ?囟)
-    (=ucs-itaiji-004	. #x26989)	; &U-i004+26989;
     ))
 (define-char
   '((ideographic-radical . 134)	; ⾅
@@ -7580,7 +7586,7 @@
        ((==daikanwa	    . 30272)	; &g2-M-30272;
 	))
       )
-     ((=ucs@cns 	  . #x269C1)	; &C7-653E;
+     ((=ucs@cns 		  . #x269C1)	; &C7-653E;
       (=cns11643-7	  . #x653E)	; &C7-653E; [69-30]
       (->subsumptive
        ((==ucs@cns	    . #x269C1)	; &g2-CU+269C1;

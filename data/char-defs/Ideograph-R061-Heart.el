@@ -24203,7 +24203,10 @@
     (===hng-khi		. 06351)	; &HNG010-06351;
     ))
 (define-char
-  '((ideographic-radical . 61)	; ⼼
+  '((<-denotational@usage
+     ((==>ucs@bucs	  . #x60F4)	; &BUCS+60F4;
+      ))
+    (ideographic-radical . 61)	; ⼼
     (ideographic-strokes . 9)
     (total-strokes	 . 12)
     (ideographic-structure
@@ -24215,7 +24218,28 @@
      ((=ucs		  . #x8011)	; 耑
       ))
     (=ucs		. #x60F4)	; 惴
-    (=adobe-japan1-0	. 04865)	; &I-AJ1-04865;
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x60F4)	; 惴
+      ))
+    (ideographic-radical . 61)	; ⼼
+    (ideographic-strokes . 9)
+    (total-strokes	 . 12)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5FC4)	; 忄
+      )
+     ((=ucs@unicode	  . #x8011)	; &JX2-7526;
+      (=jis-x0212	  . #x554E)	; &JX2-7526; [53-46]
+      (=cns11643-1	  . #x5325)	; &I-C1-5325; [51-05]
+      (=jis-x0213-2	  . #x7526)	; &I-JX2-7526; [85-06]
+      (=daikanwa	  . 28880)	; &I-M-28880;
+      ))
+    (=ucs@unicode	. #x60F4)	; &AJ1-04865;
+    (=adobe-japan1-0	. 04865)	; &AJ1-04865;
     (=jis-x0208		. #x5838)	; &I-J90-5838; [56-24]
     (=gb2312		. #x6337)	; &I-G0-6337; [67-23]
     (=cns11643-1	. #x5F34)	; &I-C1-5F34; [63-20]
@@ -24224,7 +24248,8 @@
     (=gt		. 13695)	; &I-GT-13695;
     (=gt-pj-1		. #x5838)	; &I-GT-13695; [56-24]
     (=daikanwa		. 10859)	; &I-M-10859;
-    (=shinjigen		.  2603)	; 惴
+    (=daijiten		. 03374)	; &I-DJT-03374;
+    (=shinjigen		.  2603)	; &AJ1-04865;
     (->subsumptive
      ((==ucs@unicode	  . #x60F4)	; &g2-AJ1-04865;
       (==adobe-japan1-0	  . 04865)	; &g2-AJ1-04865;
@@ -24234,9 +24259,12 @@
       (==jis-x0213-1	  . #x5838)	; &g2-AJ1-04865; [56-24]
       (==gt		  . 13695)	; &g2-AJ1-04865;
       (==daikanwa	  . 10859)	; &g2-AJ1-04865;
+      (==daijiten	  . 03374)	; &g2-AJ1-04865;
       (==shinjigen	  .  2603)	; &g2-AJ1-04865;
       (->subsumptive
        ((===daikanwa	    . 10859)	; &R-M-10859;
+	)
+       ((===daijiten	    . 03374)	; &R-DJT-03374;
 	)
        ((===jis-x0208	    . #x5838)	; &R-J0-5838; [56-24]
 	(===jis-x0213-1	    . #x5838)	; &R-J0-5838; [56-24]
@@ -56438,6 +56466,11 @@
   '((ideographic-radical . 61)	; ⼼
     (==>ucs@bucs	. #x60F0)	; &BUCS+60F0;
     (==>daijiten	. 03371)	; &BUCS+60F0;
+    ))
+(define-char
+  '((ideographic-radical . 61)	; ⼼
+    (==>ucs@bucs	. #x60F4)	; &BUCS+60F4;
+    (==>daijiten	. 03374)	; &BUCS+60F4;
     ))
 (define-char
   '((ideographic-radical . 61)	; ⼼

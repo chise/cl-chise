@@ -4424,6 +4424,11 @@
     ))
 (define-char
   '((ideographic-radical . 75)	; ⽊
+    (=>big5-cdp		. #x8D61)	; &A-CB10188;
+    (=>cbeta		. 10188)	; &A-CB10188;
+    ))
+(define-char
+  '((ideographic-radical . 75)	; ⽊
     (ideographic-strokes . 3)
     (total-strokes	 . 7)
     (=>big5-cdp		. #x85FC)	; &A-CDP-85FC;
@@ -4483,7 +4488,10 @@
     (=big5-cdp		. #x85FC)	; &CDP-85FC;
     ))
 (define-char
-  '((ideographic-radical . 75)	; ⽊
+  '((<-denotational
+     ((=>big5-cdp	  . #x8D61)	; &A-CB10188;
+      ))
+    (ideographic-radical . 75)	; ⽊
     (ideographic-strokes . 3)
     (total-strokes	 . 7)
     (=big5-cdp		. #x8D61)	; &CDP-8D61;

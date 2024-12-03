@@ -1427,6 +1427,9 @@
     ))
 (define-char
   '((<-denotational
+     ((=>big5-cdp	  . #x8CCC)	; &A-CDP-8CCC;
+      ))
+    (<-denotational@component
      ((name		  . "CJK RADICAL SHEEP")
       (=ucs		  . #x2EB6)	; ⺶
       ))
@@ -1542,9 +1545,6 @@
     (=jef-china3	. #x72FC)	; &I-JC3-72FC;
     (<-formed@component/connect-below
      ((=ucs		  . #x8001)	; 老
-      ))
-    (<-identical@component
-     ((=ucs		  . #x8002)	; 耂
       ))
     (->subsumptive
      ((==ucs@unicode	  . #x8002)	; &g2-GT-37304;

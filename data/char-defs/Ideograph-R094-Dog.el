@@ -14198,7 +14198,25 @@
      ((=ucs		  . #x66F9)	; 曹
       ))
     (=ucs		. #x24850)	; 𤡐
-    (=daikanwa		. 20655)	; &I-M-20655;
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x24850)	; 𤡐
+      ))
+    (ideographic-radical . 94)	; ⽝
+    (ideographic-strokes . 11)
+    (total-strokes	 . 14)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x72AD)	; 犭
+      )
+     ((=ucs@unicode	  . #x66F9)	; &AJ1-02788;
+      (=adobe-japan1-0	  . 02788)	; &AJ1-02788;
+      ))
+    (=ucs@iso		. #x24850)	; &M-20655;
+    (=daikanwa 		. 20655)	; &M-20655;
     (->subsumptive
      ((==ucs@iso	  . #x24850)	; &g2-M-20655;
       (==daikanwa	  . 20655)	; &g2-M-20655;

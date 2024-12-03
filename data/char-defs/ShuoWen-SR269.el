@@ -157,6 +157,7 @@
   '((shuowen-radical	. 269)	; 宀
     (=shuowen-jiguge	. 24612)	; &SW-JIGUGE-24612;
     (<-Small-Seal@shuowen
+     ?𡪃
      ((=ucs		  . #x5967)	; 奧
       )
      ((=ucs		  . #x5965)	; 奥

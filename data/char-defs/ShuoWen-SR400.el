@@ -107,13 +107,11 @@
      ((=ucs		  . #x22F65)	; 𢽥
       ))
     (<-ancient@shuowen
-     ((=shuowen-jiguge	. 35806)	; &SW-JIGUGE-35806;
+     ((=shuowen-jiguge	  . 35806)	; &SW-JIGUGE-35806;
       )
      ((=ucs		  . #x21D1D)	; 𡴝
-      (=ucs		  . #x21D1D)	; 𡴝
       )
      ((=ucs		  . #x594F)	; 奏
-      (=ucs		  . #x594F)	; 奏
       ))
     (->subsumptive
      ((===shuowen-jiguge-A30 . 36308)	; &SW-JIGUGE30-36308;

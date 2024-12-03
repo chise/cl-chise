@@ -32802,7 +32802,9 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((==>ucs@bucs	  . #x906D)	; &BUCS+906D;
+     ((ideographic-radical . 162)	; ⾡
+      (==>ucs@bucs	  . #x906D)	; &BUCS+906D;
+      (==>daijiten	. 12082)	; &A2-DJT-12082;
       ))
     (ideographic-radical . 162)	; ⾡
     (ideographic-strokes . 11)
@@ -32831,12 +32833,13 @@
      ((name		  . "CJK RADICAL WALK ONE")
       (=ucs		  . #x2ECD)	; ⻍
       )
-     ((=ucs		  . #x66F9)	; 曹
+     ((=ucs@unicode	  . #x66F9)	; 曹
       ))
     (=ucs@ks		. #x906D)	; &AJ1-13896;
     (=adobe-japan1-4	. 13896)	; &AJ1-13896;
     (=ks-x1001		. #x7064)	; &I-K0-7064; [80-68]
     (=daikanwa		. 39082)	; &I-M-39082;
+    (=daijiten		. 12082)	; &I-DJT-12082;
     (=jef-china3	. #x67E7)	; &I-JC3-67E7;
     (<-original
      ((=daikanwa	  . 39263)	; &M-39263;
@@ -32848,6 +32851,7 @@
       (==adobe-japan1-4	  . 13896)	; &g2-AJ1-13896;
       (==ks-x1001	  . #x7064)	; &g2-AJ1-13896; [80-68]
       (==daikanwa	  . 39082)	; &g2-AJ1-13896;
+      (==daijiten	. 12082)	; &I-DJT-12082;
       (==jef-china3	  . #x67E7)	; &g2-AJ1-13896;
       (->subsumptive
        ((===daikanwa	    . 39082)	; &R-M-39082;
@@ -32875,7 +32879,7 @@
      ((name		  . "CJK RADICAL WALK TWO")
       (=ucs		  . #x2ECE)	; ⻎
       )
-     ((=ucs		  . #x66F9)	; 曹
+     ((=ucs@unicode	  . #x66F9)	; 曹
       ))
     (=ucs@cns		. #x906D)	; &C1-6F4E;
     (=cns11643-1	. #x6F4E)	; &C1-6F4E; [79-46]
@@ -32891,11 +32895,6 @@
     (ideographic-radical . 162)	; ⾡
     (ideographic-strokes . 11)
     (total-strokes	 . 14)
-    (=decomposition@cid
-     ((=ucs		  . #x906D)	; 遭
-      )
-     ((=ucs		  . #xE0100)	; 󠄀
-      ))
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER LEFT")
       (=ucs		  . #x2FFA)	; ⿺
@@ -32903,7 +32902,7 @@
      ((name		  . "CJK RADICAL SIMPLIFIED WALK")
       (=ucs		  . #x2ECC)	; ⻌
       )
-     ((=ucs		  . #x66F9)	; 曹
+     ((=ucs@unicode	  . #x66F9)	; 曹
       ))
     (=ucs@unicode	. #x906D)	; &AJ1-02810;
     (=adobe-japan1-0	. 02810)	; &AJ1-02810;
@@ -32914,6 +32913,22 @@
     (=gt-k		. 11146)	; &I-GT-K11146;
     (=gt-pj-1		. #x4178)	; &I-GT-52459; [33-88]
     (=daikanwa/+p	. 39082)	; &AJ1-02810;
+    (->subsumptive
+     ((=decomposition@cid
+       ((=ucs		  . #x906D)	; 遭
+	)
+       ((=ucs		  . #xE0100)	; 󠄀
+	))
+      (==ucs@unicode	. #x906D)	; &AJ1-02810;
+      (==adobe-japan1-0	. 02810)	; &AJ1-02810;
+      (==jis-x0208		. #x4178)	; &I-J90-4178; [33-88]
+      (==gb2312		. #x5462)	; &I-G0-5462; [52-66]
+      (==jis-x0213-1	. #x4178)	; &I-JX1-4178; [33-88]
+      (==gt		. 52459)	; &I-GT-52459;
+      (==gt-k		. 11146)	; &I-GT-K11146;
+      (==gt-pj-1		. #x4178)	; &I-GT-52459; [33-88]
+      (==daikanwa/+p	. 39082)	; &AJ1-02810;
+      ))
     ))
 (define-char
   '((ideographic-radical . 162)	; ⾡

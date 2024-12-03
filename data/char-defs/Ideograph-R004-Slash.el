@@ -6844,6 +6844,7 @@
       )
      ((=ucs		  . #x20B1E)	; 𠬞
       ))
+    (sound@ja/on	"sou")
     (=ucs		. #x20B61)	; 𠭡
     ))
 (define-char
@@ -6874,7 +6875,7 @@
       )
      ((=ucs@jis		  . #x594F)	; &AJ1-02775;
       (=ucs@ks		  . #x594F)	; &AJ1-02775;
-      (=adobe-japan1-0	  . 02775)	; &I-AJ1-02775;
+      (=adobe-japan1-0	  . 02775)	; &AJ1-02775;
       ))
     (<-formed$_1*sources
      koseki mj)
