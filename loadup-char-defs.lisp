@@ -1,14 +1,8 @@
 (in-package :chise)
 
-(setq *readtable* (copy-readtable *readtable*))
+(setq *invert-readtable* (copy-readtable *readtable*))
 ;;(setf (readtable-case *readtable*) :preserve)
-(setf (readtable-case *readtable*) :invert)
-
-(set-macro-character
- #\?
- #'(lambda (stream char)
-     (or (read-entity-reference stream)
-	 (read-char stream nil))))
+(setf (readtable-case *invert-readtable*) :invert)
 
 (defvar *system-char-db-source-file-list*)
 (setq *system-char-db-source-file-list*
@@ -898,149 +892,159 @@
 	(format nil "~X" id)
 	id)))
 
-(unless (eq (get-char-attribute #\U2A6D6 '=ucs) #x2A6D6)
-  (dolist (file *system-char-db-source-file-list*)
-    (format t "Loading ~a...~%" file)
-    (load (merge-pathnames (concatenate 'string "data/char-defs/" file ".el")
-			   (asdf:system-source-directory :cl-chise))))
+(defun setup (&key force-rebuild with-ipld-cid)
+  (in-package :chise)
+  (unless (or (eq (get-char-attribute #\U2A6D6 '=ucs) #x2A6D6)
+	      force-rebuild)
+    (let ((*readtable* *invert-readtable*)
+	  (concord:*use-ipld-based-object-id* with-ipld-cid))
+      (set-macro-character
+       #\?
+       #'(lambda (stream char)
+	   (or (read-entity-reference stream)
+	       (read-char stream nil))))
+      (dolist (file *system-char-db-source-file-list*)
+	(format t "Loading ~a...~%" file)
+	(load (merge-pathnames (concatenate 'string "data/char-defs/" file ".el")
+			       (asdf:system-source-directory :cl-chise))))
 
-  (let ((ids-dir (merge-pathnames
-		  "data/ids/"
-		  (asdf:system-source-directory :cl-chise)))
-	(dumped-ids-file
-	  (merge-pathnames "data/dumped-ids.lisp"
-			   (asdf:system-source-directory :cl-chise)))
-	a-str ret)
-    (cond
-      ((and (not *ids-read-from-source*)
-	    (probe-file dumped-ids-file))
-       (load dumped-ids-file)
-       (ids-update-index)
-       )
-      (t
-       (if (directory ids-dir)
-	   (uiop:run-program
-	    (list *git-command-path* "pull")
-	    :directory ids-dir
-	    :output t :error-output t)
-	   (uiop:run-program
-	    (list *git-command-path*
-		  "clone"
-		  "https://gitlab.chise.org/CHISE/ids.git"
-		  (format nil "~a" ids-dir))
-	    :output t :error-output t))
-       (when (directory ids-dir)
-	 (dolist (file *ids-source-file-list*)
-	   (ids-read-file (merge-pathnames file ids-dir) :prompt t)))
+      (let ((ids-dir (merge-pathnames
+		      "data/ids/"
+		      (asdf:system-source-directory :cl-chise)))
+	    (dumped-ids-file
+	      (merge-pathnames "data/dumped-ids.lisp"
+			       (asdf:system-source-directory :cl-chise)))
+	    a-str ret)
+	(cond
+	  ((and (not *ids-read-from-source*)
+		(probe-file dumped-ids-file))
+	   (load dumped-ids-file)
+	   (ids-update-index)
+	   )
+	  (t
+	   (if (directory ids-dir)
+	       (uiop:run-program
+		(list *git-command-path* "pull")
+		:directory ids-dir
+		:output t :error-output t)
+	       (uiop:run-program
+		(list *git-command-path*
+		      "clone"
+		      "https://gitlab.chise.org/CHISE/ids.git"
+		      (format nil "~a" ids-dir))
+		:output t :error-output t))
+	   (when (directory ids-dir)
+	     (dolist (file *ids-source-file-list*)
+	       (ids-read-file (merge-pathnames file ids-dir) :prompt t)))
 
-       (ids-update-index)
+	   (ids-update-index)
 
-       (some-in-character-feature
-	(lambda (c v)
-	  (unless (equal (setq ret (ideographic-structure-compact v)) v)
-	    (format t "~a (~a) : Compact~%~T~T   ~a~%~T~T-> ~a~%"
-		    (char-id-string c) c
-		    v ret)
-	    (put-char-attribute c 'ideographic-structure ret)
-	    (setq v ret))
-	  (unless (setq a-str
-			(get-char-attribute c 'ideographic-structure@apparent))
-	    (when (setq a-str
-			(functional-ideographic-structure-to-apparent-structure v))
-	      (format t "~a (~a) : F2A-Conversion~%~T~T   ~a~%~T~T-> ~a~%"
-		      (char-id-string c) c
-		      v a-str)
-	      (put-char-attribute c 'ideographic-structure@apparent
-				  (ideographic-structure-compact a-str))))
-	  nil)
-	'ideographic-structure)
+	   (some-in-character-feature
+	    (lambda (c v)
+	      (unless (equal (setq ret (ideographic-structure-compact v)) v)
+		(format t "~a (~a) : Compact~%~T~T   ~a~%~T~T-> ~a~%"
+			(char-id-string c) c
+			v ret)
+		(put-char-attribute c 'ideographic-structure ret)
+		(setq v ret))
+	      (unless (setq a-str
+			    (get-char-attribute c 'ideographic-structure@apparent))
+		(when (setq a-str
+			    (functional-ideographic-structure-to-apparent-structure v))
+		  (format t "~a (~a) : F2A-Conversion~%~T~T   ~a~%~T~T-> ~a~%"
+			  (char-id-string c) c
+			  v a-str)
+		  (put-char-attribute c 'ideographic-structure@apparent
+				      (ideographic-structure-compact a-str))))
+	      nil)
+	    'ideographic-structure)
 
-       (some-in-character-feature
-	(lambda (c v)
-	  (unless (equal (setq ret (ideographic-structure-compact v)) v)
-	    (format t "~a (~a) : Compact [apparent]~%~T~T   ~a~%~T~T-> ~a~%"
-		    (char-id-string c) c
-		    v ret)
-	    (put-char-attribute c 'ideographic-structure@apparent ret)
-	    (setq v ret))
-	  nil)
-	'ideographic-structure@apparent)
+	   (some-in-character-feature
+	    (lambda (c v)
+	      (unless (equal (setq ret (ideographic-structure-compact v)) v)
+		(format t "~a (~a) : Compact [apparent]~%~T~T   ~a~%~T~T-> ~a~%"
+			(char-id-string c) c
+			v ret)
+		(put-char-attribute c 'ideographic-structure@apparent ret)
+		(setq v ret))
+	      nil)
+	    'ideographic-structure@apparent)
 
-       (some-in-character-feature
-	(lambda (c v)
-	  (unless (equal (setq ret (ideographic-structure-compact v)) v)
-	    (format
-	     t "~a (~a) : Compact [apparent/leftmost]~%~T~T   ~a~%~T~T-> ~a~%"
-	     (char-id-string c) c
-	     v ret)
-	    (put-char-attribute c 'ideographic-structure@apparent/leftmost ret)
-	    (setq v ret))
-	  nil)
-	'ideographic-structure@apparent/leftmost)
+	   (some-in-character-feature
+	    (lambda (c v)
+	      (unless (equal (setq ret (ideographic-structure-compact v)) v)
+		(format
+		 t "~a (~a) : Compact [apparent/leftmost]~%~T~T   ~a~%~T~T-> ~a~%"
+		 (char-id-string c) c
+		 v ret)
+		(put-char-attribute c 'ideographic-structure@apparent/leftmost ret)
+		(setq v ret))
+	      nil)
+	    'ideographic-structure@apparent/leftmost)
 
-       (some-in-character-feature
-	(lambda (c v)
-	  (unless (equal (setq ret (ideographic-structure-compact v)) v)
-	    (format
-	     t "~a (~a) : Compact [apparent/rightmost]~%~T~T   ~a~%~T~T-> ~a~%"
-	     (char-id-string c) c
-	     v ret)
-	    (put-char-attribute c 'ideographic-structure@apparent/rightmost ret)
-	    (setq v ret))
-	  nil)
-	'ideographic-structure@apparent/rightmost)
+	   (some-in-character-feature
+	    (lambda (c v)
+	      (unless (equal (setq ret (ideographic-structure-compact v)) v)
+		(format
+		 t "~a (~a) : Compact [apparent/rightmost]~%~T~T   ~a~%~T~T-> ~a~%"
+		 (char-id-string c) c
+		 v ret)
+		(put-char-attribute c 'ideographic-structure@apparent/rightmost ret)
+		(setq v ret))
+	      nil)
+	    'ideographic-structure@apparent/rightmost)
 
-       (ids-update-index)
+	   (ids-update-index)
 
-       (some-in-character-feature
-	(lambda (c v)
-	  (unless (equal (setq ret (ideographic-structure-compact v)) v)
-	    (format t "~a (~a) : Compact [2nd]~%~T~T   ~a~%~T~T-> ~a~%"
-		    (char-id-string c) c
-		    v ret)
-	    (put-char-attribute c 'ideographic-structure ret)
-	    (setq v ret))
-	  nil)
-	'ideographic-structure)
+	   (some-in-character-feature
+	    (lambda (c v)
+	      (unless (equal (setq ret (ideographic-structure-compact v)) v)
+		(format t "~a (~a) : Compact [2nd]~%~T~T   ~a~%~T~T-> ~a~%"
+			(char-id-string c) c
+			v ret)
+		(put-char-attribute c 'ideographic-structure ret)
+		(setq v ret))
+	      nil)
+	    'ideographic-structure)
 
-       (some-in-character-feature
-	(lambda (c v)
-	  (unless (equal (setq ret (ideographic-structure-compact v)) v)
-	    (format t "~a (~a) : Compact [apparent,2nd]~%~T~T   ~a~%~T~T-> ~a~%"
-		    (char-id-string c) c
-		    v ret)
-	    (put-char-attribute c 'ideographic-structure@apparent ret)
-	    (setq v ret))
-	  nil)
-	'ideographic-structure@apparent)
+	   (some-in-character-feature
+	    (lambda (c v)
+	      (unless (equal (setq ret (ideographic-structure-compact v)) v)
+		(format t "~a (~a) : Compact [apparent,2nd]~%~T~T   ~a~%~T~T-> ~a~%"
+			(char-id-string c) c
+			v ret)
+		(put-char-attribute c 'ideographic-structure@apparent ret)
+		(setq v ret))
+	      nil)
+	    'ideographic-structure@apparent)
 
-       (some-in-character-feature
-	(lambda (c v)
-	  (unless (equal (setq ret (ideographic-structure-compact v)) v)
-	    (format
-	     t "~a (~a) : Compact [apparent/leftmost,2nd]~%~T~T   ~a~%~T~T-> ~a~%"
-	     (char-id-string c) c
-	     v ret)
-	    (put-char-attribute c 'ideographic-structure@apparent/leftmost ret)
-	    (setq v ret))
-	  nil)
-	'ideographic-structure@apparent/leftmost)
+	   (some-in-character-feature
+	    (lambda (c v)
+	      (unless (equal (setq ret (ideographic-structure-compact v)) v)
+		(format
+		 t "~a (~a) : Compact [apparent/leftmost,2nd]~%~T~T   ~a~%~T~T-> ~a~%"
+		 (char-id-string c) c
+		 v ret)
+		(put-char-attribute c 'ideographic-structure@apparent/leftmost ret)
+		(setq v ret))
+	      nil)
+	    'ideographic-structure@apparent/leftmost)
 
-       (some-in-character-feature
-	(lambda (c v)
-	  (unless (equal (setq ret (ideographic-structure-compact v)) v)
-	    (format
-	     t "~a (~a) : Compact [apparent/rightmost,2nd]~%~T~T   ~a~%~T~T-> ~a~%"
-	     (char-id-string c) c
-	     v ret)
-	    (put-char-attribute c 'ideographic-structure@apparent/rightmost ret)
-	    (setq v ret))
-	  nil)
-	'ideographic-structure@apparent/rightmost)
+	   (some-in-character-feature
+	    (lambda (c v)
+	      (unless (equal (setq ret (ideographic-structure-compact v)) v)
+		(format
+		 t "~a (~a) : Compact [apparent/rightmost,2nd]~%~T~T   ~a~%~T~T-> ~a~%"
+		 (char-id-string c) c
+		 v ret)
+		(put-char-attribute c 'ideographic-structure@apparent/rightmost ret)
+		(setq v ret))
+	      nil)
+	    'ideographic-structure@apparent/rightmost)
 
-       (ids-update-index)
-       )))
+	   (ids-update-index)
+	   )))
 
-  (load (merge-pathnames "data/chise-bibliography.lisp"
-			 (asdf:system-source-directory :cl-chise)))
-  )
+      (load (merge-pathnames "data/chise-bibliography.lisp"
+			     (asdf:system-source-directory :cl-chise)))
+      )))
