@@ -1,3 +1,16 @@
+2024-12-11  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* README.md (Installation): Rename `Load it' to `Load it and
+	setup'; add description to run `(chise:setup)' to build the CHISE
+	character ontology.
+
+	* loadup-char-defs.lisp (*invert-readtable*): Renamed from
+	`*readtable*'.
+	(setup): New function [codes to load character data was moved from
+	top-level to build cl-chise without Redis/Valkey server].
+
+	* cl-chise.lisp (export): Export `setup'.
+
 2024-12-03  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* Sync up with the current snapshot [2024-12-02 20:10 JST].
