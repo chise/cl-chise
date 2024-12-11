@@ -30,12 +30,13 @@ NIL
 * (quit)
 ```
 
-3. Load it
+3. Load it and setup
 
 ```
 % sbcl
 
 * (ql:quickload :cl-chise)
+(chise:setup)
 ```
 
 When cl-chise is loaded for the first time, the CHISE character
