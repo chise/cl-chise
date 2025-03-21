@@ -122,6 +122,28 @@
 	    (setq ccs-base "gb2312")
 	    (setq plane nil)
 	    )
+	   ((and (setq pos (search "IWDSCDP-" str))
+		 (setq code (parse-integer str :start (+ pos 8) :radix 16
+					       :junk-allowed t)))
+	    (setq ccs-base "big5-cdp@iwds-1")
+	    (setq plane nil)
+	    )
+	   ((and (setq pos (search "CDP-v" str))
+		 (setq plane (parse-integer str :start (+ pos 5) :end (+ pos 8)))
+		 (eql (elt str (+ pos 8)) #\-)
+		 (setq code (parse-integer str :start (+ pos 9) :radix 16
+					       :junk-allowed t)))
+	    (setq plane (format nil "~3,'0d" plane))
+	    (setq ccs-base "big5-cdp-var-")
+	    )
+	   ((and (setq pos (search "CDP-i" str))
+		 (setq plane (parse-integer str :start (+ pos 5) :end (+ pos 8)))
+		 (eql (elt str (+ pos 8)) #\-)
+		 (setq code (parse-integer str :start (+ pos 9) :radix 16
+					       :junk-allowed t)))
+	    (setq plane (format nil "~3,'0d" plane))
+	    (setq ccs-base "big5-cdp-itaiji-")
+	    )
 	   ((and (setq pos (search "CDP-" str))
 		 (setq code (parse-integer str :start (+ pos 4) :radix 16
 					       :junk-allowed t)))
@@ -221,22 +243,6 @@
 					       :junk-allowed t)))
 	    (setq plane (format nil "~3,'0d" plane))
 	    (setq ccs-base "ucs-itaiji-")
-	    )
-	   ((and (setq pos (search "CDP-v" str))
-		 (setq plane (parse-integer str :start (+ pos 5) :end (+ pos 8)))
-		 (eql (elt str (+ pos 8)) #\-)
-		 (setq code (parse-integer str :start (+ pos 9) :radix 16
-					       :junk-allowed t)))
-	    (setq plane (format nil "~3,'0d" plane))
-	    (setq ccs-base "big5-cdp-var-")
-	    )
-	   ((and (setq pos (search "CDP-i" str))
-		 (setq plane (parse-integer str :start (+ pos 5) :end (+ pos 8)))
-		 (eql (elt str (+ pos 8)) #\-)
-		 (setq code (parse-integer str :start (+ pos 9) :radix 16
-					       :junk-allowed t)))
-	    (setq plane (format nil "~3,'0d" plane))
-	    (setq ccs-base "big5-cdp-itaiji-")
 	    )
 	   ((and (setq pos (search "J78-" str))
 		 (setq code (parse-integer str :start (+ pos 4) :radix 16
@@ -718,15 +724,15 @@
 	    (setq plane nil)
 	    )
 	   ((and (setq pos (search "compU+" str))
-		 (setq code (parse-integer str :start (+ pos 5) :radix 16
+		 (setq code (parse-integer str :start (+ pos 6) :radix 16
 					       :junk-allowed t)))
 	    (setq ccs-base "ucs@component")
 	    (setq plane nil)
 	    )
 	   ((and (setq pos (search "IWDS1-" str))
-		 (setq code (parse-integer str :start (+ pos 5) :radix 16
+		 (setq code (parse-integer str :start (+ pos 6) :radix 16
 					       :junk-allowed t)))
-	    (setq ccs-base ">iwds-1")
+	    (setq ccs-base "iwds-1")
 	    (setq plane nil)
 	    )
 	   ((and (setq pos (search "hanaJU+" str))
