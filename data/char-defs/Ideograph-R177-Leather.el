@@ -6897,9 +6897,27 @@
   '((ideographic-radical . 177)	; ⾰
     (ideographic-strokes . 11)
     (total-strokes	 . 20)
+    (ideographic-structure
+     ?⿰
+     ?革
+     ?𤉐)
     (=ucs		. #x2932E)	; 𩌮
+    ))
+(define-char
+  '((ideographic-radical . 177)	; ⾰
+    (ideographic-strokes . 11)
+    (total-strokes	 . 20)
+    (<-denotational
+     ((=ucs		. #x2932E)	; 𩌮
+      ))
+    (=ucs@iso		. #x2932E)	; 𩌮
     (=cns11643-4	. #x6521)	; &I-C4-6521; [69-01]
     (=daikanwa		. 43005)	; &I-M-43005;
+    (->subsumptive
+     ((==ucs@iso		. #x2932E)	; 𩌮
+      (==cns11643-4	. #x6521)	; &I-C4-6521; [69-01]
+      (==daikanwa		. 43005)	; &I-M-43005;
+      ))
     ))
 (define-char
   '((ideographic-radical . 177)	; ⾰

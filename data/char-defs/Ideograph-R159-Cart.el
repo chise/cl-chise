@@ -9688,6 +9688,21 @@
   '((ideographic-radical . 159)	; ⾞
     (ideographic-strokes . 9)
     (total-strokes	 . 13)
+    (=ucs		. #x2835A)	; 𨍚
+    ))
+(define-char
+  '((ideographic-radical . 159)	; ⾞
+    (ideographic-strokes . 9)
+    (total-strokes	 . 13)
+    (<-denotational
+     ((=ucs		. #x2835A)	; 𨍚
+      ))
+    (=ucs@iso		. #x2835A)	; 𨍚
+    ))
+(define-char
+  '((ideographic-radical . 159)	; ⾞
+    (ideographic-strokes . 9)
+    (total-strokes	 . 13)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰

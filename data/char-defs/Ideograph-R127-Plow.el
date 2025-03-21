@@ -2335,7 +2335,7 @@
     ))
 (define-char
   '((ideographic-radical . 127)	; ⽾
-    (=ucs 		. #x26523)	; 𦔣
+    (=ucs		. #x26523)	; 𦔣
     ))
 (define-char
   '((<-denotational
@@ -2962,7 +2962,7 @@
     (ideographic-radical . 127)	; ⽾
     (ideographic-strokes . 12)
     (total-strokes	 . 18)
-    (=ucs@iso 		. #x26523)	; &U-00026523;
+    (=ucs@iso		. #x26523)	; &U-00026523;
     ))
 (define-char
   '((ideographic-radical . 127)	; ⽾

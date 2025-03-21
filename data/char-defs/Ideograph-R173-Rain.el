@@ -2778,6 +2778,7 @@
 (define-char
   '((<-denotational@usage
      ((==>ucs@bucs	  . #x9707)	; &BUCS+9707;
+      (==>daijiten	. 13036)	; &A2-DJT-13036;
       ))
     (ideographic-radical . 173)	; ⾬
     (ideographic-structure
@@ -2805,7 +2806,7 @@
       )
      ((=ucs		  . #x96E8)	; 雨
       )
-     ((=ucs		  . #x8FB0)	; 辰
+     ((=ucs@unicode	  . #x8FB0)	; 辰
       ))
     (=ucs@unicode	. #x9707)	; &AJ1-02578;
     (=adobe-japan1-0	. 02578)	; &AJ1-02578;
@@ -2872,7 +2873,7 @@
       )
      ((=ucs		  . #x96E8)	; 雨
       )
-     ((=ucs		  . #x2E77E)	; 𮝾
+     ((=ucs@JP/hanazono	  . #x2E77E)	; 𮝾
       ))
     (===hng-khm		. 05740)	; &HNG011-05740;
     (<-formed

@@ -1947,10 +1947,12 @@
       (=>iwds-1		  .  0223)	; &A-IWDSU+7A74;
       )
      ((=ucs@unicode	  . #x672F)	; &C3-2252;
+      (=gb2312		  . #x4A75)	; &C3-2252; [42-85]
+      (=cns11643-3	  . #x2252)	; &I-C3-2252; [02-50]
       ))
     (=daikanwa 		. 25456)	; &M-25456;
     (->subsumptive
-     ((==daikanwa 		. 25456)	; &M-25456;
+     ((==daikanwa	  . 25456)	; &g2-M-25456;
       ))
     ))
 (define-char
@@ -4046,7 +4048,7 @@
     (=cns11643-6	. #x4C52)	; &C6-4C52; [44-50]
     (=daikanwa 		. 25521)	; &I-M-25521;
     (->subsumptive
-     ((==daikanwa 	  . 25521)	; &g2-M-25521;
+     ((==daikanwa	  . 25521)	; &g2-M-25521;
       )
      ((==ucs@iso	  . #x2597C)	; &g2-IU-0002597C;
       (==cns11643-6	  . #x4C52)	; &g2-IU-0002597C; [44-50]
@@ -4310,7 +4312,8 @@
      ((=>ucs@iwds-1	  . #x7A74)	; &A-IWDSU+7A74;
       (=>iwds-1		  .  0223)	; &A-IWDSU+7A74;
       )
-     ((=ucs		  . #x8FB0)	; 辰
+     ((=ucs@unicode	  . #x8FB0)	; &AJ1-02914;
+      (=adobe-japan1-0	  . 02914)	; &I-AJ1-02914;
       ))
     (=ucs@unicode	. #x41A3)	; &C3-3D6D;
     (=cns11643-3	. #x3D6D)	; &C3-3D6D; [29-77]

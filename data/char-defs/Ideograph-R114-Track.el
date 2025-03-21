@@ -1336,6 +1336,7 @@
      ((=>ucs@cognate	  . #x25745)	; &A-cgnU+25745;
       ))
     (ideographic-radical . 114)	; ⽱
+    (sound@ja/on	"baN")
     (=ucs		. #x25745)	; 𥝅
     ))
 (define-char
@@ -1346,13 +1347,44 @@
     (ideographic-strokes . 11)
     (total-strokes	 . 16)
     (hanyu-dazidian	5 3043 3)
-    (=ucs@iso		. #x25745)	; &M-24900;
-    (=daikanwa 		. 24900)	; &M-24900;
+    (=ucs@iso		. #x25745)	; &MJ043116;
+    (=mj		. 043116)	; &MJ043116;
+    (=koseki		. 278980)	; &MJ043116;
+    (=daikanwa		. 24900)	; &I-M-24900;
+    (<-formed
+     ((=ucs@cns		  . #x842C)	; &C1-655C;
+      (=cns11643-1	  . #x655C)	; &C1-655C; [69-60]
+      (=daikanwa	  . 31339)	; &I-M-31339;
+      )
+     ((=ucs@unicode	  . #x842C)	; &MJ022254;
+      (=mj		  . 022254)	; &MJ022254;
+      )
+     ((=ucs		  . #x4E07)	; 万
+      ))
+    (<-formed$_1*sources
+     koseki)
+    (<-formed$_2*sources
+     koseki@mj)
+    (<-formed$_3*sources
+     koseki@mj)
+    (<-formed*sources
+     koseki mj)
+    (<-same
+     ((=ucs@cns		  . #x842C)	; &C1-655C;
+      (=cns11643-1	  . #x655C)	; &C1-655C; [69-60]
+      (=daikanwa	  . 31339)	; &I-M-31339;
+      ))
+    (<-same*sources
+     kangxi daikanwa)
     (->subsumptive
-     ((==ucs@iso	  . #x25745)	; &g2-M-24900;
-      (==daikanwa	  . 24900)	; &g2-M-24900;
+     ((==ucs@iso	  . #x25745)	; &g2-MJ043116;
+      (==mj		  . 043116)	; &g2-MJ043116;
+      (==koseki		  . 278980)	; &g2-MJ043116;
+      (==daikanwa	  . 24900)	; &g2-MJ043116;
       (->subsumptive
        ((===daikanwa	    . 24900)	; &R-M-24900;
+	)
+       ((===mj		    . 043116)	; &R-MJ043116;
 	)
        ((===ucs@iso	    . #x25745)	; &R-U-00025745;
 	)
@@ -1367,7 +1399,17 @@
     (ideographic-radical . 114)	; ⽱
     (ideographic-strokes . 11)
     (total-strokes	 . 16)
-    (=ucs@cns 		. #x25745)	; &C7-305F;
+    (ideographic-structure@apparent
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO MIDDLE AND BELOW")
+      (=ucs		  . #x2FF3)	; ⿳
+      )
+     ((=ucs@unicode	  . #x81FC)	; &MJ021316;
+      )
+     ((=ucs		  . #x9FB1)	; 龱
+      )
+     ((=ucs@cns		  . #x79B8)	; &HD-KS-278790;
+      ))
+    (=ucs@cns		. #x25745)	; &C7-305F;
     (=cns11643-7	. #x305F)	; &C7-305F; [16-63]
     (->subsumptive
      ((==ucs@cns	  . #x25745)	; &g2-CU+25745;

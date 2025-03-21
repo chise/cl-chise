@@ -195,7 +195,7 @@
     (ideographic-radical . 141)	; ⾌
     (ideographic-strokes . 0)
     (total-strokes	 . 6)
-    (=big5-cdp-var-007	. #x88BC)	; &CDP-v007-88BC;
+    (=ucs-itaiji-001	. #x864D)	; &U-i001+864D;
     ))
 (define-char
   '((<-denotational
@@ -205,7 +205,7 @@
     (ideographic-radical . 141)	; ⾌
     (ideographic-strokes . 0)
     (total-strokes	 . 6)
-    (=ucs-itaiji-001	. #x864D)	; &U-i001+864D;
+    (=big5-cdp-var-007	. #x88BC)	; &CDP-v007-88BC;
     ))
 (define-char
   '((ideographic-radical . 141)	; ⾌
@@ -1510,6 +1510,8 @@
       (==shinjigen	  .  2320)	; &g2-AJ1-03497;
       (->subsumptive
        ((===daikanwa	    . 09993)	; &R-M-09993;
+	)
+       ((===daijiten	    . 03110)	; &R-DJT-03110;
 	)
        ((===jis-x0208	    . #x4937)	; &R-J0-4937; [41-23]
 	(===jis-x0213-1	    . #x4937)	; &R-J0-4937; [41-23]

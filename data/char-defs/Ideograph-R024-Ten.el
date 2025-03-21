@@ -4971,6 +4971,15 @@
     (=ucs@JP/hanazono	. #x3144E)	; &hanaJU+3144E;
     ))
 (define-char
+  '((<-denotational
+     ((=>big5-cdp	  . #x866F)	; &A-CDP-866F;
+      ))
+    (ideographic-radical . 24)	; ⼗
+    (ideographic-strokes . 6)
+    (total-strokes	 . 10)
+    (=big5-cdp-itaiji-003 . #x866F)	; &CDP-i003-866F;
+    ))
+(define-char
   '((ideographic-radical . 24)	; ⼗
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
@@ -6345,8 +6354,8 @@
       )
      ((=ucs		  . #x5341)	; 十
       )
-     ((=ucs@unicode	  . #x5C08)	; &AJ1-04642;
-      (=adobe-japan1-0	  . 04642)	; &AJ1-04642;
+     ((=ucs@unicode	  . #x5C08)	; &MJ010272;
+      (=mj		  . 010272)	; &MJ010272;
       ))
     (=ucs@cns		. #x2B9E4)	; &MJ059400;
     (=ucs@JP/hanazono	. #x2B9E4)	; &MJ059400;

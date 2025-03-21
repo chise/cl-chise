@@ -151,7 +151,8 @@
      ((=ucs		  . #x5C3A)	; 尺
       (=daikanwa	  . 07632)	; &I-M-07632;
       )
-     ((=ucs		  . #x8D64)	; 赤
+     ((=ucs@unicode	  . #x8D64)	; &AJ1-02682;
+      (=adobe-japan1-0	  . 02682)	; &AJ1-02682;
       (=daikanwa	  . 36993)	; &I-M-36993;
       )
      ((=ucs@unicode	  . #x69B1)	; &AJ1-05284;
@@ -2210,9 +2211,8 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs@iso		  . #x20041)	; &GT-00094;
-      (=cns11643-5	  . #x3072)	; &GT-00094; [16-82]
-      (=daikanwa	  . 00063)	; &I-M-00063;
+     ((=ucs@iso		  . #x20041)	; &MJ030345;
+      (=mj		  . 030345)	; &MJ030345;
       )
      ((=ucs		  . #x65A4)	; 斤
       ))
@@ -2229,9 +2229,8 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs@iso		  . #x20041)	; &GT-00094;
-      (=cns11643-5	  . #x3072)	; &GT-00094; [16-82]
-      (=daikanwa	  . 00063)	; &I-M-00063;
+     ((=ucs@iso		  . #x20041)	; &MJ030345;
+      (=mj		  . 030345)	; &MJ030345;
       )
      ((=ucs		  . #x65A4)	; 斤
       ))

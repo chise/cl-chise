@@ -509,7 +509,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=>big5-cdp		. #x89E3)	; &A-GT-K00278;
+     ((=>big5-cdp	  . #x89E3)	; &A-GT-K00278;
       )
      ((=ucs		  . #x800C)	; 而
       ))

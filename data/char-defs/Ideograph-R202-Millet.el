@@ -808,7 +808,7 @@
     (=cns11643-7	. #x3E65)	; &C7-3E65; [30-69]
     (=daikanwa 		. 49951)	; &I-M-49951;
     (<-original
-     ((=ucs		  . #x9999)	; 香
+     ((=ucs@unicode	  . #x9999)	; 香
       (=daikanwa	  . 44518)	; &I-M-44518;
       ))
     (<-original*sources

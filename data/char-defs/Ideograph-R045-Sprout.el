@@ -176,7 +176,27 @@
     (=ucs		. #x21CFE)	; 𡳾
     (=cns11643-5	. #x2130)	; &I-C5-2130; [01-16]
     (=big5-cdp		. #x88B2)	; &I-CDP-88B2;
+    (=gt-k		. 00258)	; &I-GT-K00258;
+    (=gt-pj-3		. #x354E)	; 𡳾 [21-46]
     (=daikanwa		. 07827)	; &I-M-07827;
+    (->subsumptive
+     ((==ucs@iso	  . #x21CFE)	; &g2-CDP-88B2;
+      (==cns11643-5	  . #x2130)	; &g2-CDP-88B2; [01-16]
+      (==big5-cdp	  . #x88B2)	; &g2-CDP-88B2;
+      (==gt-k		  . 00258)	; &g2-CDP-88B2;
+      (==daikanwa	  . 07827)	; &g2-CDP-88B2;
+      (->subsumptive
+       ((===daikanwa	    . 07827)	; &R-M-07827;
+	)
+       ((===big5-cdp	    . #x88B2)	; &R-CDP-88B2;
+	)
+       ((===cns11643-5	    . #x2130)	; &R-C5-2130; [01-16]
+	)
+       ((===gt-k	    . 00258)	; &R-GT-K00258;
+	)
+       ((===ucs@iso	    . #x21CFE)	; &R-U-00021CFE;
+	))
+      ))
     ))
 (define-char
   '((ideographic-radical . 45)	; ⼬
@@ -259,7 +279,29 @@
     (ideographic-radical . 45)	; ⼬
     (ideographic-strokes . 1)
     (total-strokes	 . 4)
-    (ideographic-structure
+    (ideographic-structure@apparent
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x4E3F)	; 丿
+      )
+     ((=ucs		  . #x21CFE)	; 𡳾
+      ))
+    (=hanyo-denshi/tk	. 01024230)	; &HD-TK-01024230;
+    (=hanyo-denshi/tk/mf-01 . #x0977)	; &HD-TK-01024230;
+    (->subsumptive
+     ((==hanyo-denshi/tk  . 01024230)	; &g2-HD-TK-01024230;
+      (==hanyo-denshi/tk/mf-01 . #x0977)	; &g2-HD-TK-01024230;
+      ))
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@cognate	  . #x5C6F)	; &A-cgnU+5C6F;
+      ))
+    (ideographic-radical . 45)	; ⼬
+    (ideographic-strokes . 1)
+    (total-strokes	 . 4)
+    (ideographic-structure@apparent
      ((name		  . "IDEOGRAPHIC DESCRIPTION CHARACTER OVERLAID")
       (=ucs		  . #x2FFB)	; ⿻
       )
@@ -2108,8 +2150,8 @@
     (=cns11643-6	. #x3676)	; &C6-3676; [22-86]
     (=daikanwa		. 07852)	; &I-M-07852;
     (<-wrong
-     ((=ucs@unicode	  . #x5C08)	; &AJ1-04642;
-      (=adobe-japan1-0	  . 04642)	; &AJ1-04642;
+     ((=ucs@unicode	  . #x5C08)	; &MJ010272;
+      (=mj		  . 010272)	; &MJ010272;
       (=daikanwa	  . 07439)	; &I-M-07439;
       ))
     (<-wrong*sources
@@ -2215,6 +2257,15 @@
   '((ideographic-radical . 45)	; ⼬
     (ideographic-strokes . 7)
     (total-strokes	 . 10)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=>ucs@iwds-1	  . #x51FA)	; &A-IWDSU+51FA;
+      (=>big5-cdp@iwds-1  . #x88C6)	; &A-IWDSU+51FA;
+      )
+     ((=ucs		  . #x5206)	; 分
+      ))
     (=ucs		. #x21D1A)	; 𡴚
     ))
 (define-char
@@ -2224,10 +2275,53 @@
     (ideographic-radical . 45)	; ⼬
     (ideographic-strokes . 7)
     (total-strokes	 . 10)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=gt-k		  . 02096)	; &GT-K02096;
+      )
+     ((=ucs@unicode	  . #x5206)	; &MJ007455;
+      (=mj		  . 007455)	; &MJ007455;
+      ))
     (=ucs@iso		. #x21D1A)	; &U-00021D1A;
     (->subsumptive
      ((==ucs@iso	  . #x21D1A)	; &g2-IU-00021D1A;
       ))
+    ))
+(define-char
+  '((ideographic-radical . 45)	; ⼬
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=>ucs@iwds-1	  . #x21D44)	; &A-IWDSU+21D44;
+      )
+     ((=>ucs@iwds-1	  . #x21D44)	; &A-IWDSU+21D44;
+      ))
+    (=ucs		. #x2BD6E)	; 𫵮
+    (<-ancient
+     ((=ucs		  . #x4E30)	; 丰
+      ))
+    (<-ancient*sources
+     kangxi)
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x2BD6E)	; 𫵮
+      ))
+    (ideographic-radical . 45)	; ⼬
+    (ideographic-strokes . 7)
+    (total-strokes	 . 10)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x21D00)	; 𡴀
+      )
+     ((=ucs		  . #x21D00)	; 𡴀
+      ))
+    (=ucs@JP/hanazono	. #x2BD6E)	; &hanaJU+2BD6E;
     ))
 (define-char
   '((ideographic-radical . 45)	; ⼬

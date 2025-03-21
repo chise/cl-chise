@@ -716,6 +716,37 @@
     ))
 (define-char
   '((ideographic-radical . 122)	; ⽹
+    (ideographic-strokes . 1)
+    (total-strokes	 . 6)
+    (ideographic-structure@apparent
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x4E3F)	; 丿
+      )
+     ((=ucs		  . #x2D060)	; 𭁠
+      ))
+    (=ucs		. #x2E27C)	; 𮉼
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x2E27C)	; 𮉼
+      ))
+    (ideographic-radical . 122)	; ⽹
+    (ideographic-strokes . 1)
+    (total-strokes	 . 6)
+    (ideographic-structure@apparent
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x4E3F)	; 丿
+      )
+     ((=ucs@JP/hanazono	  . #x2D060)	; &MJ057001;
+      ))
+    (=ucs@JP/hanazono	. #x2E27C)	; &hanaJU+2E27C;
+    ))
+(define-char
+  '((ideographic-radical . 122)	; ⽹
     (ideographic-strokes . 2)
     (total-strokes	 . 7)
     (=ucs		. #x2626C)	; 𦉬
@@ -6721,7 +6752,7 @@
       )
      ((=ucs		  . #x7F52)	; 罒
       )
-     ((=big5-cdp	  . #x8AD6)	; &CDP-8AD6;
+     ((=>big5-cdp	  . #x8AD6)	; &CDP-8AD6;
       ))
     (=ucs		. #x7F7D)	; 罽
     ))
@@ -6778,6 +6809,15 @@
     (ideographic-radical . 122)	; ⽹
     (ideographic-strokes . 12)
     (total-strokes	 . 17)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((name		  . "CJK RADICAL NET TWO")
+      (=ucs		  . #x2EB2)	; ⺲
+      )
+     ((=big5-cdp	  . #x8AD6)	; &CDP-8AD6;
+      ))
     (=daijiten 		. 09139)	; &DJT-09139;
     ))
 (define-char

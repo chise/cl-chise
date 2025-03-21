@@ -10387,6 +10387,21 @@
   '((ideographic-radical . 76)	; ⽋
     (ideographic-strokes . 14)
     (total-strokes	 . 18)
+    (=ucs		. #x3193A)	; 𱤺
+    ))
+(define-char
+  '((ideographic-radical . 76)	; ⽋
+    (ideographic-strokes . 14)
+    (total-strokes	 . 18)
+    (<-denotational
+     ((=ucs		. #x3193A)	; 𱤺
+      ))
+    (=ucs@JP/hanazono	. #x3193A)	; 𱤺
+    ))
+(define-char
+  '((ideographic-radical . 76)	; ⽋
+    (ideographic-strokes . 14)
+    (total-strokes	 . 18)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰

@@ -1846,7 +1846,7 @@
       (=cns11643-1	  . #x5E28)	; &I-C1-5E28; [62-08]
       (=daikanwa	  . 47887)	; &I-M-47887;
       )
-     ((=ucs		  . #x9999)	; 香
+     ((=ucs@unicode	  . #x9999)	; 香
       ))
     (=ucs@cns		. #x9EC1)	; &C3-5E22;
     (=cns11643-3	. #x5E22)	; &C3-5E22; [62-02]
@@ -1879,7 +1879,7 @@
      ((=ucs@unicode	  . #x9EBB)	; &AJ1-03729;
       (=adobe-japan1-0	  . 03729)	; &AJ1-03729;
       )
-     ((=ucs		  . #x9999)	; 香
+     ((=ucs@unicode	  . #x9999)	; 香
       ))
     (=ucs@unicode	. #x9EC1)	; &UU+9EC1;
     (=ucs@JP/hanazono	. nil)

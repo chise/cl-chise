@@ -337,7 +337,7 @@
 	)
        ((===daijiten	    . 12382)	; &R-DJT-12382;
 	)
-       ((===jis-x0212	    . #x6326)	; &R-JSP-6326; [67-06]
+       ((===jis-x0212	    . #x6326)	; &R-JX1-7C7C; [67-06]
 	(===jis-x0213-1	    . #x7C7C)	; &R-JX1-7C7C; [92-92]
 	)
        ((===adobe-japan1-2  . 08640)	; &R-AJ1-08640;
@@ -4756,7 +4756,7 @@
       (->subsumptive
        ((===daikanwa	    . 40271)	; &R-M-40271;
 	)
-       ((===jis-x0212	    . #x6353)	; &R-JSP-6353; [67-51]
+       ((===jis-x0212	    . #x6353)	; &R-JX1-7D26; [67-51]
 	(===jis-x0213-1	    . #x7D26)	; &R-JX1-7D26; [93-06]
 	)
        ((===cns11643-1	    . #x6741)	; &R-C1-6741; [71-33]
@@ -12230,7 +12230,7 @@
       (->subsumptive
        ((===daikanwa	    . 40463)	; &R-M-40463;
 	)
-       ((===jis-x0212	    . #x6441)	; &R-JSP-6441; [68-33]
+       ((===jis-x0212	    . #x6441)	; &R-JX2-7A79; [68-33]
 	(===jis-x0213-2	    . #x7A79)	; &R-JX2-7A79; [90-89]
 	)
        ((===adobe-japan1-2  . 08661)	; &R-AJ1-08661;
@@ -17438,16 +17438,42 @@
       ))
     ))
 (define-char
+  '((<-denotational@usage
+     ((ideographic-radical . 167)	; ⾦
+      (==>ucs@bucs	. #x9336)	; &BUCS+9336;
+      ))
+    (ideographic-radical . 167)	; ⾦
+    (ideographic-strokes . 8)
+    (total-strokes	 . 16)
+    (ideographic-structure
+     ?⿰
+     ?金
+     ?表)
+    (=ucs		. #x9336)	; 錶
+    ))
+(define-char
   '((ideographic-radical . 167)	; ⾦
     (ideographic-strokes . 8)
     (total-strokes	 . 16)
-    (=ucs		. #x9336)	; 錶
+    (<-denotational
+     ((=ucs		. #x9336)	; 錶
+      ))
+    (=ucs@unicode	. #x9336)	; 錶
     (=jis-x0212		. #x6466)	; &I-JSP-6466; [68-70]
     (=cns11643-1	. #x7260)	; &I-C1-7260; [82-64]
     (=gb12345		. #x7823)	; 錶 [88-03]
     (=big5		. #xBFF6)	; &I-B-BFF6;
     (=daikanwa		. 40592)	; &I-M-40592;
     (=jef-china3	. #x9FB6)	; &I-JC3-9FB6;
+    (->subsumptive
+     ((==ucs@unicode	. #x9336)	; 錶
+      (==jis-x0212		. #x6466)	; &I-JSP-6466; [68-70]
+      (==cns11643-1	. #x7260)	; &I-C1-7260; [82-64]
+      (==gb12345		. #x7823)	; 錶 [88-03]
+      (==big5		. #xBFF6)	; &I-B-BFF6;
+      (==daikanwa		. 40592)	; &I-M-40592;
+      (==jef-china3	. #x9FB6)	; &I-JC3-9FB6;
+      ))
     ))
 (define-char
   '((ideographic-radical . 167)	; ⾦
@@ -19333,7 +19359,7 @@
 	)
        ((===daijiten	    . 12542)	; &R-DJT-12542;
 	)
-       ((===jis-x0212	    . #x6471)	; &R-JSP-6471; [68-81]
+       ((===jis-x0212	    . #x6471)	; &R-JX2-7B31; [68-81]
 	(===jis-x0213-2	    . #x7B31)	; &R-JX2-7B31; [91-17]
 	)
        ((===cns11643-1	    . #x7578)	; &R-C1-7578; [85-88]
@@ -26026,10 +26052,10 @@
     (ideographic-strokes . 10)
     (total-strokes	 . 18)
     (=ucs@iso		. #x28B05)	; 𨬅
-    (=cns11643-5	. #x6556)	; &I-C5-6556; [69-54]
+    (=cns11643-5	. #x6556)	; &C5-6556; [69-54]
     (->subsumptive
      ((==ucs@iso		. #x28B05)	; 𨬅
-      (==cns11643-5	. #x6556)	; &I-C5-6556; [69-54]
+      (==cns11643-5	. #x6556)	; &C5-6556; [69-54]
       ))
     ))
 (define-char
@@ -39752,7 +39778,7 @@
       (=adobe-japan1-0	  . 01754)	; &AJ1-01754;
       )
      ((=ucs@unicode	  . #x9E1E)	; &AJ1-07413;
-      (=adobe-japan1-0	  . 07413)	; &I-AJ1-07413;
+      (=adobe-japan1-0	  . 07413)	; &AJ1-07413;
       ))
     (=ucs@iso		. #x28C3D)	; &U-00028C3D;
     ))

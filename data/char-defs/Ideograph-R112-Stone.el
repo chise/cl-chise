@@ -14280,8 +14280,8 @@
      ((=ucs@unicode	  . #x77F3)	; &AJ1-02676;
       (=adobe-japan1-0	  . 02676)	; &AJ1-02676;
       )
-     ((=ucs@unicode	  . #x5C08)	; &AJ1-04642;
-      (=adobe-japan1-0	  . 04642)	; &AJ1-04642;
+     ((=ucs@unicode	  . #x5C08)	; &MJ010272;
+      (=mj		  . 010272)	; &MJ010272;
       ))
     (=ucs@unicode	. #x78DA)	; &AJ1-05877;
     (=adobe-japan1-0	. 05877)	; &AJ1-05877;
@@ -14819,6 +14819,7 @@
       )
      ((=ucs		  . #x77F3)	; 石
       ))
+    (sound@ja/on	"ei")
     (=ucs		. #x40DC)	; 䃜
     ))
 (define-char
@@ -14838,10 +14839,28 @@
      ((=ucs@unicode	  . #x77F3)	; &AJ1-02676;
       (=adobe-japan1-0	  . 02676)	; &AJ1-02676;
       ))
-    (=ucs@unicode	. #x40DC)	; &M-24442;
-    (=daikanwa 		. 24442)	; &M-24442;
+    (=ucs@unicode	. #x40DC)	; &MJ003000;
+    (=mj		. 003000)	; &MJ003000;
+    (=koseki		. 272900)	; &MJ003000;
+    (=daikanwa		. 24442)	; &I-M-24442;
+    (->formed
+     ((=ucs@unicode	  . #x747F)	; &MJ017402;
+      (=mj		  . 017402)	; &MJ017402;
+      (=daikanwa	  . 21188)	; &I-M-21188;
+      ))
+    (->formed$_1*sources
+     jiyun daikanwa)
+    (->formed*sources
+     jiyun daikanwa)
     (->subsumptive
-     ((==daikanwa	  . 24442)	; &g2-M-24442;
+     ((==mj		  . 003000)	; &g2-MJ003000;
+      (==koseki		  . 272900)	; &g2-MJ003000;
+      (==daikanwa	  . 24442)	; &g2-MJ003000;
+      (->subsumptive
+       ((===daikanwa	    . 24442)	; &R-M-24442;
+	)
+       ((===mj		    . 003000)	; &R-MJ003000;
+	))
       )
      ((==ucs@unicode	  . #x40DC)	; &g2-UU+40DC;
       (==ucs@JP/hanazono  . nil)
@@ -21345,7 +21364,15 @@
   '((ideographic-radical . 112)	; ⽯
     (ideographic-strokes . 17)
     (total-strokes	 . 22)
-    (=ucs 		. #x255E2)	; 𥗢
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x77F3)	; 石
+      )
+     ((=>ucs-itaiji-001	  . #x7FA1)	; &A-U-i001+7FA1;
+      ))
+    (=ucs		. #x255E2)	; 𥗢
     ))
 (define-char
   '((<-denotational
@@ -21354,7 +21381,16 @@
     (ideographic-radical . 112)	; ⽯
     (ideographic-strokes . 17)
     (total-strokes	 . 22)
-    (=ucs@iso 		. #x255E2)	; &U-000255E2;
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@unicode	  . #x77F3)	; &AJ1-02676;
+      (=adobe-japan1-0	  . 02676)	; &AJ1-02676;
+      )
+     ((=ucs-itaiji-001	  . #x7FA1)	; &U-i001+7FA1;
+      ))
+    (=ucs@iso		. #x255E2)	; &U-000255E2;
     ))
 (define-char
   '((ideographic-radical . 112)	; ⽯

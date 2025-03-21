@@ -313,10 +313,28 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 191)	; ⾾
+  '((<-denotational@usage
+     ((ideographic-radical . 191)	; ⾾
+      (==>ucs@bucs	. #x9B29)	; &BUCS+9B29;
+      (==>daijiten	. 14025)	; &A2-DJT-14025;
+      ))
+    (ideographic-radical . 191)	; ⾾
     (ideographic-strokes . 8)
     (total-strokes	 . 18)
     (=ucs		. #x9B29)	; 鬩
+    ))
+(define-char
+  '((ideographic-radical . 191)	; ⾾
+    (ideographic-strokes . 8)
+    (total-strokes	 . 18)
+    (<-denotational
+     ((=ucs		. #x9B29)	; 鬩
+      ))
+    (ideographic-structure
+     ?⿵
+     ?鬥
+     ?&MJ007236;)
+    (=ucs@unicode	. #x9B29)	; 鬩
     (=adobe-japan1-0	. 07296)	; &I-AJ1-07296;
     (=jis-x0208		. #x722B)	; &I-J90-722B; [82-11]
     (=cns11643-2	. #x6468)	; &I-C2-6468; [68-72]
@@ -325,6 +343,7 @@
     (=gt		. 61397)	; &I-GT-61397;
     (=gt-pj-1		. #x722B)	; &I-GT-61397; [82-11]
     (=daikanwa		. 45644)	; &I-M-45644;
+    (=daijiten		. 14025)	; &I-DJT-14025;
     (=shinjigen		.  9496)	; 鬩
     (->subsumptive
      ((==daikanwa	  . 45644)	; &g2-M-45644;
@@ -336,6 +355,7 @@
       (==gb12345	  . #x6352)	; &g2-AJ1-07296; [67-50]
       (==gt		  . 61397)	; &g2-AJ1-07296;
       (==shinjigen	  .  9496)	; &g2-AJ1-07296;
+      (==daijiten	. 14025)	; &I-DJT-14025;
       (->subsumptive
        ((===jis-x0208	    . #x722B)	; &R-J0-722B; [82-11]
 	(===jis-x0213-1	    . #x722B)	; &R-J0-722B; [82-11]
@@ -739,7 +759,7 @@
     (<-denotational@usage
      ((ideographic-radical . 191)	; ⾾
       (==>ucs@bucs	. #x9B2A)	; &BUCS+9B2A;
-      (==>daijiten	. 14033)	; &A2-DJT-14033;
+      (==>daijiten	. 14033)	; &BUCS+9B2A;
       ))
     (ideographic-radical . 191)	; ⾾
     (ideographic-strokes . 14)

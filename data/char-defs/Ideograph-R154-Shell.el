@@ -6487,19 +6487,32 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 154)	; ⾙
+  '((<-denotational@usage
+     ((ideographic-radical . 154)	; ⾙
+      (==>ucs@bucs	. #x8CD1)	; &BUCS+8CD1;
+      (==>daijiten	. 11383)	; &BUCS+8CD1;
+      ))
+    (ideographic-radical . 154)	; ⾙
     (ideographic-strokes . 7)
     (total-strokes	 . 14)
     (ideographic-structure
-     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
-      (=ucs		  . #x2FF0)	; ⿰
+     ((=>ucs@iwds-1	. #x2FFA)	; &A-IWDSU+2FFA;
       )
-     ((=ucs		  . #x8C9D)	; 貝
+     ((=>ucs@iwds-1	. #x898B)	; &A-IWDSU+898B;
       )
-     ((=ucs		  . #x8FB0)	; 辰
+     ((=>ucs@iwds-1	  . #x8FB0)	; 辰
       ))
     (=ucs		. #x8CD1)	; 賑
-    (=adobe-japan1-0	. 03280)	; &I-AJ1-03280;
+    ))
+(define-char
+  '((ideographic-radical . 154)	; ⾙
+    (ideographic-strokes . 7)
+    (total-strokes	 . 14)
+    (<-denotational
+     ((=ucs		. #x8CD1)	; 賑
+      ))
+    (=ucs@unicode	. #x8CD1)	; 賑
+    (=adobe-japan1-0	. 03280)	; &AJ1-03280;
     (=jis-x0208		. #x4678)	; &I-J90-4678; [38-88]
     (=ks-x1001		. #x7261)	; &I-K0-7261; [82-65]
     (=cns11643-1	. #x6B34)	; &I-C1-6B34; [75-20]
@@ -6509,6 +6522,7 @@
     (=gt		. 49277)	; &I-GT-49277;
     (=gt-pj-1		. #x4678)	; &I-GT-49277; [38-88]
     (=daikanwa		. 36785)	; &I-M-36785;
+    (=daijiten		. 11383)	; &I-DJT-11383;
     (=shinjigen		.  7896)	; 賑
     (->subsumptive
      ((==ucs@cns	  . #x8CD1)	; &g2-AJ1-03280;
@@ -6518,6 +6532,7 @@
       (==cns11643-1	  . #x6B34)	; &g2-AJ1-03280; [75-20]
       (==jis-x0213-1	  . #x4678)	; &g2-AJ1-03280; [38-88]
       (==daikanwa	  . 36785)	; &g2-AJ1-03280;
+      (==daijiten		. 11383)	; &I-DJT-11383;
       (==shinjigen	  .  7896)	; &g2-AJ1-03280;
       (->subsumptive
        ((===daikanwa	    . 36785)	; &R-M-36785;
@@ -14633,6 +14648,28 @@
       (ideographic-strokes . 14)
       (=cns11643-7	  . #x553A)	; &C7-553A; [53-26]
       ))
+    ))
+(define-char
+  '((ideographic-radical . 154)	; ⾙
+    (ideographic-structure
+     ?⿸
+     ?敢
+     ?貢)
+    (=>ucs-itaiji-001	. #x8D1B)	; &U-i001+8D1B;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-001	. #x8D1B)	; &U-i001+8D1B;
+      ))
+    (ideographic-radical . 154)	; ⾙
+    (ideographic-strokes . 14)
+    (total-strokes	 . 21)
+    (ideographic-structure
+     ?⿸
+     ((=ucs@jis		. #x6562)	; &AJ1-01526;
+      )
+     ?&AJ1-02025;)
+    (=ucs-itaiji-001	. #x8D1B)	; &U-i001+8D1B;
     ))
 (define-char
   '((ideographic-radical . 154)	; ⾙

@@ -191,7 +191,7 @@
      ((=ucs		  . #x4E45)	; 久
       ))
     (=ucs@unicode	. #x9579)	; 镹
-    (=jis-x0212		. #x657E)	; &I-JSP-657E; [69-94]
+    (=jis-x0212		. #x657E)	; &JX2-7B53; [69-94]
     (=cns11643-4	. #x303A)	; &I-C4-303A; [16-26]
     (=jis-x0213-2	. #x7B53)	; &I-JX2-7B53; [91-51]
     (=daikanwa		. 41105)	; &I-M-41105;
@@ -775,6 +775,15 @@
      ((=ucs		  . #x8D64)	; 赤
       ))
     (=ucs		. #x28C82)	; 𨲂
+    ))
+(define-char
+  '((ideographic-radical . 168)	; ⾧
+    (ideographic-strokes . 7)
+    (total-strokes	 . 14)
+    (<-denotational
+     ((=ucs		. #x28C82)	; 𨲂
+      ))
+    (=ucs@iso		. #x28C82)	; 𨲂
     (=cns11643-6	. #x6356)	; &I-C6-6356; [67-54]
     (=daikanwa		. 41148)	; &I-M-41148;
     (->subsumptive

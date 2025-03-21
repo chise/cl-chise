@@ -2290,9 +2290,27 @@
   '((ideographic-radical . 118)	; ⽵
     (ideographic-strokes . 4)
     (total-strokes	 . 10)
+    (ideographic-structure
+     ?⿱
+     ?竹
+     ?仆)
     (=ucs		. #x41DA)	; 䇚
+    ))
+(define-char
+  '((ideographic-radical . 118)	; ⽵
+    (ideographic-strokes . 4)
+    (total-strokes	 . 10)
+    (<-denotational
+     ((=ucs		. #x41DA)	; 䇚
+      ))
+    (=ucs@unicode	. #x41DA)	; 䇚
     (=cns11643-4	. #x2E77)	; &I-C4-2E77; [14-87]
-    (=daikanwa		. 25891)	; &I-M-25891;
+    (=daikanwa		. 25891)	; &M-25891;
+    (->subsumptive
+     ((==ucs@unicode	. #x41DA)	; 䇚
+      (==cns11643-4	. #x2E77)	; &I-C4-2E77; [14-87]
+      (==daikanwa		. 25891)	; &M-25891;
+      ))
     ))
 (define-char
   '((ideographic-radical . 118)	; ⽵
@@ -23322,10 +23340,10 @@
       )
      ((=ucs-itaiji-003	  . #x5193)	; &U-i003+5193;
       ))
-    (=daikanwa 		. 26469)	; &M-26469;
+    (=daikanwa 		. 26469)	; &C7-3A28;
     (=cns11643-7	. #x3A28)	; &C7-3A28; [26-08]
     (->subsumptive
-     ((==daikanwa 		. 26469)	; &M-26469;
+     ((==daikanwa 		. 26469)	; &C7-3A28;
       (==cns11643-7	. #x3A28)	; &C7-3A28; [26-08]
       (==cns11643-7	  . #x3A28)	; &g2-IU-00025C99; [26-08]
       (==cns11643-7	    . #x3A28)	; &R-C7-3A28; [26-08]
@@ -23350,7 +23368,7 @@
     (=ucs@iso		. #x25C99)	; &C7-3A28;
     (->subsumptive
      ((==ucs@iso	  . #x25C99)	; &g2-IU-00025C99;
-      (==ucs@iso	    . #x25C99)	; &R-U-00025C99;
+      (==ucs@iso	    . #x25C99)	; &g2-IU-00025C99;
       ))
     ))
 (define-char

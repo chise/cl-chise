@@ -675,6 +675,7 @@
     (<-interchangeable
      ((=ucs@unicode	  . #x97CC)	; &JX2-7C2B;
       (=jis-x0212	  . #x675E)	; &JX2-7C2B; [71-62]
+      (=cns11643-1	  . #x6279)	; &I-C1-6279; [66-89]
       (=jis-x0213-2	  . #x7C2B)	; &I-JX2-7C2B; [92-11]
       (=daikanwa	  . 43109)	; &I-M-43109;
       )
@@ -935,7 +936,7 @@
       )
      ((=ucs		  . #x725C)	; 牜
       )
-     ((=>big5-cdp	  . #x89FA)	; &IWDS1-078;
+     ((=ucs		  . #x2D0C2)	; 𭃂
       ))
     (sound@ja/on/go	"na")
     (sound@ja/on/kan	"da")
@@ -6398,8 +6399,8 @@
       )
      ((=ucs		  . #x725C)	; 牜
       )
-     ((=ucs@unicode	  . #x5C08)	; &AJ1-04642;
-      (=adobe-japan1-0	  . 04642)	; &AJ1-04642;
+     ((=ucs@unicode	  . #x5C08)	; &MJ010272;
+      (=mj		  . 010272)	; &MJ010272;
       ))
     (=ucs@JP/hanazono	. #x2DDF0)	; &MJ058027;
     (=mj		. 058027)	; &MJ058027;

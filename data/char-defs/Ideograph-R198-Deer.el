@@ -2933,7 +2933,7 @@
       )
      ((=ucs		  . #x9E7F)	; 鹿
       )
-     ((=ucs		  . #x8FB0)	; 辰
+     ((=>ucs@iwds-1	  . #x8FB0)	; 辰
       ))
     (=ucs		. #x9E8E)	; 麎
     ))
@@ -2951,7 +2951,7 @@
      ((=ucs@unicode	  . #x9E7F)	; &AJ1-02267;
       (=adobe-japan1-0	  . 02267)	; &AJ1-02267;
       )
-     ((=ucs		  . #x8FB0)	; 辰
+     ((=ucs@unicode	  . #x8FB0)	; 辰
       ))
     (=ucs@unicode	. #x9E8E)	; &JSP-6C62;
     (=jis-x0212		. #x6C62)	; &JSP-6C62; [76-66]
@@ -4329,8 +4329,8 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=ucs@cns		  . #x4E3D)	; &GT-00145;
-      (=cns11643-3	  . #x2740)	; &GT-00145; [07-32]
+     ((=ucs@cns		  . #x4E3D)	; &MJ006366;
+      (=cns11643-3	  . #x2740)	; &MJ006366; [07-32]
       (=daikanwa	  . 00104)	; &I-M-00104;
       )
      ((=ucs@unicode	  . #x9E7F)	; &AJ1-02267;
@@ -4606,8 +4606,8 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=ucs@cns		  . #x4E3D)	; &GT-00145;
-      (=cns11643-3	  . #x2740)	; &GT-00145; [07-32]
+     ((=ucs@cns		  . #x4E3D)	; &MJ006366;
+      (=cns11643-3	  . #x2740)	; &MJ006366; [07-32]
       (=daikanwa	  . 00104)	; &I-M-00104;
       )
      ((=ucs-itaiji-001	  . #x22256)	; &U-i001+22256;

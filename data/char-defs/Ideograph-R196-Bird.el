@@ -7327,7 +7327,7 @@
     (=gb2312		. #x703D)	; &G0-703D; [80-29]
     (<-simplified@CN
      ((=ucs@unicode	  . #x9E1E)	; &AJ1-07413;
-      (=adobe-japan1-0	  . 07413)	; &I-AJ1-07413;
+      (=adobe-japan1-0	  . 07413)	; &AJ1-07413;
       (=gb12345		  . #x703D)	; &AJ1-07413; [80-29]
       ))
     (->subsumptive
@@ -7597,6 +7597,53 @@
     (=ucs@iso		. #x2A24A)	; &U-0002A24A;
     (<-simplified@CN
      ((=ucs@unicode	  . #x9DE8)	; &UU+9DE8;
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 6)
+    (total-strokes	 . 11)
+    (ideographic-structure
+     ?⿰
+     ?𰗑
+     ?鳥)
+    (=ucs		. #x2A041)	; 𪁁
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 6)
+    (total-strokes	 . 11)
+    (<-denotational
+     ((=ucs		. #x2A041)	; 𪁁
+      ))
+    (=ucs@iso		. #x2A041)	; 𪁁
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 6)
+    (total-strokes	 . 11)
+    (ideographic-structure
+     ?⿰
+     ((=>ucs@iwds-1	. #x5409)	; &A-IWDSU+5409;
+      )
+     ?鸟)
+    (=ucs		. #x31265)	; 𱉥
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 6)
+    (total-strokes	 . 11)
+    (ideographic-structure
+     ?⿰
+     ?吉
+     ((=ucs@unicode	. #x9E1F)	; ⻦
+      ))
+    (<-denotational
+     ((=ucs		. #x31265)	; 𱉥
+      ))
+    (=ucs@JP/hanazono	. #x31265)	; 𱉥
+    (<-simplified@CN
+     ((=ucs@unicode	. #x9D36)	; &C2-6127;
       ))
     ))
 (define-char
@@ -9870,6 +9917,34 @@
       (=cns11643-7	  . #x455D)	; &C7-455D; [37-61]
       (=daikanwa	  . 46937)	; &I-M-46937;
       ))
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 7)
+    (total-strokes	 . 18)
+    (=ucs		. #x2A06C)	; 𪁬
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 7)
+    (total-strokes	 . 18)
+    (<-denotational
+     ((=ucs		. #x2A06C)	; 𪁬
+      ))
+    (=ucs@iso		. #x2A06C)	; 𪁬
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (=ucs		. #x2A076)	; 𪁶
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (<-denotational
+     ((=ucs		. #x2A076)	; 𪁶
+      ))
+    (ideographic-strokes . 6)
+    (total-strokes	 . 17)
+    (=ucs@iso		. #x2A076)	; 𪁶
     ))
 (define-char
   '((ideographic-radical . 196)	; ⿃
@@ -12294,6 +12369,25 @@
      ((=ucs		  . #x9CE5)	; 鳥
       ))
     (=>ruimoku-v6	. #xE06E)	; &A-RUI6-E06E;
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 8)
+    (total-strokes	 . 19)
+    (ideographic-structure
+     ?⿰
+     ?𡶇
+     ?鳥)
+    (=ucs		. #x2A0A8)	; 𪂨
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 8)
+    (total-strokes	 . 19)
+    (<-denotational
+     ((=ucs		. #x2A0A8)	; 𪂨
+      ))
+    (=ucs@iso		. #x2A0A8)	; 𪂨
     ))
 (define-char
   '((ideographic-radical . 196)	; ⿃
@@ -19629,6 +19723,44 @@
   '((ideographic-radical . 196)	; ⿃
     (ideographic-strokes . 11)
     (total-strokes	 . 22)
+    (ideographic-structure
+     ?⿰
+     ?竟
+     ?鳥)
+    (=ucs		. #x2A151)	; 𪅑
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 11)
+    (total-strokes	 . 22)
+    (<-denotational
+     ((=ucs		. #x2A151)	; 𪅑
+      ))
+    (=ucs@iso		. #x2A151)	; 𪅑
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 11)
+    (total-strokes	 . 22)
+    (ideographic-structure
+     ?⿱
+     ?𱰋
+     ?鳥)
+    (=ucs		. #x2A152)	; 𪅒
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 11)
+    (total-strokes	 . 22)
+    (<-denotational
+     ((=ucs		. #x2A152)	; 𪅒
+      ))
+    (=ucs@iso		. #x2A152)	; 𪅒
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 11)
+    (total-strokes	 . 22)
     (=ucs		. #x2A13E)	; 𪄾
     ))
 (define-char
@@ -26108,7 +26240,7 @@
       (=adobe-japan1-0	  . 03031)	; &AJ1-03031;
       ))
     (=ucs@unicode	. #x9E1E)	; &AJ1-07413;
-    (=adobe-japan1-0	. 07413)	; &I-AJ1-07413;
+    (=adobe-japan1-0	. 07413)	; &AJ1-07413;
     (=jis-x0208		. #x7342)	; &I-J90-7342; [83-34]
     (=ks-x1001		. #x5536)	; &I-K0-5536; [53-22]
     (=cns11643-1	. #x7D4A)	; &I-C1-7D4A; [93-42]

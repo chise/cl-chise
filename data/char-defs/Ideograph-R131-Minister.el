@@ -877,28 +877,53 @@
     ))
 (define-char
   '((<-denotational
-     ((=>big5-cdp@cognate . #x8CC9)	; &A-cgnCDP-8CC9;
+     ((=>big5-cdp-itaiji-002 . #x8CC9)	; &A-CDP-i002-8CC9;
       ))
     (ideographic-radical . 131)	; ⾂
     (ideographic-strokes . 4)
     (total-strokes	 . 10)
     (ideographic-structure
-     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
-      (=ucs		  . #x2FF0)	; ⿰
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
+      (=ucs		  . #x2FF8)	; ⿸
       )
-     ((=ucs		  . #x81E3)	; 臣
+     ((=ucs-itaiji-001	  . #x81E5)	; &U-i001+81E5;
       )
-     ((ideographic-structure
-       ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
-	(=ucs		    . #x2FF1)	; ⿱
-	)
-       ((name*		    . "ideographic component person for top")
-	(=ucs		    . #x20089)	; 𠂉
-	)
-       ((=ucs		    . #x4E8C)	; 二
-	))
+     ((=ucs		  . #x4E8C)	; 二
       ))
     (=big5-cdp-itaiji-002 . #x8CC9)	; &CDP-i002-8CC9;
+    ))
+(define-char
+  '((<-denotational
+     ((=>big5-cdp@cognate . #x8CC9)	; &A-cgnCDP-8CC9;
+      ))
+    (ideographic-radical . 131)	; ⾂
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
+      (=ucs		  . #x2FF8)	; ⿸
+      )
+     ((=>ucs-itaiji-001	  . #x81E5)	; &A-U-i001+81E5;
+      )
+     ((=>ucs@iwds-1	  . #x51AB)	; &A-IWDSU+51AB;
+      (=>iwds-1		  .  47219)	; &A-IWDSU+51AB;
+      ))
+    (=>big5-cdp-itaiji-002 . #x8CC9)	; &A-CDP-i002-8CC9;
+    ))
+(define-char
+  '((<-denotational
+     ((=>big5-cdp-itaiji-002 . #x8CC9)	; &A-CDP-i002-8CC9;
+      ))
+    (ideographic-radical . 131)	; ⾂
+    (ideographic-strokes . 4)
+    (total-strokes	 . 10)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
+      (=ucs		  . #x2FF8)	; ⿸
+      )
+     ((=ucs-itaiji-001	  . #x81E5)	; &U-i001+81E5;
+      )
+     ((=big5-cdp	  . #x8971)	; &CDP-8971;
+      ))
+    (=big5-cdp-var-004	. #x8CC9)	; &CDP-v004-8CC9;
     ))
 (define-char
   '((ideographic-radical . 131)	; ⾂

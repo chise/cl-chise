@@ -908,6 +908,7 @@
       )
      ((=>ucs@iwds-1	  . #x7528)	; &A-IWDSU+7528;
       ))
+    (sound@ja/on	"hou")
     (=ucs		. #x752D)	; 甭
     ))
 (define-char
@@ -930,7 +931,7 @@
     (=gb2312		. #x3142)	; &C1-524A; [17-34]
     (=cns11643-1	. #x524A)	; &I-C1-524A; [50-42]
     (=big5		. #xACC7)	; &I-B-ACC7;
-    (=daikanwa 		. 21713)	; &I-M-21713;
+    (=daikanwa		. 21713)	; &I-M-21713;
     (->subsumptive
      ((==ucs@unicode	  . #x752D)	; &g2-M-21713;
       (==gb2312		  . #x3142)	; &g2-M-21713; [17-34]

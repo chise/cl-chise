@@ -320,7 +320,7 @@
     (=jef-china3	. #x82C4)	; &I-JC3-82C4;
     (<-simplified@CN
      ((=ucs@unicode	  . #x9127)	; &AJ1-08638;
-      (=adobe-japan1-2	  . 08638)	; &I-AJ1-08638;
+      (=adobe-japan1-2	  . 08638)	; &AJ1-08638;
       (=gb12345		  . #x354B)	; &AJ1-08638; [21-43]
       ))
     (->subsumptive
@@ -3712,11 +3712,11 @@
     (ideographic-strokes . 5)
     (total-strokes	 . 8)
     (=ucs 		. #x2869B)	; 𨚛
-    (=>daikanwa		. 39352)	; &A-M-39352;
+    (=>daikanwa		. 39352)	; 𨚛
     ))
 (define-char
   '((<-denotational
-     ((=>daikanwa	  . 39352)	; &A-M-39352;
+     ((=>daikanwa	  . 39352)	; 𨚛
       ))
     (ideographic-radical . 163)	; ⾢
     (ideographic-strokes . 5)
@@ -3725,16 +3725,16 @@
     ))
 (define-char
   '((<-denotational
-     ((=>daikanwa	  . 39352)	; &A-M-39352;
+     ((=>daikanwa	  . 39352)	; 𨚛
       ))
     (ideographic-radical . 163)	; ⾢
     (ideographic-strokes . 5)
     (total-strokes	 . 8)
     (=ucs@iso 		. #x2869B)	; 𨚛
-    (=cns11643-6	. #x2E43)	; &I-C6-2E43; [14-35]
+    (=cns11643-6	. #x2E43)	; &C6-2E43; [14-35]
     (->subsumptive
      ((==ucs@iso 		. #x2869B)	; 𨚛
-      (==cns11643-6	. #x2E43)	; &I-C6-2E43; [14-35]
+      (==cns11643-6	. #x2E43)	; &C6-2E43; [14-35]
       ))
     ))
 (define-char
@@ -6407,6 +6407,15 @@
       (=ucs		  . #x2ECF)	; ⻏
       ))
     (=ucs		. #x90DD)	; 郝
+    ))
+(define-char
+  '((ideographic-radical . 163)	; ⾢
+    (ideographic-strokes . 7)
+    (total-strokes	 . 10)
+    (<-denotational
+     ((=ucs		. #x90DD)	; 郝
+      ))
+    (=ucs@unicode	. #x90DD)	; 郝
     (=adobe-japan1-4	. 15199)	; &I-AJ1-15199;
     (=gb2312		. #x3A42)	; &I-G0-3A42; [26-34]
     (=jis-x0212		. #x622A)	; &I-JSP-622A; [66-10]
@@ -14050,8 +14059,8 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs@unicode	  . #x5C08)	; &AJ1-04642;
-      (=adobe-japan1-0	  . 04642)	; &AJ1-04642;
+     ((=ucs@unicode	  . #x5C08)	; &MJ010272;
+      (=adobe-japan1-0	  . 04642)	; &MJ010272;
       )
      ((name		  . "CJK RADICAL CITY")
       (=ucs		  . #x2ECF)	; ⻏
@@ -15141,7 +15150,7 @@
       (=ucs		  . #x2ECF)	; ⻏
       ))
     (=ucs@unicode	. #x9127)	; &AJ1-08638;
-    (=adobe-japan1-2	. 08638)	; &I-AJ1-08638;
+    (=adobe-japan1-2	. 08638)	; &AJ1-08638;
     (=ks-x1001		. #x5478)	; &I-K0-5478; [52-88]
     (=jis-x0212		. #x6247)	; &I-JSP-6247; [66-39]
     (=cns11643-1	. #x6F52)	; &I-C1-6F52; [79-50]

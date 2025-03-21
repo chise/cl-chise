@@ -4186,9 +4186,27 @@
   '((ideographic-radical . 211)	; ⿒
     (ideographic-strokes . 8)
     (total-strokes	 . 23)
+    (ideographic-structure
+     ?⿰
+     ?齒
+     ?來)
     (=ucs		. #x2A628)	; 𪘨
+    ))
+(define-char
+  '((ideographic-radical . 211)	; ⿒
+    (ideographic-strokes . 8)
+    (total-strokes	 . 23)
+    (<-denotational
+     ((=ucs		. #x2A628)	; 𪘨
+      ))
+    (=ucs@iso		. #x2A628)	; 𪘨
     (=cns11643-4	. #x6B62)	; &I-C4-6B62; [75-66]
-    (=daikanwa		. 48697)	; &I-M-48697;
+    (=daikanwa		. 48697)	; &M-48697;
+    (->subsumptive
+     ((==ucs@iso		. #x2A628)	; 𪘨
+      (==cns11643-4	. #x6B62)	; &I-C4-6B62; [75-66]
+      (==daikanwa		. 48697)	; &M-48697;
+      ))
     ))
 (define-char
   '((ideographic-radical . 211)	; ⿒
