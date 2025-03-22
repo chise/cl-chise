@@ -3229,23 +3229,24 @@
   '((ideographic-radical . 73)	; ⽈
     (ideographic-strokes . 8)
     (total-strokes	 . 12)
-    (=ucs		. #x6702)	; 朂
+    (=ucs 		. #x6702)	; 朂
     ))
 (define-char
-  '((ideographic-radical . 73)	; ⽈
+  '((<-denotational
+     ((=ucs		  . #x6702)	; 朂
+      ))
+    (ideographic-radical . 73)	; ⽈
     (ideographic-strokes . 8)
     (total-strokes	 . 12)
-    (<-denotational
-     ((=ucs		. #x6702)	; 朂
-      ))
-    (=ucs@unicode	. #x6702)	; 朂
-    (=cbeta		. 8967)
+    (=ucs@unicode 	. #x6702)	; &CB08967;
+    (=cbeta		. 08967)	; &CB08967;
     (->subsumptive
-     ((==ucs@unicode	. #x6702)	; 朂
-      (==cbeta		. 8967)
-      (->subsumptive
-       ((===ucs@unicode	. #x6702)	; 朂
-	))
+     ((==cbeta		  . 08967)	; &g2-CB08967;
+      (==cbeta	    . 08967)	; &R-CB08967;
+      )
+     ((==ucs@unicode	  . #x6702)	; &g2-CB08967;
+      (==ucs@JP/hanazono . nil)
+      (==ucs@unicode	    . #x6702)	; &R-UU+6702;
       ))
     ))
 (define-char
@@ -3256,18 +3257,16 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=>ucs@component	. #x65E5)	; &A-compU+65E5;
+     ((=>ucs@component	  . #x65E5)	; &A-compU+65E5;
+      (=>iwds-1		  .  0118)	; &A-compU+65E5;
       )
      ((=ucs		  . #x2D149)	; 𭅉
       ))
     (=ucs		. #x2DA1D)	; 𭨝
     ))
 (define-char
-  '((ideographic-radical . 73)	; ⽈
-    (ideographic-strokes . 8)
-    (total-strokes	 . 12)
-    (<-denotational
-     ((=ucs		. #x2DA1D)	; 𭨝
+  '((<-denotational
+     ((=ucs		  . #x2DA1D)	; 𭨝
       ))
     (ideographic-radical . 73)	; ⽈
     (ideographic-strokes . 8)
@@ -3280,13 +3279,13 @@
       )
      ((=ucs		  . #x2D149)	; 𭅉
       ))
-    (=ucs@JP/hanazono	. #x2DA1D)	; 𭨝
-    (=cbeta		. 07611)	; &I-CB07611;
+    (=ucs@JP/hanazono	. #x2DA1D)	; &CB07611;
+    (=cbeta		. 07611)	; &CB07611;
     (->subsumptive
-     ((==ucs@JP/hanazono	. #x2DA1D)	; 𭨝
-      (==cbeta		. 07611)	; &I-CB07611;
+     ((==ucs@JP/hanazono  . #x2DA1D)	; &g2-CB07611;
+      (==cbeta		  . 07611)	; &g2-CB07611;
       (->subsumptive
-       ((===cbeta		. 07611)	; &I-CB07611;
+       ((===cbeta	    . 07611)	; &R-CB07611;
 	))
       ))
     ))

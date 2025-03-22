@@ -2123,7 +2123,7 @@
     (ideographic-radical . 86)	; ⽕
     (ideographic-strokes . 3)
     (total-strokes	 . 7)
-    (=ucs 		. #x2419B)	; 𤆛
+    (=ucs  		. #x2419B)	; 𤆛
     ))
 (define-char
   '((<-denotational
@@ -4538,6 +4538,15 @@
      ((==gt-k		  . 04945)	; &g2-GT-K04945;
       (==gt-pj-k1	  . #x6B32)	; &g2-GT-K04945; [75-18]
       ))
+    ))
+(define-char
+  '((<-denotational
+     ((=>big5-cdp	  . #x86B5)	; &A-CB08003;
+      ))
+    (ideographic-radical . 86)	; ⽕
+    (ideographic-strokes . 4)
+    (total-strokes	 . 8)
+    (=big5-cdp		. #x86B5)	; &CDP-86B5;
     ))
 (define-char
   '((<-denotational
@@ -7042,8 +7051,6 @@
     ))
 (define-char
   '((ideographic-radical . 86)	; ⽕
-    (ideographic-strokes . 5)
-    (total-strokes	 . 9)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
@@ -7052,9 +7059,9 @@
       )
      ((=ucs		  . #x706B)	; 火
       ))
+    (=>big5-cdp		. #x86B5)	; &A-CB08003;
     (=>gt-k		. 06294)	; &A-CB08003;
     (=>cbeta		. 08003)	; &A-CB08003;
-    (=>big5-cdp		. #x86B5)	; &CDP-86B5;
     ))
 (define-char
   '((ideographic-radical . 86)	; ⽕
@@ -7174,16 +7181,7 @@
     ))
 (define-char
   '((<-denotational
-     ((=>big5-cdp		. #x86B5)	; &CDP-86B5;
-      ))
-    (ideographic-radical . 86)	; ⽕
-    (ideographic-strokes . 4)
-    (total-strokes	 . 8)
-    (=big5-cdp		. #x86B5)	; &CDP-86B5;
-    ))
-(define-char
-  '((<-denotational
-     ((=>gt-k		  . 06294)	; &A-CB08003;
+     ((=>big5-cdp	  . #x86B5)	; &A-CB08003;
       ))
     (ideographic-radical . 86)	; ⽕
     (ideographic-strokes . 5)
@@ -20216,7 +20214,7 @@
     (ideographic-radical . 86)	; ⽕
     (ideographic-strokes . 9)
     (total-strokes	 . 13)
-    (=ucs 		. #x3DD7)	; 㷗
+    (=ucs  		. #x3DD7)	; 㷗
     ))
 (define-char
   '((<-denotational
