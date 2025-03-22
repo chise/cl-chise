@@ -1,3 +1,29 @@
+2025-03-22  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* Sync up with the current snapshot [2025-03-21 11:00].
+
+	M	data/char-defs/Ideograph-R001-One.el
+	M	data/char-defs/Ideograph-R014-Cover.el
+	M	data/char-defs/Ideograph-R025-Divination.el
+	M	data/char-defs/Ideograph-R044-Corpse.el
+	M	data/char-defs/Ideograph-R045-Sprout.el
+	M	data/char-defs/Ideograph-R049-Oneself.el
+	M	data/char-defs/Ideograph-R073-Say.el
+	M	data/char-defs/Ideograph-R076-Lack.el
+	M	data/char-defs/Ideograph-R086-Fire.el
+	M	data/char-defs/Ideograph-R090-Half-Tree-Trunk.el
+	M	data/char-defs/Ideograph-R108-Dish.el
+	M	data/char-defs/Ideograph-R115-Grain.el
+	M	data/char-defs/Ideograph-R131-Minister.el
+	M	data/char-defs/Ideograph-R140-Grass.el
+	M	data/char-defs/Ideograph-R142-Insect.el
+	M	data/dumped-ids.lisp
+
+2025-03-21  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* entity-ref.lisp (read-entity-reference): Support
+	"&IWDSCDP-hhhh;"; fix some bugs.
+
 2025-03-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* Sync up with the current snapshot [2025-03-19 15:30].
