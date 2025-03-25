@@ -16,7 +16,16 @@
    :expand-feature-name
    :sequence-list-p :association-list-p
    :while
-   :=id :=_id :=ucs :=>ucs)
+   :=id :=_id
+   :hypernymy :<-denotational :<-subsumptive
+   :hyponymy  :->denotational :->subsumptive
+   :relations
+   :=ucs :=>ucs
+   :phonemic-values :sound
+   :kangxi :shuowen :radical-and-strokes
+   :ideographic-strokes :total-strokes
+   :structure :ideographic-structure
+   :misc)
   (:export
    :decode-char :encode-char
    :get-char-attribute :put-char-attribute
