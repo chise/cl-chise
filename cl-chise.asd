@@ -12,5 +12,4 @@
 	       (:file "loadup-char-defs" :depends-on ("cl-chise"
 						      "entity-ref"
 						      "ids"
-						      "chise-metadata"))
-	       (:file "chise-json")))
+						      "chise-metadata"))))
