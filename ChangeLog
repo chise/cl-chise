@@ -1,3 +1,46 @@
+2025-03-28  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* Sync up with the current snapshot [2025-03-21 18:30].
+
+	M	data/char-defs/Ideograph-R005-Second.el
+	M	data/char-defs/Ideograph-R006-Hook.el
+	M	data/char-defs/Ideograph-R025-Divination.el
+	M	data/char-defs/Ideograph-R030-Mouth.el
+	M	data/char-defs/Ideograph-R041-Inch.el
+	M	data/char-defs/Ideograph-R049-Oneself.el
+	M	data/char-defs/Ideograph-R051-Dry.el
+	M	data/char-defs/Ideograph-R061-Heart.el
+	M	data/char-defs/Ideograph-R072-Sun.el
+	M	data/char-defs/Ideograph-R073-Say.el
+	M	data/char-defs/Ideograph-R075-Tree.el
+	M	data/char-defs/Ideograph-R086-Fire.el
+	M	data/char-defs/Ideograph-R109-Eye.el
+	M	data/char-defs/Ideograph-R115-Grain.el
+	M	data/char-defs/Ideograph-R122-Net.el
+	M	data/char-defs/Ideograph-R128-Ear.el
+	M	data/char-defs/Ideograph-R130-Meat.el
+	M	data/char-defs/Ideograph-R131-Minister.el
+	M	data/char-defs/Ideograph-R140-Grass.el
+	M	data/char-defs/Ideograph-R143-Blood.el
+	M	data/char-defs/Ideograph-R169-Gate.el
+	M	data/char-defs/Ideograph-R197-Salt.el
+	M	data/char-defs/ShuoWen-SR290.el
+	M	data/dumped-ids.lisp
+
+2025-03-27  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* cl-chise.asd: Abolish "chise-json".
+
+	* (chise-json.lisp): Deleted.
+
+2025-03-25  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* cl-chise.lisp (import-from): Import `hypernymy',
+	`<-denotational', `<-subsumptive', `hyponymy', `->denotational',
+	`->subsumptive', `relations', `phonemic-values', `sound',
+	`kangxi', `shuowen', `radical-and-strokes', `ideographic-strokes',
+	`total-strokes', `structure', `ideographic-structure' and `misc'.
+
 2025-03-22  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* Sync up with the current snapshot [2025-03-21 11:00].
