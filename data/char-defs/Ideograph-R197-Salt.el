@@ -72,12 +72,12 @@
     (=ucs		. #x209F8)	; 𠧸
     (=cns11643-6	. #x3C7A)	; &I-C6-3C7A; [28-90]
     (=daikanwa		. 47529)	; &I-M-47529;
-    (=cbeta		. 08965)	; &CB08965;
+    (=cbeta		. 08965)	; 𠧸
     (->subsumptive
      ((==ucs@iso		. #x209F8)	; 𠧸
       (==cns11643-6	. #x3C7A)	; &I-C6-3C7A; [28-90]
       (==daikanwa		. 47529)	; &I-M-47529;
-      (==cbeta		. 08965)	; &CB08965;
+      (==cbeta		. 08965)	; 𠧸
       ))
     ))
 (define-char
@@ -95,6 +95,30 @@
      ((=ucs		. #x3157B)	; 𱕻
       ))
     (=ucs-itaiji-008	. #x9E75)	; &U-i008+9E75;
+    ))
+(define-char
+  '((ideographic-radical . 197)	; ⿄
+    (ideographic-strokes . 0)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ?⿱
+     ((=>ucs-itaiji-002	. #x5364)	; &U-i002+5364;
+      )
+     ?𱕻)
+    (=>ucs-itaiji-009	. #x9E75)	; &U-i009+9E75;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-009	. #x9E75)	; &U-i009+9E75;
+      ))
+    (ideographic-radical . 197)	; ⿄
+    (ideographic-strokes . 0)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ?⿱
+     ?&U-i002+5364;
+     ?𱕻)
+    (=ucs-itaiji-009	. #x9E75)	; &U-i009+9E75;
     ))
 (define-char
   '((ideographic-radical . 197)	; ⿄

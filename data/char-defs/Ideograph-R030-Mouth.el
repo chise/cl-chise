@@ -8511,6 +8511,8 @@
       )
      ((=ucs		  . #x4EA2)	; 亢
       ))
+    (sound@ja/on/kan "kAu")
+    (sound@ja/on/go "gAu")
     (=ucs		. #x542D)	; 吭
     ))
 (define-char
@@ -8539,13 +8541,33 @@
     (=big5		. #xA75C)	; &I-B-A75C;
     (=gt		. 04237)	; &I-GT-04237;
     (=gt-pj-1		. #x5262)	; &I-GT-04237; [50-66]
-    (=daikanwa 		. 03353)	; &I-M-03353;
+    (=daikanwa		. 03353)	; &I-M-03353;
     (=daijiten		. 01198)	; &I-DJT-01198;
     (=shinjigen		.  0991)	; &AJ1-04343;
     (<-formed
      ((=ucs@unicode	  . #x4EA2)	; &AJ1-04111;
       (=adobe-japan1-0	  . 04111)	; &AJ1-04111;
       ))
+    (->formed
+     ((=daikanwa		. 43371)	; &I-M-43371;
+      )
+     ((=ucs@unicode	  . #x4EA2)	; &AJ1-04111;
+      (=adobe-japan1-0	  . 04111)	; &AJ1-04111;
+      (=daikanwa	. 00288)	; &I-M-00288;
+      ))
+    (->formed$_1*sources
+     jiyun daikanwa)
+    (->formed$_2*sources
+     jiyun daikanwa)
+    (->formed*sources
+     jiyun daikanwa)
+    (->interchangeable
+     ((=daikanwa		. 29306)	; &I-M-29306;
+      ))
+    (->interchangeable$_1*sources
+     jiyun daikanwa)
+    (->interchangeable*sources
+     jiyun daikanwa)
     (->subsumptive
      ((=decomposition@cid
        ((=ucs		    . #x542D)	; 吭

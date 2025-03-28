@@ -6926,14 +6926,21 @@
     (=daikanwa		. 23299)	; &I-M-23299;
     ))
 (define-char
-  '((=>ucs		. #x25165)	; 𥅥
+  '((=ucs		. #x25165)	; 𥅥
     (ideographic-radical . 109)	; ⽬
     (ideographic-strokes . 6)
     (total-strokes	 . 11)
+    (ideographic-structure
+     ?⿰
+     ?目
+     ?安)
     (=daikanwa		. 23300)	; &M-23300;
-    ))
-(define-char
-  '((morohashi-daikanwa	23300 0 1)
+    (->subsumptive
+     ((==daikanwa		. 23300)	; &M-23300;
+      )
+     ((==ucs@iso		. #x25165)	; 𥅥
+      (==cns11643-6	. #x4242)	; &I-C6-4242; [34-34]
+      ))
     (ideographic-radical . 109)	; ⽬
     (ideographic-strokes . 6)
     (total-strokes	 . 11)

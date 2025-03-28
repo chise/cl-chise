@@ -1349,6 +1349,7 @@
       )
      ((=>ucs-itaiji-002	  . #x242B1)	; &A-U-i002+242B1;
       ))
+    (sound@ja/on "yo")
     (=ucs		. #x2011B)	; 𠄛
     ))
 (define-char
@@ -1370,7 +1371,12 @@
     (=ucs@iso		. #x2011B)	; &GT-00325;
     (=gt		. 00325)	; &GT-00325;
     (=gt-pj-2		. #x322A)	; &GT-00325; [18-10]
-    (=daikanwa 		. 00245)	; &I-M-00245;
+    (=daikanwa		. 00245)	; &I-M-00245;
+    (<-ancient
+     ((=daikanwa		. 36425)	; &I-M-36425;
+      ))
+    (<-ancient*sources
+     leibian daikanwa)
     (->subsumptive
      ((==ucs@iso	  . #x2011B)	; &g2-GT-00325;
       (==gt		  . 00325)	; &g2-GT-00325;

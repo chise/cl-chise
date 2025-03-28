@@ -414,6 +414,39 @@
     ))
 (define-char
   '((ideographic-radical . 128)	; ⽿
+    (ideographic-strokes . 2)
+    (total-strokes	 . 8)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x8033)	; 耳
+      )
+     ((=ucs		  . #x529B)	; 力
+      ))
+    (=ucs		. #x26533)	; 𦔳
+    (->subsumptive
+     ((=>>ucs@iso	  . #x26533)	; &G-IU+26533;
+      (->subsumptive
+       ((==ucs@iso	    . #x26533)	; &g2-IU-00026533;
+	))
+      )
+     ((ideographic-structure
+       ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
+	(=ucs		    . #x2FF8)	; ⿸
+	)
+       ((=ucs		    . #x8033)	; 耳
+	)
+       ((=ucs		    . #x529B)	; 力
+	))
+      (=ucs-var-002	  . #x26533)	; &U-v002+26533;
+      (->subsumptive
+       ((==ucs-var-002	    . #x26533)	; &g2-U-v002+26533;
+	))
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 128)	; ⽿
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
@@ -2454,6 +2487,10 @@
     (ideographic-radical . 128)	; ⽿
     (ideographic-strokes . 7)
     (total-strokes	 . 13)
+    (ideographic-structure
+     ?⿽
+     ?呈
+     ?耳)
     (=ucs		. #x8056)	; 聖
     (=big5		. #xB874)	; &I-B-B874;
     ))
@@ -2464,6 +2501,11 @@
     (ideographic-radical . 128)	; ⽿
     (ideographic-strokes . 7)
     (total-strokes	 . 13)
+    (ideographic-structure
+     ?⿽
+     ((=ucs@cns		  . #x5448)	; &MJ008132;
+      )
+     ?耳)
     (=ucs@cns		. #x8056)	; &GT-37654;
     (=ucs@ks		. #x8056)	; &GT-37654;
     (=ks-x1001		. #x6121)	; &GT-37654; [65-01]
@@ -2507,6 +2549,11 @@
     (ideographic-radical . 128)	; ⽿
     (ideographic-strokes . 7)
     (total-strokes	 . 13)
+    (ideographic-structure
+     ?⿽
+     ((=mj		  . 008134)	; &MJ008134;
+      )
+     ?耳)
     (=daijiten		. 09308)	; &DJT-09308;
     ))
 (define-char
@@ -2516,6 +2563,10 @@
     (ideographic-radical . 128)	; ⽿
     (ideographic-strokes . 7)
     (total-strokes	 . 13)
+    (ideographic-structure
+     ?⿽
+     ?呈
+     ?耳)
     (=ucs@unicode	. #x8056)	; &AJ1-02655;
     (=adobe-japan1-0	. 02655)	; &AJ1-02655;
     (=jis-x0208		. #x403B)	; &I-J90-403B; [32-27]
@@ -3134,7 +3185,7 @@
     (=gt		. 37679)	; &I-GT-37679;
     (=gt-k		. 11232)	; &I-GT-K11232;
     (=gt-pj-1		. #x665C)	; &I-GT-37679; [70-60]
-    (=daikanwa 		. 29093)	; &I-M-29093;
+    (=daikanwa		. 29093)	; &I-M-29093;
     (=daijiten		. 09314)	; &I-DJT-09314;
     (=shinjigen		.  6391)	; &AJ1-06217;
     (<-interchangeable
@@ -3291,7 +3342,7 @@
       )
      ((=ucs		  . #x53D6)	; 取
       )
-     ((=>ucs-itaiji-004	  . #x343A)	; &A-U-i004+343A;
+     ((=>gt-k		  . 01800)	; &A-GT-K01800;
       ))
     (=>ucs-itaiji-006	. #x805A)	; &A-U-i006+805A;
     ))
@@ -3308,7 +3359,7 @@
       )
      ((=ucs		  . #x53D6)	; 取
       )
-     ((=ucs-itaiji-004	  . #x343A)	; &U-i004+343A;
+     ((=gt-k		  . 01800)	; &GT-K01800;
       ))
     (=ucs-itaiji-006	. #x805A)	; &U-i006+805A;
     ))

@@ -3229,7 +3229,23 @@
   '((ideographic-radical . 73)	; ⽈
     (ideographic-strokes . 8)
     (total-strokes	 . 12)
-    (=ucs 		. #x6702)	; 朂
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
+      (=ucs		  . #x2FF8)	; ⿸
+      )
+     ((=>ucs-itaiji-001	  . #x5192)	; &A-U-i001+5192;
+      )
+     ((=ucs		  . #x529B)	; 力
+      ))
+    (ideographic-structure@apparent
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=>ucs@component	  . #x65E5)	; &A-compU+65E5;
+      )
+     ((=ucs		  . #x26533)	; 𦔳
+      ))
+    (=ucs		. #x6702)	; 朂
     ))
 (define-char
   '((<-denotational
@@ -3238,15 +3254,29 @@
     (ideographic-radical . 73)	; ⽈
     (ideographic-strokes . 8)
     (total-strokes	 . 12)
-    (=ucs@unicode 	. #x6702)	; &CB08967;
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
+      (=ucs		  . #x2FF8)	; ⿸
+      )
+     ((=ucs-itaiji-001	  . #x5192)	; &U-i001+5192;
+      )
+     ((=ucs		  . #x529B)	; 力
+      ))
+    (ideographic-structure@apparent
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x65E5)	; 日
+      )
+     ((=ucs-var-002	  . #x26533)	; &U-v002+26533;
+      ))
+    (=ucs@unicode	. #x6702)	; &CB08967;
     (=cbeta		. 08967)	; &CB08967;
     (->subsumptive
      ((==cbeta		  . 08967)	; &g2-CB08967;
-      (==cbeta	    . 08967)	; &R-CB08967;
       )
-     ((==ucs@unicode	  . #x6702)	; &g2-CB08967;
-      (==ucs@JP/hanazono . nil)
-      (==ucs@unicode	    . #x6702)	; &R-UU+6702;
+     ((==ucs@unicode	  . #x6702)	; &g2-UU+6702;
+      (==ucs@JP/hanazono  . nil)
       ))
     ))
 (define-char

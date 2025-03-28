@@ -2215,6 +2215,24 @@
      ((=ucs		  . #x5BF8)	; 寸
       ))
     (=ucs		. #x2D530)	; 𭔰
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x2D530)	; 𭔰
+      ))
+    (ideographic-radical . 41)	; ⼨
+    (ideographic-strokes . 7)
+    (total-strokes	 . 10)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@unicode	  . #x8C46)	; &AJ1-03198;
+      (=adobe-japan1-0	  . 03198)	; &I-AJ1-03198;
+      )
+     ((=ucs		  . #x5BF8)	; 寸
+      ))
+    (=ucs@JP/hanazono	. #x2D530)	; &hanaJU+2D530;
     (->subsumptive
      ((==ucs@JP/hanazono  . #x2D530)	; &g2-hanaJU+2D530;
       ))

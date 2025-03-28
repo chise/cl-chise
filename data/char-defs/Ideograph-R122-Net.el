@@ -6752,7 +6752,7 @@
       )
      ((=ucs		  . #x7F52)	; 罒
       )
-     ((=>big5-cdp	  . #x8AD6)	; &CDP-8AD6;
+     ((=>big5-cdp	  . #x8AD6)	; &A-CDP-8AD6;
       ))
     (=ucs		. #x7F7D)	; 罽
     ))
@@ -6818,7 +6818,7 @@
       )
      ((=big5-cdp	  . #x8AD6)	; &CDP-8AD6;
       ))
-    (=daijiten 		. 09139)	; &DJT-09139;
+    (=daijiten		. 09139)	; &DJT-09139;
     ))
 (define-char
   '((ideographic-radical . 122)	; ⽹

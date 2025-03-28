@@ -33,6 +33,9 @@
   '((shuowen-radical	. 290)	; 从
     (=shuowen-jiguge	. 27507)	; &SW-JIGUGE-27507;
     (<-Small-Seal@shuowen
+     ((=ucs		. #x303E4)	; 𰏤
+      )
+     ?幷
      ((=ucs		  . #x5E76)	; 并
       ))
     (->subsumptive

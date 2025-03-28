@@ -975,34 +975,6 @@
 (define-char
   '((ideographic-radical . 49)	; ⼰
     (ideographic-strokes . 6)
-    (ideographic-structure
-     ?⿰
-     ((=>ucs-itaiji-004	. #x268DD)	; &U-i004+268DD;
-      )
-     ((=>ucs@component	. #x5DF1)	; &A-compU+5DF1;
-      ))
-    (=>ucs-itaiji-006	. #x5DF8)	; &U-i006+5DF8;
-    ))
-(define-char
-  '((<-denotational
-     ((=>ucs-itaiji-006	. #x5DF8)	; &U-i006+5DF8;
-      ))
-    (ideographic-radical . 49)	; ⼰
-    (ideographic-strokes . 6)
-    (total-strokes	 . 9)
-    (ideographic-structure
-     ?⿰
-     ((=ucs-itaiji-004	. #x268DD)	; &U-i004+268DD;
-      )
-     ?巳)
-    (=ucs-itaiji-006	. #x5DF8)	; &U-i006+5DF8;
-    (<-formed@component
-     ((=ucs@jis		. #x5DF8)	; &AJ1-14496;
-      ))
-    ))
-(define-char
-  '((ideographic-radical . 49)	; ⼰
-    (ideographic-strokes . 6)
     (total-strokes	 . 9)
     (=ucs		. #x5DF7)	; 巷
     (=>jis-x0208	. #x392B)	; 巷 [25-11]
@@ -1906,6 +1878,41 @@
     (total-strokes	 . 9)
     (=ucs		. #x2203B)	; 𢀻
     (=cns11643-6	. #x3058)	; &I-C6-3058; [16-56]
+    ))
+(define-char
+  '((ideographic-radical . 49)	; ⼰
+    (ideographic-strokes . 6)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=>ucs-itaiji-004	  . #x268DD)	; &A-U-i004+268DD;
+      )
+     ((=>ucs@component	  . #x5DF1)	; &A-compU+5DF1;
+      (=>iwds-1		  .  0120)	; &A-compU+5DF1;
+      ))
+    (=>ucs-itaiji-006	. #x5DF8)	; &A-U-i006+5DF8;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-006	  . #x5DF8)	; &A-U-i006+5DF8;
+      ))
+    (ideographic-radical . 49)	; ⼰
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs-itaiji-004	  . #x268DD)	; &U-i004+268DD;
+      )
+     ((=ucs		  . #x5DF3)	; 巳
+      ))
+    (=ucs-itaiji-006	. #x5DF8)	; &U-i006+5DF8;
+    (<-formed@component
+     ((=ucs@jis		  . #x5DF8)	; &AJ1-14496;
+      (=adobe-japan1-4	  . 14496)	; &AJ1-14496;
+      ))
     ))
 (define-char
   '((=>ucs		. #x2203F)	; 𢀿
