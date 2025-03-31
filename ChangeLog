@@ -1,3 +1,37 @@
+2025-03-31  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* Sync up with the current snapshot [2025-03-29 19:30].
+
+	M	data/char-defs/Ideograph-R005-Second.el
+	M	data/char-defs/Ideograph-R006-Hook.el
+	M	data/char-defs/Ideograph-R015-Ice.el
+	M	data/char-defs/Ideograph-R030-Mouth.el
+	M	data/char-defs/Ideograph-R041-Inch.el
+	M	data/char-defs/Ideograph-R046-Mountain.el
+	M	data/char-defs/Ideograph-R051-Dry.el
+	M	data/char-defs/Ideograph-R061-Heart.el
+	M	data/char-defs/Ideograph-R064-Hand.el
+	M	data/char-defs/Ideograph-R075-Tree.el
+	M	data/char-defs/Ideograph-R085-Water.el
+	M	data/char-defs/Ideograph-R086-Fire.el
+	M	data/char-defs/Ideograph-R102-Field.el
+	M	data/char-defs/Ideograph-R104-Sickness.el
+	M	data/char-defs/Ideograph-R109-Eye.el
+	M	data/char-defs/Ideograph-R112-Stone.el
+	M	data/char-defs/Ideograph-R115-Grain.el
+	M	data/char-defs/Ideograph-R120-Silk.el
+	M	data/char-defs/Ideograph-R128-Ear.el
+	M	data/char-defs/Ideograph-R130-Meat.el
+	M	data/char-defs/Ideograph-R149-Speech.el
+	M	data/char-defs/Ideograph-R157-Foot.el
+	M	data/char-defs/Ideograph-R162-Walk.el
+	M	data/char-defs/Ideograph-R169-Gate.el
+	M	data/char-defs/Ideograph-R187-Horse.el
+	M	data/char-defs/Ideograph-R195-Fish.el
+	M	data/char-defs/Ideograph-R213-Turtle.el
+	M	data/char-defs/ShuoWen-SR290.el
+	M	data/dumped-ids.lisp
+
 2025-03-28  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* Sync up with the current snapshot [2025-03-21 18:30].
