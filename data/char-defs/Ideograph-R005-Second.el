@@ -6358,9 +6358,12 @@
     (ideographic-strokes . 15)
     (total-strokes	 . 16)
     (ideographic-structure
-     ?⿺
-     ?𠃊
-     ((=>ucs-itaiji-009	. #x9E75)	; &A-U-i009+9E75;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER LEFT")
+      (=ucs		  . #x2FFA)	; ⿺
+      )
+     ((=ucs		  . #x200CA)	; 𠃊
+      )
+     ((=>ucs-itaiji-009	  . #x9E75)	; &A-U-i009+9E75;
       ))
     (=ucs		. #x30050)	; 𰁐
     ))

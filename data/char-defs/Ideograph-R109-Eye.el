@@ -6926,26 +6926,31 @@
     (=daikanwa		. 23299)	; &I-M-23299;
     ))
 (define-char
-  '((=ucs		. #x25165)	; 𥅥
-    (ideographic-radical . 109)	; ⽬
+  '((ideographic-radical . 109)	; ⽬
     (ideographic-strokes . 6)
     (total-strokes	 . 11)
     (ideographic-structure
-     ?⿰
-     ?目
-     ?安)
-    (=daikanwa		. 23300)	; &M-23300;
-    (->subsumptive
-     ((==daikanwa		. 23300)	; &M-23300;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
       )
-     ((==ucs@iso		. #x25165)	; 𥅥
-      (==cns11643-6	. #x4242)	; &I-C6-4242; [34-34]
+     ((=ucs		  . #x76EE)	; 目
+      )
+     ((=ucs		  . #x5B89)	; 安
       ))
-    (ideographic-radical . 109)	; ⽬
-    (ideographic-strokes . 6)
-    (total-strokes	 . 11)
     (=ucs		. #x25165)	; 𥅥
     (=cns11643-6	. #x4242)	; &I-C6-4242; [34-34]
+    (=daikanwa 		. 23300)	; &I-M-23300;
+    (->subsumptive
+     ((==daikanwa	  . 23300)	; &g2-M-23300;
+      )
+     ((==ucs@iso	  . #x25165)	; &g2-IU-00025165;
+      (==cns11643-6	  . #x4242)	; &g2-IU-00025165; [34-34]
+      (->subsumptive
+       ((===cns11643-6	    . #x4242)	; &R-C6-4242; [34-34]
+	)
+       ((===ucs@iso	    . #x25165)	; &R-U-00025165;
+	))
+      ))
     ))
 (define-char
   '((=>ucs		. #x402C)	; 䀬

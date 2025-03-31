@@ -15977,6 +15977,31 @@
   '((ideographic-radical . 195)	; ⿂
     (ideographic-strokes . 9)
     (ideographic-structure
+     ?⿰
+     ((=>ucs@iwds-1	. #x9B5A)	; &A-IWDSU+9B5A;
+      )
+     ?𰦫)
+    (=ucs		. #x3233B)	; 𲌻
+    ))
+(define-char
+  '((ideographic-radical . 195)	; ⿂
+    (ideographic-strokes . 9)
+    (total-strokes	 . 20)
+    (ideographic-structure
+     ?⿰
+     ((=ucs@unicode	. #x9B5A)	; &AJ1-01685;
+      )
+     ((=ucs@JP/hanazono	. #x309AB)	; &hanaJU+309AB;
+      ))
+    (<-denotational
+     ((=ucs		. #x3233B)	; 𲌻
+      ))
+    (=ucs@JP/hanazono	. #x3233B)	; 𲌻
+    ))
+(define-char
+  '((ideographic-radical . 195)	; ⿂
+    (ideographic-strokes . 9)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
@@ -20407,8 +20432,8 @@
      ((=ucs@unicode	  . #x9B5A)	; &AJ1-01685;
       (=adobe-japan1-0	  . 01685)	; &AJ1-01685;
       )
-     ((=ucs@unicode	  . #x5C08)	; &AJ1-04642;
-      (=adobe-japan1-0	  . 04642)	; &AJ1-04642;
+     ((=ucs@unicode	  . #x5C08)	; &MJ010272;
+      (=adobe-japan1-0	  . 04642)	; &MJ010272;
       ))
     (=ucs@unicode	. #x9C44)	; &JSP-6B3E;
     (=jis-x0212		. #x6B3E)	; &JSP-6B3E; [75-30]

@@ -408,6 +408,60 @@
       ))
     (ideographic-radical . 213)	; ⿔
     (ideographic-strokes . 0)
+    (total-strokes	 . 20)
+    (=ucs		. #x2EBDB)	; 𮯛
+    ))
+(define-char
+  '((ideographic-radical . 213)	; ⿔
+    (ideographic-strokes . 0)
+    (total-strokes	 . 20)
+    (<-denotational
+     ((=ucs		. #x2EBDB)	; 𮯛
+      ))
+    (=ucs@JP/hanazono	. #x2EBDB)	; 𮯛
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@cognate	  . #x9F9C)	; &A-cgnU+9F9C;
+      ))
+    (ideographic-radical . 213)	; ⿔
+    (ideographic-strokes . 0)
+    (total-strokes	 . 22)
+    (=ucs		. #x2EBDC)	; 𮯜
+    ))
+(define-char
+  '((ideographic-radical . 213)	; ⿔
+    (ideographic-strokes . 0)
+    (total-strokes	 . 22)
+    (<-denotational
+     ((=ucs		. #x2EBDC)	; 𮯜
+      ))
+    (=ucs@JP/hanazono	. #x2EBDC)	; 𮯜
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@cognate	  . #x9F9C)	; &A-cgnU+9F9C;
+      ))
+    (ideographic-radical . 213)	; ⿔
+    (ideographic-strokes . 0)
+    (total-strokes	 . 17)
+    (=ucs		. #x2EBDD)	; 𮯝
+    ))
+(define-char
+  '((ideographic-radical . 213)	; ⿔
+    (ideographic-strokes . 0)
+    (total-strokes	 . 17)
+    (<-denotational
+     ((=ucs		. #x2EBDD)	; 𮯝
+      ))
+    (=ucs@JP/hanazono	. #x2EBDD)	; 𮯝
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@cognate	  . #x9F9C)	; &A-cgnU+9F9C;
+      ))
+    (ideographic-radical . 213)	; ⿔
+    (ideographic-strokes . 0)
     (=>ucs@cognate	. #x2EBDE)	; &A-cgnU+2EBDE;
     ))
 (define-char
@@ -429,6 +483,27 @@
     (<-HNG@chise
      ((=ucs		  . #x2EBDE)	; 𮯞
       ))
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@cognate	  . #x2EBDE)	; &A-cgnU+2EBDE;
+      ))
+    (<-denotational@usage
+     ((==>ucs@bucs	  . #x9F9C)	; &BUCS+9F9C;
+      ))
+    (ideographic-radical . 213)	; ⿔
+    (ideographic-strokes . 0)
+    (total-strokes	 . 15)
+    (=ucs		. #x2EBDF)	; 𮯟
+    ))
+(define-char
+  '((ideographic-radical . 213)	; ⿔
+    (ideographic-strokes . 0)
+    (total-strokes	 . 15)
+    (<-denotational
+     ((=ucs		. #x2EBDF)	; 𮯟
+      ))
+    (=ucs@JP/hanazono	. #x2EBDF)	; 𮯟
     ))
 (define-char
   '((<-denotational

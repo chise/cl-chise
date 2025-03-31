@@ -19363,9 +19363,20 @@
     (=daikanwa		. 10728)	; &I-M-10728;
     ))
 (define-char
-  '((ideographic-radical . 61)	; ⼼
+  '((<-denotational@usage
+     ((==>ucs@bucs	  . #x60B6)	; &BUCS+60B6;
+      ))
+    (ideographic-radical . 61)	; ⼼
     (ideographic-strokes . 8)
     (total-strokes	 . 12)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM ABOVE")
+      (=ucs		  . #x2FF5)	; ⿵
+      )
+     ((=ucs		  . #x9580)	; 門
+      )
+     ((=ucs		  . #x5FC3)	; 心
+      ))
     (=ucs		. #x60B6)	; 悶
     (=adobe-japan1-0	. 03825)	; &I-AJ1-03825;
     (=jis-x0208		. #x4C65)	; &I-J90-4C65; [44-69]
@@ -19378,6 +19389,7 @@
     (=gt-k		. 09150)	; &I-GT-K09150;
     (=gt-pj-1		. #x4C65)	; &I-GT-13757; [44-69]
     (=daikanwa		. 10729)	; &I-M-10729;
+    (=daijiten		. 03339)	; &I-DJT-03339;
     (=shinjigen		.  2568)	; 悶
     (->subsumptive
      ((==daikanwa	  . 10729)	; &g2-M-10729;
@@ -19396,8 +19408,11 @@
       (==gb12345	  . #x4346)	; &g2-AJ1-03825; [35-38]
       (==gt		  . 13757)	; &g2-AJ1-03825;
       (==gt-k		  . 09150)	; &g2-AJ1-03825;
+      (==daijiten	  . 03339)	; &g2-AJ1-03825;
       (==shinjigen	  .  2568)	; &g2-AJ1-03825;
       (->subsumptive
+       ((===daijiten	    . 03339)	; &R-DJT-03339;
+	)
        ((===jis-x0208	    . #x4C65)	; &R-J0-4C65; [44-69]
 	(===jis-x0213-1	    . #x4C65)	; &R-J0-4C65; [44-69]
 	)
@@ -42028,7 +42043,7 @@
      jiyun daikanwa)
     (->interchangeable
      ((=ucs@unicode	  . #x99AE)	; &AJ1-07231;
-      (=adobe-japan1-0	  . 07231)	; &AJ1-07231;
+      (=adobe-japan1-0	  . 07231)	; &I-AJ1-07231;
       (=daikanwa	  . 44579)	; &I-M-44579;
       ))
     (->interchangeable$_1*sources
@@ -56563,6 +56578,11 @@
   '((ideographic-radical . 61)	; ⼼
     (==>ucs@bucs	. #x6173)	; &BUCS+6173;
     (==>daijiten	. 03471)	; &BUCS+6173;
+    ))
+(define-char
+  '((ideographic-radical . 61)	; ⼼
+    (==>ucs@bucs	. #x60B6)	; &BUCS+60B6;
+    (==>daijiten	. 03339)	; &BUCS+60B6;
     ))
 (define-char
   '((ideographic-radical . 61)	; ⼼

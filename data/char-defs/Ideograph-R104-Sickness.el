@@ -13120,6 +13120,30 @@
   '((ideographic-radical . 104)	; ⽧
     (ideographic-strokes . 11)
     (total-strokes	 . 16)
+    (ideographic-structure
+     ?⿸
+     ?疒
+     ?𰲛)
+    (=ucs		. #x31C61)	; 𱱡
+    ))
+(define-char
+  '((ideographic-radical . 104)	; ⽧
+    (ideographic-strokes . 11)
+    (total-strokes	 . 16)
+    (ideographic-structure
+     ?⿸
+     ?疒
+     ((=ucs@JP/hanazono	. #x30C9B)	; &RUI6-E057;
+      ))
+    (<-denotational
+     ((=ucs		. #x31C61)	; 𱱡
+      ))
+    (=ucs@JP/hanazono	. #x31C61)	; 𱱡
+    ))
+(define-char
+  '((ideographic-radical . 104)	; ⽧
+    (ideographic-strokes . 11)
+    (total-strokes	 . 16)
     (=ucs		. #x24E93)	; 𤺓
     (=cns11643-5	. #x556F)	; &I-C5-556F; [53-79]
     ))

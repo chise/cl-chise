@@ -1359,30 +1359,44 @@
     (ideographic-strokes . 5)
     (total-strokes	 . 8)
     (ideographic-structure
-     ?⿱
-     ((=>ucs@iwds-1	. #x215DC)	; &A-IWDSU+215DC;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
       )
-     ?干)
+     ((=>ucs@iwds-1	  . #x215DC)	; &A-IWDSU+215DC;
+      )
+     ((=ucs		  . #x5E72)	; 干
+      ))
     (=ucs		. #x2218E)	; 𢆎
     ))
 (define-char
-  '((ideographic-radical . 51)	; ⼲
+  '((<-denotational
+     ((=ucs		  . #x2218E)	; 𢆎
+      ))
+    (ideographic-radical . 51)	; ⼲
     (ideographic-strokes . 5)
     (total-strokes	 . 8)
-    (<-denotational
-     ((=ucs		. #x2218E)	; 𢆎
-      ))
     (ideographic-structure
-     ?⿱
-     ?𡗜
-     ?干)
-    (=ucs@iso		. #x2218E)	; 𢆎
-    (=cns11643-6	. #x2B24)	; &I-C6-2B24; [11-04]
-    (=daikanwa		. 09177)	; &I-M-09177;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x215DC)	; 𡗜
+      )
+     ((=ucs		  . #x5E72)	; 干
+      ))
+    (=ucs@iso		. #x2218E)	; &C6-2B24;
+    (=cns11643-6	. #x2B24)	; &C6-2B24; [11-04]
+    (=daikanwa 		. 09177)	; &I-M-09177;
     (->subsumptive
-     ((==ucs@iso		. #x2218E)	; 𢆎
-      (==cns11643-6	. #x2B24)	; &I-C6-2B24; [11-04]
-      (==daikanwa		. 09177)	; &I-M-09177;
+     ((==ucs@iso	  . #x2218E)	; &g2-M-09177;
+      (==cns11643-6	  . #x2B24)	; &g2-M-09177; [11-04]
+      (==daikanwa	  . 09177)	; &g2-M-09177;
+      (->subsumptive
+       ((===daikanwa	    . 09177)	; &R-M-09177;
+	)
+       ((===cns11643-6	    . #x2B24)	; &R-C6-2B24; [11-04]
+	)
+       ((===ucs@iso	    . #x2218E)	; &R-U-0002218E;
+	))
       ))
     ))
 (define-char

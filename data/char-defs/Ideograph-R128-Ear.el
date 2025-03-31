@@ -2488,9 +2488,13 @@
     (ideographic-strokes . 7)
     (total-strokes	 . 13)
     (ideographic-structure
-     ?⿽
-     ?呈
-     ?耳)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER RIGHT")
+      (=ucs		  . #x2FFD)	; ⿽
+      )
+     ((=ucs		  . #x5448)	; 呈
+      )
+     ((=ucs		  . #x8033)	; 耳
+      ))
     (=ucs		. #x8056)	; 聖
     (=big5		. #xB874)	; &I-B-B874;
     ))
@@ -2502,10 +2506,14 @@
     (ideographic-strokes . 7)
     (total-strokes	 . 13)
     (ideographic-structure
-     ?⿽
-     ((=ucs@cns		  . #x5448)	; &MJ008132;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER RIGHT")
+      (=ucs		  . #x2FFD)	; ⿽
       )
-     ?耳)
+     ((=ucs@cns		  . #x5448)	; &MJ008132;
+      (=mj		  . 008132)	; &MJ008132;
+      )
+     ((=ucs		  . #x8033)	; 耳
+      ))
     (=ucs@cns		. #x8056)	; &GT-37654;
     (=ucs@ks		. #x8056)	; &GT-37654;
     (=ks-x1001		. #x6121)	; &GT-37654; [65-01]
@@ -2550,10 +2558,13 @@
     (ideographic-strokes . 7)
     (total-strokes	 . 13)
     (ideographic-structure
-     ?⿽
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER RIGHT")
+      (=ucs		  . #x2FFD)	; ⿽
+      )
      ((=mj		  . 008134)	; &MJ008134;
       )
-     ?耳)
+     ((=ucs		  . #x8033)	; 耳
+      ))
     (=daijiten		. 09308)	; &DJT-09308;
     ))
 (define-char
@@ -2564,9 +2575,13 @@
     (ideographic-strokes . 7)
     (total-strokes	 . 13)
     (ideographic-structure
-     ?⿽
-     ?呈
-     ?耳)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER RIGHT")
+      (=ucs		  . #x2FFD)	; ⿽
+      )
+     ((=ucs		  . #x2F83E)	; 呈
+      )
+     ((=ucs		  . #x8033)	; 耳
+      ))
     (=ucs@unicode	. #x8056)	; &AJ1-02655;
     (=adobe-japan1-0	. 02655)	; &AJ1-02655;
     (=jis-x0208		. #x403B)	; &I-J90-403B; [32-27]

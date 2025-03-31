@@ -2754,6 +2754,31 @@
     (ideographic-strokes . 4)
     (total-strokes	 . 9)
     (ideographic-structure
+     ?⿰
+     ?禾
+     ((=>ucs@iwds-1	. #x6236)	; &A-IWDSU+6236;
+      ))
+    (=ucs		. #x31D7E)	; 𱵾
+    ))
+(define-char
+  '((ideographic-radical . 115)	; ⽲
+    (ideographic-strokes . 4)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ?⿰
+     ((=ucs@unicode	. #x79BE)	; &AJ1-01363;
+      )
+     ?戶)
+    (<-denotational
+     ((=ucs		. #x31D7E)	; 𱵾
+      ))
+    (=ucs@JP/hanazono	. #x31D7E)	; 𱵾
+    ))
+(define-char
+  '((ideographic-radical . 115)	; ⽲
+    (ideographic-strokes . 4)
+    (total-strokes	 . 9)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )

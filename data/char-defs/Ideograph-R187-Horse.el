@@ -7628,6 +7628,30 @@
     (ideographic-strokes . 9)
     (total-strokes	 . 19)
     (ideographic-structure
+     ?⿰
+     ?馬
+     ?𰦫)
+    (=ucs		. #x322FA)	; 𲋺
+    ))
+(define-char
+  '((ideographic-radical . 187)	; ⾺
+    (ideographic-strokes . 9)
+    (total-strokes	 . 19)
+    (ideographic-structure
+     ?⿰
+     ?馬
+     ((=ucs@JP/hanazono	. #x309AB)	; &hanaJU+309AB;
+      ))
+    (<-denotational
+     ((=ucs		. #x322FA)	; 𲋺
+      ))
+    (=ucs@JP/hanazono	. #x322FA)	; 𲋺
+    ))
+(define-char
+  '((ideographic-radical . 187)	; ⾺
+    (ideographic-strokes . 9)
+    (total-strokes	 . 19)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
