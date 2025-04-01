@@ -1043,6 +1043,54 @@
 	    'ideographic-structure@apparent/rightmost)
 
 	   (ids-update-index)
+
+	   (some-in-character-feature
+	    (lambda (c v)
+	      (unless (equal (setq ret (ideographic-structure-compact v)) v)
+		(format t "~a (~a) : Compact [3rd]~%~T~T   ~a~%~T~T-> ~a~%"
+			(char-id-string c) c
+			v ret)
+		(put-char-attribute c 'ideographic-structure ret)
+		(setq v ret))
+	      nil)
+	    'ideographic-structure)
+
+	   (some-in-character-feature
+	    (lambda (c v)
+	      (unless (equal (setq ret (ideographic-structure-compact v)) v)
+		(format t "~a (~a) : Compact [apparent,3rd]~%~T~T   ~a~%~T~T-> ~a~%"
+			(char-id-string c) c
+			v ret)
+		(put-char-attribute c 'ideographic-structure@apparent ret)
+		(setq v ret))
+	      nil)
+	    'ideographic-structure@apparent)
+
+	   (some-in-character-feature
+	    (lambda (c v)
+	      (unless (equal (setq ret (ideographic-structure-compact v)) v)
+		(format
+		 t "~a (~a) : Compact [apparent/leftmost,3rd]~%~T~T   ~a~%~T~T-> ~a~%"
+		 (char-id-string c) c
+		 v ret)
+		(put-char-attribute c 'ideographic-structure@apparent/leftmost ret)
+		(setq v ret))
+	      nil)
+	    'ideographic-structure@apparent/leftmost)
+
+	   (some-in-character-feature
+	    (lambda (c v)
+	      (unless (equal (setq ret (ideographic-structure-compact v)) v)
+		(format
+		 t "~a (~a) : Compact [apparent/rightmost,3rd]~%~T~T   ~a~%~T~T-> ~a~%"
+		 (char-id-string c) c
+		 v ret)
+		(put-char-attribute c 'ideographic-structure@apparent/rightmost ret)
+		(setq v ret))
+	      nil)
+	    'ideographic-structure@apparent/rightmost)
+
+	   (ids-update-index)
 	   )))
 
       (load (merge-pathnames "data/chise-bibliography.lisp"
