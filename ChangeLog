@@ -1,3 +1,8 @@
+2025-04-01  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* loadup-char-defs.lisp (setup): Add code for 3rd stage compaction
+	of ideographic-structures.
+
 2025-03-31  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* Sync up with the current snapshot [2025-03-29 19:30].
