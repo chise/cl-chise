@@ -184,7 +184,10 @@
     (when (setq ret (get-char-attribute component "ideographic-structure@apparent/leftmost"))
       (ids-index-store-structure product ret))
     (when (setq ret (get-char-attribute component "ideographic-structure@apparent/rightmost"))
-      (ids-index-store-structure product ret))))
+      (ids-index-store-structure product ret))
+    (when (setq ret (get-char-attribute component "ideographic-structure@apparent/outermost"))
+      (ids-index-store-structure product ret))
+    ))
 
 (defun ids-index-store-structure (product structure)
   (setq product (normalize-as-char product))
@@ -201,6 +204,8 @@
 	    ((setq ret (assoc 'ideographic-structure@apparent/leftmost cell))
 	     (ids-index-store-structure product (cdr ret)))
 	    ((setq ret (assoc 'ideographic-structure@apparent/rightmost cell))
+	     (ids-index-store-structure product (cdr ret)))
+	    ((setq ret (assoc 'ideographic-structure@apparent/outermost cell))
 	     (ids-index-store-structure product (cdr ret)))
 	    ((setq ret (find-char cell))
 	     (ids-index-store-char product ret))
@@ -234,6 +239,13 @@
      (ids-index-store-structure c v)
      nil)
    "ideographic-structure@apparent/rightmost")
+  (format s "done.~%")
+  (format s "Updating index for `ideographic-structure@apparent/outermost'...")
+  (some-in-character-feature
+   (lambda (c v)
+     (ids-index-store-structure c v)
+     nil)
+   "ideographic-structure@apparent/outermost")
   (format s "done.~%")
   (format s "Copying UCS products into =>iwds-1 abstract characters...")
   (some-in-character-feature
@@ -451,7 +463,13 @@
 		    (setq str
 			  (get-char-attribute
 			   pc 'ideographic-structure@apparent/rightmost))
-		    (ideographic-structure-equal str structure)))
+		    (ideographic-structure-equal str structure))
+		   (and
+		    (setq str
+			  (get-char-attribute
+			   pc 'ideographic-structure@apparent/outermost))
+		    (ideographic-structure-equal str structure))
+		   )
 	   (funcall func (normalize-as-char pc))
 	   ))
        )
@@ -459,7 +477,9 @@
        (dolist (feat '("ideographic-structure"
 		       "ideographic-structure@apparent"
 		       "ideographic-structure@apparent/leftmost"
-		       "ideographic-structure@apparent/rightmost"))
+		       "ideographic-structure@apparent/rightmost"
+		       "ideographic-structure@apparent/outermost"
+		       ))
 	 (some-in-character-feature
 	  (lambda (pc str)
 	    (when (ideographic-structure-equal str structure)
@@ -671,6 +691,12 @@ COMPONENT can be a character or char-spec."
 		       (and (setq str
 				  (get-char-attribute
 				   pc 'ideographic-structure@apparent/rightmost))
+			    (ideographic-char-match-component
+		       	     (list (cons 'ideographic-structure str))
+			     comp-spec))
+		       (and (setq str
+				  (get-char-attribute
+				   pc 'ideographic-structure@apparent/outermost))
 			    (ideographic-char-match-component
 		       	     (list (cons 'ideographic-structure str))
 			     comp-spec))
@@ -1698,13 +1724,17 @@ COMPONENT can be a character or char-spec."
 			 (or (get-char-attribute enc 'ideographic-structure)
 			     (get-char-attribute enc 'ideographic-structure@apparent)
 			     (get-char-attribute enc 'ideographic-structure@apparent/leftmost)
-			     (get-char-attribute enc 'ideographic-structure@apparent/rightmost))
+			     (get-char-attribute enc 'ideographic-structure@apparent/rightmost)
+			     (get-char-attribute enc 'ideographic-structure@apparent/outermost)
+			     )
 			 )
 			((consp enc)
 			 (or (cdr (assoc 'ideographic-structure enc))
 			     (cdr (assoc 'ideographic-structure@apparent enc))
 			     (cdr (assoc 'ideographic-structure@apparent/leftmost enc))
-			     (cdr (assoc 'ideographic-structure@apparent/rightmost enc)))
+			     (cdr (assoc 'ideographic-structure@apparent/rightmost enc))
+			     (cdr (assoc 'ideographic-structure@apparent/outermost enc))
+			     )
 			 )))
         ;; (setq enc-str
         ;;       (mapcar (lambda (cell)
@@ -1780,6 +1810,102 @@ COMPONENT can be a character or char-spec."
 	    )
 	   ))))
       )
+     ((eq (get-char-attribute (car structure) '=ucs-itaiji-002) #x2FF1)
+      (setq enc (nth 1 structure)
+	    enc2 (nth 2 structure))
+      (when (and
+	     (setq enc-str
+		   (cond ((characterp enc)
+			  (get-char-attribute enc 'ideographic-structure)
+			  )
+			 ((consp enc)
+			  (cdr (assoc 'ideographic-structure enc))
+			  )))
+	     (setq enc2-str
+		   (cond ((characterp enc2)
+			  (get-char-attribute enc2 'ideographic-structure)
+			  )
+			 ((consp enc2)
+			  (cdr (assoc 'ideographic-structure enc2))
+			  ))))
+	(cond
+	 ((and (eq (car enc-str) #\⿰)
+	       (eq (car enc2-str) #\⿱))
+	  (unless conversion-only
+	    (setq f-res (ids-find-chars-including-ids enc-str)
+		  f-res2 (ids-find-chars-including-ids enc2-str))
+	    (if (< (length f-res)(length f-res2))
+		(setq f-res f-res2
+		      enc enc2)))
+	  (setq new-str (list #\⿲
+			      (nth 1 enc-str)
+			      (nth 1 enc2-str)
+			      (nth 2 enc-str)))
+	  (setq new-str-c
+		(if (setq ret (ideographic-structure-find-chars new-str))
+		    (car ret)
+		  (list (cons 'ideographic-structure new-str))))
+	  (if conversion-only
+	      (list #\⿱ new-str-c (nth 2 enc2-str))
+	      (progn
+		(setq a-res (ids-find-chars-including-ids new-str))
+		(list enc
+		      f-res
+		      new-str-c
+		      a-res
+		      (list #\⿱ new-str-c (nth 2 enc-str))
+		      1011)))
+	  )
+	 ))
+      )
+     ((eq (get-char-attribute (car structure) '=ucs-itaiji-001) #x2FF1)
+      (setq enc (nth 1 structure)
+	    enc2 (nth 2 structure))
+      (when (and
+	     (setq enc-str
+		   (cond ((characterp enc)
+			  (get-char-attribute enc 'ideographic-structure)
+			  )
+			 ((consp enc)
+			  (cdr (assoc 'ideographic-structure enc))
+			  )))
+	     (setq enc2-str
+		   (cond ((characterp enc2)
+			  (get-char-attribute enc2 'ideographic-structure)
+			  )
+			 ((consp enc2)
+			  (cdr (assoc 'ideographic-structure enc2))
+			  ))))
+	(cond
+	 ((and (eq (car enc-str) #\⿱)
+	       (eq (car enc2-str) #\⿰))
+	  (unless conversion-only
+	    (setq f-res (ids-find-chars-including-ids enc-str)
+		  f-res2 (ids-find-chars-including-ids enc2-str))
+	    (if (< (length f-res)(length f-res2))
+		(setq f-res f-res2
+		      enc enc2)))
+	  (setq new-str (list #\⿲
+			      (nth 1 enc2-str)
+			      (nth 2 enc-str)
+			      (nth 2 enc2-str)))
+	  (setq new-str-c
+		(if (setq ret (ideographic-structure-find-chars new-str))
+		    (car ret)
+		  (list (cons 'ideographic-structure new-str))))
+	  (if conversion-only
+	      (list #\⿱ (nth 1 enc-str) new-str-c)
+	      (progn
+		(setq a-res (ids-find-chars-including-ids new-str))
+		(list enc
+		      f-res
+		      new-str-c
+		      a-res
+		      (list #\⿱ (nth 1 enc-str) new-str-c)
+		      1141)))
+	  )
+	 ))
+      )
      ((eq (car structure) #\⿻)
       (setq enc (nth 1 structure))
       (when (setq enc-str
@@ -1816,7 +1942,9 @@ COMPONENT can be a character or char-spec."
     (dolist (feat '(ideographic-structure
 		    ideographic-structure@apparent
 		    ideographic-structure@apparent/leftmost
-		    ideographic-structure@apparent/rightmost))
+		    ideographic-structure@apparent/rightmost
+		    ideographic-structure@apparent/outermost
+		    ))
       (let (code ret)
 	(some-in-character-feature
 	 (lambda (c v)
