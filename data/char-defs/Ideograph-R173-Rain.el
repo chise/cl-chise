@@ -2778,7 +2778,7 @@
 (define-char
   '((<-denotational@usage
      ((==>ucs@bucs	  . #x9707)	; &BUCS+9707;
-      (==>daijiten	. 13036)	; &A2-DJT-13036;
+      (==>daijiten	. 13036)	; &BUCS+9707;
       ))
     (ideographic-radical . 173)	; ⾬
     (ideographic-structure
@@ -4317,6 +4317,29 @@
      ((==ucs@iso		. #x290F0)	; 𩃰
       (==cbeta		. 6416)		; &I-CB06416;
       ))
+    ))
+(define-char
+  '((ideographic-radical . 173)	; ⾬
+    (ideographic-strokes . 8)
+    (total-strokes	 . 16)
+    (ideographic-structure
+     ?⿱
+     ?雨
+     ?𡬠)
+    (=ucs		. #x32281)	; 𲊁
+    ))
+(define-char
+  '((ideographic-radical . 173)	; ⾬
+    (ideographic-strokes . 8)
+    (total-strokes	 . 16)
+    (<-denotational
+     ((=ucs		. #x32281)	; 𲊁
+      ))
+    (ideographic-structure
+     ?⿱
+     ?雨
+     ?&hanaJU+21B20;)
+    (=ucs@JP/hanazono	. #x32281)	; 𲊁
     ))
 (define-char
   '((ideographic-radical . 173)	; ⾬

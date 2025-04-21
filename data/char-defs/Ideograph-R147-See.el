@@ -6783,20 +6783,43 @@
   '((ideographic-radical . 147)	; ⾒
     (ideographic-strokes . 19)
     (total-strokes	 . 26)
-    (=ucs		. #x4695)	; 䚕
-    (->subsumptive
-     ((=daikanwa	  . 34996)	; &M-34996;
-      )
-     ((=ucs@unicode	  . #x4695)	; &UU+4695;
-      )
-     ((=>ucs*		  . #x278AE)	; 𧢮
-      (=ucs		  . #x2F9CB)	; 𧢮
-      (=cns11643-5	  . #x7A38)	; &I-C5-7A38; [90-24]
-      (<-same@ucs
-       ((=ucs		    . #x278AE)	; 𧢮
-	))
-      (<-same@ucs*note	  "maybe mapping bug")
+    (ideographic-structure
+     ?⿰
+     ?麗
+     ((=>ucs@iwds-1	. #x898B)	; &A-IWDSU+898B;
       ))
+    (=ucs		. #x4695)	; 䚕
+    ))
+(define-char
+  '((ideographic-radical . 147)	; ⾒
+    (ideographic-strokes . 19)
+    (total-strokes	 . 26)
+    (<-denotational
+     ((=ucs		. #x4695)	; 䚕
+      ))
+    (ideographic-structure
+     ?⿰
+     ((=ucs@unicode	. #x9E97)	; &MJ029807;
+      )
+     ?見)
+    (=ucs@unicode	. #x4695)	; 䚕
+    (=daikanwa	  . 34996)	; &M-34996;
+    (=ucs@unicode	  . #x4695)	; &UU+4695;
+    (=ucs		  . #x2F9CB)	; 𧢮
+    (=cns11643-5	  . #x7A38)	; &I-C5-7A38; [90-24]
+    (=>ucs*		  . #x278AE)	; 𧢮
+    (<-same@ucs
+     ((=ucs		    . #x278AE)	; 𧢮
+      ))
+    (<-same@ucs*note	  "maybe mapping bug")
+    (->subsumptive
+     ((==daikanwa	  . 34996)	; &M-34996;
+      )
+     ((==ucs@unicode	  . #x4695)	; &UU+4695;
+      )
+     ((==cns11643-5	  . #x7A38)	; &I-C5-7A38; [90-24]
+      ))
+    (=cns11643-5	  . #x7A38)	; &I-C5-7A38; [90-24]
     ))
 (define-char
   '((ideographic-radical . 147)	; ⾒

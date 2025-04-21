@@ -799,7 +799,7 @@
     (=daikanwa		. 45675)	; &I-M-45675;
     (=daijiten		. 14041)	; &I-DJT-14041;
     (->subsumptive
-     ((==daikanwa	  . 45675)	; &g2-M-45675;
+     ((==daikanwa	  . 45675)	; &g2-GT-61443;
       (==gt		  . 61443)	; &g2-GT-61443;
       )
      ((==daijiten		. 14041)	; &I-DJT-14041;
@@ -1029,6 +1029,35 @@
        ((===ucs@unicode	    . #x4C1B)	; &R-UU+4C1B;
 	))
       ))
+    ))
+(define-char
+  '((ideographic-radical . 193)	; ⿀
+    (ideographic-structure
+     ?⿱
+     ?𠮛
+     ?鬲)
+    (=>ucs-itaiji-007	. #x9B32)	; &U-i007+9B32;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-007	. #x9B32)	; &U-i007+9B32;
+      ))
+    (ideographic-radical . 193)	; ⿀
+    (ideographic-strokes . 5)
+    (total-strokes	 . 15)
+    (ideographic-structure@apparent
+     ?⿱
+     ((=gt-k		. 02455)	; &GT-K02455;
+      )
+     ((=ucs-itaiji-001	. #x5705)	; &U-i001+5705;
+      ))
+    (ideographic-structure
+     ?⿱
+     ((=gt-k		. 01370)	; &GT-K01370;
+      )
+     ((=ucs@jis		. #x9B32)	; &AJ1-07300;
+      ))
+    (=ucs-itaiji-007	. #x9B32)	; &U-i007+9B32;
     ))
 (define-char
   '((ideographic-radical . 193)	; ⿀
@@ -1998,13 +2027,13 @@
      ((=ucs@unicode	  . #x3687)	; &MJ000557;
       (=mj		  . 000557)	; &MJ000557;
       ))
-    (=ucs@unicode	. #x9B37)	; &UU+9B37;
+    (=ucs@unicode	. #x9B37)	; &DJT-14053;
     (=ucs@JP/hanazono	. nil)
-    (=daijiten		. 14053)	; &I-DJT-14053;
+    (=daijiten		. 14053)	; &DJT-14053;
     (->subsumptive
-     ((==ucs@unicode	  . #x9B37)	; &g2-UU+9B37;
+     ((==ucs@unicode	  . #x9B37)	; &g2-DJT-14053;
       (==ucs@JP/hanazono  . nil)
-      (==daijiten	. 14053)	; &I-DJT-14053;
+      (==daijiten	. 14053)	; &DJT-14053;
       ))
     ))
 (define-char
@@ -2268,10 +2297,10 @@
     (ideographic-radical . 193)	; ⿀
     (ideographic-strokes . 10)
     (total-strokes	 . 20)
-    (=ucs@iso		. #x29C4A)	; &G-IU+29C4A;
-    (=ucs@iso		  . #x29C4A)	; &U-00029C4A;
+    (=ucs@iso		. #x29C4A)	; &C7-5222;
+    (=ucs@iso		  . #x29C4A)	; &C7-5222;
     (->subsumptive
-     ((==ucs@iso		  . #x29C4A)	; &U-00029C4A;
+     ((==ucs@iso		  . #x29C4A)	; &C7-5222;
       )
      ((==cns11643-7	  . #x5222)	; &C7-5222; [50-02]
       ))

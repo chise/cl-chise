@@ -2338,6 +2338,24 @@
      ((=ucs@unicode	  . #x5EFE)	; &MJ011120;
       (=mj		  . 011120)	; &MJ011120;
       ))
+    (=ucs-var-003	. #x8201)	; &U-v003+8201;
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x8201)	; 舁
+      ))
+    (ideographic-radical . 134)	; ⾅
+    (ideographic-strokes . 3)
+    (total-strokes	 . 10)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x26951)	; 𦥑
+      )
+     ((=ucs@unicode	  . #x5EFE)	; &MJ011120;
+      (=mj		  . 011120)	; &MJ011120;
+      ))
     (=ucs-var-002	. #x8201)	; &U-v002+8201;
     (->subsumptive
      ((==ucs-var-002	  . #x8201)	; &g2-U-v002+8201;

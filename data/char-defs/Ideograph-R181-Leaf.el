@@ -4777,6 +4777,84 @@
     ))
 (define-char
   '((ideographic-radical . 181)	; ⾴
+    (ideographic-structure
+     ((=ucs-itaiji-001	. #x2FFB)	; &U-i001+2FFB;
+      )
+     ((=>ucs@iwds-1	. #x9801)	; &A-IWDSU+9801;
+      )
+     ((=>ucs-itaiji-001	. #x27FC6)	; &A-U-i001+27FC6;
+      ))
+    (=>ucs-itaiji-005	. #x5912)	; &U-i005+5912;
+    (=>ucs-itaiji-006	. #x5912)	; &U-i006+5912;
+    (=>ucs-itaiji-007	. #x5912)	; &U-i007+5912;
+    (=>ucs-itaiji-008	. #x5912)	; &U-i008+5912;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-005	. #x5912)	; &U-i005+5912;
+      ))
+    (ideographic-radical . 181)	; ⾴
+    (ideographic-strokes . 6)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ((=ucs-itaiji-001	. #x2FFB)	; &U-i001+2FFB;
+      )
+     ((=ucs		. #x2944B)	; 𩑋
+      )
+     ((=ucs-itaiji-001	. #x27FC6)	; &U-i001+27FC6;
+      ))
+    (=ucs-itaiji-005	. #x5912)	; &U-i005+5912;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-005	. #x5912)	; &U-i005+5912;
+      ))
+    (ideographic-radical . 181)	; ⾴
+    (ideographic-strokes . 6)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ((=ucs-itaiji-001	. #x2FFB)	; &U-i001+2FFB;
+      )
+     ((=ucs		. #x9801)	; 頁
+      )
+     ((=ucs-itaiji-001	. #x27FC6)	; &U-i001+27FC6;
+      ))
+    (=ucs-itaiji-006	. #x5912)	; &U-i006+5912;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-005	. #x5912)	; &U-i005+5912;
+      ))
+    (ideographic-radical . 181)	; ⾴
+    (ideographic-strokes . 6)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ((=ucs-itaiji-001	. #x2FFB)	; &U-i001+2FFB;
+      )
+     ((=ucs		. #x9801)	; 頁
+      )
+     ((=ucs-itaiji-002	. #x27FC6)	; &U-i002+27FC6;
+      ))
+    (=ucs-itaiji-007	. #x5912)	; &U-i007+5912;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-005	. #x5912)	; &U-i005+5912;
+      ))
+    (ideographic-radical . 181)	; ⾴
+    (ideographic-strokes . 5)
+    (total-strokes	 . 14)
+    (ideographic-structure
+     ((=ucs-itaiji-001	. #x2FFB)	; &U-i001+2FFB;
+      )
+     ((=ucs		. #x2944B)	; 𩑋
+      )
+     ((=ucs-itaiji-003	. #x27FC6)	; &U-i003+27FC6;
+      ))
+    (=ucs-itaiji-008	. #x5912)	; &U-i008+5912;
+    ))
+(define-char
+  '((ideographic-radical . 181)	; ⾴
     (ideographic-strokes . 6)
     (total-strokes	 . 15)
     (ideographic-structure

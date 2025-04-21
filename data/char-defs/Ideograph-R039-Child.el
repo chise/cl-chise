@@ -3818,8 +3818,8 @@
      ((=cns11643-1	  . #x577B)	; &GT-40387; [55-91]
       (=daikanwa	  . 30911)	; &I-M-30911;
       )
-     ((=ucs		  . #x2F90B)	; 滋
-      (=daikanwa	  . 18021)	; &I-M-18021;
+     ((=mj		. 015745)	; &MJ015745;
+      (=daikanwa	  . 18021)	; &MJ015745;
       ))
     (<-interchangeable$_1*sources
      shuowen-tongxundingsheng daikanwa)

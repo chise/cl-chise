@@ -26835,6 +26835,29 @@
     ))
 (define-char
   '((ideographic-radical . 130)	; ⾁
+    (ideographic-structure
+     ?⿰
+     ((=>ucs@component	. #x6708)	; &A-compU+6708;
+      )
+     ?𦰩)
+    (=ucs		. #x267EB)	; 𦟫
+    ))
+(define-char
+  '((ideographic-radical . 130)	; ⾁
+    (ideographic-structure
+     ?⿰
+     ?⺼
+     ((=mj		. 057282)	; &MJ057282;
+      ))
+    (<-denotational
+     ((=ucs		. #x267EB)	; 𦟫
+      ))
+    (ideographic-strokes . 11)
+    (total-strokes	 . 15)
+    (=ucs@iso		. #x267EB)	; 𦟫
+    ))
+(define-char
+  '((ideographic-radical . 130)	; ⾁
     (ideographic-strokes . 11)
     (total-strokes	 . 15)
     (ideographic-structure

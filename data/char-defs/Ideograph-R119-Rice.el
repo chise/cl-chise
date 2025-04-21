@@ -349,6 +349,35 @@
     (ideographic-strokes . 2)
     (total-strokes	 . 8)
     (ideographic-structure
+     ?⿱
+     ?米
+     ((=>ucs@iwds-1	. #x4EBA)	; &A-IWDSU+4EBA;
+      ))
+    (=ucs		. #x25E2A)	; 𥸪
+    ))
+(define-char
+  '((ideographic-radical . 119)	; ⽶
+    (ideographic-strokes . 2)
+    (total-strokes	 . 8)
+    (ideographic-structure
+     ?⿱
+     ?米
+     ?人)
+    (<-denotational
+     ((=ucs		. #x25E2A)	; 𥸪
+      ))
+    (=ucs@iso		. #x25E2A)	; 𥸪
+    (=daikanwa		. 26838)	; &M-26838;
+    (->subsumptive
+     ((==ucs@iso		. #x25E2A)	; 𥸪
+      (==daikanwa		. 26838)	; &M-26838;
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 119)	; ⽶
+    (ideographic-strokes . 2)
+    (total-strokes	 . 8)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER FULL SURROUND")
       (=ucs		  . #x2FF4)	; ⿴
       )
@@ -10532,20 +10561,51 @@
   '((ideographic-radical . 119)	; ⽶
     (ideographic-strokes . 12)
     (total-strokes	 . 18)
+    (ideographic-structure
+     ?⿰
+     ?米
+     ?朁)
     (=ucs		. #x7CE3)	; 糣
+    ))
+(define-char
+  '((ideographic-radical . 119)	; ⽶
+    (ideographic-strokes . 12)
+    (total-strokes	 . 18)
+    (<-denotational
+     ((=ucs		. #x7CE3)	; 糣
+      ))
+    (ideographic-structure
+     ?⿰
+     ?米
+     ((=ucs@jis		. #x6701)	; &MJ013508;
+      ))
+    (=ucs		  . #x2F969)	; 糣
+    (=daikanwa	    . 27119)	; &M-27119;
+    (=cns11643-7	    . #x4144)	; &C7-4144; [33-36]
     (->subsumptive
-     ((=>ucs*		  . #x7CE3)	; 糣
-      (=ucs		  . #x2F969)	; 糣
-      (->subsumptive
-       ((=daikanwa	    . 27119)	; &M-27119;
-	)
-       ((=cns11643-7	    . #x4144)	; &C7-4144; [33-36]
-	)
-       ((=ucs@iso	    . #x2F969)	; &U-0002F969;
-	))
+     ((==daikanwa	    . 27119)	; &M-27119;
       )
-     ((=ucs@unicode	  . #x7CE3)	; &C3-5855;
-      (=cns11643-3	  . #x5855)	; &C3-5855; [56-53]
+     ((==cns11643-7	    . #x4144)	; &C7-4144; [33-36]
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 119)	; ⽶
+    (ideographic-strokes . 12)
+    (total-strokes	 . 18)
+    (<-denotational
+     ((=ucs		. #x7CE3)	; 糣
+      ))
+    (ideographic-structure
+     ?⿰
+     ?米
+     ?&C2-3C4C;)
+    (=ucs@unicode	  . #x7CE3)	; &C3-5855;
+    (=ucs@JP/hanazono . nil)
+    (=cns11643-3	  . #x5855)	; &C3-5855; [56-53]
+    (->subsumptive
+     ((==ucs@unicode	  . #x7CE3)	; &C3-5855;
+      (==ucs@JP/hanazono . nil)
+      (==cns11643-3	  . #x5855)	; &C3-5855; [56-53]
       ))
     ))
 (define-char

@@ -564,7 +564,7 @@
     (=gb2312		. #x376B)	; &G0-376B; [23-75]
     (<-simplified@CN
      ((=ucs@unicode	  . #x99AE)	; &AJ1-07231;
-      (=adobe-japan1-0	  . 07231)	; &I-AJ1-07231;
+      (=adobe-japan1-0	  . 07231)	; &AJ1-07231;
       (=gb12345		  . #x376B)	; &AJ1-07231; [23-75]
       ))
     (->subsumptive
@@ -4650,7 +4650,7 @@
     (=cbeta		. 02712)	; &I-CB02712;
     (<-vulgar
      ((=ucs@unicode	  . #x99AE)	; &AJ1-07231;
-      (=adobe-japan1-0	  . 07231)	; &I-AJ1-07231;
+      (=adobe-japan1-0	  . 07231)	; &AJ1-07231;
       (=daikanwa	  . 44579)	; &I-M-44579;
       ))
     (<-vulgar*sources
@@ -7099,7 +7099,7 @@
       (=ucs		  . #x2FF1)	; ⿱
       )
      ((=ucs@unicode	  . #x99AE)	; &AJ1-07231;
-      (=adobe-japan1-0	  . 07231)	; &I-AJ1-07231;
+      (=adobe-japan1-0	  . 07231)	; &AJ1-07231;
       )
      ((=ucs@unicode	  . #x5C11)	; &AJ1-02455;
       (=adobe-japan1-0	  . 02455)	; &AJ1-02455;

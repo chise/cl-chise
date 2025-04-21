@@ -1982,6 +1982,38 @@
     ))
 (define-char
   '((ideographic-radical . 63)	; ⼾
+    (ideographic-strokes . 4)
+    (total-strokes	 . 8)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
+      (=ucs		  . #x2FF8)	; ⿸
+      )
+     ((=>ucs@iwds-1	  . #x6236)	; &A-IWDSU+6236;
+      (=>iwds-1		  .  0007)	; &A-IWDSU+6236;
+      )
+     ((=ucs		  . #x706B)	; 火
+      ))
+    (=>ucs-itaiji-001	. #x22A42)	; &A-U-i001+22A42;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-001	  . #x22A42)	; &A-U-i001+22A42;
+      ))
+    (ideographic-radical . 63)	; ⼾
+    (ideographic-strokes . 4)
+    (total-strokes	 . 8)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
+      (=ucs		  . #x2FF8)	; ⿸
+      )
+     ((=ucs		  . #x6236)	; 戶
+      )
+     ((=ucs		  . #x706B)	; 火
+      ))
+    (=ucs-itaiji-001	. #x22A42)	; &U-i001+22A42;
+    ))
+(define-char
+  '((ideographic-radical . 63)	; ⼾
     (ideographic-strokes . 5)
     (total-strokes	 . 9)
     (=ucs		. #x39C1)	; 㧁
@@ -2372,6 +2404,43 @@
     (=cns11643-6	. #x3145)	; &I-C6-3145; [17-37]
     (=daikanwa		. 11732)	; &I-M-11732;
     (=cbeta		. 01956)	; &I-CB01956;
+    ))
+(define-char
+  '((ideographic-radical . 63)	; ⼾
+    (ideographic-strokes . 5)
+    (total-strokes	 . 9)
+    (sound@ja/on	"rei")
+    (=ucs 		. #x22A42)	; 𢩂
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x22A42)	; 𢩂
+      ))
+    (ideographic-radical . 63)	; ⼾
+    (ideographic-strokes . 5)
+    (total-strokes	 . 9)
+    (=mj		. 036673)	; &MJ036673;
+    (=koseki		. 132220)	; &MJ036673;
+    (=daikanwa 		. 11733)	; &I-M-11733;
+    (->subsumptive
+     ((==mj		  . 036673)	; &g2-MJ036673;
+      (==koseki		  . 132220)	; &g2-MJ036673;
+      (==daikanwa	  . 11733)	; &g2-MJ036673;
+      (->subsumptive
+       ((===daikanwa	    . 11733)	; &R-M-11733;
+	)
+       ((===mj		    . 036673)	; &R-MJ036673;
+	))
+      ))
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x22A42)	; 𢩂
+      ))
+    (ideographic-radical . 63)	; ⼾
+    (ideographic-strokes . 5)
+    (total-strokes	 . 9)
+    (=ucs@iso 		. #x22A42)	; &U-00022A42;
     ))
 (define-char
   '((ideographic-radical . 63)	; ⼾

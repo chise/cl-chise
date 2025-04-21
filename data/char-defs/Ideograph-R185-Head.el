@@ -246,6 +246,37 @@
     ))
 (define-char
   '((ideographic-radical . 185)	; ⾸
+    (ideographic-strokes . 2)
+    (total-strokes	 . 11)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ?首
+     ((=>ucs@component	  . #x513F)	; &A-compU+513F;
+      (=>iwds-1		  .  0222)	; &A-compU+513F;
+      ))
+    (=>ucs-itaiji-001	. #x2944B)	; &U-i001+2944B;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-001	. #x2944B)	; &U-i001+2944B;
+      ))
+    (ideographic-radical . 185)	; ⾸
+    (ideographic-strokes . 2)
+    (total-strokes	 . 11)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs@unicode	. #x9996)	; &AJ1-02335;
+      )
+     ((=>ucs@iwds-1	. #x513F)	; &A-IWDSU+513F;
+      ))
+    (=ucs-itaiji-001	. #x2944B)	; &U-i001+2944B;
+    ))
+(define-char
+  '((ideographic-radical . 185)	; ⾸
     (ideographic-strokes . 4)
     (total-strokes	 . 13)
     (ideographic-structure
@@ -686,6 +717,33 @@
        ((===ucs@unicode	    . #x9998)	; &R-UU+9998;
 	))
       ))
+    ))
+(define-char
+  '((ideographic-radical . 185)	; ⾸
+    (ideographic-structure
+     ((=ucs-itaiji-001	. #x2FFB)	; &U-i001+2FFB;
+      )
+     ((=>ucs-itaiji-001	. #x2944B)	; &A-U-i001+2944B;
+      )
+     ((=>ucs-itaiji-001	. #x27FC6)	; &A-U-i001+27FC6;
+      ))
+    (=>ucs-itaiji-003	. #x5914)	; &U-i003+5914;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-003	. #x5914)	; &U-i003+5914;
+      ))
+    (ideographic-radical . 185)	; ⾸
+    (ideographic-strokes . 8)
+    (total-strokes	 . 17)
+    (ideographic-structure
+     ((=ucs-itaiji-001	. #x2FFB)	; &U-i001+2FFB;
+      )
+     ((=ucs-itaiji-001	. #x2944B)	; &U-i001+2944B;
+      )
+     ((=ucs-itaiji-001	. #x27FC6)	; &U-i001+27FC6;
+      ))
+    (=ucs-itaiji-003	. #x5914)	; &U-i003+5914;
     ))
 (define-char
   '((ideographic-radical . 185)	; ⾸

@@ -311,11 +311,47 @@
     ))
 (define-char
   '((ideographic-radical . 98)	; ⽡
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=>ucs@component	  . #x5F00)	; &A-compU+5F00;
+      (=>iwds-1		  .  0180)	; &A-compU+5F00;
+      )
+     ((=ucs		  . #x74E6)	; 瓦
+      ))
+    (=ucs		. #x3F1B)	; 㼛
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x3F1B)	; 㼛
+      ))
+    (ideographic-radical . 98)	; ⽡
     (ideographic-strokes . 4)
     (total-strokes	 . 9)
-    (=ucs		. #x3F1B)	; 㼛
-    (=cns11643-4	. #x2A3D)	; &I-C4-2A3D; [10-29]
-    (=daikanwa		. 21459)	; &I-M-21459;
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5F00)	; 开
+      )
+     ((=ucs		  . #x74E6)	; 瓦
+      ))
+    (=ucs@unicode	. #x3F1B)	; &C4-2A3D;
+    (=cns11643-4	. #x2A3D)	; &C4-2A3D; [10-29]
+    (=daikanwa 		. 21459)	; &I-M-21459;
+    (->subsumptive
+     ((==ucs@unicode	  . #x3F1B)	; &g2-M-21459;
+      (==cns11643-4	  . #x2A3D)	; &g2-M-21459; [10-29]
+      (==daikanwa	  . 21459)	; &g2-M-21459;
+      (->subsumptive
+       ((===daikanwa	    . 21459)	; &R-M-21459;
+	)
+       ((===cns11643-4	    . #x2A3D)	; &R-C4-2A3D; [10-29]
+	)
+       ((===ucs@unicode	    . #x3F1B)	; &R-UU+3F1B;
+	))
+      ))
     ))
 (define-char
   '((ideographic-radical . 98)	; ⽡
@@ -1039,22 +1075,43 @@
     (=daikanwa		. 21496)	; &I-M-21496;
     ))
 (define-char
-  '((=>ucs*		. #x3F1B)	; 㼛
+  '((<-denotational
+     ((=ucs		  . #x3F1B)	; 㼛
+      ))
+    (=>ucs*		. #x3F1B)	; 㼛
     (ideographic-radical . 98)	; ⽡
     (ideographic-strokes . 6)
     (total-strokes	 . 11)
-    (=ucs		. #x2F933)	; 㼛
-    (->subsumptive
-     ((=daikanwa	  . 21497)	; &M-21497;
-      (<-original
-       ((=ucs		    . #x3F1B)	; 㼛
-	(=daikanwa	    . 21459)	; &I-M-21459;
-	))
-      (<-original*sources
-       kangxi daikanwa)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs@iso		  . #x2F933)	; &C6-4221;
-      (=cns11643-6	  . #x4221)	; &C6-4221; [34-01]
+     ((=ucs		  . #x5E75)	; 幵
+      )
+     ((=ucs		  . #x74E6)	; 瓦
+      ))
+    (=ucs		. #x2F933)	; 㼛
+    (=cns11643-6	. #x4221)	; &I-C6-4221; [34-01]
+    (=daikanwa 		. 21497)	; &I-M-21497;
+    (<-original
+     ((=ucs@unicode	  . #x3F1B)	; &C4-2A3D;
+      (=cns11643-4	  . #x2A3D)	; &C4-2A3D; [10-29]
+      (=daikanwa	  . 21459)	; &I-M-21459;
+      ))
+    (<-original*sources
+     kangxi daikanwa)
+    (->subsumptive
+     ((=>>daikanwa	  . 21497)	; &G-M-21497;
+      (->subsumptive
+       ((==daikanwa	    . 21497)	; &g2-M-21497;
+	))
+      )
+     ((=>>ucs@cns	  . #x2F933)	; &G-CU+2F933;
+      (=>>cns11643-6	  . #x4221)	; &G-CU+2F933; [34-01]
+      (->subsumptive
+       ((==ucs@cns	    . #x2F933)	; &g2-CU+2F933;
+	(==cns11643-6	    . #x4221)	; &g2-CU+2F933; [34-01]
+	))
       ))
     ))
 (define-char

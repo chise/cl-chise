@@ -1777,6 +1777,29 @@
   '((ideographic-radical . 121)	; ⽸
     (ideographic-strokes . 9)
     (ideographic-structure
+     ?⿰
+     ((=>ucs@iwds-1	. #x7F36)	; &A-IWDSU+7F36;
+      )
+     ?枼)
+    (=ucs		. #x26243)	; 𦉃
+    ))
+(define-char
+  '((ideographic-radical . 121)	; ⽸
+    (ideographic-strokes . 9)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ?⿰
+     ?缶
+     ?枼)
+    (<-denotational
+     ((=ucs		. #x26243)	; 𦉃
+      ))
+    (=ucs@iso		. #x26243)	; 𦉃
+    ))
+(define-char
+  '((ideographic-radical . 121)	; ⽸
+    (ideographic-strokes . 9)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )

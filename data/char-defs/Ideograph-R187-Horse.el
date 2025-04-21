@@ -4042,6 +4042,37 @@
     (ideographic-strokes . 6)
     (total-strokes	 . 9)
     (ideographic-structure
+     ?⿰
+     ?馬
+     ((=>ucs-itaiji-001	. #x30320)	; &A-U-i001+30320;
+      ))
+    (=ucs		. #x322F7)	; 𲋷
+    ))
+(define-char
+  '((ideographic-radical . 187)	; ⾺
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (<-denotational
+     ((=ucs		. #x322F7)	; 𲋷
+      ))
+    (ideographic-structure
+     ?⿰
+     ?馬
+     ((=big5-cdp-var-002	. #x8BB0)	; &CDP-v002-8BB0;
+      ))
+    (=ucs@JP/hanazono	. #x322F7)	; 𲋷
+    ))
+(define-char
+  '((ideographic-radical . 187)	; ⾺
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (=ucs		. #x322F8)	; 𲋸
+    ))
+(define-char
+  '((ideographic-radical . 187)	; ⾺
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )

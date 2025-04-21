@@ -326,6 +326,11 @@
      ((=>ucs@iwds-1	  . #x5179)	; &A-IWDSU+5179;
       (=>iwds-1		  .  0153)	; &A-IWDSU+5179;
       ))
+    (<-denotational@usage
+     ((ideographic-radical . 95)	; ⽞
+      (==>ucs@bucs	. #x7386)	; &BUCS+7386;
+      (==>daijiten	. 07258)	; &A2-DJT-07258;
+      ))
     (ideographic-radical . 95)	; ⽞
     (ideographic-strokes . 5)
     (total-strokes	 . 10)
@@ -364,10 +369,10 @@
     (=cns11643-1	. #x565C)	; &I-C1-565C; [54-60]
     (=big5		. #xAF59)	; &I-B-AF59;
     (=daikanwa		. 20816)	; &I-M-20816;
+    (=daijiten		. 07258)	; &I-DJT-07258;
     (=jef-china3	. #x58FC)	; &I-JC3-58FC;
     (<-interchangeable
-     ((=ucs		  . #x2F90B)	; 滋
-      (=daikanwa	  . 18021)	; &I-M-18021;
+     ((=daikanwa 	  . 18021)	; &I-M-18021;
       )
      ((=cns11643-1	  . #x577B)	; &GT-40387; [55-91]
       (=daikanwa	  . 30911)	; &I-M-30911;
@@ -395,6 +400,7 @@
       (==jis-x0212	  . #x4B51)	; &g2-JSP-4B51; [43-49]
       (==cns11643-1	  . #x565C)	; &g2-JSP-4B51; [54-60]
       (==daikanwa	  . 20816)	; &g2-JSP-4B51;
+      (==daijiten	. 07258)	; &I-DJT-07258;
       (==jef-china3	  . #x58FC)	; &g2-JSP-4B51;
       (->subsumptive
        ((===daikanwa	    . 20816)	; &R-M-20816;

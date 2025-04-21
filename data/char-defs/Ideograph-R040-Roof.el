@@ -4311,8 +4311,16 @@
       )
      ((=ucs-itaiji-002	  . #x6613)	; &U-i002+6613;
       ))
+    (sound@ja/on	"seki")
     (=ucs		. #x219E4)	; 𡧤
-    (=daikanwa 		. 07117)	; &I-M-07117;
+    (=daikanwa		. 07117)	; &I-M-07117;
+    (<-same
+     ((=ucs@unicode	  . #x5BC2)	; &AJ1-02320;
+      (=adobe-japan1-0	  . 02320)	; &AJ1-02320;
+      (=daikanwa	  . 07200)	; &I-M-07200;
+      ))
+    (<-same*sources
+     zihui-bu daikanwa)
     (->subsumptive
      ((==ucs@iso	  . #x219E4)	; &g2-M-07117;
       (==daikanwa	  . 07117)	; &g2-M-07117;
@@ -7119,6 +7127,7 @@
       (=mj		  . 015049)	; &MJ015049;
       )
      ((=ucs@jis		  . #x9011)	; &MJ025914;
+      (=ucs@ks		  . #x9011)	; &MJ025914;
       (=mj		  . 025914)	; &MJ025914;
       ))
     (<-formed$_1*sources

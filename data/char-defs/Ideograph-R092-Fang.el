@@ -195,15 +195,38 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 92)	; ⽛
+  '((<-denotational@usage
+     ((=ucs		  . #x24608)	; 𤘈
+      ))
+    (ideographic-radical . 92)	; ⽛
     (ideographic-strokes . 6)
     (total-strokes	 . 10)
-    (=ucs		. #x24608)	; 𤘈
-    (->subsumptive
-     ((=ucs@iso		  . #x24608)	; &M-19915;
-      (=daikanwa	  . 19915)	; &M-19915;
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=cns11643-6	  . #x3943)	; &C6-3943; [25-35]
+     ((=ucs		  . #x7259)	; 牙
+      )
+     ((=ucs@unicode	  . #x81FC)	; &MJ021316;
+      (=mj		  . 021316)	; &MJ021316;
+      ))
+    (=ucs@iso		. #x24608)	; &C6-3943;
+    (=cns11643-6	. #x3943)	; &I-C6-3943; [25-35]
+    (=daikanwa 		. 19915)	; &C6-3943;
+    (=daijiten		. 07068)	; &I-DJT-07068;
+    (->subsumptive
+     ((==ucs@iso	  . #x24608)	; &g2-M-19915;
+      (==daikanwa	  . 19915)	; &g2-M-19915;
+      (->subsumptive
+       ((===daikanwa	    . 19915)	; &R-M-19915;
+	)
+       ((===ucs@iso	    . #x24608)	; &R-U-00024608;
+	))
+      )
+     ((==daijiten	  . 07068)	; &g2-DJT-07068;
+      )
+     ((==ucs@cns	  . #x24608)	; &g2-CU+24608;
+      (==cns11643-6	  . #x3943)	; &g2-CU+24608; [25-35]
       ))
     ))
 (define-char
@@ -232,23 +255,45 @@
       ))
     ))
 (define-char
-  '((=>ucs*		. #x24608)	; 𤘈
+  '((<-denotational@usage
+     ((==>ucs@bucs	  . #x7259)	; &BUCS+7259;
+      ))
+    (ideographic-radical . 92)	; ⽛
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x7259)	; 牙
+      )
+     ((=>ucs@component	  . #x81FC)	; &A-compU+81FC;
+      (=>iwds-1		  .  0168)	; &A-compU+81FC;
+      ))
+    (=ucs		. #x24608)	; 𤘈
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x24608)	; 𤘈
+      ))
+    (=>ucs*		. #x24608)	; 𤘈
     (ideographic-radical . 92)	; ⽛
     (ideographic-strokes . 7)
     (total-strokes	 . 11)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x7259)	; 牙
+      )
+     ((=ucs		  . #x26951)	; 𦥑
+      ))
     (=ucs		. #x2F923)	; 𤘈
-    (<-same@ucs
+    (=cns11643-6	. #x4163)	; &I-C6-4163; [33-67]
+    (<-denotational
      ((=ucs		  . #x24608)	; 𤘈
       ))
-    (<-unknown
-     ((=ucs@iso		  . #x24608)	; &M-19915;
-      (=daikanwa	  . 19915)	; &M-19915;
-      ))
     (->subsumptive
-     ((=ucs@cns		  . #x2F923)	; &C6-4163;
-      (=cns11643-6	  . #x4163)	; &C6-4163; [33-67]
-      )
-     ((=ucs@iso		  . #x2F923)	; &U-0002F923;
+     ((==ucs@cns	  . #x2F923)	; &g2-CU+2F923;
+      (==cns11643-6	  . #x4163)	; &g2-CU+2F923; [33-67]
       ))
     ))
 (define-char
