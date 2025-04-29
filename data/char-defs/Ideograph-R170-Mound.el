@@ -9371,6 +9371,11 @@
   '((ideographic-radical . 170)	; ⾩
     (ideographic-strokes . 9)
     (total-strokes	 . 12)
+    (ideographic-structure
+     ?⿰
+     ?⻖
+     ((=>ucs-itaiji-010	. #x24514)	; &A-U-i010+24514;
+      ))
     (=ucs		. #x2B54A)	; 𫕊
     ))
 (define-char
@@ -9379,6 +9384,11 @@
     (total-strokes	 . 12)
     (<-denotational
      ((=ucs		. #x2B54A)	; 𫕊
+      ))
+    (ideographic-structure
+     ?⿰
+     ?⻖
+     ((=ucs-itaiji-010	. #x24514)	; &A-U-i010+24514;
       ))
     (=ucs@JP/hanazono	. #x2B54A)	; 𫕊
     ))

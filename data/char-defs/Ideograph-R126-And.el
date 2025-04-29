@@ -658,6 +658,26 @@
   '((ideographic-radical . 126)	; ⽽
     (ideographic-strokes . 9)
     (total-strokes	 . 15)
+    (=ucs		. #x2C68F)	; 𬚏
+    ))
+(define-char
+  '((ideographic-radical . 126)	; ⽽
+    (ideographic-strokes . 9)
+    (total-strokes	 . 15)
+    (<-denotational
+     ((=ucs		. #x2C68F)	; 𬚏
+      ))
+    (ideographic-structure
+     ?⿰
+     ?而
+     ((=ucs-itaiji-010	. #x24514)	; &U-i010+24514;
+      ))
+    (=ucs@JP/hanazono	. #x2C68F)	; 𬚏
+    ))
+(define-char
+  '((ideographic-radical . 126)	; ⽽
+    (ideographic-strokes . 9)
+    (total-strokes	 . 15)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰

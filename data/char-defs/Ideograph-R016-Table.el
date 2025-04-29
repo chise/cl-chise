@@ -1827,7 +1827,7 @@
     ))
 (define-char
   '((<-denotational@component
-     ((=>ucs@iwds-1/normalized . #x5C23)	; &A-NIWDSU+5C23;
+     ((=>ucs@iwds-1	  . #x2063B)	; &A-IWDSU+2063B;
       ))
     (ideographic-radical . 16)	; ⼏
     (ideographic-strokes . 4)

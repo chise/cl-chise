@@ -2745,6 +2745,12 @@
     (ideographic-radical . 134)	; ⾅
     (ideographic-strokes . 4)
     (total-strokes	 . 11)
+    (ideographic-structure
+     ?&U-i001+2FF1;
+     ((=big5-cdp-itaiji-001 . #x87FE)	; &CDP-i001-87FE;
+      )
+     ((=ucs		. #x26951)	; 𦥑
+      ))
     (=big5-cdp-itaiji-002 . #x86D6)	; &CDP-i002-86D6;
     ))
 (define-char
@@ -5069,9 +5075,25 @@
     ))
 (define-char
   '((ideographic-radical . 134)	; ⾅
+    (sound@ja/on	"Eu")
+    (ideographic-structure
+     ?&U-i001+2FFB;
+     ((=gt-k		. 03615)	; &GT-K03615;
+      )
+     ((=>ucs@component	. #x81FC)	; &A-compU+81FC;
+      ))
+    (=ucs		. #x2697C)	; 𦥼
+    ))
+(define-char
+  '((ideographic-radical . 134)	; ⾅
     (ideographic-strokes . 8)
     (total-strokes	 . 15)
     (ideographic-structure
+     ?&U-i001+2FFB;
+     ((=gt-k		. 03615)	; &GT-K03615;
+      )
+     ?𦥑)
+    (ideographic-structure@apparent
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
@@ -5079,9 +5101,8 @@
       )
      ((=ucs		  . #x4E42)	; 乂
       ))
-    (sound@ja/on	"Eu")
-    (=ucs		. #x2697C)	; 𦥼
-    (=mj		. 046001)	; &I-MJ046001;
+    (=ucs@iso		. #x2697C)	; 𦥼
+    (=mj		. 046001)	; &MJ046001;
     (=cns11643-7	. #x273F)	; &I-C7-273F; [07-31]
     (=koseki		. 337410)	; 𦥼
     (=daikanwa		. 30217)	; &I-M-30217;
@@ -6649,26 +6670,41 @@
     (=cns11643-5	. #x6929)	; &I-C5-6929; [73-09]
     ))
 (define-char
-  '((=>ucs		. #x2092B)	; 𠤫
+  '((=ucs		. #x2092B)	; 𠤫
+    (ideographic-radical . 134)	; ⾅
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		. #x2092B)	; 𠤫
+      ))
     (ideographic-radical . 134)	; ⾅
     (ideographic-strokes . 12)
     (total-strokes	 . 19)
     (=daikanwa		. 30254)	; &M-30254;
     ))
 (define-char
-  '((morohashi-daikanwa	30254 0 1)
+  '((<-denotational
+     ((=ucs		. #x2092B)	; 𠤫
+      ))
     (ideographic-radical . 134)	; ⾅
     (ideographic-strokes . 13)
     (total-strokes	 . 20)
-    (=ucs		. #x2092B)	; 𠤫
-    ))
-(define-char
-  '((=>ucs		. #x2092B)	; 𠤫
-    (morohashi-daikanwa	30254 0 2)
+    (<-denotational
+     ((=ucs		. #x2092B)	; 𠤫
+      ))
+    (=ucs@iso		. #x2092B)	; 𠤫
+    (<-denotational
+     ((=ucs		. #x2092B)	; 𠤫
+      ))
     (ideographic-radical . 134)	; ⾅
     (ideographic-strokes . 13)
     (total-strokes	 . 20)
     (=cns11643-5	. #x6D32)	; &C5-6D32; [77-18]
+    (->subsumptive
+     ((==ucs@iso		. #x2092B)	; 𠤫
+      )
+     ((==cns11643-5	. #x6D32)	; &C5-6D32; [77-18]
+      ))
     ))
 (define-char
   '((<-denotational@usage

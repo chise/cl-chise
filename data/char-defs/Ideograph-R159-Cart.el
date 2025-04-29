@@ -11952,8 +11952,8 @@
       )
      ((=ucs		  . #x8ECA)	; 車
       )
-     ((=ucs@unicode	  . #x5C08)	; &AJ1-04642;
-      (=adobe-japan1-0	  . 04642)	; &AJ1-04642;
+     ((=ucs@unicode	  . #x5C08)	; &MJ010272;
+      (=adobe-japan1-0	  . 04642)	; &MJ010272;
       ))
     (=ucs@unicode	. #x8F49)	; &AJ1-06874;
     (=adobe-japan1-0	. 06874)	; &AJ1-06874;
@@ -12708,8 +12708,8 @@
        ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
 	(=ucs		    . #x2FF1)	; ⿱
 	)
-       ((=ucs@iso	    . #x20B9B)	; &C4-2147;
-	(=cns11643-4	    . #x2147)	; &C4-2147; [01-39]
+       ((=ucs@iso	    . #x20B9B)	; &GT-04098;
+	(=cns11643-4	    . #x2147)	; &GT-04098; [01-39]
 	(=daikanwa	    . 03230)	; &I-M-03230;
 	)
        ((=ucs		    . #x518F)	; 冏
@@ -12724,6 +12724,12 @@
        ((===cbeta	    . 01052)	; &R-CB01052;
 	))
       ))
+    ))
+(define-char
+  '((ideographic-radical . 159)	; ⾞
+    (ideographic-strokes . 11)
+    (total-strokes	 . 18)
+    (=ucs		. #x3213B)	; 𲄻
     ))
 (define-char
   '((ideographic-radical . 159)	; ⾞

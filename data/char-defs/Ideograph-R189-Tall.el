@@ -505,7 +505,7 @@
 (define-char
   '((<-denotational@usage
      ((ideographic-radical . 163)	; ⾢
-      (==>daijiten	. 12179)	; &A2-DJT-12179;
+      (==>daijiten	. 12179)	; &BUCS+90ED;
       ))
     (ideographic-radical . 189)	; ⾼
     (ideographic-strokes . 6)
@@ -743,6 +743,21 @@
       )
      ((=cns11643-7	  . #x4C3F)	; &C7-4C3F; [44-31]
       ))
+    ))
+(define-char
+  '((ideographic-radical . 189)	; ⾼
+    (ideographic-strokes . 10)
+    (total-strokes	 . 20)
+    (=ucs		. #x2CD1B)	; 𬴛
+    ))
+(define-char
+  '((ideographic-radical . 189)	; ⾼
+    (ideographic-strokes . 10)
+    (total-strokes	 . 20)
+    (<-denotational
+     ((=ucs		. #x2CD1B)	; 𬴛
+      ))
+    (=ucs@JP/hanazono	. #x2CD1B)	; 𬴛
     ))
 (define-char
   '((ideographic-radical . 189)	; ⾼

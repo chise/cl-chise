@@ -1661,9 +1661,14 @@
     (ideographic-strokes . 7)
     (total-strokes	 . 10)
     (ideographic-structure
-     ?⿱
-     ?&MJ031242;
-     ?幵)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs@iso		  . #x206AA)	; &MJ031242;
+      (=mj		  . 031242)	; &MJ031242;
+      )
+     ((=ucs		  . #x5E75)	; 幵
+      ))
     (=ucs@iso		. #x22199)	; &C6-3735;
     (=cns11643-6	. #x3735)	; &C6-3735; [23-21]
     (=daikanwa		. 09180)	; &I-M-09180;
@@ -2026,6 +2031,44 @@
       ))
     ))
 (define-char
+  '((<-denotational
+     ((=>ucs@cns	  . #x2F939)	; &A-CU+2F939;
+      ))
+    (=>ucs*		. #x2219F)	; 𢆟
+    (ideographic-radical@ucs . 51)	; ⼲
+    (ideographic-strokes@ucs . 10)
+    (ideographic-radical@cns . 102)	; ⽥
+    (ideographic-strokes@cns . 8)
+    (total-strokes	 . 13)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x7531)	; 由
+      )
+     ((=ucs@unicode	  . #x5E77)	; &AJ1-19346;
+      (=adobe-japan1-5	  . 19346)	; &AJ1-19346;
+      ))
+    (=ucs		. #x2F939)	; 𢆟
+    (=cns11643-4	. #x3E6C)	; &I-C4-3E6C; [30-76]
+    (=daikanwa		. 21879)	; &I-M-21879;
+    (<-original
+     ((=daikanwa	  . 21878)	; &M-21878;
+      ))
+    (<-original*sources
+     zhengzitong daikanwa)
+    (->subsumptive
+     ((==ucs@cns	  . #x2F939)	; &g2-M-21879;
+      (==cns11643-4	  . #x3E6C)	; &g2-M-21879; [30-76]
+      (==daikanwa	  . 21879)	; &g2-M-21879;
+      (->subsumptive
+       ((===daikanwa	    . 21879)	; &R-M-21879;
+	)
+       ((===cns11643-4	    . #x3E6C)	; &R-C4-3E6C; [30-76]
+	))
+      ))
+    ))
+(define-char
   '((ideographic-radical . 51)	; ⼲
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
@@ -2119,11 +2162,16 @@
     (ideographic-radical . 51)	; ⼲
     (ideographic-strokes . 12)
     (total-strokes	 . 15)
-    (=ucs@iso 		. #x207F3)	; &C7-225A;
-    (=cns11643-7	. #x225A)	; &I-C7-225A; [02-58]
-    (=daikanwa 		. 09186)	; &C7-225A;
-    (<-formed@s=rice-bag
-     ((=daikanwa 	  . 21878)	; &M-21878;
+    (ideographic-structure
+     ?⿰
+     ((=gt-k		. 01275)	; &GT-K01275;
+      )
+     ?&C6-3735;)
+    (=ucs@iso		. #x207F3)	; &C7-225A;
+    (=cns11643-7	. #x225A)	; &C7-225A; [02-58]
+    (=daikanwa		. 09186)	; &I-M-09186;
+    (<-formed@s=rice-bag 
+     ((=daikanwa	  . 21878)	; &M-21878;
       ))
     (<-original
      ((=ucs@iso		  . #x2219F)	; &C6-523F;

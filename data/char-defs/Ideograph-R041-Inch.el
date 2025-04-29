@@ -3227,6 +3227,14 @@
   '((ideographic-radical . 41)	; ⼨
     (ideographic-strokes . 9)
     (total-strokes	 . 12)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER FULL SURROUND")
+      (=ucs		  . #x2FF4)	; ⿴
+      )
+     ((=ucs		  . #x5BFD)	; 寽
+      )
+     ((=ucs		  . #x7F52)	; 罒
+      ))
     (=ucs		. #x21B33)	; 𡬳
     ))
 (define-char
@@ -3236,7 +3244,17 @@
     (ideographic-radical . 41)	; ⼨
     (ideographic-strokes . 9)
     (total-strokes	 . 12)
-    (=daikanwa		. 07446)	; &M-07446;
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER FULL SURROUND")
+      (=ucs		  . #x2FF4)	; ⿴
+      )
+     ((=ucs@jis		  . #x5BFD)	; &AJ1-17535;
+      (=adobe-japan1-5	  . 17535)	; &AJ1-17535;
+      )
+     ((name		  . "CJK RADICAL EYE")
+      (=ucs		  . #x2EAB)	; ⺫
+      ))
+    (=daikanwa 		. 07446)	; &M-07446;
     (->subsumptive
      ((==daikanwa	  . 07446)	; &g2-M-07446;
       (->subsumptive
@@ -3253,6 +3271,16 @@
     (ideographic-radical . 41)	; ⼨
     (ideographic-strokes . 9)
     (total-strokes	 . 12)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER FULL SURROUND")
+      (=ucs		  . #x2FF4)	; ⿴
+      )
+     ((=ucs@unicode	  . #x5BFD)	; &C3-255E;
+      (=cns11643-3	  . #x255E)	; &C3-255E; [05-62]
+      )
+     ((name		  . "CJK RADICAL EYE")
+      (=ucs		  . #x2EAB)	; ⺫
+      ))
     (=ucs@iso		. #x21B33)	; &C4-3727;
     (=cns11643-4	. #x3727)	; &C4-3727; [23-07]
     (->subsumptive

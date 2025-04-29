@@ -7635,9 +7635,31 @@
     (=+>ucs@unicode	. #x7FB8)	; &o-HD-FT-3842;
     (=+>hanyo-denshi/ft . #x3842)	; &o-HD-FT-3842; [24-34]
     (->subsumptive
-     ((=shinjigen	  .  6292)	; &SJG2-6292;
+     ((ideographic-structure
+       ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM ABOVE")
+	(=ucs		    . #x2FF5)	; ⿵
+	)
+       ((=ucs-var-002	. #x23386)	; &U-v002+23386;
+	)
+       ((=ucs		    . #x7F8A)	; 羊
+	))
+      (=shinjigen	  .  6292)	; &SJG2-6292;
+      (=ucs-var-009	  . #x7FB8)	; &SJG2-6292;
       (->subsumptive
        ((==shinjigen	    .  6292)	; &g2-SJG2-6292;
+	))
+      )
+     ((ideographic-structure
+       ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM ABOVE")
+	(=ucs		    . #x2FF5)	; ⿵
+	)
+       ((=ucs@JP/hanazono	. #x23386)	; &hanaJU+23386;
+	)
+       ((=ucs		    . #x7F8A)	; 羊
+	))
+      (=ucs-var-001	  . #x7FB8)	; &U-v001+7FB8;
+      (->subsumptive
+       ((==ucs-var-001	  . #x7FB8)	; &U-v001+7FB8;
 	))
       )
      ((ideographic-structure
