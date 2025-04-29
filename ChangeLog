@@ -1,3 +1,67 @@
+2025-04-29  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* Sync up with the current snapshot [2025-04-29 11:30].
+
+	M	data/char-defs/Ideograph-R002-Line.el
+	M	data/char-defs/Ideograph-R004-Slash.el
+	M	data/char-defs/Ideograph-R005-Second.el
+	M	data/char-defs/Ideograph-R008-Lid.el
+	M	data/char-defs/Ideograph-R009-Man.el
+	M	data/char-defs/Ideograph-R010-Legs.el
+	M	data/char-defs/Ideograph-R012-Eight.el
+	M	data/char-defs/Ideograph-R013-Down-Box.el
+	M	data/char-defs/Ideograph-R016-Table.el
+	M	data/char-defs/Ideograph-R017-Open-Box.el
+	M	data/char-defs/Ideograph-R024-Ten.el
+	M	data/char-defs/Ideograph-R027-Cliff.el
+	M	data/char-defs/Ideograph-R030-Mouth.el
+	M	data/char-defs/Ideograph-R032-Earth.el
+	M	data/char-defs/Ideograph-R035-Go-Slowly.el
+	M	data/char-defs/Ideograph-R037-Big.el
+	M	data/char-defs/Ideograph-R038-Woman.el
+	M	data/char-defs/Ideograph-R039-Child.el
+	M	data/char-defs/Ideograph-R040-Roof.el
+	M	data/char-defs/Ideograph-R041-Inch.el
+	M	data/char-defs/Ideograph-R043-Lame.el
+	M	data/char-defs/Ideograph-R044-Corpse.el
+	M	data/char-defs/Ideograph-R046-Mountain.el
+	M	data/char-defs/Ideograph-R051-Dry.el
+	M	data/char-defs/Ideograph-R055-Two-Hands.el
+	M	data/char-defs/Ideograph-R057-Bow.el
+	M	data/char-defs/Ideograph-R058-Snout.el
+	M	data/char-defs/Ideograph-R061-Heart.el
+	M	data/char-defs/Ideograph-R072-Sun.el
+	M	data/char-defs/Ideograph-R074-Moon.el
+	M	data/char-defs/Ideograph-R085-Water.el
+	M	data/char-defs/Ideograph-R086-Fire.el
+	M	data/char-defs/Ideograph-R087-Claw.el
+	M	data/char-defs/Ideograph-R095-Profound.el
+	M	data/char-defs/Ideograph-R102-Field.el
+	M	data/char-defs/Ideograph-R105-Dotted-Tent.el
+	M	data/char-defs/Ideograph-R106-White.el
+	M	data/char-defs/Ideograph-R119-Rice.el
+	M	data/char-defs/Ideograph-R120-Silk.el
+	M	data/char-defs/Ideograph-R121-Jar.el
+	M	data/char-defs/Ideograph-R123-Sheep.el
+	M	data/char-defs/Ideograph-R126-And.el
+	M	data/char-defs/Ideograph-R130-Meat.el
+	M	data/char-defs/Ideograph-R132-Self.el
+	M	data/char-defs/Ideograph-R134-Mortar.el
+	M	data/char-defs/Ideograph-R140-Grass.el
+	M	data/char-defs/Ideograph-R144-Walk-Enclosure.el
+	M	data/char-defs/Ideograph-R149-Speech.el
+	M	data/char-defs/Ideograph-R151-Bean.el
+	M	data/char-defs/Ideograph-R157-Foot.el
+	M	data/char-defs/Ideograph-R159-Cart.el
+	M	data/char-defs/Ideograph-R163-City.el
+	M	data/char-defs/Ideograph-R170-Mound.el
+	M	data/char-defs/Ideograph-R181-Leaf.el
+	M	data/char-defs/Ideograph-R188-Bone.el
+	M	data/char-defs/Ideograph-R189-Tall.el
+	M	data/char-defs/ShuoWen-SR300.el
+	M	data/char-defs/ShuoWen-SR467.el
+	M	data/dumped-ids.lisp
+
 2025-04-21  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* Sync up with the current snapshot [2025-04-20 16:00].
