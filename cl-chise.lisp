@@ -24,7 +24,9 @@
    :phonemic-values :sound
    :kangxi :shuowen :radical-and-strokes
    :ideographic-strokes :total-strokes
-   :structure :ideographic-structure
+   :structure
+   :ideographic-structure
+   :ideographic-combination
    :misc)
   (:export
    :decode-char :encode-char
