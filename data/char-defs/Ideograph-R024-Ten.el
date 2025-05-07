@@ -5006,10 +5006,14 @@
     (ideographic-strokes . 6)
     (total-strokes	 . 8)
     (ideographic-structure
-     ?⿱
-     ((=>ucs@iwds-1	. #x5315)	; &J97-5238;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
       )
-     ?𰅱)
+     ((=>ucs@iwds-1	  . #x5315)	; &J97-5238;
+      (=>jis-x0208	  . #x5238)	; &J97-5238; [50-24]
+      )
+     ((=ucs		  . #x30171)	; 𰅱
+      ))
     (=ucs		. #x30175)	; 𰅵
     ))
 (define-char
@@ -5020,9 +5024,13 @@
     (ideographic-strokes . 6)
     (total-strokes	 . 8)
     (ideographic-structure
-     ?⿱
-     ?匕
-     ?&hanaJU+30171;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x5315)	; 匕
+      )
+     ((=ucs@JP/hanazono	  . #x30171)	; &hanaJU+30171;
+      ))
     (=ucs@JP/hanazono	. #x30175)	; &hanaJU+30175;
     ))
 (define-char

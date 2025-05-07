@@ -5085,7 +5085,10 @@
     (=ucs		. #x2697C)	; 𦥼
     ))
 (define-char
-  '((ideographic-radical . 134)	; ⾅
+  '((<-denotational
+     ((=ucs		. #x2697C)	; 𦥼
+      ))
+    (ideographic-radical . 134)	; ⾅
     (ideographic-strokes . 8)
     (total-strokes	 . 15)
     (ideographic-structure

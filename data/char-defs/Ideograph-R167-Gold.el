@@ -10714,6 +10714,21 @@
   '((ideographic-radical . 167)	; ⾦
     (ideographic-strokes . 6)
     (total-strokes	 . 14)
+    (=ucs		. #x289A8)	; 𨦨
+    ))
+(define-char
+  '((ideographic-radical . 167)	; ⾦
+    (ideographic-strokes . 6)
+    (total-strokes	 . 14)
+    (<-denotational
+     ((=ucs		. #x289A8)	; 𨦨
+      ))
+    (=ucs@iso		. #x289A8)	; 𨦨
+    ))
+(define-char
+  '((ideographic-radical . 167)	; ⾦
+    (ideographic-strokes . 6)
+    (total-strokes	 . 14)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰

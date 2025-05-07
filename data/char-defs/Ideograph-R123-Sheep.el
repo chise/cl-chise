@@ -1509,6 +1509,21 @@
   '((ideographic-radical . 123)	; ⽺
     (ideographic-strokes . 3)
     (total-strokes	 . 9)
+    (=ucs		. #x26356)	; 𦍖
+    ))
+(define-char
+  '((ideographic-radical . 123)	; ⽺
+    (ideographic-strokes . 3)
+    (total-strokes	 . 9)
+    (<-denotational
+     ((=ucs		. #x26356)	; 𦍖
+      ))
+    (=ucs@iso		. #x26356)	; 𦍖
+    ))
+(define-char
+  '((ideographic-radical . 123)	; ⽺
+    (ideographic-strokes . 3)
+    (total-strokes	 . 9)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱

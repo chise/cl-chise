@@ -6232,7 +6232,7 @@
     (=ucs@cns	  . #x5CC0)	; &g2-M-08015;
     (=ucs@ks		  . #x5CC0)	; &g2-M-08015;
     (=ucs@ks	  . #x5CC0)	; &g2-M-08015;
-    (=ks-x1001		. #x617C)	; &I-K0-617C; [65-92]
+    (=ks-x1001		. #x617C)	; &C4-2634; [65-92]
     (=cns11643-4	. #x2634)	; &C4-2634; [06-20]
     (=daikanwa		. 08015)	; &I-M-08015;
     (=jef-china3	. #x4AF4)	; &I-JC3-4AF4;
@@ -8652,6 +8652,21 @@
        ((===cbeta	    . 04028)	; &R-CB04028;
 	))
       ))
+    ))
+(define-char
+  '((ideographic-radical . 46)	; ⼭
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (=ucs		. #x21DBA)	; 𡶺
+    ))
+(define-char
+  '((ideographic-radical . 46)	; ⼭
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (<-denotational
+     ((=ucs		. #x21DBA)	; 𡶺
+      ))
+    (=ucs@iso		. #x21DBA)	; 𡶺
     ))
 (define-char
   '((ideographic-radical . 46)	; ⼭

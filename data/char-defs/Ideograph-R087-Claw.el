@@ -1063,6 +1063,31 @@
     (ideographic-strokes . 3)
     (total-strokes	 . 7)
     (ideographic-structure
+     ?⿱
+     ?爫
+     ?𱍸)
+    (=ucs		. #x31B35)	; 𱬵
+    ))
+(define-char
+  '((ideographic-radical . 87)	; ⽖
+    (ideographic-strokes . 3)
+    (total-strokes	 . 7)
+    (ideographic-structure
+     ?⿱
+     ((=ucs@cns		. #x722B)	; &GT-25225;
+      )
+     ((=ucs@JP/hanazono	. #x31378)	; &GT-K00319;
+      ))
+    (<-denotational
+     ((=ucs		. #x31B35)	; 𱬵
+      ))
+    (=ucs@JP/hanazono	. #x31B35)	; 𱬵
+    ))
+(define-char
+  '((ideographic-radical . 87)	; ⽖
+    (ideographic-strokes . 3)
+    (total-strokes	 . 7)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )

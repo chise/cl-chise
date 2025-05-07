@@ -12705,6 +12705,25 @@
 (define-char
   '((ideographic-radical . 184)	; ⾷
     (ideographic-strokes . 9)
+    (=ucs		. #x2B5D4)	; 𫗔
+    ))
+(define-char
+  '((ideographic-radical . 184)	; ⾷
+    (ideographic-strokes . 9)
+    (total-strokes	 . 18)
+    (<-denotational
+     ((=ucs		. #x2B5D4)	; 𫗔
+      ))
+    (ideographic-structure
+     ?⿰
+     ?⻞
+     ((=ucs-var-002	. #x4672)	; &U-v002+4672;
+      ))
+    (=ucs@JP/hanazono	. #x2B5D4)	; 𫗔
+    ))
+(define-char
+  '((ideographic-radical . 184)	; ⾷
+    (ideographic-strokes . 9)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰

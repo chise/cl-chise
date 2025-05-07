@@ -10669,11 +10669,41 @@
     (=gb2312		. #x3D4A)	; &I-G0-3D4A; [29-42]
     ))
 (define-char
+  '((<-denotational@usage
+     ((ideographic-radical . 120)	; ⽷
+      (==>ucs@bucs	. #x7D71)	; &BUCS+7D71;
+      ))
+    (ideographic-radical . 120)	; ⽷
+    (ideographic-structure
+     ?⿰
+     ?纟
+     ((=>ucs@iwds-1	. #x5145)	; &A-IWDSU+5145;
+      ))
+    (=ucs		. #x7EDF)	; 统
+    ))
+(define-char
   '((ideographic-radical . 120)	; ⽷
+    (<-denotational
+     ((=ucs		. #x7EDF)	; 统
+      ))
     (ideographic-strokes . 6)
     (total-strokes	 . 9)
-    (=ucs		. #x7EDF)	; 统
+    (ideographic-structure
+     ?⿰
+     ?⺰
+     ?𠘺)
+    (=ucs@unicode	. #x7EDF)	; 统
     (=gb2312		. #x4D33)	; &I-G0-4D33; [45-19]
+    (<-simplified@CN
+     ((=gb12345		. #x4D33)	; &AJ1-03191; [45-19]
+      ))
+    (->subsumptive
+     ((==ucs@unicode	. #x7EDF)	; 统
+      (==gb2312		. #x4D33)	; &I-G0-4D33; [45-19]
+      (->subsumptive
+       ((===ucs@unicode	. #x7EDF)	; 统
+	))
+      ))
     ))
 (define-char
   '((<-denotational@usage

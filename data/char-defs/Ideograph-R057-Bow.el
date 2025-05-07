@@ -983,6 +983,10 @@
       )
      ((=ucs		  . #x5F3C)	; 弼
       (=daikanwa	  . 09826)	; &I-M-09826;
+      )
+     ((=ucs@iso		  . #x295BC)	; &C4-4852;
+      (=cns11643-4	  . #x4852)	; &C4-4852; [40-50]
+      (=daikanwa	  . 43811)	; &I-M-43811;
       ))
     (<-interchangeable$_1*sources
      shuowen-tongxundingsheng daikanwa)
@@ -2664,6 +2668,23 @@
        ((===hng-kar	    . 08250)	; &HNG018-08250;
 	))
       ))
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x5F1F)	; 弟
+      ))
+    (ideographic-radical . 57)	; ⼸
+    (ideographic-strokes . 4)
+    (total-strokes	 . 7)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x516B)	; 八
+      )
+     ((=ucs		  . #x223A8)	; 𢎨
+      ))
+    (=ucs-var-001	. #x5F1F)	; &U-v001+5F1F;
     ))
 (define-char
   '((<-denotational

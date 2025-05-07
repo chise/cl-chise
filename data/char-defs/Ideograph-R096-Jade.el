@@ -7629,8 +7629,27 @@
   '((ideographic-radical . 96)	; ⽟
     (ideographic-strokes . 7)
     (total-strokes	 . 11)
+    (ideographic-structure
+     ?⿰
+     ?𤣩
+     ?旱)
     (=ucs		. #x2495A)	; 𤥚
+    ))
+(define-char
+  '((ideographic-radical . 96)	; ⽟
+    (ideographic-strokes . 7)
+    (total-strokes	 . 11)
+    (<-denotational
+     ((=ucs		. #x2495A)	; 𤥚
+      ))
+    (=ucs@iso		. #x2495A)	; 𤥚
     (=cns11643-6	. #x4177)	; &I-C6-4177; [33-87]
+    (=daikanwa		. 21005)	; &M-21005;
+    (->subsumptive
+     ((==ucs@iso		. #x2495A)	; 𤥚
+      (==cns11643-6	. #x4177)	; &I-C6-4177; [33-87]
+      (==daikanwa		. 21005)	; &M-21005;
+      ))
     ))
 (define-char
   '((ideographic-radical . 96)	; ⽟

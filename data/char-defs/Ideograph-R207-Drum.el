@@ -187,9 +187,33 @@
   '((ideographic-radical . 207)	; ⿎
     (ideographic-strokes . 1)
     (total-strokes	 . 14)
+    (ideographic-structure
+     ?⿰
+     ?壴
+     ?𠬢)
     (=ucs		. #x21537)	; 𡔷
+    ))
+(define-char
+  '((ideographic-radical . 207)	; ⿎
+    (ideographic-strokes . 1)
+    (total-strokes	 . 14)
+    (<-denotational
+     ((=ucs		. #x21537)	; 𡔷
+      ))
+    (ideographic-structure
+     ?⿰
+     ((=ucs@unicode	. #x58F4)	; &AJ1-17467;
+      )
+     ((=ucs@iso		. #x20B22)	; &MJ032014;
+      ))
+    (=ucs@iso		. #x21537)	; 𡔷
     (=cns11643-6	. #x647A)	; &I-C6-647A; [68-90]
     (=daikanwa		. 48332)	; &I-M-48332;
+    (->subsumptive
+     ((==ucs@iso		. #x21537)	; 𡔷
+      (==cns11643-6	. #x647A)	; &I-C6-647A; [68-90]
+      (==daikanwa		. 48332)	; &I-M-48332;
+      ))
     ))
 (define-char
   '((ideographic-radical . 207)	; ⿎

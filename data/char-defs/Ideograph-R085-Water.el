@@ -14945,6 +14945,21 @@
   '((ideographic-radical . 85)	; ⽔
     (ideographic-strokes . 6)
     (total-strokes	 . 9)
+    (=ucs		. #x23CFD)	; 𣳽
+    ))
+(define-char
+  '((ideographic-radical . 85)	; ⽔
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (<-denotational
+     ((=ucs		. #x23CFD)	; 𣳽
+      ))
+    (=ucs@iso		. #x23CFD)	; 𣳽
+    ))
+(define-char
+  '((ideographic-radical . 85)	; ⽔
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
     (ideographic-structure
      ((=>ucs@component	  . #x2FF0)	; &U-v001+2FF0;
       (=ucs-var-001	  . #x2FF0)	; &U-v001+2FF0;

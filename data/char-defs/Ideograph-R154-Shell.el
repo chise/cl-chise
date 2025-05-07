@@ -2900,7 +2900,7 @@
     (=cns11643-6	. #x4F2B)	; &C6-4F2B; [47-11]
     (=daikanwa		. 36697)	; &I-M-36697;
     (<-same
-     ((=ucs		  . #x8CD1)	; 賑
+     ((=ucs@unicode	  . #x8CD1)	; 賑
       (=daikanwa	  . 36785)	; &I-M-36785;
       ))
     (<-same*sources

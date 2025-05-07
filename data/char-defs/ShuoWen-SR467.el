@@ -3925,7 +3925,8 @@
     (<-Small-Seal@shuowen
      ((=ucs		  . #x221CF)	; 𢇏
       )
-     ?𦆩)
+     ((=ucs		  . #x261A9)	; 𦆩
+      ))
     (<-ancient@shuowen
      ((=shuowen-jiguge	  . 45718)	; &SW-JIGUGE-45718;
       )

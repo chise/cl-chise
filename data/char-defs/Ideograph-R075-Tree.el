@@ -20201,6 +20201,21 @@
   '((ideographic-radical . 75)	; ⽊
     (ideographic-strokes . 6)
     (total-strokes	 . 10)
+    (=ucs		. #x23472)	; 𣑲
+    ))
+(define-char
+  '((ideographic-radical . 75)	; ⽊
+    (ideographic-strokes . 6)
+    (total-strokes	 . 10)
+    (<-denotational
+     ((=ucs		. #x23472)	; 𣑲
+      ))
+    (=ucs@iso		. #x23472)	; 𣑲
+    ))
+(define-char
+  '((ideographic-radical . 75)	; ⽊
+    (ideographic-strokes . 6)
+    (total-strokes	 . 10)
     (=gt-k		. 06961)	; &GT-K06961;
     (=gt-pj-k1		. #x582E)	; &GT-K06961; [56-14]
     (<-unknown
