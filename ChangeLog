@@ -1,3 +1,79 @@
+2025-05-09  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* Sync up with the current snapshot [2025-05-08 08:30 JST].
+
+	M	data/char-defs/Ideograph-R028-Private.el
+	M	data/char-defs/Ideograph-R032-Earth.el
+	M	data/char-defs/Ideograph-R046-Mountain.el
+	M	data/char-defs/Ideograph-R057-Bow.el
+	M	data/char-defs/Ideograph-R067-Script.el
+	M	data/char-defs/Ideograph-R072-Sun.el
+	M	data/char-defs/Ideograph-R075-Tree.el
+	M	data/char-defs/Ideograph-R083-Clan.el
+	M	data/char-defs/Ideograph-R087-Claw.el
+	M	data/char-defs/Ideograph-R096-Jade.el
+	M	data/char-defs/Ideograph-R099-Sweet.el
+	M	data/char-defs/Ideograph-R112-Stone.el
+	M	data/char-defs/Ideograph-R123-Sheep.el
+	M	data/char-defs/Ideograph-R124-Feather.el
+	M	data/char-defs/Ideograph-R126-And.el
+	M	data/char-defs/Ideograph-R149-Speech.el
+	M	data/char-defs/Ideograph-R164-Wine.el
+	M	data/char-defs/Ideograph-R167-Gold.el
+	M	data/char-defs/Ideograph-R182-Wind.el
+	M	data/char-defs/Ideograph-R189-Tall.el
+	M	data/char-defs/Ideograph-R210-Even.el
+	M	data/char-defs/ShuoWen-SR006.el
+	M	data/char-defs/ShuoWen-SR022.el
+	M	data/char-defs/ShuoWen-SR480.el
+
+2025-05-07  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* Sync up with the current snapshot [2025-05-02 21:30].
+
+	M	data/char-defs/Ideograph-R015-Ice.el
+	M	data/char-defs/Ideograph-R024-Ten.el
+	M	data/char-defs/Ideograph-R025-Divination.el
+	M	data/char-defs/Ideograph-R030-Mouth.el
+	M	data/char-defs/Ideograph-R031-Enclosure.el
+	M	data/char-defs/Ideograph-R032-Earth.el
+	M	data/char-defs/Ideograph-R040-Roof.el
+	M	data/char-defs/Ideograph-R046-Mountain.el
+	M	data/char-defs/Ideograph-R057-Bow.el
+	M	data/char-defs/Ideograph-R066-Rap.el
+	M	data/char-defs/Ideograph-R075-Tree.el
+	M	data/char-defs/Ideograph-R085-Water.el
+	M	data/char-defs/Ideograph-R087-Claw.el
+	M	data/char-defs/Ideograph-R096-Jade.el
+	M	data/char-defs/Ideograph-R115-Grain.el
+	M	data/char-defs/Ideograph-R120-Silk.el
+	M	data/char-defs/Ideograph-R123-Sheep.el
+	M	data/char-defs/Ideograph-R124-Feather.el
+	M	data/char-defs/Ideograph-R126-And.el
+	M	data/char-defs/Ideograph-R130-Meat.el
+	M	data/char-defs/Ideograph-R132-Self.el
+	M	data/char-defs/Ideograph-R134-Mortar.el
+	M	data/char-defs/Ideograph-R140-Grass.el
+	M	data/char-defs/Ideograph-R145-Clothes.el
+	M	data/char-defs/Ideograph-R146-West.el
+	M	data/char-defs/Ideograph-R149-Speech.el
+	M	data/char-defs/Ideograph-R154-Shell.el
+	M	data/char-defs/Ideograph-R157-Foot.el
+	M	data/char-defs/Ideograph-R167-Gold.el
+	M	data/char-defs/Ideograph-R182-Wind.el
+	M	data/char-defs/Ideograph-R183-Fly.el
+	M	data/char-defs/Ideograph-R184-Eat.el
+	M	data/char-defs/Ideograph-R195-Fish.el
+	M	data/char-defs/Ideograph-R207-Drum.el
+	M	data/char-defs/ShuoWen-SR300.el
+	M	data/char-defs/ShuoWen-SR467.el
+	M	data/char-defs/ShuoWen-SR480.el
+	D	data/dumped-ids.lisp
+
+2025-05-03  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* cl-chise.lisp (import-from): Import `ideographic-combination'.
+
 2025-04-29  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* Sync up with the current snapshot [2025-04-29 11:30].
