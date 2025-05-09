@@ -1,5 +1,7 @@
 2025-05-09  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* data/dumped-ids.lisp: Recovered.
+
 	* Sync up with the current snapshot [2025-05-08 08:30 JST].
 
 	M	data/char-defs/Ideograph-R028-Private.el
