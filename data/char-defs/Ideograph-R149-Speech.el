@@ -2193,7 +2193,7 @@
      ((=ucs		  . #x4E90)	; 亐
       ))
     (=ucs@iso		. #x27966)	; &C5-3043;
-    (=cns11643-5	. #x3043)	; &I-C5-3043; [16-35]
+    (=cns11643-5	. #x3043)	; &C5-3043; [16-35]
     (=daikanwa 		. 35246)	; &C5-3043;
     (->subsumptive
      ((==daikanwa	  . 35246)	; &g2-M-35246;
@@ -4752,7 +4752,7 @@
       )
      ((==ucs@unicode	  . #x46BE)	; &g2-UU+46BE;
       (==ucs@JP/hanazono . nil)
-      (==ucs@unicode	    . #x46BE)	; &R-UU+46BE;
+      (==ucs@unicode	    . #x46BE)	; &g2-UU+46BE;
       ))
     ))
 (define-char
@@ -4762,10 +4762,10 @@
     (ideographic-radical . 149)	; ⾔
     (ideographic-strokes . 4)
     (total-strokes	 . 11)
-    (=cns11643-3	. #x3927)	; &I-C3-3927; [25-07]
+    (=cns11643-3	. #x3927)	; &C3-3927; [25-07]
     (->subsumptive
      ((==cns11643-3	  . #x3927)	; &g2-UU+46BE; [25-07]
-      (==cns11643-3	    . #x3927)	; &R-C3-3927; [25-07]
+      (==cns11643-3	    . #x3927)	; &g2-CU+46BE; [25-07]
       ))
     ))
 (define-char
@@ -8419,7 +8419,7 @@
      ?言
      ?&GT-00180;)
     (=ucs@iso		. #x279BB)	; &C6-4E75;
-    (=cns11643-6	. #x4E75)	; &I-C6-4E75; [46-85]
+    (=cns11643-6	. #x4E75)	; &C6-4E75; [46-85]
     (=daikanwa 		. 49721)	; &C6-4E75;
     (->subsumptive
      ((==daikanwa	  . 49721)	; &g2-M-49721;
@@ -45911,7 +45911,7 @@
       (->subsumptive
        ((===ucs@iso		. #x27976)	; 𧥶
 	)
-       ((=hanziku-10	. #xDE67)	; &I-HZK10-DE67;
+       ((=hanziku-10	. #xDE67)	; &HZK10-DE67;
 	))
       ))
     ))
@@ -46031,9 +46031,30 @@
     ))
 (define-char
   '((ideographic-radical . 149)	; ⾔
-    (hanyu-dazidian	6 3978 16)
+    (ideographic-strokes . 7)
+    (total-strokes	 . 14)
     (=ucs		. #x27A25)	; 𧨥
-    (=hanziku-10	. #xE565)	; &I-HZK10-E565;
+    ))
+(define-char
+  '((ideographic-radical . 149)	; ⾔
+    (<-denotational
+     ((=ucs		. #x27A25)	; 𧨥
+      ))
+    (ideographic-strokes . 7)
+    (total-strokes	 . 14)
+    (hanyu-dazidian	6 3978 16)
+    (=ucs@iso		. #x27A25)	; 𧨥
+    (=daikanwa		. 35569)	; &M-35569;
+    (->subsumptive
+     ((==daikanwa		. 35569)	; &M-35569;
+      )
+     ((==ucs@iso		. #x27A25)	; 𧨥
+      (->subsumptive
+       ((===ucs@iso		. #x27A25)	; 𧨥
+	)
+       ((=hanziku-10	. #xE565)	; &I-HZK10-E565;
+	))
+      ))
     ))
 (define-char
   '((ideographic-radical . 149)	; ⾔

@@ -1631,13 +1631,12 @@
      ((=ucs		  . #x213B1)	; 𡎱
       ))
     (<-ancient@shuowen
-     ((=shuowen-jiguge	. 47412)	; &SW-JIGUGE-47412;
+     ((=shuowen-jiguge	  . 47412)	; &SW-JIGUGE-47412;
       )
      ((=ucs		  . #x2136F)	; 𡍯
       )
      ((=ucs		  . #x5794)	; 垔
       ))
-     
     (->subsumptive
      ((===shuowen-jiguge-A30 . 48313)	; &SW-JIGUGE30-48313;
       )

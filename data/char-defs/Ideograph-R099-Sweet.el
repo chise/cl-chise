@@ -548,9 +548,23 @@
   '((ideographic-radical . 99)	; ⽢
     (ideographic-strokes . 4)
     (total-strokes	 . 9)
+    (ideographic-structure
+     ?⿱
+     ?氏
+     ?甘)
     (=ucs		. #x24BC1)	; 𤯁
     (=cns11643-6	. #x3270)	; &I-C6-3270; [18-80]
     (=daikanwa		. 21650)	; &I-M-21650;
+    (<-ancient
+     ((=ucs		  . #x20BD1)	; 𠯑
+      ))
+    (<-ancient$_1*sources
+     shuowen)
+    (->subsumptive
+     ((==ucs@iso		. #x24BC1)	; 𤯁
+      (==cns11643-6	. #x3270)	; &I-C6-3270; [18-80]
+      (==daikanwa		. 21650)	; &I-M-21650;
+      ))
     ))
 (define-char
   '((ideographic-radical . 99)	; ⽢

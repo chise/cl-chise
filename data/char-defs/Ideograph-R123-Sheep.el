@@ -1509,16 +1509,26 @@
   '((ideographic-radical . 123)	; ⽺
     (ideographic-strokes . 3)
     (total-strokes	 . 9)
+    (ideographic-structure
+     ?⿰
+     ?𢆉
+     ((=>ucs@component	. #x2CF17)	; &A-compU+2CF17;
+      ))
     (=ucs		. #x26356)	; 𦍖
     ))
 (define-char
-  '((ideographic-radical . 123)	; ⽺
+  '((<-denotational
+     ((=ucs		  . #x26356)	; 𦍖
+      ))
+    (ideographic-radical . 123)	; ⽺
     (ideographic-strokes . 3)
     (total-strokes	 . 9)
-    (<-denotational
-     ((=ucs		. #x26356)	; 𦍖
+    (ideographic-structure
+     ?⿰
+     ?&GT-K01380;
+     ((=ucs@JP/hanazono	. #x31378)	; &GT-K00319;
       ))
-    (=ucs@iso		. #x26356)	; 𦍖
+    (=ucs@iso		. #x26356)	; &U-00026356;
     ))
 (define-char
   '((ideographic-radical . 123)	; ⽺
@@ -7654,7 +7664,7 @@
        ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM ABOVE")
 	(=ucs		    . #x2FF5)	; ⿵
 	)
-       ((=ucs-var-002	. #x23386)	; &U-v002+23386;
+       ((=ucs-var-002	    . #x23386)	; &U-v002+23386;
 	)
        ((=ucs		    . #x7F8A)	; 羊
 	))
@@ -7668,13 +7678,13 @@
        ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM ABOVE")
 	(=ucs		    . #x2FF5)	; ⿵
 	)
-       ((=ucs@JP/hanazono	. #x23386)	; &hanaJU+23386;
+       ((=ucs@JP/hanazono   . #x23386)	; &hanaJU+23386;
 	)
        ((=ucs		    . #x7F8A)	; 羊
 	))
       (=ucs-var-001	  . #x7FB8)	; &U-v001+7FB8;
       (->subsumptive
-       ((==ucs-var-001	  . #x7FB8)	; &U-v001+7FB8;
+       ((==ucs-var-001	    . #x7FB8)	; &g2-U-v001+7FB8;
 	))
       )
      ((ideographic-structure

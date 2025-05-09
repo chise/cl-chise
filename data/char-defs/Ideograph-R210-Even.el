@@ -97,6 +97,24 @@
       ))
     (ideographic-radical . 210)	; ⿑
     (ideographic-strokes . 0)
+    (total-strokes	 . 12)
+    (=ucs		. #x2A5C4)	; 𪗄
+    ))
+(define-char
+  '((ideographic-radical . 210)	; ⿑
+    (ideographic-strokes . 0)
+    (total-strokes	 . 12)
+    (<-denotational
+     ((=ucs		. #x2A5C4)	; 𪗄
+      ))
+    (=ucs@iso		. #x2A5C4)	; 𪗄
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@cognate	  . #x9F4A)	; &A-cgnU+9F4A;
+      ))
+    (ideographic-radical . 210)	; ⿑
+    (ideographic-strokes . 0)
     (total-strokes	 . 14)
     (=ucs		. #x2EBBA)	; 𮮺
     (=mj		. 059279)	; &I-MJ059279;

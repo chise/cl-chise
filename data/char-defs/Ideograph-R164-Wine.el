@@ -1647,7 +1647,7 @@
      ((==ucs@unicode	  . #x915D)	; &g2-UU+915D;
       (==ucs@JP/hanazono . nil)
       (==gb2312		  . #x544D)	; &g2-UU+915D; [52-45]
-      (===ucs@unicode	    . #x915D)	; &R-UU+915D;
+      (===ucs@unicode	    . #x915D)	; &g2-UU+915D;
       ))
     ))
 (define-char
@@ -3407,7 +3407,7 @@
 	 ((===daijiten	      . 12296)	; &R-DJT-12296;
 	  )
 	 ((===jis-x0208@1990  . #x6E4B)	; &R-J90-6E4B; [78-43]
-	  (===jis-x0213-1     . #x6E4B)	; &R-JX1-6E4B; [78-43]
+	  (===jis-x0213-1     . #x6E4B)	; &R-J90-6E4B; [78-43]
 	  )
 	 ((===adobe-japan1-0  . 06952)	; &R-AJ1-06952;
 	  ))
@@ -3970,6 +3970,24 @@
     (total-strokes	 . 14)
     (=ucs		. #x917E)	; 酾
     (=gb2312		. #x7527)	; &I-G0-7527; [85-07]
+    ))
+(define-char
+  '((ideographic-radical . 164)	; ⾣
+    (ideographic-strokes . 7)
+    (total-strokes	 . 14)
+    (ideographic-structure
+     ?⿰
+     ?酉
+     ?吾)
+    (=ucs		. #x2E82C)	; 𮠬
+    (=cbeta		. 04539)	; &CB04539;
+    (->subsumptive
+     ((==ucs@JP/hanazono		. #x2E82C)	; 𮠬
+      (==cbeta		. 04539)	; &CB04539;
+      (->subsumptive
+       ((===cbeta		. 04539)	; &CB04539;
+	))
+      ))
     ))
 (define-char
   '((ideographic-radical . 164)	; ⾣
@@ -7408,7 +7426,7 @@
 (define-char
   '((<-denotational@usage
      ((==>ucs@bucs	  . #x91AB)	; &BUCS+91AB;
-      (==>daijiten	. 12341)	; &A2-DJT-12341;
+      (==>daijiten	. 12341)	; &BUCS+91AB;
       ))
     (ideographic-radical . 164)	; ⾣
     (ideographic-strokes . 11)
@@ -8025,7 +8043,7 @@
      ?&AJ1-08565;
      ?酉)
     (=ucs@iso		. #x288BD)	; &C7-4B2F;
-    (=cns11643-7	. #x4B2F)	; &I-C7-4B2F; [43-15]
+    (=cns11643-7	. #x4B2F)	; &C7-4B2F; [43-15]
     (=daikanwa		. 40019)	; &C7-4B2F;
     (->subsumptive
      ((==daikanwa	  . 40019)	; &g2-M-40019;
@@ -8314,7 +8332,7 @@
     (<-denotational@usage
      ((ideographic-radical . 164)	; ⾣
       (==>ucs@bucs	. #x91AE)	; &BUCS+91AE;
-      (==>daijiten	. 12344)	; &A2-DJT-12344;
+      (==>daijiten	. 12344)	; &BUCS+91AE;
       ))
     (ideographic-radical . 164)	; ⾣
     (ideographic-strokes . 12)
@@ -9395,6 +9413,12 @@
 	  ))
 	))
       ))
+    ))
+(define-char
+  '((ideographic-radical . 164)	; ⾣
+    (ideographic-strokes . 13)
+    (total-strokes	 . 20)
+    (=ucs		. #x2CAB7)	; 𬪷
     ))
 (define-char
   '((ideographic-radical . 164)	; ⾣

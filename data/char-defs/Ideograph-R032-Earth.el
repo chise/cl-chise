@@ -27162,7 +27162,7 @@
      ((=gt-k		  . 00199)	; &GT-K00199;
       )
      ((=ucs@unicode	  . #x7EDF)	; &G0-4D33;
-      (=gb2312		  . #x4D33)	; &I-G0-4D33; [45-19]
+      (=gb2312		  . #x4D33)	; &G0-4D33; [45-19]
       ))
     (=ucs@iso		. #x213AD)	; &U-000213AD;
     ))
@@ -28943,6 +28943,15 @@
       ))
     (sound@ja/on	"iN")
     (=ucs		. #x213B1)	; 𡎱
+    (<-ancient
+     ((=ucs		  . #x2136F)	; 𡍯
+      )
+     ((=ucs		  . #x5794)	; 垔
+      ))
+    (<-ancient$_1*sources
+     shuowen)
+    (<-ancient$_2*sources
+     shuowen)
     ))
 (define-char
   '((<-denotational
@@ -31196,11 +31205,11 @@
       ))
     (=mj		. 033144)	; &MJ033144;
     (=koseki . 061390)
-    (=daikanwa 		. 05375)	; &M-05375;
+    (=daikanwa 		. 05375)	; &MJ033144;
     (->subsumptive
      ((==mj		. 033144)	; &MJ033144;
       (==koseki . 061390)
-      (==daikanwa 		. 05375)	; &M-05375;
+      (==daikanwa 		. 05375)	; &MJ033144;
       ))
     ))
 (define-char
