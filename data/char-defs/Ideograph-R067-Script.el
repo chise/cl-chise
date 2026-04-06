@@ -1351,7 +1351,7 @@
     (=daikanwa		. 13475)	; &I-M-13475;
     (<-formed
      ((=ucs@iso		  . #x295A3)	; &MJ053694;
-      (=mj		  . 053694)	; &I-MJ053694;
+      (=mj		  . 053694)	; &MJ053694;
       (=koseki		  . 495640)	; &MJ053694;
       ))
     (<-formed$_1*sources
@@ -1360,7 +1360,7 @@
      koseki)
     (<-same
      ((=ucs@iso		  . #x295A3)	; &MJ053694;
-      (=mj		  . 053694)	; &I-MJ053694;
+      (=mj		  . 053694)	; &MJ053694;
       (=daikanwa	  . 43775)	; &I-M-43775;
       ))
     (<-same*sources

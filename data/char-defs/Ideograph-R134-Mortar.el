@@ -1746,6 +1746,7 @@
       )
      ((=gt-k		  . 00264)	; &GT-K00264;
       ))
+    (=ucs		. #x32ECB)	; 𲻋
     (=>ucs-itaiji-001	. #x8201)	; &A-U-i001+8201;
     (<-formed
      ((=ucs		  . #x8201)	; 舁
@@ -1868,6 +1869,11 @@
      ((=gt-k		  . 00264)	; &GT-K00264;
       ))
     (=ucs-itaiji-001	. #x8201)	; &U-i001+8201;
+    (=ucs@JP/hanazono	. #x32ECB)	; 𲻋
+    (->subsumptive
+     ((==ucs-itaiji-001	. #x8201)	; &U-i001+8201;
+      (==ucs@JP/hanazono	. #x32ECB)	; 𲻋
+      ))
     ))
 (define-char
   '((<-denotational
@@ -1983,7 +1989,9 @@
      ((=>ucs@iwds-1	  . #x8200)	; &A-IWDSU+8200;
       ))
     (<-denotational@usage
-     ((==>daijiten	  . 09624)	; &A2-DJT-09624;
+     ((ideographic-radical . 134)	; ⾅
+      (==>ucs@bucs	. #x8200)	; &BUCS+8200;
+      (==>daijiten	  . 09624)	; &BUCS+8200;
       ))
     (ideographic-radical . 134)	; ⾅
     (ideographic-strokes . 4)
@@ -2021,8 +2029,17 @@
      ((=ucs		  . #x81FC)	; 臼
       ))
     (=ucs		. #x2695D)	; 𦥝
+    )) 
+(define-char
+  '((ideographic-radical . 134)	; ⾅
+    (ideographic-strokes . 4)
+    (total-strokes	 . 10)
+    (<-denotational
+     ((=ucs		. #x2695D)	; 𦥝
+      )) 
+    (=ucs@iso		. #x2695D)	; 𦥝
     (=ucs@jis		. #x8200)	; 𦥝
-    (=jis-x0212		. #x566D)	; &I-JSP-566D; [54-77]
+    (=jis-x0212		. #x566D)	; &JSP-566D; [54-77]
     (=cns11643-6	. #x3B41)	; &I-C6-3B41; [27-33]
     (=daikanwa		. 30183)	; &I-M-30183;
     (=daijiten		. 09624)	; &I-DJT-09624;
@@ -2103,7 +2120,7 @@
      ((name		  . "CJK RADICAL PAW ONE")
       (=ucs		  . #x2EA4)	; ⺤
       )
-     ((=ucs		  . #x81FC)	; 臼
+     ((=ucs@unicode	  . #x81FC)	; 臼
       ))
     (=ucs@unicode	. #x8200)	; &MJ021325;
     (=ucs@JP/hanazono	. nil)
@@ -2674,7 +2691,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((==>daijiten	  . 09624)	; &A2-DJT-09624;
+     ((==>daijiten	  . 09624)	; &BUCS+8200;
       ))
     (ideographic-radical . 134)	; ⾅
     (ideographic-strokes . 4)
@@ -5721,7 +5738,7 @@
        ((=ucs		    . #x53E4)	; 古
 	))
       )
-     ((=ucs		  . #x20501)	; 𠔁
+     ((=ucs@iso		  . #x20501)	; 𠔁
       ))
     (=ucs-itaiji-009	. #x8944)	; &U-i009+8944;
     ))
@@ -7866,7 +7883,7 @@
     ))
 (define-char
   '((ideographic-radical . 134)	; ⾅
-    (==>daijiten	. 09624)	; &A2-DJT-09624;
+    (==>daijiten	. 09624)	; &BUCS+8200;
     ))
 (define-char
   '((ideographic-radical . 134)	; ⾅

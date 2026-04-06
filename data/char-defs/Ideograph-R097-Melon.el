@@ -1426,6 +1426,36 @@
     ))
 (define-char
   '((ideographic-radical . 97)	; ⽠
+    (ideographic-strokes . 9)
+    (total-strokes	 . 14)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5A04)	; 娄
+      )
+     ((=ucs		  . #x74DC)	; 瓜
+      ))
+    (=ucs		. #x31C06)	; 𱰆
+    (->subsumptive
+     ((ideographic-structure
+       ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+	(=ucs		    . #x2FF0)	; ⿰
+	)
+       ((=ucs		    . #x5A04)	; 娄
+	)
+       ((=ucs@jis	    . #x74DC)	; &AJ1-01245;
+	(=ucs@ks	    . #x74DC)	; &AJ1-01245;
+	(=adobe-japan1-0    . 01245)	; &AJ1-01245;
+	))
+      (=ucs@JP/hanazono	  . #x31C06)	; &hanaJU+31C06;
+      (->subsumptive
+       ((==ucs@JP/hanazono  . #x31C06)	; &g2-hanaJU+31C06;
+	))
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 97)	; ⽠
     (ideographic-strokes . 10)
     (total-strokes	 . 15)
     (=ucs		. #x24B0D)	; 𤬍
@@ -2410,6 +2440,40 @@
 	(==cns11643-7	    . #x623C)	; &g2-CU+24B24; [66-28]
 	))
       ))
+    ))
+(define-char
+  '((ideographic-radical . 97)	; ⽠
+    (ideographic-strokes . 21)
+    (total-strokes	 . 26)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x8821)	; 蠡
+      )
+     ((=ucs		  . #x74DC)	; 瓜
+      ))
+    (=ucs		. #x2CEAC)	; 𬺬
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x2CEAC)	; 𬺬
+      ))
+    (ideographic-radical . 97)	; ⽠
+    (ideographic-strokes . 21)
+    (total-strokes	 . 26)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@unicode	  . #x8821)	; &MJ023807;
+      (=mj		  . 023807)	; &MJ023807;
+      )
+     ((=ucs@jis		  . #x74DC)	; &AJ1-01245;
+      (=ucs@ks		  . #x74DC)	; &AJ1-01245;
+      (=adobe-japan1-0	  . 01245)	; &AJ1-01245;
+      ))
+    (=ucs@JP/hanazono	. #x2CEAC)	; &hanaJU+2CEAC;
     ))
 (define-char
   '((ideographic-radical . 97)	; ⽠

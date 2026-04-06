@@ -12346,9 +12346,21 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 187)	; ⾺
+  '((<-denotational@usage
+     ((ideographic-radical . 187)	; ⾺
+      (==>daijiten	. 13850)	; &A2-DJT-13850;
+      )
+     ((ideographic-radical . 187)	; ⾺
+      (==>ucs@bucs	. #x9A3E)	; &BUCS+9A3E;
+      ))
+    (ideographic-radical . 187)	; ⾺
     (ideographic-strokes . 13)
     (total-strokes	 . 23)
+    (ideographic-structure
+     ?⿵
+     ((=>ucs@iwds-1	. #x26760)	; &A-IWDSU+26760;
+      )
+     ?馬)
     (=ucs		. #x9A58)	; 驘
     ))
 (define-char
@@ -12452,6 +12464,34 @@
        ((==ucs@unicode	    . #x9A58)	; &g2-UU+9A58;
 	(==ucs@JP/hanazono  . nil)
 	))
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 187)	; ⾺
+    (ideographic-strokes . 13)
+    (total-strokes	 . 16)
+    (ideographic-structure
+     ?⿵
+     ((=>ucs@iwds-1	. #x26760)	; &A-IWDSU+26760;
+      )
+     ?马)
+    (=ucs		. #x33318)	; 𳌘
+    ))
+(define-char
+  '((ideographic-radical . 187)	; ⾺
+    (ideographic-strokes . 13)
+    (total-strokes	 . 16)
+    (<-denotational
+     ((=ucs		. #x33318)	; 𳌘
+      ))
+    (ideographic-structure
+     ?⿵
+     ((=ucs@iso		. #x23386)	; &U-00023386;
+      )
+     ?马)
+    (=ucs@JP/hanazono	. #x33318)	; 𳌘
+    (<-simplified@CN
+     ((=ucs@unicode	  . #x9A58)	; &UU+9A58;
       ))
     ))
 (define-char

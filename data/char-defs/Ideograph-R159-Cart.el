@@ -146,6 +146,30 @@
 (define-char
   '((ideographic-radical . 159)	; ⾞
     (ideographic-strokes . 1)
+    (total-strokes	 . 8)
+    (ideographic-structure
+     ?⿰
+     ?車
+     ((=>iwds-1		.  0340)	; &A-compU+4E59;
+      ))
+    (=ucs		. #x30E48)	; 𰹈
+    ))
+(define-char
+  '((ideographic-radical . 159)	; ⾞
+    (ideographic-strokes . 1)
+    (total-strokes	 . 8)
+    (ideographic-structure
+     ?⿰
+     ?車
+     ?乙)
+    (<-denotational
+     ((=ucs		. #x30E48)	; 𰹈
+      ))
+    (=ucs@JP/hanazono	. #x30E48)	; 𰹈
+    ))
+(define-char
+  '((ideographic-radical . 159)	; ⾞
+    (ideographic-strokes . 1)
     (total-strokes	 . 5)
     (=ucs		. #x8F67)	; 轧
     (=gb2312		. #x547E)	; &I-G0-547E; [52-94]
@@ -1158,6 +1182,19 @@
 (define-char
   '((ideographic-radical . 159)	; ⾞
     (ideographic-strokes . 3)
+    (total-strokes	 . 7)
+    (ideographic-structure
+     ?⿱
+     ?车
+     ?口)
+    (=ucs		. #x30E72)	; 𰹲
+    (<-simplified@CN
+     ((=gb2312		. #x6A26)	; &I-G0-6A26; [74-06]
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 159)	; ⾞
+    (ideographic-strokes . 3)
     (total-strokes	 . 10)
     (=ucs		. #x282A9)	; 𨊩
     (=cns11643-5	. #x3054)	; &I-C5-3054; [16-52]
@@ -1610,11 +1647,29 @@
     (=daikanwa		. 38206)	; &I-M-38206;
     ))
 (define-char
+  '((<-denotational@usage
+     ((ideographic-radical . 159)	; ⾞
+      (==>ucs@bucs	. #x8EDB)	; &BUCS+8EDB;
+      (==>daijiten	. 11760)	; &BUCS+8EDB;
+      ))
+    (ideographic-radical . 159)	; ⾞
+    (ideographic-strokes . 4)
+    (total-strokes	 . 11)
+    (ideographic-structure
+     ?⿰
+     ?車
+     ?厄)
+    (=ucs		. #x8EDB)	; 軛
+    ))
+(define-char
   '((ideographic-radical . 159)	; ⾞
     (ideographic-strokes . 4)
     (total-strokes	 . 11)
-    (=ucs		. #x8EDB)	; 軛
-    (=adobe-japan1-0	. 06850)	; &I-AJ1-06850;
+    (<-denotational
+     ((=ucs		. #x8EDB)	; 軛
+      ))
+    (=ucs@unicode	. #x8EDB)	; 軛
+    (=adobe-japan1-0	. 06850)	; &AJ1-06850;
     (=jis-x0208		. #x6D43)	; &I-J90-6D43; [77-35]
     (=cns11643-1	. #x5D53)	; &I-C1-5D53; [61-51]
     (=jis-x0213-1	. #x6D43)	; &I-JX1-6D43; [77-35]
@@ -1622,8 +1677,23 @@
     (=big5		. #xB36D)	; &I-B-B36D;
     (=gt		. 51051)	; &I-GT-51051;
     (=gt-pj-1		. #x6D43)	; &I-GT-51051; [77-35]
-    (=daikanwa		. 38207)	; &I-M-38207;
+    (=daikanwa		. 38207)	; &AJ1-06850;
+    (=daijiten		. 11760)	; &I-DJT-11760;
     (=shinjigen		.  8118)	; 軛
+    (->subsumptive
+     ((==ucs@unicode	. #x8EDB)	; 軛
+      (==adobe-japan1-0	. 06850)	; &AJ1-06850;
+      (==jis-x0208		. #x6D43)	; &I-J90-6D43; [77-35]
+      (==cns11643-1	. #x5D53)	; &I-C1-5D53; [61-51]
+      (==jis-x0213-1	. #x6D43)	; &I-JX1-6D43; [77-35]
+      (==gb12345		. #x696E)	; 軛 [73-78]
+      (==big5		. #xB36D)	; &I-B-B36D;
+      (==gt		. 51051)	; &I-GT-51051;
+      (==gt-pj-1		. #x6D43)	; &I-GT-51051; [77-35]
+      (==daikanwa		. 38207)	; &AJ1-06850;
+      (==daijiten		. 11760)	; &I-DJT-11760;
+      (==shinjigen		.  8118)	; 軛
+      ))
     ))
 (define-char
   '((ideographic-radical . 159)	; ⾞
@@ -6126,6 +6196,30 @@
     (ideographic-strokes . 7)
     (total-strokes	 . 14)
     (ideographic-structure
+     ?⿰
+     ?車
+     ?𫭠)
+    (=ucs		. #x2B3F7)	; 𫏷
+    ))
+(define-char
+  '((ideographic-radical . 159)	; ⾞
+    (ideographic-strokes . 7)
+    (total-strokes	 . 14)
+    (ideographic-structure
+     ?⿰
+     ?車
+     ((=ucs@JP/hanazono	. #x2BB60)	; 𫭠
+      ))
+    (<-denotational
+     ((=ucs		. #x2B3F7)	; 𫏷
+      ))
+    (=ucs@JP/hanazono	. #x2B3F7)	; 𫏷
+    ))
+(define-char
+  '((ideographic-radical . 159)	; ⾞
+    (ideographic-strokes . 7)
+    (total-strokes	 . 14)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
@@ -8303,6 +8397,20 @@
        ((===cbeta	    . 05206)	; &R-CB05206;
 	))
       ))
+    ))
+(define-char
+  '((ideographic-radical . 159)	; ⾞
+    (ideographic-strokes . 8)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ?⿱
+     ?车
+     ((ideographic-structure
+       ?⿰
+       ?车
+       ?车)
+      ))
+    (=ucs		. #x2EDDB)	; 𮷛
     ))
 (define-char
   '((ideographic-radical . 159)	; ⾞

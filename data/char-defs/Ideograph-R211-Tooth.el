@@ -1130,17 +1130,39 @@
       ))
     ))
 (define-char
+  '((<-denotational@usage
+     ((ideographic-radical . 211)	; ⿒
+      (==>daijiten	. 14845)	; &A2-DJT-14845;
+      ))
+    (ideographic-radical . 211)	; ⿒
+    (ideographic-strokes . 5)
+    (total-strokes	 . 20)
+    (ideographic-structure
+     ?⿰
+     ?齒
+     ?可)
+    (=ucs		. #x4D97)	; 䶗
+    ))
+(define-char
   '((ideographic-radical . 211)	; ⿒
     (ideographic-strokes . 5)
     (total-strokes	 . 20)
-    (=ucs		. #x4D97)	; 䶗
-    (->subsumptive
-     ((=daikanwa	  . 48616)	; &M-48616;
-      )
-     ((=cns11643-4	  . #x6627)	; &C4-6627; [70-07]
-      )
-     ((=ucs@unicode	  . #x4D97)	; &UU+4D97;
+    (<-denotational
+     ((=ucs		. #x4D97)	; 䶗
       ))
+    (=daikanwa	  . 48616)	; &M-48616;
+    (=cns11643-4	  . #x6627)	; &C4-6627; [70-07]
+    (->subsumptive
+     ((==daikanwa	  . 48616)	; &M-48616;
+      )
+     ((==cns11643-4	  . #x6627)	; &C4-6627; [70-07]
+      )
+     ((==ucs@unicode	  . #x4D97)	; &UU+4D97;
+      (->subsumptive
+       ((===ucs@unicode	  . #x4D97)	; &UU+4D97;
+	))
+      ))
+    (=ucs@unicode	  . #x4D97)	; &UU+4D97;
     ))
 (define-char
   '((ideographic-radical . 211)	; ⿒
@@ -1962,6 +1984,33 @@
     (total-strokes	 . 13)
     (=ucs		. #x9F85)	; 龅
     (=gb2312		. #x7635)	; &I-G0-7635; [86-21]
+    ))
+(define-char
+  '((ideographic-radical . 211)	; ⿒
+    (ideographic-strokes . 5)
+    (total-strokes	 . 13)
+    (ideographic-structure
+     ?⿰
+     ?齿
+     ?可)
+    (=ucs		. #x2EBD9)	; 𮯙
+    ))
+(define-char
+  '((ideographic-radical . 211)	; ⿒
+    (ideographic-strokes . 5)
+    (total-strokes	 . 13)
+    (ideographic-structure
+     ?⿰
+     ((=ucs@unicode	. #x9F7F)	; &G0-335D;
+      )
+     ?可)
+    (<-denotational
+     ((=ucs		. #x2EBD9)	; 𮯙
+      ))
+    (=ucs@JP/hanazono	. #x2EBD9)	; 𮯙
+    (<-simplified@CN
+     ((=ucs@unicode	  . #x4D97)	; &UU+4D97;
+      ))
     ))
 (define-char
   '((<-denotational@usage
@@ -4200,12 +4249,12 @@
      ((=ucs		. #x2A628)	; 𪘨
       ))
     (=ucs@iso		. #x2A628)	; 𪘨
-    (=cns11643-4	. #x6B62)	; &I-C4-6B62; [75-66]
-    (=daikanwa		. 48697)	; &M-48697;
+    (=cns11643-4	. #x6B62)	; &C4-6B62; [75-66]
+    (=daikanwa		. 48697)	; &C4-6B62;
     (->subsumptive
      ((==ucs@iso		. #x2A628)	; 𪘨
-      (==cns11643-4	. #x6B62)	; &I-C4-6B62; [75-66]
-      (==daikanwa		. 48697)	; &M-48697;
+      (==cns11643-4	. #x6B62)	; &C4-6B62; [75-66]
+      (==daikanwa		. 48697)	; &C4-6B62;
       ))
     ))
 (define-char

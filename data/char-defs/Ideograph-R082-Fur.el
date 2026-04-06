@@ -2700,6 +2700,23 @@
     ))
 (define-char
   '((ideographic-radical . 82)	; ⽑
+    (ideographic-strokes . 8)
+    (total-strokes	 . 12)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5485)	; 咅
+      )
+     ((=ucs		  . #x6BDB)	; 毛
+      ))
+    (=ucs		. #x306A2)	; 𰚢
+    (->subsumptive
+     ((==ucs@iso	  . #x306A2)	; &g2-IU-000306A2;
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 82)	; ⽑
     (ideographic-strokes . 9)
     (total-strokes	 . 13)
     (=ucs		. #x6BF7)	; 毷
@@ -5917,7 +5934,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=>big5-cdp	  . #x8DAE)	; &A-CB07641;
+     ((=ucs		  . #x3255F)	; 𲕟
       )
      ((=>ucs-itaiji-001	  . #x2DBD6)	; &A-U-i001+2DBD6;
       ))

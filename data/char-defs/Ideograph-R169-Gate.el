@@ -1037,6 +1037,16 @@
     (ideographic-strokes . 3)
     (total-strokes	 . 11)
     (ideographic-structure
+     ?⿵
+     ?門
+     ?夕)
+    (=ucs		. #x30FDA)	; 𰿚
+    ))
+(define-char
+  '((ideographic-radical . 169)	; ⾨
+    (ideographic-strokes . 3)
+    (total-strokes	 . 11)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM ABOVE")
       (=ucs		  . #x2FF5)	; ⿵
       )
@@ -3217,15 +3227,26 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 169)	; ⾨
+  '((<-denotational@usage
+     ((ideographic-radical . 169)	; ⾨
+      (==>daijiten	. 12732)	; &A2-DJT-12732;
+      ))
+    (ideographic-radical . 169)	; ⾨
     (ideographic-strokes . 5)
     (total-strokes	 . 13)
+    (ideographic-structure
+     ?⿵
+     ?門
+     ?可)
     (=ucs		. #x959C)	; 閜
+    (=daikanwa	  . 41279)	; 閜
+    (=daijiten	  . 12732)	; &I-DJT-12732;
     (->subsumptive
-     ((=daikanwa	  . 41279)	; &M-41279;
+     ((==daikanwa	  . 41279)	; 閜
       )
-     ((=ucs@unicode	  . #x959C)	; &C2-4854;
-      (=cns11643-2	  . #x4854)	; &C2-4854; [40-52]
+     ((==ucs@unicode	  . #x959C)	; &C2-4854;
+      (==cns11643-2	  . #x4854)	; &C2-4854; [40-52]
+      (==daijiten	  . 12732)	; &I-DJT-12732;
       ))
     ))
 (define-char
@@ -3493,6 +3514,32 @@
     (total-strokes	 . 8)
     (=ucs		. #x95F9)	; 闹
     (=gb2312		. #x4456)	; &I-G0-4456; [36-54]
+    ))
+(define-char
+  '((ideographic-radical . 169)	; ⾨
+    (ideographic-strokes . 5)
+    (total-strokes	 . 13)
+    (ideographic-structure
+     ?⿵
+     ?门
+     ?可)
+    (=ucs		. #x2CBA0)	; 𬮠
+    ))
+(define-char
+  '((ideographic-radical . 169)	; ⾨
+    (ideographic-strokes . 5)
+    (total-strokes	 . 13)
+    (ideographic-structure
+     ?⿵
+     ?⻔
+     ?可)
+    (<-denotational
+     ((=ucs		. #x2CBA0)	; 𬮠
+      ))
+    (=ucs@JP/hanazono	. #x2CBA0)	; 𬮠
+    (<-simplified@CN
+     ((=ucs	  . #x959C)	; &C2-4854;
+      ))
     ))
 (define-char
   '((ideographic-radical . 169)	; ⾨
@@ -6214,7 +6261,16 @@
      ((=ucs		  . #x6216)	; 或
       ))
     (=ucs		. #x95BE)	; 閾
-    (=adobe-japan1-0	. 07074)	; &I-AJ1-07074;
+    ))
+(define-char
+  '((ideographic-radical . 169)	; ⾨
+    (ideographic-strokes . 8)
+    (total-strokes	 . 16)
+    (<-denotational
+     ((=ucs		. #x95BE)	; 閾
+      ))
+    (=ucs@unicode	. #x95BE)	; 閾
+    (=adobe-japan1-0	. 07074)	; &AJ1-07074;
     (=jis-x0208		. #x6F67)	; &I-J90-6F67; [79-71]
     (=cns11643-2	. #x5B54)	; &I-C2-5B54; [59-52]
     (=jis-x0213-1	. #x6F67)	; &I-JX1-6F67; [79-71]

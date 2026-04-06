@@ -620,7 +620,7 @@
     (<-denotational@usage
      ((ideographic-radical . 194)	; ⿁
       (==>ucs@bucs	. #x9B41)	; &BUCS+9B41;
-      (==>daijiten	. 14066)	; &A2-DJT-14066;
+      (==>daijiten	. 14066)	; &BUCS+9B41;
       ))
     (ideographic-radical . 194)	; ⿁
     (ideographic-strokes . 4)
@@ -1019,6 +1019,29 @@
   '((ideographic-radical . 194)	; ⿁
     (ideographic-strokes . 4)
     (ideographic-structure
+     ?⿺
+     ?鬼
+     ?化)
+    (=ucs		. #x33333)	; 𳌳
+    ))
+(define-char
+  '((ideographic-radical . 194)	; ⿁
+    (ideographic-strokes . 4)
+    (ideographic-structure
+     ?⿺
+     ((=ucs@jis		  . #x9B3C)	; &AJ1-01614;
+      )
+     ((=ucs@unicode	. #x5316)	; &AJ1-13665;
+      ))
+    (<-denotational
+     ((=ucs		. #x33333)	; 𳌳
+      ))
+    (=ucs@JP/hanazono	. #x33333)	; 𳌳
+    ))
+(define-char
+  '((ideographic-radical . 194)	; ⿁
+    (ideographic-strokes . 4)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER LEFT")
       (=ucs		  . #x2FFA)	; ⿺
       )
@@ -1026,7 +1049,24 @@
       )
      ((=ucs		  . #x20540)	; 𠕀
       ))
+    (=ucs		. #x33331)	; 𳌱
     (=>ucs-itaiji-001	. #x4C23)	; &A-U-i001+4C23;
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		. #x33331)	; 𳌱
+      ))
+    (ideographic-radical . 194)	; ⿁
+    (ideographic-strokes . 4)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER LEFT")
+      (=ucs		  . #x2FFA)	; ⿺
+      )
+     ((=ucs-itaiji-001	. #x9B3C)	; &U-i001+9B3C;
+      )
+     ((=ucs		  . #x20540)	; 𠕀
+      ))
+    (=ucs@JP/hanazono	. #x33331)	; 𳌱
     ))
 (define-char
   '((=>ucs		. #x29CA1)	; 𩲡

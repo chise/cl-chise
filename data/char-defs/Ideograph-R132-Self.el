@@ -1771,6 +1771,21 @@
     ))
 (define-char
   '((ideographic-radical . 132)	; ⾃
+    (ideographic-strokes . 11)
+    (total-strokes	 . 17)
+    (=ucs		. #x2C6EE)	; 𬛮
+    ))
+(define-char
+  '((ideographic-radical . 132)	; ⾃
+    (ideographic-strokes . 11)
+    (total-strokes	 . 17)
+    (<-denotational
+     ((=ucs		. #x2C6EE)	; 𬛮
+      ))
+    (=ucs@JP/hanazono	. #x2C6EE)	; 𬛮
+    ))
+(define-char
+  '((ideographic-radical . 132)	; ⾃
     (ideographic-structure
      ((=ucs-itaiji-001	  . #x2FFB)	; &U-i001+2FFB;
       )

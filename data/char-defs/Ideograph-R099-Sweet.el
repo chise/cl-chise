@@ -549,21 +549,32 @@
     (ideographic-strokes . 4)
     (total-strokes	 . 9)
     (ideographic-structure
-     ?⿱
-     ?氏
-     ?甘)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x6C0F)	; 氏
+      )
+     ((=ucs		  . #x7518)	; 甘
+      ))
     (=ucs		. #x24BC1)	; 𤯁
     (=cns11643-6	. #x3270)	; &I-C6-3270; [18-80]
-    (=daikanwa		. 21650)	; &I-M-21650;
+    (=daikanwa 		. 21650)	; &I-M-21650;
     (<-ancient
      ((=ucs		  . #x20BD1)	; 𠯑
       ))
     (<-ancient$_1*sources
      shuowen)
     (->subsumptive
-     ((==ucs@iso		. #x24BC1)	; 𤯁
-      (==cns11643-6	. #x3270)	; &I-C6-3270; [18-80]
-      (==daikanwa		. 21650)	; &I-M-21650;
+     ((==ucs@iso	  . #x24BC1)	; &g2-M-21650;
+      (==cns11643-6	  . #x3270)	; &g2-M-21650; [18-80]
+      (==daikanwa	  . 21650)	; &g2-M-21650;
+      (->subsumptive
+       ((===daikanwa	    . 21650)	; &R-M-21650;
+	)
+       ((===cns11643-6	    . #x3270)	; &R-C6-3270; [18-80]
+	)
+       ((===ucs@iso	    . #x24BC1)	; &R-U-00024BC1;
+	))
       ))
     ))
 (define-char

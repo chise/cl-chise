@@ -3980,12 +3980,12 @@
      ?酉
      ?吾)
     (=ucs		. #x2E82C)	; 𮠬
-    (=cbeta		. 04539)	; &CB04539;
+    (=cbeta		. 04539)	; 𮠬
     (->subsumptive
      ((==ucs@JP/hanazono		. #x2E82C)	; 𮠬
-      (==cbeta		. 04539)	; &CB04539;
+      (==cbeta		. 04539)	; 𮠬
       (->subsumptive
-       ((===cbeta		. 04539)	; &CB04539;
+       ((===cbeta		. 04539)	; 𮠬
 	))
       ))
     ))
@@ -7937,6 +7937,35 @@
       )
      ((=ucs@iso		  . #x288B1)	; &U-000288B1;
       ))
+    ))
+(define-char
+  '((ideographic-radical . 164)	; ⾣
+    (ideographic-strokes . 11)
+    (total-strokes	 . 18)
+    (ideographic-structure
+     ?⿰
+     ?酉
+     ?盖)
+    (=ucs		. #x288B8)	; 𨢸
+    ))
+(define-char
+  '((ideographic-radical . 164)	; ⾣
+    (ideographic-strokes . 11)
+    (total-strokes	 . 18)
+    (<-denotational
+     ((=ucs		. #x288B8)	; 𨢸
+      ))
+    (=ucs@iso		. #x288B8)	; 𨢸
+    (=daikanwa/ho . 0628)
+    ))
+(define-char
+  '((ideographic-radical . 164)	; ⾣
+    (ideographic-strokes . 11)
+    (total-strokes	 . 18)
+    (<-denotational
+     ((=ucs		. #x288B8)	; 𨢸
+      ))
+    (=cbeta	. 1641)
     ))
 (define-char
   '((ideographic-radical . 164)	; ⾣

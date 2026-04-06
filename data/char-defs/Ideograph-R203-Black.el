@@ -480,9 +480,9 @@
      ?&JX1-7E72;
      ?大)
     (=ucs@iso		. #x2A41D)	; 𪐝
-    (=daikanwa	  . 48048)	; &M-48048;
+    (=daikanwa	  . 48048)	; &C4-4F55;
     (->subsumptive
-     ((==daikanwa	  . 48048)	; &M-48048;
+     ((==daikanwa	  . 48048)	; &C4-4F55;
       )
      ((==ucs@iso		  . #x2A41D)	; &C4-4F55;
       (==cns11643-4	  . #x4F55)	; &C4-4F55; [47-53]
@@ -863,7 +863,7 @@
     (<-denotational@usage
      ((ideographic-radical . 203)	; ⿊
       (==>ucs@bucs	. #x9ED8)	; &BUCS+9ED8;
-      (==>daijiten	. 14720)	; &A2-DJT-14720;
+      (==>daijiten	. 14720)	; &BUCS+9ED8;
       ))
     (ideographic-radical . 203)	; ⿊
     (=ucs		. #x9ED8)	; 默
@@ -881,7 +881,7 @@
       )
      ?犬)
     (=ucs@unicode	. #x9ED8)	; 默
-    (=adobe-japan1-0	. 05645)	; &I-AJ1-05645;
+    (=adobe-japan1-0	. 05645)	; &AJ1-05645;
     (=jis-x0208		. #x6054)	; &I-J90-6054; [64-52]
     (=gb2312		. #x442C)	; &I-G0-442C; [36-12]
     (=ks-x1001		. #x5979)	; &I-K0-5979; [57-89]
@@ -889,7 +889,7 @@
     (=jis-x0213-1	. #x6054)	; &I-JX1-6054; [64-52]
     (=gt		. 65598)	; &I-GT-65598;
     (=gt-pj-1		. #x6054)	; &I-GT-65598; [64-52]
-    (=daikanwa		. 48063)	; &M-48063;
+    (=daikanwa		. 48063)	; &AJ1-05645;
     (->subsumptive
      ((==daikanwa	  . 48063)	; &g2-M-48063;
       )
@@ -3129,7 +3129,7 @@
       (=jis-x0213-1	  . #x7E72)	; &I-JX1-7E72; [94-82]
       (=daikanwa	  . 48038)	; &I-M-48038;
       )
-     ((=ucs		  . #x6216)	; 或
+     ((=ucs@unicode	  . #x6216)	; 或
       ))
     (=ucs@iso		. #x2A45D)	; &C4-657A;
     (=cns11643-4	. #x657A)	; &C4-657A; [69-90]
@@ -4058,6 +4058,35 @@
      ((=daikanwa	  . 48168)	; &M-48168;
       )
      ((=ucs@iso		  . #x2A478)	; &U-0002A478;
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 203)	; ⿊
+    (ideographic-strokes . 9)
+    (ideographic-structure
+     ?⿰
+     ((=>iwds-1		.  0184)	; &J97-3975;
+      )
+     ?𱅑)
+    (=ucs		. #x2CE58)	; 𬹘
+    ))
+(define-char
+  '((ideographic-radical . 203)	; ⿊
+    (ideographic-strokes . 9)
+    (total-strokes	 . 21)
+    (ideographic-structure
+     ?⿰
+     ((=ucs@unicode	. #x9ED1)	; &JX1-7E72;
+      )
+     ((=ucs@JP/hanazono	. #x31151)	; &hanaJU+31151;
+      ))
+    (<-denotational
+     ((=ucs		. #x2CE58)	; 𬹘
+      ))
+    (total-strokes	 . 21)
+    (=ucs@JP/hanazono	. #x2CE58)	; 𬹘
+    (<-simplified@CN
+     ((=ucs@iso		. #x2A4BF)	; &C5-7B5B;
       ))
     ))
 (define-char

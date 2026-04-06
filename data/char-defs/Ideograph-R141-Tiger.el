@@ -1617,7 +1617,7 @@
       )
      ((=ucs		  . #x864D)	; 虍
       )
-     ((=ucs		  . #x2B739)	; 𫜹
+     ((=adobe-japan1-4	. 15391)	; &AJ1-15391;
       ))
     (=ucs@JP/hanazono	. #x2B29E)	; &hanaJU+2B29E;
     ))
@@ -8867,6 +8867,31 @@
        ((===ruimoku-v6	    . #xE119)	; &R-RUI6-E119;
 	))
       ))
+    ))
+(define-char
+  '((ideographic-radical . 141)	; ⾌
+    (ideographic-strokes . 11)
+    (total-strokes	 . 17)
+    (ideographic-structure
+     ?⿸
+     ?虍
+     ?鳥)
+    (=ucs		. #x32F85)	; 𲾅
+    ))
+(define-char
+  '((ideographic-radical . 141)	; ⾌
+    (ideographic-strokes . 11)
+    (total-strokes	 . 17)
+    (<-denotational
+     ((=ucs		. #x32F85)	; 𲾅
+      ))
+    (ideographic-structure
+     ?⿸
+     ((=ucs@unicode	. #x864D)	; &AJ1-06479;
+      )
+     ((=ucs@unicode	. #x9CE5)	; &AJ1-03031;
+      ))
+    (=ucs@JP/hanazono	. #x32F85)	; 𲾅
     ))
 (define-char
   '((ideographic-radical . 141)	; ⾌

@@ -4926,7 +4926,7 @@
       )
      ((=ucs		  . #x79BE)	; 禾
       )
-     ((=>gt-k		  . 01816)	; &A-GT-K01816;
+     ((=ucs		  . #x327B9)	; 𲞹
       ))
     (=ucs		. #x257AF)	; 𥞯
     ))
@@ -6578,7 +6578,7 @@
      ((=ucs@unicode	  . #x79BE)	; &AJ1-01363;
       (=adobe-japan1-0	  . 01363)	; &AJ1-01363;
       )
-     ((=ucs-var-001	. #x5F1F)	; &U-v001+5F1F;
+     ((=ucs-var-001	  . #x5F1F)	; &U-v001+5F1F;
       ))
     (=ucs-var-001	. #x7A0A)	; &U-v001+7A0A;
     ))
@@ -14275,6 +14275,36 @@
   '((ideographic-radical . 115)	; ⽲
     (ideographic-strokes . 11)
     (total-strokes	 . 16)
+    (ideographic-structure
+     ?⿰
+     ?禾
+     ?𲏅)
+    (=ucs		. #x2587E)	; 𥡾
+    ))
+(define-char
+  '((ideographic-radical . 115)	; ⽲
+    (ideographic-strokes . 11)
+    (total-strokes	 . 16)
+    (<-denotational
+     ((=ucs		. #x2587E)	; 𥡾
+      ))
+    (ideographic-structure
+     ?⿰
+     ((=ucs@unicode	. #x79BE)	; &AJ1-01363;
+      )
+     ((=ucs-itaiji-001	. #x323C5)	; &U-i001+323C5;
+      ))
+    (=ucs@iso		. #x2587E)	; 𥡾
+    (=daikanwa/ho . 0430)
+    (->subsumptive
+     ((==ucs@iso		. #x2587E)	; 𥡾
+      (==daikanwa/ho . 0430)
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 115)	; ⽲
+    (ideographic-strokes . 11)
+    (total-strokes	 . 16)
     (=>ucs@cognate	. #x2585E)	; &A-cgnU+2585E;
     ))
 (define-char
@@ -18716,6 +18746,15 @@
       ))
     (sound@ja/on	"sIu")
     (=ucs		. #x2A6C1)	; 𪛁
+    (<-Zhouwen
+     ((=ucs		  . #x79CC)	; 秌
+      )
+     ((=ucs		  . #x79CB)	; 秋
+      ))
+    (<-Zhouwen$_1*sources
+     shuowen)
+    (<-Zhouwen$_2*sources
+     shuowen)
     ))
 (define-char
   '((<-denotational
@@ -18840,6 +18879,15 @@
      ((=ucs		  . #x2A6B0)	; 𪚰
       ))
     (=ucs		. #x2591A)	; 𥤚
+    (<-Zhouwen
+     ((=ucs		  . #x79CC)	; 秌
+      )
+     ((=ucs		  . #x79CB)	; 秋
+      ))
+    (<-Zhouwen$_1*sources
+     shuowen)
+    (<-Zhouwen$_2*sources
+     shuowen)
     ))
 (define-char
   '((<-denotational
@@ -18912,6 +18960,15 @@
 (define-char
   '((ideographic-radical . 115)	; ⽲
     (=ucs		. #x2591B)	; 𥤛
+    (<-Zhouwen
+     ((=ucs		  . #x79CC)	; 秌
+      )
+     ((=ucs		  . #x79CB)	; 秋
+      ))
+    (<-Zhouwen$_1*sources
+     shuowen)
+    (<-Zhouwen$_2*sources
+     shuowen)
     ))
 (define-char
   '((<-denotational

@@ -3462,6 +3462,7 @@
       )
      ((=ucs		  . #x9FB7)	; 龷
       ))
+    (=ucs		. #x3302E)	; 𳀮
     (=>gt		. 00412)	; &A-CB13293;
     (=>cbeta		. 13293)	; &A-CB13293;
     ))
@@ -3482,10 +3483,13 @@
      ((=ucs@unicode	  . #x9FB7)	; &CDP-8B5C;
       (=big5-cdp	  . #x8B5C)	; &CDP-8B5C;
       ))
+    (=ucs@JP/hanazono	. #x3302E)	; 𳀮
     (=gt		. 00412)	; &GT-00412;
     (=gt-pj-11		. #x4C59)	; &GT-00412; [44-57]
     (=cbeta		. 13293)	; &I-CB13293;
     (->subsumptive
+     ((==ucs@JP/hanazono	. #x3302E)	; 𳀮
+      )
      ((==gt		  . 00412)	; &g2-GT-00412;
       (==cbeta		  . 13293)	; &g2-GT-00412;
       (->subsumptive

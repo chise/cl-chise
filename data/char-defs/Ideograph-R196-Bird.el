@@ -3535,6 +3535,31 @@
 (define-char
   '((ideographic-radical . 196)	; ⿃
     (ideographic-strokes . 4)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ?⿰
+     ?𲓞
+     ?鳥)
+    (=ucs		. #x2CDC2)	; 𬷂
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 4)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ?⿰
+     ((=ucs@JP/hanazono	. #x324DE)	; &hanaJU+324DE;
+      )
+     ((=ucs@unicode	. #x9CE5)	; &AJ1-03031;
+      ))
+    (<-denotational
+     ((=ucs		. #x2CDC2)	; 𬷂
+      ))
+    (=ucs@JP/hanazono	. #x2CDC2)	; 𬷂
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 4)
     (total-strokes	 . 9)
     (=ucs		. #x9E25)	; 鸥
     (=gb2312		. #x4538)	; &I-G0-4538; [37-24]
@@ -8338,9 +8363,29 @@
   '((ideographic-radical . 196)	; ⿃
     (ideographic-strokes . 7)
     (total-strokes	 . 18)
+    (ideographic-structure
+     ?⿰
+     ?尨
+     ?鳥)
     (=ucs		. #x2A06A)	; 𪁪
-    (=cns11643-7	. #x4560)	; &I-C7-4560; [37-64]
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 7)
+    (total-strokes	 . 18)
+    (<-denotational
+     ((=ucs		. #x2A06A)	; 𪁪
+      ))
+    (=ucs@iso		. #x2A06A)	; 𪁪
+    (=cns11643-7	. #x4560)	; &C7-4560; [37-64]
     (=daikanwa		. 46929)	; &I-M-46929;
+    (=cbeta		. 03619)	; &C7-4560;
+    (->subsumptive
+     ((==ucs@iso		. #x2A06A)	; 𪁪
+      (==cns11643-7	. #x4560)	; &C7-4560; [37-64]
+      (==daikanwa		. 46929)	; &I-M-46929;
+      (==cbeta		. 03619)	; &C7-4560;
+      ))
     ))
 (define-char
   '((ideographic-radical . 196)	; ⿃
@@ -9945,6 +9990,31 @@
     (ideographic-strokes . 6)
     (total-strokes	 . 17)
     (=ucs@iso		. #x2A076)	; 𪁶
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 7)
+    (total-strokes	 . 12)
+    (ideographic-structure
+     ?⿰
+     ?𲝉
+     ?鳥)
+    (=ucs		. #x2B6BD)	; 𫚽
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 7)
+    (total-strokes	 . 12)
+    (ideographic-structure
+     ?⿰
+     ((=ucs@JP/hanazono	. #x32749)	; &hanaJU+32749;
+      )
+     ((=ucs@unicode	. #x9CE5)	; &AJ1-03031;
+      ))
+    (<-denotational
+     ((=ucs		. #x2B6BD)	; 𫚽
+      ))
+    (=ucs@JP/hanazono	. #x2B6BD)	; 𫚽
     ))
 (define-char
   '((ideographic-radical . 196)	; ⿃
@@ -12394,6 +12464,55 @@
     (ideographic-strokes . 8)
     (total-strokes	 . 19)
     (ideographic-structure
+     ?⿰
+     ?𰗕
+     ?鳥)
+    (=ucs		. #x2CDE0)	; 𬷠
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 8)
+    (total-strokes	 . 19)
+    (ideographic-structure
+     ?⿰
+     ((=ucs@JP/hanazono	. #x305D5)	; &hanaJU+305D5;
+      )
+     ((=ucs@unicode	. #x9CE5)	; &AJ1-03031;
+      ))
+    (<-denotational
+     ((=ucs		. #x2CDE0)	; 𬷠
+      ))
+    (=ucs@JP/hanazono	. #x2CDE0)	; 𬷠
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 8)
+    (total-strokes	 . 13)
+    (ideographic-structure
+     ?⿱
+     ?𲂻
+     ?鸟)
+    (=ucs		. #x2CE15)	; 𬸕
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 8)
+    (total-strokes	 . 13)
+    (ideographic-structure
+     ?⿱
+     ((=ucs@JP/hanazono	. #x320BB)	; &U-i001+8CCF;
+      )
+     ?⻦)
+    (<-denotational
+     ((=ucs		. #x2CE15)	; 𬸕
+      ))
+    (=ucs@JP/hanazono	. #x2CE15)	; 𬸕
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 8)
+    (total-strokes	 . 13)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
@@ -12431,7 +12550,7 @@
       ))
     (ideographic-radical . 196)	; ⿃
     (ideographic-strokes . 8)
-    (total-strokes	 . 19)
+    (total-strokes	 . 13)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
@@ -22861,6 +22980,30 @@
        ((===ucs@unicode	    . #x9E04)	; &R-UU+9E04;
 	))
       ))
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-structure
+     ?⿱
+     ((=>ucs-itaiji-006	. #x8207)	; &A-U-i006+8207;
+      )
+     ?鳥)
+    (=ucs		. #x333E7)	; 𳏧
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (<-denotational
+     ((=ucs		. #x333E7)	; 𳏧
+      ))
+    (ideographic-strokes . 12)
+    (total-strokes	 . 23)
+    (ideographic-structure
+     ?⿱
+     ((=ucs-itaiji-006	. #x8207)	; &A-U-i006+8207;
+      )
+     ((=ucs@unicode	. #x9CE5)	; &AJ1-03031;
+      ))
+    (=ucs@JP/hanazono	. #x333E7)	; 𳏧
     ))
 (define-char
   '((ideographic-radical . 196)	; ⿃

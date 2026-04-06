@@ -1386,6 +1386,9 @@
   '((<-denotational
      ((=>ucs@cognate	  . #x76CA)	; &A-cgnU+76CA;
       ))
+    (<-denotational@usage
+     ((==>ucs@bucs	  . #x76CA)	; &BUCS+76CA;
+      ))
     (ideographic-radical . 108)	; ⽫
     (ideographic-strokes . 5)
     (total-strokes	 . 10)
@@ -1424,6 +1427,7 @@
     (=gt-k		. 06687)	; &I-GT-K06687;
     (=gt-pj-5		. #x3E7D)	; &I-GT-29427; [30-93]
     (=daikanwa		. 22972)	; &I-M-22972;
+    (=daijiten		. 07759)	; &I-DJT-07759;
     (=jef-china3	. #x5BB7)	; &I-JC3-5BB7;
     (->subsumptive
      ((=decomposition@cid
@@ -1438,9 +1442,12 @@
       (==gt		  . 29427)	; &g2-AJ1-08571;
       (==gt-k		  . 06687)	; &g2-AJ1-08571;
       (==daikanwa	  . 22972)	; &g2-AJ1-08571;
+      (==daijiten	  . 07759)	; &g2-AJ1-08571;
       (==jef-china3	  . #x5BB7)	; &g2-AJ1-08571;
       (->subsumptive
        ((===daikanwa	    . 22972)	; &R-M-22972;
+	)
+       ((===daijiten	    . 07759)	; &R-DJT-07759;
 	)
        ((===adobe-japan1-2  . 08571)	; &R-AJ1-08571;
 	)
@@ -1457,6 +1464,38 @@
       )
      ((===hng-kar	  . 10980)	; &HNG018-10980;
       ))
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@cognate	  . #x76CA)	; &A-cgnU+76CA;
+      ))
+    (ideographic-radical . 108)	; ⽫
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=>big5-cdp	  . #x8864)	; &A-CDP-8864;
+      )
+     ((=ucs		  . #x76BF)	; 皿
+      ))
+    (=>cbeta		. 13063)	; &A-CB13063;
+    ))
+(define-char
+  '((<-denotational
+     ((=>cbeta		  . 13063)	; &A-CB13063;
+      ))
+    (ideographic-radical . 108)	; ⽫
+    (ideographic-strokes . 6)
+    (total-strokes	 . 11)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=big5-cdp-itaiji-003 . #x8CF0)	; &CDP-i003-8CF0;
+      )
+     ((=ucs		  . #x76BF)	; 皿
+      ))
+    (=cbeta		. 13063)	; &CB13063;
     ))
 (define-char
   '((<-denotational
@@ -1953,9 +1992,10 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 108)	; ⽫
-    (ideographic-strokes . 5)
-    (total-strokes	 . 10)
+  '((<-denotational@usage
+     ((==>ucs@bucs	  . #x76CE)	; &BUCS+76CE;
+      ))
+    (ideographic-radical . 108)	; ⽫
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
@@ -1965,13 +2005,27 @@
      ((=ucs		  . #x76BF)	; 皿
       ))
     (=ucs		. #x76CE)	; 盎
-    (=adobe-japan1-5	. 16993)	; &I-AJ1-16993;
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x76CE)	; 盎
+      ))
+    (ideographic-radical . 108)	; ⽫
+    (ideographic-strokes . 5)
+    (total-strokes	 . 10)
+    (ideographic-structure
+     ?⿱
+     ?&AJ1-01309;
+     ?皿)
+    (=ucs@unicode	. #x76CE)	; &AJ1-16993;
+    (=adobe-japan1-5	. 16993)	; &AJ1-16993;
     (=gb2312		. #x303B)	; &I-G0-303B; [16-27]
     (=jis-x0212		. #x4E4E)	; &I-JSP-4E4E; [46-46]
     (=cns11643-1	. #x5676)	; &I-C1-5676; [54-86]
     (=jis-x0213-1	. #x7869)	; &I-JX1-7869; [88-73]
     (=big5		. #xAF73)	; &I-B-AF73;
     (=daikanwa		. 22981)	; &I-M-22981;
+    (=daijiten		. 07763)	; &I-DJT-07763;
     (=jef-china3	. #x92BB)	; &I-JC3-92BB;
     (->subsumptive
      ((=decomposition@cid
@@ -1985,9 +2039,12 @@
       (==jis-x0212	  . #x4E4E)	; &g2-AJ1-16993; [46-46]
       (==jis-x0213-1	  . #x7869)	; &g2-AJ1-16993; [88-73]
       (==daikanwa	  . 22981)	; &g2-AJ1-16993;
+      (==daijiten	  . 07763)	; &g2-AJ1-16993;
       (==jef-china3	  . #x92BB)	; &g2-AJ1-16993;
       (->subsumptive
        ((===daikanwa	    . 22981)	; &R-M-22981;
+	)
+       ((===daijiten	    . 07763)	; &R-DJT-07763;
 	)
        ((===jis-x0212	    . #x4E4E)	; &R-JX1-7869; [46-46]
 	(===jis-x0213-1	    . #x7869)	; &R-JX1-7869; [88-73]
@@ -7766,11 +7823,21 @@
     ))
 (define-char
   '((ideographic-radical . 108)	; ⽫
+    (==>ucs@bucs	. #x76CA)	; &BUCS+76CA;
+    (==>daijiten	. 07759)	; &BUCS+76CA;
+    ))
+(define-char
+  '((ideographic-radical . 108)	; ⽫
     (==>daijiten	. 07764)	; &A2-DJT-07764;
     ))
 (define-char
   '((ideographic-radical . 108)	; ⽫
     (==>daijiten	. 07761)	; &A2-DJT-07761;
+    ))
+(define-char
+  '((ideographic-radical . 108)	; ⽫
+    (==>ucs@bucs	. #x76CE)	; &BUCS+76CE;
+    (==>daijiten	. 07763)	; &BUCS+76CE;
     ))
 (define-char
   '((ideographic-radical . 108)	; ⽫

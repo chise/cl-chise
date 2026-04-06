@@ -1398,6 +1398,12 @@
   '((ideographic-radical . 144)	; ⾏
     (ideographic-strokes . 8)
     (total-strokes	 . 14)
+    (=ucs		. #x2CEAD)	; 𬺭
+    ))
+(define-char
+  '((ideographic-radical . 144)	; ⾏
+    (ideographic-strokes . 8)
+    (total-strokes	 . 14)
     (=ucs		. #x275FA)	; 𧗺
     (=cns11643-6	. #x6227)	; &I-C6-6227; [66-07]
     (=gt		. 45938)	; &I-GT-45938;

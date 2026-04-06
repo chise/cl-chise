@@ -3299,11 +3299,28 @@
     ))
 (define-char
   '((ideographic-radical . 122)	; ⽹
+    (ideographic-structure
+     ?⿱
+     ?罒
+     ((=>ucs@iwds-1	. #x8C55)	; &A-IWDSU+8C55;
+      ))
+    (=ucs		. #x262BD)	; 𦊽
+    ))
+(define-char
+  '((ideographic-radical . 122)	; ⽹
+    (<-denotational
+     ((=ucs		. #x262BD)	; 𦊽
+      ))
     (ideographic-strokes . 7)
     (total-strokes	 . 12)
-    (=ucs		. #x262BD)	; 𦊽
-    (=cns11643-5	. #x3B35)	; &I-C5-3B35; [27-21]
+    (=ucs@iso		. #x262BD)	; 𦊽
+    (=cns11643-5	. #x3B35)	; &C5-3B35; [27-21]
     (=daikanwa		. 28273)	; &I-M-28273;
+    (->subsumptive
+     ((==ucs@iso		. #x262BD)	; 𦊽
+      (==cns11643-5	. #x3B35)	; &C5-3B35; [27-21]
+      (==daikanwa		. 28273)	; &I-M-28273;
+      ))
     ))
 (define-char
   '((ideographic-radical . 122)	; ⽹
@@ -4165,7 +4182,11 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 122)	; ⽹
+  '((<-denotational@usage
+     ((ideographic-radical . 122)	; ⽹
+      (==>daijiten	. 09127)	; &A2-DJT-09127;
+      ))
+    (ideographic-radical . 122)	; ⽹
     (ideographic-strokes . 8)
     (total-strokes	 . 13)
     (ideographic-structure
@@ -4177,12 +4198,22 @@
      ((=ucs		  . #x6216)	; 或
       ))
     (=ucs		. #x7F6D)	; 罭
+    ))
+(define-char
+  '((ideographic-radical . 122)	; ⽹
+    (ideographic-strokes . 8)
+    (total-strokes	 . 13)
+    (<-denotational
+     ((=ucs		. #x7F6D)	; 罭
+      ))
+    (=ucs@unicode	. #x7F6D)	; 罭
     (=adobe-japan1-5	. 18389)	; &I-AJ1-18389;
     (=jis-x0212		. #x547E)	; &I-JSP-547E; [52-94]
     (=cns11643-2	. #x462E)	; &I-C2-462E; [38-14]
     (=jis-x0213-2	. #x746F)	; &I-JX2-746F; [84-79]
     (=big5		. #xDF67)	; &I-B-DF67;
     (=daikanwa		. 28297)	; &I-M-28297;
+    (=daijiten		. 09127)	; &I-DJT-09127;
     (=jef-china3	. #x8DD2)	; &I-JC3-8DD2;
     (->subsumptive
      ((==ucs@unicode	  . #x7F6D)	; &g2-AJ1-18389;
@@ -4191,6 +4222,7 @@
       (==cns11643-2	  . #x462E)	; &g2-AJ1-18389; [38-14]
       (==jis-x0213-2	  . #x746F)	; &g2-AJ1-18389; [84-79]
       (==daikanwa	  . 28297)	; &g2-AJ1-18389;
+      (==daijiten	. 09127)	; &I-DJT-09127;
       (==jef-china3	  . #x8DD2)	; &g2-AJ1-18389;
       (->subsumptive
        ((===daikanwa	    . 28297)	; &R-M-28297;

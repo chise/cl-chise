@@ -1656,6 +1656,16 @@
     (ideographic-strokes . 5)
     (total-strokes	 . 9)
     (ideographic-structure
+     ?⿱
+     ?𰀢
+     ?見)
+    (=ucs		. #x33056)	; 𳁖
+    ))
+(define-char
+  '((ideographic-radical . 147)	; ⾒
+    (ideographic-strokes . 5)
+    (total-strokes	 . 9)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
@@ -4003,6 +4013,7 @@
       )
      ((=ucs		  . #x898B)	; 見
       ))
+    (=ucs		. #x33056)	; 𳁖
     (=>ucs-itaiji-003	. #x89A7)	; &A-U-i003+89A7;
     ))
 (define-char
@@ -4056,9 +4067,11 @@
       )
      ((=ucs		  . #x898B)	; 見
       ))
+    (=ucs@JP/hanazono	. #x33056)	; 𳁖
     (=ucs-itaiji-003	. #x89A7)	; &U-i003+89A7;
     (->subsumptive
      ((==ucs-itaiji-003	  . #x89A7)	; &g2-U-i003+89A7;
+      (==ucs@JP/hanazono	. #x33056)	; 𳁖
       ))
     ))
 (define-char
@@ -6803,8 +6816,8 @@
       )
      ?見)
     (=ucs@unicode	. #x4695)	; 䚕
-    (=daikanwa	  . 34996)	; &M-34996;
-    (=ucs@unicode	  . #x4695)	; &UU+4695;
+    (=daikanwa	  . 34996)	; 𧢮
+    (=ucs@unicode	  . #x4695)	; 𧢮
     (=ucs		  . #x2F9CB)	; 𧢮
     (=cns11643-5	  . #x7A38)	; &I-C5-7A38; [90-24]
     (=>ucs*		  . #x278AE)	; 𧢮
@@ -6813,9 +6826,9 @@
       ))
     (<-same@ucs*note	  "maybe mapping bug")
     (->subsumptive
-     ((==daikanwa	  . 34996)	; &M-34996;
+     ((==daikanwa	  . 34996)	; 𧢮
       )
-     ((==ucs@unicode	  . #x4695)	; &UU+4695;
+     ((==ucs@unicode	  . #x4695)	; 𧢮
       )
      ((==cns11643-5	  . #x7A38)	; &I-C5-7A38; [90-24]
       ))
@@ -6868,7 +6881,7 @@
     (=cns11643-4	. #x6E3B)	; &C4-6E3B; [78-27]
     (=daikanwa		. 34999)	; &I-M-34999;
     (<-same
-     ((=daikanwa	  . 34996)	; &M-34996;
+     ((=daikanwa	  . 34996)	; 𧢮
       ))
     (<-same*sources
      longkanshoujian daikanwa)

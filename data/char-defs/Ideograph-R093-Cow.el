@@ -432,23 +432,43 @@
     (=daikanwa		. 19930)	; &I-M-19930;
     ))
 (define-char
-  '((ideographic-radical . 93)	; ⽜
+  '((<-denotational@usage
+     ((==>ucs@bucs	  . #x7260)	; &BUCS+7260;
+      ))
+    (ideographic-radical . 93)	; ⽜
     (ideographic-strokes . 3)
     (total-strokes	 . 7)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs		  . #x725B)	; 牛
+     ((=>ucs@component	  . #x725B)	; &A-compU+725B;
       )
      ((=ucs		  . #x4E5F)	; 也
       ))
     (=ucs		. #x7260)	; 牠
-    (=adobe-japan1-5	. 19527)	; &I-AJ1-19527;
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x7260)	; 牠
+      ))
+    (ideographic-radical . 93)	; ⽜
+    (ideographic-strokes . 3)
+    (total-strokes	 . 7)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x725C)	; 牜
+      )
+     ((=ucs		  . #x4E5F)	; 也
+      ))
+    (=ucs@unicode	. #x7260)	; &AJ1-19527;
+    (=adobe-japan1-5	. 19527)	; &AJ1-19527;
     (=jis-x0212		. #x4A5A)	; &I-JSP-4A5A; [42-58]
     (=cns11643-1	. #x4B28)	; &I-C1-4B28; [43-08]
     (=big5		. #xA865)	; &I-B-A865;
-    (=daikanwa		. 19931)	; &I-M-19931;
+    (=daikanwa 		. 19931)	; &I-M-19931;
     (->subsumptive
      ((==ucs@unicode	  . #x7260)	; &g2-AJ1-19527;
       (==adobe-japan1-5	  . 19527)	; &g2-AJ1-19527;
@@ -3264,14 +3284,47 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=ucs		  . #x725B)	; 牛
+     ((=>ucs@component	  . #x725B)	; &A-compU+725B;
       )
      ((=ucs		  . #x5B5B)	; 孛
       ))
     (=ucs		. #x3E40)	; 㹀
-    (=adobe-japan1-5	. 20170)	; &I-AJ1-20170;
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x3E40)	; 㹀
+      ))
+    (ideographic-radical . 93)	; ⽜
+    (ideographic-strokes . 7)
+    (total-strokes	 . 11)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x725C)	; 牜
+      )
+     ((=ucs@unicode	  . #x5B5B)	; &AJ1-04613;
+      (=adobe-japan1-0	  . 04613)	; &AJ1-04613;
+      ))
+    (=ucs@unicode	. #x3E40)	; &AJ1-20170;
+    (=adobe-japan1-5	. 20170)	; &AJ1-20170;
     (=cns11643-3	. #x3737)	; &I-C3-3737; [23-23]
     (=daikanwa		. 20044)	; &I-M-20044;
+    (->subsumptive
+     ((==ucs@unicode	  . #x3E40)	; &g2-AJ1-20170;
+      (==adobe-japan1-5	  . 20170)	; &g2-AJ1-20170;
+      (==cns11643-3	  . #x3737)	; &g2-AJ1-20170; [23-23]
+      (==daikanwa	  . 20044)	; &g2-AJ1-20170;
+      (->subsumptive
+       ((===daikanwa	    . 20044)	; &R-M-20044;
+	)
+       ((===adobe-japan1-5  . 20170)	; &R-AJ1-20170;
+	)
+       ((===cns11643-3	    . #x3737)	; &R-C3-3737; [23-23]
+	)
+       ((===ucs@unicode	    . #x3E40)	; &R-UU+3E40;
+	))
+      ))
     ))
 (define-char
   '((<-denotational
@@ -5742,6 +5795,35 @@
       ))
     ))
 (define-char
+  '((ideographic-radical . 93)	; ⽜
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x725B)	; 牛
+      )
+     ((=ucs		  . #x3095E)	; 𰥞
+      ))
+    (=ucs		. #x2AEB4)	; 𪺴
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x2AEB4)	; 𪺴
+      ))
+    (ideographic-radical . 93)	; ⽜
+    (ideographic-strokes . 10)
+    (total-strokes	 . 14)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x725C)	; 牜
+      )
+     ((=ucs@JP/hanazono	  . #x3095E)	; &hanaJU+3095E;
+      ))
+    (=ucs@JP/hanazono	. #x2AEB4)	; &hanaJU+2AEB4;
+    ))
+(define-char
   '((=>ucs		. #x246CA)	; 𤛊
     (ideographic-radical . 93)	; ⽜
     (ideographic-strokes . 11)
@@ -8147,6 +8229,10 @@
   '((ideographic-radical . 93)	; ⽜
     (==>ucs@bucs	. #x725F)	; &BUCS+725F;
     (==>daijiten	. 07074)	; &BUCS+725F;
+    ))
+(define-char
+  '((ideographic-radical . 93)	; ⽜
+    (==>ucs@bucs	. #x7260)	; &BUCS+7260;
     ))
 (define-char
   '((ideographic-radical . 93)	; ⽜

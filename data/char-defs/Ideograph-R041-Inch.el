@@ -1557,6 +1557,20 @@
       ))
     ))
 (define-char
+  '((ideographic-radical . 41)	; ⼨
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x800C)	; 而
+      )
+     ((=ucs		  . #x5BF8)	; 寸
+      ))
+    (=ucs		. #x316A0)	; 𱚠
+    ))
+(define-char
   '((<-denotational@usage
      ((==>daijiten	  . 02421)	; &A2-DJT-02421;
       ))
@@ -3235,6 +3249,8 @@
       )
      ((=ucs		  . #x7F52)	; 罒
       ))
+    (sound@ja/on/go	"seN" "sIyAu" "eN")
+    (sound@ja/on/kan	"seN" "sei" "eN")
     (=ucs		. #x21B33)	; 𡬳
     ))
 (define-char
@@ -3254,7 +3270,7 @@
      ((name		  . "CJK RADICAL EYE")
       (=ucs		  . #x2EAB)	; ⺫
       ))
-    (=daikanwa 		. 07446)	; &M-07446;
+    (=daikanwa		. 07446)	; &M-07446;
     (->subsumptive
      ((==daikanwa	  . 07446)	; &g2-M-07446;
       (->subsumptive
@@ -4789,6 +4805,38 @@
      ((==ucs@cns	  . #x21BA7)	; &g2-CU+21BA7;
       (==cns11643-7	  . #x223B)	; &g2-CU+21BA7; [02-27]
       ))
+    ))
+(define-char
+  '((ideographic-radical . 41)	; ⼨
+    (ideographic-strokes . 12)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x7126)	; 焦
+      )
+     ((=ucs		  . #x5BF8)	; 寸
+      ))
+    (=>ucs-itaiji-002	. #x96C6)	; &A-U-i002+96C6;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-002	  . #x96C6)	; &A-U-i002+96C6;
+      ))
+    (ideographic-radical . 41)	; ⼨
+    (ideographic-strokes . 12)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs@unicode	  . #x7126)	; &AJ1-02479;
+      (=adobe-japan1-0	  . 02479)	; &AJ1-02479;
+      )
+     ((=ucs		  . #x5BF8)	; 寸
+      ))
+    (=ucs-itaiji-002	. #x96C6)	; &U-i002+96C6;
     ))
 (define-char
   '((ideographic-radical . 41)	; ⼨

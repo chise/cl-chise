@@ -985,7 +985,7 @@
       (=daikanwa	  . 09826)	; &I-M-09826;
       )
      ((=ucs@iso		  . #x295BC)	; &MJ053715;
-      (=mj		  . 053715)	; &I-MJ053715;
+      (=mj		  . 053715)	; &MJ053715;
       (=daikanwa	  . 43811)	; &I-M-43811;
       ))
     (<-interchangeable$_1*sources
@@ -2279,6 +2279,20 @@
       (=mj		  . 011120)	; &MJ011120;
       ))
     (=ucs@JP/hanazono	. #x2BE26)	; &hanaJU+2BE26;
+    ))
+(define-char
+  '((ideographic-radical . 57)	; ⼸
+    (ideographic-strokes . 3)
+    (total-strokes	 . 6)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT")
+      (=ucs		  . #x2FF9)	; ⿹
+      )
+     ((=ucs		  . #x5F13)	; 弓
+      )
+     ((=ucs		  . #x53E3)	; 口
+      ))
+    (=ucs		. #x2BE27)	; 𫸧
     ))
 (define-char
   '((ideographic-radical . 57)	; ⼸
@@ -4076,6 +4090,47 @@
     (ideographic-strokes . 5)
     (total-strokes	 . 8)
     (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5F13)	; 弓
+      )
+     ((=ucs		  . #x3431)	; 㐱
+      ))
+    (=ucs		. #x2D6AB)	; 𭚫
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x2D6AB)	; 𭚫
+      ))
+    (ideographic-radical . 57)	; ⼸
+    (ideographic-strokes . 5)
+    (total-strokes	 . 8)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5F13)	; 弓
+      )
+     ((=ucs@unicode	  . #x3431)	; &GT-00504;
+      (=cns11643-3	  . #x2175)	; &GT-00504; [01-85]
+      (=daikanwa	  . 00372)	; &I-M-00372;
+      ))
+    (=ucs@JP/hanazono	. #x2D6AB)	; &CB02793;
+    (=cbeta		. 02793)	; &CB02793;
+    (->subsumptive
+     ((==ucs@JP/hanazono  . #x2D6AB)	; &g2-CB02793;
+      (==cbeta		  . 02793)	; &g2-CB02793;
+      (->subsumptive
+       ((===cbeta	    . 02793)	; &R-CB02793;
+	))
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 57)	; ⼸
+    (ideographic-strokes . 5)
+    (total-strokes	 . 8)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
       (=ucs		  . #x2FF8)	; ⿸
       )
@@ -4489,7 +4544,7 @@
       )
      ((=ucs		  . #x5F1C)	; 弜
       )
-     ((=gt-k		  . 00264)	; &GT-K00264;
+     ((=ucs		  . #x2CEA2)	; 𬺢
       ))
     (=ucs@unicode	. #x38B2)	; &C3-2C4E;
     (=cns11643-3	. #x2C4E)	; &C3-2C4E; [12-46]

@@ -1974,6 +1974,30 @@
     (ideographic-strokes . 4)
     (total-strokes	 . 11)
     (ideographic-structure
+     ?⿰
+     ?𧾷
+     ?𰀆)
+    (=ucs		. #x2B3C1)	; 𫏁
+    ))
+(define-char
+  '((ideographic-radical . 157)	; ⾜
+    (ideographic-strokes . 4)
+    (total-strokes	 . 11)
+    (ideographic-structure
+     ?⿰
+     ?⻊
+     ((=ucs@JP/hanazono	. #x30006)	; &U-i002+5F50;
+      ))
+    (<-denotational
+     ((=ucs		. #x2B3C1)	; 𫏁
+      ))
+    (=ucs@JP/hanazono	. #x2B3C1)	; 𫏁
+    ))
+(define-char
+  '((ideographic-radical . 157)	; ⾜
+    (ideographic-strokes . 4)
+    (total-strokes	 . 11)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
@@ -6010,6 +6034,33 @@
   '((ideographic-radical . 157)	; ⾜
     (ideographic-strokes . 7)
     (total-strokes	 . 14)
+    (ideographic-structure
+     ?⿰
+     ?𧾷
+     ?𮰉)
+    (=ucs		. #x2C9B4)	; 𬦴
+    ))
+(define-char
+  '((ideographic-radical . 157)	; ⾜
+    (ideographic-strokes . 7)
+    (total-strokes	 . 14)
+    (ideographic-structure
+     ?⿰
+     ?⻊
+     ((=ucs@JP/hanazono	. #x2EC09)	; &hanaJU+2EC09;
+      ))
+    (<-denotational
+     ((=ucs		. #x2C9B4)	; 𬦴
+      ))
+    (=ucs@JP/hanazono	. #x2C9B4)	; 𬦴
+    (<-simplified@CN
+     ((=ucs@iso		. #x281B1)	; 𨆱
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 157)	; ⾜
+    (ideographic-strokes . 7)
+    (total-strokes	 . 14)
     (=ucs		. #x28059)	; 𨁙
     (=cns11643-5	. #x4A47)	; &I-C5-4A47; [42-39]
     ))
@@ -9816,6 +9867,30 @@
      ((=ucs@JP/hanazono	  . #x2B94E)	; &hanaJU+2B94E;
       ))
     (=ucs@JP/hanazono	. #x30E24)	; &hanaJU+30E24;
+    ))
+(define-char
+  '((ideographic-radical . 157)	; ⾜
+    (ideographic-strokes . 9)
+    (total-strokes	 . 16)
+    (ideographic-structure
+     ?⿰
+     ?𧾷
+     ?𱅑)
+    (=ucs		. #x2C9C3)	; 𬧃
+    ))
+(define-char
+  '((ideographic-radical . 157)	; ⾜
+    (ideographic-strokes . 9)
+    (total-strokes	 . 16)
+    (ideographic-structure
+     ?⿰
+     ?⻊
+     ((=ucs@JP/hanazono	. #x31151)	; &hanaJU+31151;
+      ))
+    (<-denotational
+     ((=ucs		. #x2C9C3)	; 𬧃
+      ))
+    (=ucs@JP/hanazono	. #x2C9C3)	; 𬧃
     ))
 (define-char
   '((ideographic-radical . 157)	; ⾜
@@ -14793,7 +14868,7 @@
       )
      ((=ucs		  . #x27FB7)	; 𧾷
       )
-     ((=>ucs-itaiji-003	  . #x89A7)	; &A-U-i003+89A7;
+     ((=>ucs-itaiji-003	  . #x89A7)	; 𳁖
       ))
     (=ucs		. #x2B3E0)	; 𫏠
     ))
@@ -16031,12 +16106,40 @@
       ))
     ))
 (define-char
+  '((<-denotational@usage
+     ((ideographic-radical . 157)	; ⾜
+      (==>daijiten	. 11688)	; &A2-DJT-11688;
+      ))
+    (ideographic-radical . 157)	; ⾜
+    (ideographic-strokes . 14)
+    (total-strokes	 . 21)
+    (ideographic-structure
+     ?⿰
+     ?𧾷
+     ?凴)
+    (=ucs		. #x281B1)	; 𨆱
+    ))
+(define-char
   '((ideographic-radical . 157)	; ⾜
     (ideographic-strokes . 14)
     (total-strokes	 . 21)
-    (=ucs		. #x281B1)	; 𨆱
+    (<-denotational
+     ((=ucs		. #x281B1)	; 𨆱
+      ))
+    (=ucs@iso		. #x281B1)	; 𨆱
     (=cns11643-4	. #x674B)	; &I-C4-674B; [71-43]
     (=daikanwa		. 37953)	; &I-M-37953;
+    (=daijiten		. 11688)	; &I-DJT-11688;
+    (=gt		. 50696)	; &GT-50696;
+    (=gt-pj-7		. #x4D42)	; &GT-50696; [45-34]
+    (->subsumptive
+     ((==ucs@iso		. #x281B1)	; 𨆱
+      (==cns11643-4	. #x674B)	; &I-C4-674B; [71-43]
+      (==daikanwa		. 37953)	; &I-M-37953;
+      (==daijiten		. 11688)	; &I-DJT-11688;
+      (==gt		. 50696)	; &GT-50696;
+      (==gt-pj-7		. #x4D42)	; &GT-50696; [45-34]
+      ))
     ))
 (define-char
   '((=>ucs		. #x281B2)	; 𨆲

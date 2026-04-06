@@ -527,6 +527,30 @@
     ))
 (define-char
   '((ideographic-radical . 192)	; ⾿
+    (ideographic-structure
+     ?⿱
+     ((=>ucs-itaiji-008	. #x2696F)	; &A-U-i008+2696F;
+      )
+     ?鬯)
+    (=ucs		. #x3332E)	; 𳌮
+    ))
+(define-char
+  '((ideographic-radical . 192)	; ⾿
+    (ideographic-strokes . 15)
+    (total-strokes	 . 25)
+    (<-denotational
+     ((=ucs		. #x3332E)	; 𳌮
+      ))
+    (ideographic-structure
+     ?⿱
+     ((=ucs-itaiji-008	. #x2696F)	; &A-U-i008+2696F;
+      )
+     ((=ucs@unicode	. #x9B2F)	; &AJ1-07299;
+      ))
+    (=ucs@JP/hanazono	. #x3332E)	; 𳌮
+    ))
+(define-char
+  '((ideographic-radical . 192)	; ⾿
     (ideographic-strokes . 18)
     (total-strokes	 . 28)
     (=ucs		. #x29C2A)	; 𩰪

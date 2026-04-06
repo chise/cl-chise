@@ -1991,6 +1991,30 @@
     (ideographic-strokes . 5)
     (total-strokes	 . 11)
     (ideographic-structure
+     ?⿰
+     ?耳
+     ?𲐗)
+    (=ucs		. #x2C694)	; 𬚔
+    ))
+(define-char
+  '((ideographic-radical . 128)	; ⽿
+    (ideographic-strokes . 5)
+    (total-strokes	 . 11)
+    (ideographic-structure
+     ?⿰
+     ?耳
+     ((=ucs@JP/hanazono	. #x32417)	; &hanaJU+32417;
+      ))
+    (<-denotational
+     ((=ucs		. #x2C694)	; 𬚔
+      ))
+    (=ucs@JP/hanazono	. #x2C694)	; 𬚔
+    ))
+(define-char
+  '((ideographic-radical . 128)	; ⽿
+    (ideographic-strokes . 5)
+    (total-strokes	 . 11)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )

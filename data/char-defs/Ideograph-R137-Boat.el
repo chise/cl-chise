@@ -126,6 +126,10 @@
     (ideographic-radical . 137)	; ⾈
     (ideographic-strokes . 0)
     (total-strokes	 . 5)
+    (ideographic-structure@apparent/leftmost
+     ?⿵
+     ?&GT-K00461;
+     ?丶)
     (=gt-k		. 01126)	; &GT-K01126;
     (=gt-pj-k1		. #x4E53)	; &GT-K01126; [46-51]
     (<-formed@component
@@ -701,11 +705,28 @@
       ))
     ))
 (define-char
+  '((<-denotational@usage
+     ((ideographic-radical . 137)	; ⾈
+      (==>ucs@bucs	. #x8222)	; &BUCS+8222;
+      ))
+    (ideographic-radical . 137)	; ⾈
+    (ideographic-strokes . 3)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ?⿰
+     ?舟
+     ?山)
+    (=ucs		. #x8222)	; 舢
+    ))
+(define-char
   '((ideographic-radical . 137)	; ⾈
     (ideographic-strokes . 3)
     (total-strokes	 . 9)
-    (=ucs		. #x8222)	; 舢
-    (=gb2312		. #x742E)	; &I-G0-742E; [84-14]
+    (<-denotational
+     ((=ucs		. #x8222)	; 舢
+      ))
+    (=ucs@unicode	. #x8222)	; 舢
+    (=gb2312		. #x742E)	; &JX2-7562; [84-14]
     (=jis-x0212		. #x5676)	; &I-JSP-5676; [54-86]
     (=cns11643-1	. #x5334)	; &I-C1-5334; [51-20]
     (=jis-x0213-2	. #x7562)	; &I-JX2-7562; [85-66]

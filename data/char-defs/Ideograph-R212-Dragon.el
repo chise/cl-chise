@@ -251,6 +251,7 @@
     (ideographic-radical . 212)	; ⿓
     (ideographic-strokes . 0)
     (total-strokes	 . 7)
+    (=ucs		. #x33473)	; 𳑳
     (=>big5-cdp@component . #x89B0)	; &A-compCDP-89B0;
     ))
 (define-char
@@ -295,8 +296,11 @@
     (ideographic-radical . 212)	; ⿓
     (ideographic-strokes . 0)
     (total-strokes	 . 7)
+    (=ucs@JP/hanazono	. #x33473)	; 𳑳
     (=big5-cdp		. #x89B0)	; &CDP-89B0;
     (->subsumptive
+     ((==ucs@JP/hanazono	. #x33473)	; 𳑳
+      )
      ((==big5-cdp	  . #x89B0)	; &g2-CDP-89B0;
       )
      ((=gt-k		  . 03244)	; &GT-K03244;

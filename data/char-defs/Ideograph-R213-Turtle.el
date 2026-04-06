@@ -2194,6 +2194,15 @@
       ))
     (sound@ja/on	"sIu")
     (=ucs		. #x2A6C1)	; 𪛁
+    (<-Zhouwen
+     ((=ucs		  . #x79CC)	; 秌
+      )
+     ((=ucs		  . #x79CB)	; 秋
+      ))
+    (<-Zhouwen$_1*sources
+     shuowen)
+    (<-Zhouwen$_2*sources
+     shuowen)
     ))
 (define-char
   '((<-denotational

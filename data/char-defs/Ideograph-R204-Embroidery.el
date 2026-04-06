@@ -197,6 +197,24 @@
     (=ucs@JP/hanazono	. #x2EBA0)	; &hanaJU+2EBA0;
     ))
 (define-char
+  '((<-denotational
+     ((=ucs		  . #x2EBA0)	; 𮮠
+      ))
+    (ideographic-radical . 204)	; ⿋
+    (ideographic-strokes . 0)
+    (total-strokes	 . 11)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs@unicode	  . #x9FB7)	; &CDP-8B5C;
+      (=big5-cdp	  . #x8B5C)	; &CDP-8B5C;
+      )
+     ((=ucs@jis		. #x3840)	; &AJ1-17590;
+      ))
+    (=ucs-var-001	. #x2EBA0)	; &U-v001+2EBA0;
+    ))
+(define-char
   '((ideographic-radical . 204)	; ⿋
     (ideographic-strokes . 4)
     (total-strokes	 . 16)

@@ -1908,16 +1908,44 @@
     (=ucs@unicode	. #x8C43)	; &UU+8C43;
     ))
 (define-char
+  '((<-denotational@usage
+     ((ideographic-radical . 85)	; ⽔
+      (==>ucs@bucs	. #x6F97)	; &BUCS+6F97;
+      (==>daijiten	. 06551)	; &BUCS+6F97;
+      ))
+    (ideographic-radical . 150)	; ⾕
+    (ideographic-strokes . 12)
+    (total-strokes	 . 19)
+    (ideographic-structure
+     ?⿰
+     ((=>ucs@iwds-1	. #x8C37)	; &A-IWDSU+8C37;
+      )
+     ?閒)
+    (=ucs		. #x27BCE)	; 𧯎
+    ))
+(define-char
   '((ideographic-radical . 150)	; ⾕
     (ideographic-strokes . 12)
     (total-strokes	 . 19)
-    (=ucs		. #x27BCE)	; 𧯎
-    (->subsumptive
-     ((=daikanwa	  . 36231)	; &M-36231;
-      )
-     ((=ucs@iso		  . #x27BCE)	; &C7-4A37;
-      (=cns11643-7	  . #x4A37)	; &C7-4A37; [42-23]
+    (<-denotational
+     ((=ucs		. #x27BCE)	; 𧯎
       ))
+    (=gt		. 48618)	; &GT-48618;
+    (=gt-pj-11		. #x4265)	; &GT-48618; [34-69]
+    (=daikanwa	  . 36231)	; &M-36231;
+    (=daijiten		. 11249)	; &I-DJT-11249;
+    (->subsumptive
+     ((==daikanwa	  . 36231)	; &M-36231;
+      )
+     ((==gt		. 48618)	; &GT-48618;
+      )
+     ((==ucs@iso		  . #x27BCE)	; &C7-4A37;
+      (==cns11643-7	  . #x4A37)	; &C7-4A37; [42-23]
+      )
+     ((==daijiten		. 11249)	; &I-DJT-11249;
+      ))
+    (=ucs@iso		  . #x27BCE)	; &C7-4A37;
+    (=cns11643-7	  . #x4A37)	; &C7-4A37; [42-23]
     ))
 (define-char
   '((ideographic-radical . 150)	; ⾕

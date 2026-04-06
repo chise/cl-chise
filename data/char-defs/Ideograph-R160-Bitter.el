@@ -776,6 +776,26 @@
     (ideographic-strokes . 6)
     (total-strokes	 . 13)
     (ideographic-structure
+     ?⿰
+     ?𠂤
+     ?辛)
+    (=ucs		. #x33114)	; 𳄔
+    ))
+(define-char
+  '((ideographic-radical . 160)	; ⾟
+    (ideographic-strokes . 6)
+    (total-strokes	 . 13)
+    (ideographic-structure
+     ?⿰
+     ?辛
+     ?𱝼)
+    (=ucs		. #x2B41C)	; 𫐜
+    ))
+(define-char
+  '((ideographic-radical . 160)	; ⾟
+    (ideographic-strokes . 6)
+    (total-strokes	 . 13)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )

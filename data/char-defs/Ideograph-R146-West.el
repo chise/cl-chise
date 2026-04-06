@@ -450,9 +450,9 @@
     (=cbeta		. 10145)	; &I-CB10145;
     (=daijiten		. 10821)	; &I-DJT-10821;
     (->subsumptive
-     ((==ucs@unicode	  . #x4672)	; &g2-CB10145;
-      (==cns11643-5	  . #x2B47)	; &g2-CB10145; [11-39]
-      (==cbeta		  . 10145)	; &g2-CB10145;
+     ((==ucs@unicode	  . #x4672)	; &g2-DJT-10821;
+      (==cns11643-5	  . #x2B47)	; &g2-DJT-10821; [11-39]
+      (==cbeta		  . 10145)	; &g2-DJT-10821;
       (==daijiten		. 10821)	; &I-DJT-10821;
       (->subsumptive
        ((===cns11643-5	    . #x2B47)	; &R-C5-2B47; [11-39]
@@ -2077,6 +2077,28 @@
      ((=ucs		  . #x56FD)	; 国
       ))
     (=ucs-itaiji-005	. #x5F17)	; &U-i005+5F17;
+    ))
+(define-char
+  '((ideographic-radical . 146)	; ⾑
+    (ideographic-structure
+     ?⿱
+     ((=>ucs@iwds-1	. #x897E)	; &A-IWDSU+897E;
+      )
+     ?國)
+    (=>ucs-itaiji-006	. #x5F17)	; &BUCS+4E2A;
+    ))
+(define-char
+  '((ideographic-radical . 146)	; ⾑
+    (<-denotational
+     ((=>ucs-itaiji-006	. #x5F17)	; &BUCS+4E2A;
+      ))
+    (ideographic-strokes . 11)
+    (total-strokes	 . 17)
+    (ideographic-structure
+     ?⿱
+     ?覀
+     ?國)
+    (=ucs-itaiji-006	. #x5F17)	; &BUCS+4E2A;
     ))
 (define-char
   '((ideographic-radical . 146)	; ⾑
