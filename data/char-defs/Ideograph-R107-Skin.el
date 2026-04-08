@@ -611,7 +611,6 @@
      ((=ucs		  . #x76AE)	; 皮
       ))
     (=ucs		. #x24FE4)	; 𤿤
-    (=daikanwa		. 22859)	; &I-M-22859;
     (<-ancient
      ((=ucs		  . #x21C3B)	; 𡰻
       )
@@ -621,6 +620,20 @@
      shuowen)
     (<-ancient$_2*sources
      shuowen)
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x24FE4)	; 𤿤
+      ))
+    (ideographic-radical . 107)	; ⽪
+    (ideographic-strokes . 6)
+    (total-strokes	 . 11)
+    (ideographic-structure
+     ?⿱
+     ?⺮
+     ?皮)
+    (=ucs@iso		. #x24FE4)	; &M-22859;
+    (=daikanwa 		. 22859)	; &M-22859;
     (->subsumptive
      ((==ucs@iso	  . #x24FE4)	; &g2-M-22859;
       (==daikanwa	  . 22859)	; &g2-M-22859;

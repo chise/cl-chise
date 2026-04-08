@@ -1602,6 +1602,56 @@
     ))
 (define-char
   '((ideographic-radical . 110)	; ⽭
+    (=>ucs@cognate		. #x32CC0)	; 𲳀
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@cognate		. #x32CC0)	; 𲳀
+      ))
+    (ideographic-radical . 110)	; ⽭
+    (=ucs		. #x32CC0)	; 𲳀
+    ))
+(define-char
+  '((ideographic-radical . 110)	; ⽭
+    (<-denotational
+     ((=ucs		. #x32CC0)	; 𲳀
+      ))
+    (ideographic-strokes . 27)
+    (total-strokes	 . 32)
+    (ideographic-structure
+     ?⿰
+     ?矛
+     ((=ucs@JP/hanazono	. #x32B39)	; &CB09694;
+      ))
+    (=ucs@JP/hanazono	. #x32CC0)	; 𲳀
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@cognate		. #x32CC0)	; 𲳀
+      ))
+    (ideographic-radical . 110)	; ⽭
+    (ideographic-structure
+     ?⿰
+     ?矛
+     ?㸑)
+    (=>cbeta		. 11293)	; &A-CB11293;
+    ))
+(define-char
+  '((<-denotational
+     ((=>cbeta		. 11293)	; &A-CB11293;
+      ))
+    (ideographic-radical . 110)	; ⽭
+    (ideographic-strokes . 27)
+    (total-strokes	 . 32)
+    (ideographic-structure
+     ?⿰
+     ?矛
+     ((=ucs@unicode	. #x3E11)	; &CB05315;
+      ))
+    (=cbeta		. 11293)	; &CB11293;
+    ))
+(define-char
+  '((ideographic-radical . 110)	; ⽭
     (ideographic-strokes . 30)
     (total-strokes	 . 35)
     (=ucs		. #x253A4)	; 𥎤

@@ -1523,6 +1523,68 @@
     ))
 (define-char
   '((ideographic-radical . 129)	; ⾀
+    (ideographic-structure
+     ?⿱
+     ?𲳊
+     ((=>ucs@cognate	. #x807F)	; &A-cgnU+807F;
+      ))
+    (=>ucs@cognate		. #x31EFF)	; 𱻿
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@cognate		. #x31EFF)	; 𱻿
+      ))
+    (ideographic-radical . 129)	; ⾀
+    (ideographic-strokes . 7)
+    (total-strokes	 . 13)
+    (ideographic-structure
+     ?⿱
+     ?𲳊
+     ?聿)
+    (=ucs		. #x31EFF)	; 𱻿
+    ))
+(define-char
+  '((ideographic-radical . 129)	; ⾀
+    (ideographic-strokes . 7)
+    (total-strokes	 . 13)
+    (ideographic-structure
+     ?⿱
+     ((=ucs@JP/hanazono	. #x32CCA)	; 𲳊
+      )
+     ((=ucs@unicode	. #x807F)	; &AJ1-06227;
+      ))
+    (<-denotational
+     ((=ucs		. #x31EFF)	; 𱻿
+      ))
+    (=ucs@JP/hanazono	. #x31EFF)	; 𱻿
+    (=cbeta		. 09193)	; &CB09193;
+    (->subsumptive
+     ((==ucs@JP/hanazono	. #x31EFF)	; 𱻿
+      )
+     ((==cbeta		. 09193)	; &CB09193;
+      ))
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@cognate		. #x31EFF)	; 𱻿
+      ))
+    (ideographic-radical . 129)	; ⾀
+    (ideographic-strokes . 7)
+    (total-strokes	 . 14)
+    (ideographic-structure
+     ?⿱
+     ((=ucs@JP/hanazono	. #x32CCA)	; 𲳊
+      )
+     ((=ucs@JP/hanazono	. #x2E301)	; &hanaJU+2E301;
+      ))
+    (=chise-hdic-tsj	. #x22FD)	; &CHISE-HDIC-TSJ22FD;
+    (->subsumptive
+     ((hdic-tsj-word-id	  . s0525a501a)
+      (===chise-hdic-tsj  . #x22FD)	; &R-CHISE-HDIC-TSJ22FD;
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 129)	; ⾀
     (ideographic-strokes . 7)
     (total-strokes	 . 13)
     (ideographic-structure

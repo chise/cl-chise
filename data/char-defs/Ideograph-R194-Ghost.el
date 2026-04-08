@@ -990,7 +990,7 @@
     ))
 (define-char
   '((<-denotational
-     ((=>ucs-itaiji-001	  . #x4C23)	; &A-U-i001+4C23;
+     ((=>ucs-itaiji-001	  . #x4C23)	; 𳌱
       ))
     (ideographic-radical . 194)	; ⿁
     (ideographic-strokes . 4)
@@ -1050,7 +1050,7 @@
      ((=ucs		  . #x20540)	; 𠕀
       ))
     (=ucs		. #x33331)	; 𳌱
-    (=>ucs-itaiji-001	. #x4C23)	; &A-U-i001+4C23;
+    (=>ucs-itaiji-001	. #x4C23)	; 𳌱
     ))
 (define-char
   '((<-denotational
@@ -1504,6 +1504,28 @@
      ((=ucs		. #x29CB8)	; 𩲸
       ))
     (=ucs@iso		. #x29CB8)	; 𩲸
+    ))
+(define-char
+  '((ideographic-radical . 194)	; ⿁
+    (ideographic-structure
+     ?⿺
+     ?鬼
+     ?矢)
+    (=ucs		. #x32328)	; 𲌨
+    ))
+(define-char
+  '((ideographic-radical . 194)	; ⿁
+    (ideographic-strokes . 5)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ?⿺
+     ((=ucs@jis		  . #x9B3C)	; &AJ1-01614;
+      )
+     ?矢)
+    (<-denotational
+     ((=ucs		. #x32328)	; 𲌨
+      ))
+    (=ucs@JP/hanazono	. #x32328)	; 𲌨
     ))
 (define-char
   '((ideographic-radical . 194)	; ⿁

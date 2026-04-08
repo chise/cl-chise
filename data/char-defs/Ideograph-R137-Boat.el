@@ -175,6 +175,19 @@
       ))
     ))
 (define-char
+  '((<-denotational
+     ((=>ucs@cognate	  . #x821F)	; &A-cgnU+821F;
+      ))
+    (ideographic-radical . 137)	; ⾈
+    (ideographic-strokes . 0)
+    (total-strokes	 . 7)
+    (ideographic-structure
+     ?⿱
+     ?𠂉
+     ?𮯱)
+    (=ucs-itaiji-005	. #x821F)	; &U-i005+821F;
+    ))
+(define-char
   '((ideographic-radical . 137)	; ⾈
     (ideographic-strokes . 1)
     (total-strokes	 . 7)
@@ -3214,6 +3227,11 @@
       (=>jis-x0208	  . #x3970)	; &J97-3970; [25-80]
       ))
     (=ucs		. #x8241)	; 艁
+    (<-ancient
+     ((=ucs		  . #x9020)	; 造
+      ))
+    (<-ancient$_1*sources
+     shuowen)
     ))
 (define-char
   '((<-denotational
@@ -6611,6 +6629,63 @@
      ((==ucs@unicode	  . #x825D)	; &g2-UU+825D;
       (==ucs@JP/hanazono  . nil)
       ))
+    ))
+(define-char
+  '((ideographic-radical . 137)	; ⾈
+    (ideographic-strokes . 11)
+    (total-strokes	 . 17)
+    (=ucs		. #x31F3F)	; 𱼿
+    ))
+(define-char
+  '((ideographic-radical . 137)	; ⾈
+    (ideographic-strokes . 11)
+    (total-strokes	 . 17)
+    (<-denotational
+     ((=ucs		. #x31F3F)	; 𱼿
+      ))
+    (=ucs@JP/hanazono	. #x31F3F)	; 𱼿
+    ))
+(define-char
+  '((ideographic-radical . 137)	; ⾈
+    (ideographic-strokes . 11)
+    (total-strokes	 . 17)
+    (=ucs		. #x31F40)	; 𱽀
+    ))
+(define-char
+  '((ideographic-radical . 137)	; ⾈
+    (ideographic-strokes . 11)
+    (total-strokes	 . 17)
+    (<-denotational
+     ((=ucs		. #x31F40)	; 𱽀
+      ))
+    (=ucs@JP/hanazono	. #x31F40)	; 𱽀
+    ))
+(define-char
+  '((ideographic-radical . 137)	; ⾈
+    (ideographic-strokes . 11)
+    (total-strokes	 . 17)
+    (ideographic-structure
+     ?⿱
+     ((=>ucs@iwds-1	. #x5C07)	; &A-IWDSU+5C07;
+      )
+     ((=ucs		. #x821F)	; 舟
+      ))
+    (=ucs		. #x31F41)	; 𱽁
+    ))
+(define-char
+  '((ideographic-radical . 137)	; ⾈
+    (ideographic-strokes . 11)
+    (total-strokes	 . 17)
+    (<-denotational
+     ((=ucs		. #x31F41)	; 𱽁
+      ))
+    (ideographic-structure
+     ?⿱
+     ((=ucs@unicode	. #x5C07)	; &MJ010271;
+      )
+     ((=ucs@unicode	. #x821F)	; &AJ1-02360;
+      ))
+    (=ucs@JP/hanazono	. #x31F41)	; 𱽁
     ))
 (define-char
   '((ideographic-radical . 137)	; ⾈

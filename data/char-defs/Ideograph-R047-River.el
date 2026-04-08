@@ -640,7 +640,9 @@
       )
      ((=ucs		  . #x5DDB)	; 巛
       )
-     ((=ucs		  . #x2053C)	; 𠔼
+     ((=ucs@iso		  . #x2053C)	; &GT-01977;
+      (=cns11643-4	  . #x212D)	; &GT-01977; [01-13]
+      (=daikanwa	  . 01507)	; &I-M-01507;
       ))
     (=ucs@iso		. #x21FE9)	; &C4-2262;
     (=cns11643-4	. #x2262)	; &C4-2262; [02-66]
@@ -1479,8 +1481,7 @@
      ((=>ucs@component	  . #x21FEE)	; &A-compU+21FEE;
       ))
     (<-denotational@usage
-     ((ideographic-radical . 47)	; ⼮
-      (==>daijiten	. 06006)	; &A2-DJT-06006;
+     ((==>daijiten	  . 06006)	; &A2-DJT-06006;
       ))
     (ideographic-radical@ucs . 47)	; ⼮
     (ideographic-radical@cns . 28)	; ⼛
@@ -3664,4 +3665,8 @@
     (hanyu-dazidian	2 1099 8)
     (=ucs		. #x2200D)	; 𢀍
     (=hanziku-3		. #xE079)	; &I-HZK03-E079;
+    ))
+(define-char
+  '((ideographic-radical . 47)	; ⼮
+    (==>daijiten	. 06006)	; &A2-DJT-06006;
     ))

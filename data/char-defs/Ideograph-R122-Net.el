@@ -581,19 +581,6 @@
 	 ((===ucs@unicode     . #x34C1)	; &R-UU+34C1;
 	  ))
 	))
-      )
-     ((ideographic-structure
-       ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
-	(=ucs		    . #x2FF1)	; ⿱
-	)
-       ((=ucs		    . #x5196)	; 冖
-	)
-       ((=ucs		    . #x516B)	; 八
-	))
-      (=ucs-var-002	  . #x34C1)	; &U-v002+34C1;
-      (->subsumptive
-       ((==ucs-var-002	    . #x34C1)	; &g2-U-v002+34C1;
-	))
       ))
     ))
 (define-char
@@ -4207,7 +4194,7 @@
      ((=ucs		. #x7F6D)	; 罭
       ))
     (=ucs@unicode	. #x7F6D)	; 罭
-    (=adobe-japan1-5	. 18389)	; &I-AJ1-18389;
+    (=adobe-japan1-5	. 18389)	; &AJ1-18389;
     (=jis-x0212		. #x547E)	; &I-JSP-547E; [52-94]
     (=cns11643-2	. #x462E)	; &I-C2-462E; [38-14]
     (=jis-x0213-2	. #x746F)	; &I-JX2-746F; [84-79]
@@ -5724,6 +5711,32 @@
   '((ideographic-radical . 122)	; ⽹
     (ideographic-strokes . 10)
     (total-strokes	 . 15)
+    (ideographic-structure
+     ?⿱
+     ?罒
+     ?剡)
+    (=ucs		. #x262FA)	; 𦋺
+    ))
+(define-char
+  '((ideographic-radical . 122)	; ⽹
+    (ideographic-strokes . 10)
+    (total-strokes	 . 15)
+    (<-denotational
+     ((=ucs		. #x262FA)	; 𦋺
+      ))
+    (=daikanwa/ho . 0494)
+    (=ucs@iso		. #x262FA)	; 𦋺
+    (=cbeta		. 00868)	; &CB00868;
+    (->subsumptive
+     ((==daikanwa/ho . 0494)
+      (==ucs@iso		. #x262FA)	; 𦋺
+      (==cbeta		. 00868)	; &CB00868;
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 122)	; ⽹
+    (ideographic-strokes . 10)
+    (total-strokes	 . 15)
     (hanyu-dazidian	4 2924 9)
     (=ucs		. #x7F78)	; 罸
     (=adobe-japan1-0	. 06172)	; &I-AJ1-06172;
@@ -7119,8 +7132,23 @@
     (ideographic-strokes . 12)
     (total-strokes	 . 18)
     (=ucs		. #x2631E)	; 𦌞
-    (=cns11643-7	. #x4162)	; &I-C7-4162; [33-66]
+    ))
+(define-char
+  '((ideographic-radical . 122)	; ⽹
+    (ideographic-strokes . 12)
+    (total-strokes	 . 18)
+    (<-denotational
+     ((=ucs		. #x2631E)	; 𦌞
+      ))
+    (=ucs@iso		. #x2631E)	; 𦌞
+    (=cns11643-7	. #x4162)	; &C7-4162; [33-66]
     (=daikanwa		. 28379)	; &I-M-28379;
+    (->subsumptive
+     ((==daikanwa		. 28379)	; &I-M-28379;
+      )
+     ((==ucs@iso		. #x2631E)	; 𦌞
+      (==cns11643-7	. #x4162)	; &C7-4162; [33-66]
+      ))
     ))
 (define-char
   '((ideographic-radical . 122)	; ⽹

@@ -455,7 +455,8 @@
       (=adobe-japan1-0	  . 05349)	; &AJ1-05349;
       (=daikanwa	  . 16359)	; &I-M-16359;
       )
-     ((=ucs		  . #x239B5)	; 𣦵
+     ((=ucs@iso		  . #x239B5)	; &C5-2171;
+      (=cns11643-5	  . #x2171)	; &C5-2171; [01-81]
       (=daikanwa	  . 16361)	; &I-M-16361;
       ))
     (<-ancient$_1*sources
@@ -1355,7 +1356,8 @@
      ((=ucs		  . #x6B7A)	; 歺
       (=daikanwa	  . 16362)	; &I-M-16362;
       )
-     ((=ucs		  . #x239B5)	; 𣦵
+     ((=ucs@iso		  . #x239B5)	; &C5-2171;
+      (=cns11643-5	  . #x2171)	; &C5-2171; [01-81]
       (=daikanwa	  . 16361)	; &I-M-16361;
       ))
     (<-ancient$_1*sources
@@ -5233,8 +5235,6 @@
     ))
 (define-char
   '((ideographic-radical . 44)	; ⼫
-    (ideographic-strokes . 7)
-    (total-strokes	 . 10)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
       (=ucs		  . #x2FF8)	; ⿸
@@ -5244,9 +5244,58 @@
      ((=ucs		  . #x2BE4F)	; 𫹏
       ))
     (=ucs		. #x2D55E)	; 𭕞
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x2D55E)	; 𭕞
+      ))
+    (ideographic-radical . 44)	; ⼫
+    (ideographic-strokes . 7)
+    (total-strokes	 . 10)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
+      (=ucs		  . #x2FF8)	; ⿸
+      )
+     ((=ucs		  . #x5C38)	; 尸
+      )
+     ((=ucs@JP/hanazono	  . #x2BE4F)	; &hanaJU+2BE4F;
+      ))
+    (=ucs@JP/hanazono	. #x2D55E)	; &hanaJU+2D55E;
     (->subsumptive
      ((==ucs@JP/hanazono  . #x2D55E)	; &g2-hanaJU+2D55E;
       ))
+    ))
+(define-char
+  '((ideographic-radical . 44)	; ⼫
+    (ideographic-strokes . 7)
+    (total-strokes	 . 10)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5C38)	; 尸
+      )
+     ((=ucs		  . #x9EA6)	; 麦
+      ))
+    (=>ucs-itaiji-001	. #x9675)	; &A-U-i001+9675;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-001	  . #x9675)	; &A-U-i001+9675;
+      ))
+    (ideographic-radical . 44)	; ⼫
+    (ideographic-strokes . 7)
+    (total-strokes	 . 10)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5C38)	; 尸
+      )
+     ((name		  . "CJK RADICAL SIMPLIFIED WHEAT")
+      (=ucs		  . #x2EE8)	; ⻨
+      ))
+    (=ucs-itaiji-001	. #x9675)	; &U-i001+9675;
     ))
 (define-char
   '((ideographic-radical . 44)	; ⼫

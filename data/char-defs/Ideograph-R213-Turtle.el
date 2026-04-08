@@ -984,7 +984,7 @@
      ((name		  . "CJK RADICAL KNIFE ONE")
       (=ucs		  . #x2E88)	; ⺈
       )
-     ((=ucs		  . #x2053C)	; 𠔼
+     ((=gt-k		  . 00393)	; &GT-K00393;
       )
      ((=ucs		  . #x4E5A)	; 乚
       ))

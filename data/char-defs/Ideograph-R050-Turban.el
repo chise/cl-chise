@@ -1904,9 +1904,43 @@
   '((ideographic-radical . 50)	; ⼱
     (ideographic-strokes . 4)
     (total-strokes	 . 7)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5DFE)	; 巾
+      )
+     ((=ucs		  . #x4ECB)	; 介
+      ))
     (=ucs		. #x3839)	; 㠹
-    (=cns11643-3	. #x2569)	; &I-C3-2569; [05-73]
-    (=daikanwa		. 08810)	; &I-M-08810;
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x3839)	; 㠹
+      ))
+    (ideographic-radical . 50)	; ⼱
+    (ideographic-strokes . 4)
+    (total-strokes	 . 7)
+    (ideographic-structure
+     ?⿰
+     ?巾
+     ((=ucs@unicode	. #x4ECB)	; &AJ1-01392;
+      ))
+    (=ucs@unicode	. #x3839)	; &C3-2569;
+    (=cns11643-3	. #x2569)	; &C3-2569; [05-73]
+    (=daikanwa 		. 08810)	; &I-M-08810;
+    (->subsumptive
+     ((==ucs@unicode	  . #x3839)	; &g2-M-08810;
+      (==cns11643-3	  . #x2569)	; &g2-M-08810; [05-73]
+      (==daikanwa	  . 08810)	; &g2-M-08810;
+      (->subsumptive
+       ((===daikanwa	    . 08810)	; &R-M-08810;
+	)
+       ((===cns11643-3	    . #x2569)	; &R-C3-2569; [05-73]
+	)
+       ((===ucs@unicode	    . #x3839)	; &R-UU+3839;
+	))
+      ))
     ))
 (define-char
   '((ideographic-radical . 50)	; ⼱
@@ -3533,6 +3567,30 @@
   '((ideographic-radical . 50)	; ⼱
     (ideographic-strokes . 5)
     (total-strokes	 . 8)
+    (=ucs		. #x31723)	; 𱜣
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x31723)	; 𱜣
+      ))
+    (ideographic-radical . 50)	; ⼱
+    (ideographic-strokes . 5)
+    (total-strokes	 . 8)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER FULL SURROUND")
+      (=ucs		  . #x2FF4)	; ⿴
+      )
+     ((=ucs		  . #x516B)	; 八
+      )
+     ((=ucs@JP/hanazono	  . #x31722)	; &GT-K02281;
+      (=gt-k		  . 02281)	; &GT-K02281;
+      ))
+    (=ucs@JP/hanazono	. #x31723)	; &hanaJU+31723;
+    ))
+(define-char
+  '((ideographic-radical . 50)	; ⼱
+    (ideographic-strokes . 5)
+    (total-strokes	 . 8)
     (ideographic-structure
      ((=>ucs@component	  . #x2FF5)	; &U-v001+2FF1;
       (=ucs-var-001	  . #x2FF1)	; &U-v001+2FF1;
@@ -4263,7 +4321,7 @@
     (=hanyo-denshi/ip	. #x5E23)	; &HD-IP-5E23;
     (=daikanwa		. 08881)	; &I-M-08881;
     (<-interchangeable
-     ((=gt		  . 35296)	; &GT-35296;
+     ((=gt		  . 35296)	; &MJ020102;
       (=daikanwa	  . 27442)	; &I-M-27442;
       ))
     (<-interchangeable$_1*sources

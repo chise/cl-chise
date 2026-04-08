@@ -1853,7 +1853,20 @@
   '((ideographic-radical . 36)	; ⼣
     (ideographic-strokes . 6)
     (total-strokes	 . 9)
+    (ideographic-structure
+     ?⿱
+     ?此
+     ?夕)
     (=ucs		. #x3C54)	; 㱔
+    ))
+(define-char
+  '((ideographic-radical . 36)	; ⼣
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (<-denotational
+     ((=ucs		. #x3C54)	; 㱔
+      ))
+    (=ucs@unicode	. #x3C54)	; 㱔
     (=cns11643-3	. #x2B7B)	; &I-C3-2B7B; [11-91]
     (=daikanwa/ho	.  0112)	; 㱔
     (->subsumptive
@@ -3724,6 +3737,38 @@
        ((=hanziku-3	    . #xAEAB)	; &HZK03-AEAB;
 	))
       ))
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@cognate	  . #x5B34)	; &A-cgnU+5B34;
+      ))
+    (ideographic-radical . 36)	; ⼣
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM ABOVE")
+      (=ucs		  . #x2FF5)	; ⿵
+      )
+     ((=>ucs-itaiji-003	  . #x23386)	; &A-U-i003+23386;
+      )
+     ((=ucs		  . #x5915)	; 夕
+      ))
+    (=>ucs-itaiji-010	. #x5B34)	; &A-U-i010+5B34;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-010	  . #x5B34)	; &A-U-i010+5B34;
+      ))
+    (ideographic-radical . 36)	; ⼣
+    (ideographic-strokes . 14)
+    (total-strokes	 . 17)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM ABOVE")
+      (=ucs		  . #x2FF5)	; ⿵
+      )
+     ((=ucs-itaiji-007	  . #x23386)	; &U-i007+23386;
+      )
+     ((=ucs		  . #x5915)	; 夕
+      ))
+    (=ucs-itaiji-010	. #x5B34)	; &U-i010+5B34;
     ))
 (define-char
   '((ideographic-radical . 36)	; ⼣

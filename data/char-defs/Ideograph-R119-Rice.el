@@ -128,13 +128,31 @@
     (ideographic-strokes . 2)
     (total-strokes	 . 8)
     (=ucs		. #x25E28)	; 𥸨
-    (->subsumptive
-     ((=daikanwa	  . 26835)	; &M-26835;
-      )
-     ((=ucs@iso		  . #x25E28)	; &U-00025E28;
-      )
-     ((=cns11643-6	  . #x2D51)	; &C6-2D51; [13-49]
+    (<-ancient
+     ((=ucs		  . #x756A)	; 番
       ))
+    (<-ancient$_1*sources
+     shuowen)
+    ))
+(define-char
+  '((ideographic-radical . 119)	; ⽶
+    (ideographic-strokes . 2)
+    (total-strokes	 . 8)
+    (<-denotational
+     ((=ucs		. #x25E28)	; 𥸨
+      ))
+    (=daikanwa	  . 26835)	; &C6-2D51;
+    (=ucs@iso		  . #x25E28)	; &C6-2D51;
+    (=big5-cdp		. #x884E)	; &C6-2D51;
+    (->subsumptive
+     ((==daikanwa	  . 26835)	; &C6-2D51;
+      )
+     ((==ucs@iso		  . #x25E28)	; &C6-2D51;
+      (==big5-cdp		. #x884E)	; &C6-2D51;
+      )
+     ((==cns11643-6	  . #x2D51)	; &C6-2D51; [13-49]
+      ))
+    (=cns11643-6	  . #x2D51)	; &C6-2D51; [13-49]
     ))
 (define-char
   '((ideographic-radical . 119)	; ⽶
@@ -1139,6 +1157,16 @@
      ((=ucs		. #x32DB7)	; 𲶷
       ))
     (=ucs@JP/hanazono	. #x32DB7)	; 𲶷
+    ))
+(define-char
+  '((ideographic-radical . 119)	; ⽶
+    (ideographic-strokes . 3)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ?⿰
+     ?米
+     ?弓)
+    (=ucs		. #x25E32)	; 𥸲
     ))
 (define-char
   '((ideographic-radical . 119)	; ⽶
@@ -4462,6 +4490,25 @@
      ((=ucs		  . #x7C73)	; 米
       ))
     (=ucs@JP/hanazono	. #x31E3F)	; &hanaJU+31E3F;
+    ))
+(define-char
+  '((ideographic-radical . 119)	; ⽶
+    (ideographic-strokes . 6)
+    (total-strokes	 . 12)
+    (ideographic-structure
+     ?⿱
+     ?汛
+     ?米)
+    (=ucs		. #x25E66)	; 𥹦
+    ))
+(define-char
+  '((ideographic-radical . 119)	; ⽶
+    (ideographic-strokes . 6)
+    (total-strokes	 . 12)
+    (<-denotational
+     ((=ucs		. #x25E66)	; 𥹦
+      ))
+    (=ucs@iso		. #x25E66)	; 𥹦
     ))
 (define-char
   '((ideographic-radical . 119)	; ⽶

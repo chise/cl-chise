@@ -643,6 +643,21 @@
       ))
     ))
 (define-char
+  '((ideographic-radical . 125)	; ⽼
+    (ideographic-strokes . 4)
+    (total-strokes	 . 10)
+    (=ucs		. #x31EE9)	; 𱻩
+    ))
+(define-char
+  '((ideographic-radical . 125)	; ⽼
+    (ideographic-strokes . 4)
+    (total-strokes	 . 10)
+    (<-denotational
+     ((=ucs		. #x31EE9)	; 𱻩
+      ))
+    (=ucs@JP/hanazono	. #x31EE9)	; 𱻩
+    ))
+(define-char
   '((<-denotational@usage
      ((==>ucs@bucs	  . #x8005)	; &BUCS+8005;
       ))

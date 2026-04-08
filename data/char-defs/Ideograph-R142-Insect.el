@@ -21572,8 +21572,18 @@
     ))
 (define-char
   '((ideographic-radical . 142)	; ⾍
+    (ideographic-structure
+     ?⿰
+     ?虫
+     ((=>ucs@iwds-1	. #x7232)	; &A-IWDSU+7232;
+      ))
     (=ucs		. #x87E1)	; 蟡
     (=big5		. #xE7A5)	; &I-B-E7A5;
+    (<-formed
+     ((=ucs		  . #x9036)	; 逶
+      ))
+    (<-formed$_1*sources
+     shuowen)
     ))
 (define-char
   '((<-denotational
@@ -21583,12 +21593,21 @@
     (ideographic-radical . 142)	; ⾍
     (ideographic-strokes . 12)
     (total-strokes	 . 18)
+    (ideographic-structure
+     ?⿰
+     ?虫
+     ?&AJ1-05603;)
     (=ucs		. #x2F9C0)	; 蟡
     (=cns11643-7	. #x425F)	; &I-C7-425F; [34-63]
     (=daikanwa		. 33594)	; &I-M-33594;
     (<-formed
      ((=ucs@jis		  . #x9036)	; &MJ025990;
       (=mj		  . 025990)	; &MJ025990;
+      ))
+    (->subsumptive
+     ((==ucs@cns		. #x2F9C0)	; 蟡
+      (==cns11643-7	. #x425F)	; &I-C7-425F; [34-63]
+      (==daikanwa		. 33594)	; &I-M-33594;
       ))
     ))
 (define-char
@@ -21598,7 +21617,17 @@
     (ideographic-radical . 142)	; ⾍
     (ideographic-strokes . 12)
     (total-strokes	 . 18)
+    (ideographic-structure
+     ?⿰
+     ?虫
+     ((=ucs@unicode	. #x7232)	; &GT-25271;
+      ))
     (=ucs@unicode	. #x87E1)	; &UU+87E1;
+    (=ucs@JP/hanazono . nil)
+    (->subsumptive
+     ((==ucs@unicode	. #x87E1)	; &UU+87E1;
+      (==ucs@JP/hanazono . nil)
+      ))
     ))
 (define-char
   '((<-denotational
@@ -21608,6 +21637,9 @@
     (ideographic-strokes . 9)
     (total-strokes	 . 15)
     (=cns11643-2	. #x536C)	; &C2-536C; [51-76]
+    (->subsumptive
+     ((==cns11643-2	. #x536C)	; &C2-536C; [51-76]
+      ))
     ))
 (define-char
   '((ideographic-radical . 142)	; ⾍
@@ -28145,7 +28177,7 @@
     (ideographic-radical . 142)	; ⾍
     (ideographic-strokes . 16)
     (total-strokes	 . 22)
-    (ideographic-structure
+    (ideographic-structure@apparent
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
@@ -28162,7 +28194,7 @@
     (ideographic-radical . 142)	; ⾍
     (ideographic-strokes . 16)
     (total-strokes	 . 22)
-    (ideographic-structure
+    (ideographic-structure@apparent
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )

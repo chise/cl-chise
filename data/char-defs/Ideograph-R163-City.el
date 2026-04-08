@@ -6979,7 +6979,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((==>daijiten	  . 06321)	; &A2-DJT-06321;
+     ((==>daijiten	  . 06321)	; &BUCS+6E24;
       ))
     (ideographic-radical . 163)	; ⾢
     (ideographic-strokes . 7)
@@ -7005,7 +7005,7 @@
     (=ucs@unicode	. #x90E3)	; 郣
     (=cns11643-2	. #x333A)	; &C2-333A; [19-26]
     (=big5		. #xD3F6)	; &I-B-D3F6;
-    (=daikanwa		. 39439)	; &M-39439;
+    (=daikanwa		. 39439)	; &C2-333A;
     (=daijiten		. 12172)	; &I-DJT-12172;
     (->subsumptive
      ((==ucs@unicode	  . #x90E3)	; &g2-M-39439;
@@ -7940,7 +7940,7 @@
      ((=ucs		. #x90E9)	; 郩
       ))
     (=ucs@unicode	. #x90E9)	; 郩
-    (=daikanwa		. 39463)	; &M-39463;
+    (=daikanwa		. 39463)	; &C2-3974;
     (<-denotational
      ((=ucs		. #x90E9)	; 郩
       ))
@@ -7950,7 +7950,7 @@
     (=cns11643-2	. #x3974)	; &C2-3974; [25-84]
     (->subsumptive
      ((==ucs@unicode	. #x90E9)	; 郩
-      (==daikanwa		. 39463)	; &M-39463;
+      (==daikanwa		. 39463)	; &C2-3974;
       )
      ((==cns11643-2	. #x3974)	; &C2-3974; [25-84]
       ))
@@ -12606,6 +12606,23 @@
     ))
 (define-char
   '((<-denotational
+     ((=ucs		  . #x9115)	; 鄕
+      ))
+    (ideographic-radical . 163)	; ⾢
+    (ideographic-strokes . 9)
+    (total-strokes	 . 12)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER FULL SURROUND")
+      (=ucs		  . #x2FF4)	; ⿴
+      )
+     ((=ucs		  . #x28675)	; 𨙵
+      )
+     ((=ucs-var-005	. #x7680)	; &U-v005+7680;
+      ))
+    (=ucs-var-005	. #x9115)	; &U-v005+9115;
+    ))
+(define-char
+  '((<-denotational
      ((=>ucs@jis/2000	  . #x9115)	; &A-JX1-7C6C;
       (=>ucs@jis/2004	  . #x9115)	; &A-JX1-7C6C;
       (=>jis-x0213-1	  . #x7C6C)	; &A-JX1-7C6C; [92-76]
@@ -17152,6 +17169,21 @@
     (total-strokes	 . 19)
     (=ucs		. #x2878F)	; 𨞏
     (=cns11643-7	. #x4B25)	; &I-C7-4B25; [43-05]
+    ))
+(define-char
+  '((ideographic-radical . 163)	; ⾢
+    (ideographic-strokes . 12)
+    (total-strokes	 . 15)
+    (=ucs		. #x3314B)	; 𳅋
+    ))
+(define-char
+  '((ideographic-radical . 163)	; ⾢
+    (ideographic-strokes . 12)
+    (total-strokes	 . 15)
+    (<-denotational
+     ((=ucs		. #x3314B)	; 𳅋
+      ))
+    (=ucs@JP/hanazono	. #x3314B)	; 𳅋
     ))
 (define-char
   '((ideographic-radical . 163)	; ⾢

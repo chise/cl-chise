@@ -35,8 +35,8 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=ucs@iso		  . #x20B9B)	; &C4-2147;
-      (=cns11643-4	  . #x2147)	; &C4-2147; [01-39]
+     ((=ucs@iso		  . #x20B9B)	; &GT-04098;
+      (=cns11643-4	  . #x2147)	; &GT-04098; [01-39]
       (=daikanwa	  . 03230)	; &I-M-03230;
       )
      ((=>iwds-1		  .  0134)	; &A-GT-K02039;
@@ -57,8 +57,8 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=ucs@iso		  . #x20B9B)	; &C4-2147;
-      (=cns11643-4	  . #x2147)	; &C4-2147; [01-39]
+     ((=ucs@iso		  . #x20B9B)	; &GT-04098;
+      (=cns11643-4	  . #x2147)	; &GT-04098; [01-39]
       (=daikanwa	  . 03230)	; &I-M-03230;
       )
      ((=big5-cdp-itaiji-001 . #x8BDC)	; &CDP-i001-8BDC;
@@ -106,8 +106,8 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=ucs@iso		  . #x20B9B)	; &C4-2147;
-      (=cns11643-4	  . #x2147)	; &C4-2147; [01-39]
+     ((=ucs@iso		  . #x20B9B)	; &GT-04098;
+      (=cns11643-4	  . #x2147)	; &GT-04098; [01-39]
       (=daikanwa	  . 03230)	; &I-M-03230;
       )
      ((=gt-k		  . 02039)	; &GT-K02039;
@@ -169,8 +169,8 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=ucs@iso		  . #x20B9B)	; &C4-2147;
-      (=cns11643-4	  . #x2147)	; &C4-2147; [01-39]
+     ((=ucs@iso		  . #x20B9B)	; &GT-04098;
+      (=cns11643-4	  . #x2147)	; &GT-04098; [01-39]
       (=daikanwa	  . 03230)	; &I-M-03230;
       )
      ((=big5-cdp-itaiji-002 . #x8BDC)	; &CDP-i002-8BDC;
@@ -302,8 +302,8 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=ucs@iso		  . #x20B9B)	; &C4-2147;
-      (=cns11643-4	  . #x2147)	; &C4-2147; [01-39]
+     ((=ucs@iso		  . #x20B9B)	; &GT-04098;
+      (=cns11643-4	  . #x2147)	; &GT-04098; [01-39]
       (=daikanwa	  . 03230)	; &I-M-03230;
       )
      ((=ucs		  . #x2053F)	; 𠔿
@@ -2926,6 +2926,20 @@
      ?&MJ007254;
      ?&C1-586F;)
     (=ucs@iso		. #x29C55)	; &U-00029C55;
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x29C55)	; 𩱕
+      ))
+    (ideographic-radical . 193)	; ⿀
+    (ideographic-strokes . 12)
+    (total-strokes	 . 22)
+    (ideographic-structure
+     ?⿱
+     ?&MJ007254;
+     ((=ucs@jis		. #x9B32)	; &AJ1-07300;
+      ))
+    (=ucs@JP/hanazono	. #x29C55)	; &BUCS+4E2A;
     ))
 (define-char
   '((ideographic-radical . 193)	; ⿀

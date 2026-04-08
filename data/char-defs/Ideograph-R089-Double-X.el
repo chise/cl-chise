@@ -1176,19 +1176,36 @@
       ))
     ))
 (define-char
-  '((=>ucs		. #x24567)	; 𤕧
+  '((=ucs		. #x24567)	; 𤕧
+    (ideographic-radical . 89)	; ⽘
+    (<-Zhouwen
+     ((=ucs		  . #x24566)	; 𤕦
+      ))
+    (<-Zhouwen$_1*sources
+     shuowen)
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		. #x24567)	; 𤕧
+      ))
     (ideographic-radical . 89)	; ⽘
     (ideographic-strokes . 11)
     (total-strokes	 . 15)
     (=daikanwa		. 19752)	; &M-19752;
-    ))
-(define-char
-  '((morohashi-daikanwa	19752 0 0)
     (ideographic-radical . 89)	; ⽘
     (ideographic-strokes . 11)
     (total-strokes	 . 15)
-    (=ucs		. #x24567)	; 𤕧
+    (<-denotational
+     ((=ucs		. #x24567)	; 𤕧
+      ))
+    (=ucs@iso		. #x24567)	; 𤕧
     (=cns11643-7	. #x247B)	; &I-C7-247B; [04-91]
+    (->subsumptive
+     ((==daikanwa		. 19752)	; &M-19752;
+      )
+     ((==ucs@iso		. #x24567)	; 𤕧
+      (==cns11643-7	. #x247B)	; &I-C7-247B; [04-91]
+      ))
     ))
 (define-char
   '((ideographic-radical . 89)	; ⽘

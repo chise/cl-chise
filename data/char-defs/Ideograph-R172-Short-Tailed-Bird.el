@@ -8267,14 +8267,33 @@
     ))
 (define-char
   '((ideographic-radical . 172)	; ⾫
+    (ideographic-structure
+     ?⿰
+     ?兆
+     ?雚)
+    (=ucs		. #x29067)	; 𩁧
+    (<-formed
+     ((=ucs		  . #x902D)	; 逭
+      ))
+    (<-formed$_1*sources
+     shuowen)
+    ))
+(define-char
+  '((ideographic-radical . 172)	; ⾫
+    (<-denotational
+     ((=ucs		. #x29067)	; 𩁧
+      ))
     (ideographic-strokes . 16)
     (total-strokes	 . 24)
-    (=ucs		. #x29067)	; 𩁧
+    (=ucs@iso		. #x29067)	; 𩁧
+    (=daikanwa	  . 42195)	; &M-42195;
+    (=ucs@iso		  . #x29067)	; &C7-5F7C;
+    (=cns11643-7	  . #x5F7C)	; &C7-5F7C; [63-92]
     (->subsumptive
-     ((=daikanwa	  . 42195)	; &M-42195;
+     ((==daikanwa	  . 42195)	; &M-42195;
       )
-     ((=ucs@iso		  . #x29067)	; &C7-5F7C;
-      (=cns11643-7	  . #x5F7C)	; &C7-5F7C; [63-92]
+     ((==ucs@iso		  . #x29067)	; &C7-5F7C;
+      (==cns11643-7	  . #x5F7C)	; &C7-5F7C; [63-92]
       ))
     ))
 (define-char

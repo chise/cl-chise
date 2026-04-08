@@ -509,7 +509,7 @@
     (ideographic-radical . 199)	; ⿆
     (ideographic-strokes . 3)
     (total-strokes	 . 14)
-    (=daijiten		. 14662)	; &I-DJT-14662;
+    (=daijiten		. 14662)	; &DJT-14662;
     ))
 (define-char
   '((<-denotational
@@ -4252,6 +4252,29 @@
     ))
 (define-char
   '((ideographic-radical . 199)	; ⿆
+    (ideographic-structure
+     ?⿱
+     ?敄
+     ?麦)
+    (=ucs		. #x312E5)	; 𱋥
+    ))
+(define-char
+  '((ideographic-radical . 199)	; ⿆
+    (ideographic-structure
+     ?⿱
+     ((=ucs@unicode	. #x6544)	; &AJ1-17719;
+      )
+     ((=ucs		. #x2EE8)	; ⻨
+      ))
+    (<-denotational
+     ((=ucs		. #x312E5)	; 𱋥
+      ))
+    (ideographic-strokes . 9)
+    (total-strokes	 . 16)
+    (=ucs@JP/hanazono	. #x312E5)	; 𱋥
+    ))
+(define-char
+  '((ideographic-radical . 199)	; ⿆
     (=ucs		. #x4D3E)	; 䴾
     ))
 (define-char
@@ -5243,7 +5266,7 @@
       )
      ((=ucs		  . #x9EA5)	; 麥
       )
-     ((=>big5-cdp	  . #x85A8)	; &A-CDP-85A8;
+     ((=>big5-cdp	  . #x85A8)	; 𲏃
       ))
     (=ucs		. #x2A370)	; 𪍰
     ))
@@ -5319,7 +5342,7 @@
       )
      ((=ucs		  . #x9EA6)	; 麦
       )
-     ((=>big5-cdp	  . #x85A8)	; &A-CDP-85A8;
+     ((=>big5-cdp	  . #x85A8)	; 𲏃
       ))
     (=ucs		. #x312E9)	; 𱋩
     ))

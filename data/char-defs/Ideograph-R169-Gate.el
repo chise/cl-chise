@@ -446,11 +446,43 @@
     (=daikanwa		. 41217)	; &I-M-41217;
     ))
 (define-char
+  '((<-denotational@usage
+     ((ideographic-radical . 169)	; ⾨
+      (==>ucs@bucs	. #x9583)	; &BUCS+9583;
+      (==>daijiten	. 12711)	; &BUCS+9583;
+      ))
+    (ideographic-radical . 169)	; ⾨
+    (ideographic-strokes . 2)
+    (total-strokes	 . 5)
+    (ideographic-structure
+     ?⿵
+     ?门
+     ((=>ucs@iwds-1	. #x4EBA)	; &A-IWDSU+4EBA;
+      ))
+    (=ucs		. #x95EA)	; 闪
+    ))
+(define-char
   '((ideographic-radical . 169)	; ⾨
     (ideographic-strokes . 2)
     (total-strokes	 . 5)
-    (=ucs		. #x95EA)	; 闪
+    (ideographic-structure
+     ?⿵
+     ?⻔
+     ?人)
+    (<-denotational
+     ((=ucs		. #x95EA)	; 闪
+      ))
+    (=ucs@unicode	. #x95EA)	; 闪
     (=gb2312		. #x4941)	; &I-G0-4941; [41-33]
+    (=gb2312		. #x4941)	; &I-G0-4941; [41-33]
+    (<-simplified@CN
+     ((=gb12345		. #x4941)	; &AJ1-02736; [41-33]
+      ))
+    (->subsumptive
+     ((==ucs@unicode	. #x95EA)	; 闪
+      (==gb2312		. #x4941)	; &I-G0-4941; [41-33]
+      (==gb2312		. #x4941)	; &I-G0-4941; [41-33]
+      ))
     ))
 (define-char
   '((ideographic-radical . 169)	; ⾨
@@ -3868,13 +3900,22 @@
   '((ideographic-radical . 169)	; ⾨
     (ideographic-strokes . 6)
     (total-strokes	 . 14)
+    (ideographic-structure
+     ?⿵
+     ?門
+     ?血)
     (=ucs		. #x4997)	; 䦗
+    (=daikanwa	  . 41299)	; &M-41299;
     (->subsumptive
-     ((=daikanwa	  . 41299)	; &M-41299;
+     ((==daikanwa	  . 41299)	; &M-41299;
       )
-     ((=ucs@unicode	  . #x4997)	; &C3-4A3F;
-      (=cns11643-3	  . #x4A3F)	; &C3-4A3F; [42-31]
+     ((==ucs@unicode	  . #x4997)	; &C3-4A3F;
+      (==cns11643-3	  . #x4A3F)	; &C3-4A3F; [42-31]
+      (==cbeta		. 10776)
       ))
+    (=ucs		  . #x4997)	; &C3-4A3F;
+    (=cns11643-3	  . #x4A3F)	; &C3-4A3F; [42-31]
+    (=cbeta		. 10776)
     ))
 (define-char
   '((<-denotational@usage

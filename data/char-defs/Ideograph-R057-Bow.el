@@ -1417,6 +1417,38 @@
   '((ideographic-radical . 57)	; ⼸
     (ideographic-strokes . 2)
     (total-strokes	 . 5)
+    (ideographic-structure
+     ((name		  . "IDEOGRAPHIC DESCRIPTION CHARACTER OVERLAID")
+      (=ucs		  . #x2FFB)	; ⿻
+      )
+     ((=ucs		  . #x5F13)	; 弓
+      )
+     ((=>ucs@iwds-1	  . #x4EBA)	; &A-IWDSU+4EBA;
+      (=>iwds-1		  .  14623)	; &A-IWDSU+4EBA;
+      ))
+    (=>ucs-itaiji-002	. #x5937)	; &A-U-i002+5937;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-002	  . #x5937)	; &A-U-i002+5937;
+      ))
+    (ideographic-radical . 57)	; ⼸
+    (ideographic-strokes . 2)
+    (total-strokes	 . 5)
+    (ideographic-structure
+     ((name		  . "IDEOGRAPHIC DESCRIPTION CHARACTER OVERLAID")
+      (=ucs		  . #x2FFB)	; ⿻
+      )
+     ((=ucs		  . #x5F13)	; 弓
+      )
+     ((=ucs		  . #x4EBA)	; 人
+      ))
+    (=ucs-itaiji-002	. #x5937)	; &U-i002+5937;
+    ))
+(define-char
+  '((ideographic-radical . 57)	; ⼸
+    (ideographic-strokes . 2)
+    (total-strokes	 . 5)
     (ideographic-structure@apparent
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
@@ -1953,19 +1985,52 @@
       ))
     ))
 (define-char
-  '((=>ucs		. #x38A9)	; 㢩
-    (ideographic-radical . 57)	; ⼸
+  '((ideographic-radical . 57)	; ⼸
     (ideographic-strokes . 3)
     (total-strokes	 . 6)
-    (=daikanwa		. 09722)	; &M-09722;
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5F13)	; 弓
+      )
+     ((=ucs		  . #x52FA)	; 勺
+      ))
+    (=ucs		. #x38A9)	; 㢩
     ))
 (define-char
-  '((morohashi-daikanwa	9722 0 2)
+  '((<-denotational
+     ((=ucs		  . #x38A9)	; 㢩
+      ))
     (ideographic-radical . 57)	; ⼸
     (ideographic-strokes . 3)
     (total-strokes	 . 6)
-    (=ucs		. #x38A9)	; 㢩
-    (=cns11643-3	. #x2363)	; &I-C3-2363; [03-67]
+    (=daikanwa 		. 09722)	; &M-09722;
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x38A9)	; 㢩
+      ))
+    (ideographic-radical . 57)	; ⼸
+    (ideographic-strokes . 3)
+    (total-strokes	 . 6)
+    (ideographic-structure
+     ?⿰
+     ?弓
+     ?&MJ007745;)
+    (=ucs@unicode	. #x38A9)	; &C3-2363;
+    (=ucs@JP/hanazono	. nil)
+    (=cns11643-3	. #x2363)	; &C3-2363; [03-67]
+    (->subsumptive
+     ((==ucs@unicode	  . #x38A9)	; &g2-UU+38A9;
+      (==ucs@JP/hanazono  . nil)
+      (==cns11643-3	  . #x2363)	; &g2-UU+38A9; [03-67]
+      (->subsumptive
+       ((===cns11643-3	    . #x2363)	; &R-C3-2363; [03-67]
+	)
+       ((===ucs@unicode	    . #x38A9)	; &R-UU+38A9;
+	))
+      ))
     ))
 (define-char
   '((ideographic-radical . 57)	; ⼸
@@ -3035,6 +3100,35 @@
        ((===cbeta	    . 05942)	; &R-CB05942;
 	))
       ))
+    ))
+(define-char
+  '((ideographic-radical . 57)	; ⼸
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=>ucs-itaiji-010	  . #x5F13)	; &A-U-i010+5F13;
+      )
+     ((=ucs		  . #x5F13)	; 弓
+      ))
+    (=>big5-cdp-itaiji-002 . #x89EE)	; &A-CDP-i002-89EE;
+    ))
+(define-char
+  '((<-denotational
+     ((=>big5-cdp-itaiji-002 . #x89EE)	; &A-CDP-i002-89EE;
+      ))
+    (ideographic-radical . 57)	; ⼸
+    (ideographic-strokes . 4)
+    (total-strokes	 . 7)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs-itaiji-010	  . #x5F13)	; &U-i010+5F13;
+      )
+     ((=ucs		  . #x5F13)	; 弓
+      ))
+    (=big5-cdp-itaiji-002 . #x89EE)	; &CDP-i002-89EE;
     ))
 (define-char
   '((ideographic-radical . 57)	; ⼸

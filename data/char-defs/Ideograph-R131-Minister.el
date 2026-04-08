@@ -627,6 +627,48 @@
 (define-char
   '((ideographic-radical . 131)	; ⾂
     (ideographic-strokes . 2)
+    (total-strokes	 . 7)
+    (ideographic-structure
+     ?⿰
+     ?𮍌
+     ?又)
+    (=ucs		. #x2E34D)	; 𮍍
+    ))
+(define-char
+  '((ideographic-radical . 131)	; ⾂
+    (ideographic-strokes . 2)
+    (total-strokes	 . 7)
+    (ideographic-structure
+     ?⿰
+     ((=ucs@JP/hanazono	. #x2E34C)	; &CDP-885A;
+      )
+     ?又)
+    (<-denotational
+     ((=ucs		. #x2E34D)	; 𮍍
+      ))
+    (=ucs@JP/hanazono	. #x2E34D)	; 𮍍
+    (=mj		. 058407)	; &MJ058407;
+    (=koseki . 335590)
+    (<-formed
+     ((=jis-x0213-2	. #x7557)	; &I-JX2-7557; [85-55]
+      )
+     ((=jis-x0208		. #x382D)	; &I-J90-382D; [24-13]
+      ))
+    (<-formed$_1*sources
+     koseki mj)
+    (<-formed$_2*sources
+     koseki@mj)
+    (<-formed*sources
+     koseki mj)
+    (->subsumptive
+     ((==ucs@JP/hanazono	. #x2E34D)	; 𮍍
+      (==mj		. 058407)	; &MJ058407;
+      (==koseki . 335590)
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 131)	; ⾂
+    (ideographic-strokes . 2)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰

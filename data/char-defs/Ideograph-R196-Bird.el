@@ -12,6 +12,43 @@
     (=big5-cdp-itaiji-001 . #x89DF)	; &CDP-i001-89DF;
     ))
 (define-char
+  '((<-denotational
+     ((=>ucs@cognate	  . #x9CE5)	; &A-cgnU+9CE5;
+      ))
+    (<-denotational@usage
+     ((==>ucs@bucs	  . #x9CE5)	; &BUCS+9CE5;
+      ))
+    (ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 0)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT")
+      (=ucs		  . #x2FF9)	; ⿹
+      )
+     ((=>big5-cdp	  . #x8CBB)	; &CDP-8CBB;
+      )
+     ((=>ucs@iwds-1	. #x4E37)	; &A-IWDSU+4E37;
+      ))
+    (=>ucs-itaiji-003	. #x9CE5)	; &BUCS+4E30;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-003	. #x9CE5)	; &BUCS+4E30;
+      ))
+    (ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 0)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT")
+      (=ucs		  . #x2FF9)	; ⿹
+      )
+     ((=big5-cdp-itaiji-001 . #x8CBB)	; &CDP-i001-8CBB;
+      )
+     ((=ucs		. #x4E37)	; 丷
+      ))
+    (=ucs-itaiji-003	. #x9CE5)	; &BUCS+4E30;
+    ))
+(define-char
   '((ideographic-radical . 196)	; ⿃
     (ideographic-strokes . 0)
     (=>ucs@cognate	. #x9CE5)	; &A-cgnU+9CE5;
@@ -30,7 +67,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT")
       (=ucs		  . #x2FF9)	; ⿹
       )
-     ((=big5-cdp	  . #x8CBB)	; &CDP-8CBB;
+     ((=>big5-cdp	  . #x8CBB)	; &CDP-8CBB;
       )
      ((=ucs		  . #x706C)	; 灬
       ))
@@ -258,11 +295,33 @@
 (define-char
   '((ideographic-radical . 196)	; ⿃
     (ideographic-strokes . 0)
+    (=>big5-cdp		. #x8CBB)	; &CDP-8CBB;
+    ))
+(define-char
+  '((<-denotational
+     ((=>big5-cdp		. #x8CBB)	; &CDP-8CBB;
+      ))
+    (ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 0)
     (total-strokes	 . 7)
     (=big5-cdp		. #x8CBB)	; &CDP-8CBB;
     (<-simplified@component
      ((=ucs		  . #x9CE5)	; 鳥
       ))
+    ))
+(define-char
+  '((<-denotational
+     ((=>big5-cdp		. #x8CBB)	; &CDP-8CBB;
+      ))
+    (ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 0)
+    (total-strokes	 . 7)
+    (ideographic-structure@apparent
+     ?⿱
+     ((=big5-cdp		. #x85F7)	; &CDP-85F7;
+      )
+     ?𠃌)
+    (=big5-cdp-itaiji-001 . #x8CBB)	; &CDP-i001-8CBB;
     ))
 (define-char
   '((<-denotational@usage
@@ -527,7 +586,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
-     ((=big5-cdp	  . #x8CBB)	; &CDP-8CBB;
+     ((=>big5-cdp	  . #x8CBB)	; &CDP-8CBB;
       )
      ((=>ucs@iwds-1	  . #x513F)	; &A-IWDSU+513F;
       (=>iwds-1		  .  11922)	; &A-IWDSU+513F;

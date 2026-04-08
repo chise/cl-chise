@@ -992,6 +992,15 @@
       ))
     (sound@ja/on	"gai" "toku")
     (=ucs		. #x3775)	; 㝵
+    (<-ancient
+     ((=ucs		  . #x22536)	; 𢔶
+      )
+     ((=ucs		  . #x5F97)	; 得
+      ))
+    (<-ancient$_1*sources
+     shuowen)
+    (<-ancient$_2*sources
+     shuowen)
     ))
 (define-char
   '((<-denotational
@@ -1554,6 +1563,28 @@
     (=ucs-itaiji-001	. #x2D52B)	; &U-i001+2D52B;
     (->subsumptive
      ((==ucs-itaiji-001	  . #x2D52B)	; &g2-U-i001+2D52B;
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 41)	; ⼨
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x209D7)	; 𠧗
+      )
+     ((=ucs		  . #x5BF8)	; 寸
+      ))
+    (=ucs		. #x2D52E)	; 𭔮
+    (=cbeta		. 04295)	; &I-CB04295;
+    (->subsumptive
+     ((==ucs@JP/hanazono  . #x2D52E)	; &g2-CB04295;
+      (==cbeta		  . 04295)	; &g2-CB04295;
+      (->subsumptive
+       ((===cbeta	    . 04295)	; &R-CB04295;
+	))
       ))
     ))
 (define-char

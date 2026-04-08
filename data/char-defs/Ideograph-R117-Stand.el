@@ -3851,6 +3851,19 @@
     ))
 (define-char
   '((ideographic-radical . 117)	; ⽴
+    (=ucs		. #x25AA3)	; 𥪣
+    ))
+(define-char
+  '((ideographic-radical . 117)	; ⽴
+    (<-denotational
+     ((=ucs		. #x25AA3)	; 𥪣
+      ))
+    (ideographic-strokes . 9)
+    (total-strokes	 . 14)
+    (=ucs@iso		. #x25AA3)	; 𥪣
+    ))
+(define-char
+  '((ideographic-radical . 117)	; ⽴
     (=ucs		. #x41D2)	; 䇒
     ))
 (define-char

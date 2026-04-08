@@ -145,6 +145,24 @@
       ))
     ))
 (define-char
+  '((<-denotational@component
+     ((=>ucs@component	  . #x20AD3)	; &A-compU+20AD3;
+      ))
+    (ideographic-radical . 28)	; ⼛
+    (ideographic-strokes . 1)
+    (total-strokes	 . 3)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=+>ucs@unicode	  . #x4EA0)	; &o-J0-5035;
+      (=+>jis-x0208	  . #x5035)	; &o-J0-5035; [48-21]
+      )
+     ((=big5-cdp	  . #x8AAC)	; &CDP-8AAC;
+      ))
+    (=ucs-var-006	. #x20AD3)	; &U-v006+20AD3;
+    ))
+(define-char
   '((ideographic-radical . 28)	; ⼛
     (ideographic-strokes . 1)
     (total-strokes	 . 3)
@@ -1375,6 +1393,9 @@
   '((<-denotational@component
      ((=>ucs@component	  . #x21FEE)	; &A-compU+21FEE;
       ))
+    (<-denotational@usage
+     ((==>daijiten	  . 06006)	; &A2-DJT-06006;
+      ))
     (ideographic-radical@ucs . 47)	; ⼮
     (ideographic-radical@cns . 28)	; ⼛
     (ideographic-structure
@@ -1387,6 +1408,11 @@
       (=>iwds-1		  .  0270)	; &A-IWDSU+5DDB;
       ))
     (=ucs		. #x21FEE)	; 𡿮
+    (<-formed
+     ((=ucs		  . #x20AD3)	; 𠫓
+      ))
+    (<-formed$_1*sources
+     shuowen)
     ))
 (define-char
   '((<-denotational
@@ -2499,6 +2525,36 @@
        ((===cbeta	    . 07259)	; &R-CB07259;
 	))
       ))
+    ))
+(define-char
+  '((ideographic-radical . 28)	; ⼛
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x53B6)	; 厶
+      )
+     ((=ucs		  . #x9EA6)	; 麦
+      ))
+    (=>ucs-itaiji-001	. #x2D199)	; &A-U-i001+2D199;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-001	  . #x2D199)	; &A-U-i001+2D199;
+      ))
+    (ideographic-radical . 28)	; ⼛
+    (ideographic-strokes . 7)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x53B6)	; 厶
+      )
+     ((name		  . "CJK RADICAL SIMPLIFIED WHEAT")
+      (=ucs		  . #x2EE8)	; ⻨
+      ))
+    (=ucs-itaiji-001	. #x2D199)	; &U-i001+2D199;
     ))
 (define-char
   '((ideographic-radical . 28)	; ⼛
@@ -4552,6 +4608,13 @@
     ))
 (define-char
   '((ideographic-radical . 28)	; ⼛
+    (=>ucs@component	. #x20AD3)	; &A-compU+20AD3;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@component	  . #x20AD3)	; &A-compU+20AD3;
+      ))
+    (ideographic-radical . 28)	; ⼛
     (=>ucs@iwds-1	. #x20AD3)	; &A-IWDSU+20AD3;
     ))
 (define-char

@@ -442,6 +442,11 @@
      ((=ucs		  . #x7384)	; 玄
       ))
     (=ucs		. #x8852)	; 衒
+    (<-formed
+     ((=ucs		  . #x275F3)	; 𧗳
+      ))
+    (<-formed$_1*sources
+     shuowen)
     ))
 (define-char
   '((<-denotational
@@ -1823,7 +1828,8 @@
       )
      ((=ucs		  . #x884C)	; 行
       )
-     ((=>mj		  . 059018)	; 𮧮
+     ((=ucs		. #x2E9EE)	; 𮧮
+      (=>mj		  . 059018)	; 𮧮
       ))
     (=ucs		. #x885E)	; 衞
     ))

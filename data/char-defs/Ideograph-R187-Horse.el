@@ -113,6 +113,10 @@
     (ideographic-radical . 187)	; ⾺
     (ideographic-strokes . 2)
     (total-strokes	 . 12)
+    (ideographic-structure
+     ?⿰
+     ?馬
+     ?又)
     (=ucs		. #x99AD)	; 馭
     (=adobe-japan1-0	. 07230)	; &I-AJ1-07230;
     (=jis-x0208		. #x7147)	; &I-J90-7147; [81-39]
@@ -127,9 +131,13 @@
     (=daijiten		. 13681)	; &I-DJT-13681;
     (=shinjigen		.  9327)	; 馭
     (<-ancient
+     ((=ucs		  . #x5FA1)	; 御
+      )
      ((=ucs@unicode	  . #x5FA1)	; &MJ011326;
       (=mj		  . 011326)	; &MJ011326;
       ))
+    (<-ancient$_1*sources
+     shuowen)
     (->subsumptive
      ((==daikanwa	  . 44576)	; &g2-M-44576;
       (==shinjigen	  .  9327)	; &g2-M-44576;
@@ -7458,11 +7466,27 @@
     ))
 (define-char
   '((ideographic-radical . 187)	; ⾺
+    (ideographic-structure
+     ?⿰
+     ?馬
+     ?𠚏)
+    (=ucs		. #x2992A)	; 𩤪
+    ))
+(define-char
+  '((ideographic-radical . 187)	; ⾺
+    (<-denotational
+     ((=ucs		. #x2992A)	; 𩤪
+      ))
     (ideographic-strokes . 9)
     (total-strokes	 . 19)
-    (=ucs		. #x2992A)	; 𩤪
-    (=cns11643-7	. #x4C33)	; &I-C7-4C33; [44-19]
+    (=ucs@iso		. #x2992A)	; 𩤪
+    (=cns11643-7	. #x4C33)	; &C7-4C33; [44-19]
     (=daikanwa		. 44881)	; &I-M-44881;
+    (->subsumptive
+     ((==ucs@iso		. #x2992A)	; 𩤪
+      (==cns11643-7	. #x4C33)	; &C7-4C33; [44-19]
+      (==daikanwa		. 44881)	; &I-M-44881;
+      ))
     ))
 (define-char
   '((ideographic-radical . 187)	; ⾺
@@ -12065,9 +12089,32 @@
   '((ideographic-radical . 187)	; ⾺
     (ideographic-strokes . 12)
     (total-strokes	 . 22)
+    (ideographic-structure
+     ?⿰
+     ?𡍮
+     ?馬)
     (=ucs		. #x2999B)	; 𩦛
-    (=cns11643-5	. #x7479)	; &I-C5-7479; [84-89]
+    ))
+(define-char
+  '((ideographic-radical . 187)	; ⾺
+    (ideographic-strokes . 12)
+    (total-strokes	 . 22)
+    (<-denotational
+     ((=ucs		. #x2999B)	; 𩦛
+      ))
+    (ideographic-structure
+     ?⿰
+     ((=ucs@cns		. #x2136E)	; &C4-3675;
+      )
+     ?馬)
+    (=ucs@iso		. #x2999B)	; 𩦛
+    (=cns11643-5	. #x7479)	; &C5-7479; [84-89]
     (=daikanwa		. 49907)	; &I-M-49907;
+    (->subsumptive
+     ((==ucs@iso		. #x2999B)	; 𩦛
+      (==cns11643-5	. #x7479)	; &C5-7479; [84-89]
+      (==daikanwa		. 49907)	; &I-M-49907;
+      ))
     ))
 (define-char
   '((ideographic-radical . 187)	; ⾺

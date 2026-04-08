@@ -287,13 +287,15 @@
       )
      ((=ucs		  . #x529B)	; 力
       ))
-    (=gt-k		. 00813)	; &GT-K00813;
-    (=gt-pj-k2		. #x393F)	; &GT-K00813; [25-31]
+    (=ucs		. #x31429)	; 𱐩
+    (=gt-k		. 00813)	; &I-GT-K00813;
+    (=gt-pj-k2		. #x393F)	; 𱐩 [25-31]
     (<-simplified@CN/component
      ((=ucs		  . #x2C037)	; 𬀷
       ))
     (->subsumptive
-     ((==gt-k		  . 00813)	; &g2-GT-K00813;
+     ((==ucs@JP/hanazono  . #x31429)	; &g2-GT-K00813;
+      (==gt-k		  . 00813)	; &g2-GT-K00813;
       (==gt-pj-k2	  . #x393F)	; &g2-GT-K00813; [25-31]
       ))
     ))
@@ -3707,7 +3709,7 @@
     (=shinjigen		.  0729)	; &AJ1-03716;
     (<-formed
      ((=ucs@unicode	  . #x6E24)	; &AJ1-05468;
-      (=adobe-japan1-0	  . 05468)	; &I-AJ1-05468;
+      (=adobe-japan1-0	  . 05468)	; &AJ1-05468;
       ))
     (<-formed$_1*sources
      zhengzitong)
@@ -3728,8 +3730,8 @@
       (=daikanwa	  . 06949)	; &I-M-06949;
       )
      ((=ucs@unicode	  . #x6E24)	; &AJ1-05468;
-      (=adobe-japan1-0	  . 05468)	; &I-AJ1-05468;
-      (=daikanwa  	  . 17769)	; &AJ1-05468;
+      (=adobe-japan1-0	  . 05468)	; &AJ1-05468;
+      (=daikanwa	  . 17769)	; &I-M-17769;
       ))
     (<-interchangeable$_1*sources
      shuowen-tongxundingsheng daikanwa)
@@ -3745,8 +3747,8 @@
      daikanwa)
     (->formed
      ((=ucs@unicode	  . #x3A8D)	; &C3-3635;
-      (=cns11643-3	  . #x3635)	; &I-C3-3635; [22-21]
-      (=daikanwa 	  . 13211)	; &C3-3635;
+      (=cns11643-3	  . #x3635)	; &C3-3635; [22-21]
+      (=daikanwa	  . 13211)	; &I-M-13211;
       ))
     (->formed$_1*sources
      jiyun daikanwa)

@@ -371,16 +371,42 @@
     (=shinjigen@rev	.  8574)	; 釘
     ))
 (define-char
+  '((<-denotational@usage
+     ((ideographic-radical . 167)	; ⾦
+      (==>ucs@bucs	. #x91D9)	; &BUCS+91D9;
+      ))
+    (ideographic-radical . 167)	; ⾦
+    (ideographic-strokes . 2)
+    (total-strokes	 . 10)
+    (ideographic-structure
+     ?⿰
+     ?金
+     ?卜)
+    (=ucs		. #x91D9)	; 釙
+    ))
+(define-char
   '((ideographic-radical . 167)	; ⾦
     (ideographic-strokes . 2)
     (total-strokes	 . 10)
-    (=ucs		. #x91D9)	; 釙
-    (=jis-x0212		. #x6327)	; &I-JSP-6327; [67-07]
+    (<-denotational
+     ((=ucs		. #x91D9)	; 釙
+      ))
+    (=ucs@unicode	. #x91D9)	; 釙
+    (=jis-x0212		. #x6327)	; &JSP-6327; [67-07]
     (=cns11643-1	. #x585F)	; &I-C1-585F; [56-63]
     (=gb12345		. #x6E47)	; 釙 [78-39]
     (=big5		. #xB07A)	; &I-B-B07A;
     (=daikanwa		. 40160)	; &I-M-40160;
     (=jef-china3	. #x69BD)	; &I-JC3-69BD;
+    (->subsumptive
+     ((==ucs@unicode	. #x91D9)	; 釙
+      (==jis-x0212		. #x6327)	; &JSP-6327; [67-07]
+      (==cns11643-1	. #x585F)	; &I-C1-585F; [56-63]
+      (==gb12345		. #x6E47)	; 釙 [78-39]
+      (==big5		. #xB07A)	; &I-B-B07A;
+      (==daikanwa		. 40160)	; &I-M-40160;
+      (==jef-china3	. #x69BD)	; &I-JC3-69BD;
+      ))
     ))
 (define-char
   '((ideographic-radical . 167)	; ⾦
@@ -15831,6 +15857,32 @@
     ))
 (define-char
   '((ideographic-radical . 167)	; ⾦
+    (ideographic-structure
+     ?⿰
+     ?金
+     ?麦)
+    (=ucs		. #x2898E)	; 𨦎
+    ))
+(define-char
+  '((ideographic-radical . 167)	; ⾦
+    (<-denotational
+     ((=ucs		. #x2898E)	; 𨦎
+      ))
+    (ideographic-strokes . 6)
+    (total-strokes	 . 14)
+    (=ucs@iso		. #x2898E)	; 𨦎
+    ))
+(define-char
+  '((ideographic-radical . 167)	; ⾦
+    (<-denotational
+     ((=ucs		. #x2898E)	; 𨦎
+      ))
+    (ideographic-strokes . 7)
+    (total-strokes	 . 15)
+    (=cbeta		. 03749)	; &CB03749;
+    ))
+(define-char
+  '((ideographic-radical . 167)	; ⾦
     (=ucs		. #x931A)	; 錚
     (=big5		. #xBFFE)	; &I-B-BFFE;
     ))
@@ -26411,6 +26463,44 @@
     ))
 (define-char
   '((ideographic-radical . 167)	; ⾦
+    (ideographic-structure
+     ?⿰
+     ?金
+     ?𠚏)
+    (=ucs		. #x28ABA)	; 𨪺
+    ))
+(define-char
+  '((ideographic-radical . 167)	; ⾦
+    (ideographic-strokes . 9)
+    (total-strokes	 . 17)
+    (<-denotational
+     ((=ucs		. #x28ABA)	; 𨪺
+      ))
+    (ideographic-structure
+     ?⿰
+     ((=ucs@unicode	. #x91D1)	; &AJ1-01754;
+      )
+     ((=ucs-itaiji-001	. #x2068F)	; &U-i001+2068F;
+      ))
+    (=daikanwa/ho . 0648)
+    ))
+(define-char
+  '((ideographic-radical . 167)	; ⾦
+    (ideographic-strokes . 10)
+    (total-strokes	 . 18)
+    (ideographic-structure
+     ?⿰
+     ((=ucs@unicode	. #x91D1)	; &AJ1-01754;
+      )
+     ((=ucs-itaiji-002	. #x2068F)	; &U-i002+2068F;
+      ))
+    (<-denotational
+     ((=ucs		. #x28ABA)	; 𨪺
+      ))
+    (=ucs@iso		. #x28ABA)	; 𨪺
+    ))
+(define-char
+  '((ideographic-radical . 167)	; ⾦
     (ideographic-strokes . 10)
     (total-strokes	 . 18)
     (ideographic-structure
@@ -34458,6 +34548,11 @@
     ))
 (define-char
   '((ideographic-radical . 167)	; ⾦
+    (ideographic-structure
+     ?⿱
+     ((=>ucs-itaiji-010	. #x2696F)	; &A-U-i010+2696F;
+      )
+     ?金)
     (=ucs 		. #x2B4D3)	; 𫓓
     ))
 (define-char
@@ -34467,6 +34562,12 @@
     (ideographic-radical . 167)	; ⾦
     (ideographic-strokes . 13)
     (total-strokes	 . 18)
+    (ideographic-structure
+     ?⿱
+     ((=ucs-itaiji-010	. #x2696F)	; &U-i010+2696F;
+      )
+     ((=ucs@unicode	. #x91D1)	; &AJ1-01754;
+      ))
     (=ucs@JP/hanazono 	. #x2B4D3)	; &hanaJU+2B4D3;
     ))
 (define-char
@@ -37347,6 +37448,30 @@
        ((===ruimoku-v6	    . #xE0BC)	; &R-RUI6-E0BC;
 	))
       ))
+    ))
+(define-char
+  '((ideographic-radical . 167)	; ⾦
+    (ideographic-strokes . 15)
+    (total-strokes	 . 23)
+    (ideographic-structure
+     ?⿰
+     ?金
+     ?𡙸)
+    (=ucs		. #x321E8)	; 𲇨
+    ))
+(define-char
+  '((ideographic-radical . 167)	; ⾦
+    (ideographic-strokes . 15)
+    (total-strokes	 . 23)
+    (ideographic-structure
+     ?⿰
+     ((=ucs@unicode	. #x91D1)	; &AJ1-01754;
+      )
+     ?𡙸)
+    (<-denotational
+     ((=ucs		. #x321E8)	; 𲇨
+      ))
+    (=ucs@JP/hanazono	. #x321E8)	; 𲇨
     ))
 (define-char
   '((ideographic-radical . 167)	; ⾦

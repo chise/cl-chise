@@ -6578,6 +6578,21 @@
   '((ideographic-radical . 123)	; ⽺
     (ideographic-strokes . 10)
     (total-strokes	 . 16)
+    (=ucs		. #x31ED1)	; 𱻑
+    ))
+(define-char
+  '((ideographic-radical . 123)	; ⽺
+    (ideographic-strokes . 10)
+    (total-strokes	 . 16)
+    (<-denotational
+     ((=ucs		. #x31ED1)	; 𱻑
+      ))
+    (=ucs@JP/hanazono	. #x31ED1)	; 𱻑
+    ))
+(define-char
+  '((ideographic-radical . 123)	; ⽺
+    (ideographic-strokes . 10)
+    (total-strokes	 . 16)
     (=ucs		. #x263B3)	; 𦎳
     ))
 (define-char

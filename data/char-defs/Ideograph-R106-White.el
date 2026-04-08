@@ -279,6 +279,16 @@
       ))
     ))
 (define-char
+  '((<-denotational
+     ((=>ucs@component	  . #x7680)	; &A-compU+7680;
+      (=>big5-cdp	  . #x8ABE)	; &A-compU+7680;
+      ))
+    (ideographic-radical . 106)	; ⽩
+    (ideographic-strokes . 2)
+    (total-strokes	 . 7)
+    (=ucs-var-005	. #x7680)	; &U-v005+7680;
+    ))
+(define-char
   '((<-denotational@component
      ((=>ucs@iwds-1	  . #x7681)	; &A-IWDSU+7681;
       ))

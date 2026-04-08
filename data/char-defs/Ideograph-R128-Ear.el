@@ -4629,11 +4629,27 @@
     ))
 (define-char
   '((ideographic-radical . 128)	; ⽿
+    (ideographic-structure
+     ?⿰
+     ?耳
+     ?𤇘)
+    (=ucs		. #x265B9)	; 𦖹
+    ))
+(define-char
+  '((ideographic-radical . 128)	; ⽿
+    (<-denotational
+     ((=ucs		. #x265B9)	; 𦖹
+      ))
     (ideographic-strokes . 9)
     (total-strokes	 . 15)
-    (=ucs		. #x265B9)	; 𦖹
-    (=cns11643-7	. #x272D)	; &I-C7-272D; [07-13]
+    (=ucs@iso		. #x265B9)	; 𦖹
+    (=cns11643-7	. #x272D)	; &C7-272D; [07-13]
     (=daikanwa		. 29133)	; &I-M-29133;
+    (->subsumptive
+     ((==ucs@iso		. #x265B9)	; 𦖹
+      (==cns11643-7	. #x272D)	; &C7-272D; [07-13]
+      (==daikanwa		. 29133)	; &I-M-29133;
+      ))
     ))
 (define-char
   '((ideographic-radical . 128)	; ⽿
@@ -4805,6 +4821,62 @@
       (=mj		  . 007226)	; &MJ007226;
       ))
     (=ucs@JP/hanazono	. #x9FE3)	; &hanaJU+9FE3;
+    ))
+(define-char
+  '((ideographic-radical . 128)	; ⽿
+    (=ucs		. #x265B3)	; 𦖳
+    ))
+(define-char
+  '((ideographic-radical . 128)	; ⽿
+    (<-denotational
+     ((=ucs		. #x265B3)	; 𦖳
+      ))
+    (ideographic-strokes . 9)
+    (total-strokes	 . 15)
+    (=ucs@iso		. #x265B3)	; 𦖳
+    ))
+(define-char
+  '((ideographic-radical . 128)	; ⽿
+    (ideographic-strokes . 9)
+    (total-strokes	 . 15)
+    (=ucs		. #x265B6)	; 𦖶
+    ))
+(define-char
+  '((ideographic-radical . 128)	; ⽿
+    (ideographic-strokes . 9)
+    (total-strokes	 . 15)
+    (<-denotational
+     ((=ucs		. #x265B6)	; 𦖶
+      ))
+    (=ucs@iso		. #x265B6)	; 𦖶
+    ))
+(define-char
+  '((ideographic-radical . 128)	; ⽿
+    (ideographic-strokes . 9)
+    (total-strokes	 . 15)
+    (ideographic-structure
+     ?⿰
+     ?耳
+     ?㚇)
+    (=ucs		. #x265B8)	; 𦖸
+    ))
+(define-char
+  '((ideographic-radical . 128)	; ⽿
+    (ideographic-strokes . 9)
+    (total-strokes	 . 15)
+    (<-denotational
+     ((=ucs		. #x265B8)	; 𦖸
+      ))
+    (=daikanwa		. 29132)	; &M-29132;
+    ))
+(define-char
+  '((ideographic-radical . 128)	; ⽿
+    (ideographic-strokes . 9)
+    (total-strokes	 . 15)
+    (<-denotational
+     ((=ucs		. #x265B8)	; 𦖸
+      ))
+    (=ucs@iso		. #x265B8)	; 𦖸
     ))
 (define-char
   '((ideographic-radical . 128)	; ⽿

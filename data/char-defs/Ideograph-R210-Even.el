@@ -215,7 +215,7 @@
 	  ))
 	))
       )
-     ((=ucs		  . #x2053C)	; 𠔼
+     ((=ucs@iso		. #x2053C)	; 𠔼
       ))
     (=ucs-itaiji-004	. #x9F4A)	; &U-i004+9F4A;
     (->subsumptive

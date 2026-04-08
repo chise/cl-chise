@@ -622,6 +622,11 @@
       ))
     (sound@ja/on	"eN")
     (=ucs		. #x27BB2)	; 𧮲
+    (<-ancient
+     ((=ucs		  . #x3563)	; 㕣
+      ))
+    (<-ancient$_1*sources
+     shuowen)
     ))
 (define-char
   '((<-denotational
@@ -854,7 +859,7 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM ABOVE")
       (=ucs		  . #x2FF5)	; ⿵
       )
-     ((=ucs-itaiji-003	  . #x239B5)	; &U-i003+239B5;
+     ((=>ucs-itaiji-003	  . #x239B5)	; &U-i003+239B5;
       )
      ((=>ucs@iwds-1	  . #x8C37)	; &A-IWDSU+8C37;
       (=>iwds-1		  .  0132)	; &A-IWDSU+8C37;
@@ -1932,20 +1937,20 @@
       ))
     (=gt		. 48618)	; &GT-48618;
     (=gt-pj-11		. #x4265)	; &GT-48618; [34-69]
-    (=daikanwa	  . 36231)	; &M-36231;
+    (=daikanwa	  . 36231)	; &GT-48618;
     (=daijiten		. 11249)	; &I-DJT-11249;
     (->subsumptive
-     ((==daikanwa	  . 36231)	; &M-36231;
+     ((==daikanwa	  . 36231)	; &GT-48618;
       )
      ((==gt		. 48618)	; &GT-48618;
       )
-     ((==ucs@iso		  . #x27BCE)	; &C7-4A37;
-      (==cns11643-7	  . #x4A37)	; &C7-4A37; [42-23]
+     ((==ucs@iso		  . #x27BCE)	; &GT-48618;
+      (==cns11643-7	  . #x4A37)	; &GT-48618; [42-23]
       )
      ((==daijiten		. 11249)	; &I-DJT-11249;
       ))
-    (=ucs@iso		  . #x27BCE)	; &C7-4A37;
-    (=cns11643-7	  . #x4A37)	; &C7-4A37; [42-23]
+    (=ucs@iso		  . #x27BCE)	; &GT-48618;
+    (=cns11643-7	  . #x4A37)	; &GT-48618; [42-23]
     ))
 (define-char
   '((ideographic-radical . 150)	; ⾕
@@ -1985,6 +1990,30 @@
     (=ucs		. #x27BD4)	; 𧯔
     (=cns11643-7	. #x4A3A)	; &I-C7-4A3A; [42-26]
     (=daikanwa		. 36235)	; &I-M-36235;
+    ))
+(define-char
+  '((ideographic-radical . 150)	; ⾕
+    (ideographic-structure
+     ?⿰
+     ((=>ucs@iwds-1	. #x865B)	; &A-IWDSU+865B;
+      )
+     ((=>ucs@iwds-1	. #x8C37)	; &A-IWDSU+8C37;
+      ))
+    (=ucs		. #x3209A)	; 𲂚
+    ))
+(define-char
+  '((ideographic-radical . 150)	; ⾕
+    (ideographic-strokes . 12)
+    (total-strokes	 . 19)
+    (ideographic-structure
+     ?⿰
+     ((=ucs@unicode	. #x865B)	; &JX1-7B4E;
+      )
+     ?谷)
+    (<-denotational
+     ((=ucs		. #x3209A)	; 𲂚
+      ))
+    (=ucs@JP/hanazono	. #x3209A)	; 𲂚
     ))
 (define-char
   '((ideographic-radical . 150)	; ⾕
