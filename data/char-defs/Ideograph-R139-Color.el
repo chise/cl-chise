@@ -367,6 +367,29 @@
     ))
 (define-char
   '((ideographic-radical . 139)	; ⾊
+    (ideographic-structure
+     ?⿰
+     ?夸
+     ?色)
+    (=ucs		. #x26ADA)	; 𦫚
+    ))
+(define-char
+  '((ideographic-radical . 139)	; ⾊
+    (<-denotational
+     ((=ucs		. #x26ADA)	; 𦫚
+      ))
+    (ideographic-strokes . 6)
+    (total-strokes	 . 12)
+    (ideographic-structure
+     ?⿰
+     ((=ucs@unicode	. #x5938)	; &MJ009468;
+      )
+     ((=ucs@unicode	. #x8272)	; &AJ1-02541;
+      ))
+    (=ucs@iso		. #x26ADA)	; 𦫚
+    ))
+(define-char
+  '((ideographic-radical . 139)	; ⾊
     (=ucs		. #x8275)	; 艵
     ))
 (define-char

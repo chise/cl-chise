@@ -10540,6 +10540,32 @@
     (ideographic-strokes . 7)
     (total-strokes	 . 12)
     (ideographic-structure
+     ?⿰
+     ?目
+     ?児)
+    (=ucs		. #x251A9)	; 𥆩
+    ))
+(define-char
+  '((ideographic-radical . 109)	; ⽬
+    (ideographic-strokes . 7)
+    (total-strokes	 . 12)
+    (<-denotational
+     ((=ucs		. #x251A9)	; 𥆩
+      ))
+    (=ucs@iso		. #x251A9)	; &JX2-7221;
+    (=ucs@iso		. #x251A9)	; 𥆩
+    (=jis-x0213-2	. #x7221)	; &JX2-7221; [82-01]
+    (->subsumptive
+     ((==ucs@iso		. #x251A9)	; &JX2-7221;
+      (==ucs@iso		. #x251A9)	; 𥆩
+      (==jis-x0213-2	. #x7221)	; &JX2-7221; [82-01]
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 109)	; ⽬
+    (ideographic-strokes . 7)
+    (total-strokes	 . 12)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
@@ -23081,11 +23107,11 @@
      ((=ucs		. #x25310)	; 𥌐
       ))
     (=ucs@iso		. #x25310)	; 𥌐
-    (=cns11643-5	. #x6852)	; &I-C5-6852; [72-50]
+    (=cns11643-5	. #x6852)	; &C5-6852; [72-50]
     (=daikanwa		. 23783)	; &I-M-23783;
     (->subsumptive
      ((==ucs@iso		. #x25310)	; 𥌐
-      (==cns11643-5	. #x6852)	; &I-C5-6852; [72-50]
+      (==cns11643-5	. #x6852)	; &C5-6852; [72-50]
       (==daikanwa		. 23783)	; &I-M-23783;
       ))
     ))

@@ -1617,7 +1617,7 @@
       )
      ((=ucs		  . #x864D)	; 虍
       )
-     ((=adobe-japan1-4	. 15391)	; &AJ1-15391;
+     ((=adobe-japan1-4	  . 15391)	; &AJ1-15391;
       ))
     (=ucs@JP/hanazono	. #x2B29E)	; &hanaJU+2B29E;
     ))
@@ -8873,31 +8873,6 @@
     (ideographic-strokes . 11)
     (total-strokes	 . 17)
     (ideographic-structure
-     ?⿸
-     ?虍
-     ?鳥)
-    (=ucs		. #x32F85)	; 𲾅
-    ))
-(define-char
-  '((ideographic-radical . 141)	; ⾌
-    (ideographic-strokes . 11)
-    (total-strokes	 . 17)
-    (<-denotational
-     ((=ucs		. #x32F85)	; 𲾅
-      ))
-    (ideographic-structure
-     ?⿸
-     ((=ucs@unicode	. #x864D)	; &AJ1-06479;
-      )
-     ((=ucs@unicode	. #x9CE5)	; &AJ1-03031;
-      ))
-    (=ucs@JP/hanazono	. #x32F85)	; 𲾅
-    ))
-(define-char
-  '((ideographic-radical . 141)	; ⾌
-    (ideographic-strokes . 11)
-    (total-strokes	 . 17)
-    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
       )
@@ -8926,6 +8901,39 @@
       (=mj		  . 023272)	; &MJ023272;
       ))
     (=ucs@JP/hanazono	. #x2E4EB)	; &hanaJU+2E4EB;
+    ))
+(define-char
+  '((ideographic-radical . 141)	; ⾌
+    (ideographic-strokes . 11)
+    (total-strokes	 . 17)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
+      (=ucs		  . #x2FF8)	; ⿸
+      )
+     ((=ucs		  . #x864D)	; 虍
+      )
+     ((=ucs		  . #x9CE5)	; 鳥
+      ))
+    (=ucs		. #x32F85)	; 𲾅
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x32F85)	; 𲾅
+      ))
+    (ideographic-radical . 141)	; ⾌
+    (ideographic-strokes . 11)
+    (total-strokes	 . 17)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT")
+      (=ucs		  . #x2FF8)	; ⿸
+      )
+     ((=ucs@unicode	  . #x864D)	; &AJ1-06479;
+      (=adobe-japan1-0	  . 06479)	; &AJ1-06479;
+      )
+     ((=ucs@unicode	  . #x9CE5)	; &AJ1-03031;
+      (=adobe-japan1-0	  . 03031)	; &AJ1-03031;
+      ))
+    (=ucs@JP/hanazono	. #x32F85)	; &hanaJU+32F85;
     ))
 (define-char
   '((ideographic-radical . 141)	; ⾌

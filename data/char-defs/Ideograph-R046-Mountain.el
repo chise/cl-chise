@@ -7680,8 +7680,7 @@
     ))
 (define-char
   '((<-denotational@usage
-     ((ideographic-radical . 46)	; ⼭
-      (==>daijiten	. 02569)	; &A2-DJT-02569;
+     ((==>daijiten	  . 02569)	; &A2-DJT-02569;
       ))
     (ideographic-radical . 46)	; ⼭
     (ideographic-strokes . 6)
@@ -7697,23 +7696,37 @@
     (=ucs		. #x5CCD)	; 峍
     ))
 (define-char
-  '((ideographic-radical . 46)	; ⼭
+  '((<-denotational
+     ((=ucs		  . #x5CCD)	; 峍
+      ))
+    (ideographic-radical . 46)	; ⼭
     (ideographic-strokes . 6)
     (total-strokes	 . 9)
-    (<-denotational
-     ((=ucs		. #x5CCD)	; 峍
+    (ideographic-structure
+     ?⿰
+     ?山
+     ((=ucs@unicode	. #x807F)	; &AJ1-06227;
       ))
-    (=ucs@unicode	. #x5CCD)	; 峍
-    (=cns11643-3	. #x2C3F)	; &I-C3-2C3F; [12-31]
-    (=daikanwa		. 08031)	; &I-M-08031;
+    (=ucs@unicode	. #x5CCD)	; &C3-2C3F;
+    (=cns11643-3	. #x2C3F)	; &C3-2C3F; [12-31]
+    (=daikanwa 		. 08031)	; &I-M-08031;
     (=daijiten		. 02569)	; &I-DJT-02569;
     (=cbeta		. 05362)	; &I-CB05362;
     (->subsumptive
-     ((==ucs@unicode	. #x5CCD)	; 峍
-      (==cns11643-3	. #x2C3F)	; &I-C3-2C3F; [12-31]
-      (==daikanwa		. 08031)	; &I-M-08031;
-      (==daijiten		. 02569)	; &I-DJT-02569;
-      (==cbeta		. 05362)	; &I-CB05362;
+     ((==ucs@unicode	  . #x5CCD)	; &g2-M-08031;
+      (==cns11643-3	  . #x2C3F)	; &g2-M-08031; [12-31]
+      (==daikanwa	  . 08031)	; &g2-M-08031;
+      (==daijiten	  . 02569)	; &g2-M-08031;
+      (==cbeta		  . 05362)	; &g2-M-08031;
+      (->subsumptive
+       ((===daikanwa	    . 08031)	; &R-M-08031;
+	)
+       ((===daijiten	    . 02569)	; &R-DJT-02569;
+	)
+       ((===cns11643-3	    . #x2C3F)	; &R-C3-2C3F; [12-31]
+	)
+       ((===ucs@unicode	    . #x5CCD)	; &R-UU+5CCD;
+	))
       ))
     ))
 (define-char
@@ -33387,6 +33400,10 @@
 (define-char
   '((ideographic-radical . 46)	; ⼭
     (==>daijiten	. 02566)	; &A2-DJT-02566;
+    ))
+(define-char
+  '((ideographic-radical . 46)	; ⼭
+    (==>daijiten	. 02569)	; &A2-DJT-02569;
     ))
 (define-char
   '((ideographic-radical . 46)	; ⼭

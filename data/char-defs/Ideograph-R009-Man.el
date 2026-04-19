@@ -3605,6 +3605,28 @@
       ))
     (<-denotational@usage
      ((==>ucs@bucs	  . #x540C)	; &BUCS+540C;
+      )
+     ((==>ucs@bucs	  . #x4EDD)	; &BUCS+4EDD;
+      ))
+    (ideographic-radical . 9)	; ⼈
+    (ideographic-strokes . 3)
+    (total-strokes	 . 5)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x4EBA)	; 人
+      )
+     ((=ucs		  . #x5DE5)	; 工
+      ))
+    (sound@ja/on/conventional "dou")
+    (sound@ja/on/go	"du")
+    (sound@ja/on/kan	"tou")
+    (=ucs		. #x4EDD)	; 仝
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x4EDD)	; 仝
       ))
     (ideographic-radical . 9)	; ⼈
     (ideographic-strokes . 3)
@@ -3616,10 +3638,11 @@
       )
      ((=ucs		  . #x201A2)	; 𠆢
       )
-     ((=ucs		  . #x5DE5)	; 工
+     ((=ucs@unicode	  . #x5DE5)	; &AJ1-01979;
+      (=adobe-japan1-0	  . 01979)	; &AJ1-01979;
       ))
-    (=ucs		. #x4EDD)	; 仝
-    (=adobe-japan1-0	. 00656)	; &I-AJ1-00656;
+    (=ucs@unicode	. #x4EDD)	; &AJ1-00656;
+    (=adobe-japan1-0	. 00656)	; &AJ1-00656;
     (=jis-x0208		. #x2138)	; &I-J90-2138; [01-24]
     (=gb2312		. #x595A)	; &I-G0-595A; [57-58]
     (=ks-x1001		. #x544E)	; &I-K0-544E; [52-46]
@@ -3630,16 +3653,35 @@
     (=gt-k		. 01111)	; &I-GT-K01111;
     (=gt-pj-2		. #x332A)	; &I-GT-00515; [19-10]
     (=daikanwa		. 00378)	; &I-M-00378;
-    (=shinjigen		.  0976)	; 仝
+    (=daijiten		. 00188)	; &I-DJT-00188;
+    (=shinjigen		.  0976)	; &AJ1-00656;
     (=jef-china3	. #x97CA)	; &I-JC3-97CA;
+    (<-ancient
+     ((=ucs@unicode	  . #x540C)	; &AJ1-03209;
+      (=adobe-japan1-0	  . 03209)	; &AJ1-03209;
+      (=daikanwa	  . 03294)	; &I-M-03294;
+      ))
+    (<-ancient$_1*sources
+     guangyun daikanwa)
+    (<-ancient*sources
+     guangyun daikanwa)
     (<-formed
      ((=ucs@unicode	  . #x540C)	; &AJ1-03209;
       (=adobe-japan1-0	  . 03209)	; &AJ1-03209;
       (=jis-x0208	  . #x4631)	; &I-J90-4631; [38-17]
       (=shinjigen	  .  0975)	; &AJ1-03209;
       ))
+    (<-formed$_1*sources
+     guangyun shinjigen)
     (<-formed*sources
-     shinjigen)
+     guangyun shinjigen)
+    (->mistakable
+     ((=ucs@unicode	  . #x34B0)	; &C3-2176;
+      (=cns11643-3	  . #x2176)	; &C3-2176; [01-86]
+      (=daikanwa	  . 01422)	; &I-M-01422;
+      ))
+    (->mistakable*sources
+     zihui-biansi-2char daikanwa)
     (->subsumptive
      ((=decomposition@cid
        ((=ucs		    . #x4EDD)	; 仝
@@ -3656,10 +3698,13 @@
       (==gt		  . 00515)	; &g2-AJ1-00656;
       (==gt-k		  . 01111)	; &g2-AJ1-00656;
       (==daikanwa	  . 00378)	; &g2-AJ1-00656;
+      (==daijiten	  . 00188)	; &g2-AJ1-00656;
       (==shinjigen	  .  0976)	; &g2-AJ1-00656;
       (==jef-china3	  . #x97CA)	; &g2-AJ1-00656;
       (->subsumptive
        ((===daikanwa	    . 00378)	; &R-M-00378;
+	)
+       ((===daijiten	    . 00188)	; &R-DJT-00188;
 	)
        ((===jis-x0208	    . #x2138)	; &R-J0-2138; [01-24]
 	(===jis-x0213-1	    . #x2138)	; &R-J0-2138; [01-24]
@@ -73246,7 +73291,12 @@
      ((==ucs@cns	  . #x50EF)	; &g2-CU+50EF;
       (==cns11643-2	  . #x4924)	; &g2-CU+50EF; [41-04]
       )
-     ((==ucs@jis	  . #x50EF)	; &g2-AJ1-14343;
+     ((=decomposition@cid
+       ((=ucs		    . #x50EF)	; 僯
+	)
+       ((=ucs		    . #xE0100)	; 󠄀
+	))
+      (==ucs@jis	  . #x50EF)	; &g2-AJ1-14343;
       (==adobe-japan1-4	  . 14343)	; &g2-AJ1-14343;
       (==jis-x0212	  . #x3244)	; &g2-AJ1-14343; [18-36]
       (==jef-china3	  . #x43BA)	; &g2-AJ1-14343;
@@ -94111,6 +94161,10 @@
 (define-char
   '((ideographic-radical . 9)	; ⼈
     (==>ucs@bucs	. #x50CA)	; &BUCS+50CA;
+    ))
+(define-char
+  '((ideographic-radical . 9)	; ⼈
+    (==>ucs@bucs	. #x4EDD)	; &BUCS+4EDD;
     ))
 (define-char
   '((ideographic-radical . 9)	; ⼈

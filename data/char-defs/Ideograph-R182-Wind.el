@@ -2603,6 +2603,37 @@
     (ideographic-strokes . 6)
     (total-strokes	 . 15)
     (ideographic-structure
+     ?⿱
+     ((=>ucs@iwds-1	. #x897E)	; &A-IWDSU+897E;
+      )
+     ?風)
+    (=ucs		. #x295CF)	; 𩗏
+    ))
+(define-char
+  '((ideographic-radical . 182)	; ⾵
+    (ideographic-strokes . 6)
+    (total-strokes	 . 15)
+    (<-denotational
+     ((=ucs		. #x295CF)	; 𩗏
+      ))
+    (ideographic-structure
+     ?⿱
+     ?覀
+     ?風)
+    (=ucs@iso		. #x295CF)	; 𩗏
+    (=ucs@iso		. #x295CF)	; &JX2-7C42;
+    (=jis-x0213-2	. #x7C42)	; &JX2-7C42; [92-34]
+    (->subsumptive
+     ((==ucs@iso		. #x295CF)	; 𩗏
+      (==ucs@iso		. #x295CF)	; &JX2-7C42;
+      (==jis-x0213-2	. #x7C42)	; &JX2-7C42; [92-34]
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 182)	; ⾵
+    (ideographic-strokes . 6)
+    (total-strokes	 . 15)
+    (ideographic-structure
      ((=>ucs@iwds-1	  . #x2FFA)	; &A-IWDSU+2FFA;
       (=>iwds-1		  .  0307)	; &A-IWDSU+2FFA;
       )
@@ -6160,12 +6191,12 @@
      ?曺)
     (=daikanwa/ho . 0713)
     (=ucs@iso		. #x29624)	; 𩘤
-    (=cns11643-7	. #x4B78)	; &I-C7-4B78; [43-88]
+    (=cns11643-7	. #x4B78)	; &C7-4B78; [43-88]
     (->subsumptive
      ((==daikanwa/ho . 0713)
       )
      ((==ucs@iso		. #x29624)	; 𩘤
-      (==cns11643-7	. #x4B78)	; &I-C7-4B78; [43-88]
+      (==cns11643-7	. #x4B78)	; &C7-4B78; [43-88]
       ))
     ))
 (define-char

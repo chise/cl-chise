@@ -13752,9 +13752,27 @@
   '((ideographic-radical . 61)	; ⼼
     (ideographic-strokes . 6)
     (total-strokes	 . 9)
+    (ideographic-structure
+     ?⿰
+     ?忄
+     ?共)
     (=ucs		. #x3928)	; 㤨
+    ))
+(define-char
+  '((ideographic-radical . 61)	; ⼼
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (<-denotational
+     ((=ucs		. #x3928)	; 㤨
+      ))
+    (=ucs@unicode	. #x3928)	; 㤨
     (=cns11643-3	. #x2C55)	; &I-C3-2C55; [12-53]
     (=daikanwa		. 10598)	; &I-M-10598;
+    (->subsumptive
+     ((==ucs@unicode	. #x3928)	; 㤨
+      (==cns11643-3	. #x2C55)	; &I-C3-2C55; [12-53]
+      (==daikanwa		. 10598)	; &I-M-10598;
+      ))
     ))
 (define-char
   '((ideographic-radical . 61)	; ⼼

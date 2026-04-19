@@ -2629,15 +2629,6 @@
     ))
 (define-char
   '((<-denotational
-     ((=>ucs-itaiji-002	  . #x20A27)	; 𠨨
-      ))
-    (ideographic-radical . 26)	; ⼙
-    (ideographic-strokes . 16)
-    (total-strokes	 . 18)
-    (=ucs-itaiji-003	. #x20A27)	; &U-i003+20A27;
-    ))
-(define-char
-  '((<-denotational
      ((=ucs		  . #x20A27)	; 𠨧
       ))
     (ideographic-radical@mj . 49)	; ⼰
@@ -2648,7 +2639,9 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM ABOVE")
       (=ucs		  . #x2FF5)	; ⿵
       )
-     ((=ucs@iso		  . #x26989)	; 𦦉
+     ((=ucs@iso		  . #x26989)	; &C7-3172;
+      (=cns11643-7	  . #x3172)	; &C7-3172; [17-82]
+      (=daikanwa	  . 30230)	; &I-M-30230;
       )
      ((=ucs		  . #x5DF3)	; 巳
       ))

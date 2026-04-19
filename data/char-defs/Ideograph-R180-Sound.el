@@ -198,12 +198,27 @@
   '((ideographic-radical . 180)	; ⾳
     (ideographic-strokes . 3)
     (total-strokes	 . 12)
+    (ideographic-structure
+     ?⿰
+     ?音
+     ?工)
     (=ucs		. #x4AA6)	; 䪦
+    ))
+(define-char
+  '((ideographic-radical . 180)	; ⾳
+    (ideographic-strokes . 3)
+    (total-strokes	 . 12)
+    (<-denotational
+     ((=ucs		. #x4AA6)	; 䪦
+      ))
+    (=daikanwa	  . 43266)	; &M-43266;
+    (=ucs@unicode	  . #x4AA6)	; &C3-4025;
+    (=cns11643-3	  . #x4025)	; &C3-4025; [32-05]
     (->subsumptive
-     ((=daikanwa	  . 43266)	; &M-43266;
+     ((==daikanwa	  . 43266)	; &M-43266;
       )
-     ((=ucs@unicode	  . #x4AA6)	; &C3-4025;
-      (=cns11643-3	  . #x4025)	; &C3-4025; [32-05]
+     ((==ucs@unicode	  . #x4AA6)	; &C3-4025;
+      (==cns11643-3	  . #x4025)	; &C3-4025; [32-05]
       ))
     ))
 (define-char

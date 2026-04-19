@@ -8861,6 +8861,21 @@
   '((ideographic-radical . 130)	; ⾁
     (ideographic-strokes . 5)
     (total-strokes	 . 9)
+    (ideographic-structure
+     ?⿱
+     ?立
+     ((=>ucs@component	. #x6708)	; &A-compU+6708;
+      ))
+    (=ucs		. #x2668F)	; 𦚏
+    ))
+(define-char
+  '((ideographic-radical . 130)	; ⾁
+    (ideographic-strokes . 5)
+    (total-strokes	 . 9)
+    (<-denotational
+     ((=ucs		. #x2668F)	; 𦚏
+      ))
+    (=daikanwa		. 29423)	; &M-29423;
     (hanyu-dazidian	3 2063 5)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
@@ -8870,18 +8885,11 @@
       )
      ((=big5-cdp	  . #x8958)	; &CDP-8958;
       ))
-    (=ucs		. #x2668F)	; 𦚏
+    (=ucs@iso		. #x2668F)	; 𦚏
     (->subsumptive
-     ((ideographic-structure
-       ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
-	(=ucs		    . #x2FF1)	; ⿱
-	)
-       ((==ucs@unicode	    . #x7ACB)	; &g2-AJ1-03953;
-	(==adobe-japan1-0   . 03953)	; &g2-AJ1-03953;
-	)
-       ((=big5-cdp	    . #x8958)	; &CDP-8958;
-	))
-      (==ucs@iso	  . #x2668F)	; &g2-IU-0002668F;
+     ((==ucs@iso	  . #x2668F)	; &g2-IU-0002668F;
+      (==daikanwa		. 29423)	; &M-29423;
+      (==daikanwa		. 29423)	; &M-29423;
       (->subsumptive
        ((===ucs@iso	    . #x2668F)	; &R-U-0002668F;
 	)

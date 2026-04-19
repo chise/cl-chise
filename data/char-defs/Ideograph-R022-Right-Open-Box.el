@@ -554,14 +554,14 @@
     (=jef-china3	. #x45B2)	; &I-JC3-45B2;
     (<-original
      ((=ucs@unicode	  . #x5320)	; &AJ1-02442;
-      (=adobe-japan1-0	  . 02442)	; &I-AJ1-02442;
-      (=daikanwa 	  . 02605)	; &AJ1-02442;
+      (=adobe-japan1-0	  . 02442)	; &AJ1-02442;
+      (=daikanwa	  . 02605)	; &I-M-02605;
       ))
     (<-original*sources
      liushu-jingyun zhengzitong daikanwa)
     (->formed
      ((=ucs@unicode	  . #x5320)	; &AJ1-02442;
-      (=adobe-japan1-0	  . 02442)	; &I-AJ1-02442;
+      (=adobe-japan1-0	  . 02442)	; &AJ1-02442;
       ))
     (->formed$_1*sources
      liushu-jingyun)
@@ -761,6 +761,8 @@
       )
      ((=ucs		  . #x65A4)	; 斤
       ))
+    (sound@ja/on/go	"zAu")
+    (sound@ja/on/kan	"sIyAu")
     (=ucs		. #x5320)	; 匠
     ))
 (define-char
@@ -780,7 +782,7 @@
      ((=ucs		  . #x65A4)	; 斤
       ))
     (=ucs@unicode	. #x5320)	; &AJ1-02442;
-    (=adobe-japan1-0	. 02442)	; &I-AJ1-02442;
+    (=adobe-japan1-0	. 02442)	; &AJ1-02442;
     (=jis-x0208		. #x3E22)	; &I-J90-3E22; [30-02]
     (=gb2312		. #x3D33)	; &I-G0-3D33; [29-19]
     (=ks-x1001		. #x6D5D)	; &I-K0-6D5D; [77-61]
@@ -790,7 +792,7 @@
     (=gt		. 03339)	; &I-GT-03339;
     (=gt-k		. 01643)	; &I-GT-K01643;
     (=gt-pj-1		. #x3E22)	; &I-GT-03339; [30-02]
-    (=daikanwa 		. 02605)	; &AJ1-02442;
+    (=daikanwa		. 02605)	; &I-M-02605;
     (=daijiten		. 00952)	; &I-DJT-00952;
     (=shinjigen		.  0789)	; &AJ1-02442;
     (<-formed

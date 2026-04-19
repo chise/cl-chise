@@ -4319,10 +4319,10 @@
      ((=ucs		. #x4498)	; 䒘
       ))
     (total-strokes	 . 7)
-    (=cns11643-3	. #x272C)	; &I-C3-272C; [07-12]
+    (=cns11643-3	. #x272C)	; &C3-272C; [07-12]
     (=daikanwa		. 30691)	; &I-M-30691;
     (->subsumptive
-     ((==cns11643-3	. #x272C)	; &I-C3-272C; [07-12]
+     ((==cns11643-3	. #x272C)	; &C3-272C; [07-12]
       (==daikanwa		. 30691)	; &I-M-30691;
       ))
     ))
@@ -9397,7 +9397,7 @@
      ((name		  . "CJK RADICAL GRASS TWO")
       (=ucs		  . #x2EBF)	; ⺿
       )
-     ((=ucs		  . #x5184)	; 冄
+     ((=ucs@unicode	  . #x5184)	; 冄
       ))
     (=ucs@cns		. #x44A3)	; &C3-2A69;
     (=cns11643-3	. #x2A69)	; &C3-2A69; [10-73]
@@ -124928,6 +124928,31 @@
        ((=hanziku-8		. #xEDEB)	; &HZK08-EDEB;
 	))
       ))
+    ))
+(define-char
+  '((ideographic-radical . 140)	; ⾋
+    (ideographic-structure
+     ?⿱
+     ((=>ucs@iwds-1	. #x4E1A)	; &A-IWDSU+4E1A;
+      )
+     ((=>big5-cdp-itaiji-002 . #x8C62)	; &CDP-i002-8C62;
+      ))
+    (=>ucs-itaiji-001	. #x26CB8)	; &U-i001+26CB8;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-001	. #x26CB8)	; &U-i001+26CB8;
+      ))
+    (ideographic-radical . 140)	; ⾋
+    (ideographic-strokes . 6)
+    (total-strokes	 . 10)
+    (ideographic-structure
+     ?⿱
+     ((=ucs@unicode	. #x4E1A)	; &G0-5235;
+      )
+     ((=big5-cdp-itaiji-002 . #x8C62)	; &CDP-i002-8C62;
+      ))
+    (=ucs-itaiji-001	. #x26CB8)	; &U-i001+26CB8;
     ))
 (define-char
   '((ideographic-radical . 140)	; ⾋

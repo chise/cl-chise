@@ -3698,6 +3698,8 @@
       )
      ((=ucs		  . #x5C11)	; 少
       ))
+    (sound@ja/on/go	"mEu")
+    (sound@ja/on/kan	"bEu")
     (=ucs		. #x5999)	; 妙
     ))
 (define-char
@@ -3729,9 +3731,49 @@
     (=gt		. 07708)	; &I-GT-07708;
     (=gt-k		. 02655)	; &I-GT-K02655;
     (=gt-pj-1		. #x4C2F)	; &I-GT-07708; [44-15]
-    (=daikanwa 		. 06090)	; &I-M-06090;
+    (=daikanwa		. 06090)	; &I-M-06090;
     (=daijiten		. 02045)	; &I-DJT-02045;
     (=shinjigen		.  1617)	; &MJ009584;
+    (<-interchangeable
+     ((=ucs@unicode	  . #x7707)	; &AJ1-05812;
+      (=adobe-japan1-0	  . 05812)	; &AJ1-05812;
+      (=daikanwa	  . 23188)	; &I-M-23188;
+      ))
+    (<-interchangeable$_1*sources
+     shiwen houhanshu-zhu daikanwa)
+    (<-interchangeable*sources
+     shiwen houhanshu-zhu daikanwa)
+    (<-same
+     ((=ucs@unicode	  . #x7385)	; &JX2-7059;
+      (=jis-x0212	  . #x4B50)	; &JX2-7059; [43-48]
+      (=cns11643-2	  . #x2C28)	; &I-C2-2C28; [12-08]
+      (=jis-x0213-2	  . #x7059)	; &I-JX2-7059; [80-57]
+      (=daikanwa	  . 20815)	; &I-M-20815;
+      ))
+    (<-same$_1*sources
+     yupian daikanwa)
+    (<-same*sources
+     yupian daikanwa)
+    (->formed
+     ((=ucs@iso		  . #x221B7)	; &C4-2427;
+      (=cns11643-4	  . #x2427)	; &C4-2427; [04-07]
+      (=daikanwa	  . 09197)	; &I-M-09197;
+      ))
+    (->formed$_1*sources
+     jiyun daikanwa)
+    (->formed*sources
+     jiyun daikanwa)
+    (->original
+     ((=ucs@unicode	  . #x7385)	; &JX2-7059;
+      (=jis-x0212	  . #x4B50)	; &JX2-7059; [43-48]
+      (=cns11643-2	  . #x2C28)	; &I-C2-2C28; [12-08]
+      (=jis-x0213-2	  . #x7059)	; &I-JX2-7059; [80-57]
+      (=daikanwa	  . 20815)	; &I-M-20815;
+      ))
+    (->original$_1*sources
+     yupian)
+    (->original*sources
+     yupian)
     (->subsumptive
      ((=decomposition@cid
        ((=ucs		    . #x5999)	; 妙
@@ -12116,7 +12158,20 @@
   '((ideographic-radical . 38)	; ⼥
     (ideographic-strokes . 6)
     (total-strokes	 . 9)
+    (ideographic-structure
+     ?⿰
+     ?女
+     ?光)
     (=ucs		. #x59EF)	; 姯
+    ))
+(define-char
+  '((ideographic-radical . 38)	; ⼥
+    (ideographic-strokes . 6)
+    (total-strokes	 . 9)
+    (<-denotational
+     ((=ucs		. #x59EF)	; 姯
+      ))
+    (=ucs@unicode	. #x59EF)	; 姯
     (=mj		. 009674)	; &I-MJ009674;
     (=adobe-japan1-6	. 21398)	; &I-AJ1-21398;
     (=jis-x0212		. #x3947)	; &I-JSP-3947; [25-39]

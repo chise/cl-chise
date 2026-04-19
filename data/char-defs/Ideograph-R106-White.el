@@ -267,6 +267,16 @@
     (ideographic-radical . 106)	; ⽩
     (ideographic-strokes . 2)
     (total-strokes	 . 7)
+    (=ucs-var-005	. #x7680)	; &U-v005+7680;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@component	  . #x7680)	; &A-compU+7680;
+      (=>big5-cdp	  . #x8ABE)	; &A-compU+7680;
+      ))
+    (ideographic-radical . 106)	; ⽩
+    (ideographic-strokes . 2)
+    (total-strokes	 . 7)
     (=gt-k		. 02802)	; &GT-K02802;
     (=gt-pj-k1		. #x3C5F)	; &GT-K02802; [28-63]
     (<-formed@component/connect-right
@@ -277,16 +287,6 @@
      ((==gt-k		  . 02802)	; &g2-GT-K02802;
       (==gt-pj-k1	  . #x3C5F)	; &g2-GT-K02802; [28-63]
       ))
-    ))
-(define-char
-  '((<-denotational
-     ((=>ucs@component	  . #x7680)	; &A-compU+7680;
-      (=>big5-cdp	  . #x8ABE)	; &A-compU+7680;
-      ))
-    (ideographic-radical . 106)	; ⽩
-    (ideographic-strokes . 2)
-    (total-strokes	 . 7)
-    (=ucs-var-005	. #x7680)	; &U-v005+7680;
     ))
 (define-char
   '((<-denotational@component
