@@ -1,3 +1,107 @@
+2026-05-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* Sync up with the current snapshot [2026-04-29 17:35:54 JST].
+
+	M	data/char-defs/Ideograph-R001-One.el
+	M	data/char-defs/Ideograph-R002-Line.el
+	M	data/char-defs/Ideograph-R015-Ice.el
+	M	data/char-defs/Ideograph-R024-Ten.el
+	M	data/char-defs/Ideograph-R027-Cliff.el
+	M	data/char-defs/Ideograph-R029-Again.el
+	M	data/char-defs/Ideograph-R030-Mouth.el
+	M	data/char-defs/Ideograph-R032-Earth.el
+	M	data/char-defs/Ideograph-R038-Woman.el
+	M	data/char-defs/Ideograph-R041-Inch.el
+	M	data/char-defs/Ideograph-R044-Corpse.el
+	M	data/char-defs/Ideograph-R050-Turban.el
+	M	data/char-defs/Ideograph-R052-Short-Thread.el
+	M	data/char-defs/Ideograph-R070-Square.el
+	M	data/char-defs/Ideograph-R075-Tree.el
+	M	data/char-defs/Ideograph-R076-Lack.el
+	M	data/char-defs/Ideograph-R078-Death.el
+	M	data/char-defs/Ideograph-R085-Water.el
+	M	data/char-defs/Ideograph-R086-Fire.el
+	M	data/char-defs/Ideograph-R087-Claw.el
+	M	data/char-defs/Ideograph-R096-Jade.el
+	M	data/char-defs/Ideograph-R102-Field.el
+	M	data/char-defs/Ideograph-R112-Stone.el
+	M	data/char-defs/Ideograph-R119-Rice.el
+	M	data/char-defs/Ideograph-R122-Net.el
+	M	data/char-defs/Ideograph-R123-Sheep.el
+	M	data/char-defs/Ideograph-R127-Plow.el
+	M	data/char-defs/Ideograph-R133-Arrive.el
+	M	data/char-defs/Ideograph-R144-Walk-Enclosure.el
+	M	data/char-defs/Ideograph-R157-Foot.el
+	M	data/char-defs/Ideograph-R162-Walk.el
+	M	data/char-defs/Ideograph-R169-Gate.el
+	M	data/char-defs/Ideograph-R177-Leather.el
+	M	data/char-defs/Ideograph-R187-Horse.el
+	M	data/char-defs/Ideograph-R190-Hair.el
+	M	data/char-defs/Ideograph-R196-Bird.el
+	M	data/char-defs/ShuoWen-SR040.el
+	M	data/char-defs/ShuoWen-SR442.el
+
+2026-04-19  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* Sync up with the current snapshot [2026-04-16 19:00 JST].
+
+	M	data/char-defs/Ideograph-R001-One.el
+	M	data/char-defs/Ideograph-R005-Second.el
+	M	data/char-defs/Ideograph-R009-Man.el
+	M	data/char-defs/Ideograph-R014-Cover.el
+	M	data/char-defs/Ideograph-R015-Ice.el
+	M	data/char-defs/Ideograph-R018-Knife.el
+	M	data/char-defs/Ideograph-R022-Right-Open-Box.el
+	M	data/char-defs/Ideograph-R025-Divination.el
+	M	data/char-defs/Ideograph-R030-Mouth.el
+	M	data/char-defs/Ideograph-R031-Enclosure.el
+	M	data/char-defs/Ideograph-R032-Earth.el
+	M	data/char-defs/Ideograph-R036-Evening.el
+	M	data/char-defs/Ideograph-R038-Woman.el
+	M	data/char-defs/Ideograph-R041-Inch.el
+	M	data/char-defs/Ideograph-R043-Lame.el
+	M	data/char-defs/Ideograph-R044-Corpse.el
+	M	data/char-defs/Ideograph-R046-Mountain.el
+	M	data/char-defs/Ideograph-R049-Oneself.el
+	M	data/char-defs/Ideograph-R050-Turban.el
+	M	data/char-defs/Ideograph-R052-Short-Thread.el
+	M	data/char-defs/Ideograph-R060-Step.el
+	M	data/char-defs/Ideograph-R061-Heart.el
+	M	data/char-defs/Ideograph-R064-Hand.el
+	M	data/char-defs/Ideograph-R075-Tree.el
+	M	data/char-defs/Ideograph-R076-Lack.el
+	M	data/char-defs/Ideograph-R084-Steam.el
+	M	data/char-defs/Ideograph-R085-Water.el
+	M	data/char-defs/Ideograph-R086-Fire.el
+	M	data/char-defs/Ideograph-R095-Profound.el
+	M	data/char-defs/Ideograph-R096-Jade.el
+	M	data/char-defs/Ideograph-R101-Use.el
+	M	data/char-defs/Ideograph-R102-Field.el
+	M	data/char-defs/Ideograph-R104-Sickness.el
+	M	data/char-defs/Ideograph-R106-White.el
+	M	data/char-defs/Ideograph-R109-Eye.el
+	M	data/char-defs/Ideograph-R110-Spear.el
+	M	data/char-defs/Ideograph-R122-Net.el
+	M	data/char-defs/Ideograph-R127-Plow.el
+	M	data/char-defs/Ideograph-R129-Brush.el
+	M	data/char-defs/Ideograph-R130-Meat.el
+	M	data/char-defs/Ideograph-R131-Minister.el
+	M	data/char-defs/Ideograph-R134-Mortar.el
+	M	data/char-defs/Ideograph-R137-Boat.el
+	M	data/char-defs/Ideograph-R139-Color.el
+	M	data/char-defs/Ideograph-R140-Grass.el
+	M	data/char-defs/Ideograph-R141-Tiger.el
+	M	data/char-defs/Ideograph-R149-Speech.el
+	M	data/char-defs/Ideograph-R170-Mound.el
+	M	data/char-defs/Ideograph-R180-Sound.el
+	M	data/char-defs/Ideograph-R182-Wind.el
+	M	data/char-defs/Ideograph-R204-Embroidery.el
+	M	data/char-defs/Ideograph-R210-Even.el
+	M	data/char-defs/Ideograph-R212-Dragon.el
+	M	data/char-defs/Ideograph-R213-Turtle.el
+	M	data/char-defs/ShuoWen-SR040.el
+	M	data/char-defs/ShuoWen-SR442.el
+
 2026-04-08  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* Sync up with the current snapshot [2026-04-06 12:50 JST].
