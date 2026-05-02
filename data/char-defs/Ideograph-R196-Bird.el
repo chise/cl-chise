@@ -173,6 +173,51 @@
   '((<-denotational
      ((=>ucs@cognate	  . #x9CE5)	; &A-cgnU+9CE5;
       ))
+    (<-denotational@usage
+     ((==>ucs@bucs	  . #x9CE5)	; &BUCS+9CE5;
+      ))
+    (ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 0)
+    (total-strokes	 . 8)
+    (ideographic-structure
+     ?⿹
+     ((=>big5-cdp		. #x8CBB)	; &A-CDP-8CBB;
+      )
+     ((=>ucs@component	. #x4E00)	; &A-compU+4E00;
+      ))
+    (=ucs		. #x2B813)	; 𫠓
+    ))
+(define-char
+  '((ideographic-radical . 196)	; ⿃
+    (ideographic-strokes . 0)
+    (total-strokes	 . 8)
+    (<-denotational
+     ((=ucs		. #x2B813)	; 𫠓
+      ))
+    (ideographic-structure
+     ?⿹
+     ?&CDP-8CBB;
+     ?一)
+    (=koseki . 528160)
+    (=mj		. 059203)	; &MJ059203;
+    (=ucs@JP/hanazono	. #x2B813)	; 𫠓
+    (<-formed
+     ((=jis-x0208		. #x443B)	; &I-J90-443B; [36-27]
+      ))
+    (<-formed$_1*sources
+     koseki mj)
+    (<-formed*sources
+     koseki mj)
+    (->subsumptive
+     ((==koseki . 528160)
+      (==mj		. 059203)	; &MJ059203;
+      (==ucs@JP/hanazono	. #x2B813)	; 𫠓
+      ))
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs@cognate	  . #x9CE5)	; &A-cgnU+9CE5;
+      ))
     (ideographic-radical . 196)	; ⿃
     (ideographic-strokes . 0)
     (total-strokes	 . 10)

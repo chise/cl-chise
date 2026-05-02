@@ -2055,15 +2055,23 @@
     (ideographic-strokes . 9)
     (total-strokes	 . 15)
     (ideographic-structure
-     ?⿰
-     ?&HD-FT-384C;
-     ?娄)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@unicode	  . #x8012)	; &HD-FT-384C;
+      (=gb2312		  . #x7167)	; &HD-FT-384C; [81-71]
+      )
+     ((=ucs		  . #x5A04)	; 娄
+      ))
     (=ucs@unicode	. #x8027)	; &G0-716F;
-    (=ucs@JP/hanazono . nil)
+    (=ucs@JP/hanazono	. nil)
     (=gb2312		. #x716F)	; &G0-716F; [81-79]
+    (<-simplified@CN
+     ((=gb12345		  . #x716F)	; &UU+802C; [81-79]
+      ))
     (->subsumptive
      ((==ucs@unicode	  . #x8027)	; &g2-UU+8027;
-      (==ucs@JP/hanazono . nil)
+      (==ucs@JP/hanazono  . nil)
       (==gb2312		  . #x716F)	; &g2-UU+8027; [81-79]
       ))
     ))

@@ -4530,39 +4530,6 @@
   '((ideographic-radical . 41)	; ⼨
     (ideographic-strokes . 11)
     (total-strokes	 . 14)
-    (=ucs		. #x2D53E)	; 𭔾
-    ))
-(define-char
-  '((ideographic-radical . 41)	; ⼨
-    (ideographic-strokes . 11)
-    (total-strokes	 . 14)
-    (<-denotational
-     ((=ucs		. #x2D53E)	; 𭔾
-      ))
-    (=mj		. 057360)	; &MJ057360;
-    (=koseki . 084860)
-    (=ucs@JP/hanazono	. #x2D53E)	; 𭔾
-    (<-formed
-     ((=jis-x0208	  . #x5574)	; &I-J90-5574; [53-84]
-      )
-     ((=jis-x0208		. #x4250)	; &I-J90-4250; [34-48]
-      ))
-    (<-formed$_1*sources
-     koseki mj)
-    (<-formed$_2*sources
-     koseki@mj)
-    (<-formed*sources
-     koseki mj)
-    (->subsumptive
-     ((==mj		. 057360)	; &MJ057360;
-      (==koseki . 084860)
-      (==ucs@JP/hanazono	. #x2D53E)	; 𭔾
-      ))
-    ))
-(define-char
-  '((ideographic-radical . 41)	; ⼨
-    (ideographic-strokes . 11)
-    (total-strokes	 . 14)
     (=ucs		. #x21B41)	; 𡭁
     ))
 (define-char
@@ -4583,6 +4550,59 @@
     (total-strokes	 . 14)
     (=ucs@iso		. #x21B41)	; &C6-5C31;
     (=cns11643-6	. #x5C31)	; &C6-5C31; [60-17]
+    ))
+(define-char
+  '((ideographic-radical . 41)	; ⼨
+    (ideographic-strokes . 11)
+    (total-strokes	 . 14)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=>big5-cdp-itaiji-001 . #x8BBD)	; &A-CDP-i001-8BBD;
+      )
+     ((=ucs		  . #x5BF8)	; 寸
+      ))
+    (=ucs		. #x2D53E)	; 𭔾
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x2D53E)	; 𭔾
+      ))
+    (ideographic-radical . 41)	; ⼨
+    (ideographic-strokes . 11)
+    (total-strokes	 . 14)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=big5-cdp-itaiji-001 . #x8BBD)	; &CDP-i001-8BBD;
+      )
+     ((=ucs		  . #x5BF8)	; 寸
+      ))
+    (=ucs@JP/hanazono	. #x2D53E)	; &MJ057360;
+    (=mj		. 057360)	; &MJ057360;
+    (=koseki		. 084860)	; &MJ057360;
+    (<-formed
+     ((=ucs@unicode	  . #x5C0D)	; &AJ1-04643;
+      (=adobe-japan1-0	  . 04643)	; &AJ1-04643;
+      )
+     ((=ucs		  . #x5BFE)	; 対
+      ))
+    (<-formed$_1*sources
+     koseki mj)
+    (<-formed$_2*sources
+     koseki@mj)
+    (<-formed*sources
+     koseki mj)
+    (->subsumptive
+     ((==ucs@JP/hanazono  . #x2D53E)	; &g2-MJ057360;
+      (==mj		  . 057360)	; &g2-MJ057360;
+      (==koseki		  . 084860)	; &g2-MJ057360;
+      (->subsumptive
+       ((===mj		    . 057360)	; &R-MJ057360;
+	))
+      ))
     ))
 (define-char
   '((<-denotational@usage

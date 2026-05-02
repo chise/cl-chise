@@ -2086,10 +2086,10 @@
     (<-denotational
      ((=ucs		. #x238A5)	; 𣢥
       ))
-    (=daikanwa		. 16047)	; &I-M-16047;
+    (=daikanwa		. 16047)	; &M-16047;
     (=ucs@iso		. #x238A5)	; 𣢥
     (->subsumptive
-     ((==daikanwa		. 16047)	; &I-M-16047;
+     ((==daikanwa		. 16047)	; &M-16047;
       )
      ((==ucs@iso		. #x238A5)	; 𣢥
       ))
@@ -6370,6 +6370,31 @@
     (total-strokes	 . 13)
     (=ucs		. #x238E3)	; 𣣣
     (=cns11643-6	. #x5367)	; &I-C6-5367; [51-71]
+    ))
+(define-char
+  '((ideographic-radical . 76)	; ⽋
+    (ideographic-strokes . 9)
+    (total-strokes	 . 13)
+    (ideographic-structure
+     ?⿰
+     ?𤔄
+     ?欠)
+    (=ucs		. #x30654)	; 𰙔
+    ))
+(define-char
+  '((ideographic-radical . 76)	; ⽋
+    (ideographic-strokes . 9)
+    (total-strokes	 . 13)
+    (<-denotational
+     ((=ucs		. #x30654)	; 𰙔
+      ))
+    (ideographic-structure
+     ?⿰
+     ((=ucs@JP/hanazono	. #x24504)	; &BUCS+4E2A;
+      )
+     ((=ucs@unicode	. #x6B20)	; &AJ1-01853;
+      ))
+    (=ucs@JP/hanazono	. #x30654)	; 𰙔
     ))
 (define-char
   '((ideographic-radical . 76)	; ⽋

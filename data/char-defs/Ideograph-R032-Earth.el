@@ -4121,8 +4121,8 @@
     (=daikanwa		. 04913)	; &I-M-04913;
     (->formed
      ((=ucs@unicode	  . #x57BC)	; &C2-2E53;
-      (=cns11643-2	  . #x2E53)	; &I-C2-2E53; [14-51]
-      (=daikanwa  	  . 05099)	; &C2-2E53;
+      (=cns11643-2	  . #x2E53)	; &C2-2E53; [14-51]
+      (=daikanwa	  . 05099)	; &I-M-05099;
       )
      ((=ucs@unicode	  . #x7088)	; &C3-2970;
       (=cns11643-3	  . #x2970)	; &C3-2970; [09-80]
@@ -12797,8 +12797,8 @@
     (=jef-china3	. #x47F3)	; &I-JC3-47F3;
     (->formed
      ((=ucs@iso		  . #x28E42)	; &C6-3470;
-      (=cns11643-6	  . #x3470)	; &I-C6-3470; [20-80]
-      (=daikanwa  	  . 41619)	; &C6-3470;
+      (=cns11643-6	  . #x3470)	; &C6-3470; [20-80]
+      (=daikanwa	  . 41619)	; &I-M-41619;
       )
      ((=ucs@iso		  . #x24C73)	; &C6-4229;
       (=cns11643-6	  . #x4229)	; &C6-4229; [34-09]
@@ -15903,9 +15903,9 @@
      ((=ucs		  . #x571F)	; 土
       ))
     (=ucs@unicode	. #x57BC)	; &C2-2E53;
-    (=cns11643-2	. #x2E53)	; &I-C2-2E53; [14-51]
+    (=cns11643-2	. #x2E53)	; &C2-2E53; [14-51]
     (=big5		. #xD151)	; &I-B-D151;
-    (=daikanwa 		. 05099)	; &C2-2E53;
+    (=daikanwa 		. 05099)	; &I-M-05099;
     (<-formed
      ((=ucs@unicode	  . #x5744)	; &MJ008931;
       (=mj		  . 008931)	; &MJ008931;
@@ -23791,6 +23791,40 @@
      ((=ucs		  . #x7AFA)	; 竺
       ))
     (=>ruimoku-v6	. #xE093)	; &A-RUI6-E093;
+    ))
+(define-char
+  '((ideographic-radical . 32)	; ⼟
+    (ideographic-structure@apparent
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO MIDDLE AND BELOW")
+      (=ucs		  . #x2FF3)	; ⿳
+      )
+     ((=>ucs@iwds-1	  . #x4E1A)	; &A-IWDSU+4E1A;
+      (=>big5-cdp	  . #x8D6B)	; &A-IWDSU+4E1A;
+      )
+     ((=ucs		  . #x53E3)	; 口
+      )
+     ((=ucs		  . #x571F)	; 土
+      ))
+    (=>big5-cdp-itaiji-001 . #x8BBD)	; &A-CDP-i001-8BBD;
+    ))
+(define-char
+  '((<-denotational
+     ((=>big5-cdp-itaiji-001 . #x8BBD)	; &A-CDP-i001-8BBD;
+      ))
+    (ideographic-radical . 32)	; ⼟
+    (ideographic-strokes . 8)
+    (total-strokes	 . 11)
+    (ideographic-structure@apparent
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO MIDDLE AND BELOW")
+      (=ucs		  . #x2FF3)	; ⿳
+      )
+     ((=ucs@unicode	  . #x4E1A)	; &G0-5235;
+      )
+     ((=ucs		  . #x53E3)	; 口
+      )
+     ((=ucs		  . #x571F)	; 土
+      ))
+    (=big5-cdp-itaiji-001 . #x8BBD)	; &CDP-i001-8BBD;
     ))
 (define-char
   '((<-denotational

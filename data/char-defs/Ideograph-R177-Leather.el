@@ -2436,7 +2436,7 @@
      ((=ucs		. #x9787)	; 鞇
       ))
     (=ucs@unicode	. #x9787)	; 鞇
-    (=cns11643-3	. #x4F62)	; &I-C3-4F62; [47-66]
+    (=cns11643-3	. #x4F62)	; &C3-4F62; [47-66]
     (=daikanwa		. 42802)	; &I-M-42802;
     (=daijiten		. 13153)	; &I-DJT-13153;
     (->subsumptive
@@ -2444,7 +2444,7 @@
       (==daijiten		. 13153)	; &I-DJT-13153;
       )
      ((==ucs@unicode	. #x9787)	; 鞇
-      (==cns11643-3	. #x4F62)	; &I-C3-4F62; [47-66]
+      (==cns11643-3	. #x4F62)	; &C3-4F62; [47-66]
       ))
     ))
 (define-char
@@ -9356,21 +9356,44 @@
     (=daikanwa		. 43098)	; &I-M-43098;
     ))
 (define-char
+  '((<-denotational@usage
+     ((ideographic-radical . 157)	; ⾜
+      (==>daijiten	. 11711)	; &A2-DJT-11711;
+      ))
+    (ideographic-radical . 177)	; ⾰
+    (ideographic-strokes . 19)
+    (total-strokes	 . 28)
+    (ideographic-structure
+     ?⿰
+     ?革
+     ?麗)
+    (=ucs		. #x29389)	; 𩎉
+    (<-formed
+     ((=ucs		  . #x8EA7)	; 躧
+      ))
+    (<-formed$_1*sources
+     shuowen)
+    ))
+(define-char
   '((ideographic-radical . 177)	; ⾰
     (ideographic-strokes . 19)
     (total-strokes	 . 28)
-    (=ucs		. #x29389)	; 𩎉
-    (->subsumptive
-     ((=ucs@iso		  . #x29389)	; &M-43099;
-      (=daikanwa	  . 43099)	; &M-43099;
-      (->subsumptive
-       ((==daikanwa	    . 43099)	; &g2-M-43099;
-	)
-       ((==ucs@iso	    . #x29389)	; &g2-IU-00029389;
-	))
-      )
-     ((=cns11643-7	  . #x646F)	; &C7-646F; [68-79]
+    (<-denotational
+     ((=ucs		. #x29389)	; 𩎉
       ))
+    (=ucs@iso		  . #x29389)	; &C7-646F;
+    (=daikanwa	  . 43099)	; &C7-646F;
+    (=daijiten		. 13234)	; &I-DJT-13234;
+    (->subsumptive
+     ((==ucs@iso		  . #x29389)	; &C7-646F;
+      (==daikanwa	  . 43099)	; &C7-646F;
+      (==daikanwa	    . 43099)	; &g2-M-43099;
+      (==daijiten		. 13234)	; &I-DJT-13234;
+      (==ucs@iso	    . #x29389)	; &g2-M-43099;
+      )
+     ((==cns11643-7	  . #x646F)	; &C7-646F; [68-79]
+      ))
+    (=cns11643-7	  . #x646F)	; &C7-646F; [68-79]
     ))
 (define-char
   '((ideographic-radical . 177)	; ⾰

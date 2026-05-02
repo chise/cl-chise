@@ -3743,6 +3743,31 @@
     ))
 (define-char
   '((ideographic-radical . 24)	; ⼗
+    (ideographic-structure@apparent
+     ((=ucs-itaiji-001	. #x2FFB)	; &U-i001+2FFB;
+      )
+     ?𰀁
+     ((=>ucs@iwds-1	. #x4ECE)	; &A-IWDSU+4ECE;
+      ))
+    (=>big5-cdp		. #x85A5)	; &CDP-85A5;
+    ))
+(define-char
+  '((<-denotational
+     ((=>big5-cdp		. #x85A5)	; &CDP-85A5;
+      ))
+    (ideographic-radical . 24)	; ⼗
+    (ideographic-strokes . 5)
+    (total-strokes	 . 7)
+    (ideographic-structure@apparent
+     ((=ucs-itaiji-001	. #x2FFB)	; &U-i001+2FFB;
+      )
+     ?𰀁
+     ((=ucs		. #x4ECE)	; 从
+      ))
+    (=big5-cdp		. #x85A5)	; &CDP-85A5;
+    ))
+(define-char
+  '((ideographic-radical . 24)	; ⼗
     (ideographic-strokes . 5)
     (total-strokes	 . 7)
     (ideographic-structure

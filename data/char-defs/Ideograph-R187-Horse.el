@@ -13744,6 +13744,44 @@
   '((ideographic-radical . 187)	; ⾺
     (ideographic-strokes . 15)
     (total-strokes	 . 25)
+    (ideographic-structure
+     ?⿰
+     ?馬
+     ?䴡)
+    (=ucs		. #x2EA9C)	; 𮪜
+    ))
+(define-char
+  '((ideographic-radical . 187)	; ⾺
+    (ideographic-strokes . 15)
+    (total-strokes	 . 25)
+    (ideographic-structure
+     ?⿰
+     ?馬
+     ((=ucs@unicode	. #x4D21)	; &C4-4F4A;
+      ))
+    (<-denotational
+     ((=ucs		. #x2EA9C)	; 𮪜
+      ))
+    (=ucs@JP/hanazono	. #x2EA9C)	; 𮪜
+    (=mj		. 059056)	; &MJ059056;
+    (=koseki . 510680)
+    (<-formed
+     ((=jis-x0208		. #x716B)	; &I-J90-716B; [81-75]
+      ))
+    (<-formed$_1*sources
+     mj)
+    (<-formed*sources
+     mj)
+    (->subsumptive
+     ((==ucs@JP/hanazono	. #x2EA9C)	; 𮪜
+      (==mj		. 059056)	; &MJ059056;
+      (==koseki . 510680)
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 187)	; ⾺
+    (ideographic-strokes . 15)
+    (total-strokes	 . 25)
     (=ucs		. #x299CC)	; 𩧌
     ))
 (define-char

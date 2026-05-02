@@ -2142,12 +2142,12 @@
      ((=ucs		. #x722E)	; 爮
       ))
     (=ucs@unicode	. #x722E)	; 爮
-    (=cns11643-3	. #x2D69)	; &I-C3-2D69; [13-73]
+    (=cns11643-3	. #x2D69)	; &C3-2D69; [13-73]
     (=daikanwa		. 19670)	; &I-M-19670;
     (=cbeta		. 01787)	; &I-CB01787;
     (->subsumptive
      ((==ucs@unicode	. #x722E)	; 爮
-      (==cns11643-3	. #x2D69)	; &I-C3-2D69; [13-73]
+      (==cns11643-3	. #x2D69)	; &C3-2D69; [13-73]
       (==daikanwa		. 19670)	; &I-M-19670;
       (==cbeta		. 01787)	; &I-CB01787;
       ))
@@ -2668,6 +2668,23 @@
      ((=ucs		  . #x53EF)	; 可
       ))
     (=ucs@iso		. #x24504)	; &U-00024504;
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x24504)	; 𤔄
+      ))
+    (ideographic-radical . 87)	; ⽖
+    (ideographic-strokes . 5)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs@jis		. #x722B)	; &GT-25225;
+      )
+     ((=ucs		  . #x53EF)	; 可
+      ))
+    (=ucs@JP/hanazono	. #x24504)	; &BUCS+4E2A;
     ))
 (define-char
   '((ideographic-radical . 87)	; ⽖

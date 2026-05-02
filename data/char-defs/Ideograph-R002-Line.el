@@ -1846,6 +1846,34 @@
   '((ideographic-radical . 2)	; ⼁
     (ideographic-strokes . 6)
     (total-strokes	 . 7)
+    (ideographic-structure@apparent
+     ?⿱
+     ?丰
+     ?䒑)
+    (=>ucs-itaiji-002	. #x8001)	; &U-i002+8001;
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-002	. #x8001)	; &U-i002+8001;
+      ))
+    (ideographic-radical . 2)	; ⼁
+    (ideographic-strokes . 6)
+    (total-strokes	 . 7)
+    (ideographic-structure@apparent
+     ?⿱
+     ((=ucs@unicode	  . #x4E30)	; &MJ006350;
+      )
+     ((=ucs@unicode	. #x4491)	; &AJ1-18467;
+      ))
+    (=ucs-itaiji-002	. #x8001)	; &U-i002+8001;
+    (<-formed@component/connect-below
+     ((=ucs@unicode	. #x8001)	; &AJ1-04061;
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 2)	; ⼁
+    (ideographic-strokes . 6)
+    (total-strokes	 . 7)
     (hanyu-dazidian	1 29 5)
     (=ucs		. #x20067)	; 𠁧
     (=cns11643-6	. #x2560)	; &I-C6-2560; [05-64]

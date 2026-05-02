@@ -2233,6 +2233,35 @@
     (ideographic-strokes . 4)
     (total-strokes	 . 9)
     (ideographic-structure
+     ?⿱
+     ?㓁
+     ?六)
+    (=ucs		. #x26287)	; 𦊇
+    ))
+(define-char
+  '((ideographic-radical . 122)	; ⽹
+    (ideographic-strokes . 4)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ?⿱
+     ?⺳
+     ?六)
+    (<-denotational
+     ((=ucs		. #x26287)	; 𦊇
+      ))
+    (=ucs@iso		. #x26287)	; 𦊇
+    (->subsumptive
+     ((=>>ucs@iso		. #x26287)	; 𦊇
+      (->subsumptive
+       ((==ucs@iso		. #x26287)	; 𦊇
+	))
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 122)	; ⽹
+    (ideographic-strokes . 4)
+    (total-strokes	 . 9)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
@@ -4349,6 +4378,27 @@
     (=ucs		. #x262CC)	; 𦋌
     (=cns11643-6	. #x4C79)	; &I-C6-4C79; [44-89]
     (=daikanwa		. 28302)	; &I-M-28302;
+    ))
+(define-char
+  '((ideographic-radical . 122)	; ⽹
+    (ideographic-strokes . 5)
+    (total-strokes	 . 10)
+    (ideographic-structure
+     ?⿱
+     ((=>ucs@iwds-1	. #x5197)	; &A-IWDSU+5197;
+      )
+     ((=>ucs@iwds-1	. #x53E4)	; &A-IWDSU+53E4;
+      ))
+    (=ucs		. #x26299)	; 𦊙
+    ))
+(define-char
+  '((ideographic-radical . 122)	; ⽹
+    (<-denotational
+     ((=ucs		. #x26299)	; 𦊙
+      ))
+    (ideographic-strokes . 5)
+    (total-strokes	 . 10)
+    (=ucs@iso		. #x26299)	; 𦊙
     ))
 (define-char
   '((ideographic-radical . 122)	; ⽹
@@ -7229,6 +7279,34 @@
     (=ucs		. #x26302)	; 𦌂
     (=cns11643-7	. #x3A4E)	; &I-C7-3A4E; [26-46]
     (=daikanwa		. 49503)	; &I-M-49503;
+    ))
+(define-char
+  '((ideographic-radical . 122)	; ⽹
+    (ideographic-strokes . 12)
+    (total-strokes	 . 17)
+    (ideographic-structure
+     ?⿱
+     ?㓁
+     ((=>ucs@component	. #x66FE)	; &A-compU+66FE;
+      ))
+    (=ucs		. #x2631B)	; 𦌛
+    ))
+(define-char
+  '((ideographic-radical . 122)	; ⽹
+    (ideographic-strokes . 12)
+    (total-strokes	 . 17)
+    (ideographic-structure
+     ?⿱
+     ?⺳
+     ((=ucs@unicode	. #x66FE)	; &MJ013502;
+      ))
+    (<-denotational
+     ((=ucs		. #x2631B)	; 𦌛
+      ))
+    (=ucs@iso		. #x2631B)	; 𦌛
+    (->subsumptive
+     ((==ucs@iso		. #x2631B)	; 𦌛
+      ))
     ))
 (define-char
   '((ideographic-radical . 122)	; ⽹

@@ -6941,7 +6941,8 @@
     (=daikanwa		. 21831)	; &I-M-21831;
     (<-formed
      ((=ucs@unicode	  . #x5799)	; &MJ009015;
-      (=adobe-japan1-6	  . 21335)	; &MJ009015;
+      (=mj		  . 009015)	; &MJ009015;
+      (=koseki		  . 057570)	; &MJ009015;
       ))
     (<-formed$_1*sources
      koseki)
@@ -6949,7 +6950,7 @@
      koseki)
     (<-same
      ((=ucs@unicode	  . #x5799)	; &MJ009015;
-      (=adobe-japan1-6	  . 21335)	; &MJ009015;
+      (=mj		  . 009015)	; &MJ009015;
       (=daikanwa	  . 05045)	; &I-M-05045;
       ))
     (<-same*sources
@@ -6980,11 +6981,15 @@
     (ideographic-strokes . 6)
     (total-strokes	 . 11)
     (ideographic-structure
-     ?⿰
-     ((=>ucs@component	. #x7530)	; &A-compU+7530;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
       )
-     ((=>ucs@iwds-1	. #x5149)	; &A-IWDSU+5149;
+     ((=>ucs@component	  . #x7530)	; &A-compU+7530;
+      (=>iwds-1		  .  0083)	; &A-compU+7530;
+      )
+     ((=>ucs@iwds-1	  . #x5149)	; &A-IWDSU+5149;
       ))
+    (sound@ja/on	"kWAu")
     (=ucs		. #x24C73)	; 𤱳
     ))
 (define-char
@@ -6996,16 +7001,30 @@
     (total-strokes	 . 11)
     (hanyu-dazidian	4 2541 4)
     (ideographic-structure
-     ?⿰
-     ?田
-     ?&MJ007221;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x7530)	; 田
+      )
+     ((=ucs@unicode	  . #x5149)	; &MJ007221;
+      (=mj		  . 007221)	; &MJ007221;
+      ))
     (=ucs@iso		. #x24C73)	; &C6-4229;
-    (=cns11643-6	. #x4229)	; &I-C6-4229; [34-09]
-    (=daikanwa		. 21832)	; &C6-4229;
+    (=cns11643-6	. #x4229)	; &C6-4229; [34-09]
+    (=daikanwa		. 21832)	; &I-M-21832;
     (<-formed
      ((=ucs@unicode	  . #x5799)	; &MJ009015;
-      (=adobe-japan1-6	  . 21335)	; &MJ009015;
+      (=mj		  . 009015)	; &MJ009015;
       ))
+    (<-formed$_1*sources
+     jiyun)
+    (<-same
+     ((=ucs@unicode	  . #x5799)	; &MJ009015;
+      (=mj		  . 009015)	; &MJ009015;
+      (=daikanwa	  . 05045)	; &I-M-05045;
+      ))
+    (<-same*sources
+     jiyun daikanwa)
     (->subsumptive
      ((==ucs@iso	  . #x24C73)	; &g2-M-21832;
       (==cns11643-6	  . #x4229)	; &g2-M-21832; [34-09]
@@ -7017,7 +7036,7 @@
 	)
        ((===ucs@iso	    . #x24C73)	; &R-U-00024C73;
 	)
-       ((=hanziku-7	  . #xB74E)	; &g2-M-21832;
+       ((=hanziku-7	    . #xB74E)	; &HZK07-B74E;
 	))
       ))
     ))
@@ -8058,6 +8077,8 @@
       )
      ((=ucs		  . #x4E01)	; 丁
       ))
+    (sound@ja/on/go	"tIyAu")
+    (sound@ja/on/kan	"tei")
     (=ucs		. #x24C79)	; 𤱹
     ))
 (define-char
@@ -8077,9 +8098,11 @@
      ((=ucs		  . #x4E01)	; 丁
       ))
     (=ucs@iso		. #x24C79)	; &M-H0348;
-    (=daikanwa/ho 	.  0348)	; &M-H0348;
+    (=koseki . 556810)
+    (=daikanwa/ho	.  0348)	; &M-H0348;
     (->subsumptive
      ((==ucs@iso	  . #x24C79)	; &g2-M-H0348;
+      (==koseki . 556810)
       (==daikanwa/ho	  .  0348)	; &g2-M-H0348;
       (->subsumptive
        ((===daikanwa/ho	    .  0348)	; &R-M-H0348;
@@ -8294,6 +8317,11 @@
     ))
 (define-char
   '((ideographic-radical . 102)	; ⽥
+    (ideographic-structure
+     ?⿱
+     ?田
+     ((=>big5-cdp		. #x85A5)	; &CDP-85A5;
+      ))
     (=ucs 		. #x31C30)	; 𱰰
     ))
 (define-char
@@ -8303,6 +8331,12 @@
     (ideographic-radical . 102)	; ⽥
     (ideographic-strokes . 6)
     (total-strokes	 . 11)
+    (ideographic-structure@apparent
+     ?&U-i001+2FF1;
+     ((=big5-cdp		. #x8BD9)	; &CDP-8BD9;
+      )
+     ((=ucs@unicode	. #x4E1B)	; &G0-3454;
+      ))
     (=ucs@JP/hanazono 	. #x31C30)	; &hanaJU+31C30;
     ))
 (define-char
@@ -13423,7 +13457,7 @@
   '((ideographic-radical . 102)	; ⽥
     (ideographic-strokes . 11)
     (total-strokes	 . 16)
-    (=ucs 		. #x24CCD)	; 𤳍
+    (=ucs		. #x24CCD)	; 𤳍
     ))
 (define-char
   '((<-denotational
@@ -13432,7 +13466,7 @@
     (ideographic-radical . 102)	; ⽥
     (ideographic-strokes . 11)
     (total-strokes	 . 16)
-    (=ucs@iso 		. #x24CCD)	; &U-00024CCD;
+    (=ucs@iso		. #x24CCD)	; &U-00024CCD;
     ))
 (define-char
   '((ideographic-radical . 102)	; ⽥
@@ -14635,7 +14669,8 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 102)	; ⽥
+  '((ideographic-radical@ucs . 198)	; ⿅
+    (ideographic-radical@cns . 102)	; ⽥
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
@@ -14645,14 +14680,19 @@
       )
      ((=ucs		  . #x9E7F)	; 鹿
       ))
+    (sound@ja/on	"soku")
     (=ucs		. #x2A2CD)	; 𪋍
     ))
 (define-char
   '((<-denotational
      ((=ucs		  . #x2A2CD)	; 𪋍
       ))
-    (ideographic-radical . 102)	; ⽥
-    (ideographic-strokes . 14)
+    (ideographic-radical@ucs . 198)	; ⿅
+    (ideographic-strokes@ucs . 8)
+    (ideographic-radical@ucs*sources
+     daikanwa/ho)
+    (ideographic-radical@cns . 102)	; ⽥
+    (ideographic-strokes@cns . 14)
     (total-strokes	 . 19)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
@@ -14666,7 +14706,13 @@
       ))
     (=ucs@iso		. #x2A2CD)	; &C5-6840;
     (=cns11643-5	. #x6840)	; &C5-6840; [72-32]
-    (=daikanwa/ho 	.  0790)	; &C5-6840;
+    (=daikanwa/ho	.  0790)	; &C5-6840;
+    (<-same
+     ((=ucs@unicode	  . #x755A)	; &AJ1-05716;
+      (=adobe-japan1-0	  . 05716)	; &AJ1-05716;
+      ))
+    (<-same*sources
+     jiyun daikanwa/ho)
     (->subsumptive
      ((==daikanwa/ho	  .  0790)	; &g2-M-H0790;
       )
@@ -15045,6 +15091,7 @@
      ((=>ucs@component	  . #x5EB6)	; &A-compU+5EB6;
       (=>iwds-1		  .  0365)	; &A-compU+5EB6;
       ))
+    (sound@ja/on	"syo")
     (=ucs		. #x24CFC)	; 𤳼
     ))
 (define-char
@@ -15067,11 +15114,18 @@
       ))
     (=ucs@iso		. #x24CFC)	; &C7-5376;
     (=cns11643-7	. #x5376)	; &C7-5376; [51-86]
-    (=daikanwa 		. 49341)	; &I-M-49341;
+    (=daikanwa		. 49341)	; &I-M-49341;
     (<-formed
      ((=ucs@iso		  . #x24CEF)	; &MJ041483;
       (=mj		  . 041483)	; &MJ041483;
       ))
+    (<-same
+     ((=ucs@iso		  . #x24CEF)	; &MJ041483;
+      (=mj		  . 041483)	; &MJ041483;
+      (=daikanwa	  . 21969)	; &I-M-21969;
+      ))
+    (<-same*sources
+     daikanwa)
     (->subsumptive
      ((==daikanwa	  . 49341)	; &g2-M-49341;
       )

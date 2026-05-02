@@ -473,15 +473,15 @@
      ((=ucs		. #x95EA)	; 闪
       ))
     (=ucs@unicode	. #x95EA)	; 闪
-    (=gb2312		. #x4941)	; &I-G0-4941; [41-33]
-    (=gb2312		. #x4941)	; &I-G0-4941; [41-33]
+    (=gb2312		. #x4941)	; &G0-4941; [41-33]
+    (=gb2312		. #x4941)	; &G0-4941; [41-33]
     (<-simplified@CN
      ((=gb12345		. #x4941)	; &AJ1-02736; [41-33]
       ))
     (->subsumptive
      ((==ucs@unicode	. #x95EA)	; 闪
-      (==gb2312		. #x4941)	; &I-G0-4941; [41-33]
-      (==gb2312		. #x4941)	; &I-G0-4941; [41-33]
+      (==gb2312		. #x4941)	; &G0-4941; [41-33]
+      (==gb2312		. #x4941)	; &G0-4941; [41-33]
       ))
     ))
 (define-char
@@ -3905,16 +3905,16 @@
      ?門
      ?血)
     (=ucs		. #x4997)	; 䦗
-    (=daikanwa	  . 41299)	; &M-41299;
+    (=daikanwa	  . 41299)	; 䦗
     (->subsumptive
-     ((==daikanwa	  . 41299)	; &M-41299;
+     ((==daikanwa	  . 41299)	; 䦗
       )
-     ((==ucs@unicode	  . #x4997)	; &C3-4A3F;
-      (==cns11643-3	  . #x4A3F)	; &C3-4A3F; [42-31]
+     ((==ucs@unicode	  . #x4997)	; 䦗
+      (==cns11643-3	  . #x4A3F)	; 䦗 [42-31]
       (==cbeta		. 10776)
       ))
-    (=ucs		  . #x4997)	; &C3-4A3F;
-    (=cns11643-3	  . #x4A3F)	; &C3-4A3F; [42-31]
+    (=ucs		  . #x4997)	; 䦗
+    (=cns11643-3	  . #x4A3F)	; 䦗 [42-31]
     (=cbeta		. 10776)
     ))
 (define-char
@@ -8200,6 +8200,31 @@
       (=adobe-japan1-0	  . 02359)	; &AJ1-02359;
       ))
     (=cbeta		. 07292)	; &CB07292;
+    ))
+(define-char
+  '((ideographic-radical . 169)	; ⾨
+    (=ucs		. #x2E91A)	; 𮤚
+    ))
+(define-char
+  '((ideographic-radical . 169)	; ⾨
+    (ideographic-strokes . 9)
+    (total-strokes	 . 17)
+    (<-denotational
+     ((=ucs		. #x2E91A)	; 𮤚
+      ))
+    (=mj		. 060312)	; &MJ060312;
+    (=ucs@JP/hanazono	. #x2E91A)	; 𮤚
+    (<-formed
+     ((=jis-x0208		. #x6F70)	; &I-J90-6F70; [79-80]
+      ))
+    (<-formed$_1*sources
+     mj)
+    (<-formed*sources
+     mj)
+    (->subsumptive
+     ((==mj		. 060312)	; &MJ060312;
+      (==ucs@JP/hanazono	. #x2E91A)	; 𮤚
+      ))
     ))
 (define-char
   '((ideographic-radical . 169)	; ⾨

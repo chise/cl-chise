@@ -2421,6 +2421,37 @@
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )
+     ((=>ucs@iwds-1	  . #x5166)	; &A-IWDSU+5166;
+      )
+     ((=ucs		  . #x5973)	; 女
+      ))
+    (=ucs		. #x216B6)	; 𡚶
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x216B6)	; 𡚶
+      ))
+    (ideographic-radical . 38)	; ⼥
+    (ideographic-strokes . 3)
+    (total-strokes	 . 6)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
+     ((=ucs		  . #x4EBE)	; 亾
+      )
+     ((=ucs		  . #x5973)	; 女
+      ))
+    (=ucs@iso		. #x216B6)	; &U-000216B6;
+    ))
+(define-char
+  '((ideographic-radical . 38)	; ⼥
+    (ideographic-strokes . 3)
+    (total-strokes	 . 6)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
+      (=ucs		  . #x2FF1)	; ⿱
+      )
      ((=ucs		  . #x4E0A)	; 上
       )
      ((=ucs		  . #x5973)	; 女
@@ -12159,25 +12190,38 @@
     (ideographic-strokes . 6)
     (total-strokes	 . 9)
     (ideographic-structure
-     ?⿰
-     ?女
-     ?光)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5973)	; 女
+      )
+     ((=ucs		  . #x5149)	; 光
+      ))
     (=ucs		. #x59EF)	; 姯
     ))
 (define-char
-  '((ideographic-radical . 38)	; ⼥
+  '((<-denotational
+     ((=ucs		  . #x59EF)	; 姯
+      ))
+    (ideographic-radical . 38)	; ⼥
     (ideographic-strokes . 6)
     (total-strokes	 . 9)
-    (<-denotational
-     ((=ucs		. #x59EF)	; 姯
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5973)	; 女
+      )
+     ((=ucs@unicode	  . #x5149)	; &MJ007221;
+      (=mj		  . 007221)	; &MJ007221;
       ))
-    (=ucs@unicode	. #x59EF)	; 姯
-    (=mj		. 009674)	; &I-MJ009674;
+    (=ucs@unicode	. #x59EF)	; &MJ009674;
+    (=mj		. 009674)	; &MJ009674;
     (=adobe-japan1-6	. 21398)	; &I-AJ1-21398;
     (=jis-x0212		. #x3947)	; &I-JSP-3947; [25-39]
     (=cns11643-3	. #x2C24)	; &I-C3-2C24; [12-04]
-    (=koseki		. 071280)	; 姯
-    (=daikanwa		. 06233)	; &I-M-06233;
+    (=koseki		. 071280)	; &MJ009674;
+    (=daikanwa 		. 06233)	; &I-M-06233;
     (=jef-china3	. #x49B3)	; &I-JC3-49B3;
     (->subsumptive
      ((=decomposition@cid

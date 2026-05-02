@@ -4766,6 +4766,19 @@
     (ideographic-strokes . 12)
     (total-strokes	 . 22)
     (ideographic-structure
+     ?⿱
+     ?髟
+     ?𡩏)
+    (=ucs		. #x29BD4)	; 𩯔
+    (->subsumptive
+     ((==ucs@iso	. #x29BD4)	; 𩯔
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 190)	; ⾽
+    (ideographic-strokes . 12)
+    (total-strokes	 . 22)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW")
       (=ucs		  . #x2FF1)	; ⿱
       )

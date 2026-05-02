@@ -659,7 +659,7 @@
   '((ideographic-radical . 133)	; ⾄
     (ideographic-strokes . 7)
     (total-strokes	 . 13)
-    (ideographic-structure
+    (ideographic-structure@apparent
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO MIDDLE AND BELOW")
       (=ucs		  . #x2FF3)	; ⿳
       )
@@ -670,9 +670,19 @@
      ((=ucs		  . #x81F3)	; 至
       ))
     (=ucs		. #x4453)	; 䑓
+    ))
+(define-char
+  '((ideographic-radical . 133)	; ⾄
+    (ideographic-strokes . 7)
+    (total-strokes	 . 13)
+    (<-denotational
+     ((=ucs		. #x4453)	; 䑓
+      ))
+    (=ucs@unicode	. #x4453)	; 䑓
     (=cns11643-3	. #x4424)	; &I-C3-4424; [36-04]
     (=jis-x0213-1	. #x7A59)	; &I-JX1-7A59; [90-57]
     (=daikanwa		. 30158)	; &I-M-30158;
+    (=daijiten		. 09616)	; &I-DJT-09616;
     (=shinjigen		.  0951)	; 䑓
     (=cbeta		. 06210)	; &I-CB06210;
     (=jef-china3	. #x60EA)	; &I-JC3-60EA;
@@ -689,6 +699,7 @@
       (==cns11643-3	  . #x4424)	; &g2-JX1-7A59; [36-04]
       (==jis-x0213-1	  . #x7A59)	; &g2-JX1-7A59; [90-57]
       (==daikanwa	  . 30158)	; &g2-JX1-7A59;
+      (==daijiten		. 09616)	; &I-DJT-09616;
       (==shinjigen	  .  0951)	; &g2-JX1-7A59;
       (==cbeta		  . 06210)	; &g2-JX1-7A59;
       (==jef-china3	  . #x60EA)	; &g2-JX1-7A59;

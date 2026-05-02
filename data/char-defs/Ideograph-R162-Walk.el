@@ -9885,6 +9885,41 @@
   '((ideographic-radical . 162)	; ⾡
     (ideographic-strokes . 5)
     (ideographic-structure
+     ?⿺
+     ?辶
+     ?囘)
+    (=ucs		. #x2E789)	; 𮞉
+    ))
+(define-char
+  '((ideographic-radical . 162)	; ⾡
+    (ideographic-strokes . 5)
+    (total-strokes	 . 9)
+    (ideographic-structure
+     ?⿺
+     ?⻍
+     ((=ucs@unicode	. #x56D8)	; &AJ1-04220;
+      ))
+    (<-denotational
+     ((=ucs		. #x2E789)	; 𮞉
+      ))
+    (=mj		. 060224)	; &MJ060224;
+    (=ucs@JP/hanazono	. #x2E789)	; 𮞉
+    (<-formed
+     ((=jis-x0208	  . #x6D6A)	; &I-J90-6D6A; [77-74]
+      ))
+    (<-formed$_1*sources
+     mj)
+    (<-formed*sources
+     mj)
+    (->subsumptive
+     ((==mj		. 060224)	; &MJ060224;
+      (==ucs@JP/hanazono	. #x2E789)	; 𮞉
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 162)	; ⾡
+    (ideographic-strokes . 5)
+    (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LEFT")
       (=ucs		  . #x2FF7)	; ⿷
       )
