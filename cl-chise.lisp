@@ -27,6 +27,7 @@
    :structure
    :ideographic-structure
    :ideographic-combination
+   :*references
    :misc)
   (:export
    :decode-char :encode-char
