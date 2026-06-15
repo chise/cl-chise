@@ -142,7 +142,7 @@
     (ideographic-strokes . 2)
     (total-strokes	 . 8)
     (=ucs@iso		. #x25E28)	; &C6-2D51;
-    (=cns11643-6	. #x2D51)	; &I-C6-2D51; [13-49]
+    (=cns11643-6	. #x2D51)	; &C6-2D51; [13-49]
     (=big5-cdp		. #x884E)	; &I-CDP-884E;
     (=daikanwa 		. 26835)	; &C6-2D51;
     (->subsumptive
@@ -11988,17 +11988,20 @@
   '((ideographic-radical . 119)	; ⽶
     (ideographic-strokes . 13)
     (total-strokes	 . 19)
+    (ideographic-structure
+     ?⿱
+     ?辟
+     ?米)
     (=ucs		. #x7CEA)	; 糪
+    (=big5		  . #xF2AE)	; &B-F2AE;
+    (=daikanwa	    . 27151)	; &M-27151;
     (->subsumptive
-     ((=big5		  . #xF2AE)	; &B-F2AE;
-      (->subsumptive
-       ((=daikanwa	    . 27151)	; &M-27151;
-	)
-       ((=ucs@unicode	    . #x7CEA)	; &UU+7CEA;
-	))
+     ((==daikanwa	    . 27151)	; &M-27151;
+      (==ucs@unicode	    . #x7CEA)	; &UU+7CEA;
       )
-     ((=cns11643-2	  . #x6638)	; &C2-6638; [70-24]
+     ((==cns11643-2	  . #x6638)	; &C2-6638; [70-24]
       ))
+    (=cns11643-2	  . #x6638)	; &C2-6638; [70-24]
     ))
 (define-char
   '((ideographic-radical . 119)	; ⽶

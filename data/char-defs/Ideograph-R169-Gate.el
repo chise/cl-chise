@@ -2702,13 +2702,13 @@
      ((=ucs		. #x95F7)	; 闷
       ))
     (=ucs@unicode	. #x95F7)	; 闷
-    (=gb2312		. #x4346)	; &I-G0-4346; [35-38]
+    (=gb2312		. #x4346)	; &G0-4346; [35-38]
     (<-simplified@CN
      ((=gb12345		. #x4346)	; 悶 [35-38]
       ))
     (->subsumptive
      ((==ucs@unicode	. #x95F7)	; 闷
-      (==gb2312		. #x4346)	; &I-G0-4346; [35-38]
+      (==gb2312		. #x4346)	; &G0-4346; [35-38]
       (->subsumptive
        ((===ucs@unicode	. #x95F7)	; 闷
 	))
@@ -4432,12 +4432,50 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 169)	; ⾨
+  '((<-denotational@usage
+     ((ideographic-radical . 169)	; ⾨
+      (==>ucs@bucs	. #x95CA)	; &BUCS+95CA;
+      (==>daijiten	. 12771)	; &BUCS+95CA;
+      ))
+    (ideographic-radical . 169)	; ⾨
     (ideographic-strokes . 6)
     (total-strokes	 . 14)
+    (ideographic-structure
+     ?⿵
+     ?門
+     ?舌)
     (=ucs		. #x499A)	; 䦚
-    (=cns11643-3	. #x4A3C)	; &I-C3-4A3C; [42-28]
-    (=daikanwa		. 41313)	; &I-M-41313;
+    (->subsumptive
+     ((ideographic-structure
+       ?⿵
+       ?門
+       ((=ucs@unicode	  . #x820C)	; &MJ021343;
+	))
+      (=ucs@unicode		. #x499A)	; 䦚
+      (=daikanwa		. 41313)	; &I-M-41313;
+      (=daijiten		. 12745)	; &I-DJT-12745;
+      (=jef-china3	. #x6BE5)	; &JC3-6BE5;
+      (=daikanwa		. 41313)	; &I-M-41313;
+      (=daijiten		. 12745)	; &I-DJT-12745;
+      (=jef-china3	. #x6BE5)	; &JC3-6BE5;
+      (->subsumptive
+       ((==ucs@unicode		. #x499A)	; 䦚
+	(==daikanwa		. 41313)	; &I-M-41313;
+	(==daijiten		. 12745)	; &I-DJT-12745;
+	(==jef-china3	. #x6BE5)	; &JC3-6BE5;
+	))
+      )
+     ((ideographic-structure
+       ?⿵
+       ?門
+       ((=ucs@cns		  . #x820C)	; &C1-485F;
+	))
+      (=cns11643-3	. #x4A3C)	; &I-C3-4A3C; [42-28]
+      (=cns11643-3	. #x4A3C)	; &I-C3-4A3C; [42-28]
+      (->subsumptive
+       ((==cns11643-3	. #x4A3C)	; &I-C3-4A3C; [42-28]
+	))
+      ))
     ))
 (define-char
   '((=>ucs		. #x28D17)	; 𨴗

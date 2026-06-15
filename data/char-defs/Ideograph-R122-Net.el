@@ -4385,6 +4385,47 @@
     (total-strokes	 . 10)
     (ideographic-structure
      ?⿱
+     ((=>ucs@iwds-1	. #x2053F)	; &A-IWDSU+2053F;
+      )
+     ((=>ucs@iwds-1	. #x53E4)	; &A-IWDSU+53E4;
+      ))
+    (=ucs		. #x2E281)	; 𮊁
+    ))
+(define-char
+  '((ideographic-radical . 122)	; ⽹
+    (ideographic-strokes . 5)
+    (total-strokes	 . 10)
+    (ideographic-structure
+     ?⿱
+     ((=ucs		. #x2053F)	; 𠔿
+      )
+     ((=ucs		. #x53E4)	; 古
+      ))
+    (<-denotational
+     ((=ucs		. #x2E281)	; 𮊁
+      ))
+    (=mj		. 058337)	; &MJ058337;
+    (=koseki . 315560)
+    (=ucs@JP/hanazono	. #x2E281)	; 𮊁
+    (<-formed
+     ((=jis-x0208		. #x662A)	; &I-J90-662A; [70-10]
+      ))
+    (<-formed$_1*sources
+     koseki mj)
+    (<-formed*sources
+     koseki mj)
+    (->subsumptive
+     ((==mj		. 058337)	; &MJ058337;
+      (==koseki . 315560)
+      (==ucs@JP/hanazono	. #x2E281)	; 𮊁
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 122)	; ⽹
+    (ideographic-strokes . 5)
+    (total-strokes	 . 10)
+    (ideographic-structure
+     ?⿱
      ((=>ucs@iwds-1	. #x5197)	; &A-IWDSU+5197;
       )
      ((=>ucs@iwds-1	. #x53E4)	; &A-IWDSU+53E4;

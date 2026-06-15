@@ -5921,10 +5921,14 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 154)	; ⾙
+  '((<-denotational@usage
+     ((ideographic-radical . 154)	; ⾙
+      (==>ucs@bucs	. #x8D13)	; &BUCS+8D13;
+      (==>daijiten	. 11438)	; &BUCS+8D13;
+      ))
+    (ideographic-radical . 154)	; ⾙
     (ideographic-strokes . 6)
     (total-strokes	 . 13)
-    (hanyu-dazidian	6 3640 1)
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
       (=ucs		  . #x2FF0)	; ⿰
@@ -5934,6 +5938,16 @@
      ((=ucs		  . #x5E84)	; 庄
       ))
     (=ucs		. #x8CCD)	; 賍
+    ))
+(define-char
+  '((ideographic-radical . 154)	; ⾙
+    (ideographic-strokes . 6)
+    (total-strokes	 . 13)
+    (<-denotational
+     ((=ucs		. #x8CCD)	; 賍
+      ))
+    (hanyu-dazidian	6 3640 1)
+    (=ucs@unicode	. #x8CCD)	; 賍
     (=adobe-japan1-0	. 06781)	; &I-AJ1-06781;
     (=jis-x0208		. #x6C5C)	; &I-J90-6C5C; [76-60]
     (=cns11643-3	. #x4467)	; &I-C3-4467; [36-71]
@@ -5941,6 +5955,7 @@
     (=gt		. 49241)	; &I-GT-49241;
     (=gt-pj-1		. #x6C5C)	; &I-GT-49241; [76-60]
     (=daikanwa		. 36774)	; &I-M-36774;
+    (=daijiten		. 11379)	; &I-DJT-11379;
     (->subsumptive
      ((==ucs@unicode	  . #x8CCD)	; &g2-AJ1-06781;
       (==adobe-japan1-0	  . 06781)	; &g2-AJ1-06781;
@@ -5949,6 +5964,7 @@
       (==jis-x0213-1	  . #x6C5C)	; &g2-AJ1-06781; [76-60]
       (==gt		  . 49241)	; &g2-AJ1-06781;
       (==daikanwa	  . 36774)	; &g2-AJ1-06781;
+      (==daijiten		. 11379)	; &I-DJT-11379;
       (->subsumptive
        ((===daikanwa	    . 36774)	; &R-M-36774;
 	)
@@ -9437,6 +9453,46 @@
       (->subsumptive
        ((===cbeta	    . 03918)	; &R-CB03918;
 	))
+      ))
+    ))
+(define-char
+  '((ideographic-radical . 154)	; ⾙
+    (ideographic-strokes . 8)
+    (total-strokes	 . 12)
+    (ideographic-structure
+     ?⿱
+     ?𭑈
+     ?貝)
+    (=ucs		. #x2E68C)	; 𮚌
+    ))
+(define-char
+  '((ideographic-radical . 154)	; ⾙
+    (ideographic-strokes . 8)
+    (total-strokes	 . 12)
+    (<-denotational
+     ((=ucs		. #x2E68C)	; 𮚌
+      ))
+    (ideographic-structure
+     ?⿱
+     ((=ucs@JP/hanazono	. #x2D448)	; &GT-K04282;
+      )
+     ?貝)
+    (=ucs@JP/hanazono	. #x2E68C)	; 𮚌
+    (=koseki . 417890)
+    (=mj		. 058794)	; &MJ058794;
+    (<-formed
+     ((=jis-x0208		. #x6C55)	; &I-J90-6C55; [76-53]
+      ))
+    (<-formed$_1*sources
+     koseki mj)
+    (<-formed$_2*sources
+     koseki)
+    (<-formed*sources
+     koseki mj)
+    (->subsumptive
+     ((==ucs@JP/hanazono	. #x2E68C)	; 𮚌
+      (==koseki . 417890)
+      (==mj		. 058794)	; &MJ058794;
       ))
     ))
 (define-char

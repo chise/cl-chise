@@ -6921,12 +6921,13 @@
       (=daikanwa	  . 15166)	; &I-M-15166;
       ))
     (=ucs@iso		. #x2060D)	; &MJ031143;
-    (=mj		. 031143)	; &I-MJ031143;
-    (=koseki . 020410)
-    (=cns11643-7	. #x2136)	; &MJ031143; [01-22]
+    (=mj		. 031143)	; &MJ031143;
+    (=cns11643-7	. #x2136)	; &I-C7-2136; [01-22]
+    (=koseki		. 020410)	; &MJ031143;
     (=daikanwa		. 01719)	; &I-M-01719;
     (<-formed
-     ((=daikanwa	  . 01687)	; &I-M-01687;
+     ((=ucs@unicode	  . #x51D3)	; &AJ1-19179;
+      (=adobe-japan1-5	  . 19179)	; &AJ1-19179;
       ))
     (<-formed$_1*sources
      koseki)
@@ -6940,11 +6941,13 @@
     (<-original*sources
      zhengzitong daikanwa)
     (->subsumptive
-     ((==daikanwa	  . 01719)	; &g2-M-01719;
-      (==mj		. 031143)	; &I-MJ031143;
-      (==koseki . 020410)
+     ((==mj		  . 031143)	; &g2-MJ031143;
+      (==koseki		  . 020410)	; &g2-MJ031143;
+      (==daikanwa	  . 01719)	; &g2-MJ031143;
       (->subsumptive
        ((===daikanwa	    . 01719)	; &R-M-01719;
+	)
+       ((===mj		    . 031143)	; &R-MJ031143;
 	)
        ((=hanziku-1	    . #xE3FC)	; &HZK01-E3FC;
 	))

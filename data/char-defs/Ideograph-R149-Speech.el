@@ -2948,7 +2948,7 @@
   '((<-denotational@usage
      ((ideographic-radical . 149)	; ⾔
       (==>ucs@bucs	. #x8A1F)	; &BUCS+8A1F;
-      (==>daijiten	. 10919)	; &A2-DJT-10919;
+      (==>daijiten	. 10919)	; &BUCS+8A1F;
       ))
     (ideographic-radical . 149)	; ⾔
     (ideographic-strokes . 4)
@@ -2968,7 +2968,7 @@
      ((=ucs@unicode	. #x516C)	; &MJ007275;
       ))
     (=ucs@unicode	. #x8A1F)	; 訟
-    (=adobe-japan1-0	. 02497)	; &I-AJ1-02497;
+    (=adobe-japan1-0	. 02497)	; &AJ1-13462;
     (=adobe-japan1-4	. 13462)	; &I-AJ1-13462;
     (=jis-x0208		. #x3E59)	; &I-J90-3E59; [30-57]
     (=ks-x1001		. #x6168)	; &I-K0-6168; [65-72]
@@ -2980,7 +2980,7 @@
     (=hanyo-denshi/ft	. #x3047)	; &I-HD-FT-3047; [16-39]
     (=gt		. 47444)	; &I-GT-47444;
     (=gt-pj-1		. #x3E59)	; &I-GT-47444; [30-57]
-    (=daikanwa		. 35266)	; &M-35266;
+    (=daikanwa		. 35266)	; &AJ1-13462;
     (=daijiten		. 10919)	; &I-DJT-10919;
     (=shinjigen		.  7560)	; 訟
     (->subsumptive
@@ -9610,10 +9610,28 @@
       ))
     ))
 (define-char
+  '((<-denotational@usage
+     ((ideographic-radical . 149)	; ⾔
+      (==>ucs@bucs	. #x8A6B)	; &BUCS+8A6B;
+      (==>daijiten	. 10980)	; &A2-DJT-10980;
+      ))
+    (ideographic-radical . 149)	; ⾔
+    (ideographic-strokes . 6)
+    (total-strokes	 . 13)
+    (ideographic-structure
+     ?⿰
+     ?言
+     ?宅)
+    (=ucs		. #x8A6B)	; 詫
+    ))
+(define-char
   '((ideographic-radical . 149)	; ⾔
     (ideographic-strokes . 6)
     (total-strokes	 . 13)
-    (=ucs		. #x8A6B)	; 詫
+    (<-denotational
+     ((=ucs		. #x8A6B)	; 詫
+      ))
+    (=ucs@unicode	. #x8A6B)	; 詫
     (=adobe-japan1-0	. 04083)	; &I-AJ1-04083;
     (=jis-x0208		. #x4F4D)	; &I-J90-4F4D; [47-45]
     (=cns11643-1	. #x6659)	; &I-C1-6659; [70-57]
@@ -9622,7 +9640,8 @@
     (=big5		. #xB8D2)	; &I-B-B8D2;
     (=gt		. 47647)	; &I-GT-47647;
     (=gt-pj-1		. #x4F4D)	; &I-GT-47647; [47-45]
-    (=daikanwa		. 35431)	; &I-M-35431;
+    (=daikanwa		. 35431)	; &M-35431;
+    (=daijiten		. 10980)	; &I-DJT-10980;
     (=shinjigen		.  7622)	; 詫
     (->subsumptive
      ((=decomposition@cid
@@ -9636,6 +9655,7 @@
       (==jis-x0213-1	  . #x4F4D)	; &g2-AJ1-04083; [47-45]
       (==gt		  . 47647)	; &g2-AJ1-04083;
       (==daikanwa	  . 35431)	; &g2-AJ1-04083;
+      (==daijiten		. 10980)	; &I-DJT-10980;
       (==shinjigen	  .  7622)	; &g2-AJ1-04083;
       (->subsumptive
        ((===daikanwa	    . 35431)	; &R-M-35431;
@@ -23264,8 +23284,26 @@
   '((ideographic-radical . 149)	; ⾔
     (ideographic-strokes . 9)
     (total-strokes	 . 16)
+    (ideographic-structure
+     ?⿱
+     ?𮂱
+     ?言)
     (=ucs		. #x8AEC)	; 諬
-    (=adobe-japan1-5	. 19811)	; &I-AJ1-19811;
+    ))
+(define-char
+  '((ideographic-radical . 149)	; ⾔
+    (ideographic-strokes . 9)
+    (total-strokes	 . 16)
+    (<-denotational
+     ((=ucs		. #x8AEC)	; 諬
+      ))
+    (ideographic-structure
+     ?⿱
+     ((=ucs@JP/hanazono	. #x2E0B1)	; &CB08298;
+      )
+     ?言)
+    (=ucs@unicode	. #x8AEC)	; 諬
+    (=adobe-japan1-5	. 19811)	; &AJ1-19811;
     (=jis-x0212		. #x5E31)	; &I-JSP-5E31; [62-17]
     (=cns11643-3	. #x526E)	; &I-C3-526E; [50-78]
     (=daikanwa		. 35726)	; &I-M-35726;
@@ -24848,19 +24886,35 @@
     (=cns11643-4	. #x5366)	; &C4-5366; [51-70]
     ))
 (define-char
-  '((=>ucs		. #x8AFD)	; 諽
+  '((=ucs		. #x8AFD)	; 諽
     (ideographic-radical . 149)	; ⾔
     (ideographic-strokes . 9)
     (total-strokes	 . 16)
-    (=daikanwa		. 35752)	; &M-35752;
+    (ideographic-structure
+     ?⿰
+     ?言
+     ?革)
     ))
 (define-char
-  '((morohashi-daikanwa	35752 0 0)
+  '((<-denotational
+     ((=ucs		. #x8AFD)	; 諽
+      ))
     (ideographic-radical . 149)	; ⾔
     (ideographic-strokes . 9)
     (total-strokes	 . 16)
-    (=ucs		. #x8AFD)	; 諽
+    (=daikanwa		. 35752)	; &C3-5268;
+    (ideographic-radical . 149)	; ⾔
+    (ideographic-strokes . 9)
+    (total-strokes	 . 16)
+    (=ucs@unicode	. #x8AFD)	; 諽
     (=cns11643-3	. #x5268)	; &I-C3-5268; [50-72]
+    (->subsumptive
+     ((==daikanwa		. 35752)	; &C3-5268;
+      )
+     ((==ucs@unicode	. #x8AFD)	; 諽
+      (==ucs@JP/hanazono . nil)
+      (==cns11643-3	. #x5268)	; &I-C3-5268; [50-72]
+      ))
     ))
 (define-char
   '((<-denotational

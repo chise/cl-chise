@@ -335,6 +335,37 @@
     ))
 (define-char
   '((ideographic-radical . 139)	; ⾊
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5938)	; 夸
+      )
+     ((=ucs		  . #x8272)	; 色
+      ))
+    (=ucs		. #x26ADA)	; 𦫚
+    ))
+(define-char
+  '((<-denotational
+     ((=ucs		  . #x26ADA)	; 𦫚
+      ))
+    (ideographic-radical . 139)	; ⾊
+    (ideographic-strokes . 6)
+    (total-strokes	 . 12)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@unicode	  . #x5938)	; &MJ009468;
+      (=mj		  . 009468)	; &MJ009468;
+      )
+     ((=ucs@unicode	  . #x8272)	; &AJ1-02541;
+      (=adobe-japan1-0	  . 02541)	; &AJ1-02541;
+      ))
+    (=ucs@iso		. #x26ADA)	; &U-00026ADA;
+    ))
+(define-char
+  '((ideographic-radical . 139)	; ⾊
     (ideographic-strokes . 7)
     (total-strokes	 . 13)
     (=ucs		. #x26ADB)	; 𦫛
@@ -364,29 +395,6 @@
      ((=ucs@iso		  . #x26ADD)	; &C6-5731;
       (=cns11643-6	  . #x5731)	; &C6-5731; [55-17]
       ))
-    ))
-(define-char
-  '((ideographic-radical . 139)	; ⾊
-    (ideographic-structure
-     ?⿰
-     ?夸
-     ?色)
-    (=ucs		. #x26ADA)	; 𦫚
-    ))
-(define-char
-  '((ideographic-radical . 139)	; ⾊
-    (<-denotational
-     ((=ucs		. #x26ADA)	; 𦫚
-      ))
-    (ideographic-strokes . 6)
-    (total-strokes	 . 12)
-    (ideographic-structure
-     ?⿰
-     ((=ucs@unicode	. #x5938)	; &MJ009468;
-      )
-     ((=ucs@unicode	. #x8272)	; &AJ1-02541;
-      ))
-    (=ucs@iso		. #x26ADA)	; 𦫚
     ))
 (define-char
   '((ideographic-radical . 139)	; ⾊

@@ -1996,6 +1996,8 @@
       )
      ((=ucs		  . #x52FA)	; 勺
       ))
+    (sound@ja/on/go	"tyaku")
+    (sound@ja/on/kan	"teki")
     (=ucs		. #x38A9)	; 㢩
     ))
 (define-char
@@ -2005,7 +2007,44 @@
     (ideographic-radical . 57)	; ⼸
     (ideographic-strokes . 3)
     (total-strokes	 . 6)
-    (=daikanwa 		. 09722)	; &M-09722;
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5F13)	; 弓
+      )
+     ((=ucs		  . #x2F828)	; 勺
+      ))
+    (=mj		. 001066)	; &MJ001066;
+    (=koseki		. 109920)	; &MJ001066;
+    (=daikanwa		. 09722)	; &I-M-09722;
+    (->formed
+     ((=ucs		  . #x2F828)	; 勺
+      (=daikanwa	  . 02494)	; &I-M-02494;
+      ))
+    (->formed$_1*sources
+     jiyun daikanwa)
+    (->formed*sources
+     jiyun daikanwa)
+    (->interchangeable
+     ((=ucs@unicode	  . #x7684)	; &AJ1-03108;
+      (=adobe-japan1-0	  . 03108)	; &AJ1-03108;
+      (=daikanwa	  . 22692)	; &I-M-22692;
+      ))
+    (->interchangeable$_1*sources
+     jiyun daikanwa)
+    (->interchangeable*sources
+     jiyun daikanwa)
+    (->subsumptive
+     ((==mj		  . 001066)	; &g2-MJ001066;
+      (==koseki		  . 109920)	; &g2-MJ001066;
+      (==daikanwa	  . 09722)	; &g2-MJ001066;
+      (->subsumptive
+       ((===daikanwa	    . 09722)	; &R-M-09722;
+	)
+       ((===mj		    . 001066)	; &R-MJ001066;
+	))
+      ))
     ))
 (define-char
   '((<-denotational
@@ -2015,9 +2054,14 @@
     (ideographic-strokes . 3)
     (total-strokes	 . 6)
     (ideographic-structure
-     ?⿰
-     ?弓
-     ?&MJ007745;)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x5F13)	; 弓
+      )
+     ((=ucs@unicode	  . #x52FA)	; &MJ007745;
+      (=mj		  . 007745)	; &MJ007745;
+      ))
     (=ucs@unicode	. #x38A9)	; &C3-2363;
     (=ucs@JP/hanazono	. nil)
     (=cns11643-3	. #x2363)	; &C3-2363; [03-67]

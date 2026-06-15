@@ -1910,9 +1910,12 @@
     (===hng-kar		. 12430)	; &HNG018-12430;
     ))
 (define-char
-  '((ideographic-radical . 144)	; ⾏
-    (ideographic-strokes . 10)
-    (total-strokes	 . 16)
+  '((<-denotational@usage
+     ((ideographic-radical . 162)	; ⾡
+      (==>ucs@bucs	. #x9053)	; &BUCS+9053;
+      (==>daijiten	. 12051)	; &BUCS+9053;
+      ))
+    (ideographic-radical . 144)	; ⾏
     (ideographic-structure
      ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER FULL SURROUND")
       (=ucs		  . #x2FF4)	; ⿴
@@ -1922,6 +1925,15 @@
      ((=ucs		  . #x29810)	; 𩠐
       ))
     (=ucs		. #x885F)	; 衟
+    ))
+(define-char
+  '((ideographic-radical . 144)	; ⾏
+    (<-denotational
+     ((=ucs		. #x885F)	; 衟
+      ))
+    (ideographic-strokes . 10)
+    (total-strokes	 . 16)
+    (=ucs@unicode	. #x885F)	; 衟
     (=jis-x0212		. #x5C31)	; &I-JSP-5C31; [60-17]
     (=cns11643-3	. #x5264)	; &I-C3-5264; [50-68]
     (=jis-x0213-2	. #x7827)	; &I-JX2-7827; [88-07]

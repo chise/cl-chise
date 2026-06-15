@@ -2067,7 +2067,8 @@
     (=ucs@JP/hanazono	. nil)
     (=gb2312		. #x716F)	; &G0-716F; [81-79]
     (<-simplified@CN
-     ((=gb12345		  . #x716F)	; &UU+802C; [81-79]
+     ((=ucs@unicode	  . #x802C)	; &UU+802C;
+      (=gb12345		  . #x716F)	; &UU+802C; [81-79]
       ))
     (->subsumptive
      ((==ucs@unicode	  . #x8027)	; &g2-UU+8027;

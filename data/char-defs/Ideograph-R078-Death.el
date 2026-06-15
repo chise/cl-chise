@@ -859,6 +859,10 @@
     (<-denotational@component
      ((=>ucs@cognate	  . #x239BB)	; &A-cgnU+239BB;
       ))
+    (<-denotational@usage
+     ((ideographic-radical . 78)	; ⽍
+      (==>daijiten	. 05688)	; &A2-DJT-05688;
+      ))
     (ideographic-radical . 78)	; ⽍
     (ideographic-strokes . 2)
     (total-strokes	 . 7)
@@ -875,23 +879,29 @@
     (=ucs		. #x239BB)	; 𣦻
     ))
 (define-char
-  '((ideographic-radical . 78)	; ⽍
+  '((<-denotational
+     ((=ucs		  . #x239BB)	; 𣦻
+      ))
+    (ideographic-radical . 78)	; ⽍
     (ideographic-strokes . 2)
     (total-strokes	 . 7)
-    (<-denotational
-     ((=ucs		. #x239BB)	; 𣦻
-      ))
     (hanyu-dazidian	1 394 12)
-    (=ucs@iso		. #x239BB)	; 𣦻
-    (=mj		. 038737)	; &I-MJ038737;
+    (ideographic-structure
+     ?⿰
+     ?&C5-2171;
+     ?又)
+    (=ucs@iso		. #x239BB)	; &MJ038737;
+    (=mj		. 038737)	; &MJ038737;
     (=cns11643-5	. #x244C)	; &I-C5-244C; [04-44]
-    (=koseki		. 185840)	; 𣦻
+    (=koseki		. 185840)	; &MJ038737;
     (=daikanwa		. 16369)	; &I-M-16369;
+    (=daijiten		. 05688)	; &I-DJT-05688;
     (->subsumptive
      ((==koseki		  . 185840)	; &g2-M-16369;
       (==daikanwa	  . 16369)	; &g2-M-16369;
       )
      ((==mj		  . 038737)	; &g2-MJ038737;
+      (==daijiten		. 05688)	; &I-DJT-05688;
       )
      ((==ucs@iso	  . #x239BB)	; &g2-IU-000239BB;
       (->subsumptive
@@ -981,7 +991,8 @@
     (=big5-cdp		. #x8DAD)	; &I-CDP-8DAD;
     (=daikanwa 		. 16370)	; &I-M-16370;
     (<-same
-     ((=ucs@iso		  . #x239BB)	; 𣦻
+     ((=ucs@iso		  . #x239BB)	; &MJ038737;
+      (=mj		  . 038737)	; &MJ038737;
       (=daikanwa	  . 16369)	; &I-M-16369;
       ))
     (<-same*sources
@@ -7793,7 +7804,6 @@
      ((=ucs		  . #x6B79)	; 歹
       )
      ((=>ucs@iwds-1	  . #x7CB2)	; &A-IWDSU+7CB2;
-      (=>ucs@iwds-1	  . #x7CB2)	; &A-IWDSU+7CB2;
       ))
     (=ucs		. #x6BA9)	; 殩
     ))

@@ -26026,9 +26026,12 @@
       ))
     (=ucs		. #x20227)	; 𠈧
     (=cns11643-6	. #x2948)	; &I-C6-2948; [09-40]
-    (=daikanwa		. 00627)	; &I-M-00627;
+    (=daikanwa 		. 00627)	; &I-M-00627;
     (<-ancient
      ((=ucs		  . #x5F79)	; 役
+      )
+     ((=ucs@unicode	  . #x5F79)	; &MJ011283;
+      (=mj		  . 011283)	; &MJ011283;
       ))
     (<-ancient$_1*sources
      shuowen)

@@ -289,40 +289,59 @@
       ))
     ))
 (define-char
-  '((ideographic-radical . 95)	; ⽞
+  '((<-denotational@usage
+     ((ideographic-radical . 38)	; ⼥
+      (==>ucs@bucs	. #x5999)	; &BUCS+5999;
+      (==>daijiten	. 02045)	; &BUCS+5999;
+      ))
+    (ideographic-radical . 95)	; ⽞
     (ideographic-strokes . 4)
     (total-strokes	 . 9)
     (ideographic-structure
-     ?⿰
-     ?玄
-     ((=>ucs@component	. #x23942)	; &A-compU+23942;
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs		  . #x7384)	; 玄
+      )
+     ((=>ucs@component	  . #x23942)	; &A-compU+23942;
+      (=>iwds-1		  .  0283)	; &A-compU+23942;
       ))
     (=ucs		. #x7385)	; 玅
     ))
 (define-char
-  '((ideographic-radical . 95)	; ⽞
+  '((<-denotational
+     ((=ucs		  . #x7385)	; 玅
+      ))
+    (ideographic-radical . 95)	; ⽞
     (ideographic-strokes . 4)
     (total-strokes	 . 9)
-    (<-denotational
-     ((=ucs		. #x7385)	; 玅
-      ))
-    (=ucs@unicode	. #x7385)	; 玅
-    (=jis-x0212		. #x4B50)	; &I-JSP-4B50; [43-48]
+    (ideographic-structure
+     ?⿰
+     ?&AJ1-01904;
+     ?&AJ1-02455;)
+    (=ucs@unicode	. #x7385)	; &JX2-7059;
+    (=jis-x0212		. #x4B50)	; &JX2-7059; [43-48]
     (=cns11643-2	. #x2C28)	; &I-C2-2C28; [12-08]
     (=jis-x0213-2	. #x7059)	; &I-JX2-7059; [80-57]
     (=big5		. #xCFC6)	; &I-B-CFC6;
-    (=daikanwa		. 20815)	; &M-20815;
+    (=daikanwa 		. 20815)	; &I-M-20815;
     (=daijiten		. 07257)	; &I-DJT-07257;
     (=jef-china3	. #x58FE)	; &I-JC3-58FE;
+    (<-original
+     ((=ucs@unicode	  . #x5999)	; &MJ009584;
+      (=mj		  . 009584)	; &MJ009584;
+      ))
     (->subsumptive
      ((==ucs@jis	  . #x7385)	; &g2-JSP-4B50;
       (==jis-x0212	  . #x4B50)	; &g2-JSP-4B50; [43-48]
       (==jis-x0213-2	  . #x7059)	; &g2-JSP-4B50; [80-57]
       (==daikanwa	  . 20815)	; &g2-JSP-4B50;
-      (==daijiten		. 07257)	; &I-DJT-07257;
+      (==daijiten	  . 07257)	; &g2-JSP-4B50;
       (==jef-china3	  . #x58FE)	; &g2-JSP-4B50;
       (->subsumptive
        ((===daikanwa	    . 20815)	; &R-M-20815;
+	)
+       ((===daijiten	    . 07257)	; &R-DJT-07257;
 	)
        ((===jis-x0212	    . #x4B50)	; &R-JX2-7059; [43-48]
 	(===jis-x0213-2	    . #x7059)	; &R-JX2-7059; [80-57]
@@ -389,7 +408,8 @@
      ((=mj		  . 015745)	; &MJ015745;
       (=daikanwa	  . 18021)	; &I-M-18021;
       )
-     ((=cns11643-1	  . #x577B)	; &GT-40387; [55-91]
+     ((=ucs@cns		  . #x8332)	; &GT-40387;
+      (=cns11643-1	  . #x577B)	; &GT-40387; [55-91]
       (=daikanwa	  . 30911)	; &I-M-30911;
       ))
     (<-interchangeable$_1*sources

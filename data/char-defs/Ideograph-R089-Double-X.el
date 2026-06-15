@@ -1176,8 +1176,8 @@
       ))
     ))
 (define-char
-  '((=ucs		. #x24567)	; 𤕧
-    (ideographic-radical . 89)	; ⽘
+  '((ideographic-radical . 89)	; ⽘
+    (=ucs 		. #x24567)	; 𤕧
     (<-Zhouwen
      ((=ucs		  . #x24566)	; 𤕦
       ))
@@ -1186,25 +1186,22 @@
     ))
 (define-char
   '((<-denotational
-     ((=ucs		. #x24567)	; 𤕧
+     ((=ucs		  . #x24567)	; 𤕧
       ))
     (ideographic-radical . 89)	; ⽘
     (ideographic-strokes . 11)
     (total-strokes	 . 15)
-    (=daikanwa		. 19752)	; &M-19752;
-    (ideographic-radical . 89)	; ⽘
-    (ideographic-strokes . 11)
-    (total-strokes	 . 15)
-    (<-denotational
-     ((=ucs		. #x24567)	; 𤕧
-      ))
-    (=ucs@iso		. #x24567)	; 𤕧
+    (=ucs@iso 		. #x24567)	; &C7-247B;
     (=cns11643-7	. #x247B)	; &I-C7-247B; [04-91]
+    (=daikanwa		. 19752)	; &C7-247B;
     (->subsumptive
-     ((==daikanwa		. 19752)	; &M-19752;
+     ((==daikanwa	  . 19752)	; &g2-M-19752;
       )
-     ((==ucs@iso		. #x24567)	; 𤕧
-      (==cns11643-7	. #x247B)	; &I-C7-247B; [04-91]
+     ((==ucs@iso	    . #x24567)	; &R-U-00024567;
+      (==ucs@iso	  . #x24567)	; &g2-IU-00024567;
+      )
+     ((==cns11643-7	  . #x247B)	; &g2-IU-00024567; [04-91]
+      (==cns11643-7	    . #x247B)	; &R-C7-247B; [04-91]
       ))
     ))
 (define-char
