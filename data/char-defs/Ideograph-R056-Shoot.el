@@ -170,19 +170,6 @@
     (=ucs-itaiji-002	. #x620C)	; &U-i002+620C;
     ))
 (define-char
-  '((<-denotational
-     ((=>ucs-itaiji-002	  . #x620C)	; &A-U-i002+620C;
-      ))
-    (ideographic-radical . 56)	; ⼷
-    (ideographic-strokes . 2)
-    (total-strokes	 . 4)
-    (ideographic-structure
-     ?⿹
-     ?𫠠
-     ?力)
-    (=ucs-itaiji-004	. #x620C)	; &U-i004+620C;
-    ))
-(define-char
   '((<-denotational@usage
      ((==>ucs@bucs	  . #x4E8C)	; &BUCS+4E8C;
       ))
@@ -359,6 +346,23 @@
        ((===mj		    . 059567)	; &R-MJ059567;
 	))
       ))
+    ))
+(define-char
+  '((<-denotational
+     ((=>ucs-itaiji-002	  . #x620C)	; &A-U-i002+620C;
+      ))
+    (ideographic-radical . 56)	; ⼷
+    (ideographic-strokes . 2)
+    (total-strokes	 . 4)
+    (ideographic-structure
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT")
+      (=ucs		  . #x2FF9)	; ⿹
+      )
+     ((=ucs		  . #x2B820)	; 𫠠
+      )
+     ((=ucs		  . #x529B)	; 力
+      ))
+    (=ucs-itaiji-004	. #x620C)	; &U-i004+620C;
     ))
 (define-char
   '((<-denotational

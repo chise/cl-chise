@@ -860,8 +860,7 @@
      ((=>ucs@cognate	  . #x239BB)	; &A-cgnU+239BB;
       ))
     (<-denotational@usage
-     ((ideographic-radical . 78)	; ⽍
-      (==>daijiten	. 05688)	; &A2-DJT-05688;
+     ((==>daijiten	  . 05688)	; &A2-DJT-05688;
       ))
     (ideographic-radical . 78)	; ⽍
     (ideographic-strokes . 2)
@@ -887,9 +886,15 @@
     (total-strokes	 . 7)
     (hanyu-dazidian	1 394 12)
     (ideographic-structure
-     ?⿰
-     ?&C5-2171;
-     ?又)
+     ((name . "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT")
+      (=ucs		  . #x2FF0)	; ⿰
+      )
+     ((=ucs@iso		  . #x239B5)	; &C5-2171;
+      (=cns11643-5	  . #x2171)	; &C5-2171; [01-81]
+      (=daikanwa	  . 16361)	; &I-M-16361;
+      )
+     ((=ucs		  . #x53C8)	; 又
+      ))
     (=ucs@iso		. #x239BB)	; &MJ038737;
     (=mj		. 038737)	; &MJ038737;
     (=cns11643-5	. #x244C)	; &I-C5-244C; [04-44]
@@ -901,7 +906,12 @@
       (==daikanwa	  . 16369)	; &g2-M-16369;
       )
      ((==mj		  . 038737)	; &g2-MJ038737;
-      (==daijiten		. 05688)	; &I-DJT-05688;
+      (==daijiten	  . 05688)	; &g2-MJ038737;
+      (->subsumptive
+       ((===daijiten	    . 05688)	; &R-DJT-05688;
+	)
+       ((===mj		    . 038737)	; &R-MJ038737;
+	))
       )
      ((==ucs@iso	  . #x239BB)	; &g2-IU-000239BB;
       (->subsumptive
@@ -9508,6 +9518,10 @@
   '((ideographic-radical . 78)	; ⽍
     (==>ucs@bucs	. #x6B79)	; &BUCS+6B79;
     (==>daijiten	. 05678)	; &BUCS+6B79;
+    ))
+(define-char
+  '((ideographic-radical . 78)	; ⽍
+    (==>daijiten	. 05688)	; &A2-DJT-05688;
     ))
 (define-char
   '((ideographic-radical . 78)	; ⽍
