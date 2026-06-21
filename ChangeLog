@@ -1,3 +1,13 @@
+2026-06-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* Sync up with the current snapshot [Jun 16 11:27:26 2026 JST].
+
+	M	cl-chise.asd
+	M	data/char-defs/Ideograph-R052-Short-Thread.el
+	M	data/char-defs/Ideograph-R056-Shoot.el
+	M	data/char-defs/Ideograph-R064-Hand.el
+	M	data/char-defs/Ideograph-R078-Death.el
+
 2026-06-15  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* Sync up with the current snapshot [2026-06-13 17:48:43 JST].
